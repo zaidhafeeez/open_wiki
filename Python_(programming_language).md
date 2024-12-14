@@ -1,6 +1,6 @@
 # Python (programming language)
 
-_Last updated: 2024-12-14T15:02:32.405841_
+_Last updated: 2024-12-14T15:18:12.428454_
 
 **Original Article:** [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
 
