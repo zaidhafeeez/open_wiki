@@ -1,6 +1,6 @@
 # List of Python software
 
-_Last updated: 2024-12-14T15:03:19.329972_
+_Last updated: 2024-12-14T15:18:59.263626_
 
 **Original Article:** [List of Python software](https://en.wikipedia.org/wiki/List_of_Python_software)
 
