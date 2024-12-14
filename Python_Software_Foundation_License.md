@@ -1,6 +1,6 @@
 # Python Software Foundation License
 
-_Last updated: 2024-12-14T15:07:58.136457_
+_Last updated: 2024-12-14T15:20:15.845008_
 
 **Original Article:** [Python Software Foundation License](https://en.wikipedia.org/wiki/Python_Software_Foundation_License)
 
