@@ -2,7 +2,7 @@
 
 ## Article Metadata
 
-- **Last Updated:** 2024-12-14T16:00:30.867044
+- **Last Updated:** 2024-12-14T17:14:55.382891+00:00
 - **Original Article:** [American flag sort](https://en.wikipedia.org/wiki/American_flag_sort)
 - **Language:** en
 - **Page ID:** 9080565
@@ -102,7 +102,7 @@ General
 - [Copyright status of works by the federal government of the United States](https://en.wikipedia.org/wiki/Copyright_status_of_works_by_the_federal_government_of_the_United_States)
 - [Counting sort](https://en.wikipedia.org/wiki/Counting_sort)
 - [Cycle sort](https://en.wikipedia.org/wiki/Cycle_sort)
-- [Dictionary of Algorithms and Data Structures](https://en.wikipedia.org/wiki/List_of_terms_relating_to_algorithms_and_data_structures)
+- [List of terms relating to algorithms and data structures](https://en.wikipedia.org/wiki/List_of_terms_relating_to_algorithms_and_data_structures)
 - [Dutch national flag problem](https://en.wikipedia.org/wiki/Dutch_national_flag_problem)
 - [Exponentiation](https://en.wikipedia.org/wiki/Exponentiation)
 - [Flag of the United States](https://en.wikipedia.org/wiki/Flag_of_the_United_States)
@@ -110,7 +110,7 @@ General
 - [Gnome sort](https://en.wikipedia.org/wiki/Gnome_sort)
 - [Heapsort](https://en.wikipedia.org/wiki/Heapsort)
 - [Hybrid algorithm](https://en.wikipedia.org/wiki/Hybrid_algorithm)
-- [In-place](https://en.wikipedia.org/wiki/In-place_algorithm)
+- [In-place algorithm](https://en.wikipedia.org/wiki/In-place_algorithm)
 - [In-place algorithm](https://en.wikipedia.org/wiki/In-place_algorithm)
 - [Insertion sort](https://en.wikipedia.org/wiki/Insertion_sort)
 - [Integer sorting](https://en.wikipedia.org/wiki/Integer_sorting)
@@ -123,7 +123,7 @@ General
 - [Merge-insertion sort](https://en.wikipedia.org/wiki/Merge-insertion_sort)
 - [Merge sort](https://en.wikipedia.org/wiki/Merge_sort)
 - [Multi-key quicksort](https://en.wikipedia.org/wiki/Multi-key_quicksort)
-- [NIST](https://en.wikipedia.org/wiki/National_Institute_of_Standards_and_Technology)
+- [National Institute of Standards and Technology](https://en.wikipedia.org/wiki/National_Institute_of_Standards_and_Technology)
 - [Odd–even sort](https://en.wikipedia.org/wiki/Odd%E2%80%93even_sort)
 - [Oscillating merge sort](https://en.wikipedia.org/wiki/Oscillating_merge_sort)
 - [Pairwise sorting network](https://en.wikipedia.org/wiki/Pairwise_sorting_network)
@@ -162,7 +162,7 @@ General
 - [Talk:American flag sort](https://en.wikipedia.org/wiki/Talk:American_flag_sort)
 - [Wikipedia:Citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed)
 - [Wikipedia:Please clarify](https://en.wikipedia.org/wiki/Wikipedia:Please_clarify)
-- [Wikipedia:UGC](https://en.wikipedia.org/wiki/Wikipedia:Reliable_sources)
+- [Wikipedia:Reliable sources](https://en.wikipedia.org/wiki/Wikipedia:Reliable_sources)
 - [Wikipedia:Vagueness](https://en.wikipedia.org/wiki/Wikipedia:Vagueness)
 - [Wikipedia:Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)
 - [Template:Sorting](https://en.wikipedia.org/wiki/Template:Sorting)
@@ -174,7 +174,6 @@ General
 - [Category:Articles with unsourced statements from October 2020](https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_October_2020)
 - [Category:Wikipedia articles needing clarification from October 2020](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_needing_clarification_from_October_2020)
 
-
 ---
 _This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-14T16:00:30.867044_
+_Retrieved and archived on: 2024-12-14T17:14:55.382891+00:00_

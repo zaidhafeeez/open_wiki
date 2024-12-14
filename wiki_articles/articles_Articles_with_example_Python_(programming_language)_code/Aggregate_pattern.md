@@ -2,7 +2,7 @@
 
 ## Article Metadata
 
-- **Last Updated:** 2024-12-14T15:59:29.200635
+- **Last Updated:** 2024-12-14T17:14:55.167080+00:00
 - **Original Article:** [Aggregate pattern](https://en.wikipedia.org/wiki/Aggregate_pattern)
 - **Language:** en
 - **Page ID:** 234004
@@ -67,7 +67,7 @@ Functional programming
 - [Sociology](https://en.wikipedia.org/wiki/Sociology)
 - [Software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern)
 - [Statistics](https://en.wikipedia.org/wiki/Statistics)
-- [Template class](https://en.wikipedia.org/wiki/Generic_programming)
+- [Generic programming](https://en.wikipedia.org/wiki/Generic_programming)
 - [Type safety](https://en.wikipedia.org/wiki/Type_safety)
 - [Visitor pattern](https://en.wikipedia.org/wiki/Visitor_pattern)
 - [Talk:Aggregate pattern](https://en.wikipedia.org/wiki/Talk:Aggregate_pattern)
@@ -80,7 +80,6 @@ Functional programming
 - [Help:Referencing for beginners](https://en.wikipedia.org/wiki/Help:Referencing_for_beginners)
 - [Category:Articles needing additional references from March 2024](https://en.wikipedia.org/wiki/Category:Articles_needing_additional_references_from_March_2024)
 
-
 ---
 _This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-14T15:59:29.200635_
+_Retrieved and archived on: 2024-12-14T17:14:55.167080+00:00_
