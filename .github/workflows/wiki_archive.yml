@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         fetch-depth: 0  # Fetch all history for proper updates
     
@@ -21,8 +21,8 @@ jobs:
     
     - name: Configure Git
       run: |
-        git config --global user.name "GitHub Action"
-        git config --global user.email "action@github.com"
+        git config --global user.name "zaidhafeeez"
+        git config --global user.email "188496560+zaidhafeeez@users.noreply.github.com"
     
     - name: Install dependencies
       run: |
