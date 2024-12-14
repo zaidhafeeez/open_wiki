@@ -4,8 +4,9 @@ import time
 import json
 import os
 from tqdm import tqdm
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import threading
+import queue
 
 # Configuration
 LANGUAGE = "en"
@@ -13,7 +14,8 @@ CATEGORY = "Python (programming language)"
 MAX_DEPTH = 1
 PROGRESS_FILE = "archive_progress.json"
 OUTPUT_DIR = "wiki_articles"
-MAX_WORKERS = 3  # Number of concurrent article processing threads
+MAX_WORKERS = 10  # Increased number of workers
+RATE_LIMIT_DELAY = 0.1  # Delay between API calls in seconds
 
 # Initialize Wikipedia API with rate limiting
 wiki_wiki = wikipediaapi.Wikipedia(
@@ -25,6 +27,18 @@ wiki_wiki = wikipediaapi.Wikipedia(
 # Thread-safe progress tracking
 progress_lock = threading.Lock()
 processed_articles = set()
+api_lock = threading.Lock()  # Lock for API calls
+
+# Thread-safe queue for logging
+log_queue = queue.Queue()
+
+def log_message(msg):
+    log_queue.put(msg)
+    while not log_queue.empty():
+        try:
+            print(log_queue.get_nowait())
+        except queue.Empty:
+            break
 
 def get_safe_path(name):
     return name.replace(' ', '_').replace('/', '_').replace('\\', '_')
@@ -46,15 +60,16 @@ def save_progress(processed, current_category=None):
             json.dump(progress, f)
 
 def get_article_metadata(page):
-    # Get essential metadata first
-    metadata = {
-        'title': page.title,
-        'url': page.fullurl,
-        'summary': page.summary[0:500] if page.summary else "",
-        'last_updated': datetime.now(timezone.utc).isoformat(),
-        'language': page.language,
-        'pageid': page.pageid,
-    }
+    with api_lock:
+        time.sleep(RATE_LIMIT_DELAY)  # Rate limiting
+        metadata = {
+            'title': page.title,
+            'url': page.fullurl,
+            'summary': page.summary[0:500] if page.summary else "",
+            'last_updated': datetime.now(timezone.utc).isoformat(),
+            'language': page.language,
+            'pageid': page.pageid,
+        }
     
     # Add categories
     metadata['categories'] = [cat.title for cat in page.categories.values()]
@@ -73,11 +88,13 @@ def get_article_metadata(page):
     ]
     
     # Get links (only existing ones to reduce processing)
-    metadata['links'] = [
-        {'title': link.title, 'url': link.fullurl}
-        for link in page.links.values()
-        if link.exists()
-    ]
+    with api_lock:
+        time.sleep(RATE_LIMIT_DELAY)  # Rate limiting
+        metadata['links'] = [
+            {'title': link.title, 'url': link.fullurl}
+            for link in page.links.values()
+            if link.exists()
+        ]
     
     # Get references if available
     metadata['references'] = (
@@ -169,10 +186,12 @@ def ensure_directory(directory):
 def process_article(args):
     article_title, category_path = args
     try:
-        page = wiki_wiki.page(article_title)
-        if not page.exists():
-            print(f"Article '{article_title}' does not exist.")
-            return
+        with api_lock:
+            time.sleep(RATE_LIMIT_DELAY)  # Rate limiting
+            page = wiki_wiki.page(article_title)
+            if not page.exists():
+                log_message(f"Article '{article_title}' does not exist.")
+                return
 
         metadata = get_article_metadata(page)
         safe_category = get_safe_path(category_path)
@@ -196,47 +215,79 @@ def process_article(args):
         with progress_lock:
             processed_articles.add(article_title)
             
-        print(f"Processed: {article_title}")
+        log_message(f"Processed: {article_title}")
         
     except Exception as e:
-        print(f"Error processing '{article_title}': {str(e)}")
+        log_message(f"Error processing '{article_title}': {str(e)}")
+
+def process_category(category_name, depth=0):
+    """Process a single category and return its articles and subcategories"""
+    try:
+        with api_lock:
+            time.sleep(RATE_LIMIT_DELAY)  # Rate limiting
+            category = wiki_wiki.page(f"Category:{category_name}")
+            if not category.exists():
+                log_message(f"Category '{category_name}' does not exist.")
+                return [], []
+
+        members = list(category.categorymembers.keys())
+        
+        articles = []
+        subcategories = []
+        
+        for title in members:
+            if "Category:" in title and depth < MAX_DEPTH:
+                subcategories.append(title.replace("Category:", ""))
+            else:
+                category_path = f"articles/{get_safe_path(category_name)}"
+                articles.append((title, category_path))
+        
+        return articles, subcategories
+    except Exception as e:
+        log_message(f"Error processing category '{category_name}': {str(e)}")
+        return [], []
 
 def scrape_category(category_name, depth=0):
+    """Process categories and articles in parallel"""
     if depth > MAX_DEPTH:
         return
 
-    category = wiki_wiki.page(f"Category:{category_name}")
-    if not category.exists():
-        print(f"Category '{category_name}' does not exist.")
-        return
-
-    print(f"\nProcessing category: {category_name} (depth: {depth})")
-    members = list(category.categorymembers.keys())
-    print(f"Found {len(members)} members")
-
-    # Separate articles and subcategories
-    articles = []
-    subcategories = []
+    # Get articles and subcategories for current category
+    articles, subcategories = process_category(category_name, depth)
     
-    for title in members:
-        if "Category:" in title and depth < MAX_DEPTH:
-            subcategories.append(title.replace("Category:", ""))
-        else:
-            category_path = f"articles/{get_safe_path(category_name)}"
-            articles.append((title, category_path))
-
     # Process articles in parallel
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-        list(tqdm(
-            executor.map(process_article, articles),
-            total=len(articles),
-            desc=f"Processing articles in {category_name}"
-        ))
-
-    # Process subcategories
-    for subcat in subcategories:
-        scrape_category(subcat, depth + 1)
-        save_progress(processed_articles, subcat)
+        # Submit all article processing tasks
+        future_to_article = {
+            executor.submit(process_article, article): article[0]
+            for article in articles
+        }
+        
+        # Process articles with progress bar
+        with tqdm(total=len(articles), desc=f"Processing articles in {category_name}") as pbar:
+            for future in as_completed(future_to_article):
+                article_title = future_to_article[future]
+                try:
+                    future.result()
+                except Exception as e:
+                    log_message(f"Error processing article {article_title}: {str(e)}")
+                pbar.update(1)
+        
+        # Process subcategories in parallel
+        if subcategories:
+            subcategory_futures = [
+                executor.submit(scrape_category, subcat, depth + 1)
+                for subcat in subcategories
+            ]
+            
+            # Wait for all subcategories to complete
+            for future in as_completed(subcategory_futures):
+                try:
+                    future.result()
+                except Exception as e:
+                    log_message(f"Error processing subcategory: {str(e)}")
+                
+        save_progress(processed_articles, category_name)
 
 if __name__ == "__main__":
     try:
@@ -248,20 +299,20 @@ if __name__ == "__main__":
         start_category = progress['last_category'] or CATEGORY
         
         if processed_articles:
-            print(f"Found {len(processed_articles)} previously processed articles")
-            print("Note: All articles will be updated with the latest format")
+            log_message(f"Found {len(processed_articles)} previously processed articles")
+            log_message("Note: All articles will be updated with the latest format")
         
         scrape_category(start_category)
         
         if os.path.exists(PROGRESS_FILE):
             os.remove(PROGRESS_FILE)
         
-        print(f"\nAll articles have been saved to the '{OUTPUT_DIR}' directory.")
-        print("You can now review the articles and commit them to your repository manually.")
+        log_message(f"\nAll articles have been saved to the '{OUTPUT_DIR}' directory.")
+        log_message("You can now review the articles and commit them to your repository manually.")
             
     except KeyboardInterrupt:
-        print("\nScript interrupted. Progress saved.")
+        log_message("\nScript interrupted. Progress saved.")
         save_progress(processed_articles)
     except Exception as e:
-        print(f"An error occurred: {e}")
+        log_message(f"An error occurred: {e}")
         save_progress(processed_articles)
