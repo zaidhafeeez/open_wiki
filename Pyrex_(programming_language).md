@@ -1,6 +1,6 @@
 # Pyrex (programming language)
 
-_Last updated: 2024-12-14T15:07:25.478289_
+_Last updated: 2024-12-14T15:19:26.833937_
 
 **Original Article:** [Pyrex (programming language)](https://en.wikipedia.org/wiki/Pyrex_(programming_language))
 
