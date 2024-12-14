@@ -1,132 +1,101 @@
-# Wiki Archive Script
+# 📚 Wikipedia Article Archive Script
 
-A Python script that archives Wikipedia articles related to Python programming language, organizing them into category-based directories with enhanced metadata and formatting.
+A Python script that automatically archives Wikipedia articles related to Python programming language, maintaining a structured and searchable knowledge base. 🐍
 
-## Features
+## ✨ Features
 
-- **Category-Based Organization**: Articles are organized into directories based on their categories
-- **Rich Metadata**: Each article includes:
-  - Last updated timestamp
-  - Original article link
-  - Language and Page ID
-  - Categories and sections
-  - Related articles and references
-  - Disambiguation information
-- **Parallel Processing**: Uses multi-threading for faster article processing
-- **Progress Tracking**: Saves progress and can resume from where it left off
-- **GitHub Integration**: Automated workflow for daily updates
-- **Local Storage**: Saves articles locally for review before committing
+- 🤖 **Automated Article Archiving**: Daily updates via GitHub Actions
+- ⚡ **Parallel Processing**: Fast article retrieval with multi-threading
+- 💾 **Smart Caching**: Caches dependencies and progress for faster runs
+- 📝 **Rich Metadata**: Includes categories, links, references, and more
+- 📖 **Markdown Format**: Articles stored in clean, readable Markdown
+- 🔄 **Progress Tracking**: Resumes from last state if interrupted
+- 🗂️ **Category Support**: Archives main category and subcategories
 
-## Requirements
-
-```
-wikipediaapi
-tqdm
-python-dotenv
-```
-
-## Setup
-
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd wiki-archive-script
-```
-
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. Run the script:
-```bash
-python script.py
-```
-
-## Directory Structure
+## 📁 Directory Structure
 
 ```
 wiki_articles/
 ├── articles/
-│   ├── Python_(programming_language)/
-│   │   ├── README.md
-│   │   ├── Python_syntax_and_semantics.md
-│   │   ├── Python_Software_Foundation.md
-│   │   └── ...
-│   └── Articles_with_example_Python_(programming_language)_code/
-│       ├── README.md
-│       └── ...
+│   └── Python_(programming_language)/
+│       ├── README.md              # Category overview
+│       ├── Python.md             # Main Python article
+│       ├── Python_syntax.md      # Python syntax article
+│       └── ...                   # Other related articles
+└── ...
 ```
 
-## Article Format
+## 📄 Article Format
 
-Each article is saved as a Markdown file with the following sections:
+Each archived article includes:
+- 📌 Article metadata (last updated, URL, language, page ID)
+- 📋 Summary
+- 🏷️ Categories
+- 📑 Table of contents
+- 📚 Main content
+- 🔗 Related articles
+- 📎 References
 
-1. **Article Metadata**
-   - Last Updated timestamp
-   - Original article link
-   - Language and Page ID
-   - Disambiguation status (if applicable)
+## 🧭 Quick Navigation
 
-2. **Summary**
-   - Brief overview of the article
+To find specific articles:
+1. 📂 Browse the `wiki_articles/articles` directory
+2. 📚 Each category has its own subdirectory with a README
+3. 📝 Articles are named using underscores (e.g., `Python_syntax.md`)
+4. 🔍 Use GitHub's search to find specific topics
 
-3. **Categories**
-   - List of Wikipedia categories
+## 🚀 Setup and Usage
 
-4. **Table of Contents**
-   - Hierarchical structure of article sections
+1. **Install Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-5. **Content**
-   - Full article text
+2. **Run Locally**:
+   ```bash
+   python script.py
+   ```
 
-6. **Related Articles**
-   - Links to related Wikipedia articles
+3. **GitHub Actions** (automatic):
+   - ⏰ Runs daily at midnight UTC
+   - 💾 Caches dependencies and progress
+   - 🔄 Updates articles automatically
+   - 📤 Commits changes to repository
 
-7. **References**
-   - Citations and external links
+## ⚙️ Configuration
 
-## Configuration
+Edit these variables in `script.py`:
+```python
+LANGUAGE = "en"                        # Article language
+CATEGORY = "Python (programming language)"  # Main category
+MAX_DEPTH = 1                         # Category depth
+MAX_WORKERS = 10                      # Parallel threads
+```
 
-The script can be configured by modifying these variables in `script.py`:
+## 🚄 Performance Features
 
-- `LANGUAGE`: Wikipedia language code (default: "en")
-- `CATEGORY`: Root category to archive (default: "Python (programming language)")
-- `MAX_DEPTH`: Maximum depth for subcategory traversal (default: 1)
-- `MAX_WORKERS`: Number of concurrent article processing threads (default: 3)
+- ⚡ **Parallel Processing**: Uses ThreadPoolExecutor for concurrent downloads
+- 💾 **Progress Caching**: Saves and resumes from last state
+- 🔄 **Rate Limiting**: Smart API request management
+- 📦 **Efficient Storage**: Deduplicates articles across categories
+- ⚡ **GitHub Actions Optimization**: Caches dependencies and article data
 
-> **Note**: Currently, the script focuses on Python programming language articles, but support for archiving additional categories will be added in future updates. You'll be able to archive articles from any Wikipedia category of your choice.
+## 🤝 Contributing
 
-## GitHub Actions Workflow
+1. 🔱 Fork the repository
+2. 🌿 Create your feature branch
+3. 💾 Commit your changes
+4. 🚀 Push to the branch
+5. 📬 Create a Pull Request
 
-The repository includes a GitHub Actions workflow that:
-1. Runs daily at midnight UTC
-2. Updates all articles with the latest content
-3. Commits changes only if articles were updated
-4. Can be manually triggered through the Actions tab
+## 🔮 Future Plans
 
-## Progress Tracking
+- [ ] 📚 Support for additional programming language categories
+- [ ] 🔍 Full-text search capabilities
+- [ ] 📊 Article diff tracking
+- [ ] ⚙️ Custom category configuration
+- [ ] 🔌 API for programmatic access
 
-- Progress is saved in `archive_progress.json`
-- Tracks processed articles and last processed category
-- Automatically resumes from last position if interrupted
-- Cleans up progress file after successful completion
+## 📜 License
 
-## Error Handling
-
-- Graceful handling of network issues
-- Thread-safe operations
-- Progress saving on interruption
-- Detailed error logging
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-## License
-
-This project is open source and available under the MIT License.
+This project is licensed under the MIT License - see the LICENSE file for details.
