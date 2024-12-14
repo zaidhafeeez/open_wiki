@@ -60,6 +60,10 @@ except GithubException as e:
     print(f"Error accessing repository contents: {e}")
     raise e
 
+def get_safe_path(name):
+    """Convert a string to a safe path name"""
+    return name.replace(' ', '_').replace('/', '_').replace('\\', '_')
+
 def load_progress():
     if os.path.exists(PROGRESS_FILE):
         with open(PROGRESS_FILE, 'r') as f:
@@ -95,7 +99,7 @@ def format_article_content(page, metadata):
     content += page.text
     return content
 
-def scrape_and_store_article(article_title, processed_articles):
+def scrape_and_store_article(article_title, processed_articles, category_path='articles'):
     if article_title in processed_articles:
         print(f"Skipping '{article_title}' (already processed)")
         return processed_articles
@@ -110,13 +114,30 @@ def scrape_and_store_article(article_title, processed_articles):
 
         # Get metadata and format content
         metadata = get_article_metadata(page)
-        file_name = f"{article_title.replace(' ', '_')}.md"
+        safe_category = get_safe_path(category_path)
+        file_name = f"{safe_category}/{get_safe_path(article_title)}.md"
         file_content = format_article_content(page, metadata)
         print(f"Generated content for {file_name} (size: {len(file_content)} bytes)")
 
         # Check if the file needs updating
         try:
             print(f"Checking if {file_name} exists in repository...")
+            try:
+                # Try to create the category directory if it doesn't exist
+                try:
+                    repo.get_contents(safe_category)
+                except GithubException as e:
+                    if e.status == 404:
+                        print(f"Creating category directory: {safe_category}")
+                        repo.create_file(
+                            f"{safe_category}/README.md",
+                            f"Create {category_path} directory",
+                            f"# {category_path}\n\nWikipedia articles related to {category_path}"
+                        )
+                        time.sleep(1)  # Wait for directory creation
+            except Exception as e:
+                print(f"Error checking/creating directory: {e}")
+
             contents = repo.get_contents(file_name)
             existing_content = contents.decoded_content.decode('utf-8')
             if "Last updated:" in existing_content:
@@ -158,7 +179,7 @@ def scrape_and_store_article(article_title, processed_articles):
     except RateLimitExceededException:
         print(f"GitHub API rate limit exceeded. Waiting {RATE_LIMIT_PAUSE} seconds...")
         time.sleep(RATE_LIMIT_PAUSE)
-        return scrape_and_store_article(article_title, processed_articles)
+        return scrape_and_store_article(article_title, processed_articles, category_path)
 
     except Exception as e:
         print(f"Error processing '{article_title}': {e}")
@@ -198,17 +219,40 @@ def scrape_category(category_name, depth=0, processed_articles=None):
                 )
             else:
                 # Process article
+                category_path = f"articles/{get_safe_path(category_name)}"
                 processed_articles = scrape_and_store_article(
                     title,
-                    processed_articles
+                    processed_articles,
+                    category_path
                 )
             pbar.update(1)
             save_progress(processed_articles, category_name)
 
     return processed_articles
 
+def cleanup_root_directory():
+    print("\nCleaning up root directory...")
+    try:
+        # Get all files in root
+        contents = repo.get_contents("")
+        for content in contents:
+            if content.path.endswith('.md') and content.path != 'README.md':
+                print(f"Removing {content.path} from root...")
+                repo.delete_file(
+                    content.path,
+                    f"Move {content.path} to category directory",
+                    content.sha
+                )
+                print(f"Removed {content.path}")
+                time.sleep(1)  # Rate limiting precaution
+    except Exception as e:
+        print(f"Error cleaning up root directory: {e}")
+
 if __name__ == "__main__":
     try:
+        # Clean up root directory first
+        cleanup_root_directory()
+        
         progress = load_progress()
         start_category = progress['last_category'] or CATEGORY
         if progress['processed']:
