@@ -27,7 +27,29 @@ progress_lock = threading.Lock()
 processed_articles = set()
 
 def get_safe_path(name):
-    return name.replace(' ', '_').replace('/', '_').replace('\\', '_')
+    """Convert a string to a safe file path by replacing problematic characters."""
+    # Replace problematic characters
+    safe_name = name.replace(' ', '_')
+    safe_name = safe_name.replace('/', '_')
+    safe_name = safe_name.replace('\\', '_')
+    safe_name = safe_name.replace(':', '_')
+    safe_name = safe_name.replace('*', '_')
+    safe_name = safe_name.replace('?', '_')
+    safe_name = safe_name.replace('"', '_')
+    safe_name = safe_name.replace('<', '_')
+    safe_name = safe_name.replace('>', '_')
+    safe_name = safe_name.replace('|', '_')
+    safe_name = safe_name.replace('(', '')
+    safe_name = safe_name.replace(')', '')
+    
+    # Remove any double underscores
+    while '__' in safe_name:
+        safe_name = safe_name.replace('__', '_')
+    
+    # Remove leading/trailing underscores
+    safe_name = safe_name.strip('_')
+    
+    return safe_name
 
 def load_progress():
     if os.path.exists(PROGRESS_FILE):
