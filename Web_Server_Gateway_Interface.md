@@ -1,6 +1,6 @@
 # Web Server Gateway Interface
 
-_Last updated: 2024-12-14T15:08:17.388201_
+_Last updated: 2024-12-14T15:21:08.998920_
 
 **Original Article:** [Web Server Gateway Interface](https://en.wikipedia.org/wiki/Web_Server_Gateway_Interface)
 
