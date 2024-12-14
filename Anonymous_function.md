@@ -1,6 +1,6 @@
 # Anonymous function
 
-_Last updated: 2024-12-14T15:08:41.776993_
+_Last updated: 2024-12-14T15:21:29.348634_
 
 **Original Article:** [Anonymous function](https://en.wikipedia.org/wiki/Anonymous_function)
 
