@@ -1,6 +1,6 @@
 # RUR-PLE
 
-_Last updated: 2024-12-14T15:08:09.667337_
+_Last updated: 2024-12-14T15:20:31.738819_
 
 **Original Article:** [RUR-PLE](https://en.wikipedia.org/wiki/RUR-PLE)
 
