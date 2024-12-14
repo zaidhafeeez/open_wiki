@@ -95,6 +95,8 @@ The script can be configured by modifying these variables in `script.py`:
 - `MAX_DEPTH`: Maximum depth for subcategory traversal (default: 1)
 - `MAX_WORKERS`: Number of concurrent article processing threads (default: 3)
 
+> **Note**: Currently, the script focuses on Python programming language articles, but support for archiving additional categories will be added in future updates. You'll be able to archive articles from any Wikipedia category of your choice.
+
 ## GitHub Actions Workflow
 
 The repository includes a GitHub Actions workflow that:
