@@ -6,12 +6,18 @@ import json
 from datetime import datetime
 import os
 from tqdm import tqdm
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 # Configuration
-GITHUB_TOKEN = "your_github_personal_access_token"  # Replace with your token
-REPO_NAME = "your_github_username/article-archive"  # Replace with your repository name
+GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN')  # Get token from environment variable
+if not GITHUB_TOKEN:
+    raise ValueError("GITHUB_TOKEN environment variable is not set. Please set it in .env file")
+REPO_NAME = "zaidhafeeez/open_wiki"  # GitHub repository
 LANGUAGE = "en"  # Language code (e.g., 'en' for English)
-CATEGORY = "Python programming language"  # Replace with your desired category
+CATEGORY = "Python (programming language)"  # Wikipedia category name
 MAX_DEPTH = 1  # Maximum depth for subcategory traversal
 PROGRESS_FILE = "archive_progress.json"
 RATE_LIMIT_PAUSE = 120  # Seconds to wait when rate limit is hit
