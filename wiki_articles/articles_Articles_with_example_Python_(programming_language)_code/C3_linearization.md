@@ -1,21 +1,31 @@
 # C3 linearization
 
-_Last updated: 2024-12-14T15:39:59.061054_
+## Article Metadata
 
-**Original Article:** [C3 linearization](https://en.wikipedia.org/wiki/C3_linearization)
+- **Last Updated:** 2024-12-14T19:34:15.929504+00:00
+- **Original Article:** [C3 linearization](https://en.wikipedia.org/wiki/C3_linearization)
+- **Language:** en
+- **Page ID:** 8305253
 
-**Summary:** "In object-oriented systems with multiple inheritance,
+## Summary
+
+"In object-oriented systems with multiple inheritance,
 some mechanism must be used for resolving conflicts when inheriting different definitions of the same property
 from multiple superclasses." C3 superclass linearization is an algorithm used primarily to obtain the order in which methods should be inherited in the presence of multiple inheritance. In other words, the output of C3 superclass linearization is a deterministic Method Resolution Order (MRO).  
 C3 superclass linearization is called 
 
 ## Categories
+
 - Category:All Wikipedia articles needing clarification
 - Category:Articles with example Python (programming language) code
 - Category:CS1 maint: multiple names: authors list
 - Category:Object-oriented programming
 - Category:Programming language implementation
 - Category:Wikipedia articles needing clarification from April 2018
+
+## Table of Contents
+
+- Description
 
 ## Content
 
@@ -59,3 +69,42 @@ Raku uses C3 linearization for classes by default:
 
 
 == References ==
+
+## Related Articles
+
+### Internal Links
+
+- [Association for Computing Machinery](https://en.wikipedia.org/wiki/Association_for_Computing_Machinery)
+- [Algorithm](https://en.wikipedia.org/wiki/Algorithm)
+- [CPAN](https://en.wikipedia.org/wiki/CPAN)
+- [CiteSeerX](https://en.wikipedia.org/wiki/CiteSeerX)
+- [Divide-and-conquer algorithm](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm)
+- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
+- [Dylan (programming language)](https://en.wikipedia.org/wiki/Dylan_(programming_language))
+- [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum)
+- [ISBN](https://en.wikipedia.org/wiki/ISBN)
+- [Memoization](https://en.wikipedia.org/wiki/Memoization)
+- [Method (computer programming)](https://en.wikipedia.org/wiki/Method_(computer_programming))
+- [Multiple inheritance](https://en.wikipedia.org/wiki/Multiple_inheritance)
+- [OOPSLA](https://en.wikipedia.org/wiki/OOPSLA)
+- [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
+- [PGF/TikZ](https://en.wikipedia.org/wiki/PGF/TikZ)
+- [Parrot virtual machine](https://en.wikipedia.org/wiki/Parrot_virtual_machine)
+- [Perl](https://en.wikipedia.org/wiki/Perl)
+- [Precedence graph](https://en.wikipedia.org/wiki/Precedence_graph)
+- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
+- [Raku (programming language)](https://en.wikipedia.org/wiki/Raku_(programming_language))
+- [Reentrancy (computing)](https://en.wikipedia.org/wiki/Reentrancy_(computing))
+- [Solidity](https://en.wikipedia.org/wiki/Solidity)
+- [Topological sorting](https://en.wikipedia.org/wiki/Topological_sorting)
+- [Talk:C3 linearization](https://en.wikipedia.org/wiki/Talk:C3_linearization)
+- [Wikipedia:Please clarify](https://en.wikipedia.org/wiki/Wikipedia:Please_clarify)
+- [Wikipedia:Vagueness](https://en.wikipedia.org/wiki/Wikipedia:Vagueness)
+- [Template:Cite conference](https://en.wikipedia.org/wiki/Template:Cite_conference)
+- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
+- [Category:CS1 maint: multiple names: authors list](https://en.wikipedia.org/wiki/Category:CS1_maint:_multiple_names:_authors_list)
+- [Category:Wikipedia articles needing clarification from April 2018](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_needing_clarification_from_April_2018)
+
+---
+_This article is part of the Python Programming Language wiki archive._
+_Retrieved and archived on: 2024-12-14T19:34:15.929504+00:00_

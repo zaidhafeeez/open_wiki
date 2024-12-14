@@ -1,12 +1,18 @@
 # History of Python
 
-_Last updated: 2024-12-14T15:35:34.815341_
+## Article Metadata
 
-**Original Article:** [History of Python](https://en.wikipedia.org/wiki/History_of_Python)
+- **Last Updated:** 2024-12-14T19:29:45.303832+00:00
+- **Original Article:** [History of Python](https://en.wikipedia.org/wiki/History_of_Python)
+- **Language:** en
+- **Page ID:** 21356332
 
-**Summary:** The programming language Python was conceived in the late 1980s, and its implementation was started in December 1989 by Guido van Rossum at CWI in the Netherlands as a successor to ABC capable of exception handling and interfacing with the Amoeba operating system. Van Rossum is Python's principal author, and his continuing central role in deciding the direction of Python is reflected in the title given to him by the Python community, Benevolent Dictator for Life (BDFL). (However, Van Rossum step
+## Summary
+
+The programming language Python was conceived in the late 1980s, and its implementation was started in December 1989 by Guido van Rossum at CWI in the Netherlands as a successor to ABC capable of exception handling and interfacing with the Amoeba operating system. Van Rossum is Python's principal author, and his continuing central role in deciding the direction of Python is reflected in the title given to him by the Python community, Benevolent Dictator for Life (BDFL). (However, Van Rossum step
 
 ## Categories
+
 - Category:All Wikipedia articles written in American English
 - Category:All articles containing potentially dated statements
 - Category:Articles containing potentially dated statements from 2007
@@ -21,6 +27,17 @@ _Last updated: 2024-12-14T15:35:34.815341_
 - Category:Use American English from May 2024
 - Category:Use mdy dates from September 2015
 - Category:Wikipedia articles scheduled for update tagging
+
+## Table of Contents
+
+- Early history
+- Version 1
+- Version 2
+- Version 3
+- Table of versions
+- See also
+- References
+- External links
 
 ## Content
 
@@ -86,3 +103,90 @@ History of software engineering
 References
 External links
 Guido Van Rossum blog on Python's History
+
+## Related Articles
+
+### Internal Links
+
+- [ABC (programming language)](https://en.wikipedia.org/wiki/ABC_(programming_language))
+- [Amoeba (operating system)](https://en.wikipedia.org/wiki/Amoeba_(operating_system))
+- [Anonymous function](https://en.wikipedia.org/wiki/Anonymous_function)
+- [The Apache Software Foundation](https://en.wikipedia.org/wiki/The_Apache_Software_Foundation)
+- [BBC Television](https://en.wikipedia.org/wiki/BBC_Television)
+- [Backporting](https://en.wikipedia.org/wiki/Backporting)
+- [Benevolent dictator for life](https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+- [Byte](https://en.wikipedia.org/wiki/Byte)
+- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
+- [Centrum Wiskunde & Informatica](https://en.wikipedia.org/wiki/Centrum_Wiskunde_%26_Informatica)
+- [Freeze (software engineering)](https://en.wikipedia.org/wiki/Freeze_(software_engineering))
+- [Common Lisp](https://en.wikipedia.org/wiki/Common_Lisp)
+- [Complex number](https://en.wikipedia.org/wiki/Complex_number)
+- [Computer file](https://en.wikipedia.org/wiki/Computer_file)
+- [Corporation for National Research Initiatives](https://en.wikipedia.org/wiki/Corporation_for_National_Research_Initiatives)
+- [Cycle detection](https://en.wikipedia.org/wiki/Cycle_detection)
+- [DARPA](https://en.wikipedia.org/wiki/DARPA)
+- [Information hiding](https://en.wikipedia.org/wiki/Information_hiding)
+- [Data type](https://en.wikipedia.org/wiki/Data_type)
+- [Internet forum](https://en.wikipedia.org/wiki/Internet_forum)
+- [Type system](https://en.wikipedia.org/wiki/Type_system)
+- [End-of-life product](https://en.wikipedia.org/wiki/End-of-life_product)
+- [Exception handling](https://en.wikipedia.org/wiki/Exception_handling)
+- [Filter (higher-order function)](https://en.wikipedia.org/wiki/Filter_(higher-order_function))
+- [Fold (higher-order function)](https://en.wikipedia.org/wiki/Fold_(higher-order_function))
+- [Free-software license](https://en.wikipedia.org/wiki/Free-software_license)
+- [Free Software Foundation](https://en.wikipedia.org/wiki/Free_Software_Foundation)
+- [Functional programming](https://en.wikipedia.org/wiki/Functional_programming)
+- [GNU General Public License](https://en.wikipedia.org/wiki/GNU_General_Public_License)
+- [Garbage collection (computer science)](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science))
+- [Generator (computer programming)](https://en.wikipedia.org/wiki/Generator_(computer_programming))
+- [GitHub](https://en.wikipedia.org/wiki/GitHub)
+- [Gradual typing](https://en.wikipedia.org/wiki/Gradual_typing)
+- [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum)
+- [Haskell](https://en.wikipedia.org/wiki/Haskell)
+- [History of software engineering](https://en.wikipedia.org/wiki/History_of_software_engineering)
+- [Icon (programming language)](https://en.wikipedia.org/wiki/Icon_(programming_language))
+- [Inheritance (object-oriented programming)](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming))
+- [Division (mathematics)](https://en.wikipedia.org/wiki/Division_(mathematics))
+- [Intrinsic function](https://en.wikipedia.org/wiki/Intrinsic_function)
+- [Named parameter](https://en.wikipedia.org/wiki/Named_parameter)
+- [Law](https://en.wikipedia.org/wiki/Law)
+- [Lisp (programming language)](https://en.wikipedia.org/wiki/Lisp_(programming_language))
+- [List comprehension](https://en.wikipedia.org/wiki/List_comprehension)
+- [Lock (computer science)](https://en.wikipedia.org/wiki/Lock_(computer_science))
+- [Map (higher-order function)](https://en.wikipedia.org/wiki/Map_(higher-order_function))
+- [Memory management](https://en.wikipedia.org/wiki/Memory_management)
+- [Modula-3](https://en.wikipedia.org/wiki/Modula-3)
+- [Modular programming](https://en.wikipedia.org/wiki/Modular_programming)
+- [Monty Python's Flying Circus](https://en.wikipedia.org/wiki/Monty_Python%27s_Flying_Circus)
+- [Comparison of multi-paradigm programming languages](https://en.wikipedia.org/wiki/Comparison_of_multi-paradigm_programming_languages)
+- [Name mangling](https://en.wikipedia.org/wiki/Name_mangling)
+- [Nonprofit organization](https://en.wikipedia.org/wiki/Nonprofit_organization)
+- [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
+- [Patch (computing)](https://en.wikipedia.org/wiki/Patch_(computing))
+- [Programming language](https://en.wikipedia.org/wiki/Programming_language)
+- [Punctuation](https://en.wikipedia.org/wiki/Punctuation)
+- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
+- [Python Software Foundation](https://en.wikipedia.org/wiki/Python_Software_Foundation)
+- [Python Software Foundation License](https://en.wikipedia.org/wiki/Python_Software_Foundation_License)
+- [Reference counting](https://en.wikipedia.org/wiki/Reference_counting)
+- [Resource acquisition is initialization](https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization)
+- [Reston, Virginia](https://en.wikipedia.org/wiki/Reston,_Virginia)
+- [SETL](https://en.wikipedia.org/wiki/SETL)
+- [Source-to-source compiler](https://en.wikipedia.org/wiki/Source-to-source_compiler)
+- [Virginia](https://en.wikipedia.org/wiki/Virginia)
+- [Scope (computer science)](https://en.wikipedia.org/wiki/Scope_(computer_science))
+- [Structured programming](https://en.wikipedia.org/wiki/Structured_programming)
+- [Netherlands](https://en.wikipedia.org/wiki/Netherlands)
+- [Unicode](https://en.wikipedia.org/wiki/Unicode)
+- [Virginia](https://en.wikipedia.org/wiki/Virginia)
+- [Zen of Python](https://en.wikipedia.org/wiki/Zen_of_Python)
+- [Zope](https://en.wikipedia.org/wiki/Zope)
+- [Talk:History of Python](https://en.wikipedia.org/wiki/Talk:History_of_Python)
+- [Category:Articles containing potentially dated statements from 2007](https://en.wikipedia.org/wiki/Category:Articles_containing_potentially_dated_statements_from_2007)
+- [Category:Articles to be expanded from March 2024](https://en.wikipedia.org/wiki/Category:Articles_to_be_expanded_from_March_2024)
+- [Category:Use American English from May 2024](https://en.wikipedia.org/wiki/Category:Use_American_English_from_May_2024)
+- [Category:Use mdy dates from September 2015](https://en.wikipedia.org/wiki/Category:Use_mdy_dates_from_September_2015)
+
+---
+_This article is part of the Python Programming Language wiki archive._
+_Retrieved and archived on: 2024-12-14T19:29:45.303832+00:00_

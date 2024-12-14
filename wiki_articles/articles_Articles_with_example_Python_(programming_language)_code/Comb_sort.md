@@ -1,18 +1,29 @@
 # Comb sort
 
-_Last updated: 2024-12-14T15:40:20.848208_
+## Article Metadata
 
-**Original Article:** [Comb sort](https://en.wikipedia.org/wiki/Comb_sort)
+- **Last Updated:** 2024-12-14T19:34:53.683565+00:00
+- **Original Article:** [Comb sort](https://en.wikipedia.org/wiki/Comb_sort)
+- **Language:** en
+- **Page ID:** 159439
 
-**Summary:** Comb sort is a relatively simple sorting algorithm originally designed by Włodzimierz Dobosiewicz and Artur Borowy in 1980, later rediscovered (and given the name "Combsort") by Stephen Lacey and Richard Box in 1991. Comb sort improves on bubble sort in the same way that Shellsort improves on insertion sort, in that they both allow elements that start far away from their intended position to move more than one space per swap.
+## Summary
+
+Comb sort is a relatively simple sorting algorithm originally designed by Włodzimierz Dobosiewicz and Artur Borowy in 1980, later rediscovered (and given the name "Combsort") by Stephen Lacey and Richard Box in 1991. Comb sort improves on bubble sort in the same way that Shellsort improves on insertion sort, in that they both allow elements that start far away from their intended position to move more than one space per swap.
 nist.gov's "diminishing increment sort" definition mentions the term '
 
 ## Categories
+
 - Category:Articles with example Python (programming language) code
 - Category:Articles with example pseudocode
 - Category:Articles with short description
 - Category:Comparison sorts
 - Category:Short description is different from Wikidata
+
+## Table of Contents
+
+- Algorithm
+- See also
 
 ## Content
 
@@ -66,3 +77,91 @@ Cocktail sort, or bidirectional bubble sort, is a variation of bubble sort that 
 
 
 == References ==
+
+## Related Articles
+
+### Internal Links
+
+- [Adaptive sort](https://en.wikipedia.org/wiki/Adaptive_sort)
+- [American flag sort](https://en.wikipedia.org/wiki/American_flag_sort)
+- [Array (data structure)](https://en.wikipedia.org/wiki/Array_(data_structure))
+- [Batcher odd–even mergesort](https://en.wikipedia.org/wiki/Batcher_odd%E2%80%93even_mergesort)
+- [Bead sort](https://en.wikipedia.org/wiki/Bead_sort)
+- [Best, worst and average case](https://en.wikipedia.org/wiki/Best,_worst_and_average_case)
+- [Big O notation](https://en.wikipedia.org/wiki/Big_O_notation)
+- [Bitonic sorter](https://en.wikipedia.org/wiki/Bitonic_sorter)
+- [Block sort](https://en.wikipedia.org/wiki/Block_sort)
+- [Bogosort](https://en.wikipedia.org/wiki/Bogosort)
+- [Bubble sort](https://en.wikipedia.org/wiki/Bubble_sort)
+- [Bucket sort](https://en.wikipedia.org/wiki/Bucket_sort)
+- [Burstsort](https://en.wikipedia.org/wiki/Burstsort)
+- [Byte (magazine)](https://en.wikipedia.org/wiki/Byte_(magazine))
+- [Cartesian tree](https://en.wikipedia.org/wiki/Cartesian_tree)
+- [Cascade merge sort](https://en.wikipedia.org/wiki/Cascade_merge_sort)
+- [Cocktail shaker sort](https://en.wikipedia.org/wiki/Cocktail_shaker_sort)
+- [Cocktail shaker sort](https://en.wikipedia.org/wiki/Cocktail_shaker_sort)
+- [Comparison sort](https://en.wikipedia.org/wiki/Comparison_sort)
+- [Computational complexity theory](https://en.wikipedia.org/wiki/Computational_complexity_theory)
+- [Counting sort](https://en.wikipedia.org/wiki/Counting_sort)
+- [Cycle sort](https://en.wikipedia.org/wiki/Cycle_sort)
+- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
+- [Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth)
+- [Flashsort](https://en.wikipedia.org/wiki/Flashsort)
+- [Gnome sort](https://en.wikipedia.org/wiki/Gnome_sort)
+- [Heapsort](https://en.wikipedia.org/wiki/Heapsort)
+- [Hybrid algorithm](https://en.wikipedia.org/wiki/Hybrid_algorithm)
+- [In-place algorithm](https://en.wikipedia.org/wiki/In-place_algorithm)
+- [Information Processing Letters](https://en.wikipedia.org/wiki/Information_Processing_Letters)
+- [Insertion sort](https://en.wikipedia.org/wiki/Insertion_sort)
+- [Integer sorting](https://en.wikipedia.org/wiki/Integer_sorting)
+- [Interpolation sort](https://en.wikipedia.org/wiki/Interpolation_sort)
+- [Introsort](https://en.wikipedia.org/wiki/Introsort)
+- [Kirkpatrick–Reisch sort](https://en.wikipedia.org/wiki/Kirkpatrick%E2%80%93Reisch_sort)
+- [Library sort](https://en.wikipedia.org/wiki/Library_sort)
+- [List (abstract data type)](https://en.wikipedia.org/wiki/List_(abstract_data_type))
+- [Merge-insertion sort](https://en.wikipedia.org/wiki/Merge-insertion_sort)
+- [Merge sort](https://en.wikipedia.org/wiki/Merge_sort)
+- [National Institute of Standards and Technology](https://en.wikipedia.org/wiki/National_Institute_of_Standards_and_Technology)
+- [Odd–even sort](https://en.wikipedia.org/wiki/Odd%E2%80%93even_sort)
+- [Oscillating merge sort](https://en.wikipedia.org/wiki/Oscillating_merge_sort)
+- [Pairwise sorting network](https://en.wikipedia.org/wiki/Pairwise_sorting_network)
+- [Pancake sorting](https://en.wikipedia.org/wiki/Pancake_sorting)
+- [Patience sorting](https://en.wikipedia.org/wiki/Patience_sorting)
+- [Pigeonhole sort](https://en.wikipedia.org/wiki/Pigeonhole_sort)
+- [Polyphase merge sort](https://en.wikipedia.org/wiki/Polyphase_merge_sort)
+- [Pre-topological order](https://en.wikipedia.org/wiki/Pre-topological_order)
+- [Proportion extend sort](https://en.wikipedia.org/wiki/Proportion_extend_sort)
+- [Proxmap sort](https://en.wikipedia.org/wiki/Proxmap_sort)
+- [Quantum sort](https://en.wikipedia.org/wiki/Quantum_sort)
+- [Quicksort](https://en.wikipedia.org/wiki/Quicksort)
+- [Radix sort](https://en.wikipedia.org/wiki/Radix_sort)
+- [Samplesort](https://en.wikipedia.org/wiki/Samplesort)
+- [Selection algorithm](https://en.wikipedia.org/wiki/Selection_algorithm)
+- [Selection sort](https://en.wikipedia.org/wiki/Selection_sort)
+- [Shellsort](https://en.wikipedia.org/wiki/Shellsort)
+- [Shellsort](https://en.wikipedia.org/wiki/Shellsort)
+- [Slowsort](https://en.wikipedia.org/wiki/Slowsort)
+- [Smoothsort](https://en.wikipedia.org/wiki/Smoothsort)
+- [Sorting algorithm](https://en.wikipedia.org/wiki/Sorting_algorithm)
+- [Sorting network](https://en.wikipedia.org/wiki/Sorting_network)
+- [Space complexity](https://en.wikipedia.org/wiki/Space_complexity)
+- [Spaghetti sort](https://en.wikipedia.org/wiki/Spaghetti_sort)
+- [Splaysort](https://en.wikipedia.org/wiki/Splaysort)
+- [Spreadsort](https://en.wikipedia.org/wiki/Spreadsort)
+- [Stooge sort](https://en.wikipedia.org/wiki/Stooge_sort)
+- [Swap (computer programming)](https://en.wikipedia.org/wiki/Swap_(computer_programming))
+- [Time complexity](https://en.wikipedia.org/wiki/Time_complexity)
+- [Timsort](https://en.wikipedia.org/wiki/Timsort)
+- [Topological sorting](https://en.wikipedia.org/wiki/Topological_sorting)
+- [Total order](https://en.wikipedia.org/wiki/Total_order)
+- [Tournament sort](https://en.wikipedia.org/wiki/Tournament_sort)
+- [Transdichotomous model](https://en.wikipedia.org/wiki/Transdichotomous_model)
+- [Tree sort](https://en.wikipedia.org/wiki/Tree_sort)
+- [Weak heap](https://en.wikipedia.org/wiki/Weak_heap)
+- [X + Y sorting](https://en.wikipedia.org/wiki/X_%2B_Y_sorting)
+- [Template:Sorting](https://en.wikipedia.org/wiki/Template:Sorting)
+- [Template talk:Sorting](https://en.wikipedia.org/wiki/Template_talk:Sorting)
+
+---
+_This article is part of the Python Programming Language wiki archive._
+_Retrieved and archived on: 2024-12-14T19:34:53.683565+00:00_

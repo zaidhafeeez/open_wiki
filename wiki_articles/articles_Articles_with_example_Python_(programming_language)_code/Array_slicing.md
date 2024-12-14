@@ -1,14 +1,20 @@
 # Array slicing
 
-_Last updated: 2024-12-14T15:39:18.053455_
+## Article Metadata
 
-**Original Article:** [Array slicing](https://en.wikipedia.org/wiki/Array_slicing)
+- **Last Updated:** 2024-12-14T19:32:34.858734+00:00
+- **Original Article:** [Array slicing](https://en.wikipedia.org/wiki/Array_slicing)
+- **Language:** en
+- **Page ID:** 683334
 
-**Summary:** In computer programming, array slicing is an operation that extracts a subset of elements from an array and packages them as another array, possibly in a different dimension from the original. 
+## Summary
+
+In computer programming, array slicing is an operation that extracts a subset of elements from an array and packages them as another array, possibly in a different dimension from the original. 
 Common examples of array slicing are extracting a substring from a string of characters, the "ell" in "hello", extracting a row or column from a two-dimensional array, or extracting a vector from a matrix.
 Depending on the programming language, an array slice can be made out of non-consecutive elements.  
 
 ## Categories
+
 - Category:Arrays
 - Category:Articles with example ALGOL 68 code
 - Category:Articles with example Ada code
@@ -20,6 +26,13 @@ Depending on the programming language, an array slice can be made out of non-con
 - Category:Articles with short description
 - Category:Programming constructs
 - Category:Short description is different from Wikidata
+
+## Table of Contents
+
+- Details
+- History
+- Timeline of slicing in various programming languages
+- See also
 
 ## Content
 
@@ -270,3 +283,83 @@ Comparison of programming languages (array) § Slicing
 
 
 == References ==
+
+## Related Articles
+
+### Internal Links
+
+- [ALGOL 58](https://en.wikipedia.org/wiki/ALGOL_58)
+- [ALGOL 68](https://en.wikipedia.org/wiki/ALGOL_68)
+- [American National Standards Institute](https://en.wikipedia.org/wiki/American_National_Standards_Institute)
+- [APL (programming language)](https://en.wikipedia.org/wiki/APL_(programming_language))
+- [APL (programming language)](https://en.wikipedia.org/wiki/APL_(programming_language))
+- [Ada (programming language)](https://en.wikipedia.org/wiki/Ada_(programming_language))
+- [ALGOL 68](https://en.wikipedia.org/wiki/ALGOL_68)
+- [Aliasing (computing)](https://en.wikipedia.org/wiki/Aliasing_(computing))
+- [Analytica (software)](https://en.wikipedia.org/wiki/Analytica_(software))
+- [Anno Domini](https://en.wikipedia.org/wiki/Anno_Domini)
+- [ArXiv](https://en.wikipedia.org/wiki/ArXiv)
+- [Array (data type)](https://en.wikipedia.org/wiki/Array_(data_type))
+- [Atari BASIC](https://en.wikipedia.org/wiki/Atari_BASIC)
+- [BASIC](https://en.wikipedia.org/wiki/BASIC)
+- [Anno Domini](https://en.wikipedia.org/wiki/Anno_Domini)
+- [Bibcode](https://en.wikipedia.org/wiki/Bibcode)
+- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
+- [Cilk](https://en.wikipedia.org/wiki/Cilk)
+- [Cobra (programming language)](https://en.wikipedia.org/wiki/Cobra_(programming_language))
+- [Comparison of programming languages (array)](https://en.wikipedia.org/wiki/Comparison_of_programming_languages_(array))
+- [Compiler](https://en.wikipedia.org/wiki/Compiler)
+- [Computer programming](https://en.wikipedia.org/wiki/Computer_programming)
+- [Computer terminal](https://en.wikipedia.org/wiki/Computer_terminal)
+- [Concatenation](https://en.wikipedia.org/wiki/Concatenation)
+- [D (programming language)](https://en.wikipedia.org/wiki/D_(programming_language))
+- [Digital Equipment Corporation](https://en.wikipedia.org/wiki/Digital_Equipment_Corporation)
+- [Dimension](https://en.wikipedia.org/wiki/Dimension)
+- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
+- [Dope vector](https://en.wikipedia.org/wiki/Dope_vector)
+- [Dynamic array](https://en.wikipedia.org/wiki/Dynamic_array)
+- [Fortran](https://en.wikipedia.org/wiki/Fortran)
+- [Fortran](https://en.wikipedia.org/wiki/Fortran)
+- [Fish (Unix shell)](https://en.wikipedia.org/wiki/Fish_(Unix_shell))
+- [Full BASIC](https://en.wikipedia.org/wiki/Full_BASIC)
+- [GNU Octave](https://en.wikipedia.org/wiki/GNU_Octave)
+- [Go (programming language)](https://en.wikipedia.org/wiki/Go_(programming_language))
+- [HP 2100](https://en.wikipedia.org/wiki/HP_2100)
+- [HP Time-Shared BASIC](https://en.wikipedia.org/wiki/HP_Time-Shared_BASIC)
+- [Secondary school](https://en.wikipedia.org/wiki/Secondary_school)
+- [ISSN](https://en.wikipedia.org/wiki/ISSN)
+- [Integer BASIC](https://en.wikipedia.org/wiki/Integer_BASIC)
+- [J (programming language)](https://en.wikipedia.org/wiki/J_(programming_language))
+- [Julia (programming language)](https://en.wikipedia.org/wiki/Julia_(programming_language))
+- [Kenneth E. Iverson](https://en.wikipedia.org/wiki/Kenneth_E._Iverson)
+- [MATLAB](https://en.wikipedia.org/wiki/MATLAB)
+- [Matrix (mathematics)](https://en.wikipedia.org/wiki/Matrix_(mathematics))
+- [Microcomputer](https://en.wikipedia.org/wiki/Microcomputer)
+- [Microsoft BASIC](https://en.wikipedia.org/wiki/Microsoft_BASIC)
+- [NumPy](https://en.wikipedia.org/wiki/NumPy)
+- [Operator overloading](https://en.wikipedia.org/wiki/Operator_overloading)
+- [PDP-10](https://en.wikipedia.org/wiki/PDP-10)
+- [PL/I](https://en.wikipedia.org/wiki/PL/I)
+- [Pascal (programming language)](https://en.wikipedia.org/wiki/Pascal_(programming_language))
+- [Pascal (programming language)](https://en.wikipedia.org/wiki/Pascal_(programming_language))
+- [Perl](https://en.wikipedia.org/wiki/Perl)
+- [Programming language](https://en.wikipedia.org/wiki/Programming_language)
+- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
+- [R (programming language)](https://en.wikipedia.org/wiki/R_(programming_language))
+- [R (programming language)](https://en.wikipedia.org/wiki/R_(programming_language))
+- [Rust (programming language)](https://en.wikipedia.org/wiki/Rust_(programming_language))
+- [S-Lang](https://en.wikipedia.org/wiki/S-Lang)
+- [S (programming language)](https://en.wikipedia.org/wiki/S_(programming_language))
+- [S (programming language)](https://en.wikipedia.org/wiki/S_(programming_language))
+- [Sinclair BASIC](https://en.wikipedia.org/wiki/Sinclair_BASIC)
+- [Slicing](https://en.wikipedia.org/wiki/Slicing)
+- [String (computer science)](https://en.wikipedia.org/wiki/String_(computer_science))
+- [Function (computer programming)](https://en.wikipedia.org/wiki/Function_(computer_programming))
+- [SuperCollider](https://en.wikipedia.org/wiki/SuperCollider)
+- [Transpose](https://en.wikipedia.org/wiki/Transpose)
+- [Vector (mathematics and physics)](https://en.wikipedia.org/wiki/Vector_(mathematics_and_physics))
+- [PowerShell](https://en.wikipedia.org/wiki/PowerShell)
+
+---
+_This article is part of the Python Programming Language wiki archive._
+_Retrieved and archived on: 2024-12-14T19:32:34.858734+00:00_

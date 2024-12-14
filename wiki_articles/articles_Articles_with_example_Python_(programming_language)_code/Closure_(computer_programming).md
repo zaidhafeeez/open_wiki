@@ -1,12 +1,18 @@
 # Closure (computer programming)
 
-_Last updated: 2024-12-14T15:40:15.553691_
+## Article Metadata
 
-**Original Article:** [Closure (computer programming)](https://en.wikipedia.org/wiki/Closure_(computer_programming))
+- **Last Updated:** 2024-12-14T19:34:44.070056+00:00
+- **Original Article:** [Closure (computer programming)](https://en.wikipedia.org/wiki/Closure_(computer_programming))
+- **Language:** en
+- **Page ID:** 62319
 
-**Summary:** In programming languages, a closure, also lexical closure or function closure, is a technique for implementing lexically scoped name binding in a language with first-class functions. Operationally, a closure is a record storing a function together with an environment. The environment is a mapping associating each free variable of the function (variables that are used locally, but defined in an enclosing scope) with the value or reference to which the name was bound when the closure was created. 
+## Summary
+
+In programming languages, a closure, also lexical closure or function closure, is a technique for implementing lexically scoped name binding in a language with first-class functions. Operationally, a closure is a record storing a function together with an environment. The environment is a mapping associating each free variable of the function (variables that are used locally, but defined in an enclosing scope) with the value or reference to which the name was bound when the closure was created. 
 
 ## Categories
+
 - Category:All articles with unsourced statements
 - Category:Articles with example C++ code
 - Category:Articles with example C Sharp code
@@ -28,6 +34,19 @@ _Last updated: 2024-12-14T15:40:15.553691_
 - Category:Short description matches Wikidata
 - Category:Subroutines
 - Category:Use dmy dates from August 2020
+
+## Table of Contents
+
+- History and etymology
+- Anonymous functions
+- Applications
+- Implementation and theory
+- Differences in semantics
+- Closure-like constructs
+- See also
+- Notes
+- References
+- External links
 
 ## Content
 
@@ -183,3 +202,141 @@ Gafter, Neal (28 January 2007). "A Definition of Closures".
 Bracha, Gilad; Gafter, Neal; Gosling, James; von der Ahé, Peter. "Closures for the Java Programming Language (v0.5)".
 Closures: An article about closures in dynamically typed imperative languages, by Martin Fowler.
 Collection closure methods: An example of a technical domain where using closures is convenient, by Martin Fowler.
+
+## Related Articles
+
+### Internal Links
+
+- [AI Memo](https://en.wikipedia.org/wiki/AI_Memo)
+- [ALGOL](https://en.wikipedia.org/wiki/ALGOL)
+- [Actor model](https://en.wikipedia.org/wiki/Actor_model)
+- [Class (computer programming)](https://en.wikipedia.org/wiki/Class_(computer_programming))
+- [Anonymous function](https://en.wikipedia.org/wiki/Anonymous_function)
+- [Apple Inc.](https://en.wikipedia.org/wiki/Apple_Inc.)
+- [Automatic variable](https://en.wikipedia.org/wiki/Automatic_variable)
+- [Blocks (C language extension)](https://en.wikipedia.org/wiki/Blocks_(C_language_extension))
+- [C++](https://en.wikipedia.org/wiki/C%2B%2B)
+- [C++11](https://en.wikipedia.org/wiki/C%2B%2B11)
+- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
+- [C Sharp (programming language)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
+- [Callback (computer programming)](https://en.wikipedia.org/wiki/Callback_(computer_programming))
+- [Class (computer programming)](https://en.wikipedia.org/wiki/Class_(computer_programming))
+- [Class (computer programming)](https://en.wikipedia.org/wiki/Class_(computer_programming))
+- [Clojure](https://en.wikipedia.org/wiki/Clojure)
+- [Closure](https://en.wikipedia.org/wiki/Closure)
+- [Closure (mathematics)](https://en.wikipedia.org/wiki/Closure_(mathematics))
+- [Lambda lifting](https://en.wikipedia.org/wiki/Lambda_lifting)
+- [Command pattern](https://en.wikipedia.org/wiki/Command_pattern)
+- [Common Lisp](https://en.wikipedia.org/wiki/Common_Lisp)
+- [Concurrent computing](https://en.wikipedia.org/wiki/Concurrent_computing)
+- [Continuation-passing style](https://en.wikipedia.org/wiki/Continuation-passing_style)
+- [Control flow](https://en.wikipedia.org/wiki/Control_flow)
+- [Currying](https://en.wikipedia.org/wiki/Currying)
+- [D (programming language)](https://en.wikipedia.org/wiki/D_(programming_language))
+- [Dangling pointer](https://en.wikipedia.org/wiki/Dangling_pointer)
+- [Data structure](https://en.wikipedia.org/wiki/Data_structure)
+- [David Turner (computer scientist)](https://en.wikipedia.org/wiki/David_Turner_(computer_scientist))
+- [Defunctionalization](https://en.wikipedia.org/wiki/Defunctionalization)
+- [Delegation (computing)](https://en.wikipedia.org/wiki/Delegation_(computing))
+- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
+- [Type system](https://en.wikipedia.org/wiki/Type_system)
+- [Dynamic web page](https://en.wikipedia.org/wiki/Dynamic_web_page)
+- [ECMAScript](https://en.wikipedia.org/wiki/ECMAScript)
+- [Eiffel (programming language)](https://en.wikipedia.org/wiki/Eiffel_(programming_language))
+- [Erlang (programming language)](https://en.wikipedia.org/wiki/Erlang_(programming_language))
+- [Continuation](https://en.wikipedia.org/wiki/Continuation)
+- [Event-driven programming](https://en.wikipedia.org/wiki/Event-driven_programming)
+- [Event (computing)](https://en.wikipedia.org/wiki/Event_(computing))
+- [First-class function](https://en.wikipedia.org/wiki/First-class_function)
+- [First-class citizen](https://en.wikipedia.org/wiki/First-class_citizen)
+- [Free variables and bound variables](https://en.wikipedia.org/wiki/Free_variables_and_bound_variables)
+- [Funarg problem](https://en.wikipedia.org/wiki/Funarg_problem)
+- [Function (computer programming)](https://en.wikipedia.org/wiki/Function_(computer_programming))
+- [Function object](https://en.wikipedia.org/wiki/Function_object)
+- [Function object](https://en.wikipedia.org/wiki/Function_object)
+- [Function pointer](https://en.wikipedia.org/wiki/Function_pointer)
+- [Function type](https://en.wikipedia.org/wiki/Function_type)
+- [Functional programming](https://en.wikipedia.org/wiki/Functional_programming)
+- [GNU Compiler Collection](https://en.wikipedia.org/wiki/GNU_Compiler_Collection)
+- [Garbage collection (computer science)](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science))
+- [Gerald Jay Sussman](https://en.wikipedia.org/wiki/Gerald_Jay_Sussman)
+- [Gilad Bracha](https://en.wikipedia.org/wiki/Gilad_Bracha)
+- [Graphical user interface](https://en.wikipedia.org/wiki/Graphical_user_interface)
+- [Guy L. Steele Jr.](https://en.wikipedia.org/wiki/Guy_L._Steele_Jr.)
+- [Hal Abelson](https://en.wikipedia.org/wiki/Hal_Abelson)
+- [Haskell](https://en.wikipedia.org/wiki/Haskell)
+- [Handle System](https://en.wikipedia.org/wiki/Handle_System)
+- [Manual memory management](https://en.wikipedia.org/wiki/Manual_memory_management)
+- [Higher-order function](https://en.wikipedia.org/wiki/Higher-order_function)
+- [IOS 4](https://en.wikipedia.org/wiki/IOS_4)
+- [ISBN](https://en.wikipedia.org/wiki/ISBN)
+- [ISWIM](https://en.wikipedia.org/wiki/ISWIM)
+- [Information hiding](https://en.wikipedia.org/wiki/Information_hiding)
+- [Inner class](https://en.wikipedia.org/wiki/Inner_class)
+- [James Gosling](https://en.wikipedia.org/wiki/James_Gosling)
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+- [Java (programming language)](https://en.wikipedia.org/wiki/Java_(programming_language))
+- [Java version history](https://en.wikipedia.org/wiki/Java_version_history)
+- [Joel Moses](https://en.wikipedia.org/wiki/Joel_Moses)
+- [Julia (programming language)](https://en.wikipedia.org/wiki/Julia_(programming_language))
+- [Structure and Interpretation of Computer Programs](https://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs)
+- [Lisp (programming language)](https://en.wikipedia.org/wiki/Lisp_(programming_language))
+- [Anonymous function](https://en.wikipedia.org/wiki/Anonymous_function)
+- [Lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus)
+- [Lambda lifting](https://en.wikipedia.org/wiki/Lambda_lifting)
+- [Lazy evaluation](https://en.wikipedia.org/wiki/Lazy_evaluation)
+- [Scope (computer science)](https://en.wikipedia.org/wiki/Scope_(computer_science))
+- [Lisp (programming language)](https://en.wikipedia.org/wiki/Lisp_(programming_language))
+- [Literal (computer programming)](https://en.wikipedia.org/wiki/Literal_(computer_programming))
+- [ML (programming language)](https://en.wikipedia.org/wiki/ML_(programming_language))
+- [Mac OS X Snow Leopard](https://en.wikipedia.org/wiki/Mac_OS_X_Snow_Leopard)
+- [Martin Fowler (software engineer)](https://en.wikipedia.org/wiki/Martin_Fowler_(software_engineer))
+- [Method (computer programming)](https://en.wikipedia.org/wiki/Method_(computer_programming))
+- [Name binding](https://en.wikipedia.org/wiki/Name_binding)
+- [Nested function](https://en.wikipedia.org/wiki/Nested_function)
+- [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
+- [Object (computer science)](https://en.wikipedia.org/wiki/Object_(computer_science))
+- [Objective-C](https://en.wikipedia.org/wiki/Objective-C)
+- [Objective-C](https://en.wikipedia.org/wiki/Objective-C)
+- [Operational semantics](https://en.wikipedia.org/wiki/Operational_semantics)
+- [PAL (programming language)](https://en.wikipedia.org/wiki/PAL_(programming_language))
+- [Partial application](https://en.wikipedia.org/wiki/Partial_application)
+- [Peter Landin](https://en.wikipedia.org/wiki/Peter_Landin)
+- [Class (computer programming)](https://en.wikipedia.org/wiki/Class_(computer_programming))
+- [Programming language](https://en.wikipedia.org/wiki/Programming_language)
+- [Pure function](https://en.wikipedia.org/wiki/Pure_function)
+- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
+- [Record (computer science)](https://en.wikipedia.org/wiki/Record_(computer_science))
+- [Reference (computer science)](https://en.wikipedia.org/wiki/Reference_(computer_science))
+- [Referential transparency](https://en.wikipedia.org/wiki/Referential_transparency)
+- [Ruby (programming language)](https://en.wikipedia.org/wiki/Ruby_(programming_language))
+- [Execution (computing)](https://en.wikipedia.org/wiki/Execution_(computing))
+- [Rust (programming language)](https://en.wikipedia.org/wiki/Rust_(programming_language))
+- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
+- [SECD machine](https://en.wikipedia.org/wiki/SECD_machine)
+- [Scheme (programming language)](https://en.wikipedia.org/wiki/Scheme_(programming_language))
+- [Scope (computer science)](https://en.wikipedia.org/wiki/Scope_(computer_science))
+- [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk)
+- [Parent pointer tree](https://en.wikipedia.org/wiki/Parent_pointer_tree)
+- [Stack-based memory allocation](https://en.wikipedia.org/wiki/Stack-based_memory_allocation)
+- [Syntactic closure](https://en.wikipedia.org/wiki/Syntactic_closure)
+- [Type safety](https://en.wikipedia.org/wiki/Type_safety)
+- [Typedef](https://en.wikipedia.org/wiki/Typedef)
+- [Undefined behavior](https://en.wikipedia.org/wiki/Undefined_behavior)
+- [Value-level programming](https://en.wikipedia.org/wiki/Value-level_programming)
+- [Value (computer science)](https://en.wikipedia.org/wiki/Value_(computer_science))
+- [Variable (computer science)](https://en.wikipedia.org/wiki/Variable_(computer_science))
+- [Variable (computer science)](https://en.wikipedia.org/wiki/Variable_(computer_science))
+- [Variable shadowing](https://en.wikipedia.org/wiki/Variable_shadowing)
+- [Visual Basic (.NET)](https://en.wikipedia.org/wiki/Visual_Basic_(.NET))
+- [Visual Basic (.NET)](https://en.wikipedia.org/wiki/Visual_Basic_(.NET))
+- [Widget toolkit](https://en.wikipedia.org/wiki/Widget_toolkit)
+- [Lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus)
+- [Wikipedia:Citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed)
+- [Category:Articles with unsourced statements from December 2014](https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_December_2014)
+- [Category:Articles with unsourced statements from September 2011](https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_September_2011)
+- [Category:Use dmy dates from August 2020](https://en.wikipedia.org/wiki/Category:Use_dmy_dates_from_August_2020)
+
+---
+_This article is part of the Python Programming Language wiki archive._
+_Retrieved and archived on: 2024-12-14T19:34:44.070056+00:00_

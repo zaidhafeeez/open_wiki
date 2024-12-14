@@ -2,7 +2,7 @@
 
 ## Article Metadata
 
-- **Last Updated:** 2024-12-14T17:15:19.017823+00:00
+- **Last Updated:** 2024-12-14T19:32:29.693948+00:00
 - **Original Article:** [Append](https://en.wikipedia.org/wiki/Append)
 - **Language:** en
 - **Page ID:** 4334924
@@ -155,4 +155,4 @@ Steele, Guy L. Jr. (1990). "Common Lisp: The Language" (2nd ed.): 418. {{cite jo
 
 ---
 _This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-14T17:15:19.017823+00:00_
+_Retrieved and archived on: 2024-12-14T19:32:29.693948+00:00_

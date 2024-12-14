@@ -1,12 +1,18 @@
 # Python syntax and semantics
 
-_Last updated: 2024-12-14T15:38:45.915411_
+## Article Metadata
 
-**Original Article:** [Python syntax and semantics](https://en.wikipedia.org/wiki/Python_syntax_and_semantics)
+- **Last Updated:** 2024-12-14T19:31:29.595047+00:00
+- **Original Article:** [Python syntax and semantics](https://en.wikipedia.org/wiki/Python_syntax_and_semantics)
+- **Language:** en
+- **Page ID:** 5250192
 
-**Summary:** The syntax of the Python programming language is the set of rules that defines how a Python program will be written and interpreted (by both the runtime system and by human readers). The Python language has many similarities to Perl, C, and Java. However, there are some definite differences between the languages. It supports multiple programming paradigms, including structured, object-oriented programming, and functional programming, and boasts a dynamic type system and automatic memory manageme
+## Summary
+
+The syntax of the Python programming language is the set of rules that defines how a Python program will be written and interpreted (by both the runtime system and by human readers). The Python language has many similarities to Perl, C, and Java. However, there are some definite differences between the languages. It supports multiple programming paradigms, including structured, object-oriented programming, and functional programming, and boasts a dynamic type system and automatic memory manageme
 
 ## Categories
+
 - Category:All articles lacking reliable references
 - Category:Articles lacking reliable references from March 2021
 - Category:Articles with example C code
@@ -18,6 +24,24 @@ _Last updated: 2024-12-14T15:38:45.915411_
 - Category:Webarchive template wayback links
 - Category:Wikipedia articles needing clarification from April 2015
 - Category:Wikipedia articles needing clarification from March 2021
+
+## Table of Contents
+
+- Design philosophy
+- Keywords
+- Indentation
+- Data structures
+- Literals
+- Operators
+- Functional programming
+- Objects
+- Exceptions
+- Comments and docstrings
+- Function annotations
+- Decorators
+- Easter eggs
+- References
+- External links
 
 ## Content
 
@@ -267,3 +291,163 @@ External links
 "The Python Language Reference".
 Van Rossum, Guido. "The Python Tutorial". (written by the author of Python)
 Ramalho, Luciano (April 2022). Fluent Python, 2nd Edition. O'Reilly Media, Inc. ISBN 9781492056355.
+
+## Related Articles
+
+### Internal Links
+
+- [ABC (programming language)](https://en.wikipedia.org/wiki/ABC_(programming_language))
+- [ALGOL](https://en.wikipedia.org/wiki/ALGOL)
+- [Advice (programming)](https://en.wikipedia.org/wiki/Advice_(programming))
+- [Alex Martelli](https://en.wikipedia.org/wiki/Alex_Martelli)
+- [Anonymous function](https://en.wikipedia.org/wiki/Anonymous_function)
+- [Arbitrary-precision arithmetic](https://en.wikipedia.org/wiki/Arbitrary-precision_arithmetic)
+- [Array (data type)](https://en.wikipedia.org/wiki/Array_(data_type))
+- [Best, worst and average case](https://en.wikipedia.org/wiki/Best,_worst_and_average_case)
+- [Backporting](https://en.wikipedia.org/wiki/Backporting)
+- [Block (programming)](https://en.wikipedia.org/wiki/Block_(programming))
+- [Boolean data type](https://en.wikipedia.org/wiki/Boolean_data_type)
+- [C++](https://en.wikipedia.org/wiki/C%2B%2B)
+- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
+- [C Sharp (programming language)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
+- [C Sharp syntax](https://en.wikipedia.org/wiki/C_Sharp_syntax)
+- [Character (computing)](https://en.wikipedia.org/wiki/Character_(computing))
+- [Class hierarchy](https://en.wikipedia.org/wiki/Class_hierarchy)
+- [Method (computer programming)](https://en.wikipedia.org/wiki/Method_(computer_programming))
+- [Closure (computer programming)](https://en.wikipedia.org/wiki/Closure_(computer_programming))
+- [Closure (computer programming)](https://en.wikipedia.org/wiki/Closure_(computer_programming))
+- [Code](https://en.wikipedia.org/wiki/Code)
+- [Coding conventions](https://en.wikipedia.org/wiki/Coding_conventions)
+- [Collection (abstract data type)](https://en.wikipedia.org/wiki/Collection_(abstract_data_type))
+- [Compiler](https://en.wikipedia.org/wiki/Compiler)
+- [Complex number](https://en.wikipedia.org/wiki/Complex_number)
+- [Control flow](https://en.wikipedia.org/wiki/Control_flow)
+- [List of programming languages by type](https://en.wikipedia.org/wiki/List_of_programming_languages_by_type)
+- [Data type](https://en.wikipedia.org/wiki/Data_type)
+- [Debugger](https://en.wikipedia.org/wiki/Debugger)
+- [Decimal data type](https://en.wikipedia.org/wiki/Decimal_data_type)
+- [Decorator pattern](https://en.wikipedia.org/wiki/Decorator_pattern)
+- [Design pattern](https://en.wikipedia.org/wiki/Design_pattern)
+- [Docstring](https://en.wikipedia.org/wiki/Docstring)
+- [Doctest](https://en.wikipedia.org/wiki/Doctest)
+- [Duck typing](https://en.wikipedia.org/wiki/Duck_typing)
+- [Duck typing](https://en.wikipedia.org/wiki/Duck_typing)
+- [Type system](https://en.wikipedia.org/wiki/Type_system)
+- [Easter egg (media)](https://en.wikipedia.org/wiki/Easter_egg_(media))
+- [English language](https://en.wikipedia.org/wiki/English_language)
+- [Exception handling](https://en.wikipedia.org/wiki/Exception_handling)
+- [Exponentiation](https://en.wikipedia.org/wiki/Exponentiation)
+- [Expression (computer science)](https://en.wikipedia.org/wiki/Expression_(computer_science))
+- [Factory (object-oriented programming)](https://en.wikipedia.org/wiki/Factory_(object-oriented_programming))
+- [Finite difference](https://en.wikipedia.org/wiki/Finite_difference)
+- [First-class function](https://en.wikipedia.org/wiki/First-class_function)
+- [Floating-point arithmetic](https://en.wikipedia.org/wiki/Floating-point_arithmetic)
+- [Floor and ceiling functions](https://en.wikipedia.org/wiki/Floor_and_ceiling_functions)
+- [Function (computer programming)](https://en.wikipedia.org/wiki/Function_(computer_programming))
+- [Functional programming](https://en.wikipedia.org/wiki/Functional_programming)
+- [GNU Mailman](https://en.wikipedia.org/wiki/GNU_Mailman)
+- [Generator (computer programming)](https://en.wikipedia.org/wiki/Generator_(computer_programming))
+- [Global variable](https://en.wikipedia.org/wiki/Global_variable)
+- [Grace Hopper](https://en.wikipedia.org/wiki/Grace_Hopper)
+- [Apache Groovy](https://en.wikipedia.org/wiki/Apache_Groovy)
+- [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum)
+- [Hash function](https://en.wikipedia.org/wiki/Hash_function)
+- [Here document](https://en.wikipedia.org/wiki/Here_document)
+- [IEEE 754-2008 revision](https://en.wikipedia.org/wiki/IEEE_754-2008_revision)
+- [ISBN](https://en.wikipedia.org/wiki/ISBN)
+- [Identifier (computer languages)](https://en.wikipedia.org/wiki/Identifier_(computer_languages))
+- [Immutable object](https://en.wikipedia.org/wiki/Immutable_object)
+- [In-place algorithm](https://en.wikipedia.org/wiki/In-place_algorithm)
+- [Indentation style](https://en.wikipedia.org/wiki/Indentation_style)
+- [Infinite loop](https://en.wikipedia.org/wiki/Infinite_loop)
+- [Information hiding](https://en.wikipedia.org/wiki/Information_hiding)
+- [Inheritance (object-oriented programming)](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming))
+- [Integer (computer science)](https://en.wikipedia.org/wiki/Integer_(computer_science))
+- [Division (mathematics)](https://en.wikipedia.org/wiki/Division_(mathematics))
+- [Interpreter (computing)](https://en.wikipedia.org/wiki/Interpreter_(computing))
+- [Intersection (set theory)](https://en.wikipedia.org/wiki/Intersection_(set_theory))
+- [Type introspection](https://en.wikipedia.org/wiki/Type_introspection)
+- [Java (programming language)](https://en.wikipedia.org/wiki/Java_(programming_language))
+- [Java annotation](https://en.wikipedia.org/wiki/Java_annotation)
+- [Lazy evaluation](https://en.wikipedia.org/wiki/Lazy_evaluation)
+- [List comprehension](https://en.wikipedia.org/wiki/List_comprehension)
+- [Memoization](https://en.wikipedia.org/wiki/Memoization)
+- [Metaclass](https://en.wikipedia.org/wiki/Metaclass)
+- [Metaprogramming](https://en.wikipedia.org/wiki/Metaprogramming)
+- [Short-circuit evaluation](https://en.wikipedia.org/wiki/Short-circuit_evaluation)
+- [Mixin](https://en.wikipedia.org/wiki/Mixin)
+- [Modulo](https://en.wikipedia.org/wiki/Modulo)
+- [Multiple inheritance](https://en.wikipedia.org/wiki/Multiple_inheritance)
+- [Naive set theory](https://en.wikipedia.org/wiki/Naive_set_theory)
+- [Name mangling](https://en.wikipedia.org/wiki/Name_mangling)
+- [Newline](https://en.wikipedia.org/wiki/Newline)
+- [Data type](https://en.wikipedia.org/wiki/Data_type)
+- [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
+- [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
+- [Off-side rule](https://en.wikipedia.org/wiki/Off-side_rule)
+- [Operator overloading](https://en.wikipedia.org/wiki/Operator_overloading)
+- [Order of operations](https://en.wikipedia.org/wiki/Order_of_operations)
+- [Parameter (computer programming)](https://en.wikipedia.org/wiki/Parameter_(computer_programming))
+- [Perl](https://en.wikipedia.org/wiki/Perl)
+- [Polymorphism (computer science)](https://en.wikipedia.org/wiki/Polymorphism_(computer_science))
+- [Postcondition](https://en.wikipedia.org/wiki/Postcondition)
+- [Precondition](https://en.wikipedia.org/wiki/Precondition)
+- [Prettyprint](https://en.wikipedia.org/wiki/Prettyprint)
+- [Programming paradigm](https://en.wikipedia.org/wiki/Programming_paradigm)
+- [Pydoc](https://en.wikipedia.org/wiki/Pydoc)
+- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
+- [Quicksort](https://en.wikipedia.org/wiki/Quicksort)
+- [Race condition](https://en.wikipedia.org/wiki/Race_condition)
+- [String literal](https://en.wikipedia.org/wiki/String_literal)
+- [Computer programming](https://en.wikipedia.org/wiki/Computer_programming)
+- [Recursion (computer science)](https://en.wikipedia.org/wiki/Recursion_(computer_science))
+- [Reference (computer science)](https://en.wikipedia.org/wiki/Reference_(computer_science))
+- [Referential transparency](https://en.wikipedia.org/wiki/Referential_transparency)
+- [Regular expression](https://en.wikipedia.org/wiki/Regular_expression)
+- [Complement (set theory)](https://en.wikipedia.org/wiki/Complement_(set_theory))
+- [Reserved word](https://en.wikipedia.org/wiki/Reserved_word)
+- [Ruby (programming language)](https://en.wikipedia.org/wiki/Ruby_(programming_language))
+- [Runtime system](https://en.wikipedia.org/wiki/Runtime_system)
+- [Scope (computer science)](https://en.wikipedia.org/wiki/Scope_(computer_science))
+- [Set (abstract data type)](https://en.wikipedia.org/wiki/Set_(abstract_data_type))
+- [Set (mathematics)](https://en.wikipedia.org/wiki/Set_(mathematics))
+- [Short-circuit evaluation](https://en.wikipedia.org/wiki/Short-circuit_evaluation)
+- [Space (punctuation)](https://en.wikipedia.org/wiki/Space_(punctuation))
+- [Spam (Monty Python sketch)](https://en.wikipedia.org/wiki/Spam_(Monty_Python_sketch))
+- [Statement (computer science)](https://en.wikipedia.org/wiki/Statement_(computer_science))
+- [Method (computer programming)](https://en.wikipedia.org/wiki/Method_(computer_programming))
+- [Type system](https://en.wikipedia.org/wiki/Type_system)
+- [String (computer science)](https://en.wikipedia.org/wiki/String_(computer_science))
+- [String interpolation](https://en.wikipedia.org/wiki/String_interpolation)
+- [String literal](https://en.wikipedia.org/wiki/String_literal)
+- [Subset](https://en.wikipedia.org/wiki/Subset)
+- [Symmetric difference](https://en.wikipedia.org/wiki/Symmetric_difference)
+- [Synchronization](https://en.wikipedia.org/wiki/Synchronization)
+- [Syntactic sugar](https://en.wikipedia.org/wiki/Syntactic_sugar)
+- [Syntax (programming languages)](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
+- [Tab key](https://en.wikipedia.org/wiki/Tab_key)
+- [Tail call](https://en.wikipedia.org/wiki/Tail_call)
+- [Perl](https://en.wikipedia.org/wiki/Perl)
+- [Thread (computing)](https://en.wikipedia.org/wiki/Thread_(computing))
+- [Time-of-check to time-of-use](https://en.wikipedia.org/wiki/Time-of-check_to_time-of-use)
+- [Tracing (software)](https://en.wikipedia.org/wiki/Tracing_(software))
+- [Tuple](https://en.wikipedia.org/wiki/Tuple)
+- [Type conversion](https://en.wikipedia.org/wiki/Type_conversion)
+- [UTF-8](https://en.wikipedia.org/wiki/UTF-8)
+- [Union (set theory)](https://en.wikipedia.org/wiki/Union_(set_theory))
+- [Variable (computer science)](https://en.wikipedia.org/wiki/Variable_(computer_science))
+- [Wayback Machine](https://en.wikipedia.org/wiki/Wayback_Machine)
+- [Whitespace character](https://en.wikipedia.org/wiki/Whitespace_character)
+- [Microsoft Windows](https://en.wikipedia.org/wiki/Microsoft_Windows)
+- [Xkcd](https://en.wikipedia.org/wiki/Xkcd)
+- [Zen of Python](https://en.wikipedia.org/wiki/Zen_of_Python)
+- [Zero-based numbering](https://en.wikipedia.org/wiki/Zero-based_numbering)
+- [Wikipedia:Please clarify](https://en.wikipedia.org/wiki/Wikipedia:Please_clarify)
+- [Wikipedia:Reliable sources](https://en.wikipedia.org/wiki/Wikipedia:Reliable_sources)
+- [Category:Articles lacking reliable references from March 2021](https://en.wikipedia.org/wiki/Category:Articles_lacking_reliable_references_from_March_2021)
+- [Category:Wikipedia articles needing clarification from April 2015](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_needing_clarification_from_April_2015)
+- [Category:Wikipedia articles needing clarification from March 2021](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_needing_clarification_from_March_2021)
+
+---
+_This article is part of the Python Programming Language wiki archive._
+_Retrieved and archived on: 2024-12-14T19:31:29.595047+00:00_

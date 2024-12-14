@@ -1,13 +1,19 @@
 # COMEFROM
 
-_Last updated: 2024-12-14T15:40:23.237458_
+## Article Metadata
 
-**Original Article:** [COMEFROM](https://en.wikipedia.org/wiki/COMEFROM)
+- **Last Updated:** 2024-12-14T19:35:01.992291+00:00
+- **Original Article:** [COMEFROM](https://en.wikipedia.org/wiki/COMEFROM)
+- **Language:** en
+- **Page ID:** 994284
 
-**Summary:** In computer programming, COMEFROM (or COME FROM) is an obscure control flow structure used in some programming languages, originally as a joke. COMEFROM is the inverse of GOTO in that it can take the execution state from any arbitrary point in code to a COMEFROM statement.
+## Summary
+
+In computer programming, COMEFROM (or COME FROM) is an obscure control flow structure used in some programming languages, originally as a joke. COMEFROM is the inverse of GOTO in that it can take the execution state from any arbitrary point in code to a COMEFROM statement.
 The point in code where the state transfer happens is usually given as a parameter to COMEFROM. Whether the transfer happens before or after the instruction at the specified transfer point depends on the language used. Dependi
 
 ## Categories
+
 - Category:All articles with unsourced statements
 - Category:Articles with example Python (programming language) code
 - Category:Articles with short description
@@ -15,6 +21,14 @@ The point in code where the state transfer happens is usually given as a paramet
 - Category:Computer humour
 - Category:Control flow
 - Category:Short description matches Wikidata
+
+## Table of Contents
+
+- History
+- Practical uses
+- See also
+- References
+- External links
 
 ## Content
 
@@ -65,3 +79,48 @@ COMEFROM Information Page
 Datamation Article
 Joke Assembler Instruction List Including CMFRM
 comefrom support for Perl
+
+## Related Articles
+
+### Internal Links
+
+- [Action at a distance (computer programming)](https://en.wikipedia.org/wiki/Action_at_a_distance_(computer_programming))
+- [April Fools' Day](https://en.wikipedia.org/wiki/April_Fools%27_Day)
+- [Aspect-oriented programming](https://en.wikipedia.org/wiki/Aspect-oriented_programming)
+- [Assembly language](https://en.wikipedia.org/wiki/Assembly_language)
+- [BASIC](https://en.wikipedia.org/wiki/BASIC)
+- [Breakpoint](https://en.wikipedia.org/wiki/Breakpoint)
+- [Comment (computer programming)](https://en.wikipedia.org/wiki/Comment_(computer_programming))
+- [Computer program](https://en.wikipedia.org/wiki/Computer_program)
+- [Concurrent computing](https://en.wikipedia.org/wiki/Concurrent_computing)
+- [Continuation](https://en.wikipedia.org/wiki/Continuation)
+- [Control flow](https://en.wikipedia.org/wiki/Control_flow)
+- [Database trigger](https://en.wikipedia.org/wiki/Database_trigger)
+- [Datamation](https://en.wikipedia.org/wiki/Datamation)
+- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
+- [Edsger W. Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra)
+- [Esoteric programming language](https://en.wikipedia.org/wiki/Esoteric_programming_language)
+- [Event-driven programming](https://en.wikipedia.org/wiki/Event-driven_programming)
+- [Michael W. Shields](https://en.wikipedia.org/wiki/Michael_W._Shields)
+- [Fortran](https://en.wikipedia.org/wiki/Fortran)
+- [Goto](https://en.wikipedia.org/wiki/Goto)
+- [Goto](https://en.wikipedia.org/wiki/Goto)
+- [INTERCAL](https://en.wikipedia.org/wiki/INTERCAL)
+- [Label (computer science)](https://en.wikipedia.org/wiki/Label_(computer_science))
+- [Linux kernel](https://en.wikipedia.org/wiki/Linux_kernel)
+- [MATLAB](https://en.wikipedia.org/wiki/MATLAB)
+- [NOP (code)](https://en.wikipedia.org/wiki/NOP_(code))
+- [Observer pattern](https://en.wikipedia.org/wiki/Observer_pattern)
+- [Parallel computing](https://en.wikipedia.org/wiki/Parallel_computing)
+- [Parameter (computer programming)](https://en.wikipedia.org/wiki/Parameter_(computer_programming))
+- [Pointcut](https://en.wikipedia.org/wiki/Pointcut)
+- [Programming language](https://en.wikipedia.org/wiki/Programming_language)
+- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
+- [Ruby (programming language)](https://en.wikipedia.org/wiki/Ruby_(programming_language))
+- [Webhook](https://en.wikipedia.org/wiki/Webhook)
+- [Wikipedia:Citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed)
+- [Category:Articles with unsourced statements from September 2019](https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_September_2019)
+
+---
+_This article is part of the Python Programming Language wiki archive._
+_Retrieved and archived on: 2024-12-14T19:35:01.992291+00:00_

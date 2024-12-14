@@ -1,15 +1,21 @@
 # Autovivification
 
-_Last updated: 2024-12-14T15:39:23.318838_
+## Article Metadata
 
-**Original Article:** [Autovivification](https://en.wikipedia.org/wiki/Autovivification)
+- **Last Updated:** 2024-12-14T19:32:45.428873+00:00
+- **Original Article:** [Autovivification](https://en.wikipedia.org/wiki/Autovivification)
+- **Language:** en
+- **Page ID:** 1176875
 
-**Summary:** In the Perl programming language, autovivification is the automatic creation of new arrays and hashes as required every time an undefined value is dereferenced. Perl autovivification allows a programmer to refer to a structured variable, and arbitrary sub-elements of that structured variable, without expressly declaring the existence of the variable and its complete structure beforehand.
+## Summary
+
+In the Perl programming language, autovivification is the automatic creation of new arrays and hashes as required every time an undefined value is dereferenced. Perl autovivification allows a programmer to refer to a structured variable, and arbitrary sub-elements of that structured variable, without expressly declaring the existence of the variable and its complete structure beforehand.
 In contrast, other programming languages either:
 
 Require a programmer to expressly declare an entire variabl
 
 ## Categories
+
 - Category:All articles lacking reliable references
 - Category:All articles with failed verification
 - Category:Articles lacking reliable references from August 2024
@@ -23,6 +29,16 @@ Require a programmer to expressly declare an entire variabl
 - Category:Evaluation strategy
 - Category:Management cybernetics
 - Category:Perl
+
+## Table of Contents
+
+- Hashes
+- File and directory handles
+- Emulation in other programming languages
+- See also
+- Notes
+- References
+- External links
 
 ## Content
 
@@ -90,3 +106,34 @@ Autovivification in Ruby - emulate Perl's autovivification
 A Use of the Y Combinator in Ruby - Implements autovivification in Ruby with the Y Combinator.
 Hash#autonew in the Ruby gem "facets" adds autovivification on hash reads
 The Ruby gem "xkeys" facilitates nested structure traversal and autovivifies on array or hash writes
+
+## Related Articles
+
+### Internal Links
+
+- [Array (data structure)](https://en.wikipedia.org/wiki/Array_(data_structure))
+- [C++ Standard Library](https://en.wikipedia.org/wiki/C%2B%2B_Standard_Library)
+- [Pointer (computer programming)](https://en.wikipedia.org/wiki/Pointer_(computer_programming))
+- [ECMAScript version history](https://en.wikipedia.org/wiki/ECMAScript_version_history)
+- [Evaluation strategy](https://en.wikipedia.org/wiki/Evaluation_strategy)
+- [Hash table](https://en.wikipedia.org/wiki/Hash_table)
+- [ISBN](https://en.wikipedia.org/wiki/ISBN)
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+- [Null pointer](https://en.wikipedia.org/wiki/Null_pointer)
+- [PHP](https://en.wikipedia.org/wiki/PHP)
+- [Perl](https://en.wikipedia.org/wiki/Perl)
+- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
+- [Ruby (programming language)](https://en.wikipedia.org/wiki/Ruby_(programming_language))
+- [Segmentation fault](https://en.wikipedia.org/wiki/Segmentation_fault)
+- [Inheritance (object-oriented programming)](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming))
+- [Perl language structure](https://en.wikipedia.org/wiki/Perl_language_structure)
+- [Variable (computer science)](https://en.wikipedia.org/wiki/Variable_(computer_science))
+- [Vivification](https://en.wikipedia.org/wiki/Vivification)
+- [Wikipedia:Reliable sources](https://en.wikipedia.org/wiki/Wikipedia:Reliable_sources)
+- [Wikipedia:Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)
+- [Category:Articles lacking reliable references from August 2024](https://en.wikipedia.org/wiki/Category:Articles_lacking_reliable_references_from_August_2024)
+- [Category:Articles with failed verification from August 2024](https://en.wikipedia.org/wiki/Category:Articles_with_failed_verification_from_August_2024)
+
+---
+_This article is part of the Python Programming Language wiki archive._
+_Retrieved and archived on: 2024-12-14T19:32:45.428873+00:00_

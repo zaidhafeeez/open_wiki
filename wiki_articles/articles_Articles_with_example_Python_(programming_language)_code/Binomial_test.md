@@ -1,12 +1,18 @@
 # Binomial test
 
-_Last updated: 2024-12-14T15:39:45.420585_
+## Article Metadata
 
-**Original Article:** [Binomial test](https://en.wikipedia.org/wiki/Binomial_test)
+- **Last Updated:** 2024-12-14T19:33:56.140876+00:00
+- **Original Article:** [Binomial test](https://en.wikipedia.org/wiki/Binomial_test)
+- **Language:** en
+- **Page ID:** 935655
 
-**Summary:** Binomial test is an exact test of the statistical significance of deviations from a theoretically expected distribution of observations into two categories using sample data.
+## Summary
+
+Binomial test is an exact test of the statistical significance of deviations from a theoretically expected distribution of observations into two categories using sample data.
 
 ## Categories
+
 - Category:All articles needing additional references
 - Category:Articles needing additional references from November 2016
 - Category:Articles with example Java code
@@ -16,6 +22,18 @@ _Last updated: 2024-12-14T15:39:45.420585_
 - Category:Articles with short description
 - Category:Short description is different from Wikidata
 - Category:Statistical tests
+
+## Table of Contents
+
+- Usage
+- Common use
+- Large samples
+- Example
+- In statistical software packages
+- See also
+- References
+- Further reading
+- External links
 
 ## Content
 
@@ -984,3 +1002,47 @@ Dougherty, Edward R. (1990). "Testing a Proportion". Probability and Statistics 
 External links
 Binomial Probability Calculator
 "The binomial test". www.graphpad.com.
+
+## Related Articles
+
+### Internal Links
+
+- [Apache Commons](https://en.wikipedia.org/wiki/Apache_Commons)
+- [Binomial distribution](https://en.wikipedia.org/wiki/Binomial_distribution)
+- [Board game](https://en.wikipedia.org/wiki/Board_game)
+- [Effect size](https://en.wikipedia.org/wiki/Effect_size)
+- [Cohen's h](https://en.wikipedia.org/wiki/Cohen%27s_h)
+- [Continuity correction](https://en.wikipedia.org/wiki/Continuity_correction)
+- [Probability distribution](https://en.wikipedia.org/wiki/Probability_distribution)
+- [Dice](https://en.wikipedia.org/wiki/Dice)
+- [Exact test](https://en.wikipedia.org/wiki/Exact_test)
+- [G-test](https://en.wikipedia.org/wiki/G-test)
+- [ISBN](https://en.wikipedia.org/wiki/ISBN)
+- [Java (programming language)](https://en.wikipedia.org/wiki/Java_(programming_language))
+- [Lady tasting tea](https://en.wikipedia.org/wiki/Lady_tasting_tea)
+- [MATLAB](https://en.wikipedia.org/wiki/MATLAB)
+- [Microsoft Excel](https://en.wikipedia.org/wiki/Microsoft_Excel)
+- [Multinomial distribution](https://en.wikipedia.org/wiki/Multinomial_distribution)
+- [Multinomial test](https://en.wikipedia.org/wiki/Multinomial_test)
+- [Null hypothesis](https://en.wikipedia.org/wiki/Null_hypothesis)
+- [One- and two-tailed tests](https://en.wikipedia.org/wiki/One-_and_two-tailed_tests)
+- [P-value](https://en.wikipedia.org/wiki/P-value)
+- [Pearson's chi-squared test](https://en.wikipedia.org/wiki/Pearson%27s_chi-squared_test)
+- [Probability mass function](https://en.wikipedia.org/wiki/Probability_mass_function)
+- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
+- [R (programming language)](https://en.wikipedia.org/wiki/R_(programming_language))
+- [SAS (software)](https://en.wikipedia.org/wiki/SAS_(software))
+- [SPSS](https://en.wikipedia.org/wiki/SPSS)
+- [SciPy](https://en.wikipedia.org/wiki/SciPy)
+- [Stata](https://en.wikipedia.org/wiki/Stata)
+- [Statistical hypothesis test](https://en.wikipedia.org/wiki/Statistical_hypothesis_test)
+- [Statistical significance](https://en.wikipedia.org/wiki/Statistical_significance)
+- [Z-test](https://en.wikipedia.org/wiki/Z-test)
+- [Wikipedia:Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)
+- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
+- [Help:Referencing for beginners](https://en.wikipedia.org/wiki/Help:Referencing_for_beginners)
+- [Category:Articles needing additional references from November 2016](https://en.wikipedia.org/wiki/Category:Articles_needing_additional_references_from_November_2016)
+
+---
+_This article is part of the Python Programming Language wiki archive._
+_Retrieved and archived on: 2024-12-14T19:33:56.140876+00:00_

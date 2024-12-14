@@ -1,13 +1,19 @@
 # Docstring
 
-_Last updated: 2024-12-14T15:35:30.176866_
+## Article Metadata
 
-**Original Article:** [Docstring](https://en.wikipedia.org/wiki/Docstring)
+- **Last Updated:** 2024-12-14T19:29:38.127172+00:00
+- **Original Article:** [Docstring](https://en.wikipedia.org/wiki/Docstring)
+- **Language:** en
+- **Page ID:** 4225907
 
-**Summary:** In programming, a docstring is a string literal specified in source code that is used, like a comment, to document a specific segment of code. Unlike conventional source code comments, or even specifically formatted comments like docblocks, docstrings are not stripped from the source tree when it is parsed and are retained throughout the runtime of the program. This allows the programmer to inspect these comments at run time, for instance as an interactive help system, or as metadata.
+## Summary
+
+In programming, a docstring is a string literal specified in source code that is used, like a comment, to document a specific segment of code. Unlike conventional source code comments, or even specifically formatted comments like docblocks, docstrings are not stripped from the source tree when it is parsed and are retained throughout the runtime of the program. This allows the programmer to inspect these comments at run time, for instance as an interactive help system, or as metadata.
 Languages 
 
 ## Categories
+
 - Category:Articles with short description
 - Category:Lisp (programming language)
 - Category:Programming constructs
@@ -15,6 +21,14 @@ Languages
 - Category:Short description matches Wikidata
 - Category:Source code documentation formats
 - Category:String (computer science)
+
+## Table of Contents
+
+- Implementation examples
+- Tools using docstrings
+- See also
+- References
+- External links
 
 ## Content
 
@@ -51,3 +65,39 @@ External links
 Python Docstrings at Epydoc's SourceForge page
 Documentation in GNU Emacs Lisp
 Section from the doxygen documentation about Python docstrings
+
+## Related Articles
+
+### Internal Links
+
+- [Clojure](https://en.wikipedia.org/wiki/Clojure)
+- [Cobra (programming language)](https://en.wikipedia.org/wiki/Cobra_(programming_language))
+- [Comment (computer programming)](https://en.wikipedia.org/wiki/Comment_(computer_programming))
+- [Common Lisp](https://en.wikipedia.org/wiki/Common_Lisp)
+- [Computer programming](https://en.wikipedia.org/wiki/Computer_programming)
+- [Comment (computer programming)](https://en.wikipedia.org/wiki/Comment_(computer_programming))
+- [Doctest](https://en.wikipedia.org/wiki/Doctest)
+- [Doxygen](https://en.wikipedia.org/wiki/Doxygen)
+- [Elixir (programming language)](https://en.wikipedia.org/wiki/Elixir_(programming_language))
+- [Epydoc](https://en.wikipedia.org/wiki/Epydoc)
+- [Cucumber (software)](https://en.wikipedia.org/wiki/Cucumber_(software))
+- [Haskell](https://en.wikipedia.org/wiki/Haskell)
+- [Julia (programming language)](https://en.wikipedia.org/wiki/Julia_(programming_language))
+- [Lisp (programming language)](https://en.wikipedia.org/wiki/Lisp_(programming_language))
+- [Literate programming](https://en.wikipedia.org/wiki/Literate_programming)
+- [Markdown](https://en.wikipedia.org/wiki/Markdown)
+- [Markup language](https://en.wikipedia.org/wiki/Markup_language)
+- [Metadata](https://en.wikipedia.org/wiki/Metadata)
+- [Parsing](https://en.wikipedia.org/wiki/Parsing)
+- [Plain Old Documentation](https://en.wikipedia.org/wiki/Plain_Old_Documentation)
+- [Pydoc](https://en.wikipedia.org/wiki/Pydoc)
+- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
+- [Execution (computing)](https://en.wikipedia.org/wiki/Execution_(computing))
+- [SourceForge](https://en.wikipedia.org/wiki/SourceForge)
+- [Source code](https://en.wikipedia.org/wiki/Source_code)
+- [Sphinx (documentation generator)](https://en.wikipedia.org/wiki/Sphinx_(documentation_generator))
+- [String literal](https://en.wikipedia.org/wiki/String_literal)
+
+---
+_This article is part of the Python Programming Language wiki archive._
+_Retrieved and archived on: 2024-12-14T19:29:38.127172+00:00_

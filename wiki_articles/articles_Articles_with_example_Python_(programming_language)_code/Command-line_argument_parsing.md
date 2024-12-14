@@ -1,12 +1,18 @@
 # Command-line argument parsing
 
-_Last updated: 2024-12-14T15:40:28.673169_
+## Article Metadata
 
-**Original Article:** [Command-line argument parsing](https://en.wikipedia.org/wiki/Command-line_argument_parsing)
+- **Last Updated:** 2024-12-14T19:35:07.868804+00:00
+- **Original Article:** [Command-line argument parsing](https://en.wikipedia.org/wiki/Command-line_argument_parsing)
+- **Language:** en
+- **Page ID:** 27256520
 
-**Summary:** Different command-line argument parsing methods are used by different programming languages to parse command-line arguments.
+## Summary
+
+Different command-line argument parsing methods are used by different programming languages to parse command-line arguments.
 
 ## Categories
+
 - Category:Articles with example Java code
 - Category:Articles with example PHP code
 - Category:Articles with example Python (programming language) code
@@ -14,6 +20,10 @@ _Last updated: 2024-12-14T15:40:28.673169_
 - Category:Articles with short description
 - Category:Command shells
 - Category:Short description matches Wikidata
+
+## Table of Contents
+
+- Programming languages
 
 ## Content
 
@@ -79,3 +89,32 @@ JavaScript written for Deno use Deno.args and the parseArgs function.
 
 
 == References ==
+
+## Related Articles
+
+### Internal Links
+
+- [AWK](https://en.wikipedia.org/wiki/AWK)
+- [Array (data structure)](https://en.wikipedia.org/wiki/Array_(data_structure))
+- [Bun (software)](https://en.wikipedia.org/wiki/Bun_(software))
+- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
+- [C Sharp (programming language)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
+- [C syntax](https://en.wikipedia.org/wiki/C_syntax)
+- [Command-line interface](https://en.wikipedia.org/wiki/Command-line_interface)
+- [Deno (software)](https://en.wikipedia.org/wiki/Deno_(software))
+- [Getopt](https://en.wikipedia.org/wiki/Getopt)
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+- [Java (programming language)](https://en.wikipedia.org/wiki/Java_(programming_language))
+- [Kotlin (programming language)](https://en.wikipedia.org/wiki/Kotlin_(programming_language))
+- [Node.js](https://en.wikipedia.org/wiki/Node.js)
+- [PHP](https://en.wikipedia.org/wiki/PHP)
+- [Parsing](https://en.wikipedia.org/wiki/Parsing)
+- [Perl](https://en.wikipedia.org/wiki/Perl)
+- [Programming language](https://en.wikipedia.org/wiki/Programming_language)
+- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
+- [Racket (programming language)](https://en.wikipedia.org/wiki/Racket_(programming_language))
+- [Rexx](https://en.wikipedia.org/wiki/Rexx)
+
+---
+_This article is part of the Python Programming Language wiki archive._
+_Retrieved and archived on: 2024-12-14T19:35:07.868804+00:00_

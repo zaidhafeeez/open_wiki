@@ -1,12 +1,18 @@
 # Django Girls
 
-_Last updated: 2024-12-14T15:35:26.601177_
+## Article Metadata
 
-**Original Article:** [Django Girls](https://en.wikipedia.org/wiki/Django_Girls)
+- **Last Updated:** 2024-12-14T19:29:37.171550+00:00
+- **Original Article:** [Django Girls](https://en.wikipedia.org/wiki/Django_Girls)
+- **Language:** en
+- **Page ID:** 54322333
 
-**Summary:** Django Girls is an international non-profit organization started by two Polish women, Ola Sitarska and Ola Sendecka, to inspire women from all backgrounds to get interested in technology and to become programmers, offering a safe and friendly environment. It is known for the free workshops it hosts to help women to learn to program and for its Django tutorial. It is often supported by the Python Software Foundation, and they often hold sessions at the Python Conference.
+## Summary
+
+Django Girls is an international non-profit organization started by two Polish women, Ola Sitarska and Ola Sendecka, to inspire women from all backgrounds to get interested in technology and to become programmers, offering a safe and friendly environment. It is known for the free workshops it hosts to help women to learn to program and for its Django tutorial. It is often supported by the Python Software Foundation, and they often hold sessions at the Python Conference.
 
 ## Categories
+
 - Category:All articles with dead external links
 - Category:All articles with unsourced statements
 - Category:Articles with dead external links from February 2024
@@ -25,6 +31,14 @@ _Last updated: 2024-12-14T15:35:26.601177_
 - Category:Women in computing
 - Category:Women in science and technology
 
+## Table of Contents
+
+- History
+- Tutorial
+- Django Girls workshops
+- References
+- External links
+
 ## Content
 
 Django Girls is an international non-profit organization started by two Polish women, Ola Sitarska and Ola Sendecka, to inspire women from all backgrounds to get interested in technology and to become programmers, offering a safe and friendly environment. It is known for the free workshops it hosts to help women to learn to program and for its Django tutorial. It is often supported by the Python Software Foundation, and they often hold sessions at the Python Conference.
@@ -41,3 +55,42 @@ Using a manual provided by the organization, Django Girls volunteers offer free 
 References
 External links
 Official website
+
+## Related Articles
+
+### Internal Links
+
+- [Accra](https://en.wikipedia.org/wiki/Accra)
+- [Argentina](https://en.wikipedia.org/wiki/Argentina)
+- [Athens](https://en.wikipedia.org/wiki/Athens)
+- [Australia](https://en.wikipedia.org/wiki/Australia)
+- [Berlin](https://en.wikipedia.org/wiki/Berlin)
+- [Bolivia](https://en.wikipedia.org/wiki/Bolivia)
+- [Brazil](https://en.wikipedia.org/wiki/Brazil)
+- [Colombia](https://en.wikipedia.org/wiki/Colombia)
+- [Django (web framework)](https://en.wikipedia.org/wiki/Django_(web_framework))
+- [Ecuador](https://en.wikipedia.org/wiki/Ecuador)
+- [Florence](https://en.wikipedia.org/wiki/Florence)
+- [Ghana](https://en.wikipedia.org/wiki/Ghana)
+- [Kathmandu](https://en.wikipedia.org/wiki/Kathmandu)
+- [Lagos](https://en.wikipedia.org/wiki/Lagos)
+- [Lahore](https://en.wikipedia.org/wiki/Lahore)
+- [Nigeria](https://en.wikipedia.org/wiki/Nigeria)
+- [Not-for-profit organization](https://en.wikipedia.org/wiki/Not-for-profit_organization)
+- [Oxford](https://en.wikipedia.org/wiki/Oxford)
+- [Peru](https://en.wikipedia.org/wiki/Peru)
+- [Python Conference](https://en.wikipedia.org/wiki/Python_Conference)
+- [Python Software Foundation](https://en.wikipedia.org/wiki/Python_Software_Foundation)
+- [São José dos Campos](https://en.wikipedia.org/wiki/S%C3%A3o_Jos%C3%A9_dos_Campos)
+- [United Kingdom](https://en.wikipedia.org/wiki/United_Kingdom)
+- [United States](https://en.wikipedia.org/wiki/United_States)
+- [Zimbabwe](https://en.wikipedia.org/wiki/Zimbabwe)
+- [Wikipedia:Citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed)
+- [Wikipedia:Link rot](https://en.wikipedia.org/wiki/Wikipedia:Link_rot)
+- [Category:Articles with dead external links from February 2024](https://en.wikipedia.org/wiki/Category:Articles_with_dead_external_links_from_February_2024)
+- [Category:Articles with unsourced statements from April 2022](https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_April_2022)
+- [Category:Use dmy dates from April 2022](https://en.wikipedia.org/wiki/Category:Use_dmy_dates_from_April_2022)
+
+---
+_This article is part of the Python Programming Language wiki archive._
+_Retrieved and archived on: 2024-12-14T19:29:37.171550+00:00_

@@ -1,13 +1,19 @@
 # Control flow
 
-_Last updated: 2024-12-14T15:40:45.161870_
+## Article Metadata
 
-**Original Article:** [Control flow](https://en.wikipedia.org/wiki/Control_flow)
+- **Last Updated:** 2024-12-14T19:35:47.962883+00:00
+- **Original Article:** [Control flow](https://en.wikipedia.org/wiki/Control_flow)
+- **Language:** en
+- **Page ID:** 45459
 
-**Summary:** In computer science, control flow (or flow of control) is the order in which individual statements, instructions or function calls of an imperative program are executed or evaluated. The emphasis on explicit control flow distinguishes an imperative programming language from a declarative programming language.
+## Summary
+
+In computer science, control flow (or flow of control) is the order in which individual statements, instructions or function calls of an imperative program are executed or evaluated. The emphasis on explicit control flow distinguishes an imperative programming language from a declarative programming language.
 Within an imperative programming language, a control flow statement is a statement that results in a choice being made as to which of two or more paths to follow. For non-strict functional 
 
 ## Categories
+
 - Category:All articles with unsourced statements
 - Category:Articles with example ALGOL 60 code
 - Category:Articles with example ALGOL 68 code
@@ -38,6 +44,23 @@ Within an imperative programming language, a control flow statement is a stateme
 - Category:Short description is different from Wikidata
 - Category:Webarchive template wayback links
 - Category:Wikipedia articles needing clarification from November 2015
+
+## Table of Contents
+
+- Categories
+- Primitives
+- Minimal structured control flow
+- Control structures in practice
+- Choice
+- Loops
+- Structured non-local control flow
+- Proposed control structures
+- Security
+- See also
+- Notes
+- References
+- Further reading
+- External links
 
 ## Content
 
@@ -343,3 +366,197 @@ Go To Statement Considered Harmful
 A Linguistic Contribution of GOTO-less Programming
 "Structured Programming with Go To Statements" (PDF). Archived from the original (PDF) on 2009-08-24. (2.88 MB)
 "IBM 704 Manual" (PDF). (31.4 MB)
+
+## Related Articles
+
+### Internal Links
+
+- [ACM Computing Surveys](https://en.wikipedia.org/wiki/ACM_Computing_Surveys)
+- [ALGOL](https://en.wikipedia.org/wiki/ALGOL)
+- [ALGOL 60](https://en.wikipedia.org/wiki/ALGOL_60)
+- [ALGOL 68](https://en.wikipedia.org/wiki/ALGOL_68)
+- [APL (programming language)](https://en.wikipedia.org/wiki/APL_(programming_language))
+- [Ada (programming language)](https://en.wikipedia.org/wiki/Ada_(programming_language))
+- [AppleScript](https://en.wikipedia.org/wiki/AppleScript)
+- [Arithmetic IF](https://en.wikipedia.org/wiki/Arithmetic_IF)
+- [Assembly language](https://en.wikipedia.org/wiki/Assembly_language)
+- [Asynchronous I/O](https://en.wikipedia.org/wiki/Asynchronous_I/O)
+- [Asynchrony (computer programming)](https://en.wikipedia.org/wiki/Asynchrony_(computer_programming))
+- [Asynchronous system](https://en.wikipedia.org/wiki/Asynchronous_system)
+- [BASIC](https://en.wikipedia.org/wiki/BASIC)
+- [Block (programming)](https://en.wikipedia.org/wiki/Block_(programming))
+- [Boolean data type](https://en.wikipedia.org/wiki/Boolean_data_type)
+- [Branch (computer science)](https://en.wikipedia.org/wiki/Branch_(computer_science))
+- [Buffer overflow protection](https://en.wikipedia.org/wiki/Buffer_overflow_protection)
+- [C++](https://en.wikipedia.org/wiki/C%2B%2B)
+- [C++11](https://en.wikipedia.org/wiki/C%2B%2B11)
+- [COBOL](https://en.wikipedia.org/wiki/COBOL)
+- [COMEFROM](https://en.wikipedia.org/wiki/COMEFROM)
+- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
+- [C Sharp (programming language)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
+- [C preprocessor](https://en.wikipedia.org/wiki/C_preprocessor)
+- [Central processing unit](https://en.wikipedia.org/wiki/Central_processing_unit)
+- [CiteSeerX](https://en.wikipedia.org/wiki/CiteSeerX)
+- [Class (computer programming)](https://en.wikipedia.org/wiki/Class_(computer_programming))
+- [Cooperative multitasking](https://en.wikipedia.org/wiki/Cooperative_multitasking)
+- [Duplicate code](https://en.wikipedia.org/wiki/Duplicate_code)
+- [Communications of the ACM](https://en.wikipedia.org/wiki/Communications_of_the_ACM)
+- [Common Lisp](https://en.wikipedia.org/wiki/Common_Lisp)
+- [Computer program](https://en.wikipedia.org/wiki/Computer_program)
+- [Computer science](https://en.wikipedia.org/wiki/Computer_science)
+- [Conditional (computer programming)](https://en.wikipedia.org/wiki/Conditional_(computer_programming))
+- [Branch (computer science)](https://en.wikipedia.org/wiki/Branch_(computer_science))
+- [Considered harmful](https://en.wikipedia.org/wiki/Considered_harmful)
+- [Container (abstract data type)](https://en.wikipedia.org/wiki/Container_(abstract_data_type))
+- [Continuation](https://en.wikipedia.org/wiki/Continuation)
+- [Control-flow diagram](https://en.wikipedia.org/wiki/Control-flow_diagram)
+- [Control-flow graph](https://en.wikipedia.org/wiki/Control-flow_graph)
+- [Control-flow integrity](https://en.wikipedia.org/wiki/Control-flow_integrity)
+- [Control break](https://en.wikipedia.org/wiki/Control_break)
+- [Control-flow analysis](https://en.wikipedia.org/wiki/Control-flow_analysis)
+- [Control table](https://en.wikipedia.org/wiki/Control_table)
+- [Coroutine](https://en.wikipedia.org/wiki/Coroutine)
+- [Coroutine](https://en.wikipedia.org/wiki/Coroutine)
+- [List of programming languages by type](https://en.wikipedia.org/wiki/List_of_programming_languages_by_type)
+- [Cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity)
+- [DRAKON](https://en.wikipedia.org/wiki/DRAKON)
+- [D (programming language)](https://en.wikipedia.org/wiki/D_(programming_language))
+- [Datamation](https://en.wikipedia.org/wiki/Datamation)
+- [David Watt (computer scientist)](https://en.wikipedia.org/wiki/David_Watt_(computer_scientist))
+- [Declarative programming](https://en.wikipedia.org/wiki/Declarative_programming)
+- [Default (computer science)](https://en.wikipedia.org/wiki/Default_(computer_science))
+- [Do while loop](https://en.wikipedia.org/wiki/Do_while_loop)
+- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
+- [Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth)
+- [Dynamic programming language](https://en.wikipedia.org/wiki/Dynamic_programming_language)
+- [Edsger W. Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra)
+- [Eiffel (programming language)](https://en.wikipedia.org/wiki/Eiffel_(programming_language))
+- [Eric S. Roberts](https://en.wikipedia.org/wiki/Eric_S._Roberts)
+- [Erlang (programming language)](https://en.wikipedia.org/wiki/Erlang_(programming_language))
+- [Esoteric programming language](https://en.wikipedia.org/wiki/Esoteric_programming_language)
+- [Exception handling](https://en.wikipedia.org/wiki/Exception_handling)
+- [Execution (computing)](https://en.wikipedia.org/wiki/Execution_(computing))
+- [Fortran](https://en.wikipedia.org/wiki/Fortran)
+- [F Sharp (programming language)](https://en.wikipedia.org/wiki/F_Sharp_(programming_language))
+- [Fixed-point combinator](https://en.wikipedia.org/wiki/Fixed-point_combinator)
+- [Flow control (data)](https://en.wikipedia.org/wiki/Flow_control_(data))
+- [Flowchart](https://en.wikipedia.org/wiki/Flowchart)
+- [For loop](https://en.wikipedia.org/wiki/For_loop)
+- [Foreach loop](https://en.wikipedia.org/wiki/Foreach_loop)
+- [Fortran](https://en.wikipedia.org/wiki/Fortran)
+- [Fortran](https://en.wikipedia.org/wiki/Fortran)
+- [Fortran](https://en.wikipedia.org/wiki/Fortran)
+- [Fortran](https://en.wikipedia.org/wiki/Fortran)
+- [Function (computer programming)](https://en.wikipedia.org/wiki/Function_(computer_programming))
+- [Functional programming](https://en.wikipedia.org/wiki/Functional_programming)
+- [Futures and promises](https://en.wikipedia.org/wiki/Futures_and_promises)
+- [Goto](https://en.wikipedia.org/wiki/Goto)
+- [Generator (computer programming)](https://en.wikipedia.org/wiki/Generator_(computer_programming))
+- [Generator (computer programming)](https://en.wikipedia.org/wiki/Generator_(computer_programming))
+- [GitHub](https://en.wikipedia.org/wiki/GitHub)
+- [Glob (programming)](https://en.wikipedia.org/wiki/Glob_(programming))
+- [Go (programming language)](https://en.wikipedia.org/wiki/Go_(programming_language))
+- [Goto](https://en.wikipedia.org/wiki/Goto)
+- [Haskell](https://en.wikipedia.org/wiki/Haskell)
+- [INTERCAL](https://en.wikipedia.org/wiki/INTERCAL)
+- [ISBN](https://en.wikipedia.org/wiki/ISBN)
+- [Identifier](https://en.wikipedia.org/wiki/Identifier)
+- [Imperative programming](https://en.wikipedia.org/wiki/Imperative_programming)
+- [Indentation style](https://en.wikipedia.org/wiki/Indentation_style)
+- [Infinite loop](https://en.wikipedia.org/wiki/Infinite_loop)
+- [Input/output](https://en.wikipedia.org/wiki/Input/output)
+- [Instruction set architecture](https://en.wikipedia.org/wiki/Instruction_set_architecture)
+- [Interlisp](https://en.wikipedia.org/wiki/Interlisp)
+- [Interrupt](https://en.wikipedia.org/wiki/Interrupt)
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+- [Java (programming language)](https://en.wikipedia.org/wiki/Java_(programming_language))
+- [Java Modeling Language](https://en.wikipedia.org/wiki/Java_Modeling_Language)
+- [Jeroo](https://en.wikipedia.org/wiki/Jeroo)
+- [Reserved word](https://en.wikipedia.org/wiki/Reserved_word)
+- [Label (computer science)](https://en.wikipedia.org/wiki/Label_(computer_science))
+- [Label (computer science)](https://en.wikipedia.org/wiki/Label_(computer_science))
+- [Language construct](https://en.wikipedia.org/wiki/Language_construct)
+- [Scope (computer science)](https://en.wikipedia.org/wiki/Scope_(computer_science))
+- [Line number](https://en.wikipedia.org/wiki/Line_number)
+- [Lisp (programming language)](https://en.wikipedia.org/wiki/Lisp_(programming_language))
+- [Lookup table](https://en.wikipedia.org/wiki/Lookup_table)
+- [While loop](https://en.wikipedia.org/wiki/While_loop)
+- [Loop invariant](https://en.wikipedia.org/wiki/Loop_invariant)
+- [Loop variant](https://en.wikipedia.org/wiki/Loop_variant)
+- [MATLAB](https://en.wikipedia.org/wiki/MATLAB)
+- [Machine code](https://en.wikipedia.org/wiki/Machine_code)
+- [Event loop](https://en.wikipedia.org/wiki/Event_loop)
+- [Mathias Payer](https://en.wikipedia.org/wiki/Mathias_Payer)
+- [Modula-2](https://en.wikipedia.org/wiki/Modula-2)
+- [Modular programming](https://en.wikipedia.org/wiki/Modular_programming)
+- [Name binding](https://en.wikipedia.org/wiki/Name_binding)
+- [Natural number](https://en.wikipedia.org/wiki/Natural_number)
+- [Strict programming language](https://en.wikipedia.org/wiki/Strict_programming_language)
+- [OCaml](https://en.wikipedia.org/wiki/OCaml)
+- [Object Pascal](https://en.wikipedia.org/wiki/Object_Pascal)
+- [Objective-C](https://en.wikipedia.org/wiki/Objective-C)
+- [Off-side rule](https://en.wikipedia.org/wiki/Off-side_rule)
+- [Ole-Johan Dahl](https://en.wikipedia.org/wiki/Ole-Johan_Dahl)
+- [One-instruction set computer](https://en.wikipedia.org/wiki/One-instruction_set_computer)
+- [Operator (computer programming)](https://en.wikipedia.org/wiki/Operator_(computer_programming))
+- [PHP](https://en.wikipedia.org/wiki/PHP)
+- [PL/I](https://en.wikipedia.org/wiki/PL/I)
+- [Pascal (programming language)](https://en.wikipedia.org/wiki/Pascal_(programming_language))
+- [Pattern matching](https://en.wikipedia.org/wiki/Pattern_matching)
+- [Perl](https://en.wikipedia.org/wiki/Perl)
+- [PowerShell](https://en.wikipedia.org/wiki/PowerShell)
+- [Program counter](https://en.wikipedia.org/wiki/Program_counter)
+- [Programming language](https://en.wikipedia.org/wiki/Programming_language)
+- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
+- [Rebol](https://en.wikipedia.org/wiki/Rebol)
+- [Recursion](https://en.wikipedia.org/wiki/Recursion)
+- [Recursion (computer science)](https://en.wikipedia.org/wiki/Recursion_(computer_science))
+- [Ruby (programming language)](https://en.wikipedia.org/wiki/Ruby_(programming_language))
+- [Rust (programming language)](https://en.wikipedia.org/wiki/Rust_(programming_language))
+- [S-algol](https://en.wikipedia.org/wiki/S-algol)
+- [S. Rao Kosaraju](https://en.wikipedia.org/wiki/S._Rao_Kosaraju)
+- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
+- [SQL](https://en.wikipedia.org/wiki/SQL)
+- [Scala (programming language)](https://en.wikipedia.org/wiki/Scala_(programming_language))
+- [Scheduling (computing)](https://en.wikipedia.org/wiki/Scheduling_(computing))
+- [Scheme (programming language)](https://en.wikipedia.org/wiki/Scheme_(programming_language))
+- [Server (computing)](https://en.wikipedia.org/wiki/Server_(computing))
+- [Shell script](https://en.wikipedia.org/wiki/Shell_script)
+- [Signal (IPC)](https://en.wikipedia.org/wiki/Signal_(IPC))
+- [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk)
+- [Software transactional memory](https://en.wikipedia.org/wiki/Software_transactional_memory)
+- [Source code](https://en.wikipedia.org/wiki/Source_code)
+- [Spaghetti code](https://en.wikipedia.org/wiki/Spaghetti_code)
+- [Stack buffer overflow](https://en.wikipedia.org/wiki/Stack_buffer_overflow)
+- [Standard ML](https://en.wikipedia.org/wiki/Standard_ML)
+- [Standard Template Library](https://en.wikipedia.org/wiki/Standard_Template_Library)
+- [State diagram](https://en.wikipedia.org/wiki/State_diagram)
+- [Statement (computer science)](https://en.wikipedia.org/wiki/Statement_(computer_science))
+- [Strict programming language](https://en.wikipedia.org/wiki/Strict_programming_language)
+- [Structured program theorem](https://en.wikipedia.org/wiki/Structured_program_theorem)
+- [Structured programming](https://en.wikipedia.org/wiki/Structured_programming)
+- [Function (computer programming)](https://en.wikipedia.org/wiki/Function_(computer_programming))
+- [Switch statement](https://en.wikipedia.org/wiki/Switch_statement)
+- [Tail call](https://en.wikipedia.org/wiki/Tail_call)
+- [Tcl](https://en.wikipedia.org/wiki/Tcl)
+- [Template (C++)](https://en.wikipedia.org/wiki/Template_(C%2B%2B))
+- [Ternary operation](https://en.wikipedia.org/wiki/Ternary_operation)
+- [Theoretical computer science](https://en.wikipedia.org/wiki/Theoretical_computer_science)
+- [Type class](https://en.wikipedia.org/wiki/Type_class)
+- [Unary function](https://en.wikipedia.org/wiki/Unary_function)
+- [Virtual method table](https://en.wikipedia.org/wiki/Virtual_method_table)
+- [Visual Basic](https://en.wikipedia.org/wiki/Visual_Basic)
+- [Visual Basic (.NET)](https://en.wikipedia.org/wiki/Visual_Basic_(.NET))
+- [Wayback Machine](https://en.wikipedia.org/wiki/Wayback_Machine)
+- [While loop](https://en.wikipedia.org/wiki/While_loop)
+- [Zahn's construct](https://en.wikipedia.org/wiki/Zahn%27s_construct)
+- [Wikipedia:Citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed)
+- [Wikipedia:Please clarify](https://en.wikipedia.org/wiki/Wikipedia:Please_clarify)
+- [Template:Loop constructs](https://en.wikipedia.org/wiki/Template:Loop_constructs)
+- [Template talk:Loop constructs](https://en.wikipedia.org/wiki/Template_talk:Loop_constructs)
+- [Category:Articles with unsourced statements from July 2014](https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_July_2014)
+- [Category:Wikipedia articles needing clarification from November 2015](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_needing_clarification_from_November_2015)
+
+---
+_This article is part of the Python Programming Language wiki archive._
+_Retrieved and archived on: 2024-12-14T19:35:47.962883+00:00_

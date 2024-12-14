@@ -1,13 +1,19 @@
 # Bogosort
 
-_Last updated: 2024-12-14T15:39:49.880585_
+## Article Metadata
 
-**Original Article:** [Bogosort](https://en.wikipedia.org/wiki/Bogosort)
+- **Last Updated:** 2024-12-14T19:34:02.046673+00:00
+- **Original Article:** [Bogosort](https://en.wikipedia.org/wiki/Bogosort)
+- **Language:** en
+- **Page ID:** 99870
 
-**Summary:** In computer science, bogosort (also known as permutation sort and stupid sort) is a sorting algorithm based on the generate and test paradigm. The function successively generates permutations of its input until it finds one that is sorted. It is not considered useful for sorting, but may be used for educational purposes, to contrast it with more efficient algorithms.
+## Summary
+
+In computer science, bogosort (also known as permutation sort and stupid sort) is a sorting algorithm based on the generate and test paradigm. The function successively generates permutations of its input until it finds one that is sorted. It is not considered useful for sorting, but may be used for educational purposes, to contrast it with more efficient algorithms.
 Two versions of this algorithm exist: a deterministic version that enumerates all permutations until it hits a sorted one, and a r
 
 ## Categories
+
 - Category:All articles with dead external links
 - Category:Articles with dead external links from July 2020
 - Category:Articles with example Python (programming language) code
@@ -16,6 +22,15 @@ Two versions of this algorithm exist: a deterministic version that enumerates al
 - Category:Comparison sorts
 - Category:Short description is different from Wikidata
 - Category:Use dmy dates from December 2021
+
+## Table of Contents
+
+- Description of the algorithm
+- Running time and termination
+- Related algorithms
+- See also
+- References
+- External links
 
 ## Content
 
@@ -162,3 +177,117 @@ Bogosort: an implementation that runs on Unix-like systems, similar to the stand
 Bogosort and jmmcg::bogosort: Simple, yet perverse, C++ implementations of the bogosort algorithm.
 Bogosort NPM package: bogosort implementation for Node.js ecosystem.
 Max Sherman Bogo-sort is Sort of Slow, June 2013
+
+## Related Articles
+
+### Internal Links
+
+- [Ackermann function](https://en.wikipedia.org/wiki/Ackermann_function)
+- [Adaptive sort](https://en.wikipedia.org/wiki/Adaptive_sort)
+- [Almost surely](https://en.wikipedia.org/wiki/Almost_surely)
+- [American flag sort](https://en.wikipedia.org/wiki/American_flag_sort)
+- [ArXiv](https://en.wikipedia.org/wiki/ArXiv)
+- [Array (data structure)](https://en.wikipedia.org/wiki/Array_(data_structure))
+- [Asymptotic analysis](https://en.wikipedia.org/wiki/Asymptotic_analysis)
+- [Batcher odd–even mergesort](https://en.wikipedia.org/wiki/Batcher_odd%E2%80%93even_mergesort)
+- [Bead sort](https://en.wikipedia.org/wiki/Bead_sort)
+- [Best, worst and average case](https://en.wikipedia.org/wiki/Best,_worst_and_average_case)
+- [Big O notation](https://en.wikipedia.org/wiki/Big_O_notation)
+- [Bitonic sorter](https://en.wikipedia.org/wiki/Bitonic_sorter)
+- [Block sort](https://en.wikipedia.org/wiki/Block_sort)
+- [Bubble sort](https://en.wikipedia.org/wiki/Bubble_sort)
+- [Bucket sort](https://en.wikipedia.org/wiki/Bucket_sort)
+- [Burstsort](https://en.wikipedia.org/wiki/Burstsort)
+- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
+- [Cartesian tree](https://en.wikipedia.org/wiki/Cartesian_tree)
+- [Cascade merge sort](https://en.wikipedia.org/wiki/Cascade_merge_sort)
+- [Cocktail shaker sort](https://en.wikipedia.org/wiki/Cocktail_shaker_sort)
+- [Comb sort](https://en.wikipedia.org/wiki/Comb_sort)
+- [Comparison sort](https://en.wikipedia.org/wiki/Comparison_sort)
+- [Computational complexity theory](https://en.wikipedia.org/wiki/Computational_complexity_theory)
+- [Computer science](https://en.wikipedia.org/wiki/Computer_science)
+- [Counting sort](https://en.wikipedia.org/wiki/Counting_sort)
+- [Cycle sort](https://en.wikipedia.org/wiki/Cycle_sort)
+- [Playing card](https://en.wikipedia.org/wiki/Playing_card)
+- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
+- [Expected value](https://en.wikipedia.org/wiki/Expected_value)
+- [Flashsort](https://en.wikipedia.org/wiki/Flashsort)
+- [Trial and error](https://en.wikipedia.org/wiki/Trial_and_error)
+- [Gnome sort](https://en.wikipedia.org/wiki/Gnome_sort)
+- [Google Code Jam](https://en.wikipedia.org/wiki/Google_Code_Jam)
+- [Heapsort](https://en.wikipedia.org/wiki/Heapsort)
+- [Hybrid algorithm](https://en.wikipedia.org/wiki/Hybrid_algorithm)
+- [ISBN](https://en.wikipedia.org/wiki/ISBN)
+- [In-joke](https://en.wikipedia.org/wiki/In-joke)
+- [In-place algorithm](https://en.wikipedia.org/wiki/In-place_algorithm)
+- [Infinite monkey theorem](https://en.wikipedia.org/wiki/Infinite_monkey_theorem)
+- [Insertion sort](https://en.wikipedia.org/wiki/Insertion_sort)
+- [Integer sorting](https://en.wikipedia.org/wiki/Integer_sorting)
+- [Interpolation sort](https://en.wikipedia.org/wiki/Interpolation_sort)
+- [Introsort](https://en.wikipedia.org/wiki/Introsort)
+- [Kirkpatrick–Reisch sort](https://en.wikipedia.org/wiki/Kirkpatrick%E2%80%93Reisch_sort)
+- [Las Vegas algorithm](https://en.wikipedia.org/wiki/Las_Vegas_algorithm)
+- [Lecture Notes in Computer Science](https://en.wikipedia.org/wiki/Lecture_Notes_in_Computer_Science)
+- [Library sort](https://en.wikipedia.org/wiki/Library_sort)
+- [List (abstract data type)](https://en.wikipedia.org/wiki/List_(abstract_data_type))
+- [Many-worlds interpretation](https://en.wikipedia.org/wiki/Many-worlds_interpretation)
+- [Merge-insertion sort](https://en.wikipedia.org/wiki/Merge-insertion_sort)
+- [Merge sort](https://en.wikipedia.org/wiki/Merge_sort)
+- [Miracle](https://en.wikipedia.org/wiki/Miracle)
+- [Odd–even sort](https://en.wikipedia.org/wiki/Odd%E2%80%93even_sort)
+- [Optimizing compiler](https://en.wikipedia.org/wiki/Optimizing_compiler)
+- [Oscillating merge sort](https://en.wikipedia.org/wiki/Oscillating_merge_sort)
+- [Pairwise sorting network](https://en.wikipedia.org/wiki/Pairwise_sorting_network)
+- [Pancake sorting](https://en.wikipedia.org/wiki/Pancake_sorting)
+- [Patience sorting](https://en.wikipedia.org/wiki/Patience_sorting)
+- [Permutation](https://en.wikipedia.org/wiki/Permutation)
+- [Pigeonhole sort](https://en.wikipedia.org/wiki/Pigeonhole_sort)
+- [Polyphase merge sort](https://en.wikipedia.org/wiki/Polyphase_merge_sort)
+- [Blend word](https://en.wikipedia.org/wiki/Blend_word)
+- [Pre-topological order](https://en.wikipedia.org/wiki/Pre-topological_order)
+- [Proportion extend sort](https://en.wikipedia.org/wiki/Proportion_extend_sort)
+- [Proxmap sort](https://en.wikipedia.org/wiki/Proxmap_sort)
+- [Pseudocode](https://en.wikipedia.org/wiki/Pseudocode)
+- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
+- [Quantum sort](https://en.wikipedia.org/wiki/Quantum_sort)
+- [Quicksort](https://en.wikipedia.org/wiki/Quicksort)
+- [Radix sort](https://en.wikipedia.org/wiki/Radix_sort)
+- [Randomized algorithm](https://en.wikipedia.org/wiki/Randomized_algorithm)
+- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
+- [Samplesort](https://en.wikipedia.org/wiki/Samplesort)
+- [Selection algorithm](https://en.wikipedia.org/wiki/Selection_algorithm)
+- [Selection sort](https://en.wikipedia.org/wiki/Selection_sort)
+- [Shellsort](https://en.wikipedia.org/wiki/Shellsort)
+- [Single-event upset](https://en.wikipedia.org/wiki/Single-event_upset)
+- [Slowsort](https://en.wikipedia.org/wiki/Slowsort)
+- [Smoothsort](https://en.wikipedia.org/wiki/Smoothsort)
+- [Sort (Unix)](https://en.wikipedia.org/wiki/Sort_(Unix))
+- [Sorting](https://en.wikipedia.org/wiki/Sorting)
+- [Sorting algorithm](https://en.wikipedia.org/wiki/Sorting_algorithm)
+- [Sorting network](https://en.wikipedia.org/wiki/Sorting_network)
+- [Space complexity](https://en.wikipedia.org/wiki/Space_complexity)
+- [Spaghetti sort](https://en.wikipedia.org/wiki/Spaghetti_sort)
+- [Splaysort](https://en.wikipedia.org/wiki/Splaysort)
+- [Spreadsort](https://en.wikipedia.org/wiki/Spreadsort)
+- [Stooge sort](https://en.wikipedia.org/wiki/Stooge_sort)
+- [Time complexity](https://en.wikipedia.org/wiki/Time_complexity)
+- [Timsort](https://en.wikipedia.org/wiki/Timsort)
+- [Topological sorting](https://en.wikipedia.org/wiki/Topological_sorting)
+- [Total order](https://en.wikipedia.org/wiki/Total_order)
+- [Tournament sort](https://en.wikipedia.org/wiki/Tournament_sort)
+- [Transdichotomous model](https://en.wikipedia.org/wiki/Transdichotomous_model)
+- [Tree sort](https://en.wikipedia.org/wiki/Tree_sort)
+- [Unix-like](https://en.wikipedia.org/wiki/Unix-like)
+- [Weak heap](https://en.wikipedia.org/wiki/Weak_heap)
+- [Infinite loop](https://en.wikipedia.org/wiki/Infinite_loop)
+- [WikiWikiWeb](https://en.wikipedia.org/wiki/WikiWikiWeb)
+- [X + Y sorting](https://en.wikipedia.org/wiki/X_%2B_Y_sorting)
+- [Wikipedia:Link rot](https://en.wikipedia.org/wiki/Wikipedia:Link_rot)
+- [Template:Sorting](https://en.wikipedia.org/wiki/Template:Sorting)
+- [Template talk:Sorting](https://en.wikipedia.org/wiki/Template_talk:Sorting)
+- [Category:Articles with dead external links from July 2020](https://en.wikipedia.org/wiki/Category:Articles_with_dead_external_links_from_July_2020)
+- [Category:Use dmy dates from December 2021](https://en.wikipedia.org/wiki/Category:Use_dmy_dates_from_December_2021)
+
+---
+_This article is part of the Python Programming Language wiki archive._
+_Retrieved and archived on: 2024-12-14T19:34:02.046673+00:00_

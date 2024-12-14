@@ -1,12 +1,18 @@
 # Boyer–Moore string-search algorithm
 
-_Last updated: 2024-12-14T15:39:52.209365_
+## Article Metadata
 
-**Original Article:** [Boyer–Moore string-search algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string-search_algorithm)
+- **Last Updated:** 2024-12-14T19:34:03.819389+00:00
+- **Original Article:** [Boyer–Moore string-search algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string-search_algorithm)
+- **Language:** en
+- **Page ID:** 684709
 
-**Summary:** In computer science, the Boyer–Moore string-search algorithm is an efficient string-searching algorithm that is the standard benchmark for practical string-search literature. It was developed by Robert S. Boyer and J Strother Moore in 1977. The original paper contained static tables for computing the pattern shifts without an explanation of how to produce them. The algorithm for producing the tables was published in a follow-on paper; this paper contained errors which were later corrected by Woj
+## Summary
+
+In computer science, the Boyer–Moore string-search algorithm is an efficient string-searching algorithm that is the standard benchmark for practical string-search literature. It was developed by Robert S. Boyer and J Strother Moore in 1977. The original paper contained static tables for computing the pattern shifts without an explanation of how to produce them. The algorithm for producing the tables was published in a follow-on paper; this paper contained errors which were later corrected by Woj
 
 ## Categories
+
 - Category:Articles with example C code
 - Category:Articles with example Java code
 - Category:Articles with example Python (programming language) code
@@ -16,6 +22,19 @@ _Last updated: 2024-12-14T15:39:52.209365_
 - Category:Computer-related introductions in 1977
 - Category:Short description matches Wikidata
 - Category:String matching algorithms
+
+## Table of Contents
+
+- Definitions
+- Description
+- Shift rules
+- The Galil rule
+- Performance
+- Implementations
+- Variants
+- Notes
+- References
+- External links
 
 ## Content
 
@@ -432,3 +451,100 @@ External links
 Original paper on the Boyer-Moore algorithm
 An example of the Boyer-Moore algorithm from the homepage of J Strother Moore, co-inventor of the algorithm
 Richard Cole's 1991 paper proving runtime linearity
+
+## Related Articles
+
+### Internal Links
+
+- [Aho–Corasick algorithm](https://en.wikipedia.org/wiki/Aho%E2%80%93Corasick_algorithm)
+- [Andrew Odlyzko](https://en.wikipedia.org/wiki/Andrew_Odlyzko)
+- [Apostolico–Giancarlo algorithm](https://en.wikipedia.org/wiki/Apostolico%E2%80%93Giancarlo_algorithm)
+- [Approximate string matching](https://en.wikipedia.org/wiki/Approximate_string_matching)
+- [BLAST (biotechnology)](https://en.wikipedia.org/wiki/BLAST_(biotechnology))
+- [Best, worst and average case](https://en.wikipedia.org/wiki/Best,_worst_and_average_case)
+- [Bitap algorithm](https://en.wikipedia.org/wiki/Bitap_algorithm)
+- [Boost (C++ libraries)](https://en.wikipedia.org/wiki/Boost_(C%2B%2B_libraries))
+- [Boyer–Moore–Horspool algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore%E2%80%93Horspool_algorithm)
+- [Brute-force search](https://en.wikipedia.org/wiki/Brute-force_search)
+- [C++](https://en.wikipedia.org/wiki/C%2B%2B)
+- [CiteSeerX](https://en.wikipedia.org/wiki/CiteSeerX)
+- [Commentz-Walter algorithm](https://en.wikipedia.org/wiki/Commentz-Walter_algorithm)
+- [Comparison of regular expression engines](https://en.wikipedia.org/wiki/Comparison_of_regular_expression_engines)
+- [Compressed pattern matching](https://en.wikipedia.org/wiki/Compressed_pattern_matching)
+- [Compressed suffix array](https://en.wikipedia.org/wiki/Compressed_suffix_array)
+- [Computer science](https://en.wikipedia.org/wiki/Computer_science)
+- [D (programming language)](https://en.wikipedia.org/wiki/D_(programming_language))
+- [Damerau–Levenshtein distance](https://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance)
+- [Data structure](https://en.wikipedia.org/wiki/Data_structure)
+- [Deterministic acyclic finite state automaton](https://en.wikipedia.org/wiki/Deterministic_acyclic_finite_state_automaton)
+- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
+- [Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth)
+- [Edit distance](https://en.wikipedia.org/wiki/Edit_distance)
+- [FM-index](https://en.wikipedia.org/wiki/FM-index)
+- [GNU](https://en.wikipedia.org/wiki/GNU)
+- [Boyer–Moore string-search algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string-search_algorithm)
+- [Generalized suffix tree](https://en.wikipedia.org/wiki/Generalized_suffix_tree)
+- [Gestalt pattern matching](https://en.wikipedia.org/wiki/Gestalt_pattern_matching)
+- [Go (programming language)](https://en.wikipedia.org/wiki/Go_(programming_language))
+- [Grep](https://en.wikipedia.org/wiki/Grep)
+- [Hamming distance](https://en.wikipedia.org/wiki/Hamming_distance)
+- [Hirschberg's algorithm](https://en.wikipedia.org/wiki/Hirschberg%27s_algorithm)
+- [ISBN](https://en.wikipedia.org/wiki/ISBN)
+- [ISSN](https://en.wikipedia.org/wiki/ISSN)
+- [J Strother Moore](https://en.wikipedia.org/wiki/J_Strother_Moore)
+- [James H. Morris](https://en.wikipedia.org/wiki/James_H._Morris)
+- [Jaro–Winkler distance](https://en.wikipedia.org/wiki/Jaro%E2%80%93Winkler_distance)
+- [Knuth–Morris–Pratt algorithm](https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm)
+- [LCP array](https://en.wikipedia.org/wiki/LCP_array)
+- [Lee distance](https://en.wikipedia.org/wiki/Lee_distance)
+- [Leonidas J. Guibas](https://en.wikipedia.org/wiki/Leonidas_J._Guibas)
+- [Levenshtein automaton](https://en.wikipedia.org/wiki/Levenshtein_automaton)
+- [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance)
+- [Longest common subsequence](https://en.wikipedia.org/wiki/Longest_common_subsequence)
+- [Longest common substring](https://en.wikipedia.org/wiki/Longest_common_substring)
+- [Needleman–Wunsch algorithm](https://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm)
+- [Nondeterministic finite automaton](https://en.wikipedia.org/wiki/Nondeterministic_finite_automaton)
+- [Nqthm](https://en.wikipedia.org/wiki/Nqthm)
+- [Parsing](https://en.wikipedia.org/wiki/Parsing)
+- [Pattern matching](https://en.wikipedia.org/wiki/Pattern_matching)
+- [Preprocessor](https://en.wikipedia.org/wiki/Preprocessor)
+- [Rabin–Karp algorithm](https://en.wikipedia.org/wiki/Rabin%E2%80%93Karp_algorithm)
+- [Raita algorithm](https://en.wikipedia.org/wiki/Raita_algorithm)
+- [Regular expression](https://en.wikipedia.org/wiki/Regular_expression)
+- [Regular grammar](https://en.wikipedia.org/wiki/Regular_grammar)
+- [Richard J. Cole](https://en.wikipedia.org/wiki/Richard_J._Cole)
+- [Robert S. Boyer](https://en.wikipedia.org/wiki/Robert_S._Boyer)
+- [Rope (data structure)](https://en.wikipedia.org/wiki/Rope_(data_structure))
+- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
+- [Semi-Thue system](https://en.wikipedia.org/wiki/Semi-Thue_system)
+- [Sequence alignment](https://en.wikipedia.org/wiki/Sequence_alignment)
+- [Sequential pattern mining](https://en.wikipedia.org/wiki/Sequential_pattern_mining)
+- [Smith–Waterman algorithm](https://en.wikipedia.org/wiki/Smith%E2%80%93Waterman_algorithm)
+- [Space complexity](https://en.wikipedia.org/wiki/Space_complexity)
+- [String-searching algorithm](https://en.wikipedia.org/wiki/String-searching_algorithm)
+- [String (computer science)](https://en.wikipedia.org/wiki/String_(computer_science))
+- [String metric](https://en.wikipedia.org/wiki/String_metric)
+- [String operations](https://en.wikipedia.org/wiki/String_operations)
+- [Substring](https://en.wikipedia.org/wiki/Substring)
+- [Substring index](https://en.wikipedia.org/wiki/Substring_index)
+- [Suffix array](https://en.wikipedia.org/wiki/Suffix_array)
+- [Suffix automaton](https://en.wikipedia.org/wiki/Suffix_automaton)
+- [Suffix tree](https://en.wikipedia.org/wiki/Suffix_tree)
+- [Ternary search tree](https://en.wikipedia.org/wiki/Ternary_search_tree)
+- [Thompson's construction](https://en.wikipedia.org/wiki/Thompson%27s_construction)
+- [Time complexity](https://en.wikipedia.org/wiki/Time_complexity)
+- [Trie](https://en.wikipedia.org/wiki/Trie)
+- [Trigram search](https://en.wikipedia.org/wiki/Trigram_search)
+- [Two-way string-matching algorithm](https://en.wikipedia.org/wiki/Two-way_string-matching_algorithm)
+- [Vaughan Pratt](https://en.wikipedia.org/wiki/Vaughan_Pratt)
+- [Wagner–Fischer algorithm](https://en.wikipedia.org/wiki/Wagner%E2%80%93Fischer_algorithm)
+- [Wojciech Rytter](https://en.wikipedia.org/wiki/Wojciech_Rytter)
+- [Zhu–Takaoka string matching algorithm](https://en.wikipedia.org/wiki/Zhu%E2%80%93Takaoka_string_matching_algorithm)
+- [Zvi Galil](https://en.wikipedia.org/wiki/Zvi_Galil)
+- [Template:Strings](https://en.wikipedia.org/wiki/Template:Strings)
+- [Template talk:Strings](https://en.wikipedia.org/wiki/Template_talk:Strings)
+- [Category:String sorting algorithms](https://en.wikipedia.org/wiki/Category:String_sorting_algorithms)
+
+---
+_This article is part of the Python Programming Language wiki archive._
+_Retrieved and archived on: 2024-12-14T19:34:03.819389+00:00_

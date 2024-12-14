@@ -1,10 +1,15 @@
 # Binomial coefficient
 
-_Last updated: 2024-12-14T15:39:42.423369_
+## Article Metadata
 
-**Original Article:** [Binomial coefficient](https://en.wikipedia.org/wiki/Binomial_coefficient)
+- **Last Updated:** 2024-12-14T19:33:41.667824+00:00
+- **Original Article:** [Binomial coefficient](https://en.wikipedia.org/wiki/Binomial_coefficient)
+- **Language:** en
+- **Page ID:** 4668
 
-**Summary:** In mathematics, the binomial coefficients are the positive integers that occur as coefficients in the binomial theorem. Commonly, a binomial coefficient is indexed by a pair of integers n ≥ k ≥ 0 and is written 
+## Summary
+
+In mathematics, the binomial coefficients are the positive integers that occur as coefficients in the binomial theorem. Commonly, a binomial coefficient is indexed by a pair of integers n ≥ k ≥ 0 and is written 
   
     
       
@@ -30,6 +35,7 @@ _Last updated: 2024-12-14T15:39:42.423369_
     {\displaystyle {\tb
 
 ## Categories
+
 - Category:Articles with example C code
 - Category:Articles with example Python (programming language) code
 - Category:Articles with example Scheme (programming language) code
@@ -41,6 +47,24 @@ _Last updated: 2024-12-14T15:39:42.423369_
 - Category:Short description is different from Wikidata
 - Category:Triangles of numbers
 - Category:Wikipedia articles incorporating text from PlanetMath
+
+## Table of Contents
+
+- History and notation
+- Definition and interpretations
+- Computing the value of binomial coefficients
+- Pascal's triangle
+- Combinatorics and statistics
+- Binomial coefficients as polynomials
+- Identities involving binomial coefficients
+- Generating functions
+- Divisibility properties
+- Bounds and asymptotic formulas
+- Generalizations
+- See also
+- Notes
+- References
+- External links
 
 ## Content
 
@@ -12026,3 +12050,160 @@ External links
 "Binomial coefficients", Encyclopedia of Mathematics, EMS Press, 2001 [1994]
 Andrew Granville (1997). "Arithmetic Properties of Binomial Coefficients I. Binomial coefficients modulo prime powers". CMS Conf. Proc. 20: 151–162. Archived from the original on 2015-09-23. Retrieved 2013-09-03.
 This article incorporates material from the following PlanetMath articles, which are licensed under the Creative Commons Attribution/Share-Alike License:  Binomial Coefficient,  Upper and lower bounds to binomial coefficient, Binomial coefficient is an integer, Generalized binomial coefficients.
+
+## Related Articles
+
+### Internal Links
+
+- [Addison-Wesley](https://en.wikipedia.org/wiki/Addison-Wesley)
+- [Almost all](https://en.wikipedia.org/wiki/Almost_all)
+- [American Mathematical Society](https://en.wikipedia.org/wiki/American_Mathematical_Society)
+- [Andreas von Ettingshausen](https://en.wikipedia.org/wiki/Andreas_von_Ettingshausen)
+- [Andrew Granville](https://en.wikipedia.org/wiki/Andrew_Granville)
+- [ArXiv](https://en.wikipedia.org/wiki/ArXiv)
+- [Arthur T. Benjamin](https://en.wikipedia.org/wiki/Arthur_T._Benjamin)
+- [Axiom of choice](https://en.wikipedia.org/wiki/Axiom_of_choice)
+- [Binary number](https://en.wikipedia.org/wiki/Binary_number)
+- [Beta function](https://en.wikipedia.org/wiki/Beta_function)
+- [Bhāskara II](https://en.wikipedia.org/wiki/Bh%C4%81skara_II)
+- [Binary entropy function](https://en.wikipedia.org/wiki/Binary_entropy_function)
+- [Binomial (polynomial)](https://en.wikipedia.org/wiki/Binomial_(polynomial))
+- [Binomial distribution](https://en.wikipedia.org/wiki/Binomial_distribution)
+- [Binomial theorem](https://en.wikipedia.org/wiki/Binomial_theorem)
+- [Binomial series](https://en.wikipedia.org/wiki/Binomial_series)
+- [Binomial theorem](https://en.wikipedia.org/wiki/Binomial_theorem)
+- [Binomial transform](https://en.wikipedia.org/wiki/Binomial_transform)
+- [Bit](https://en.wikipedia.org/wiki/Bit)
+- [Generating function](https://en.wikipedia.org/wiki/Generating_function)
+- [Cardinal number](https://en.wikipedia.org/wiki/Cardinal_number)
+- [Cardinal number](https://en.wikipedia.org/wiki/Cardinal_number)
+- [Cardinality](https://en.wikipedia.org/wiki/Cardinality)
+- [Catalan number](https://en.wikipedia.org/wiki/Catalan_number)
+- [Central binomial coefficient](https://en.wikipedia.org/wiki/Central_binomial_coefficient)
+- [Characteristic (algebra)](https://en.wikipedia.org/wiki/Characteristic_(algebra))
+- [Vandermonde's identity](https://en.wikipedia.org/wiki/Vandermonde%27s_identity)
+- [Closed-form expression](https://en.wikipedia.org/wiki/Closed-form_expression)
+- [Coefficient](https://en.wikipedia.org/wiki/Coefficient)
+- [Combination](https://en.wikipedia.org/wiki/Combination)
+- [Combinatorial proof](https://en.wikipedia.org/wiki/Combinatorial_proof)
+- [Combinatorics](https://en.wikipedia.org/wiki/Combinatorics)
+- [Commutative ring](https://en.wikipedia.org/wiki/Commutative_ring)
+- [Complex number](https://en.wikipedia.org/wiki/Complex_number)
+- [David Fowler (mathematician)](https://en.wikipedia.org/wiki/David_Fowler_(mathematician))
+- [David Singmaster](https://en.wikipedia.org/wiki/David_Singmaster)
+- [Delannoy number](https://en.wikipedia.org/wiki/Delannoy_number)
+- [Derivative](https://en.wikipedia.org/wiki/Derivative)
+- [Differential equation](https://en.wikipedia.org/wiki/Differential_equation)
+- [Dixon's identity](https://en.wikipedia.org/wiki/Dixon%27s_identity)
+- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
+- [Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth)
+- [Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth)
+- [Double counting (proof technique)](https://en.wikipedia.org/wiki/Double_counting_(proof_technique))
+- [Encyclopedia of Mathematics](https://en.wikipedia.org/wiki/Encyclopedia_of_Mathematics)
+- [Ernst Kummer](https://en.wikipedia.org/wiki/Ernst_Kummer)
+- [Euler's formula](https://en.wikipedia.org/wiki/Euler%27s_formula)
+- [Eulerian number](https://en.wikipedia.org/wiki/Eulerian_number)
+- [Euler's constant](https://en.wikipedia.org/wiki/Euler%27s_constant)
+- [European Mathematical Society](https://en.wikipedia.org/wiki/European_Mathematical_Society)
+- [Generating function](https://en.wikipedia.org/wiki/Generating_function)
+- [Exponentiation](https://en.wikipedia.org/wiki/Exponentiation)
+- [Factorial](https://en.wikipedia.org/wiki/Factorial)
+- [Falling and rising factorials](https://en.wikipedia.org/wiki/Falling_and_rising_factorials)
+- [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_sequence)
+- [Field (mathematics)](https://en.wikipedia.org/wiki/Field_(mathematics))
+- [Finite difference](https://en.wikipedia.org/wiki/Finite_difference)
+- [Finite difference](https://en.wikipedia.org/wiki/Finite_difference)
+- [Formal power series](https://en.wikipedia.org/wiki/Formal_power_series)
+- [Fractional part](https://en.wikipedia.org/wiki/Fractional_part)
+- [Gamma function](https://en.wikipedia.org/wiki/Gamma_function)
+- [Gaussian binomial coefficient](https://en.wikipedia.org/wiki/Gaussian_binomial_coefficient)
+- [German tank problem](https://en.wikipedia.org/wiki/German_tank_problem)
+- [Gradshteyn and Ryzhik](https://en.wikipedia.org/wiki/Gradshteyn_and_Ryzhik)
+- [Grandi's series](https://en.wikipedia.org/wiki/Grandi%27s_series)
+- [Greatest common divisor](https://en.wikipedia.org/wiki/Greatest_common_divisor)
+- [Harmonic number](https://en.wikipedia.org/wiki/Harmonic_number)
+- [Hockey-stick identity](https://en.wikipedia.org/wiki/Hockey-stick_identity)
+- [Hypergeometric function](https://en.wikipedia.org/wiki/Hypergeometric_function)
+- [ISBN](https://en.wikipedia.org/wiki/ISBN)
+- [ISSN](https://en.wikipedia.org/wiki/ISSN)
+- [Integer](https://en.wikipedia.org/wiki/Integer)
+- [Integer-valued polynomial](https://en.wikipedia.org/wiki/Integer-valued_polynomial)
+- [J. V. Uspensky](https://en.wikipedia.org/wiki/J._V._Uspensky)
+- [JSTOR](https://en.wikipedia.org/wiki/JSTOR)
+- [Jennifer Quinn](https://en.wikipedia.org/wiki/Jennifer_Quinn)
+- [Joel Spencer](https://en.wikipedia.org/wiki/Joel_Spencer)
+- [Kummer's theorem](https://en.wikipedia.org/wiki/Kummer%27s_theorem)
+- [Līlāvatī](https://en.wikipedia.org/wiki/L%C4%ABl%C4%81vat%C4%AB)
+- [List of factorial and binomial topics](https://en.wikipedia.org/wiki/List_of_factorial_and_binomial_topics)
+- [Big O notation](https://en.wikipedia.org/wiki/Big_O_notation)
+- [Logarithmic differentiation](https://en.wikipedia.org/wiki/Logarithmic_differentiation)
+- [Logarithmically concave sequence](https://en.wikipedia.org/wiki/Logarithmically_concave_sequence)
+- [Lucas's theorem](https://en.wikipedia.org/wiki/Lucas%27s_theorem)
+- [Līlāvatī](https://en.wikipedia.org/wiki/L%C4%ABl%C4%81vat%C4%AB)
+- [Mathematical Reviews](https://en.wikipedia.org/wiki/Mathematical_Reviews)
+- [Combinatorial number system](https://en.wikipedia.org/wiki/Combinatorial_number_system)
+- [Martin Grohe](https://en.wikipedia.org/wiki/Martin_Grohe)
+- [Mathematical Association of America](https://en.wikipedia.org/wiki/Mathematical_Association_of_America)
+- [Mathematical induction](https://en.wikipedia.org/wiki/Mathematical_induction)
+- [Mathematics](https://en.wikipedia.org/wiki/Mathematics)
+- [Mathematics Magazine](https://en.wikipedia.org/wiki/Mathematics_Magazine)
+- [Monomial](https://en.wikipedia.org/wiki/Monomial)
+- [Motzkin number](https://en.wikipedia.org/wiki/Motzkin_number)
+- [Multiset](https://en.wikipedia.org/wiki/Multiset)
+- [Multinomial theorem](https://en.wikipedia.org/wiki/Multinomial_theorem)
+- [Singmaster's conjecture](https://en.wikipedia.org/wiki/Singmaster%27s_conjecture)
+- [Multiset](https://en.wikipedia.org/wiki/Multiset)
+- [NCK (disambiguation)](https://en.wikipedia.org/wiki/NCK_(disambiguation))
+- [Binomial coefficient](https://en.wikipedia.org/wiki/Binomial_coefficient)
+- [Narayana number](https://en.wikipedia.org/wiki/Narayana_number)
+- [Natural number](https://en.wikipedia.org/wiki/Natural_number)
+- [Neurocomputing (journal)](https://en.wikipedia.org/wiki/Neurocomputing_(journal))
+- [Newton polynomial](https://en.wikipedia.org/wiki/Newton_polynomial)
+- [Nicholas Higham](https://en.wikipedia.org/wiki/Nicholas_Higham)
+- [Nørlund–Rice integral](https://en.wikipedia.org/wiki/N%C3%B8rlund%E2%80%93Rice_integral)
+- [OCLC](https://en.wikipedia.org/wiki/OCLC)
+- [Generating function](https://en.wikipedia.org/wiki/Generating_function)
+- [Oren Patashnik](https://en.wikipedia.org/wiki/Oren_Patashnik)
+- [Partial fraction decomposition](https://en.wikipedia.org/wiki/Partial_fraction_decomposition)
+- [Series (mathematics)](https://en.wikipedia.org/wiki/Series_(mathematics))
+- [Pascal's rule](https://en.wikipedia.org/wiki/Pascal%27s_rule)
+- [Pascal's rule](https://en.wikipedia.org/wiki/Pascal%27s_rule)
+- [Pascal's triangle](https://en.wikipedia.org/wiki/Pascal%27s_triangle)
+- [Permutation](https://en.wikipedia.org/wiki/Permutation)
+- [PlanetMath](https://en.wikipedia.org/wiki/PlanetMath)
+- [Falling and rising factorials](https://en.wikipedia.org/wiki/Falling_and_rising_factorials)
+- [Polynomial](https://en.wikipedia.org/wiki/Polynomial)
+- [Polynomial expansion](https://en.wikipedia.org/wiki/Polynomial_expansion)
+- [Power series](https://en.wikipedia.org/wiki/Power_series)
+- [Power set](https://en.wikipedia.org/wiki/Power_set)
+- [Proofs That Really Count](https://en.wikipedia.org/wiki/Proofs_That_Really_Count)
+- [Q-analog](https://en.wikipedia.org/wiki/Q-analog)
+- [Radius of convergence](https://en.wikipedia.org/wiki/Radius_of_convergence)
+- [Rational number](https://en.wikipedia.org/wiki/Rational_number)
+- [Recurrence relation](https://en.wikipedia.org/wiki/Recurrence_relation)
+- [Recursion](https://en.wikipedia.org/wiki/Recursion)
+- [Ronald Graham](https://en.wikipedia.org/wiki/Ronald_Graham)
+- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
+- [Series (mathematics)](https://en.wikipedia.org/wiki/Series_(mathematics))
+- [Series multisection](https://en.wikipedia.org/wiki/Series_multisection)
+- [Isaac Newton](https://en.wikipedia.org/wiki/Isaac_Newton)
+- [Society for Industrial and Applied Mathematics](https://en.wikipedia.org/wiki/Society_for_Industrial_and_Applied_Mathematics)
+- [Star of David theorem](https://en.wikipedia.org/wiki/Star_of_David_theorem)
+- [Statistics](https://en.wikipedia.org/wiki/Statistics)
+- [Stirling's approximation](https://en.wikipedia.org/wiki/Stirling%27s_approximation)
+- [Stirling numbers of the first kind](https://en.wikipedia.org/wiki/Stirling_numbers_of_the_first_kind)
+- [String (computer science)](https://en.wikipedia.org/wiki/String_(computer_science))
+- [Sun's curious identity](https://en.wikipedia.org/wiki/Sun%27s_curious_identity)
+- [Table of Newtonian series](https://en.wikipedia.org/wiki/Table_of_Newtonian_series)
+- [Taylor's theorem](https://en.wikipedia.org/wiki/Taylor%27s_theorem)
+- [Taylor series](https://en.wikipedia.org/wiki/Taylor_series)
+- [The American Mathematical Monthly](https://en.wikipedia.org/wiki/The_American_Mathematical_Monthly)
+- [Trigonometric functions](https://en.wikipedia.org/wiki/Trigonometric_functions)
+- [Trinomial expansion](https://en.wikipedia.org/wiki/Trinomial_expansion)
+- [Zeckendorf's theorem](https://en.wikipedia.org/wiki/Zeckendorf%27s_theorem)
+- [Zero-product property](https://en.wikipedia.org/wiki/Zero-product_property)
+- [Wikipedia:Text of the Creative Commons Attribution-ShareAlike 4.0 International License](https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License)
+
+---
+_This article is part of the Python Programming Language wiki archive._
+_Retrieved and archived on: 2024-12-14T19:33:41.667824+00:00_

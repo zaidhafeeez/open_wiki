@@ -1,13 +1,19 @@
 # Conditional (computer programming)
 
-_Last updated: 2024-12-14T15:40:42.833409_
+## Article Metadata
 
-**Original Article:** [Conditional (computer programming)](https://en.wikipedia.org/wiki/Conditional_(computer_programming))
+- **Last Updated:** 2024-12-14T19:35:44.218531+00:00
+- **Original Article:** [Conditional (computer programming)](https://en.wikipedia.org/wiki/Conditional_(computer_programming))
+- **Language:** en
+- **Page ID:** 462839
 
-**Summary:** In computer science, conditionals (that is, conditional statements, conditional expressions and conditional constructs) are programming language constructs that perform different computations or actions or return different values depending on the value of a Boolean expression, called a condition.
+## Summary
+
+In computer science, conditionals (that is, conditional statements, conditional expressions and conditional constructs) are programming language constructs that perform different computations or actions or return different values depending on the value of a Boolean expression, called a condition.
 Conditionals are typically implemented by selectively executing instructions. Although dynamic dispatch is not usually classified as a conditional construct, it is another way to select between alternat
 
 ## Categories
+
 - Category:All articles with unsourced statements
 - Category:Articles with example C code
 - Category:Articles with example Haskell code
@@ -21,6 +27,19 @@ Conditionals are typically implemented by selectively executing instructions. Al
 - Category:Conditional constructs
 - Category:Short description is different from Wikidata
 - Category:Webarchive template wayback links
+
+## Table of Contents
+
+- Terminology
+- If–then(–else)
+- Case and switch statements
+- Pattern matching
+- Hash-based conditionals
+- Predication
+- Choice system cross reference
+- See also
+- References
+- External links
 
 ## Content
 
@@ -100,15 +119,15 @@ This design choice has a slight "cost". Each else if branch effectively adds an 
 If all terms in the sequence of conditionals are testing the value of a single expression (e.g., if x=0 ... else if x=1 ... else if x=2...), an alternative is the switch statement, also called case-statement or select-statement. Conversely, in languages that do not have a switch statement, these can be produced by a sequence of else if statements.
 
 If–then–else expressions
-Many languages support if expressions, which are similar to if statements, but return a value as a result. Thus, they are true expressions (which evaluate to a value), not statements (which may not be permitted in the context of a value).
+Many languages support conditional expressions, which are similar to if statements, but return a value as a result. Thus, they are true expressions (which evaluate to a value), not statements (which may not be permitted in the context of a value).  The concept of conditional expressions was first developed by John McCarthy during his research into symbolic processing in the late 1950s.
 
 Algol family
-ALGOL 60 and some other members of the ALGOL family allow if–then–else as an expression:
+ALGOL 60 and some other members of the ALGOL family allow if–then–else as an expression.  The idea of including conditional expressions was suggested by John McCarthy, though the ALGOL committee decided to use English words rather than McCarthy's mathematical syntax:
 
   myvariable := if x > 20 then 1 else 2
 
 Lisp dialects
-In dialects of Lisp – Scheme, Racket and Common Lisp – the first of which was inspired to a great extent by ALGOL:
+In dialects of Lisp – Scheme, Racket and Common Lisp :
 
 Haskell
 In Haskell 98, there is only an if expression, no if statement, and the else part is compulsory, as every expression must have some value. Logic that would be expressed with conditionals in other languages is usually expressed with pattern matching in recursive functions.
@@ -244,3 +263,126 @@ External links
 
  Media related to Conditional (computer programming) at Wikimedia Commons
 IF NOT (ActionScript 3.0) video
+
+## Related Articles
+
+### Internal Links
+
+- [Ternary conditional operator](https://en.wikipedia.org/wiki/Ternary_conditional_operator)
+- [ALGOL](https://en.wikipedia.org/wiki/ALGOL)
+- [ALGOL 60](https://en.wikipedia.org/wiki/ALGOL_60)
+- [APL (programming language)](https://en.wikipedia.org/wiki/APL_(programming_language))
+- [Ada (programming language)](https://en.wikipedia.org/wiki/Ada_(programming_language))
+- [Anonymous function](https://en.wikipedia.org/wiki/Anonymous_function)
+- [Arithmetic IF](https://en.wikipedia.org/wiki/Arithmetic_IF)
+- [Associative array](https://en.wikipedia.org/wiki/Associative_array)
+- [BASIC](https://en.wikipedia.org/wiki/BASIC)
+- [Bash (Unix shell)](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
+- [Block (programming)](https://en.wikipedia.org/wiki/Block_(programming))
+- [Boolean data type](https://en.wikipedia.org/wiki/Boolean_data_type)
+- [Branch (computer science)](https://en.wikipedia.org/wiki/Branch_(computer_science))
+- [Predication (computer architecture)](https://en.wikipedia.org/wiki/Predication_(computer_architecture))
+- [C++](https://en.wikipedia.org/wiki/C%2B%2B)
+- [COBOL](https://en.wikipedia.org/wiki/COBOL)
+- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
+- [C Sharp (programming language)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
+- [C syntax](https://en.wikipedia.org/wiki/C_syntax)
+- [SQL syntax](https://en.wikipedia.org/wiki/SQL_syntax)
+- [Closure (computer programming)](https://en.wikipedia.org/wiki/Closure_(computer_programming))
+- [Common Lisp](https://en.wikipedia.org/wiki/Common_Lisp)
+- [Computer science](https://en.wikipedia.org/wiki/Computer_science)
+- [Concurrent Pascal](https://en.wikipedia.org/wiki/Concurrent_Pascal)
+- [Conditional compilation](https://en.wikipedia.org/wiki/Conditional_compilation)
+- [Predication (computer architecture)](https://en.wikipedia.org/wiki/Predication_(computer_architecture))
+- [Control flow](https://en.wikipedia.org/wiki/Control_flow)
+- [Currying](https://en.wikipedia.org/wiki/Currying)
+- [Dangling else](https://en.wikipedia.org/wiki/Dangling_else)
+- [Delphi (software)](https://en.wikipedia.org/wiki/Delphi_(software))
+- [Dispatch table](https://en.wikipedia.org/wiki/Dispatch_table)
+- [Dynamic dispatch](https://en.wikipedia.org/wiki/Dynamic_dispatch)
+- [ECMAScript](https://en.wikipedia.org/wiki/ECMAScript)
+- [Edsger W. Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra)
+- [Eiffel (programming language)](https://en.wikipedia.org/wiki/Eiffel_(programming_language))
+- [Expression (computer science)](https://en.wikipedia.org/wiki/Expression_(computer_science))
+- [F Sharp (programming language)](https://en.wikipedia.org/wiki/F_Sharp_(programming_language))
+- [Fortran](https://en.wikipedia.org/wiki/Fortran)
+- [Fortran](https://en.wikipedia.org/wiki/Fortran)
+- [Functional programming](https://en.wikipedia.org/wiki/Functional_programming)
+- [Goto](https://en.wikipedia.org/wiki/Goto)
+- [Go (programming language)](https://en.wikipedia.org/wiki/Go_(programming_language))
+- [Guard (computer science)](https://en.wikipedia.org/wiki/Guard_(computer_science))
+- [Guarded Command Language](https://en.wikipedia.org/wiki/Guarded_Command_Language)
+- [Haskell](https://en.wikipedia.org/wiki/Haskell)
+- [Home computer](https://en.wikipedia.org/wiki/Home_computer)
+- [IBM 704](https://en.wikipedia.org/wiki/IBM_704)
+- [IIf](https://en.wikipedia.org/wiki/IIf)
+- [Conditional (computer programming)](https://en.wikipedia.org/wiki/Conditional_(computer_programming))
+- [If Then Else](https://en.wikipedia.org/wiki/If_Then_Else)
+- [Include directive](https://en.wikipedia.org/wiki/Include_directive)
+- [Instruction set architecture](https://en.wikipedia.org/wiki/Instruction_set_architecture)
+- [Interpreter (computing)](https://en.wikipedia.org/wiki/Interpreter_(computing))
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+- [Java (programming language)](https://en.wikipedia.org/wiki/Java_(programming_language))
+- [Lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus)
+- [Language construct](https://en.wikipedia.org/wiki/Language_construct)
+- [Lazy evaluation](https://en.wikipedia.org/wiki/Lazy_evaluation)
+- [Lisp (programming language)](https://en.wikipedia.org/wiki/Lisp_(programming_language))
+- [Lookup table](https://en.wikipedia.org/wiki/Lookup_table)
+- [ML (programming language)](https://en.wikipedia.org/wiki/ML_(programming_language))
+- [Wolfram Mathematica](https://en.wikipedia.org/wiki/Wolfram_Mathematica)
+- [McCarthy Formalism](https://en.wikipedia.org/wiki/McCarthy_Formalism)
+- [Modula-2](https://en.wikipedia.org/wiki/Modula-2)
+- [COBOL](https://en.wikipedia.org/wiki/COBOL)
+- [Nesting (computing)](https://en.wikipedia.org/wiki/Nesting_(computing))
+- [OCaml](https://en.wikipedia.org/wiki/OCaml)
+- [Oberon (programming language)](https://en.wikipedia.org/wiki/Oberon_(programming_language))
+- [Object Pascal](https://en.wikipedia.org/wiki/Object_Pascal)
+- [Objective-C](https://en.wikipedia.org/wiki/Objective-C)
+- [Occam (programming language)](https://en.wikipedia.org/wiki/Occam_(programming_language))
+- [Optimizing compiler](https://en.wikipedia.org/wiki/Optimizing_compiler)
+- [PHP](https://en.wikipedia.org/wiki/PHP)
+- [Pascal (programming language)](https://en.wikipedia.org/wiki/Pascal_(programming_language))
+- [Pattern matching](https://en.wikipedia.org/wiki/Pattern_matching)
+- [Perl](https://en.wikipedia.org/wiki/Perl)
+- [Preprocessor](https://en.wikipedia.org/wiki/Preprocessor)
+- [Programming language](https://en.wikipedia.org/wiki/Programming_language)
+- [Pseudocode](https://en.wikipedia.org/wiki/Pseudocode)
+- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
+- [QuickBASIC](https://en.wikipedia.org/wiki/QuickBASIC)
+- [Racket (programming language)](https://en.wikipedia.org/wiki/Racket_(programming_language))
+- [Regular expression](https://en.wikipedia.org/wiki/Regular_expression)
+- [Relational operator](https://en.wikipedia.org/wiki/Relational_operator)
+- [Ruby (programming language)](https://en.wikipedia.org/wiki/Ruby_(programming_language))
+- [Execution (computing)](https://en.wikipedia.org/wiki/Execution_(computing))
+- [Rust (programming language)](https://en.wikipedia.org/wiki/Rust_(programming_language))
+- [SQL](https://en.wikipedia.org/wiki/SQL)
+- [SQL-92](https://en.wikipedia.org/wiki/SQL-92)
+- [Scala (programming language)](https://en.wikipedia.org/wiki/Scala_(programming_language))
+- [Scheme (programming language)](https://en.wikipedia.org/wiki/Scheme_(programming_language))
+- [Shell script](https://en.wikipedia.org/wiki/Shell_script)
+- [Side effect (computer science)](https://en.wikipedia.org/wiki/Side_effect_(computer_science))
+- [Simula](https://en.wikipedia.org/wiki/Simula)
+- [Microsoft Small Basic](https://en.wikipedia.org/wiki/Microsoft_Small_Basic)
+- [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk)
+- [Spaghetti code](https://en.wikipedia.org/wiki/Spaghetti_code)
+- [Statement (computer science)](https://en.wikipedia.org/wiki/Statement_(computer_science))
+- [Structured programming](https://en.wikipedia.org/wiki/Structured_programming)
+- [Swift (programming language)](https://en.wikipedia.org/wiki/Swift_(programming_language))
+- [Switch statement](https://en.wikipedia.org/wiki/Switch_statement)
+- [Syntactic sugar](https://en.wikipedia.org/wiki/Syntactic_sugar)
+- [Tcl](https://en.wikipedia.org/wiki/Tcl)
+- [Ternary conditional operator](https://en.wikipedia.org/wiki/Ternary_conditional_operator)
+- [Ternary operation](https://en.wikipedia.org/wiki/Ternary_operation)
+- [Test (Unix)](https://en.wikipedia.org/wiki/Test_(Unix))
+- [Visual Basic](https://en.wikipedia.org/wiki/Visual_Basic)
+- [Visual Basic (.NET)](https://en.wikipedia.org/wiki/Visual_Basic_(.NET))
+- [Wayback Machine](https://en.wikipedia.org/wiki/Wayback_Machine)
+- [PowerShell](https://en.wikipedia.org/wiki/PowerShell)
+- [Wolfram Language](https://en.wikipedia.org/wiki/Wolfram_Language)
+- [Yoda conditions](https://en.wikipedia.org/wiki/Yoda_conditions)
+- [Wikipedia:Citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed)
+- [Category:Articles with unsourced statements from November 2015](https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_November_2015)
+
+---
+_This article is part of the Python Programming Language wiki archive._
+_Retrieved and archived on: 2024-12-14T19:35:44.218531+00:00_

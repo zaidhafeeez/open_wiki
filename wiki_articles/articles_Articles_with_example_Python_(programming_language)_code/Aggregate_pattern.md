@@ -2,7 +2,7 @@
 
 ## Article Metadata
 
-- **Last Updated:** 2024-12-14T17:14:55.167080+00:00
+- **Last Updated:** 2024-12-14T19:32:21.702302+00:00
 - **Original Article:** [Aggregate pattern](https://en.wikipedia.org/wiki/Aggregate_pattern)
 - **Language:** en
 - **Page ID:** 234004
@@ -82,4 +82,4 @@ Functional programming
 
 ---
 _This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-14T17:14:55.167080+00:00_
+_Retrieved and archived on: 2024-12-14T19:32:21.702302+00:00_

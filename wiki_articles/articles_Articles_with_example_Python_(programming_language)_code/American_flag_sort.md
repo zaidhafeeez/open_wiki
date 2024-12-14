@@ -2,7 +2,7 @@
 
 ## Article Metadata
 
-- **Last Updated:** 2024-12-14T17:14:55.382891+00:00
+- **Last Updated:** 2024-12-14T19:32:21.657733+00:00
 - **Original Article:** [American flag sort](https://en.wikipedia.org/wiki/American_flag_sort)
 - **Language:** en
 - **Page ID:** 9080565
@@ -176,4 +176,4 @@ General
 
 ---
 _This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-14T17:14:55.382891+00:00_
+_Retrieved and archived on: 2024-12-14T19:32:21.657733+00:00_

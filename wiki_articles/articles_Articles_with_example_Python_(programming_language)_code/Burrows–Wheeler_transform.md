@@ -1,12 +1,18 @@
 # Burrows–Wheeler transform
 
-_Last updated: 2024-12-14T15:39:56.817890_
+## Article Metadata
 
-**Original Article:** [Burrows–Wheeler transform](https://en.wikipedia.org/wiki/Burrows%E2%80%93Wheeler_transform)
+- **Last Updated:** 2024-12-14T19:34:14.715321+00:00
+- **Original Article:** [Burrows–Wheeler transform](https://en.wikipedia.org/wiki/Burrows%E2%80%93Wheeler_transform)
+- **Language:** en
+- **Page ID:** 36777
 
-**Summary:** The Burrows–Wheeler transform (BWT, also called block-sorting compression) rearranges a character string into runs of similar characters. This is useful for compression, since it tends to be easy to compress a string that has runs of repeated characters by techniques such as move-to-front transform and run-length encoding.  More importantly, the transformation is reversible, without needing to store any additional data except the position of the first original character. The BWT is thus a "free"
+## Summary
+
+The Burrows–Wheeler transform (BWT, also called block-sorting compression) rearranges a character string into runs of similar characters. This is useful for compression, since it tends to be easy to compress a string that has runs of repeated characters by techniques such as move-to-front transform and run-length encoding.  More importantly, the transformation is reversible, without needing to store any additional data except the position of the first original character. The BWT is thus a "free"
 
 ## Categories
+
 - Category:Articles with example Python (programming language) code
 - Category:Articles with example R code
 - Category:Articles with example pseudocode
@@ -16,6 +22,19 @@ _Last updated: 2024-12-14T15:39:56.817890_
 - Category:Lossless compression algorithms
 - Category:Short description is different from Wikidata
 - Category:Webarchive template wayback links
+
+## Table of Contents
+
+- Description
+- Example
+- Explanation
+- Optimization
+- Bijective variant
+- Dynamic Burrows–Wheeler transform
+- Sample implementation
+- BWT applications
+- References
+- External links
 
 ## Content
 
@@ -190,3 +209,205 @@ On Bijective Variants of the Burrows–Wheeler Transform, by Kufleitner
 Blog post and project page for an open-source compression program and library based on the Burrows–Wheeler algorithm
 MIT open courseware lecture on BWT (Foundations of Computational and Systems Biology)
 League Table Sort (LTS) or The Weighting algorithm to BWT by Abderrahim Hechachena
+
+## Related Articles
+
+### Internal Links
+
+- [842 (compression algorithm)](https://en.wikipedia.org/wiki/842_(compression_algorithm))
+- [A-law algorithm](https://en.wikipedia.org/wiki/A-law_algorithm)
+- [Adaptive Huffman coding](https://en.wikipedia.org/wiki/Adaptive_Huffman_coding)
+- [Adaptive coding](https://en.wikipedia.org/wiki/Adaptive_coding)
+- [Adaptive differential pulse-code modulation](https://en.wikipedia.org/wiki/Adaptive_differential_pulse-code_modulation)
+- [Algebraic code-excited linear prediction](https://en.wikipedia.org/wiki/Algebraic_code-excited_linear_prediction)
+- [Algorithm](https://en.wikipedia.org/wiki/Algorithm)
+- [ArXiv](https://en.wikipedia.org/wiki/ArXiv)
+- [Arithmetic coding](https://en.wikipedia.org/wiki/Arithmetic_coding)
+- [Asymmetric numeral systems](https://en.wikipedia.org/wiki/Asymmetric_numeral_systems)
+- [Audio codec](https://en.wikipedia.org/wiki/Audio_codec)
+- [Average bitrate](https://en.wikipedia.org/wiki/Average_bitrate)
+- [Base pair](https://en.wikipedia.org/wiki/Base_pair)
+- [Best, worst and average case](https://en.wikipedia.org/wiki/Best,_worst_and_average_case)
+- [Bibcode](https://en.wikipedia.org/wiki/Bibcode)
+- [Bijection](https://en.wikipedia.org/wiki/Bijection)
+- [Bit rate](https://en.wikipedia.org/wiki/Bit_rate)
+- [Bowtie (sequence analysis)](https://en.wikipedia.org/wiki/Bowtie_(sequence_analysis))
+- [Brotli](https://en.wikipedia.org/wiki/Brotli)
+- [Byte pair encoding](https://en.wikipedia.org/wiki/Byte_pair_encoding)
+- [Bzip2](https://en.wikipedia.org/wiki/Bzip2)
+- [C0 and C1 control codes](https://en.wikipedia.org/wiki/C0_and_C1_control_codes)
+- [Cambridge University Press](https://en.wikipedia.org/wiki/Cambridge_University_Press)
+- [Canonical Huffman code](https://en.wikipedia.org/wiki/Canonical_Huffman_code)
+- [ChIP sequencing](https://en.wikipedia.org/wiki/ChIP_sequencing)
+- [Chain code](https://en.wikipedia.org/wiki/Chain_code)
+- [String (computer science)](https://en.wikipedia.org/wiki/String_(computer_science))
+- [Monoid factorisation](https://en.wikipedia.org/wiki/Monoid_factorisation)
+- [Chroma subsampling](https://en.wikipedia.org/wiki/Chroma_subsampling)
+- [Circular shift](https://en.wikipedia.org/wiki/Circular_shift)
+- [Code-excited linear prediction](https://en.wikipedia.org/wiki/Code-excited_linear_prediction)
+- [Coding tree unit](https://en.wikipedia.org/wiki/Coding_tree_unit)
+- [Lexicographic order](https://en.wikipedia.org/wiki/Lexicographic_order)
+- [Color space](https://en.wikipedia.org/wiki/Color_space)
+- [Companding](https://en.wikipedia.org/wiki/Companding)
+- [Compressed data structure](https://en.wikipedia.org/wiki/Compressed_data_structure)
+- [Compressed suffix array](https://en.wikipedia.org/wiki/Compressed_suffix_array)
+- [Compression artifact](https://en.wikipedia.org/wiki/Compression_artifact)
+- [Constant bitrate](https://en.wikipedia.org/wiki/Constant_bitrate)
+- [Context mixing](https://en.wikipedia.org/wiki/Context_mixing)
+- [Context tree weighting](https://en.wikipedia.org/wiki/Context_tree_weighting)
+- [Convolution](https://en.wikipedia.org/wiki/Convolution)
+- [DEC Systems Research Center](https://en.wikipedia.org/wiki/DEC_Systems_Research_Center)
+- [DNA](https://en.wikipedia.org/wiki/DNA)
+- [DNA sequencing](https://en.wikipedia.org/wiki/DNA_sequencing)
+- [Data compression](https://en.wikipedia.org/wiki/Data_compression)
+- [Data compression symmetry](https://en.wikipedia.org/wiki/Data_compression_symmetry)
+- [Daubechies wavelet](https://en.wikipedia.org/wiki/Daubechies_wavelet)
+- [David Wheeler (computer scientist)](https://en.wikipedia.org/wiki/David_Wheeler_(computer_scientist))
+- [David Wheeler (computer scientist)](https://en.wikipedia.org/wiki/David_Wheeler_(computer_scientist))
+- [Deblocking filter](https://en.wikipedia.org/wiki/Deblocking_filter)
+- [Deflate](https://en.wikipedia.org/wiki/Deflate)
+- [Delta encoding](https://en.wikipedia.org/wiki/Delta_encoding)
+- [Delta modulation](https://en.wikipedia.org/wiki/Delta_modulation)
+- [Dictionary coder](https://en.wikipedia.org/wiki/Dictionary_coder)
+- [Differential pulse-code modulation](https://en.wikipedia.org/wiki/Differential_pulse-code_modulation)
+- [Discrete cosine transform](https://en.wikipedia.org/wiki/Discrete_cosine_transform)
+- [Discrete sine transform](https://en.wikipedia.org/wiki/Discrete_sine_transform)
+- [Discrete wavelet transform](https://en.wikipedia.org/wiki/Discrete_wavelet_transform)
+- [Display resolution](https://en.wikipedia.org/wiki/Display_resolution)
+- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
+- [Dynamic Markov compression](https://en.wikipedia.org/wiki/Dynamic_Markov_compression)
+- [Dynamic range](https://en.wikipedia.org/wiki/Dynamic_range)
+- [Elias gamma coding](https://en.wikipedia.org/wiki/Elias_gamma_coding)
+- [Embedded zerotrees of wavelet transforms](https://en.wikipedia.org/wiki/Embedded_zerotrees_of_wavelet_transforms)
+- [End-of-file](https://en.wikipedia.org/wiki/End-of-file)
+- [Entropy (information theory)](https://en.wikipedia.org/wiki/Entropy_(information_theory))
+- [Entropy coding](https://en.wikipedia.org/wiki/Entropy_coding)
+- [Exponential-Golomb coding](https://en.wikipedia.org/wiki/Exponential-Golomb_coding)
+- [FM-index](https://en.wikipedia.org/wiki/FM-index)
+- [Fast Fourier transform](https://en.wikipedia.org/wiki/Fast_Fourier_transform)
+- [Fibonacci coding](https://en.wikipedia.org/wiki/Fibonacci_coding)
+- [Film frame](https://en.wikipedia.org/wiki/Film_frame)
+- [Fourier transform](https://en.wikipedia.org/wiki/Fourier_transform)
+- [Fractal compression](https://en.wikipedia.org/wiki/Fractal_compression)
+- [Frame rate](https://en.wikipedia.org/wiki/Frame_rate)
+- [Genome](https://en.wikipedia.org/wiki/Genome)
+- [Golomb coding](https://en.wikipedia.org/wiki/Golomb_coding)
+- [Grammar-based code](https://en.wikipedia.org/wiki/Grammar-based_code)
+- [Hash function](https://en.wikipedia.org/wiki/Hash_function)
+- [Huffman coding](https://en.wikipedia.org/wiki/Huffman_coding)
+- [Hutter Prize](https://en.wikipedia.org/wiki/Hutter_Prize)
+- [ISBN](https://en.wikipedia.org/wiki/ISBN)
+- [ISSN](https://en.wikipedia.org/wiki/ISSN)
+- [Image compression](https://en.wikipedia.org/wiki/Image_compression)
+- [Image resolution](https://en.wikipedia.org/wiki/Image_resolution)
+- [Incremental encoding](https://en.wikipedia.org/wiki/Incremental_encoding)
+- [Information theory](https://en.wikipedia.org/wiki/Information_theory)
+- [Interlaced video](https://en.wikipedia.org/wiki/Interlaced_video)
+- [JPEG 2000](https://en.wikipedia.org/wiki/JPEG_2000)
+- [Kosambi–Karhunen–Loève theorem](https://en.wikipedia.org/wiki/Kosambi%E2%80%93Karhunen%E2%80%93Lo%C3%A8ve_theorem)
+- [Kolmogorov complexity](https://en.wikipedia.org/wiki/Kolmogorov_complexity)
+- [LHA (file format)](https://en.wikipedia.org/wiki/LHA_(file_format))
+- [LZ4 (compression algorithm)](https://en.wikipedia.org/wiki/LZ4_(compression_algorithm))
+- [LZ77 and LZ78](https://en.wikipedia.org/wiki/LZ77_and_LZ78)
+- [LZFSE](https://en.wikipedia.org/wiki/LZFSE)
+- [Jeff Bonwick](https://en.wikipedia.org/wiki/Jeff_Bonwick)
+- [LZRW](https://en.wikipedia.org/wiki/LZRW)
+- [LZWL](https://en.wikipedia.org/wiki/LZWL)
+- [LZX](https://en.wikipedia.org/wiki/LZX)
+- [Lapped transform](https://en.wikipedia.org/wiki/Lapped_transform)
+- [Latency (audio)](https://en.wikipedia.org/wiki/Latency_(audio))
+- [Lempel–Ziv–Markov chain algorithm](https://en.wikipedia.org/wiki/Lempel%E2%80%93Ziv%E2%80%93Markov_chain_algorithm)
+- [Lempel–Ziv–Oberhumer](https://en.wikipedia.org/wiki/Lempel%E2%80%93Ziv%E2%80%93Oberhumer)
+- [Lempel–Ziv–Stac](https://en.wikipedia.org/wiki/Lempel%E2%80%93Ziv%E2%80%93Stac)
+- [Lempel–Ziv–Storer–Szymanski](https://en.wikipedia.org/wiki/Lempel%E2%80%93Ziv%E2%80%93Storer%E2%80%93Szymanski)
+- [Lempel–Ziv–Welch](https://en.wikipedia.org/wiki/Lempel%E2%80%93Ziv%E2%80%93Welch)
+- [Levenshtein coding](https://en.wikipedia.org/wiki/Levenshtein_coding)
+- [Lexicographic order](https://en.wikipedia.org/wiki/Lexicographic_order)
+- [Line spectral pairs](https://en.wikipedia.org/wiki/Line_spectral_pairs)
+- [Linear predictive coding](https://en.wikipedia.org/wiki/Linear_predictive_coding)
+- [Log area ratio](https://en.wikipedia.org/wiki/Log_area_ratio)
+- [Lossless JPEG](https://en.wikipedia.org/wiki/Lossless_JPEG)
+- [Lossless compression](https://en.wikipedia.org/wiki/Lossless_compression)
+- [Lossy compression](https://en.wikipedia.org/wiki/Lossy_compression)
+- [Lyndon word](https://en.wikipedia.org/wiki/Lyndon_word)
+- [M. Lothaire](https://en.wikipedia.org/wiki/M._Lothaire)
+- [Machine learning](https://en.wikipedia.org/wiki/Machine_learning)
+- [Macroblock](https://en.wikipedia.org/wiki/Macroblock)
+- [MAQ](https://en.wikipedia.org/wiki/MAQ)
+- [Mark Adler](https://en.wikipedia.org/wiki/Mark_Adler)
+- [Michael Burrows](https://en.wikipedia.org/wiki/Michael_Burrows)
+- [Modified Huffman coding](https://en.wikipedia.org/wiki/Modified_Huffman_coding)
+- [Modified discrete cosine transform](https://en.wikipedia.org/wiki/Modified_discrete_cosine_transform)
+- [Motion compensation](https://en.wikipedia.org/wiki/Motion_compensation)
+- [Motion estimation](https://en.wikipedia.org/wiki/Motion_estimation)
+- [Motion estimation](https://en.wikipedia.org/wiki/Motion_estimation)
+- [Move-to-front transform](https://en.wikipedia.org/wiki/Move-to-front_transform)
+- [Natural language processing](https://en.wikipedia.org/wiki/Natural_language_processing)
+- [Massive parallel sequencing](https://en.wikipedia.org/wiki/Massive_parallel_sequencing)
+- [Null character](https://en.wikipedia.org/wiki/Null_character)
+- [Nyquist–Shannon sampling theorem](https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem)
+- [Program optimization](https://en.wikipedia.org/wiki/Program_optimization)
+- [PAQ](https://en.wikipedia.org/wiki/PAQ)
+- [PubMed Central](https://en.wikipedia.org/wiki/PubMed_Central)
+- [PubMed](https://en.wikipedia.org/wiki/PubMed)
+- [Palo Alto, California](https://en.wikipedia.org/wiki/Palo_Alto,_California)
+- [Peak signal-to-noise ratio](https://en.wikipedia.org/wiki/Peak_signal-to-noise_ratio)
+- [Permutation](https://en.wikipedia.org/wiki/Permutation)
+- [Pixel](https://en.wikipedia.org/wiki/Pixel)
+- [Prediction by partial matching](https://en.wikipedia.org/wiki/Prediction_by_partial_matching)
+- [Prefix code](https://en.wikipedia.org/wiki/Prefix_code)
+- [Pseudocode](https://en.wikipedia.org/wiki/Pseudocode)
+- [Psychoacoustics](https://en.wikipedia.org/wiki/Psychoacoustics)
+- [Pyramid (image processing)](https://en.wikipedia.org/wiki/Pyramid_(image_processing))
+- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
+- [Quantization (image processing)](https://en.wikipedia.org/wiki/Quantization_(image_processing))
+- [Quantization (signal processing)](https://en.wikipedia.org/wiki/Quantization_(signal_processing))
+- [Range coding](https://en.wikipedia.org/wiki/Range_coding)
+- [Rate–distortion theory](https://en.wikipedia.org/wiki/Rate%E2%80%93distortion_theory)
+- [Re-Pair](https://en.wikipedia.org/wiki/Re-Pair)
+- [Redundancy (information theory)](https://en.wikipedia.org/wiki/Redundancy_(information_theory))
+- [Run-length encoding](https://en.wikipedia.org/wiki/Run-length_encoding)
+- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
+- [Sampling (signal processing)](https://en.wikipedia.org/wiki/Sampling_(signal_processing))
+- [Sequence alignment](https://en.wikipedia.org/wiki/Sequence_alignment)
+- [Sequitur algorithm](https://en.wikipedia.org/wiki/Sequitur_algorithm)
+- [Set partitioning in hierarchical trees](https://en.wikipedia.org/wiki/Set_partitioning_in_hierarchical_trees)
+- [Shannon coding](https://en.wikipedia.org/wiki/Shannon_coding)
+- [Shannon–Fano coding](https://en.wikipedia.org/wiki/Shannon%E2%80%93Fano_coding)
+- [Shannon–Fano–Elias coding](https://en.wikipedia.org/wiki/Shannon%E2%80%93Fano%E2%80%93Elias_coding)
+- [Silence compression](https://en.wikipedia.org/wiki/Silence_compression)
+- [Smallest grammar problem](https://en.wikipedia.org/wiki/Smallest_grammar_problem)
+- [Snappy (compression)](https://en.wikipedia.org/wiki/Snappy_(compression))
+- [Sorting](https://en.wikipedia.org/wiki/Sorting)
+- [Sound quality](https://en.wikipedia.org/wiki/Sound_quality)
+- [Space complexity](https://en.wikipedia.org/wiki/Space_complexity)
+- [Speech coding](https://en.wikipedia.org/wiki/Speech_coding)
+- [Standard test image](https://en.wikipedia.org/wiki/Standard_test_image)
+- [State of the art](https://en.wikipedia.org/wiki/State_of_the_art)
+- [Sub-band coding](https://en.wikipedia.org/wiki/Sub-band_coding)
+- [Suffix](https://en.wikipedia.org/wiki/Suffix)
+- [Suffix array](https://en.wikipedia.org/wiki/Suffix_array)
+- [Texture compression](https://en.wikipedia.org/wiki/Texture_compression)
+- [Time complexity](https://en.wikipedia.org/wiki/Time_complexity)
+- [Timeline of information theory](https://en.wikipedia.org/wiki/Timeline_of_information_theory)
+- [Transform coding](https://en.wikipedia.org/wiki/Transform_coding)
+- [Tunstall coding](https://en.wikipedia.org/wiki/Tunstall_coding)
+- [Unary coding](https://en.wikipedia.org/wiki/Unary_coding)
+- [Universal code (data compression)](https://en.wikipedia.org/wiki/Universal_code_(data_compression))
+- [Variable bitrate](https://en.wikipedia.org/wiki/Variable_bitrate)
+- [Video](https://en.wikipedia.org/wiki/Video)
+- [Video codec](https://en.wikipedia.org/wiki/Video_codec)
+- [Video compression picture types](https://en.wikipedia.org/wiki/Video_compression_picture_types)
+- [Video quality](https://en.wikipedia.org/wiki/Video_quality)
+- [Warped linear predictive coding](https://en.wikipedia.org/wiki/Warped_linear_predictive_coding)
+- [Wavelet transform](https://en.wikipedia.org/wiki/Wavelet_transform)
+- [Wayback Machine](https://en.wikipedia.org/wiki/Wayback_Machine)
+- [ZbMATH Open](https://en.wikipedia.org/wiki/ZbMATH_Open)
+- [Zstd](https://en.wikipedia.org/wiki/Zstd)
+- [Μ-law algorithm](https://en.wikipedia.org/wiki/%CE%9C-law_algorithm)
+- [Template:Compression methods](https://en.wikipedia.org/wiki/Template:Compression_methods)
+- [Template talk:Compression methods](https://en.wikipedia.org/wiki/Template_talk:Compression_methods)
+
+---
+_This article is part of the Python Programming Language wiki archive._
+_Retrieved and archived on: 2024-12-14T19:34:14.715321+00:00_

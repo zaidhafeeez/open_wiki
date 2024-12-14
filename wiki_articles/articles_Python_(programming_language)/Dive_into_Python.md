@@ -1,12 +1,18 @@
 # Mark Pilgrim
 
-_Last updated: 2024-12-14T15:35:22.635872_
+## Article Metadata
 
-**Original Article:** [Mark Pilgrim](https://en.wikipedia.org/wiki/Mark_Pilgrim)
+- **Last Updated:** 2024-12-14T19:29:27.048450+00:00
+- **Original Article:** [Mark Pilgrim](https://en.wikipedia.org/wiki/Mark_Pilgrim)
+- **Language:** en
+- **Page ID:** 5818536
 
-**Summary:** Mark Pilgrim is a software developer, writer, and advocate of free software.  He authored a popular blog, and has written several books, including Dive into Python, a guide to the Python programming language published under the GNU Free Documentation License. Formerly an accessibility architect in the IBM Emerging Technologies Group, he started working at Google in March 2007. In 2018, he moved to Brave.
+## Summary
+
+Mark Pilgrim is a software developer, writer, and advocate of free software.  He authored a popular blog, and has written several books, including Dive into Python, a guide to the Python programming language published under the GNU Free Documentation License. Formerly an accessibility architect in the IBM Emerging Technologies Group, he started working at Google in March 2007. In 2018, he moved to Brave.
 
 ## Categories
+
 - Category:1972 births
 - Category:All articles with failed verification
 - Category:American bloggers
@@ -22,6 +28,15 @@ _Last updated: 2024-12-14T15:35:22.635872_
 - Category:Place of birth missing (living people)
 - Category:Python (programming language) people
 - Category:Short description matches Wikidata
+
+## Table of Contents
+
+- Early life
+- Books and articles
+- Open source work
+- "Disappearance" from the Internet
+- References
+- External links
 
 ## Content
 
@@ -67,3 +82,49 @@ Mark Pilgrim (October 21, 2009). Dive into Python 3. ISBN 978-1-4302-2415-0. Ret
 Dive into Python - The complete text can be downloaded in a variety of formats
 Dive into HTML5 - The full copy of Mark's online book
 Mike Orr (January 5, 2005). "Dive into Python by Mark Pilgrim". Linux Journal. Retrieved 2010-01-06.
+
+## Related Articles
+
+### Internal Links
+
+- [Blog](https://en.wikipedia.org/wiki/Blog)
+- [Brave (web browser)](https://en.wikipedia.org/wiki/Brave_(web_browser))
+- [Computer virus](https://en.wikipedia.org/wiki/Computer_virus)
+- [Cornell University](https://en.wikipedia.org/wiki/Cornell_University)
+- [Creative Commons](https://en.wikipedia.org/wiki/Creative_Commons)
+- [Documentation](https://en.wikipedia.org/wiki/Documentation)
+- [Free software](https://en.wikipedia.org/wiki/Free_software)
+- [GNU Free Documentation License](https://en.wikipedia.org/wiki/GNU_Free_Documentation_License)
+- [Gina Trapani](https://en.wikipedia.org/wiki/Gina_Trapani)
+- [GitHub](https://en.wikipedia.org/wiki/GitHub)
+- [Google](https://en.wikipedia.org/wiki/Google)
+- [Greasemonkey](https://en.wikipedia.org/wiki/Greasemonkey)
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
+- [IBM](https://en.wikipedia.org/wiki/IBM)
+- [ISBN](https://en.wikipedia.org/wiki/ISBN)
+- [Jason Scott](https://en.wikipedia.org/wiki/Jason_Scott)
+- [Lifehacker](https://en.wikipedia.org/wiki/Lifehacker)
+- [Linux Journal](https://en.wikipedia.org/wiki/Linux_Journal)
+- [MP3](https://en.wikipedia.org/wiki/MP3)
+- [Mark Pilgrim (presenter)](https://en.wikipedia.org/wiki/Mark_Pilgrim_(presenter))
+- [O'Reilly Media](https://en.wikipedia.org/wiki/O%27Reilly_Media)
+- [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
+- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
+- [Software development](https://en.wikipedia.org/wiki/Software_development)
+- [Stanford University](https://en.wikipedia.org/wiki/Stanford_University)
+- [Technical writer](https://en.wikipedia.org/wiki/Technical_writer)
+- [The Economist](https://en.wikipedia.org/wiki/The_Economist)
+- [Unit testing](https://en.wikipedia.org/wiki/Unit_testing)
+- [Why the lucky stiff](https://en.wikipedia.org/wiki/Why_the_lucky_stiff)
+- [Wiki](https://en.wikipedia.org/wiki/Wiki)
+- [XML](https://en.wikipedia.org/wiki/XML)
+- [Wikipedia:Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)
+- [Help:Authority control](https://en.wikipedia.org/wiki/Help:Authority_control)
+- [Category:Articles with failed verification from August 2023](https://en.wikipedia.org/wiki/Category:Articles_with_failed_verification_from_August_2023)
+- [Category:Articles with failed verification from October 2021](https://en.wikipedia.org/wiki/Category:Articles_with_failed_verification_from_October_2021)
+
+---
+_This article is part of the Python Programming Language wiki archive._
+_Retrieved and archived on: 2024-12-14T19:29:27.048450+00:00_

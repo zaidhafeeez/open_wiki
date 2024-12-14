@@ -1,10 +1,15 @@
 # Centripetal Catmull–Rom spline
 
-_Last updated: 2024-12-14T15:40:03.802961_
+## Article Metadata
 
-**Original Article:** [Centripetal Catmull–Rom spline](https://en.wikipedia.org/wiki/Centripetal_Catmull%E2%80%93Rom_spline)
+- **Last Updated:** 2024-12-14T19:34:22.658592+00:00
+- **Original Article:** [Centripetal Catmull–Rom spline](https://en.wikipedia.org/wiki/Centripetal_Catmull%E2%80%93Rom_spline)
+- **Language:** en
+- **Page ID:** 40760845
 
-**Summary:** In computer graphics, the centripetal Catmull–Rom spline is a variant form of the Catmull–Rom spline, originally formulated by Edwin Catmull and Raphael Rom, which can be evaluated using a recursive algorithm proposed by Barry and Goldman. It is a type of interpolating spline (a curve that goes through its control points) defined by four control points 
+## Summary
+
+In computer graphics, the centripetal Catmull–Rom spline is a variant form of the Catmull–Rom spline, originally formulated by Edwin Catmull and Raphael Rom, which can be evaluated using a recursive algorithm proposed by Barry and Goldman. It is a type of interpolating spline (a curve that goes through its control points) defined by four control points 
   
     
       
@@ -22,6 +27,7 @@ _Last updated: 2024-12-14T15:40:03.802961_
          
 
 ## Categories
+
 - Category:All Wikipedia articles needing clarification
 - Category:Articles with example C Sharp code
 - Category:Articles with example Python (programming language) code
@@ -30,6 +36,18 @@ _Last updated: 2024-12-14T15:40:03.802961_
 - Category:Short description is different from Wikidata
 - Category:Splines (mathematics)
 - Category:Wikipedia articles needing clarification from September 2016
+
+## Table of Contents
+
+- Definition
+- Advantages
+- Other uses
+- Code example in Python
+- Code example in Unity C#
+- Code example in Unreal C++
+- See also
+- References
+- External links
 
 ## Content
 
@@ -1372,3 +1390,32 @@ Catmull-Rom curve with no cusps and no self-intersections –  implementation in
 Catmull-Rom curve with no cusps and no self-intersections –  simplified implementation in C++
 Catmull-Rom splines –  interactive generation via Python, in a Jupyter notebook
 Smooth Paths Using Catmull-Rom Splines –  another versatile implementation in C++ including centripetal CR splines
+
+## Related Articles
+
+### Internal Links
+
+- [Active shape model](https://en.wikipedia.org/wiki/Active_shape_model)
+- [ArXiv](https://en.wikipedia.org/wiki/ArXiv)
+- [Association for Computing Machinery](https://en.wikipedia.org/wiki/Association_for_Computing_Machinery)
+- [Cubic Hermite spline](https://en.wikipedia.org/wiki/Cubic_Hermite_spline)
+- [CiteSeerX](https://en.wikipedia.org/wiki/CiteSeerX)
+- [Computer graphics](https://en.wikipedia.org/wiki/Computer_graphics)
+- [Computer vision](https://en.wikipedia.org/wiki/Computer_vision)
+- [Cusp (singularity)](https://en.wikipedia.org/wiki/Cusp_(singularity))
+- [Digital Signal Processing (journal)](https://en.wikipedia.org/wiki/Digital_Signal_Processing_(journal))
+- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
+- [Edwin Catmull](https://en.wikipedia.org/wiki/Edwin_Catmull)
+- [ISBN](https://en.wikipedia.org/wiki/ISBN)
+- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
+- [Raphael Rom](https://en.wikipedia.org/wiki/Raphael_Rom)
+- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
+- [SIGGRAPH](https://en.wikipedia.org/wiki/SIGGRAPH)
+- [Wikipedia:Vagueness](https://en.wikipedia.org/wiki/Wikipedia:Vagueness)
+- [Template:Cite web](https://en.wikipedia.org/wiki/Template:Cite_web)
+- [Category:CS1 maint: multiple names: authors list](https://en.wikipedia.org/wiki/Category:CS1_maint:_multiple_names:_authors_list)
+- [Category:Wikipedia articles needing clarification from September 2016](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_needing_clarification_from_September_2016)
+
+---
+_This article is part of the Python Programming Language wiki archive._
+_Retrieved and archived on: 2024-12-14T19:34:22.658592+00:00_

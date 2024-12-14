@@ -1,18 +1,38 @@
 # De Bruijn sequence
 
-_Last updated: 2024-12-14T15:39:54.456710_
+## Article Metadata
 
-**Original Article:** [De Bruijn sequence](https://en.wikipedia.org/wiki/De_Bruijn_sequence)
+- **Last Updated:** 2024-12-14T19:34:09.343403+00:00
+- **Original Article:** [De Bruijn sequence](https://en.wikipedia.org/wiki/De_Bruijn_sequence)
+- **Language:** en
+- **Page ID:** 1565267
 
-**Summary:** In combinatorial mathematics, a de Bruijn sequence of order n on a size-k alphabet A is a cyclic sequence in which every possible length-n string on A occurs exactly once as a substring (i.e., as a contiguous subsequence). Such a sequence is denoted by B(k, n) and has length kn, which is also the number of distinct strings of length n on A. Each of these distinct strings, when taken as a substring of B(k, n), must start at a different position, because substrings starting at the same position ar
+## Summary
+
+In combinatorial mathematics, a de Bruijn sequence of order n on a size-k alphabet A is a cyclic sequence in which every possible length-n string on A occurs exactly once as a substring (i.e., as a contiguous subsequence). Such a sequence is denoted by B(k, n) and has length kn, which is also the number of distinct strings of length n on A. Each of these distinct strings, when taken as a substring of B(k, n), must start at a different position, because substrings starting at the same position ar
 
 ## Categories
+
 - Category:Articles with example Python (programming language) code
 - Category:Articles with short description
 - Category:Binary sequences
 - Category:CS1 maint: postscript
 - Category:Enumerative combinatorics
 - Category:Short description is different from Wikidata
+
+## Table of Contents
+
+- History
+- Examples
+- Construction
+- Uses
+- f-fold de Bruijn sequences
+- de Bruijn torus
+- de Bruijn decoding
+- See also
+- Notes
+- References
+- External links
 
 ## Content
 
@@ -425,3 +445,100 @@ Javascript generator and decoder. Implementation of J. Tuliani's algorithm.
 Door code lock
 Minimal arrays containing all sub-array combinations of symbols: de Bruijn sequences and tori
 http://debruijnsequence.org has many kinds of de Bruijn sequences.
+
+## Related Articles
+
+### Internal Links
+
+- [Addison-Wesley](https://en.wikipedia.org/wiki/Addison-Wesley)
+- [Alphabet (formal languages)](https://en.wikipedia.org/wiki/Alphabet_(formal_languages))
+- [Analysis of algorithms](https://en.wikipedia.org/wiki/Analysis_of_algorithms)
+- [Angle](https://en.wikipedia.org/wiki/Angle)
+- [ArXiv](https://en.wikipedia.org/wiki/ArXiv)
+- [Automata theory](https://en.wikipedia.org/wiki/Automata_theory)
+- [BEST theorem](https://en.wikipedia.org/wiki/BEST_theorem)
+- [Bibcode](https://en.wikipedia.org/wiki/Bibcode)
+- [Bitwise operation](https://en.wikipedia.org/wiki/Bitwise_operation)
+- [Bulletin of the American Mathematical Society](https://en.wikipedia.org/wiki/Bulletin_of_the_American_Mathematical_Society)
+- [Burrows–Wheeler transform](https://en.wikipedia.org/wiki/Burrows%E2%80%93Wheeler_transform)
+- [Charles Philip Brown](https://en.wikipedia.org/wiki/Charles_Philip_Brown)
+- [Cambridge University Press](https://en.wikipedia.org/wiki/Cambridge_University_Press)
+- [Charles Philip Brown](https://en.wikipedia.org/wiki/Charles_Philip_Brown)
+- [Combinatorics](https://en.wikipedia.org/wiki/Combinatorics)
+- [Conjecture](https://en.wikipedia.org/wiki/Conjecture)
+- [Cyclic order](https://en.wikipedia.org/wiki/Cyclic_order)
+- [De Bruijn graph](https://en.wikipedia.org/wiki/De_Bruijn_graph)
+- [De Bruijn torus](https://en.wikipedia.org/wiki/De_Bruijn_torus)
+- [Electronic lock](https://en.wikipedia.org/wiki/Electronic_lock)
+- [Discrete Mathematics (journal)](https://en.wikipedia.org/wiki/Discrete_Mathematics_(journal))
+- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
+- [Dominique Perrin](https://en.wikipedia.org/wiki/Dominique_Perrin)
+- [Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth)
+- [Equivalence class](https://en.wikipedia.org/wiki/Equivalence_class)
+- [Eric W. Weisstein](https://en.wikipedia.org/wiki/Eric_W._Weisstein)
+- [Eulerian path](https://en.wikipedia.org/wiki/Eulerian_path)
+- [European Journal of Combinatorics](https://en.wikipedia.org/wiki/European_Journal_of_Combinatorics)
+- [Finite field](https://en.wikipedia.org/wiki/Finite_field)
+- [Frank Ruskey](https://en.wikipedia.org/wiki/Frank_Ruskey)
+- [Functional magnetic resonance imaging](https://en.wikipedia.org/wiki/Functional_magnetic_resonance_imaging)
+- [Gray code](https://en.wikipedia.org/wiki/Gray_code)
+- [Hamiltonian path](https://en.wikipedia.org/wiki/Hamiltonian_path)
+- [Hash table](https://en.wikipedia.org/wiki/Hash_table)
+- [ISBN](https://en.wikipedia.org/wiki/ISBN)
+- [ISSN](https://en.wikipedia.org/wiki/ISSN)
+- [Indagationes Mathematicae](https://en.wikipedia.org/wiki/Indagationes_Mathematicae)
+- [Integer sequence](https://en.wikipedia.org/wiki/Integer_sequence)
+- [J. H. van Lint](https://en.wikipedia.org/wiki/J._H._van_Lint)
+- [JSTOR](https://en.wikipedia.org/wiki/JSTOR)
+- [Jean Berstel](https://en.wikipedia.org/wiki/Jean_Berstel)
+- [Journal of Combinatorial Theory](https://en.wikipedia.org/wiki/Journal_of_Combinatorial_Theory)
+- [Journal of Statistical Physics](https://en.wikipedia.org/wiki/Journal_of_Statistical_Physics)
+- [Karl Popper](https://en.wikipedia.org/wiki/Karl_Popper)
+- [Kees Posthumus](https://en.wikipedia.org/wiki/Kees_Posthumus)
+- [L'Intermédiaire des mathématiciens](https://en.wikipedia.org/wiki/L%27Interm%C3%A9diaire_des_math%C3%A9maticiens)
+- [Linear-feedback shift register](https://en.wikipedia.org/wiki/Linear-feedback_shift_register)
+- [Lyndon word](https://en.wikipedia.org/wiki/Lyndon_word)
+- [Mathematical Reviews](https://en.wikipedia.org/wiki/Mathematical_Reviews)
+- [Mark Goresky](https://en.wikipedia.org/wiki/Mark_Goresky)
+- [MathWorld](https://en.wikipedia.org/wiki/MathWorld)
+- [Mathematical proof](https://en.wikipedia.org/wiki/Mathematical_proof)
+- [Mathematics](https://en.wikipedia.org/wiki/Mathematics)
+- [Mathematics Magazine](https://en.wikipedia.org/wiki/Mathematics_Magazine)
+- [Moser–de Bruijn sequence](https://en.wikipedia.org/wiki/Moser%E2%80%93de_Bruijn_sequence)
+- [Maximum length sequence](https://en.wikipedia.org/wiki/Maximum_length_sequence)
+- [Nicolaas Govert de Bruijn](https://en.wikipedia.org/wiki/Nicolaas_Govert_de_Bruijn)
+- [Normal number](https://en.wikipedia.org/wiki/Normal_number)
+- [Number theory](https://en.wikipedia.org/wiki/Number_theory)
+- [PubMed Central](https://en.wikipedia.org/wiki/PubMed_Central)
+- [PubMed](https://en.wikipedia.org/wiki/PubMed)
+- [Permutation](https://en.wikipedia.org/wiki/Permutation)
+- [Personal identification number](https://en.wikipedia.org/wiki/Personal_identification_number)
+- [Pingala](https://en.wikipedia.org/wiki/Pingala)
+- [Princeton University Press](https://en.wikipedia.org/wiki/Princeton_University_Press)
+- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
+- [Pāṇini](https://en.wikipedia.org/wiki/P%C4%81%E1%B9%87ini)
+- [R. M. Wilson](https://en.wikipedia.org/wiki/R._M._Wilson)
+- [Robot](https://en.wikipedia.org/wiki/Robot)
+- [Rotary encoder](https://en.wikipedia.org/wiki/Rotary_encoder)
+- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
+- [STL (file format)](https://en.wikipedia.org/wiki/STL_(file_format))
+- [Sanskrit prosody](https://en.wikipedia.org/wiki/Sanskrit_prosody)
+- [Sherman K. Stein](https://en.wikipedia.org/wiki/Sherman_K._Stein)
+- [Shift register](https://en.wikipedia.org/wiki/Shift_register)
+- [Simon Stevin (journal)](https://en.wikipedia.org/wiki/Simon_Stevin_(journal))
+- [Stanford University](https://en.wikipedia.org/wiki/Stanford_University)
+- [String (computer science)](https://en.wikipedia.org/wiki/String_(computer_science))
+- [Subhash Kak](https://en.wikipedia.org/wiki/Subhash_Kak)
+- [Subsequence](https://en.wikipedia.org/wiki/Subsequence)
+- [Substring](https://en.wikipedia.org/wiki/Substring)
+- [Superpermutation](https://en.wikipedia.org/wiki/Superpermutation)
+- [Tatyana Ehrenfest](https://en.wikipedia.org/wiki/Tatyana_Ehrenfest)
+- [The Logic of Scientific Discovery](https://en.wikipedia.org/wiki/The_Logic_of_Scientific_Discovery)
+- [Up to](https://en.wikipedia.org/wiki/Up_to)
+- [Word (computer architecture)](https://en.wikipedia.org/wiki/Word_(computer_architecture))
+- [Template:Cite journal](https://en.wikipedia.org/wiki/Template:Cite_journal)
+- [Category:CS1 maint: postscript](https://en.wikipedia.org/wiki/Category:CS1_maint:_postscript)
+
+---
+_This article is part of the Python Programming Language wiki archive._
+_Retrieved and archived on: 2024-12-14T19:34:09.343403+00:00_
