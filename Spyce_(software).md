@@ -1,6 +1,6 @@
 # Spyce (software)
 
-_Last updated: 2024-12-14T15:08:13.397399_
+_Last updated: 2024-12-14T15:20:35.717726_
 
 **Original Article:** [Spyce (software)](https://en.wikipedia.org/wiki/Spyce_(software))
 
