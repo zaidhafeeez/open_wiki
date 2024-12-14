@@ -1,6 +1,6 @@
 # Global interpreter lock
 
-_Last updated: 2024-12-14T15:03:11.681031_
+_Last updated: 2024-12-14T15:18:51.288890_
 
 **Original Article:** [Global interpreter lock](https://en.wikipedia.org/wiki/Global_interpreter_lock)
 
