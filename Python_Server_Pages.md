@@ -1,6 +1,6 @@
 # Python Server Pages
 
-_Last updated: 2024-12-14T15:07:50.457415_
+_Last updated: 2024-12-14T15:20:07.006291_
 
 **Original Article:** [Python Server Pages](https://en.wikipedia.org/wiki/Python_Server_Pages)
 
