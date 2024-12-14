@@ -38,24 +38,105 @@ def save_progress(processed_articles, current_category=None):
         json.dump(progress, f)
 
 def get_article_metadata(page):
+    # Get all links from the page
+    links = []
+    for link in page.links.values():
+        links.append({
+            'title': link.title,
+            'url': link.fullurl if link.exists() else None,
+            'exists': link.exists()
+        })
+
+    # Get all references/citations
+    references = []
+    if hasattr(page, 'references'):
+        for ref in page.references:
+            references.append(ref)
+
+    # Get all sections
+    sections = []
+    for section in page.sections:
+        sections.append({
+            'title': section.title,
+            'level': section.level
+        })
+
+    # Check if it's a disambiguation page by looking for common indicators
+    is_disambiguation = (
+        'disambiguation' in page.title.lower() or
+        'disambiguation' in [cat.lower() for cat in page.categories] or
+        'may refer to' in page.summary.lower()
+    )
+
     return {
         'title': page.title,
         'url': page.fullurl,
         'summary': page.summary[0:500] if page.summary else "",
         'last_updated': datetime.utcnow().isoformat(),
-        'categories': [cat.title for cat in page.categories.values()]
+        'categories': [cat.title for cat in page.categories.values()],
+        'links': links,
+        'references': references,
+        'sections': sections,
+        'is_disambiguation': is_disambiguation,
+        'language': page.language,
+        'pageid': page.pageid
     }
 
 def format_article_content(page, metadata):
     content = f"# {page.title}\n\n"
-    content += f"_Last updated: {metadata['last_updated']}_\n\n"
-    content += f"**Original Article:** [{page.title}]({metadata['url']})\n\n"
-    content += f"**Summary:** {metadata['summary']}\n\n"
-    content += "## Categories\n"
+    
+    # Basic Metadata
+    content += "## Article Metadata\n\n"
+    content += f"- **Last Updated:** {metadata['last_updated']}\n"
+    content += f"- **Original Article:** [{page.title}]({metadata['url']})\n"
+    content += f"- **Language:** {metadata['language']}\n"
+    content += f"- **Page ID:** {metadata['pageid']}\n"
+    if metadata['is_disambiguation']:
+        content += "- **Type:** Disambiguation Page\n"
+    content += "\n"
+
+    # Summary
+    content += "## Summary\n\n"
+    content += f"{metadata['summary']}\n\n"
+
+    # Categories
+    content += "## Categories\n\n"
     for cat in metadata['categories']:
         content += f"- {cat}\n"
-    content += "\n## Content\n\n"
-    content += page.text
+    content += "\n"
+
+    # Table of Contents
+    content += "## Table of Contents\n\n"
+    for section in metadata['sections']:
+        indent = "  " * (section['level'] - 1)
+        content += f"{indent}- {section['title']}\n"
+    content += "\n"
+
+    # Main Content
+    content += "## Content\n\n"
+    content += page.text + "\n\n"
+
+    # Links
+    content += "## Related Articles\n\n"
+    existing_links = [link for link in metadata['links'] if link['exists']]
+    if existing_links:
+        content += "### Internal Links\n\n"
+        for link in existing_links:
+            content += f"- [{link['title']}]({link['url']})\n"
+    content += "\n"
+
+    # References
+    if metadata['references']:
+        content += "## References\n\n"
+        for ref in metadata['references']:
+            content += f"- {ref}\n"
+    content += "\n"
+
+    # Footer
+    content += "---\n"
+    content += "_This article is part of the Python Programming Language wiki archive._\n"
+    content += f"_Retrieved and archived on: {metadata['last_updated']}_\n"
+
     return content
 
 def ensure_directory(directory):
@@ -65,10 +146,6 @@ def ensure_directory(directory):
         print(f"Created directory: {directory}")
 
 def scrape_and_store_article(article_title, processed_articles, category_path='articles'):
-    if article_title in processed_articles:
-        print(f"Skipping '{article_title}' (already processed)")
-        return processed_articles
-
     try:
         print(f"\nProcessing article: {article_title}")
         # Fetch article content
@@ -99,9 +176,12 @@ def scrape_and_store_article(article_title, processed_articles, category_path='a
             f.write(file_content)
         print(f"Saved article to: {file_path}")
 
-        processed_articles.append(article_title)
-        save_progress(processed_articles)
-        print(f"Saved progress. Waiting 1 second before next article...")
+        # Only add to processed_articles if not already there
+        if article_title not in processed_articles:
+            processed_articles.append(article_title)
+            save_progress(processed_articles)
+            
+        print(f"Waiting 1 second before next article...")
         time.sleep(1)  # Rate limiting precaution
 
     except Exception as e:
@@ -141,7 +221,7 @@ def scrape_category(category_name, depth=0, processed_articles=None):
                     processed_articles
                 )
             else:
-                # Process article
+                # Process article regardless of whether it was processed before
                 category_path = f"articles/{get_safe_path(category_name)}"
                 processed_articles = scrape_and_store_article(
                     title,
@@ -160,9 +240,11 @@ if __name__ == "__main__":
         
         progress = load_progress()
         start_category = progress['last_category'] or CATEGORY
+        
+        # We'll still track processed articles but only to resume if script is interrupted
         if progress['processed']:
-            print(f"Resuming from category: {start_category}")
-            print(f"Already processed: {len(progress['processed'])} articles")
+            print(f"Found {len(progress['processed'])} previously processed articles")
+            print("Note: All articles will be updated with the latest format")
         
         scrape_category(start_category)
         

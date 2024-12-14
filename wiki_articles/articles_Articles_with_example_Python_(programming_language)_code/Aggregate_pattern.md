@@ -1,12 +1,18 @@
 # Aggregate pattern
 
-_Last updated: 2024-12-14T15:39:03.164671_
+## Article Metadata
 
-**Original Article:** [Aggregate pattern](https://en.wikipedia.org/wiki/Aggregate_pattern)
+- **Last Updated:** 2024-12-14T15:59:29.200635
+- **Original Article:** [Aggregate pattern](https://en.wikipedia.org/wiki/Aggregate_pattern)
+- **Language:** en
+- **Page ID:** 234004
 
-**Summary:** An Aggregate pattern can refer to concepts in either statistics or computer programming. Both uses deal with considering a large case as composed of smaller, simpler, pieces.
+## Summary
+
+An Aggregate pattern can refer to concepts in either statistics or computer programming. Both uses deal with considering a large case as composed of smaller, simpler, pieces.
 
 ## Categories
+
 - Category:All articles needing additional references
 - Category:All stub articles
 - Category:Articles needing additional references from March 2024
@@ -16,6 +22,12 @@ _Last updated: 2024-12-14T15:39:03.164671_
 - Category:Short description matches Wikidata
 - Category:Software design patterns
 - Category:Statistics stubs
+
+## Table of Contents
+
+- Statistics
+- Computer programming
+- See also
 
 ## Content
 
@@ -38,3 +50,37 @@ Functional programming
 
 
 == References ==
+
+## Related Articles
+
+### Internal Links
+
+- [Computer programming](https://en.wikipedia.org/wiki/Computer_programming)
+- [Criminology](https://en.wikipedia.org/wiki/Criminology)
+- [Design Patterns](https://en.wikipedia.org/wiki/Design_Patterns)
+- [Economics](https://en.wikipedia.org/wiki/Economics)
+- [Facade pattern](https://en.wikipedia.org/wiki/Facade_pattern)
+- [Functional programming](https://en.wikipedia.org/wiki/Functional_programming)
+- [Iterator](https://en.wikipedia.org/wiki/Iterator)
+- [Psychology](https://en.wikipedia.org/wiki/Psychology)
+- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
+- [Sociology](https://en.wikipedia.org/wiki/Sociology)
+- [Software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern)
+- [Statistics](https://en.wikipedia.org/wiki/Statistics)
+- [Template class](https://en.wikipedia.org/wiki/Generic_programming)
+- [Type safety](https://en.wikipedia.org/wiki/Type_safety)
+- [Visitor pattern](https://en.wikipedia.org/wiki/Visitor_pattern)
+- [Talk:Aggregate pattern](https://en.wikipedia.org/wiki/Talk:Aggregate_pattern)
+- [Wikipedia:Articles with a single source](https://en.wikipedia.org/wiki/Wikipedia:Articles_with_a_single_source)
+- [Wikipedia:Stub](https://en.wikipedia.org/wiki/Wikipedia:Stub)
+- [Template:Compu-prog-stub](https://en.wikipedia.org/wiki/Template:Compu-prog-stub)
+- [Template:Statistics-stub](https://en.wikipedia.org/wiki/Template:Statistics-stub)
+- [Template talk:Compu-prog-stub](https://en.wikipedia.org/wiki/Template_talk:Compu-prog-stub)
+- [Template talk:Statistics-stub](https://en.wikipedia.org/wiki/Template_talk:Statistics-stub)
+- [Help:Referencing for beginners](https://en.wikipedia.org/wiki/Help:Referencing_for_beginners)
+- [Category:Articles needing additional references from March 2024](https://en.wikipedia.org/wiki/Category:Articles_needing_additional_references_from_March_2024)
+
+
+---
+_This article is part of the Python Programming Language wiki archive._
+_Retrieved and archived on: 2024-12-14T15:59:29.200635_
