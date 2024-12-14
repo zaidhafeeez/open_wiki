@@ -31,7 +31,34 @@ wiki_wiki = wikipediaapi.Wikipedia(
 
 # Initialize GitHub API
 g = Github(GITHUB_TOKEN)
-repo = g.get_repo(REPO_NAME)
+try:
+    # Try to get the repository
+    repo = g.get_repo(REPO_NAME)
+    print(f"Found existing repository: {REPO_NAME}")
+except GithubException as e:
+    if e.status == 404:
+        # Repository doesn't exist, create it
+        print(f"Repository {REPO_NAME} not found. Creating it...")
+        user = g.get_user()
+        repo = user.create_repo(
+            name=REPO_NAME.split('/')[-1],
+            description="Archived Wikipedia articles about Python programming language",
+            auto_init=True
+        )
+        print(f"Created new repository: {REPO_NAME}")
+        # Wait a moment for the repository to be fully created
+        time.sleep(5)
+    else:
+        print(f"Error accessing repository: {e}")
+        raise e
+
+# Verify repository access
+try:
+    repo.get_contents("/")
+    print("Successfully verified repository access")
+except GithubException as e:
+    print(f"Error accessing repository contents: {e}")
+    raise e
 
 def load_progress():
     if os.path.exists(PROGRESS_FILE):
@@ -74,6 +101,7 @@ def scrape_and_store_article(article_title, processed_articles):
         return processed_articles
 
     try:
+        print(f"\nProcessing article: {article_title}")
         # Fetch article content
         page = wiki_wiki.page(article_title)
         if not page.exists():
@@ -84,32 +112,47 @@ def scrape_and_store_article(article_title, processed_articles):
         metadata = get_article_metadata(page)
         file_name = f"{article_title.replace(' ', '_')}.md"
         file_content = format_article_content(page, metadata)
+        print(f"Generated content for {file_name} (size: {len(file_content)} bytes)")
 
         # Check if the file needs updating
         try:
+            print(f"Checking if {file_name} exists in repository...")
             contents = repo.get_contents(file_name)
             existing_content = contents.decoded_content.decode('utf-8')
             if "Last updated:" in existing_content:
                 print(f"Updating '{article_title}'")
-                repo.update_file(
+                result = repo.update_file(
                     file_name,
                     f"Update {article_title} article",
                     file_content,
                     contents.sha
                 )
+                print(f"Updated file: {file_name} (commit: {result['commit'].sha})")
             else:
                 print(f"Article '{file_name}' exists but no update needed.")
-        except GithubException:
-            # File doesn't exist, create it
-            repo.create_file(
-                file_name,
-                f"Add {article_title} article",
-                file_content
-            )
-            print(f"Added new article: '{article_title}'")
+        except GithubException as e:
+            if e.status == 404:
+                # File doesn't exist, create it
+                print(f"Creating new file: {file_name}")
+                try:
+                    result = repo.create_file(
+                        file_name,
+                        f"Add {article_title} article",
+                        file_content
+                    )
+                    print(f"Created new file: {file_name} (commit: {result['commit'].sha})")
+                except GithubException as create_error:
+                    print(f"Error creating file: {create_error}")
+                    print(f"Error data: {create_error.data}")
+                    raise create_error
+            else:
+                print(f"GitHub error: {e}")
+                print(f"Error data: {e.data}")
+                raise e
 
         processed_articles.append(article_title)
         save_progress(processed_articles)
+        print(f"Saved progress. Waiting 1 second before next article...")
         time.sleep(1)  # Rate limiting precaution
 
     except RateLimitExceededException:
@@ -119,6 +162,9 @@ def scrape_and_store_article(article_title, processed_articles):
 
     except Exception as e:
         print(f"Error processing '{article_title}': {e}")
+        print(f"Error type: {type(e)}")
+        import traceback
+        traceback.print_exc()
 
     return processed_articles
 
@@ -137,9 +183,11 @@ def scrape_category(category_name, depth=0, processed_articles=None):
 
     print(f"Processing category: {category_name} (depth: {depth})")
     members = list(category.categorymembers.keys())
+    print(f"Found {len(members)} members in category")
     
     with tqdm(total=len(members), desc=f"Category: {category_name}") as pbar:
         for title in members:
+            print(f"Processing member: {title}")
             if "Category:" in title and depth < MAX_DEPTH:
                 # Process subcategory
                 sub_category = title.replace("Category:", "")
