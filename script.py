@@ -1,5 +1,5 @@
 import wikipediaapi
-from datetime import datetime
+from datetime import datetime, timezone
 import time
 import json
 import os
@@ -51,7 +51,7 @@ def get_article_metadata(page):
         'title': page.title,
         'url': page.fullurl,
         'summary': page.summary[0:500] if page.summary else "",
-        'last_updated': datetime.utcnow().isoformat(),
+        'last_updated': datetime.now(timezone.utc).isoformat(),
         'language': page.language,
         'pageid': page.pageid,
     }
