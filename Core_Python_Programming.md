@@ -1,6 +1,6 @@
 # Core Python Programming
 
-_Last updated: 2024-12-14T15:02:52.470398_
+_Last updated: 2024-12-14T15:18:32.331755_
 
 **Original Article:** [Core Python Programming](https://en.wikipedia.org/wiki/Core_Python_Programming)
 
