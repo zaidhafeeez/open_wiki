@@ -41,7 +41,63 @@ def log_message(msg):
             break
 
 def get_safe_path(name):
-    return name.replace(' ', '_').replace('/', '_').replace('\\', '_')
+    """
+    Convert a string into a safe file path.
+    - Replaces spaces with underscores
+    - Removes or replaces special characters
+    - Ensures Git compatibility
+    """
+    # Common replacements for readability
+    replacements = {
+        ' ': '_',
+        '/': '_',
+        '\\': '_',
+        ':': '_',
+        '*': '_',
+        '?': '_',
+        '"': '_',
+        '<': '_',
+        '>': '_',
+        '|': '_',
+        '(': '_',
+        ')': '_',
+        '[': '_',
+        ']': '_',
+        '{': '_',
+        '}': '_',
+        '\'': '_',
+        '`': '_',
+        '#': '_',
+        '%': '_',
+        '&': '_',
+        '@': '_',
+        '!': '_',
+        '+': '_',
+        '=': '_',
+        ';': '_',
+        ',': '_',
+        '~': '_'
+    }
+    
+    result = name
+    for char, replacement in replacements.items():
+        result = result.replace(char, replacement)
+    
+    # Remove any remaining non-ASCII characters
+    result = ''.join(c for c in result if c.isascii())
+    
+    # Replace multiple underscores with a single one
+    while '__' in result:
+        result = result.replace('__', '_')
+    
+    # Remove leading/trailing underscores
+    result = result.strip('_')
+    
+    # Ensure the path is not empty
+    if not result:
+        result = 'unnamed'
+        
+    return result
 
 def load_progress():
     if os.path.exists(PROGRESS_FILE):
