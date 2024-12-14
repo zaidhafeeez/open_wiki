@@ -1,6 +1,6 @@
 # Aggregate pattern
 
-_Last updated: 2024-12-14T15:08:26.261592_
+_Last updated: 2024-12-14T15:21:17.230879_
 
 **Original Article:** [Aggregate pattern](https://en.wikipedia.org/wiki/Aggregate_pattern)
 
