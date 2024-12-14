@@ -9,6 +9,10 @@ jobs:
   update-wiki-archive:
     runs-on: ubuntu-latest
     
+    concurrency:
+      group: wiki-archive-${{ github.ref }}
+      cancel-in-progress: true
+    
     steps:
     - uses: actions/checkout@v3
       with:
@@ -20,7 +24,7 @@ jobs:
         python-version: '3.x'
         cache: 'pip'  # Enable pip cache
     
-    - name: Cache Python dependencies
+    - name: Cache Python dependencies and progress
       uses: actions/cache@v3
       with:
         path: |
@@ -46,31 +50,39 @@ jobs:
     
     - name: Run Wiki Archive Script
       run: python script.py
+      env:
+        PYTHONUNBUFFERED: 1  # Enable real-time logging
+        PYTHONIOENCODING: utf-8  # Ensure proper encoding
     
     - name: Check for changes
       id: check_changes
       run: |
         if [[ -n "$(git status --porcelain wiki_articles/)" ]]; then
           echo "changes=true" >> $GITHUB_OUTPUT
+          echo "changed_files=$(git status --porcelain wiki_articles/ | wc -l)" >> $GITHUB_OUTPUT
         else
           echo "changes=false" >> $GITHUB_OUTPUT
+          echo "changed_files=0" >> $GITHUB_OUTPUT
         fi
 
     - name: Commit and push if there are changes
       if: steps.check_changes.outputs.changes == 'true'
       run: |
-        # Stage only the wiki_articles directory
         git add wiki_articles/
 
-        # Get the current date for the commit message
         current_date=$(date +'%Y-%m-%d')
         
-        # Create commit with meaningful message
         git commit -m "Update wiki articles - $current_date" \
                   -m "Automated update of Wikipedia articles" \
-                  -m "Category: Python (programming language)"
+                  -m "Category: Python (programming language)" \
+                  -m "Files changed: ${{ steps.check_changes.outputs.changed_files }}"
         
-        # Push changes
+        git config http.postBuffer 524288000
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Cleanup old cache
+      run: |
+        rm -f archive_progress.json
+        git gc --aggressive --prune=now
