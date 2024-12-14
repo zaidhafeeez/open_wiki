@@ -1,6 +1,6 @@
 # Algorithms for calculating variance
 
-_Last updated: 2024-12-14T15:08:32.535345_
+_Last updated: 2024-12-14T15:21:21.032976_
 
 **Original Article:** [Algorithms for calculating variance](https://en.wikipedia.org/wiki/Algorithms_for_calculating_variance)
 
