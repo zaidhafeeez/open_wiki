@@ -1,6 +1,6 @@
 # Mojo (programming language)
 
-_Last updated: 2024-12-14T15:19:11.033072_
+_Last updated: 2024-12-14T15:19:19.193568_
 
 **Original Article:** [Mojo (programming language)](https://en.wikipedia.org/wiki/Mojo_(programming_language))
 
