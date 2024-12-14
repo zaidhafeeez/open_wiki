@@ -4,13 +4,16 @@ import time
 import json
 import os
 from tqdm import tqdm
+from concurrent.futures import ThreadPoolExecutor
+import threading
 
 # Configuration
-LANGUAGE = "en"  # Language code (e.g., 'en' for English)
-CATEGORY = "Python (programming language)"  # Wikipedia category name
-MAX_DEPTH = 1  # Maximum depth for subcategory traversal
+LANGUAGE = "en"
+CATEGORY = "Python (programming language)"
+MAX_DEPTH = 1
 PROGRESS_FILE = "archive_progress.json"
-OUTPUT_DIR = "wiki_articles"  # Local directory to store articles
+OUTPUT_DIR = "wiki_articles"
+MAX_WORKERS = 3  # Number of concurrent article processing threads
 
 # Initialize Wikipedia API with rate limiting
 wiki_wiki = wikipediaapi.Wikipedia(
@@ -19,236 +22,237 @@ wiki_wiki = wikipediaapi.Wikipedia(
     user_agent="WikiArchiveScript/1.0"
 )
 
+# Thread-safe progress tracking
+progress_lock = threading.Lock()
+processed_articles = set()
+
 def get_safe_path(name):
-    """Convert a string to a safe path name"""
     return name.replace(' ', '_').replace('/', '_').replace('\\', '_')
 
 def load_progress():
     if os.path.exists(PROGRESS_FILE):
         with open(PROGRESS_FILE, 'r') as f:
-            return json.load(f)
-    return {'processed': [], 'last_category': None}
+            data = json.load(f)
+            return {'processed': set(data['processed']), 'last_category': data['last_category']}
+    return {'processed': set(), 'last_category': None}
 
-def save_progress(processed_articles, current_category=None):
-    progress = {
-        'processed': processed_articles,
-        'last_category': current_category
-    }
-    with open(PROGRESS_FILE, 'w') as f:
-        json.dump(progress, f)
+def save_progress(processed, current_category=None):
+    with progress_lock:
+        progress = {
+            'processed': list(processed),
+            'last_category': current_category
+        }
+        with open(PROGRESS_FILE, 'w') as f:
+            json.dump(progress, f)
 
 def get_article_metadata(page):
-    # Get all links from the page
-    links = []
-    for link in page.links.values():
-        links.append({
-            'title': link.title,
-            'url': link.fullurl if link.exists() else None,
-            'exists': link.exists()
-        })
-
-    # Get all references/citations
-    references = []
-    if hasattr(page, 'references'):
-        for ref in page.references:
-            references.append(ref)
-
-    # Get all sections
-    sections = []
-    for section in page.sections:
-        sections.append({
-            'title': section.title,
-            'level': section.level
-        })
-
-    # Check if it's a disambiguation page by looking for common indicators
-    is_disambiguation = (
-        'disambiguation' in page.title.lower() or
-        'disambiguation' in [cat.lower() for cat in page.categories] or
-        'may refer to' in page.summary.lower()
-    )
-
-    return {
+    # Get essential metadata first
+    metadata = {
         'title': page.title,
         'url': page.fullurl,
         'summary': page.summary[0:500] if page.summary else "",
         'last_updated': datetime.utcnow().isoformat(),
-        'categories': [cat.title for cat in page.categories.values()],
-        'links': links,
-        'references': references,
-        'sections': sections,
-        'is_disambiguation': is_disambiguation,
         'language': page.language,
-        'pageid': page.pageid
+        'pageid': page.pageid,
     }
+    
+    # Add categories
+    metadata['categories'] = [cat.title for cat in page.categories.values()]
+    
+    # Check disambiguation
+    metadata['is_disambiguation'] = (
+        'disambiguation' in page.title.lower() or
+        'disambiguation' in [cat.lower() for cat in metadata['categories']] or
+        'may refer to' in metadata['summary'].lower()
+    )
+    
+    # Get sections
+    metadata['sections'] = [
+        {'title': section.title, 'level': section.level}
+        for section in page.sections
+    ]
+    
+    # Get links (only existing ones to reduce processing)
+    metadata['links'] = [
+        {'title': link.title, 'url': link.fullurl}
+        for link in page.links.values()
+        if link.exists()
+    ]
+    
+    # Get references if available
+    metadata['references'] = (
+        list(page.references) if hasattr(page, 'references') else []
+    )
+    
+    return metadata
 
 def format_article_content(page, metadata):
-    content = f"# {page.title}\n\n"
+    sections = []
     
     # Basic Metadata
-    content += "## Article Metadata\n\n"
-    content += f"- **Last Updated:** {metadata['last_updated']}\n"
-    content += f"- **Original Article:** [{page.title}]({metadata['url']})\n"
-    content += f"- **Language:** {metadata['language']}\n"
-    content += f"- **Page ID:** {metadata['pageid']}\n"
+    sections.append(f"# {page.title}\n")
+    sections.append("## Article Metadata\n")
+    sections.extend([
+        f"- **Last Updated:** {metadata['last_updated']}",
+        f"- **Original Article:** [{page.title}]({metadata['url']})",
+        f"- **Language:** {metadata['language']}",
+        f"- **Page ID:** {metadata['pageid']}"
+    ])
     if metadata['is_disambiguation']:
-        content += "- **Type:** Disambiguation Page\n"
-    content += "\n"
-
+        sections.append("- **Type:** Disambiguation Page")
+    sections.append("")
+    
     # Summary
-    content += "## Summary\n\n"
-    content += f"{metadata['summary']}\n\n"
-
+    if metadata['summary']:
+        sections.extend([
+            "## Summary\n",
+            metadata['summary'],
+            ""
+        ])
+    
     # Categories
-    content += "## Categories\n\n"
-    for cat in metadata['categories']:
-        content += f"- {cat}\n"
-    content += "\n"
-
+    if metadata['categories']:
+        sections.extend([
+            "## Categories\n",
+            *[f"- {cat}" for cat in metadata['categories']],
+            ""
+        ])
+    
     # Table of Contents
-    content += "## Table of Contents\n\n"
-    for section in metadata['sections']:
-        indent = "  " * (section['level'] - 1)
-        content += f"{indent}- {section['title']}\n"
-    content += "\n"
-
+    if metadata['sections']:
+        sections.extend([
+            "## Table of Contents\n",
+            *[f"{'  ' * (section['level'] - 1)}- {section['title']}"
+              for section in metadata['sections']],
+            ""
+        ])
+    
     # Main Content
-    content += "## Content\n\n"
-    content += page.text + "\n\n"
-
+    sections.extend([
+        "## Content\n",
+        page.text,
+        ""
+    ])
+    
     # Links
-    content += "## Related Articles\n\n"
-    existing_links = [link for link in metadata['links'] if link['exists']]
-    if existing_links:
-        content += "### Internal Links\n\n"
-        for link in existing_links:
-            content += f"- [{link['title']}]({link['url']})\n"
-    content += "\n"
-
+    if metadata['links']:
+        sections.extend([
+            "## Related Articles\n",
+            "### Internal Links\n",
+            *[f"- [{link['title']}]({link['url']})"
+              for link in metadata['links']],
+            ""
+        ])
+    
     # References
     if metadata['references']:
-        content += "## References\n\n"
-        for ref in metadata['references']:
-            content += f"- {ref}\n"
-    content += "\n"
-
+        sections.extend([
+            "## References\n",
+            *[f"- {ref}" for ref in metadata['references']],
+            ""
+        ])
+    
     # Footer
-    content += "---\n"
-    content += "_This article is part of the Python Programming Language wiki archive._\n"
-    content += f"_Retrieved and archived on: {metadata['last_updated']}_\n"
-
-    return content
+    sections.extend([
+        "---",
+        "_This article is part of the Python Programming Language wiki archive._",
+        f"_Retrieved and archived on: {metadata['last_updated']}_"
+    ])
+    
+    return "\n".join(sections)
 
 def ensure_directory(directory):
-    """Create directory if it doesn't exist"""
     if not os.path.exists(directory):
         os.makedirs(directory)
         print(f"Created directory: {directory}")
 
-def scrape_and_store_article(article_title, processed_articles, category_path='articles'):
+def process_article(args):
+    article_title, category_path = args
     try:
-        print(f"\nProcessing article: {article_title}")
-        # Fetch article content
         page = wiki_wiki.page(article_title)
         if not page.exists():
             print(f"Article '{article_title}' does not exist.")
-            return processed_articles
+            return
 
-        # Get metadata and format content
         metadata = get_article_metadata(page)
         safe_category = get_safe_path(category_path)
         directory_path = os.path.join(OUTPUT_DIR, safe_category)
-        ensure_directory(directory_path)
         
-        file_path = os.path.join(directory_path, f"{get_safe_path(article_title)}.md")
-        file_content = format_article_content(page, metadata)
-        print(f"Generated content for {file_path} (size: {len(file_content)} bytes)")
-
-        # Create README for category if it doesn't exist
-        readme_path = os.path.join(directory_path, "README.md")
-        if not os.path.exists(readme_path):
-            with open(readme_path, 'w', encoding='utf-8') as f:
-                f.write(f"# {category_path}\n\nWikipedia articles related to {category_path}")
-            print(f"Created category README: {readme_path}")
-
-        # Save the article
-        with open(file_path, 'w', encoding='utf-8') as f:
-            f.write(file_content)
-        print(f"Saved article to: {file_path}")
-
-        # Only add to processed_articles if not already there
-        if article_title not in processed_articles:
-            processed_articles.append(article_title)
-            save_progress(processed_articles)
+        with progress_lock:
+            ensure_directory(directory_path)
             
-        print(f"Waiting 1 second before next article...")
-        time.sleep(1)  # Rate limiting precaution
+            # Create README for category if needed
+            readme_path = os.path.join(directory_path, "README.md")
+            if not os.path.exists(readme_path):
+                with open(readme_path, 'w', encoding='utf-8') as f:
+                    f.write(f"# {category_path}\n\nWikipedia articles related to {category_path}")
 
+        file_path = os.path.join(directory_path, f"{get_safe_path(article_title)}.md")
+        content = format_article_content(page, metadata)
+        
+        with open(file_path, 'w', encoding='utf-8') as f:
+            f.write(content)
+        
+        with progress_lock:
+            processed_articles.add(article_title)
+            
+        print(f"Processed: {article_title}")
+        
     except Exception as e:
-        print(f"Error processing '{article_title}': {e}")
-        print(f"Error type: {type(e)}")
-        import traceback
-        traceback.print_exc()
+        print(f"Error processing '{article_title}': {str(e)}")
 
-    return processed_articles
-
-def scrape_category(category_name, depth=0, processed_articles=None):
-    if processed_articles is None:
-        progress = load_progress()
-        processed_articles = progress['processed']
-
+def scrape_category(category_name, depth=0):
     if depth > MAX_DEPTH:
-        return processed_articles
+        return
 
     category = wiki_wiki.page(f"Category:{category_name}")
     if not category.exists():
         print(f"Category '{category_name}' does not exist.")
-        return processed_articles
+        return
 
-    print(f"Processing category: {category_name} (depth: {depth})")
+    print(f"\nProcessing category: {category_name} (depth: {depth})")
     members = list(category.categorymembers.keys())
-    print(f"Found {len(members)} members in category")
-    
-    with tqdm(total=len(members), desc=f"Category: {category_name}") as pbar:
-        for title in members:
-            print(f"Processing member: {title}")
-            if "Category:" in title and depth < MAX_DEPTH:
-                # Process subcategory
-                sub_category = title.replace("Category:", "")
-                processed_articles = scrape_category(
-                    sub_category, 
-                    depth + 1, 
-                    processed_articles
-                )
-            else:
-                # Process article regardless of whether it was processed before
-                category_path = f"articles/{get_safe_path(category_name)}"
-                processed_articles = scrape_and_store_article(
-                    title,
-                    processed_articles,
-                    category_path
-                )
-            pbar.update(1)
-            save_progress(processed_articles, category_name)
+    print(f"Found {len(members)} members")
 
-    return processed_articles
+    # Separate articles and subcategories
+    articles = []
+    subcategories = []
+    
+    for title in members:
+        if "Category:" in title and depth < MAX_DEPTH:
+            subcategories.append(title.replace("Category:", ""))
+        else:
+            category_path = f"articles/{get_safe_path(category_name)}"
+            articles.append((title, category_path))
+
+    # Process articles in parallel
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        list(tqdm(
+            executor.map(process_article, articles),
+            total=len(articles),
+            desc=f"Processing articles in {category_name}"
+        ))
+
+    # Process subcategories
+    for subcat in subcategories:
+        scrape_category(subcat, depth + 1)
+        save_progress(processed_articles, subcat)
 
 if __name__ == "__main__":
     try:
-        # Create output directory if it doesn't exist
         ensure_directory(OUTPUT_DIR)
         
+        # Load previous progress
         progress = load_progress()
+        processed_articles = progress['processed']
         start_category = progress['last_category'] or CATEGORY
         
-        # We'll still track processed articles but only to resume if script is interrupted
-        if progress['processed']:
-            print(f"Found {len(progress['processed'])} previously processed articles")
+        if processed_articles:
+            print(f"Found {len(processed_articles)} previously processed articles")
             print("Note: All articles will be updated with the latest format")
         
         scrape_category(start_category)
         
-        # Clean up progress file after successful completion
         if os.path.exists(PROGRESS_FILE):
             os.remove(PROGRESS_FILE)
         
@@ -257,5 +261,7 @@ if __name__ == "__main__":
             
     except KeyboardInterrupt:
         print("\nScript interrupted. Progress saved.")
+        save_progress(processed_articles)
     except Exception as e:
         print(f"An error occurred: {e}")
+        save_progress(processed_articles)
