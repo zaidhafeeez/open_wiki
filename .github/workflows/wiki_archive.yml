@@ -30,6 +30,32 @@ jobs:
         pip install -r requirements.txt
     
     - name: Run Wiki Archive Script
-      env:
-        GITHUB_TOKEN: ${{ secrets.WIKI_ARCHIVE_TOKEN }}
       run: python script.py
+    
+    - name: Check for changes
+      id: check_changes
+      run: |
+        if [[ -n "$(git status --porcelain wiki_articles/)" ]]; then
+          echo "changes=true" >> $GITHUB_OUTPUT
+        else
+          echo "changes=false" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Commit and push if there are changes
+      if: steps.check_changes.outputs.changes == 'true'
+      run: |
+        # Stage only the wiki_articles directory
+        git add wiki_articles/
+
+        # Get the current date for the commit message
+        current_date=$(date +'%Y-%m-%d')
+        
+        # Create commit with meaningful message
+        git commit -m "Update wiki articles - $current_date" \
+                  -m "Automated update of Wikipedia articles" \
+                  -m "Category: Python (programming language)"
+        
+        # Push changes
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
