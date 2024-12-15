@@ -25,7 +25,7 @@ jobs:
         cache: 'pip'  # Enable pip cache
     
     - name: Cache Python dependencies and progress
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         path: |
           ~/.cache/pip
