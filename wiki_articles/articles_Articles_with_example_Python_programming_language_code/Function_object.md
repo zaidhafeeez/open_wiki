@@ -222,7 +222,7 @@ PHP Functors - Function Objects in PHP
 What the heck is a functionoid, and why would I use one? (C++ FAQ)
 
 ## Archive Info
-- **Archived on:** 2024-12-15 15:18:42 UTC
+- **Archived on:** 2024-12-15 21:04:30 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 18126 bytes

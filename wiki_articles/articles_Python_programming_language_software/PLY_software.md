@@ -42,7 +42,7 @@ ply.yacc - A re-implementation of Yacc for parser creation
 == References ==
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:39:44 UTC
+- **Archived on:** 2024-12-15 21:08:43 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 738 bytes

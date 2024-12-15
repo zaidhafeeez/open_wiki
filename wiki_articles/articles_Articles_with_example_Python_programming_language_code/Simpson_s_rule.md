@@ -3919,7 +3919,7 @@ A detailed description of a computer implementation is described by Dorai Sitara
 This article incorporates material from Code for Simpson's rule on PlanetMath, which is licensed under the Creative Commons Attribution/Share-Alike License.
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:38:46 UTC
+- **Archived on:** 2024-12-15 21:06:06 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 67372 bytes

@@ -41,7 +41,7 @@ The following is a SimPy simulation  showing a clock process that prints the cur
 == References ==
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:38:47 UTC
+- **Archived on:** 2024-12-15 21:06:07 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 1529 bytes

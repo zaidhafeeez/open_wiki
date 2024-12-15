@@ -232,7 +232,7 @@ Enumerated types in XML
 Enumerated types in Visual Basic
 
 ## Archive Info
-- **Archived on:** 2024-12-15 15:18:31 UTC
+- **Archived on:** 2024-12-15 21:04:18 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 19396 bytes

@@ -106,7 +106,7 @@ John Shipman, Tkinter 8.5 reference: a GUI for Python
 Ferg, Stephen, Thinking in Tkinter
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:39:23 UTC
+- **Archived on:** 2024-12-15 21:07:46 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 5095 bytes

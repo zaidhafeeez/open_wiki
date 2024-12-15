@@ -59,7 +59,7 @@ Multithreaded Game Scripting with Stackless Python by Harry Kalogirou
 Continuations and Stackless Python by Christian Tismer
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:39:09 UTC
+- **Archived on:** 2024-12-15 21:07:10 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 2846 bytes

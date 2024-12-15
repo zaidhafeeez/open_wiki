@@ -48,7 +48,7 @@ Cowrie - Active Kippo Fork at GitHub
 Kojoney - A honeypot for the SSH Service
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:39:41 UTC
+- **Archived on:** 2024-12-15 21:08:34 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 627 bytes

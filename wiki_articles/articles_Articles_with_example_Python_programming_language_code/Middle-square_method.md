@@ -1,7 +1,7 @@
 # Middle-square method
 
 ## Metadata
-- **Last Updated:** 2024-12-03 06:54:17 UTC
+- **Last Updated:** 2024-12-15 20:53:21 UTC
 - **Original Article:** [Middle-square method](https://en.wikipedia.org/wiki/Middle-square_method)
 - **Language:** en
 - **Page ID:** 753942
@@ -53,7 +53,7 @@ Blum Blum Shub
 == References ==
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:38:30 UTC
+- **Archived on:** 2024-12-15 21:05:18 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 3799 bytes

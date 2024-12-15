@@ -62,7 +62,7 @@ A reproduction of Ludgate's original 1909 paper, from The origins of digital com
 Method for deriving Ludgate's Irish Logarithms from first principles, Brian Coghlan, 2022)
 
 ## Archive Info
-- **Archived on:** 2024-12-15 15:19:04 UTC
+- **Archived on:** 2024-12-15 21:04:51 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 2996 bytes

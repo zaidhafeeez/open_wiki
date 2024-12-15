@@ -678,7 +678,7 @@ Manduchi, R.; Perona, P.; Shy, D. (April 1998). "Efficient deformable filter ban
 Fischer, Sylvain; Šroubek, Filip; Perrinet, Laurent; Redondo, Rafael; Cristóbal, Gabriel (2007). "Self-Invertible 2D Log-Gabor Wavelets" (PDF). International Journal of Computer Vision. 75 (2): 231–246. CiteSeerX 10.1.1.329.6283. doi:10.1007/s11263-006-0026-8. ISSN 0920-5691. S2CID 1452724.
 
 ## Archive Info
-- **Archived on:** 2024-12-15 15:18:43 UTC
+- **Archived on:** 2024-12-15 21:04:32 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 16200 bytes

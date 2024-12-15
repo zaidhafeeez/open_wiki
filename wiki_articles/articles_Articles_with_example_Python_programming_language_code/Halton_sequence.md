@@ -196,7 +196,7 @@ Halton, J. (1964), "Algorithm 247: Radical-inverse quasi-random point sequence",
 Kocis, Ladislav; Whiten, William (1997), "Computational Investigations of Low-Discrepancy Sequences", ACM Transactions on Mathematical Software, 23 (2): 266–296, doi:10.1145/264029.264064, S2CID 183263.
 
 ## Archive Info
-- **Archived on:** 2024-12-15 15:18:52 UTC
+- **Archived on:** 2024-12-15 21:04:38 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 4967 bytes

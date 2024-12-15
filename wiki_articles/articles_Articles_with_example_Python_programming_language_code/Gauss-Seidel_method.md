@@ -4927,7 +4927,7 @@ Matlab code
 C code example
 
 ## Archive Info
-- **Archived on:** 2024-12-15 15:18:44 UTC
+- **Archived on:** 2024-12-15 21:04:31 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 87976 bytes

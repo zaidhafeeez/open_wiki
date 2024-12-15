@@ -1,17 +1,16 @@
 # Biopython
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:43:33.902252+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 06:53:40 UTC
 - **Original Article:** [Biopython](https://en.wikipedia.org/wiki/Biopython)
 - **Language:** en
 - **Page ID:** 559868
 
 ## Summary
-
-The Biopython project is an open-source collection of non-commercial Python tools for computational biology and bioinformatics, created by an international association of developers. It contains classes to represent biological sequences and sequence annotations, and it is able to read and write to a variety of file formats. It also allows for a programmatic means of accessing online databases of biological information, such as those at NCBI. Separate modules extend Biopython's capabilities to se
+The Biopython project is an open-source collection of non-commercial Python tools for computational biology and bioinformatics, created by an international association of developers. It contains classes to represent biological sequences and sequence annotations, and it is able to read and write to a variety of file formats. It also allows for a programmatic means of accessing online databases of biological information, such as those at NCBI. Separate modules extend Biopython's capabilities to sequence alignment, protein structure, population genetics, phylogenetics, sequence motifs, and machine learning. Biopython is one of a number of Bio* projects designed to reduce code duplication in computational biology.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example Python (programming language) code
 - Category:Articles with short description
@@ -90,69 +89,9 @@ Official website
 Biopython Tutorial and Cookbook (PDF)
 Biopython source code on GitHub
 
-## Related Articles
-
-### Internal Links
-
-- [ASCII art](https://en.wikipedia.org/wiki/ASCII_art)
-- [Allele frequency](https://en.wikipedia.org/wiki/Allele_frequency)
-- [Array slicing](https://en.wikipedia.org/wiki/Array_slicing)
-- [Associative array](https://en.wikipedia.org/wiki/Associative_array)
-- [BLAST (biotechnology)](https://en.wikipedia.org/wiki/BLAST_(biotechnology))
-- [BioJS](https://en.wikipedia.org/wiki/BioJS)
-- [BioJava](https://en.wikipedia.org/wiki/BioJava)
-- [BioPerl](https://en.wikipedia.org/wiki/BioPerl)
-- [BioRuby](https://en.wikipedia.org/wiki/BioRuby)
-- [Bioinformatics](https://en.wikipedia.org/wiki/Bioinformatics)
-- [Biological database](https://en.wikipedia.org/wiki/Biological_database)
-- [Biomolecular structure](https://en.wikipedia.org/wiki/Biomolecular_structure)
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [Clustal](https://en.wikipedia.org/wiki/Clustal)
-- [Coalescent theory](https://en.wikipedia.org/wiki/Coalescent_theory)
-- [Computational biology](https://en.wikipedia.org/wiki/Computational_biology)
-- [Computing platform](https://en.wikipedia.org/wiki/Computing_platform)
-- [Cross-platform software](https://en.wikipedia.org/wiki/Cross-platform_software)
-- [Crystallographic Information File](https://en.wikipedia.org/wiki/Crystallographic_Information_File)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Duplicate code](https://en.wikipedia.org/wiki/Duplicate_code)
-- [EMBOSS](https://en.wikipedia.org/wiki/EMBOSS)
-- [Entrez](https://en.wikipedia.org/wiki/Entrez)
-- [FASTA format](https://en.wikipedia.org/wiki/FASTA_format)
-- [FASTQ format](https://en.wikipedia.org/wiki/FASTQ_format)
-- [Graphviz](https://en.wikipedia.org/wiki/Graphviz)
-- [Hardy–Weinberg principle](https://en.wikipedia.org/wiki/Hardy%E2%80%93Weinberg_principle)
-- [Linkage disequilibrium](https://en.wikipedia.org/wiki/Linkage_disequilibrium)
-- [Machine learning](https://en.wikipedia.org/wiki/Machine_learning)
-- [Matplotlib](https://en.wikipedia.org/wiki/Matplotlib)
-- [National Center for Biotechnology Information](https://en.wikipedia.org/wiki/National_Center_for_Biotechnology_Information)
-- [Newick format](https://en.wikipedia.org/wiki/Newick_format)
-- [Nexus file](https://en.wikipedia.org/wiki/Nexus_file)
-- [Open-source software](https://en.wikipedia.org/wiki/Open-source_software)
-- [Open Bioinformatics Foundation](https://en.wikipedia.org/wiki/Open_Bioinformatics_Foundation)
-- [PubMed Central](https://en.wikipedia.org/wiki/PubMed_Central)
-- [PubMed](https://en.wikipedia.org/wiki/PubMed)
-- [PhyloXML](https://en.wikipedia.org/wiki/PhyloXML)
-- [Phylogenetic tree](https://en.wikipedia.org/wiki/Phylogenetic_tree)
-- [Phylogenetics](https://en.wikipedia.org/wiki/Phylogenetics)
-- [Population genetics](https://en.wikipedia.org/wiki/Population_genetics)
-- [PDF](https://en.wikipedia.org/wiki/PDF)
-- [PNG](https://en.wikipedia.org/wiki/PNG)
-- [Programmer](https://en.wikipedia.org/wiki/Programmer)
-- [Protein Data Bank (file format)](https://en.wikipedia.org/wiki/Protein_Data_Bank_(file_format))
-- [Protein structure](https://en.wikipedia.org/wiki/Protein_structure)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Repository (version control)](https://en.wikipedia.org/wiki/Repository_(version_control))
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [SAMtools](https://en.wikipedia.org/wiki/SAMtools)
-- [Sequence alignment](https://en.wikipedia.org/wiki/Sequence_alignment)
-- [Sequence motif](https://en.wikipedia.org/wiki/Sequence_motif)
-- [Software categories](https://en.wikipedia.org/wiki/Software_categories)
-- [Software license](https://en.wikipedia.org/wiki/Software_license)
-- [Software release life cycle](https://en.wikipedia.org/wiki/Software_release_life_cycle)
-- [Template:Cite Q](https://en.wikipedia.org/wiki/Template:Cite_Q)
-- [Template:Cite web](https://en.wikipedia.org/wiki/Template:Cite_web)
-- [Module:Wd/doc](https://en.wikipedia.org/wiki/Module:Wd/doc)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:43:33.902252+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 21:03:41 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 6986 bytes
+- **Word Count:** 1037 words

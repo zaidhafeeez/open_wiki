@@ -105,7 +105,7 @@ Zig features type aliasing by assigning a data type to a constant.
 == References ==
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:38:52 UTC
+- **Archived on:** 2024-12-15 21:06:31 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 1754 bytes

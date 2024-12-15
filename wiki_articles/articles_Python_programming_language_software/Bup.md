@@ -56,7 +56,7 @@ External links
 bup website on GitHub
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:39:37 UTC
+- **Archived on:** 2024-12-15 21:08:25 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 653 bytes

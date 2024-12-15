@@ -60,7 +60,7 @@ External links
 "Fisher's Iris Data". (Contains two errors which are documented). UCI Machine Learning Repository: Iris Data Set.
 
 ## Archive Info
-- **Archived on:** 2024-12-15 15:19:03 UTC
+- **Archived on:** 2024-12-15 21:04:51 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 3793 bytes

@@ -1,17 +1,16 @@
 # Append
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:25:31.689110+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 07:02:04 UTC
 - **Original Article:** [Append](https://en.wikipedia.org/wiki/Append)
 - **Language:** en
 - **Page ID:** 4334924
 
 ## Summary
-
 In computer programming, append is the operation for concatenating linked lists or arrays in some high-level programming languages.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example Haskell code
 - Category:Articles with example Perl code
@@ -115,44 +114,9 @@ References
 Hughes, John (1989). "Why functional programming matters" (PDF). Computer Journal. 32 (2): 98–107. doi:10.1093/comjnl/32.2.98. Archived from the original (PDF) on 2007-04-13.
 Steele, Guy L. Jr. (1990). "Common Lisp: The Language" (2nd ed.): 418. {{cite journal}}: Cite journal requires |journal= (help) Description of append.
 
-## Related Articles
-
-### Internal Links
-
-- [Array (data type)](https://en.wikipedia.org/wiki/Array_(data_type))
-- [Bash (Unix shell)](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
-- [Big O notation](https://en.wikipedia.org/wiki/Big_O_notation)
-- [CAR and CDR](https://en.wikipedia.org/wiki/CAR_and_CDR)
-- [Common Lisp](https://en.wikipedia.org/wiki/Common_Lisp)
-- [Computational complexity theory](https://en.wikipedia.org/wiki/Computational_complexity_theory)
-- [The Computer Journal](https://en.wikipedia.org/wiki/The_Computer_Journal)
-- [Computer programming](https://en.wikipedia.org/wiki/Computer_programming)
-- [Concatenation](https://en.wikipedia.org/wiki/Concatenation)
-- [Cons](https://en.wikipedia.org/wiki/Cons)
-- [Data structure](https://en.wikipedia.org/wiki/Data_structure)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Fold (higher-order function)](https://en.wikipedia.org/wiki/Fold_(higher-order_function))
-- [Guy L. Steele Jr.](https://en.wikipedia.org/wiki/Guy_L._Steele_Jr.)
-- [Haskell](https://en.wikipedia.org/wiki/Haskell)
-- [High-level programming language](https://en.wikipedia.org/wiki/High-level_programming_language)
-- [In-place algorithm](https://en.wikipedia.org/wiki/In-place_algorithm)
-- [John Hughes (computer scientist)](https://en.wikipedia.org/wiki/John_Hughes_(computer_scientist))
-- [Linked list](https://en.wikipedia.org/wiki/Linked_list)
-- [Lisp (programming language)](https://en.wikipedia.org/wiki/Lisp_(programming_language))
-- [Logic programming](https://en.wikipedia.org/wiki/Logic_programming)
-- [Miranda (programming language)](https://en.wikipedia.org/wiki/Miranda_(programming_language))
-- [OCaml](https://en.wikipedia.org/wiki/OCaml)
-- [Operator (computer programming)](https://en.wikipedia.org/wiki/Operator_(computer_programming))
-- [Perl](https://en.wikipedia.org/wiki/Perl)
-- [Programming language](https://en.wikipedia.org/wiki/Programming_language)
-- [Prolog](https://en.wikipedia.org/wiki/Prolog)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Recursion](https://en.wikipedia.org/wiki/Recursion)
-- [Scheme (programming language)](https://en.wikipedia.org/wiki/Scheme_(programming_language))
-- [String (computer science)](https://en.wikipedia.org/wiki/String_(computer_science))
-- [Template:Cite journal](https://en.wikipedia.org/wiki/Template:Cite_journal)
-- [Help:CS1 errors](https://en.wikipedia.org/wiki/Help:CS1_errors)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:25:31.689110+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 21:03:26 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 3560 bytes
+- **Word Count:** 591 words

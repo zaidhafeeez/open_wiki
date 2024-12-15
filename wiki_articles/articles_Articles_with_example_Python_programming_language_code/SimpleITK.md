@@ -64,7 +64,7 @@ Jupyter notebooks on GitHub with long and extensively documented examples, usefu
 Get help, post questions on the ITK discussion forum.
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:38:46 UTC
+- **Archived on:** 2024-12-15 21:06:05 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 3693 bytes

@@ -68,7 +68,7 @@ This behavior is found in Python for mutable types, such as lists. As with evalu
 == References ==
 
 ## Archive Info
-- **Archived on:** 2024-12-15 15:18:23 UTC
+- **Archived on:** 2024-12-15 21:04:12 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 4960 bytes

@@ -52,7 +52,7 @@ Interview with Allison Randal by The Perl Review
 The Perl Programming Language
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:39:31 UTC
+- **Archived on:** 2024-12-15 21:08:06 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 1127 bytes

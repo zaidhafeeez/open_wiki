@@ -37,7 +37,7 @@ References
 4. Python Nested For Loop From Techgeekbuz
 
 ## Archive Info
-- **Archived on:** 2024-12-15 15:19:03 UTC
+- **Archived on:** 2024-12-15 21:04:49 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 1763 bytes

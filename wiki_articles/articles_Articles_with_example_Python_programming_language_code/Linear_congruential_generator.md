@@ -663,7 +663,7 @@ P. L'Ecuyer and R. Simard, "TestU01: A C Library for Empirical Testing of Random
 Article about another way of cracking LCG
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:38:24 UTC
+- **Archived on:** 2024-12-15 21:05:04 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 23552 bytes

@@ -790,7 +790,7 @@ greatest subsequential sum problem on Rosetta Code
 geeksforgeeks page on Kadane's Algorithm
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:38:28 UTC
+- **Archived on:** 2024-12-15 21:05:14 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 16742 bytes

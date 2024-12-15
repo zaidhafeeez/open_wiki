@@ -1,7 +1,7 @@
 # SCons
 
 ## Metadata
-- **Last Updated:** 2024-12-15 18:19:18 UTC
+- **Last Updated:** 2024-12-15 20:59:42 UTC
 - **Original Article:** [SCons](https://en.wikipedia.org/wiki/SCons)
 - **Language:** en
 - **Page ID:** 1175381
@@ -77,7 +77,7 @@ External links
 Official website
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:38:44 UTC
+- **Archived on:** 2024-12-15 21:05:58 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 3557 bytes

@@ -70,7 +70,7 @@ Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein. In
 Skeet, Jon (3 June 2014). "Anti-pattern: parallel collections". Retrieved 28 October 2014.
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:38:37 UTC
+- **Archived on:** 2024-12-15 21:05:38 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 5189 bytes

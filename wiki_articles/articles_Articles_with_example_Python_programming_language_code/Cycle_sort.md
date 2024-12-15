@@ -139,7 +139,7 @@ Original source of unrestricted variant
 Cyclesort - a curious little sorting algorithm
 
 ## Archive Info
-- **Archived on:** 2024-12-15 15:18:24 UTC
+- **Archived on:** 2024-12-15 21:04:09 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 4100 bytes

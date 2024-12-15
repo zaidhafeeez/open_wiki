@@ -1,18 +1,18 @@
 # Change-making problem
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:59:24.366312+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 07:19:31 UTC
 - **Original Article:** [Change-making problem](https://en.wikipedia.org/wiki/Change-making_problem)
 - **Language:** en
 - **Page ID:** 20913204
 
 ## Summary
-
 The change-making problem addresses the question of finding the minimum number of coins (of certain denominations) that add up to a given amount of money. It is a special case of the integer knapsack problem, and has applications wider than just currency.
-It is also the most common variation of the coin change problem, a general case of partition in which, given the available denominations of an infinite set of coins, the objective is to find out the number of possible ways of making a change fo
+It is also the most common variation of the coin change problem, a general case of partition in which, given the available denominations of an infinite set of coins, the objective is to find out the number of possible ways of making a change for a specific amount of money, without considering the order of the coins.
+It is weakly NP-hard, but may be solved optimally in pseudo-polynomial time by dynamic programming.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example Python (programming language) code
 - Category:Articles with short description
@@ -135,38 +135,9 @@ References
 Further reading
 M. Adamaszek, A. Niewiarowska (2010). "Combinatorics of the change-making problem". European Journal of Combinatorics. 31 (1): 47–63. arXiv:0801.0120. doi:10.1016/j.ejc.2009.05.002. S2CID 13527488.
 
-## Related Articles
-
-### Internal Links
-
-- [Preferred number](https://en.wikipedia.org/wiki/Preferred_number)
-- [ArXiv](https://en.wikipedia.org/wiki/ArXiv)
-- [Bibcode](https://en.wikipedia.org/wiki/Bibcode)
-- [Coin problem](https://en.wikipedia.org/wiki/Coin_problem)
-- [Denomination (currency)](https://en.wikipedia.org/wiki/Denomination_(currency))
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Dynamic programming](https://en.wikipedia.org/wiki/Dynamic_programming)
-- [Fast Fourier transform](https://en.wikipedia.org/wiki/Fast_Fourier_transform)
-- [Greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm)
-- [Handle System](https://en.wikipedia.org/wiki/Handle_System)
-- [Integer](https://en.wikipedia.org/wiki/Integer)
-- [Introduction to Algorithms](https://en.wikipedia.org/wiki/Introduction_to_Algorithms)
-- [Knapsack problem](https://en.wikipedia.org/wiki/Knapsack_problem)
-- [List of knapsack problems](https://en.wikipedia.org/wiki/List_of_knapsack_problems)
-- [Mathematical Reviews](https://en.wikipedia.org/wiki/Mathematical_Reviews)
-- [The Mathematical Intelligencer](https://en.wikipedia.org/wiki/The_Mathematical_Intelligencer)
-- [Nine-dart finish](https://en.wikipedia.org/wiki/Nine-dart_finish)
-- [Operations Research Letters](https://en.wikipedia.org/wiki/Operations_Research_Letters)
-- [PubMed Central](https://en.wikipedia.org/wiki/PubMed_Central)
-- [PubMed](https://en.wikipedia.org/wiki/PubMed)
-- [Package-merge algorithm](https://en.wikipedia.org/wiki/Package-merge_algorithm)
-- [Partition problem](https://en.wikipedia.org/wiki/Partition_problem)
-- [Time complexity](https://en.wikipedia.org/wiki/Time_complexity)
-- [Pseudo-polynomial time](https://en.wikipedia.org/wiki/Pseudo-polynomial_time)
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [Special case](https://en.wikipedia.org/wiki/Special_case)
-- [Weak NP-completeness](https://en.wikipedia.org/wiki/Weak_NP-completeness)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:59:24.366312+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 21:03:49 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 6534 bytes
+- **Word Count:** 977 words

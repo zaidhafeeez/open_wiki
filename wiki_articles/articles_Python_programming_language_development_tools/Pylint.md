@@ -51,7 +51,7 @@ Official website
 pylint on GitHub
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:39:02 UTC
+- **Archived on:** 2024-12-15 21:06:52 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 854 bytes

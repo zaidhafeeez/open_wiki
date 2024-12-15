@@ -1,7 +1,7 @@
 # Member variable
 
 ## Metadata
-- **Last Updated:** 2024-12-03 06:55:43 UTC
+- **Last Updated:** 2024-12-15 20:49:27 UTC
 - **Original Article:** [Member variable](https://en.wikipedia.org/wiki/Member_variable)
 - **Language:** en
 - **Page ID:** 1251223
@@ -46,7 +46,7 @@ Property (programming)
 == References ==
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:38:28 UTC
+- **Archived on:** 2024-12-15 21:05:15 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 647 bytes

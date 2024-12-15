@@ -1,18 +1,17 @@
 # Automatic differentiation
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:25:32.501556+00:00
+## Metadata
+- **Last Updated:** 2024-12-13 20:42:16 UTC
 - **Original Article:** [Automatic differentiation](https://en.wikipedia.org/wiki/Automatic_differentiation)
 - **Language:** en
 - **Page ID:** 734787
 
 ## Summary
-
 In mathematics and computer algebra, automatic differentiation (auto-differentiation, autodiff, or AD), also called algorithmic differentiation, computational differentiation, is a set of techniques to evaluate the partial derivative of a function specified by a computer program.
-Automatic differentiation exploits the fact that every computer calculation, no matter how complicated, executes a sequence of elementary arithmetic operations (addition, subtraction, multiplication, division, etc.) and
+Automatic differentiation exploits the fact that every computer calculation, no matter how complicated, executes a sequence of elementary arithmetic operations (addition, subtraction, multiplication, division, etc.) and elementary functions (exp, log, sin, cos, etc.). By applying the chain rule repeatedly to these operations, partial derivatives of arbitrary order can be computed automatically, accurately to working precision, and using at most a small constant factor of more arithmetic operations than the original program.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example C++ code
 - Category:Articles with example Python (programming language) code
@@ -3848,97 +3847,9 @@ Adjoint Methods in Computational Finance Software Tool Support for Algorithmic D
 More than a Thousand Fold Speed Up for xVA Pricing Calculations with Intel Xeon Scalable Processors
 Sparse truncated Taylor series implementation with VBIC95 example for higher order derivatives
 
-## Related Articles
-
-### Internal Links
-
-- [Concrete number](https://en.wikipedia.org/wiki/Concrete_number)
-- [Alfons Kemper](https://en.wikipedia.org/wiki/Alfons_Kemper)
-- [Algebra over a field](https://en.wikipedia.org/wiki/Algebra_over_a_field)
-- [Analytic function](https://en.wikipedia.org/wiki/Analytic_function)
-- [Andrea Walther](https://en.wikipedia.org/wiki/Andrea_Walther)
-- [Arithmetic](https://en.wikipedia.org/wiki/Arithmetic)
-- [Backpropagation](https://en.wikipedia.org/wiki/Backpropagation)
-- [Bibcode](https://en.wikipedia.org/wiki/Bibcode)
-- [Chain rule](https://en.wikipedia.org/wiki/Chain_rule)
-- [Checkpointing scheme](https://en.wikipedia.org/wiki/Checkpointing_scheme)
-- [CiteSeerX](https://en.wikipedia.org/wiki/CiteSeerX)
-- [Computational complexity theory](https://en.wikipedia.org/wiki/Computational_complexity_theory)
-- [Computational learning theory](https://en.wikipedia.org/wiki/Computational_learning_theory)
-- [Computer algebra](https://en.wikipedia.org/wiki/Computer_algebra)
-- [Sine and cosine](https://en.wikipedia.org/wiki/Sine_and_cosine)
-- [Linear form](https://en.wikipedia.org/wiki/Linear_form)
-- [Differentiable function](https://en.wikipedia.org/wiki/Differentiable_function)
-- [Differentiable programming](https://en.wikipedia.org/wiki/Differentiable_programming)
-- [Discretization](https://en.wikipedia.org/wiki/Discretization)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Dual number](https://en.wikipedia.org/wiki/Dual_number)
-- [Exponential function](https://en.wikipedia.org/wiki/Exponential_function)
-- [Expression (mathematics)](https://en.wikipedia.org/wiki/Expression_(mathematics))
-- [Flux (machine-learning framework)](https://en.wikipedia.org/wiki/Flux_(machine-learning_framework))
-- [Function composition](https://en.wikipedia.org/wiki/Function_composition)
-- [Google JAX](https://en.wikipedia.org/wiki/Google_JAX)
-- [Gradient](https://en.wikipedia.org/wiki/Gradient)
-- [Gradient descent](https://en.wikipedia.org/wiki/Gradient_descent)
-- [Graphcore](https://en.wikipedia.org/wiki/Graphcore)
-- [Handle System](https://en.wikipedia.org/wiki/Handle_System)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Inductive bias](https://en.wikipedia.org/wiki/Inductive_bias)
-- [Infinitesimal](https://en.wikipedia.org/wiki/Infinitesimal)
-- [Information geometry](https://en.wikipedia.org/wiki/Information_geometry)
-- [Jacobian matrix and determinant](https://en.wikipedia.org/wiki/Jacobian_matrix_and_determinant)
-- [Keras](https://en.wikipedia.org/wiki/Keras)
-- [Machine learning](https://en.wikipedia.org/wiki/Machine_learning)
-- [Expression (mathematics)](https://en.wikipedia.org/wiki/Expression_(mathematics))
-- [Mathematics](https://en.wikipedia.org/wiki/Mathematics)
-- [Memristor](https://en.wikipedia.org/wiki/Memristor)
-- [MindSpore](https://en.wikipedia.org/wiki/MindSpore)
-- [NP-completeness](https://en.wikipedia.org/wiki/NP-completeness)
-- [Natural logarithm](https://en.wikipedia.org/wiki/Natural_logarithm)
-- [Neuromorphic computing](https://en.wikipedia.org/wiki/Neuromorphic_computing)
-- [Numerical differentiation](https://en.wikipedia.org/wiki/Numerical_differentiation)
-- [Operator overloading](https://en.wikipedia.org/wiki/Operator_overloading)
-- [Mathematical optimization](https://en.wikipedia.org/wiki/Mathematical_optimization)
-- [Ordered pair](https://en.wikipedia.org/wiki/Ordered_pair)
-- [Palgrave Macmillan](https://en.wikipedia.org/wiki/Palgrave_Macmillan)
-- [Partial derivative](https://en.wikipedia.org/wiki/Partial_derivative)
-- [Pattern recognition](https://en.wikipedia.org/wiki/Pattern_recognition)
-- [Polynomial](https://en.wikipedia.org/wiki/Polynomial)
-- [PyTorch](https://en.wikipedia.org/wiki/PyTorch)
-- [Real number](https://en.wikipedia.org/wiki/Real_number)
-- [Rematerialization](https://en.wikipedia.org/wiki/Rematerialization)
-- [Ricci calculus](https://en.wikipedia.org/wiki/Ricci_calculus)
-- [Round-off error](https://en.wikipedia.org/wiki/Round-off_error)
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [Scikit-learn](https://en.wikipedia.org/wiki/Scikit-learn)
-- [Seppo Linnainmaa](https://en.wikipedia.org/wiki/Seppo_Linnainmaa)
-- [Sine and cosine](https://en.wikipedia.org/wiki/Sine_and_cosine)
-- [Smooth infinitesimal analysis](https://en.wikipedia.org/wiki/Smooth_infinitesimal_analysis)
-- [Society for Industrial and Applied Mathematics](https://en.wikipedia.org/wiki/Society_for_Industrial_and_Applied_Mathematics)
-- [Program transformation](https://en.wikipedia.org/wiki/Program_transformation)
-- [Space–time tradeoff](https://en.wikipedia.org/wiki/Space%E2%80%93time_tradeoff)
-- [SpiNNaker](https://en.wikipedia.org/wiki/SpiNNaker)
-- [Springer Science+Business Media](https://en.wikipedia.org/wiki/Springer_Science%2BBusiness_Media)
-- [Statistical manifold](https://en.wikipedia.org/wiki/Statistical_manifold)
-- [Computer algebra](https://en.wikipedia.org/wiki/Computer_algebra)
-- [Taylor series](https://en.wikipedia.org/wiki/Taylor_series)
-- [TensorFlow](https://en.wikipedia.org/wiki/TensorFlow)
-- [Tensor Processing Unit](https://en.wikipedia.org/wiki/Tensor_Processing_Unit)
-- [Theano (software)](https://en.wikipedia.org/wiki/Theano_(software))
-- [Thomas Neumann](https://en.wikipedia.org/wiki/Thomas_Neumann)
-- [Transpose](https://en.wikipedia.org/wiki/Transpose)
-- [Unary operation](https://en.wikipedia.org/wiki/Unary_operation)
-- [Vision processing unit](https://en.wikipedia.org/wiki/Vision_processing_unit)
-- [Wayback Machine](https://en.wikipedia.org/wiki/Wayback_Machine)
-- [Template:Cite book](https://en.wikipedia.org/wiki/Template:Cite_book)
-- [Template:Cite journal](https://en.wikipedia.org/wiki/Template:Cite_journal)
-- [Template:Differentiable computing](https://en.wikipedia.org/wiki/Template:Differentiable_computing)
-- [Template talk:Differentiable computing](https://en.wikipedia.org/wiki/Template_talk:Differentiable_computing)
-- [Help:Authority control](https://en.wikipedia.org/wiki/Help:Authority_control)
-- [Category:CS1 maint: multiple names: authors list](https://en.wikipedia.org/wiki/Category:CS1_maint:_multiple_names:_authors_list)
-- [Portal:Computer programming](https://en.wikipedia.org/wiki/Portal:Computer_programming)
-- [Portal:Technology](https://en.wikipedia.org/wiki/Portal:Technology)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:25:32.501556+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 21:03:29 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 80878 bytes
+- **Word Count:** 4466 words

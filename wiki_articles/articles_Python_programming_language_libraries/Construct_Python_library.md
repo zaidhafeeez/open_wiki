@@ -64,7 +64,7 @@ Construct's Repository
 Python Training
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:39:13 UTC
+- **Archived on:** 2024-12-15 21:07:20 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 2253 bytes

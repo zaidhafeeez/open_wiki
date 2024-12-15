@@ -132,7 +132,7 @@ External links
 Official website
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:39:59 UTC
+- **Archived on:** 2024-12-15 21:09:26 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 8483 bytes

@@ -76,7 +76,7 @@ Official documentation
 AVbin, the wrapper for libav
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:38:41 UTC
+- **Archived on:** 2024-12-15 21:05:48 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 2126 bytes

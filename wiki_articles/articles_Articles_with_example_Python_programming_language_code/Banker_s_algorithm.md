@@ -1,18 +1,17 @@
 # Banker's algorithm
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:43:22.727815+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 07:03:27 UTC
 - **Original Article:** [Banker's algorithm](https://en.wikipedia.org/wiki/Banker%27s_algorithm)
 - **Language:** en
 - **Page ID:** 5348805
 
 ## Summary
-
 Banker's algorithm is a resource allocation and deadlock avoidance algorithm developed by Edsger Dijkstra that tests for safety by simulating the allocation of predetermined maximum possible amounts of all resources, and then makes an "s-state" check to test for possible deadlock conditions for all other pending activities, before deciding whether allocation should be allowed to continue.
-The algorithm was developed in the design process for the THE operating system and originally described (in 
+The algorithm was developed in the design process for the THE operating system and originally described (in Dutch) in EWD108. When a new process enters a system, it must declare the maximum number of instances of each resource type that it may ever claim; clearly, that number may not exceed the total number of resources in the system. Also, when a process gets all its requested resources it must return them in a finite amount of time.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example Python (programming language) code
 - Category:Articles with example pseudocode
@@ -185,55 +184,9 @@ Further reading
 "Operating System Concepts" by Silberschatz, Galvin, and Gagne (pages 298-300 of the 8th edition)
 Dijkstra, Edsger W. The mathematics behind the Banker's Algorithm (EWD-623) (PDF). E.W. Dijkstra Archive. Center for American History, University of Texas at Austin. (transcription) (1977), published as pages 308–312 of Edsger W. Dijkstra, Selected Writings on Computing: A Personal Perspective, Springer-Verlag, 1982. ISBN 0-387-90652-5
 
-## Related Articles
-
-### Internal Links
-
-- [Adriaan van Wijngaarden](https://en.wikipedia.org/wiki/Adriaan_van_Wijngaarden)
-- [Algorithm](https://en.wikipedia.org/wiki/Algorithm)
-- [Algorithm](https://en.wikipedia.org/wiki/Algorithm)
-- [Carel S. Scholten](https://en.wikipedia.org/wiki/Carel_S._Scholten)
-- [Computer science](https://en.wikipedia.org/wiki/Computer_science)
-- [Concurrent computing](https://en.wikipedia.org/wiki/Concurrent_computing)
-- [David Parnas](https://en.wikipedia.org/wiki/David_Parnas)
-- [Deadlock (computer science)](https://en.wikipedia.org/wiki/Deadlock_(computer_science))
-- [Distributed computing](https://en.wikipedia.org/wiki/Distributed_computing)
-- [Dutch language](https://en.wikipedia.org/wiki/Dutch_language)
-- [Edsger W. Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra)
-- [Edsger W. Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra)
-- [Edsger W. Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra)
-- [Formal methods](https://en.wikipedia.org/wiki/Formal_methods)
-- [Goto](https://en.wikipedia.org/wiki/Goto)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Interface (computing)](https://en.wikipedia.org/wiki/Interface_(computing))
-- [Leslie Lamport](https://en.wikipedia.org/wiki/Leslie_Lamport)
-- [Computer memory](https://en.wikipedia.org/wiki/Computer_memory)
-- [Niklaus Wirth](https://en.wikipedia.org/wiki/Niklaus_Wirth)
-- [Ole-Johan Dahl](https://en.wikipedia.org/wiki/Ole-Johan_Dahl)
-- [On the Cruelty of Really Teaching Computer Science](https://en.wikipedia.org/wiki/On_the_Cruelty_of_Really_Teaching_Computer_Science)
-- [Per Brinch Hansen](https://en.wikipedia.org/wiki/Per_Brinch_Hansen)
-- [Philosophy of computer science](https://en.wikipedia.org/wiki/Philosophy_of_computer_science)
-- [Programming language theory](https://en.wikipedia.org/wiki/Programming_language_theory)
-- [Software development process](https://en.wikipedia.org/wiki/Software_development_process)
-- [System resource](https://en.wikipedia.org/wiki/System_resource)
-- [Resource allocation](https://en.wikipedia.org/wiki/Resource_allocation)
-- [Semaphore (programming)](https://en.wikipedia.org/wiki/Semaphore_(programming))
-- [Shlomi Dolev](https://en.wikipedia.org/wiki/Shlomi_Dolev)
-- [Software architecture](https://en.wikipedia.org/wiki/Software_architecture)
-- [Software design](https://en.wikipedia.org/wiki/Software_design)
-- [Software development](https://en.wikipedia.org/wiki/Software_development)
-- [Software engineering](https://en.wikipedia.org/wiki/Software_engineering)
-- [Systems science](https://en.wikipedia.org/wiki/Systems_science)
-- [THE multiprogramming system](https://en.wikipedia.org/wiki/THE_multiprogramming_system)
-- [Theoretical computer science](https://en.wikipedia.org/wiki/Theoretical_computer_science)
-- [Tony Hoare](https://en.wikipedia.org/wiki/Tony_Hoare)
-- [University of Texas at Austin](https://en.wikipedia.org/wiki/University_of_Texas_at_Austin)
-- [Template:Cite book](https://en.wikipedia.org/wiki/Template:Cite_book)
-- [Template:Edsger Dijkstra](https://en.wikipedia.org/wiki/Template:Edsger_Dijkstra)
-- [Template talk:Edsger Dijkstra](https://en.wikipedia.org/wiki/Template_talk:Edsger_Dijkstra)
-- [Category:CS1 maint: multiple names: authors list](https://en.wikipedia.org/wiki/Category:CS1_maint:_multiple_names:_authors_list)
-- [Category:Works by Edsger Dijkstra](https://en.wikipedia.org/wiki/Category:Works_by_Edsger_Dijkstra)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:43:22.727815+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 21:03:35 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 9255 bytes
+- **Word Count:** 1671 words

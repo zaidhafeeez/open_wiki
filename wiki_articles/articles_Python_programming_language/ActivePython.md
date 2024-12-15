@@ -1,18 +1,17 @@
 # ActiveState
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:15:39.712498+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 07:07:33 UTC
 - **Original Article:** [ActiveState](https://en.wikipedia.org/wiki/ActiveState)
 - **Language:** en
 - **Page ID:** 8918360
 
 ## Summary
-
 ActiveState Software Inc is a Canadian software company headquartered in Vancouver, British Columbia. It develops, sells, and supports cross-platform development tools and secure software supply chain solutions for dynamic languages such as Perl, PHP, Python, Ruby and Tcl, as well as enterprise services.
 ActiveState is owned by its employees and Vertu Capital, a growth equity firm based in Ontario, Canada after briefly being a member of the Sophos group.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles lacking reliable references
 - Category:All articles with a promotional tone
@@ -84,64 +83,9 @@ External links
 ActiveState Company site
 ActiveState Code site
 
-## Related Articles
-
-### Internal Links
-
-- [ActivePerl](https://en.wikipedia.org/wiki/ActivePerl)
-- [Komodo Edit](https://en.wikipedia.org/wiki/Komodo_Edit)
-- [British Columbia](https://en.wikipedia.org/wiki/British_Columbia)
-- [CPython](https://en.wikipedia.org/wiki/CPython)
-- [Canada](https://en.wikipedia.org/wiki/Canada)
-- [Canada's Top 100 Employers](https://en.wikipedia.org/wiki/Canada%27s_Top_100_Employers)
-- [Software](https://en.wikipedia.org/wiki/Software)
-- [Corporation](https://en.wikipedia.org/wiki/Corporation)
-- [Cross-platform software](https://en.wikipedia.org/wiki/Cross-platform_software)
-- [Dynamic programming language](https://en.wikipedia.org/wiki/Dynamic_programming_language)
-- [Enterprise software](https://en.wikipedia.org/wiki/Enterprise_software)
-- [HP-UX](https://en.wikipedia.org/wiki/HP-UX)
-- [HP Cloud](https://en.wikipedia.org/wiki/HP_Cloud)
-- [IBM AIX](https://en.wikipedia.org/wiki/IBM_AIX)
-- [IDLE](https://en.wikipedia.org/wiki/IDLE)
-- [Integrated development environment](https://en.wikipedia.org/wiki/Integrated_development_environment)
-- [Linux](https://en.wikipedia.org/wiki/Linux)
-- [MacOS](https://en.wikipedia.org/wiki/MacOS)
-- [Maclean's](https://en.wikipedia.org/wiki/Maclean%27s)
-- [Microsoft Windows](https://en.wikipedia.org/wiki/Microsoft_Windows)
-- [Node.js](https://en.wikipedia.org/wiki/Node.js)
-- [Original equipment manufacturer](https://en.wikipedia.org/wiki/Original_equipment_manufacturer)
-- [MacOS](https://en.wikipedia.org/wiki/MacOS)
-- [Ontario](https://en.wikipedia.org/wiki/Ontario)
-- [PHP](https://en.wikipedia.org/wiki/PHP)
-- [Package manager](https://en.wikipedia.org/wiki/Package_manager)
-- [Perl](https://en.wikipedia.org/wiki/Perl)
-- [Komodo Edit](https://en.wikipedia.org/wiki/Komodo_Edit)
-- [Privately held company](https://en.wikipedia.org/wiki/Privately_held_company)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Ruby (programming language)](https://en.wikipedia.org/wiki/Ruby_(programming_language))
-- [Software](https://en.wikipedia.org/wiki/Software)
-- [Programming tool](https://en.wikipedia.org/wiki/Programming_tool)
-- [Software supply chain](https://en.wikipedia.org/wiki/Software_supply_chain)
-- [Oracle Solaris](https://en.wikipedia.org/wiki/Oracle_Solaris)
-- [Sophos](https://en.wikipedia.org/wiki/Sophos)
-- [Sophos](https://en.wikipedia.org/wiki/Sophos)
-- [Tcl](https://en.wikipedia.org/wiki/Tcl)
-- [Komodo Edit](https://en.wikipedia.org/wiki/Komodo_Edit)
-- [The Register](https://en.wikipedia.org/wiki/The_Register)
-- [Vancouver](https://en.wikipedia.org/wiki/Vancouver)
-- [Windows API](https://en.wikipedia.org/wiki/Windows_API)
-- [Wikipedia:External links](https://en.wikipedia.org/wiki/Wikipedia:External_links)
-- [Wikipedia:Link rot](https://en.wikipedia.org/wiki/Wikipedia:Link_rot)
-- [Wikipedia:Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)
-- [Wikipedia:Neutral point of view](https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view)
-- [Wikipedia:Spam](https://en.wikipedia.org/wiki/Wikipedia:Spam)
-- [Wikipedia:What Wikipedia is not](https://en.wikipedia.org/wiki/Wikipedia:What_Wikipedia_is_not)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Category:Articles lacking reliable references from December 2018](https://en.wikipedia.org/wiki/Category:Articles_lacking_reliable_references_from_December_2018)
-- [Category:Articles with a promotional tone from August 2012](https://en.wikipedia.org/wiki/Category:Articles_with_a_promotional_tone_from_August_2012)
-- [Category:Articles with dead external links from August 2023](https://en.wikipedia.org/wiki/Category:Articles_with_dead_external_links_from_August_2023)
-- [Category:Use mdy dates from October 2018](https://en.wikipedia.org/wiki/Category:Use_mdy_dates_from_October_2018)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:15:39.712498+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 21:02:50 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 4858 bytes
+- **Word Count:** 697 words

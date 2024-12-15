@@ -1,20 +1,27 @@
 # C3 linearization
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:59:03.452661+00:00
+## Metadata
+- **Last Updated:** 2024-12-13 14:33:52 UTC
 - **Original Article:** [C3 linearization](https://en.wikipedia.org/wiki/C3_linearization)
 - **Language:** en
 - **Page ID:** 8305253
 
 ## Summary
-
 "In object-oriented systems with multiple inheritance,
 some mechanism must be used for resolving conflicts when inheriting different definitions of the same property
 from multiple superclasses." C3 superclass linearization is an algorithm used primarily to obtain the order in which methods should be inherited in the presence of multiple inheritance. In other words, the output of C3 superclass linearization is a deterministic Method Resolution Order (MRO).  
-C3 superclass linearization is called 
+C3 superclass linearization is called C3 because it "is consistent with three properties": 
+
+a consistent extended precedence graph,
+preservation of local precedence order, and
+fitting a monotonicity criterion.
+It was first published at the 1996 OOPSLA conference, in a paper entitled "A Monotonic Superclass Linearization for Dylan".  It was adapted to the Open Dylan implementation in January 2012 following an enhancement proposal. It has been chosen as the default algorithm for method resolution in Python 2.3 (and newer), Raku, Parrot, Solidity, and PGF/TikZ's Object-Oriented Programming module. It is also available as an alternative, non-default MRO in the core of Perl 5 starting with version 5.10.0. An extension implementation for earlier versions of Perl 5 named Class::C3 exists on CPAN.
+Python's Guido van Rossum summarizes C3 superclass linearization thus:
+
+Basically, the idea behind C3 is that if you write down all of the ordering rules imposed by inheritance relationships in a complex class hierarchy, the algorithm will determine a monotonic ordering of the classes that satisfies all of them. If such an ordering can not be determined, the algorithm will fail.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All Wikipedia articles needing clarification
 - Category:Articles with example Python (programming language) code
@@ -70,41 +77,9 @@ Raku uses C3 linearization for classes by default:
 
 == References ==
 
-## Related Articles
-
-### Internal Links
-
-- [Association for Computing Machinery](https://en.wikipedia.org/wiki/Association_for_Computing_Machinery)
-- [Algorithm](https://en.wikipedia.org/wiki/Algorithm)
-- [CPAN](https://en.wikipedia.org/wiki/CPAN)
-- [CiteSeerX](https://en.wikipedia.org/wiki/CiteSeerX)
-- [Divide-and-conquer algorithm](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Dylan (programming language)](https://en.wikipedia.org/wiki/Dylan_(programming_language))
-- [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Memoization](https://en.wikipedia.org/wiki/Memoization)
-- [Method (computer programming)](https://en.wikipedia.org/wiki/Method_(computer_programming))
-- [Multiple inheritance](https://en.wikipedia.org/wiki/Multiple_inheritance)
-- [OOPSLA](https://en.wikipedia.org/wiki/OOPSLA)
-- [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
-- [PGF/TikZ](https://en.wikipedia.org/wiki/PGF/TikZ)
-- [Parrot virtual machine](https://en.wikipedia.org/wiki/Parrot_virtual_machine)
-- [Perl](https://en.wikipedia.org/wiki/Perl)
-- [Precedence graph](https://en.wikipedia.org/wiki/Precedence_graph)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Raku (programming language)](https://en.wikipedia.org/wiki/Raku_(programming_language))
-- [Reentrancy (computing)](https://en.wikipedia.org/wiki/Reentrancy_(computing))
-- [Solidity](https://en.wikipedia.org/wiki/Solidity)
-- [Topological sorting](https://en.wikipedia.org/wiki/Topological_sorting)
-- [Talk:C3 linearization](https://en.wikipedia.org/wiki/Talk:C3_linearization)
-- [Wikipedia:Please clarify](https://en.wikipedia.org/wiki/Wikipedia:Please_clarify)
-- [Wikipedia:Vagueness](https://en.wikipedia.org/wiki/Wikipedia:Vagueness)
-- [Template:Cite conference](https://en.wikipedia.org/wiki/Template:Cite_conference)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Category:CS1 maint: multiple names: authors list](https://en.wikipedia.org/wiki/Category:CS1_maint:_multiple_names:_authors_list)
-- [Category:Wikipedia articles needing clarification from April 2018](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_needing_clarification_from_April_2018)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:59:03.452661+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 21:03:47 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 3896 bytes
+- **Word Count:** 629 words

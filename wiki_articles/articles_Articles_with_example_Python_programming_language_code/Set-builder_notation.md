@@ -1252,7 +1252,7 @@ Glossary of set theory
 == Notes ==
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:38:45 UTC
+- **Archived on:** 2024-12-15 21:06:01 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 18739 bytes

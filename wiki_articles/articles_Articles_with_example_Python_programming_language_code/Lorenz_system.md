@@ -1105,7 +1105,7 @@ Lorenz Attractor interactive animation (implemented in Ada with GTK+. Sources & 
 Interactive web based Lorenz Attractor made with Iodide
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:38:26 UTC
+- **Archived on:** 2024-12-15 21:05:07 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 29613 bytes

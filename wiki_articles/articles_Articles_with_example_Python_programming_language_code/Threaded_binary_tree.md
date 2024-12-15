@@ -78,7 +78,7 @@ External links
 GNU libavl 2.0.2, Section on threaded binary search trees
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:38:51 UTC
+- **Archived on:** 2024-12-15 21:06:20 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 5287 bytes

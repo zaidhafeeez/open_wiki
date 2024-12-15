@@ -114,7 +114,7 @@ JavaScript has had support for computed properties since 2009.
 == References ==
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:38:53 UTC
+- **Archived on:** 2024-12-15 21:06:29 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 7888 bytes

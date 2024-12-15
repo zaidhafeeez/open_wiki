@@ -121,7 +121,7 @@ Naming convention (programming) – Set of rules for naming entities in source c
 == References ==
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:38:39 UTC
+- **Archived on:** 2024-12-15 21:05:45 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 8050 bytes

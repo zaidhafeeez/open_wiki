@@ -60,7 +60,7 @@ Explorer: https://filip26.github.io/maurer-rose-explorer/ [source code]
 Draw from values and create vector graphics: https://www.sqrt.ch/Buch/Maurer/maurerroses.html
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:38:28 UTC
+- **Archived on:** 2024-12-15 21:05:13 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 2041 bytes

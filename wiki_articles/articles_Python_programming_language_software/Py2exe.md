@@ -40,7 +40,7 @@ Alternative: PyInstaller (also supports Linux, Mac OS X, and other platforms)
 Alternative: cx_Freeze (supports all platforms that Python itself works on)
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:39:44 UTC
+- **Archived on:** 2024-12-15 21:08:40 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 1023 bytes

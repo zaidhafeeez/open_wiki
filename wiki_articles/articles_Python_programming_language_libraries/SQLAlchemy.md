@@ -77,7 +77,7 @@ Gift, Noah (12 Aug 2008). "Using SQLAlchemy". Developerworks. IBM. Retrieved 8 F
 Rick Copeland, Essential SQLAlchemy, O'Reilly, 2008, ISBN 0-596-51614-2
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:39:22 UTC
+- **Archived on:** 2024-12-15 21:07:43 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 2272 bytes

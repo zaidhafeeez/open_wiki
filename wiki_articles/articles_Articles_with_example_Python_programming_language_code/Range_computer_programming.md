@@ -78,7 +78,7 @@ Interval
 == References ==
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:38:42 UTC
+- **Archived on:** 2024-12-15 21:05:51 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 2035 bytes

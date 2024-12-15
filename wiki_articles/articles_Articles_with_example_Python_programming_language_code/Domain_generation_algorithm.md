@@ -57,7 +57,7 @@ DGAs and Cyber-Criminals: A Case Study
 How Criminals Defend Their Rogue Networks, Abuse.ch
 
 ## Archive Info
-- **Archived on:** 2024-12-15 15:18:29 UTC
+- **Archived on:** 2024-12-15 21:04:15 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 4389 bytes

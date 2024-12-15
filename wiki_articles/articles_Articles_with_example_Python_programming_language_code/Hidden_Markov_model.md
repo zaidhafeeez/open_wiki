@@ -1836,7 +1836,7 @@ Hidden Markov Models: Fundamentals and Applications Part 1, Part 2 (by V. Petrus
 Lecture on a Spreadsheet by Jason Eisner, Video and interactive spreadsheet
 
 ## Archive Info
-- **Archived on:** 2024-12-15 15:18:55 UTC
+- **Archived on:** 2024-12-15 21:04:42 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 41030 bytes

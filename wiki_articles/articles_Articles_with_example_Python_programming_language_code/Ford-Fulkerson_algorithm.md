@@ -1341,7 +1341,7 @@ Java Web Start application
  Media related to Ford-Fulkerson's algorithm at Wikimedia Commons
 
 ## Archive Info
-- **Archived on:** 2024-12-15 15:18:40 UTC
+- **Archived on:** 2024-12-15 21:04:27 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 18278 bytes

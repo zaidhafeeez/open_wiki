@@ -64,7 +64,7 @@ Official website
 Implementing Spacy Library
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:39:21 UTC
+- **Archived on:** 2024-12-15 21:07:42 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 3127 bytes

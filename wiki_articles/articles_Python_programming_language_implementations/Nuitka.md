@@ -52,7 +52,7 @@ Official website
 Nuitka on GitHub - Source code and manual
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:39:08 UTC
+- **Archived on:** 2024-12-15 21:07:06 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 2558 bytes

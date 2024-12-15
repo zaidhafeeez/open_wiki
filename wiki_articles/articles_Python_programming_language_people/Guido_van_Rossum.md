@@ -108,7 +108,7 @@ Oral History of Guido Van Rossum Part 1 on YouTube Computer History Museum
 Oral History of Guido Van Rossum Part 2 on YouTube Computer History Museum
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:39:32 UTC
+- **Archived on:** 2024-12-15 21:08:08 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 5734 bytes

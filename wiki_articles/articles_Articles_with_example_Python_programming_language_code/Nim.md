@@ -486,7 +486,7 @@ The hot game of Nim – Nim theory and connections with other games at cut-the-k
 Nim and 2-dimensional SuperNim at cut-the-knot
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:38:33 UTC
+- **Archived on:** 2024-12-15 21:05:28 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 22975 bytes

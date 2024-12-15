@@ -607,7 +607,7 @@ ISO/IEC 13239:2002: Information technology -- Telecommunications and information
 CRC32-Castagnoli Linux Library
 
 ## Archive Info
-- **Archived on:** 2024-12-15 15:18:24 UTC
+- **Archived on:** 2024-12-15 21:04:10 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 23856 bytes

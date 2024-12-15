@@ -320,7 +320,7 @@ External links
 An interactive example Mike Bostock provides examples in JavaScript with visualizations showing how the modern (Durstenfeld) Fisher-Yates shuffle is more efficient than other shuffles. The example includes link to a matrix diagram that illustrates how Fisher-Yates is unbiased while the naïve method (select naïve swap i -> random) is biased. Select Fisher-Yates and change the line to have pre-decrement --m rather than post-decrement m-- giving i = Math.floor(Math.random() * --m);, and you get Sattolo's algorithm where no item remains in its original position.
 
 ## Archive Info
-- **Archived on:** 2024-12-15 15:18:36 UTC
+- **Archived on:** 2024-12-15 21:04:23 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 27988 bytes

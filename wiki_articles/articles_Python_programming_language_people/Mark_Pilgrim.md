@@ -83,7 +83,7 @@ Dive into HTML5 - The full copy of Mark's online book
 Mike Orr (January 5, 2005). "Dive into Python by Mark Pilgrim". Linux Journal. Retrieved 2010-01-06.
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:39:31 UTC
+- **Archived on:** 2024-12-15 21:08:05 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 5308 bytes

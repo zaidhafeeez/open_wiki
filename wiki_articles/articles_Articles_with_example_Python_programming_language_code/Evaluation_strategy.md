@@ -159,7 +159,7 @@ External links
 The interactive on-line Geometry of Interaction visualiser, implementing a graph-based machine for several common evaluation strategies.
 
 ## Archive Info
-- **Archived on:** 2024-12-15 15:18:33 UTC
+- **Archived on:** 2024-12-15 21:04:19 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 22229 bytes

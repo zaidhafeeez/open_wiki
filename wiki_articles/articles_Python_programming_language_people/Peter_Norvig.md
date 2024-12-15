@@ -67,7 +67,7 @@ The Prospects for AI, featuring Neil Jacobstein, Patrick Lincoln, Peter Norvig, 
 An experiment by Norvig on Scientific opinion on climate change
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:39:29 UTC
+- **Archived on:** 2024-12-15 21:08:04 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 4741 bytes

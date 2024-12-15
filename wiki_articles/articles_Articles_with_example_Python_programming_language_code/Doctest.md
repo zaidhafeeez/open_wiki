@@ -1,7 +1,7 @@
 # Doctest
 
 ## Metadata
-- **Last Updated:** 2024-12-03 07:00:28 UTC
+- **Last Updated:** 2024-12-15 20:34:37 UTC
 - **Original Article:** [Doctest](https://en.wikipedia.org/wiki/Doctest)
 - **Language:** en
 - **Page ID:** 3415737
@@ -79,7 +79,7 @@ External links
 doctest — Test interactive Python examples
 
 ## Archive Info
-- **Archived on:** 2024-12-15 15:18:26 UTC
+- **Archived on:** 2024-12-15 21:04:14 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 3717 bytes

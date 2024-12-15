@@ -1,20 +1,22 @@
 # Autovivification
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:25:46.380372+00:00
+## Metadata
+- **Last Updated:** 2024-12-15 06:04:25 UTC
 - **Original Article:** [Autovivification](https://en.wikipedia.org/wiki/Autovivification)
 - **Language:** en
 - **Page ID:** 1176875
 
 ## Summary
-
 In the Perl programming language, autovivification is the automatic creation of new arrays and hashes as required every time an undefined value is dereferenced. Perl autovivification allows a programmer to refer to a structured variable, and arbitrary sub-elements of that structured variable, without expressly declaring the existence of the variable and its complete structure beforehand.
 In contrast, other programming languages either:
 
-Require a programmer to expressly declare an entire variabl
+Require a programmer to expressly declare an entire variable structure before using or referring to any part of it; or
+Require a programmer to declare a part of a variable structure before referring to any part of it; or
+Create an assignment to a part of a variable before referring, assigning to or composing an expression that refers to any part of it.
+Perl autovivification can be contrasted against languages such as Python, PHP, Ruby, and many of the C style languages, where dereferencing null or undefined values is not generally permitted. It can be compared to the HTML standard's "named access on the window object" which results in corresponding globally scoped variables being automatically accessible to browser-based JavaScript.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles lacking reliable references
 - Category:All articles with failed verification
@@ -107,33 +109,9 @@ A Use of the Y Combinator in Ruby - Implements autovivification in Ruby with the
 Hash#autonew in the Ruby gem "facets" adds autovivification on hash reads
 The Ruby gem "xkeys" facilitates nested structure traversal and autovivifies on array or hash writes
 
-## Related Articles
-
-### Internal Links
-
-- [Array (data structure)](https://en.wikipedia.org/wiki/Array_(data_structure))
-- [C++ Standard Library](https://en.wikipedia.org/wiki/C%2B%2B_Standard_Library)
-- [Pointer (computer programming)](https://en.wikipedia.org/wiki/Pointer_(computer_programming))
-- [ECMAScript version history](https://en.wikipedia.org/wiki/ECMAScript_version_history)
-- [Evaluation strategy](https://en.wikipedia.org/wiki/Evaluation_strategy)
-- [Hash table](https://en.wikipedia.org/wiki/Hash_table)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-- [Null pointer](https://en.wikipedia.org/wiki/Null_pointer)
-- [PHP](https://en.wikipedia.org/wiki/PHP)
-- [Perl](https://en.wikipedia.org/wiki/Perl)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Ruby (programming language)](https://en.wikipedia.org/wiki/Ruby_(programming_language))
-- [Segmentation fault](https://en.wikipedia.org/wiki/Segmentation_fault)
-- [Inheritance (object-oriented programming)](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming))
-- [Perl language structure](https://en.wikipedia.org/wiki/Perl_language_structure)
-- [Variable (computer science)](https://en.wikipedia.org/wiki/Variable_(computer_science))
-- [Vivification](https://en.wikipedia.org/wiki/Vivification)
-- [Wikipedia:Reliable sources](https://en.wikipedia.org/wiki/Wikipedia:Reliable_sources)
-- [Wikipedia:Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)
-- [Category:Articles lacking reliable references from August 2024](https://en.wikipedia.org/wiki/Category:Articles_lacking_reliable_references_from_August_2024)
-- [Category:Articles with failed verification from August 2024](https://en.wikipedia.org/wiki/Category:Articles_with_failed_verification_from_August_2024)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:25:46.380372+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 21:03:30 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 4167 bytes
+- **Word Count:** 628 words

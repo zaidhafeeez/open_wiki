@@ -209,7 +209,7 @@ Stroustrup, Bjarne; Solodkyy, Yuriy; Pirkelbauer, Peter (2007). Open Multi-Metho
 "Dynamic multiple dispatch". docs.racket-lang.org. Retrieved 2018-03-12.
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:38:31 UTC
+- **Archived on:** 2024-12-15 21:05:21 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 20180 bytes

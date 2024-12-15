@@ -108,7 +108,7 @@ External links
 MSDN Documentation for IIf
 
 ## Archive Info
-- **Archived on:** 2024-12-15 15:18:57 UTC
+- **Archived on:** 2024-12-15 21:04:45 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 4492 bytes

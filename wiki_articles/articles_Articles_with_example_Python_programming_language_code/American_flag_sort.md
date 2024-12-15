@@ -1,18 +1,18 @@
 # American flag sort
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:25:31.341594+00:00
+## Metadata
+- **Last Updated:** 2024-12-14 04:25:45 UTC
 - **Original Article:** [American flag sort](https://en.wikipedia.org/wiki/American_flag_sort)
 - **Language:** en
 - **Page ID:** 9080565
 
 ## Summary
-
 An American flag sort is an efficient, in-place variant of radix sort that distributes items into buckets.  Non-comparative sorting algorithms such as radix sort and American flag sort are typically used to sort large objects such as strings, for which comparison is not a unit-time operation.
-American flag sort iterates through the bits of the objects, considering several bits of each object at a time.  For each set of bits, American flag sort makes two passes through the array of objects: first
+American flag sort iterates through the bits of the objects, considering several bits of each object at a time.  For each set of bits, American flag sort makes two passes through the array of objects: first to count the number of objects that will fall in each bin, and second to place each object in its bucket.  This works especially well when sorting a byte at a time, using 256 buckets. With some optimizations, it is twice as fast as quicksort for large sets of strings.
+The name American flag sort comes by analogy with the Dutch national flag problem in the last step: efficiently partition the array into many "stripes".
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Accuracy disputes from November 2023
 - Category:All Wikipedia articles needing clarification
@@ -77,103 +77,9 @@ References
 General
  This article incorporates public domain material from Paul E. Black. "American flag sort". Dictionary of Algorithms and Data Structures. NIST.
 
-## Related Articles
-
-### Internal Links
-
-- [ASCII](https://en.wikipedia.org/wiki/ASCII)
-- [Adaptive sort](https://en.wikipedia.org/wiki/Adaptive_sort)
-- [Analogy](https://en.wikipedia.org/wiki/Analogy)
-- [Batcher odd–even mergesort](https://en.wikipedia.org/wiki/Batcher_odd%E2%80%93even_mergesort)
-- [Bead sort](https://en.wikipedia.org/wiki/Bead_sort)
-- [Big O notation](https://en.wikipedia.org/wiki/Big_O_notation)
-- [Bitonic sorter](https://en.wikipedia.org/wiki/Bitonic_sorter)
-- [Block sort](https://en.wikipedia.org/wiki/Block_sort)
-- [Bogosort](https://en.wikipedia.org/wiki/Bogosort)
-- [Bubble sort](https://en.wikipedia.org/wiki/Bubble_sort)
-- [Bucket sort](https://en.wikipedia.org/wiki/Bucket_sort)
-- [Burstsort](https://en.wikipedia.org/wiki/Burstsort)
-- [Cartesian tree](https://en.wikipedia.org/wiki/Cartesian_tree)
-- [Cascade merge sort](https://en.wikipedia.org/wiki/Cascade_merge_sort)
-- [Cocktail shaker sort](https://en.wikipedia.org/wiki/Cocktail_shaker_sort)
-- [Comb sort](https://en.wikipedia.org/wiki/Comb_sort)
-- [Comparison sort](https://en.wikipedia.org/wiki/Comparison_sort)
-- [Computational complexity theory](https://en.wikipedia.org/wiki/Computational_complexity_theory)
-- [Copyright status of works by the federal government of the United States](https://en.wikipedia.org/wiki/Copyright_status_of_works_by_the_federal_government_of_the_United_States)
-- [Counting sort](https://en.wikipedia.org/wiki/Counting_sort)
-- [Cycle sort](https://en.wikipedia.org/wiki/Cycle_sort)
-- [List of terms relating to algorithms and data structures](https://en.wikipedia.org/wiki/List_of_terms_relating_to_algorithms_and_data_structures)
-- [Dutch national flag problem](https://en.wikipedia.org/wiki/Dutch_national_flag_problem)
-- [Exponentiation](https://en.wikipedia.org/wiki/Exponentiation)
-- [Flag of the United States](https://en.wikipedia.org/wiki/Flag_of_the_United_States)
-- [Flashsort](https://en.wikipedia.org/wiki/Flashsort)
-- [Gnome sort](https://en.wikipedia.org/wiki/Gnome_sort)
-- [Heapsort](https://en.wikipedia.org/wiki/Heapsort)
-- [Hybrid algorithm](https://en.wikipedia.org/wiki/Hybrid_algorithm)
-- [In-place algorithm](https://en.wikipedia.org/wiki/In-place_algorithm)
-- [In-place algorithm](https://en.wikipedia.org/wiki/In-place_algorithm)
-- [Insertion sort](https://en.wikipedia.org/wiki/Insertion_sort)
-- [Integer sorting](https://en.wikipedia.org/wiki/Integer_sorting)
-- [Interpolation sort](https://en.wikipedia.org/wiki/Interpolation_sort)
-- [Introsort](https://en.wikipedia.org/wiki/Introsort)
-- [K-way merge algorithm](https://en.wikipedia.org/wiki/K-way_merge_algorithm)
-- [Kirkpatrick–Reisch sort](https://en.wikipedia.org/wiki/Kirkpatrick%E2%80%93Reisch_sort)
-- [Library sort](https://en.wikipedia.org/wiki/Library_sort)
-- [List (abstract data type)](https://en.wikipedia.org/wiki/List_(abstract_data_type))
-- [Merge-insertion sort](https://en.wikipedia.org/wiki/Merge-insertion_sort)
-- [Merge sort](https://en.wikipedia.org/wiki/Merge_sort)
-- [Multi-key quicksort](https://en.wikipedia.org/wiki/Multi-key_quicksort)
-- [National Institute of Standards and Technology](https://en.wikipedia.org/wiki/National_Institute_of_Standards_and_Technology)
-- [Odd–even sort](https://en.wikipedia.org/wiki/Odd%E2%80%93even_sort)
-- [Oscillating merge sort](https://en.wikipedia.org/wiki/Oscillating_merge_sort)
-- [Pairwise sorting network](https://en.wikipedia.org/wiki/Pairwise_sorting_network)
-- [Pancake sorting](https://en.wikipedia.org/wiki/Pancake_sorting)
-- [Partition of a set](https://en.wikipedia.org/wiki/Partition_of_a_set)
-- [Patience sorting](https://en.wikipedia.org/wiki/Patience_sorting)
-- [Pigeonhole sort](https://en.wikipedia.org/wiki/Pigeonhole_sort)
-- [Polyphase merge sort](https://en.wikipedia.org/wiki/Polyphase_merge_sort)
-- [Pre-topological order](https://en.wikipedia.org/wiki/Pre-topological_order)
-- [Proportion extend sort](https://en.wikipedia.org/wiki/Proportion_extend_sort)
-- [Proxmap sort](https://en.wikipedia.org/wiki/Proxmap_sort)
-- [Quantum sort](https://en.wikipedia.org/wiki/Quantum_sort)
-- [Quicksort](https://en.wikipedia.org/wiki/Quicksort)
-- [Radix sort](https://en.wikipedia.org/wiki/Radix_sort)
-- [Samplesort](https://en.wikipedia.org/wiki/Samplesort)
-- [Selection algorithm](https://en.wikipedia.org/wiki/Selection_algorithm)
-- [Selection sort](https://en.wikipedia.org/wiki/Selection_sort)
-- [Shellsort](https://en.wikipedia.org/wiki/Shellsort)
-- [Slowsort](https://en.wikipedia.org/wiki/Slowsort)
-- [Smoothsort](https://en.wikipedia.org/wiki/Smoothsort)
-- [Sorting algorithm](https://en.wikipedia.org/wiki/Sorting_algorithm)
-- [Sorting network](https://en.wikipedia.org/wiki/Sorting_network)
-- [Spaghetti sort](https://en.wikipedia.org/wiki/Spaghetti_sort)
-- [Splaysort](https://en.wikipedia.org/wiki/Splaysort)
-- [Spreadsort](https://en.wikipedia.org/wiki/Spreadsort)
-- [Stooge sort](https://en.wikipedia.org/wiki/Stooge_sort)
-- [String (computer science)](https://en.wikipedia.org/wiki/String_(computer_science))
-- [Timsort](https://en.wikipedia.org/wiki/Timsort)
-- [Topological sorting](https://en.wikipedia.org/wiki/Topological_sorting)
-- [Total order](https://en.wikipedia.org/wiki/Total_order)
-- [Tournament sort](https://en.wikipedia.org/wiki/Tournament_sort)
-- [Transdichotomous model](https://en.wikipedia.org/wiki/Transdichotomous_model)
-- [Tree sort](https://en.wikipedia.org/wiki/Tree_sort)
-- [Weak heap](https://en.wikipedia.org/wiki/Weak_heap)
-- [X + Y sorting](https://en.wikipedia.org/wiki/X_%2B_Y_sorting)
-- [Talk:American flag sort](https://en.wikipedia.org/wiki/Talk:American_flag_sort)
-- [Wikipedia:Citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed)
-- [Wikipedia:Please clarify](https://en.wikipedia.org/wiki/Wikipedia:Please_clarify)
-- [Wikipedia:Reliable sources](https://en.wikipedia.org/wiki/Wikipedia:Reliable_sources)
-- [Wikipedia:Vagueness](https://en.wikipedia.org/wiki/Wikipedia:Vagueness)
-- [Wikipedia:Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)
-- [Template:Sorting](https://en.wikipedia.org/wiki/Template:Sorting)
-- [Template talk:Sorting](https://en.wikipedia.org/wiki/Template_talk:Sorting)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Help:Referencing for beginners](https://en.wikipedia.org/wiki/Help:Referencing_for_beginners)
-- [Category:Accuracy disputes from November 2023](https://en.wikipedia.org/wiki/Category:Accuracy_disputes_from_November_2023)
-- [Category:Articles needing additional references from July 2017](https://en.wikipedia.org/wiki/Category:Articles_needing_additional_references_from_July_2017)
-- [Category:Articles with unsourced statements from October 2020](https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_October_2020)
-- [Category:Wikipedia articles needing clarification from October 2020](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_needing_clarification_from_October_2020)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:25:31.341594+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 21:03:24 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 4377 bytes
+- **Word Count:** 698 words

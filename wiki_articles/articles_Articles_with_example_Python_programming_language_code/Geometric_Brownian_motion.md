@@ -2018,7 +2018,7 @@ Non-Newtonian calculus website
 Trading Strategy Monitoring: Modeling the PnL as a Geometric Brownian Motion
 
 ## Archive Info
-- **Archived on:** 2024-12-15 15:18:47 UTC
+- **Archived on:** 2024-12-15 21:04:35 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 31606 bytes

@@ -103,7 +103,7 @@ External links
 Official website
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:40:00 UTC
+- **Archived on:** 2024-12-15 21:09:28 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 7125 bytes

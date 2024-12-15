@@ -48,7 +48,7 @@ Beazley, David (2021). Python Distilled. ISBN 978-0134173276.
 == References ==
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:39:28 UTC
+- **Archived on:** 2024-12-15 21:07:56 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 1918 bytes

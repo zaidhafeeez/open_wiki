@@ -775,7 +775,7 @@ Approximate entropy
 == References ==
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:38:44 UTC
+- **Archived on:** 2024-12-15 21:05:56 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 10699 bytes

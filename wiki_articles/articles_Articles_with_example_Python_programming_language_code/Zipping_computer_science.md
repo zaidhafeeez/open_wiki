@@ -353,7 +353,7 @@ Map (higher-order function)
 == References ==
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:38:57 UTC
+- **Archived on:** 2024-12-15 21:06:43 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 5086 bytes

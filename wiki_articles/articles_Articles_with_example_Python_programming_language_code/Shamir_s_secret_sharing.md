@@ -3397,7 +3397,7 @@ Shamir39 - webversion on iancoleman.io
 kn Secrets - webversion on a dedicated website, aiming to make Shamir's secret sharing as accessible as possible
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:38:45 UTC
+- **Archived on:** 2024-12-15 21:06:02 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 49660 bytes

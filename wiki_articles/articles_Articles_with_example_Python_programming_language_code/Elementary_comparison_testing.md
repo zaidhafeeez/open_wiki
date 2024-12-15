@@ -1577,7 +1577,7 @@ Decision-to-decision path
 == References ==
 
 ## Archive Info
-- **Archived on:** 2024-12-15 15:18:27 UTC
+- **Archived on:** 2024-12-15 21:04:17 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 23946 bytes

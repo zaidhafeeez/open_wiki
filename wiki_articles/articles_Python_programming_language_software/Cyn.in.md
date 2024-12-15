@@ -158,7 +158,7 @@ Cyn.in listed as an add-on product on the Plone Website
 Cyn.in Desktop client listing in the Flex showcase
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:39:38 UTC
+- **Archived on:** 2024-12-15 21:08:24 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 6241 bytes

@@ -159,7 +159,7 @@ External links
 Make an infinite loop in several languages, on programming-idioms.org.
 
 ## Archive Info
-- **Archived on:** 2024-12-15 15:19:00 UTC
+- **Archived on:** 2024-12-15 21:04:47 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 12439 bytes

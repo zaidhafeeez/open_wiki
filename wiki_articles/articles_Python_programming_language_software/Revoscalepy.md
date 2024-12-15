@@ -40,7 +40,7 @@ External links
 Samples for using revoscalepy and microsoftml
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:39:47 UTC
+- **Archived on:** 2024-12-15 21:08:48 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 964 bytes

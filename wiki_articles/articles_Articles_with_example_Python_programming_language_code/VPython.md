@@ -53,7 +53,7 @@ http://linuxgazette.net/144/john.html
 Scherer, D.; Dubois, P. & Sherwood, B. (2000). "VPython: 3D Interactive Scientific Graphics for Students". Computing in Science and Engineering. 2 (Sept./Oct. 2000): 82–88. Bibcode:2000CSE.....2e..56S. doi:10.1109/5992.877397.
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:38:55 UTC
+- **Archived on:** 2024-12-15 21:06:36 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 3751 bytes

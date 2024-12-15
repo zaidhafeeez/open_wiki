@@ -508,7 +508,7 @@ External links
 Charles Constantine Gumas, A century old, the fast Hadamard transform proves useful in digital communications
 
 ## Archive Info
-- **Archived on:** 2024-12-15 15:18:35 UTC
+- **Archived on:** 2024-12-15 21:04:21 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 3824 bytes

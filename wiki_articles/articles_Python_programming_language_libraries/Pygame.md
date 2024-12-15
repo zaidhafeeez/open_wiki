@@ -84,7 +84,7 @@ Pygame-SDL2 - a reimplementation of Pygame APIs on top of SDL2
 PySDL2 - a wrapper around the SDL2 library similar to the discontinued PySDL project
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:39:17 UTC
+- **Archived on:** 2024-12-15 21:07:29 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 2574 bytes

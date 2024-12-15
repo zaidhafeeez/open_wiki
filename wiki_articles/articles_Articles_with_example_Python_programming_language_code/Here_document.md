@@ -263,7 +263,7 @@ External links
 Here document. Link to Rosetta Code task with examples of here documents in over 15 languages.
 
 ## Archive Info
-- **Archived on:** 2024-12-15 15:18:58 UTC
+- **Archived on:** 2024-12-15 21:04:39 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 16598 bytes

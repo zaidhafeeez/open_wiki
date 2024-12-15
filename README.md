@@ -49,21 +49,26 @@ To find specific articles:
 Current archiving progress by category:
 
 ```
-Python (programming language)
-[░░░░░░░░░░] 0% - Core Language
-[░░░░░░░░░░] 0% - Libraries & Frameworks
-[░░░░░░░░░░] 0% - Development Tools
-[░░░░░░░░░░] 0% - Community & Culture
-[░░░░░░░░░░] 0% - Applications
-[░░░░░░░░░░] 0% - Overall progress
+[░░░░░░░░░░] 0% 0.0% - Overall progress
+[░░░░░░░░░░] 0% 0.0% - Core Language
+[░░░░░░░░░░] 0% 0.0% - Libraries & Frameworks
+[░░░░░░░░░░] 0% 0.0% - Development Tools
+[░░░░░░░░░░] 0% 0.0% - Community & Culture
+[░░░░░░░░░░] 0% 0.0% - Applications
 ```
+[░░░░░░░░░░] 0% 0.0% - Overall progress
+[░░░░░░░░░░] 0% 0.0% - Core Language
+[░░░░░░░░░░] 0% 0.0% - Libraries & Frameworks
+[░░░░░░░░░░] 0% 0.0% - Development Tools
+[░░░░░░░░░░] 0% 0.0% - Community & Culture
+[░░░░░░░░░░] 0% 0.0% - Applications
 
-Last Update: 2024-12-15 19:58 UTC
+Last Update: 2024-12-16 02:09 UTC
 - Total Articles: 0
 - Total Content: 0 words (0.0 B)
 - Articles with References: 0
-- Average Words per Article: 0
-- Categories Processed: 5
+- Average Words per Article: 0.0
+- Categories Processed: 15
 - Active Contributors: 3
 
 > Note: Progress bars are automatically updated by GitHub Actions after each archive run.
@@ -117,11 +122,23 @@ Last Update: 2024-12-15 19:58 UTC
 
 Edit these variables in `script.py`:
 ```python
+[░░░░░░░░░░] 0% 0.0% - Overall progress
+[░░░░░░░░░░] 0% 0.0% - Core Language
+[░░░░░░░░░░] 0% 0.0% - Libraries & Frameworks
+[░░░░░░░░░░] 0% 0.0% - Development Tools
+[░░░░░░░░░░] 0% 0.0% - Community & Culture
+[░░░░░░░░░░] 0% 0.0% - Applications
 LANGUAGE = "en"                        # Article language
 CATEGORY = "Python (programming language)"  # Main category
 MAX_DEPTH = 1                         # Category depth
 MAX_WORKERS = 10                      # Parallel threads
 ```
+[░░░░░░░░░░] 0% 0.0% - Overall progress
+[░░░░░░░░░░] 0% 0.0% - Core Language
+[░░░░░░░░░░] 0% 0.0% - Libraries & Frameworks
+[░░░░░░░░░░] 0% 0.0% - Development Tools
+[░░░░░░░░░░] 0% 0.0% - Community & Culture
+[░░░░░░░░░░] 0% 0.0% - Applications
 
 ## 🚄 Performance Features
 

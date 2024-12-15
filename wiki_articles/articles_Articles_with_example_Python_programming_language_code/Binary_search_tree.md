@@ -1,18 +1,55 @@
 # Binary search tree
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:43:23.125658+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 06:50:43 UTC
 - **Original Article:** [Binary search tree](https://en.wikipedia.org/wiki/Binary_search_tree)
 - **Language:** en
 - **Page ID:** 4320
 
 ## Summary
-
 In computer science, a binary search tree (BST), also called an ordered or sorted binary tree, is a rooted binary tree data structure with the key of each internal node being greater than all the keys in the respective node's left subtree and less than the ones in its right subtree. The time complexity of operations on the binary search tree is linear with respect to the height of the tree.
-Binary search trees allow binary search for fast lookup, addition, and removal of data items. Since the no
+Binary search trees allow binary search for fast lookup, addition, and removal of data items. Since the nodes in a BST are laid out so that each comparison skips about half of the remaining tree, the lookup performance is proportional to that of binary logarithm. BSTs were devised in the 1960s for the problem of efficient storage of labeled data and are attributed to Conway Berners-Lee and David Wheeler.
+The performance of a binary search tree is dependent on the order of insertion of the nodes into the tree since arbitrary insertions may lead to degeneracy; several variations of the binary search tree can be built with guaranteed worst-case performance. The basic operations include: search, traversal, insert and delete. BSTs with guaranteed worst-case complexities perform better than an unsorted array, which would require linear search time.
+The complexity analysis of BST shows that, on average, the insert, delete and search takes 
+  
+    
+      
+        O
+        (
+        log
+        ⁡
+        n
+        )
+      
+    
+    {\displaystyle O(\log n)}
+  
+ for 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  
+ nodes. In the worst case, they degrade to that of a singly linked list: 
+  
+    
+      
+        O
+        (
+        n
+        )
+      
+    
+    {\displaystyle O(n)}
+  
+. To address the boundless increase of the tree height with arbitrary insertions and deletions, self-balancing variants of BSTs are introduced to bound the worst lookup complexity to that of the binary logarithm. AVL trees were the first self-balancing binary search trees, invented in 1962 by Georgy Adelson-Velsky and Evgenii Landis.
+Binary search trees can be used to implement abstract data types such as dynamic sets, lookup tables and priority queues, and used in sorting algorithms such as tree sort.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example C++ code
 - Category:Articles with example Python (programming language) code
@@ -895,226 +932,9 @@ External links
  Ben Pfaff: An Introduction to Binary Search Trees and Balanced Trees. (PDF; 1675 kB) 2004.
 Binary Tree Visualizer (JavaScript animation of various BT-based data structures)
 
-## Related Articles
-
-### Internal Links
-
-- [B-tree](https://en.wikipedia.org/wiki/B-tree)
-- [2–3 tree](https://en.wikipedia.org/wiki/2%E2%80%933_tree)
-- [2–3–4 tree](https://en.wikipedia.org/wiki/2%E2%80%933%E2%80%934_tree)
-- [AA tree](https://en.wikipedia.org/wiki/AA_tree)
-- [AVL tree](https://en.wikipedia.org/wiki/AVL_tree)
-- [AVL tree](https://en.wikipedia.org/wiki/AVL_tree)
-- [Abstract data type](https://en.wikipedia.org/wiki/Abstract_data_type)
-- [Abstract data type](https://en.wikipedia.org/wiki/Abstract_data_type)
-- [Addison-Wesley](https://en.wikipedia.org/wiki/Addison-Wesley)
-- [Algorithmica](https://en.wikipedia.org/wiki/Algorithmica)
-- [Andrew Colin](https://en.wikipedia.org/wiki/Andrew_Colin)
-- [Andrew Donald Booth](https://en.wikipedia.org/wiki/Andrew_Donald_Booth)
-- [Array (data structure)](https://en.wikipedia.org/wiki/Array_(data_structure))
-- [Association list](https://en.wikipedia.org/wiki/Association_list)
-- [Associative array](https://en.wikipedia.org/wiki/Associative_array)
-- [B-tree](https://en.wikipedia.org/wiki/B-tree)
-- [B+ tree](https://en.wikipedia.org/wiki/B%2B_tree)
-- [B-tree](https://en.wikipedia.org/wiki/B-tree)
-- [BK-tree](https://en.wikipedia.org/wiki/BK-tree)
-- [Binary space partitioning](https://en.wikipedia.org/wiki/Binary_space_partitioning)
-- [Ball tree](https://en.wikipedia.org/wiki/Ball_tree)
-- [Best, worst and average case](https://en.wikipedia.org/wiki/Best,_worst_and_average_case)
-- [Big O notation](https://en.wikipedia.org/wiki/Big_O_notation)
-- [Binary decision diagram](https://en.wikipedia.org/wiki/Binary_decision_diagram)
-- [Binary heap](https://en.wikipedia.org/wiki/Binary_heap)
-- [Binary logarithm](https://en.wikipedia.org/wiki/Binary_logarithm)
-- [Binary search](https://en.wikipedia.org/wiki/Binary_search)
-- [Binary search](https://en.wikipedia.org/wiki/Binary_search)
-- [Binary tree](https://en.wikipedia.org/wiki/Binary_tree)
-- [Binomial heap](https://en.wikipedia.org/wiki/Binomial_heap)
-- [Bit array](https://en.wikipedia.org/wiki/Bit_array)
-- [Brodal queue](https://en.wikipedia.org/wiki/Brodal_queue)
-- [Bx-tree](https://en.wikipedia.org/wiki/Bx-tree)
-- [C-trie](https://en.wikipedia.org/wiki/C-trie)
-- [Cambridge University Press](https://en.wikipedia.org/wiki/Cambridge_University_Press)
-- [Cartesian tree](https://en.wikipedia.org/wiki/Cartesian_tree)
-- [Charles E. Leiserson](https://en.wikipedia.org/wiki/Charles_E._Leiserson)
-- [Circular buffer](https://en.wikipedia.org/wiki/Circular_buffer)
-- [Clifford Stein](https://en.wikipedia.org/wiki/Clifford_Stein)
-- [Collection (abstract data type)](https://en.wikipedia.org/wiki/Collection_(abstract_data_type))
-- [Computational complexity theory](https://en.wikipedia.org/wiki/Computational_complexity_theory)
-- [Computer performance](https://en.wikipedia.org/wiki/Computer_performance)
-- [Computer science](https://en.wikipedia.org/wiki/Computer_science)
-- [Container (abstract data type)](https://en.wikipedia.org/wiki/Container_(abstract_data_type))
-- [Conway Berners-Lee](https://en.wikipedia.org/wiki/Conway_Berners-Lee)
-- [Copyright status of works by the federal government of the United States](https://en.wikipedia.org/wiki/Copyright_status_of_works_by_the_federal_government_of_the_United_States)
-- [Cornell University](https://en.wikipedia.org/wiki/Cornell_University)
-- [Cornell University College of Engineering](https://en.wikipedia.org/wiki/Cornell_University_College_of_Engineering)
-- [Cover tree](https://en.wikipedia.org/wiki/Cover_tree)
-- [Ctrie](https://en.wikipedia.org/wiki/Ctrie)
-- [D-ary heap](https://en.wikipedia.org/wiki/D-ary_heap)
-- [Dancing tree](https://en.wikipedia.org/wiki/Dancing_tree)
-- [Daniel Sleator](https://en.wikipedia.org/wiki/Daniel_Sleator)
-- [Data structure](https://en.wikipedia.org/wiki/Data_structure)
-- [David Wheeler (computer scientist)](https://en.wikipedia.org/wiki/David_Wheeler_(computer_scientist))
-- [Deterministic acyclic finite state automaton](https://en.wikipedia.org/wiki/Deterministic_acyclic_finite_state_automaton)
-- [List of terms relating to algorithms and data structures](https://en.wikipedia.org/wiki/List_of_terms_relating_to_algorithms_and_data_structures)
-- [Directed acyclic graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph)
-- [Disjoint-set data structure](https://en.wikipedia.org/wiki/Disjoint-set_data_structure)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth)
-- [Double-ended priority queue](https://en.wikipedia.org/wiki/Double-ended_priority_queue)
-- [Double-ended queue](https://en.wikipedia.org/wiki/Double-ended_queue)
-- [Douglas Comer](https://en.wikipedia.org/wiki/Douglas_Comer)
-- [Dynamic array](https://en.wikipedia.org/wiki/Dynamic_array)
-- [Evgenii Landis](https://en.wikipedia.org/wiki/Evgenii_Landis)
-- [Exponential tree](https://en.wikipedia.org/wiki/Exponential_tree)
-- [Fenwick tree](https://en.wikipedia.org/wiki/Fenwick_tree)
-- [Fibonacci heap](https://en.wikipedia.org/wiki/Fibonacci_heap)
-- [Finger tree](https://en.wikipedia.org/wiki/Finger_tree)
-- [Fractal tree index](https://en.wikipedia.org/wiki/Fractal_tree_index)
-- [Fusion tree](https://en.wikipedia.org/wiki/Fusion_tree)
-- [Geometry of binary search trees](https://en.wikipedia.org/wiki/Geometry_of_binary_search_trees)
-- [Georgy Adelson-Velsky](https://en.wikipedia.org/wiki/Georgy_Adelson-Velsky)
-- [Graph (abstract data type)](https://en.wikipedia.org/wiki/Graph_(abstract_data_type))
-- [HTree](https://en.wikipedia.org/wiki/HTree)
-- [Hash calendar](https://en.wikipedia.org/wiki/Hash_calendar)
-- [Hash table](https://en.wikipedia.org/wiki/Hash_table)
-- [Hash tree (persistent data structure)](https://en.wikipedia.org/wiki/Hash_tree_(persistent_data_structure))
-- [Hashed array tree](https://en.wikipedia.org/wiki/Hashed_array_tree)
-- [Heap (data structure)](https://en.wikipedia.org/wiki/Heap_(data_structure))
-- [Self-balancing binary search tree](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree)
-- [Wrapper function](https://en.wikipedia.org/wiki/Wrapper_function)
-- [Hilbert R-tree](https://en.wikipedia.org/wiki/Hilbert_R-tree)
-- [IDistance](https://en.wikipedia.org/wiki/IDistance)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [ISSN](https://en.wikipedia.org/wiki/ISSN)
-- [Implicit k-d tree](https://en.wikipedia.org/wiki/Implicit_k-d_tree)
-- [Tree traversal](https://en.wikipedia.org/wiki/Tree_traversal)
-- [Interval tree](https://en.wikipedia.org/wiki/Interval_tree)
-- [Introduction to Algorithms](https://en.wikipedia.org/wiki/Introduction_to_Algorithms)
-- [Iteration](https://en.wikipedia.org/wiki/Iteration)
-- [Join-based tree algorithms](https://en.wikipedia.org/wiki/Join-based_tree_algorithms)
-- [Journal of the ACM](https://en.wikipedia.org/wiki/Journal_of_the_ACM)
-- [M-ary tree](https://en.wikipedia.org/wiki/M-ary_tree)
-- [K-d tree](https://en.wikipedia.org/wiki/K-d_tree)
-- [Labeled data](https://en.wikipedia.org/wiki/Labeled_data)
-- [Tree (abstract data type)](https://en.wikipedia.org/wiki/Tree_(abstract_data_type))
-- [Tree (abstract data type)](https://en.wikipedia.org/wiki/Tree_(abstract_data_type))
-- [Left-child right-sibling binary tree](https://en.wikipedia.org/wiki/Left-child_right-sibling_binary_tree)
-- [Left-leaning red–black tree](https://en.wikipedia.org/wiki/Left-leaning_red%E2%80%93black_tree)
-- [Leftist tree](https://en.wikipedia.org/wiki/Leftist_tree)
-- [Time complexity](https://en.wikipedia.org/wiki/Time_complexity)
-- [Link/cut tree](https://en.wikipedia.org/wiki/Link/cut_tree)
-- [Linked data structure](https://en.wikipedia.org/wiki/Linked_data_structure)
-- [Linked list](https://en.wikipedia.org/wiki/Linked_list)
-- [List (abstract data type)](https://en.wikipedia.org/wiki/List_(abstract_data_type))
-- [List of data structures](https://en.wikipedia.org/wiki/List_of_data_structures)
-- [Log-structured merge-tree](https://en.wikipedia.org/wiki/Log-structured_merge-tree)
-- [Lookup table](https://en.wikipedia.org/wiki/Lookup_table)
-- [Loyola Marymount University](https://en.wikipedia.org/wiki/Loyola_Marymount_University)
-- [M-tree](https://en.wikipedia.org/wiki/M-tree)
-- [MIT Press](https://en.wikipedia.org/wiki/MIT_Press)
-- [Vantage-point tree](https://en.wikipedia.org/wiki/Vantage-point_tree)
-- [Magnetic tape](https://en.wikipedia.org/wiki/Magnetic_tape)
-- [Merkle tree](https://en.wikipedia.org/wiki/Merkle_tree)
-- [Metric tree](https://en.wikipedia.org/wiki/Metric_tree)
-- [Microsoft PowerPoint](https://en.wikipedia.org/wiki/Microsoft_PowerPoint)
-- [Multimap](https://en.wikipedia.org/wiki/Multimap)
-- [National Institute of Standards and Technology](https://en.wikipedia.org/wiki/National_Institute_of_Standards_and_Technology)
-- [Null pointer](https://en.wikipedia.org/wiki/Null_pointer)
-- [Octree](https://en.wikipedia.org/wiki/Octree)
-- [Optimal binary search tree](https://en.wikipedia.org/wiki/Optimal_binary_search_tree)
-- [Order statistic tree](https://en.wikipedia.org/wiki/Order_statistic_tree)
-- [Oxford College of Emory University](https://en.wikipedia.org/wiki/Oxford_College_of_Emory_University)
-- [Oxford University Press](https://en.wikipedia.org/wiki/Oxford_University_Press)
-- [PH-tree](https://en.wikipedia.org/wiki/PH-tree)
-- [PQ tree](https://en.wikipedia.org/wiki/PQ_tree)
-- [Pairing heap](https://en.wikipedia.org/wiki/Pairing_heap)
-- [Palindrome tree](https://en.wikipedia.org/wiki/Palindrome_tree)
-- [Tree traversal](https://en.wikipedia.org/wiki/Tree_traversal)
-- [Tree traversal](https://en.wikipedia.org/wiki/Tree_traversal)
-- [Princeton University School of Engineering and Applied Science](https://en.wikipedia.org/wiki/Princeton_University_School_of_Engineering_and_Applied_Science)
-- [Priority R-tree](https://en.wikipedia.org/wiki/Priority_R-tree)
-- [Priority queue](https://en.wikipedia.org/wiki/Priority_queue)
-- [Priority queue](https://en.wikipedia.org/wiki/Priority_queue)
-- [Proceedings of the USSR Academy of Sciences](https://en.wikipedia.org/wiki/Proceedings_of_the_USSR_Academy_of_Sciences)
-- [Pseudocode](https://en.wikipedia.org/wiki/Pseudocode)
-- [Quadtree](https://en.wikipedia.org/wiki/Quadtree)
-- [Queue (abstract data type)](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))
-- [Quicksort](https://en.wikipedia.org/wiki/Quicksort)
-- [R*-tree](https://en.wikipedia.org/wiki/R*-tree)
-- [R+ tree](https://en.wikipedia.org/wiki/R%2B_tree)
-- [R-tree](https://en.wikipedia.org/wiki/R-tree)
-- [Radix tree](https://en.wikipedia.org/wiki/Radix_tree)
-- [Range tree](https://en.wikipedia.org/wiki/Range_tree)
-- [Recursion (computer science)](https://en.wikipedia.org/wiki/Recursion_(computer_science))
-- [Red–black tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
-- [Red–black tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
-- [Retrieval Data Structure](https://en.wikipedia.org/wiki/Retrieval_Data_Structure)
-- [Robert Tarjan](https://en.wikipedia.org/wiki/Robert_Tarjan)
-- [Ron Rivest](https://en.wikipedia.org/wiki/Ron_Rivest)
-- [Tree (abstract data type)](https://en.wikipedia.org/wiki/Tree_(abstract_data_type))
-- [Tree (graph theory)](https://en.wikipedia.org/wiki/Tree_(graph_theory))
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [SPQR tree](https://en.wikipedia.org/wiki/SPQR_tree)
-- [State University of New York at Oneonta](https://en.wikipedia.org/wiki/State_University_of_New_York_at_Oneonta)
-- [Scapegoat tree](https://en.wikipedia.org/wiki/Scapegoat_tree)
-- [Search algorithm](https://en.wikipedia.org/wiki/Search_algorithm)
-- [Search tree](https://en.wikipedia.org/wiki/Search_tree)
-- [Segment tree](https://en.wikipedia.org/wiki/Segment_tree)
-- [Self-balancing binary search tree](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree)
-- [Set (abstract data type)](https://en.wikipedia.org/wiki/Set_(abstract_data_type))
-- [Set (abstract data type)](https://en.wikipedia.org/wiki/Set_(abstract_data_type))
-- [Linked list](https://en.wikipedia.org/wiki/Linked_list)
-- [Skew binomial heap](https://en.wikipedia.org/wiki/Skew_binomial_heap)
-- [Skew heap](https://en.wikipedia.org/wiki/Skew_heap)
-- [Skip list](https://en.wikipedia.org/wiki/Skip_list)
-- [Sorting algorithm](https://en.wikipedia.org/wiki/Sorting_algorithm)
-- [Space complexity](https://en.wikipedia.org/wiki/Space_complexity)
-- [Sparse matrix](https://en.wikipedia.org/wiki/Sparse_matrix)
-- [Spatial database](https://en.wikipedia.org/wiki/Spatial_database)
-- [Splay tree](https://en.wikipedia.org/wiki/Splay_tree)
-- [Springer Publishing](https://en.wikipedia.org/wiki/Springer_Publishing)
-- [Stack (abstract data type)](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))
-- [Stanford University](https://en.wikipedia.org/wiki/Stanford_University)
-- [Suffix tree](https://en.wikipedia.org/wiki/Suffix_tree)
-- [Symposium on Foundations of Computer Science](https://en.wikipedia.org/wiki/Symposium_on_Foundations_of_Computer_Science)
-- [T-tree](https://en.wikipedia.org/wiki/T-tree)
-- [Ternary search tree](https://en.wikipedia.org/wiki/Ternary_search_tree)
-- [The Art of Computer Programming](https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming)
-- [The Computer Journal](https://en.wikipedia.org/wiki/The_Computer_Journal)
-- [Thomas H. Cormen](https://en.wikipedia.org/wiki/Thomas_H._Cormen)
-- [Thomas N. Hibbard](https://en.wikipedia.org/wiki/Thomas_N._Hibbard)
-- [Threaded binary tree](https://en.wikipedia.org/wiki/Threaded_binary_tree)
-- [Time complexity](https://en.wikipedia.org/wiki/Time_complexity)
-- [Top tree](https://en.wikipedia.org/wiki/Top_tree)
-- [Total order](https://en.wikipedia.org/wiki/Total_order)
-- [Treap](https://en.wikipedia.org/wiki/Treap)
-- [Tree (abstract data type)](https://en.wikipedia.org/wiki/Tree_(abstract_data_type))
-- [Tree (abstract data type)](https://en.wikipedia.org/wiki/Tree_(abstract_data_type))
-- [Tree sort](https://en.wikipedia.org/wiki/Tree_sort)
-- [Tree traversal](https://en.wikipedia.org/wiki/Tree_traversal)
-- [Trie](https://en.wikipedia.org/wiki/Trie)
-- [UB-tree](https://en.wikipedia.org/wiki/UB-tree)
-- [University of California, Irvine](https://en.wikipedia.org/wiki/University_of_California,_Irvine)
-- [University of Maryland, College Park](https://en.wikipedia.org/wiki/University_of_Maryland,_College_Park)
-- [University of Texas at Arlington](https://en.wikipedia.org/wiki/University_of_Texas_at_Arlington)
-- [University of Toronto](https://en.wikipedia.org/wiki/University_of_Toronto)
-- [University of Waterloo](https://en.wikipedia.org/wiki/University_of_Waterloo)
-- [Unrolled linked list](https://en.wikipedia.org/wiki/Unrolled_linked_list)
-- [Van Emde Boas tree](https://en.wikipedia.org/wiki/Van_Emde_Boas_tree)
-- [Vantage-point tree](https://en.wikipedia.org/wiki/Vantage-point_tree)
-- [Weak heap](https://en.wikipedia.org/wiki/Weak_heap)
-- [Weight-balanced tree](https://en.wikipedia.org/wiki/Weight-balanced_tree)
-- [While loop](https://en.wikipedia.org/wiki/While_loop)
-- [X-fast trie](https://en.wikipedia.org/wiki/X-fast_trie)
-- [X-tree](https://en.wikipedia.org/wiki/X-tree)
-- [XOR linked list](https://en.wikipedia.org/wiki/XOR_linked_list)
-- [Y-fast trie](https://en.wikipedia.org/wiki/Y-fast_trie)
-- [Wikipedia:Good articles](https://en.wikipedia.org/wiki/Wikipedia:Good_articles)
-- [Template:CS trees](https://en.wikipedia.org/wiki/Template:CS_trees)
-- [Template:Data structures](https://en.wikipedia.org/wiki/Template:Data_structures)
-- [Template talk:CS trees](https://en.wikipedia.org/wiki/Template_talk:CS_trees)
-- [Template talk:Data structures](https://en.wikipedia.org/wiki/Template_talk:Data_structures)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:43:23.125658+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 21:03:37 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 18558 bytes
+- **Word Count:** 2260 words

@@ -2788,7 +2788,7 @@ External links
 Inverse Gaussian Distribution in Wolfram website.
 
 ## Archive Info
-- **Archived on:** 2024-12-15 15:19:07 UTC
+- **Archived on:** 2024-12-15 21:04:50 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 40252 bytes

@@ -191,7 +191,7 @@ Wegner, Peter (1960). "A technique for counting ones in a binary computer". Comm
 MacKay, David J. C. (2003). Information Theory, Inference, and Learning Algorithms. Cambridge: Cambridge University Press. ISBN 0-521-64298-1.
 
 ## Archive Info
-- **Archived on:** 2024-12-15 15:18:53 UTC
+- **Archived on:** 2024-12-15 21:04:41 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 9094 bytes

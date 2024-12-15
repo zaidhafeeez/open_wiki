@@ -1,21 +1,23 @@
 # Approximate entropy
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:25:45.592628+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 07:32:00 UTC
 - **Original Article:** [Approximate entropy](https://en.wikipedia.org/wiki/Approximate_entropy)
 - **Language:** en
 - **Page ID:** 34073649
 
 ## Summary
-
 In statistics, an approximate entropy (ApEn) is a technique used to quantify the amount of regularity and the unpredictability of fluctuations over time-series data. For example, consider two series of data:
 
 Series A: (0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, ...), which alternates 0 and 1.
 Series B: (0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, ...), which has either a value of 0 or 1, chosen randomly, each with probability 1/2.
-Moment statistics, such as mean and variance, will not 
+Moment statistics, such as mean and variance, will not distinguish between these two series. Nor will rank order statistics distinguish between these series. Yet series A is perfectly regular: knowing a term has the value of 1 enables one to predict with certainty that the next term will have the value of 0. In contrast, series B is randomly valued: knowing a term has the value of 1 gives no insight into what value the next term will have.
+Regularity was originally measured by exact regularity statistics, which has mainly centered on various entropy measures.
+However, accurate entropy calculation requires vast amounts of data, and the results will be greatly influenced by system noise, therefore it is not practical to apply these methods to experimental data. ApEn was first proposed (under a different name) by A. Cohen and I. Procaccia,
+as an approximate algorithm to compute an exact regularity statistic, Kolmogorov–Sinai entropy, and later popularized by Steve M. Pincus. ApEn was initially used to analyze chaotic dynamics and medical data, such as heart rate, and later spread its applications in finance, physiology, human factors engineering, and climate sciences.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example Python (programming language) code
 - Category:Articles with short description
@@ -2296,44 +2298,9 @@ Sample entropy
 
 == References ==
 
-## Related Articles
-
-### Internal Links
-
-- [American Journal of Physiology](https://en.wikipedia.org/wiki/American_Journal_of_Physiology)
-- [Applications of artificial intelligence](https://en.wikipedia.org/wiki/Applications_of_artificial_intelligence)
-- [Bibcode](https://en.wikipedia.org/wiki/Bibcode)
-- [Circulation (journal)](https://en.wikipedia.org/wiki/Circulation_(journal))
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Electroencephalography](https://en.wikipedia.org/wiki/Electroencephalography)
-- [Finance](https://en.wikipedia.org/wiki/Finance)
-- [Human Factors (journal)](https://en.wikipedia.org/wiki/Human_Factors_(journal))
-- [Ergonomics](https://en.wikipedia.org/wiki/Ergonomics)
-- [ISSN](https://en.wikipedia.org/wiki/ISSN)
-- [Integer](https://en.wikipedia.org/wiki/Integer)
-- [Measure-preserving dynamical system](https://en.wikipedia.org/wiki/Measure-preserving_dynamical_system)
-- [Mean](https://en.wikipedia.org/wiki/Mean)
-- [Moment (mathematics)](https://en.wikipedia.org/wiki/Moment_(mathematics))
-- [Natural logarithm](https://en.wikipedia.org/wiki/Natural_logarithm)
-- [PubMed Central](https://en.wikipedia.org/wiki/PubMed_Central)
-- [PubMed](https://en.wikipedia.org/wiki/PubMed)
-- [Physical Review A](https://en.wikipedia.org/wiki/Physical_Review_A)
-- [Physiology](https://en.wikipedia.org/wiki/Physiology)
-- [Proceedings of the National Academy of Sciences of the United States of America](https://en.wikipedia.org/wiki/Proceedings_of_the_National_Academy_of_Sciences_of_the_United_States_of_America)
-- [Psychiatry Research: Neuroimaging](https://en.wikipedia.org/wiki/Psychiatry_Research:_Neuroimaging)
-- [Ranking](https://en.wikipedia.org/wiki/Ranking)
-- [Real number](https://en.wikipedia.org/wiki/Real_number)
-- [Recurrence quantification analysis](https://en.wikipedia.org/wiki/Recurrence_quantification_analysis)
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [Sample entropy](https://en.wikipedia.org/wiki/Sample_entropy)
-- [Statistics](https://en.wikipedia.org/wiki/Statistics)
-- [American Journal of Physiology](https://en.wikipedia.org/wiki/American_Journal_of_Physiology)
-- [Time series](https://en.wikipedia.org/wiki/Time_series)
-- [Predictability](https://en.wikipedia.org/wiki/Predictability)
-- [Variance](https://en.wikipedia.org/wiki/Variance)
-- [Vector (mathematics and physics)](https://en.wikipedia.org/wiki/Vector_(mathematics_and_physics))
-- [Window function](https://en.wikipedia.org/wiki/Window_function)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:25:45.592628+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 21:03:27 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 32530 bytes
+- **Word Count:** 2280 words

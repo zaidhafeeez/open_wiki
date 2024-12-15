@@ -40,7 +40,7 @@ Linear congruential generator
 Xorshift
 
 ## Archive Info
-- **Archived on:** 2024-12-15 15:18:41 UTC
+- **Archived on:** 2024-12-15 21:04:29 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 1116 bytes

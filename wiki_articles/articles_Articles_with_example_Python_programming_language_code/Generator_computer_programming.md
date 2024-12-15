@@ -173,7 +173,7 @@ References
 Stephan Murer, Stephen Omohundro, David Stoutamire and Clemens Szyperski: Iteration abstraction in Sather.  ACM Transactions on Programming Languages and Systems, 18(1):1-15 (1996) [1]
 
 ## Archive Info
-- **Archived on:** 2024-12-15 15:18:46 UTC
+- **Archived on:** 2024-12-15 21:04:34 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 11043 bytes

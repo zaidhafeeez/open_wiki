@@ -1,19 +1,19 @@
 # MicroPython
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:19:27.549065+00:00
+## Metadata
+- **Last Updated:** 2024-12-15 16:01:00 UTC
 - **Original Article:** [MicroPython](https://en.wikipedia.org/wiki/MicroPython)
 - **Language:** en
 - **Page ID:** 50278739
 
 ## Summary
-
 MicroPython is a software implementation of a programming language largely compatible with Python 3, written in C, that is optimized to run on a microcontroller.
 MicroPython consists of a Python compiler to bytecode and a runtime interpreter of that bytecode. The user is presented with an interactive prompt (the REPL) to execute supported commands immediately. Included are a selection of core Python libraries; MicroPython includes modules which give the programmer access to low-level hardware.
-M
+MicroPython does have an inline assembler, which lets the code run at full speed, but it is not portable across different microcontrollers.
+The source code for the project is available on GitHub under the MIT License.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with short description
 - Category:BBC computer literacy projects
@@ -170,132 +170,9 @@ micropython on GitHub
 GOTO 2016 • MicroPython & the Internet of Things • Damien George on YouTube
 MicroPython playlist on YouTube • Tutorials by Tony DiCola / Adafruit
 
-## Related Articles
-
-### Internal Links
-
-- ["Hello, World!" program](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program)
-- [ARM Cortex-M](https://en.wikipedia.org/wiki/ARM_Cortex-M)
-- [ARM architecture family](https://en.wikipedia.org/wiki/ARM_architecture_family)
-- [ASCII](https://en.wikipedia.org/wiki/ASCII)
-- [Accelerometer](https://en.wikipedia.org/wiki/Accelerometer)
-- [Adafruit Industries](https://en.wikipedia.org/wiki/Adafruit_Industries)
-- [Application software](https://en.wikipedia.org/wiki/Application_software)
-- [Springer Nature](https://en.wikipedia.org/wiki/Springer_Nature)
-- [Arduino](https://en.wikipedia.org/wiki/Arduino)
-- [Array (data structure)](https://en.wikipedia.org/wiki/Array_(data_structure))
-- [Asynchronous Server Gateway Interface](https://en.wikipedia.org/wiki/Asynchronous_Server_Gateway_Interface)
-- [Atmel](https://en.wikipedia.org/wiki/Atmel)
-- [BBC](https://en.wikipedia.org/wiki/BBC)
-- [Binary number](https://en.wikipedia.org/wiki/Binary_number)
-- [Bitmap](https://en.wikipedia.org/wiki/Bitmap)
-- [Bitwise operation](https://en.wikipedia.org/wiki/Bitwise_operation)
-- [Booting](https://en.wikipedia.org/wiki/Booting)
-- [Bytecode](https://en.wikipedia.org/wiki/Bytecode)
-- [CLPython](https://en.wikipedia.org/wiki/CLPython)
-- [CPython](https://en.wikipedia.org/wiki/CPython)
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [Central processing unit](https://en.wikipedia.org/wiki/Central_processing_unit)
-- [Charles Bell](https://en.wikipedia.org/wiki/Charles_Bell)
-- [CircuitPython](https://en.wikipedia.org/wiki/CircuitPython)
-- [Compiler](https://en.wikipedia.org/wiki/Compiler)
-- [Complex number](https://en.wikipedia.org/wiki/Complex_number)
-- [Computer](https://en.wikipedia.org/wiki/Computer)
-- [Computing platform](https://en.wikipedia.org/wiki/Computing_platform)
-- [Cross compiler](https://en.wikipedia.org/wiki/Cross_compiler)
-- [Cython](https://en.wikipedia.org/wiki/Cython)
-- [Debugging](https://en.wikipedia.org/wiki/Debugging)
-- [ESP32](https://en.wikipedia.org/wiki/ESP32)
-- [ESP8266](https://en.wikipedia.org/wiki/ESP8266)
-- [Emulator](https://en.wikipedia.org/wiki/Emulator)
-- [Eric (software)](https://en.wikipedia.org/wiki/Eric_(software))
-- [Espruino](https://en.wikipedia.org/wiki/Espruino)
-- [File system](https://en.wikipedia.org/wiki/File_system)
-- [Firmware](https://en.wikipedia.org/wiki/Firmware)
-- [USB flash drive](https://en.wikipedia.org/wiki/USB_flash_drive)
-- [Floating-point arithmetic](https://en.wikipedia.org/wiki/Floating-point_arithmetic)
-- [Framebuffer](https://en.wikipedia.org/wiki/Framebuffer)
-- [Function (computer programming)](https://en.wikipedia.org/wiki/Function_(computer_programming))
-- [Garbage collection (computer science)](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science))
-- [GitHub](https://en.wikipedia.org/wiki/GitHub)
-- [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum)
-- [Hardware abstraction](https://en.wikipedia.org/wiki/Hardware_abstraction)
-- [Hash function](https://en.wikipedia.org/wiki/Hash_function)
-- [Heap (data structure)](https://en.wikipedia.org/wiki/Heap_(data_structure))
-- [IDLE](https://en.wikipedia.org/wiki/IDLE)
-- [Inline assembler](https://en.wikipedia.org/wiki/Inline_assembler)
-- [Input/output](https://en.wikipedia.org/wiki/Input/output)
-- [Integrated development environment](https://en.wikipedia.org/wiki/Integrated_development_environment)
-- [Interpreter (computing)](https://en.wikipedia.org/wiki/Interpreter_(computing))
-- [IronPython](https://en.wikipedia.org/wiki/IronPython)
-- [JSON](https://en.wikipedia.org/wiki/JSON)
-- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-- [Jython](https://en.wikipedia.org/wiki/Jython)
-- [Kickstarter](https://en.wikipedia.org/wiki/Kickstarter)
-- [Light-emitting diode](https://en.wikipedia.org/wiki/Light-emitting_diode)
-- [Lego Mindstorms EV3](https://en.wikipedia.org/wiki/Lego_Mindstorms_EV3)
-- [Linux](https://en.wikipedia.org/wiki/Linux)
-- [List of Python software](https://en.wikipedia.org/wiki/List_of_Python_software)
-- [Comparison of integrated development environments](https://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments)
-- [MIT License](https://en.wikipedia.org/wiki/MIT_License)
-- [MIT License](https://en.wikipedia.org/wiki/MIT_License)
-- [MacOS](https://en.wikipedia.org/wiki/MacOS)
-- [Memory management](https://en.wikipedia.org/wiki/Memory_management)
-- [SD card](https://en.wikipedia.org/wiki/SD_card)
-- [SD card](https://en.wikipedia.org/wiki/SD_card)
-- [USB hardware](https://en.wikipedia.org/wiki/USB_hardware)
-- [Micro Bit](https://en.wikipedia.org/wiki/Micro_Bit)
-- [Microcontroller](https://en.wikipedia.org/wiki/Microcontroller)
-- [Microsemi](https://en.wikipedia.org/wiki/Microsemi)
-- [Microsoft Windows](https://en.wikipedia.org/wiki/Microsoft_Windows)
-- [Environment Modules (software)](https://en.wikipedia.org/wiki/Environment_Modules_(software))
-- [Ninja-IDE](https://en.wikipedia.org/wiki/Ninja-IDE)
-- [Numba](https://en.wikipedia.org/wiki/Numba)
-- [Operating system](https://en.wikipedia.org/wiki/Operating_system)
-- [PIC microcontrollers](https://en.wikipedia.org/wiki/PIC_microcontrollers)
-- [Packt](https://en.wikipedia.org/wiki/Packt)
-- [Primitive data type](https://en.wikipedia.org/wiki/Primitive_data_type)
-- [Programmer](https://en.wikipedia.org/wiki/Programmer)
-- [Programming language](https://en.wikipedia.org/wiki/Programming_language)
-- [Programming language implementation](https://en.wikipedia.org/wiki/Programming_language_implementation)
-- [Psyco](https://en.wikipedia.org/wiki/Psyco)
-- [PyCharm](https://en.wikipedia.org/wiki/PyCharm)
-- [PyDev](https://en.wikipedia.org/wiki/PyDev)
-- [PyPy](https://en.wikipedia.org/wiki/PyPy)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Python Conference](https://en.wikipedia.org/wiki/Python_Conference)
-- [Python Software Foundation](https://en.wikipedia.org/wiki/Python_Software_Foundation)
-- [Python for S60](https://en.wikipedia.org/wiki/Python_for_S60)
-- [RISC-V](https://en.wikipedia.org/wiki/RISC-V)
-- [RP2040](https://en.wikipedia.org/wiki/RP2040)
-- [Random-access memory](https://en.wikipedia.org/wiki/Random-access_memory)
-- [Raspberry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi)
-- [Read-only memory](https://en.wikipedia.org/wiki/Read-only_memory)
-- [Read–eval–print loop](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)
-- [Repository (version control)](https://en.wikipedia.org/wiki/Repository_(version_control))
-- [STM32](https://en.wikipedia.org/wiki/STM32)
-- [Shed Skin](https://en.wikipedia.org/wiki/Shed_Skin)
-- [Software](https://en.wikipedia.org/wiki/Software)
-- [Software development](https://en.wikipedia.org/wiki/Software_development)
-- [Software license](https://en.wikipedia.org/wiki/Software_license)
-- [Software release life cycle](https://en.wikipedia.org/wiki/Software_release_life_cycle)
-- [Spyder (software)](https://en.wikipedia.org/wiki/Spyder_(software))
-- [Stackless Python](https://en.wikipedia.org/wiki/Stackless_Python)
-- [Switch](https://en.wikipedia.org/wiki/Switch)
-- [Syntax (programming languages)](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
-- [Terminal emulator](https://en.wikipedia.org/wiki/Terminal_emulator)
-- [USB](https://en.wikipedia.org/wiki/USB)
-- [Unix](https://en.wikipedia.org/wiki/Unix)
-- [CPython](https://en.wikipedia.org/wiki/CPython)
-- [Virtual machine](https://en.wikipedia.org/wiki/Virtual_machine)
-- [Web Server Gateway Interface](https://en.wikipedia.org/wiki/Web_Server_Gateway_Interface)
-- [YouTube](https://en.wikipedia.org/wiki/YouTube)
-- [YouTube](https://en.wikipedia.org/wiki/YouTube)
-- [Zephyr (operating system)](https://en.wikipedia.org/wiki/Zephyr_(operating_system))
-- [Template:Python (programming language)](https://en.wikipedia.org/wiki/Template:Python_(programming_language))
-- [Template talk:Python (programming language)](https://en.wikipedia.org/wiki/Template_talk:Python_(programming_language))
-- [Category:Use dmy dates from April 2022](https://en.wikipedia.org/wiki/Category:Use_dmy_dates_from_April_2022)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:19:27.549065+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 21:03:02 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 13306 bytes
+- **Word Count:** 2007 words

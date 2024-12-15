@@ -50,7 +50,7 @@ Lazy evaluation
 == References ==
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:38:36 UTC
+- **Archived on:** 2024-12-15 21:05:35 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 2606 bytes

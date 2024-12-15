@@ -1,18 +1,18 @@
 # Anonymous function
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:25:45.225559+00:00
+## Metadata
+- **Last Updated:** 2024-12-10 08:12:38 UTC
 - **Original Article:** [Anonymous function](https://en.wikipedia.org/wiki/Anonymous_function)
 - **Language:** en
 - **Page ID:** 7018181
 
 ## Summary
-
 In computer programming, an anonymous function (function literal, expression or block) is a function definition that is not bound to an identifier. Anonymous functions are often arguments being passed to higher-order functions or used for constructing the result of a higher-order function that needs to return a function.
-If the function is only used once, or a limited number of times, an anonymous function may be syntactically lighter than using a named function. Anonymous functions are ubiquito
+If the function is only used once, or a limited number of times, an anonymous function may be syntactically lighter than using a named function. Anonymous functions are ubiquitous in functional programming languages and other languages with first-class functions, where they fulfil the same role for the function type as literals do for other data types.
+Anonymous functions originate in the work of Alonzo Church in his invention of the lambda calculus, in which all functions are anonymous, in 1936, before electronic computers. In several programming languages, anonymous functions are introduced using the keyword lambda, and anonymous functions are often referred to as lambdas or lambda abstractions. Anonymous functions have been a feature of programming languages since Lisp in 1958, and a growing number of modern programming languages support anonymous functions.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles needing additional references
 - Category:Articles needing additional references from February 2018
@@ -172,132 +172,9 @@ php anonymous functions php anonymous functions
 Lambda functions in various programming languages
 Functions in Go
 
-## Related Articles
-
-### Internal Links
-
-- [ALGOL 68](https://en.wikipedia.org/wiki/ALGOL_68)
-- [APL (programming language)](https://en.wikipedia.org/wiki/APL_(programming_language))
-- [ActionScript](https://en.wikipedia.org/wiki/ActionScript)
-- [Ada (programming language)](https://en.wikipedia.org/wiki/Ada_(programming_language))
-- [Alonzo Church](https://en.wikipedia.org/wiki/Alonzo_Church)
-- [Assembly language](https://en.wikipedia.org/wiki/Assembly_language)
-- [AutoHotkey](https://en.wikipedia.org/wiki/AutoHotkey)
-- [Bash (Unix shell)](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
-- [Blocks (C language extension)](https://en.wikipedia.org/wiki/Blocks_(C_language_extension))
-- [Free variables and bound variables](https://en.wikipedia.org/wiki/Free_variables_and_bound_variables)
-- [C++](https://en.wikipedia.org/wiki/C%2B%2B)
-- [C++11](https://en.wikipedia.org/wiki/C%2B%2B11)
-- [COBOL](https://en.wikipedia.org/wiki/COBOL)
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [C Sharp (programming language)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
-- [Clang](https://en.wikipedia.org/wiki/Clang)
-- [Clojure](https://en.wikipedia.org/wiki/Clojure)
-- [Closure (computer programming)](https://en.wikipedia.org/wiki/Closure_(computer_programming))
-- [Closure (computer programming)](https://en.wikipedia.org/wiki/Closure_(computer_programming))
-- [Adobe ColdFusion](https://en.wikipedia.org/wiki/Adobe_ColdFusion)
-- [ColdFusion Markup Language](https://en.wikipedia.org/wiki/ColdFusion_Markup_Language)
-- [Computer programming](https://en.wikipedia.org/wiki/Computer_programming)
-- [Curl (programming language)](https://en.wikipedia.org/wiki/Curl_(programming_language))
-- [Currying](https://en.wikipedia.org/wiki/Currying)
-- [D (programming language)](https://en.wikipedia.org/wiki/D_(programming_language))
-- [Dart (programming language)](https://en.wikipedia.org/wiki/Dart_(programming_language))
-- [Data type](https://en.wikipedia.org/wiki/Data_type)
-- [Delphi (software)](https://en.wikipedia.org/wiki/Delphi_(software))
-- [Dylan (programming language)](https://en.wikipedia.org/wiki/Dylan_(programming_language))
-- [Dynamic programming language](https://en.wikipedia.org/wiki/Dynamic_programming_language)
-- [Eiffel (programming language)](https://en.wikipedia.org/wiki/Eiffel_(programming_language))
-- [Elixir (programming language)](https://en.wikipedia.org/wiki/Elixir_(programming_language))
-- [Elm (programming language)](https://en.wikipedia.org/wiki/Elm_(programming_language))
-- [Erlang (programming language)](https://en.wikipedia.org/wiki/Erlang_(programming_language))
-- [Examples of anonymous functions](https://en.wikipedia.org/wiki/Examples_of_anonymous_functions)
-- [F Sharp (programming language)](https://en.wikipedia.org/wiki/F_Sharp_(programming_language))
-- [Factor (programming language)](https://en.wikipedia.org/wiki/Factor_(programming_language))
-- [Filter (higher-order function)](https://en.wikipedia.org/wiki/Filter_(higher-order_function))
-- [First-class function](https://en.wikipedia.org/wiki/First-class_function)
-- [Fold (higher-order function)](https://en.wikipedia.org/wiki/Fold_(higher-order_function))
-- [Fortran](https://en.wikipedia.org/wiki/Fortran)
-- [Frink (programming language)](https://en.wikipedia.org/wiki/Frink_(programming_language))
-- [Function (computer programming)](https://en.wikipedia.org/wiki/Function_(computer_programming))
-- [Function type](https://en.wikipedia.org/wiki/Function_type)
-- [Functional programming](https://en.wikipedia.org/wiki/Functional_programming)
-- [GNU Octave](https://en.wikipedia.org/wiki/GNU_Octave)
-- [GitHub](https://en.wikipedia.org/wiki/GitHub)
-- [Go (programming language)](https://en.wikipedia.org/wiki/Go_(programming_language))
-- [Gosu (programming language)](https://en.wikipedia.org/wiki/Gosu_(programming_language))
-- [Apache Groovy](https://en.wikipedia.org/wiki/Apache_Groovy)
-- [Haskell](https://en.wikipedia.org/wiki/Haskell)
-- [Haxe](https://en.wikipedia.org/wiki/Haxe)
-- [Higher-order function](https://en.wikipedia.org/wiki/Higher-order_function)
-- [IBM RPG](https://en.wikipedia.org/wiki/IBM_RPG)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Division (mathematics)](https://en.wikipedia.org/wiki/Division_(mathematics))
-- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-- [Java (programming language)](https://en.wikipedia.org/wiki/Java_(programming_language))
-- [Java version history](https://en.wikipedia.org/wiki/Java_version_history)
-- [Julia (programming language)](https://en.wikipedia.org/wiki/Julia_(programming_language))
-- [Kotlin (programming language)](https://en.wikipedia.org/wiki/Kotlin_(programming_language))
-- [LLVM](https://en.wikipedia.org/wiki/LLVM)
-- [Lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus)
-- [Lambda calculus definition](https://en.wikipedia.org/wiki/Lambda_calculus_definition)
-- [Lisp (programming language)](https://en.wikipedia.org/wiki/Lisp_(programming_language))
-- [Literal (computer programming)](https://en.wikipedia.org/wiki/Literal_(computer_programming))
-- [Logtalk](https://en.wikipedia.org/wiki/Logtalk)
-- [Lua (programming language)](https://en.wikipedia.org/wiki/Lua_(programming_language))
-- [MATLAB](https://en.wikipedia.org/wiki/MATLAB)
-- [ML (programming language)](https://en.wikipedia.org/wiki/ML_(programming_language))
-- [MUMPS](https://en.wikipedia.org/wiki/MUMPS)
-- [Map (higher-order function)](https://en.wikipedia.org/wiki/Map_(higher-order_function))
-- [Maple (software)](https://en.wikipedia.org/wiki/Maple_(software))
-- [Maps to](https://en.wikipedia.org/wiki/Maps_to)
-- [Maxima (software)](https://en.wikipedia.org/wiki/Maxima_(software))
-- [Micro Focus](https://en.wikipedia.org/wiki/Micro_Focus)
-- [Microsoft Excel](https://en.wikipedia.org/wiki/Microsoft_Excel)
-- [Identifier](https://en.wikipedia.org/wiki/Identifier)
-- [Name binding](https://en.wikipedia.org/wiki/Name_binding)
-- [Naming convention (programming)](https://en.wikipedia.org/wiki/Naming_convention_(programming))
-- [Nim (programming language)](https://en.wikipedia.org/wiki/Nim_(programming_language))
-- [OCaml](https://en.wikipedia.org/wiki/OCaml)
-- [Object Pascal](https://en.wikipedia.org/wiki/Object_Pascal)
-- [Objective-C](https://en.wikipedia.org/wiki/Objective-C)
-- [OpenSCAD](https://en.wikipedia.org/wiki/OpenSCAD)
-- [Oxygene (programming language)](https://en.wikipedia.org/wiki/Oxygene_(programming_language))
-- [PHP](https://en.wikipedia.org/wiki/PHP)
-- [PL/I](https://en.wikipedia.org/wiki/PL/I)
-- [Pascal (programming language)](https://en.wikipedia.org/wiki/Pascal_(programming_language))
-- [Perl](https://en.wikipedia.org/wiki/Perl)
-- [Programming language](https://en.wikipedia.org/wiki/Programming_language)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [R (programming language)](https://en.wikipedia.org/wiki/R_(programming_language))
-- [Racket (programming language)](https://en.wikipedia.org/wiki/Racket_(programming_language))
-- [Railo](https://en.wikipedia.org/wiki/Railo)
-- [Raku (programming language)](https://en.wikipedia.org/wiki/Raku_(programming_language))
-- [Rexx](https://en.wikipedia.org/wiki/Rexx)
-- [Ruby (programming language)](https://en.wikipedia.org/wiki/Ruby_(programming_language))
-- [Rust (programming language)](https://en.wikipedia.org/wiki/Rust_(programming_language))
-- [Scala (programming language)](https://en.wikipedia.org/wiki/Scala_(programming_language))
-- [Scheme (programming language)](https://en.wikipedia.org/wiki/Scheme_(programming_language))
-- [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk)
-- [Sorting algorithm](https://en.wikipedia.org/wiki/Sorting_algorithm)
-- [Square (algebra)](https://en.wikipedia.org/wiki/Square_(algebra))
-- [Standard ML](https://en.wikipedia.org/wiki/Standard_ML)
-- [Swift (programming language)](https://en.wikipedia.org/wiki/Swift_(programming_language))
-- [Tcl](https://en.wikipedia.org/wiki/Tcl)
-- [TypeScript](https://en.wikipedia.org/wiki/TypeScript)
-- [Vala (programming language)](https://en.wikipedia.org/wiki/Vala_(programming_language))
-- [Visual Basic (.NET)](https://en.wikipedia.org/wiki/Visual_Basic_(.NET))
-- [Visual Prolog](https://en.wikipedia.org/wiki/Visual_Prolog)
-- [Wolfram Language](https://en.wikipedia.org/wiki/Wolfram_Language)
-- [Zig (programming language)](https://en.wikipedia.org/wiki/Zig_(programming_language))
-- [Wikipedia:Citing sources](https://en.wikipedia.org/wiki/Wikipedia:Citing_sources)
-- [Wikipedia:Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)
-- [Wikipedia:WikiProject Lists](https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Lists)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Help:Referencing for beginners](https://en.wikipedia.org/wiki/Help:Referencing_for_beginners)
-- [Category:Articles needing additional references from February 2018](https://en.wikipedia.org/wiki/Category:Articles_needing_additional_references_from_February_2018)
-- [Category:Incomplete lists from August 2008](https://en.wikipedia.org/wiki/Category:Incomplete_lists_from_August_2008)
-- [Portal:Computer programming](https://en.wikipedia.org/wiki/Portal:Computer_programming)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:25:45.225559+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 21:03:25 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 8868 bytes
+- **Word Count:** 1348 words

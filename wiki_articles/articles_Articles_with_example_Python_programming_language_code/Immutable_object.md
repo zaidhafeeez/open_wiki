@@ -191,7 +191,7 @@ Immutable collections in .NET official library by Microsoft
 Immutable objects in C# by Tutlane.com
 
 ## Archive Info
-- **Archived on:** 2024-12-15 15:18:59 UTC
+- **Archived on:** 2024-12-15 21:04:46 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 17273 bytes

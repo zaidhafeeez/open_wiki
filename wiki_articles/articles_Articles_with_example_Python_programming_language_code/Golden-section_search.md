@@ -1237,7 +1237,7 @@ Avriel, Mordecai; Wilde, Douglass J. (1966), "Optimality proof for the symmetric
 Press, WH; Teukolsky, SA; Vetterling, WT; Flannery, BP (2007), "Section 10.2. Golden Section Search in One Dimension", Numerical Recipes: The Art of Scientific Computing (3rd ed.), New York: Cambridge University Press, ISBN 978-0-521-88068-8, archived from the original on 2011-08-11, retrieved 2011-08-12
 
 ## Archive Info
-- **Archived on:** 2024-12-15 15:18:49 UTC
+- **Archived on:** 2024-12-15 21:04:37 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 18821 bytes

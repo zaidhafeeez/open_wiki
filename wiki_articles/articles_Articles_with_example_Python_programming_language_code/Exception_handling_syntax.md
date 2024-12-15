@@ -276,7 +276,7 @@ Exception handling for the semantics of exception handling
 Syntax for definition of syntax in computer science
 
 ## Archive Info
-- **Archived on:** 2024-12-15 15:18:34 UTC
+- **Archived on:** 2024-12-15 21:04:20 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 10442 bytes
