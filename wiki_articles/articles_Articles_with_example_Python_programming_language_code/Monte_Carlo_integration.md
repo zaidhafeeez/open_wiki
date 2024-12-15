@@ -1451,7 +1451,7 @@ Boost.Math : Naive Monte Carlo integration: Documentation for the C++ naive Mont
 Monte Carlo applet applied in statistical physics problems
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:26:39 UTC
+- **Archived on:** 2024-12-15 20:38:31 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 26442 bytes

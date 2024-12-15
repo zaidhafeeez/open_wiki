@@ -2941,7 +2941,7 @@ Shane Steinert-Threlkeld, "Lambda Calculi", Internet Encyclopedia of Philosophy
 Anton Salikhmetov, Macro Lambda Calculus
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:26:30 UTC
+- **Archived on:** 2024-12-15 20:38:23 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 71967 bytes

@@ -66,7 +66,7 @@ Website of Attic Backup Archived 2021-04-15 at the Wayback Machine
 Resources from the Borg Community
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:27:51 UTC
+- **Archived on:** 2024-12-15 20:39:37 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 2303 bytes

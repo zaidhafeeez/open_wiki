@@ -4407,7 +4407,7 @@ Mathews, J., The Accelerated and Modified Newton Methods, Course notes.
 Wu, X., Roots of Equations, Course notes.
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:26:42 UTC
+- **Archived on:** 2024-12-15 20:38:34 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 109628 bytes

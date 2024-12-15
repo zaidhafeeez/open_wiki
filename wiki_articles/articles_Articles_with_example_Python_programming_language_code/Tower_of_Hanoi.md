@@ -805,7 +805,7 @@ External links
 Weisstein, Eric W. "Tower of Hanoi". MathWorld.
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:27:04 UTC
+- **Archived on:** 2024-12-15 20:38:51 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 36309 bytes

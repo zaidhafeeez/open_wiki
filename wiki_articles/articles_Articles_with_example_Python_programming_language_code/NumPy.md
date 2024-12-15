@@ -122,7 +122,7 @@ NumPy tutorials
 History of NumPy
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:26:43 UTC
+- **Archived on:** 2024-12-15 20:38:34 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 8849 bytes

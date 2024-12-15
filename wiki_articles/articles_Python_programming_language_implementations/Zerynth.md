@@ -58,7 +58,7 @@ Founded in 2015, Zerynth has experienced exponential growth and now boasts a tea
 == References ==
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:27:22 UTC
+- **Archived on:** 2024-12-15 20:39:09 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 2977 bytes

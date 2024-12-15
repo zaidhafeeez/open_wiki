@@ -261,7 +261,7 @@ Levine, John R. (2000) [October 1999]. "Chapter 5: Symbol management". Linkers a
 Name mangling demystified by Fivos Kefallonitis
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:26:40 UTC
+- **Archived on:** 2024-12-15 20:38:32 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 25767 bytes

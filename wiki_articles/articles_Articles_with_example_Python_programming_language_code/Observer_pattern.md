@@ -104,7 +104,7 @@ External links
  Observer implementations in various languages at Wikibooks
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:26:43 UTC
+- **Archived on:** 2024-12-15 20:38:35 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 8498 bytes

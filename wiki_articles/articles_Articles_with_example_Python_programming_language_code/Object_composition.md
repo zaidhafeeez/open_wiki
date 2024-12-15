@@ -170,7 +170,7 @@ Association, Aggregation and Composition, accessed in February 2009
 Harald Störrle, UML2, Addison-Wesley, 2005
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:26:43 UTC
+- **Archived on:** 2024-12-15 20:38:34 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 11631 bytes

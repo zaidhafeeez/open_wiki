@@ -180,7 +180,7 @@ Fast JavaScript Prime Factor Calculator using trial division. Can handle numbers
 Trial Division in Java, C and JavaScript (in Portuguese)
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:27:05 UTC
+- **Archived on:** 2024-12-15 20:38:52 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 6658 bytes

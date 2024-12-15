@@ -95,7 +95,7 @@ Documentation
 spyder on GitHub
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:27:15 UTC
+- **Archived on:** 2024-12-15 20:39:02 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 4554 bytes

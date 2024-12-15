@@ -60,7 +60,7 @@ fetchmail
 == References ==
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:26:44 UTC
+- **Archived on:** 2024-12-15 20:38:35 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 2192 bytes

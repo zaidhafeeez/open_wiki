@@ -152,7 +152,7 @@ XML Data Binding Resources
 Databoard - Binary serialization with partial and random access, type system, RPC, type adaption, and text format
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:27:30 UTC
+- **Archived on:** 2024-12-15 20:39:17 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 25915 bytes

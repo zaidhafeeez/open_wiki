@@ -81,7 +81,7 @@ NINJA-IDE, el ide que me atrapo (in Spanish)
 NINJA-IDE, un IDE pensado para Python (in Spanish)
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:27:58 UTC
+- **Archived on:** 2024-12-15 20:39:43 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 2040 bytes

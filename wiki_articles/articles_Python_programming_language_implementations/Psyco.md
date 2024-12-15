@@ -58,7 +58,7 @@ David Mertz's IBM developerWorks article: Make Python run as fast as C with Psyc
 psyco notes, Poor Yorick
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:27:21 UTC
+- **Archived on:** 2024-12-15 20:39:08 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 1782 bytes

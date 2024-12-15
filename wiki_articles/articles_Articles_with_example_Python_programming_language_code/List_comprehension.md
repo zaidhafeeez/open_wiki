@@ -474,7 +474,7 @@ Python Language Reference, Generator expressions.
 Python Enhancement Proposal PEP 289: Generator Expressions.
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:26:32 UTC
+- **Archived on:** 2024-12-15 20:38:24 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 14431 bytes

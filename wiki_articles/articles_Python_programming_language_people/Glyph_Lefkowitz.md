@@ -42,7 +42,7 @@ Twisted Matrix Labs - Home of the Twisted project
 Binpress Interview (2014) - Audio interview covering biographical and professional history (with transcript)
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:27:42 UTC
+- **Archived on:** 2024-12-15 20:39:29 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 958 bytes

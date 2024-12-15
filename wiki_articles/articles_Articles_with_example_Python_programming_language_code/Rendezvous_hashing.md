@@ -1473,7 +1473,7 @@ External links
 Rendezvous Hashing: an alternative to Consistent Hashing
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:26:53 UTC
+- **Archived on:** 2024-12-15 20:38:42 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 30188 bytes

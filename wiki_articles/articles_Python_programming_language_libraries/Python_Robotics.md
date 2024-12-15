@@ -48,7 +48,7 @@ External links
 Beyond LEGOs - NSF funding page for Pyrobot
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:27:33 UTC
+- **Archived on:** 2024-12-15 20:39:19 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 2244 bytes

@@ -55,7 +55,7 @@ Linear optimization in Python, Part 2: Build a scalable architecture in the clou
 APOPT Solver for LP, QP, MILP, NLP, and MINLP solutions in Pyomo
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:28:02 UTC
+- **Archived on:** 2024-12-15 20:39:46 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 3258 bytes

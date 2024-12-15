@@ -43,7 +43,7 @@ cwm homepage
 Information about CWM - TimBL's Closed World Machine
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:27:52 UTC
+- **Archived on:** 2024-12-15 20:39:38 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 934 bytes

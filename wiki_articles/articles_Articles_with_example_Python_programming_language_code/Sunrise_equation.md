@@ -1250,7 +1250,7 @@ Long-Term Almanac for Sun, Moon, and Polaris V1.11
 Evaluating the Effectiveness of Current Atmospheric Refraction Models in Predicting Sunrise and Sunset Times
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:27:01 UTC
+- **Archived on:** 2024-12-15 20:38:49 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 19918 bytes

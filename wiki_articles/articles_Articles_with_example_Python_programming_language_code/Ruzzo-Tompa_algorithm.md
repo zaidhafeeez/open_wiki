@@ -516,7 +516,7 @@ Further reading
 Ali, Syed Arslan; Raza, Basit; Malik, Ahmad Kamran; Shahid, Ahmad Raza; Faheem, Muhammad; Alquhayz, Hani; Kumar, Yogan Jaya (2020). "An Optimally Configured and Improved Deep Belief Network (OCI-DBN) Approach for Heart Disease Prediction Based on Ruzzo–Tompa and Stacked Genetic Algorithm". IEEE Access. 8. Institute of Electrical and Electronics Engineers (IEEE): 65947–65958. doi:10.1109/access.2020.2985646. ISSN 2169-3536. S2CID 215817246.
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:26:54 UTC
+- **Archived on:** 2024-12-15 20:38:44 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 9437 bytes

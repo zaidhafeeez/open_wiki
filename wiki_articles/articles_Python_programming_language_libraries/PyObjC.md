@@ -69,7 +69,7 @@ Official website
 Ronald Oussoren's warning on Xcode 4.0
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:27:31 UTC
+- **Archived on:** 2024-12-15 20:39:18 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 3326 bytes

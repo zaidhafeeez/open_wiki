@@ -58,7 +58,7 @@ Official website
 Joe Cheng | Keynote: The Past and Future of Shiny | RStudio (2022) (58:07)
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:28:16 UTC
+- **Archived on:** 2024-12-15 20:40:02 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 2665 bytes

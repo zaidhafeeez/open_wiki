@@ -142,7 +142,7 @@ Hawkins, D.M. (1980). Identification of outliers. Chapman and Hall, London. ISBN
 Chauvenet, W. (1876) A Manual of Spherical and Practical Astronomy. J.B.Lippincott, Philadelphia. (reprints of various editions: Dover, 1960; Peter Smith Pub, 2000, ISBN 0-8446-1845-4; Adamant Media Corporation (2 Volumes), 2001, ISBN 1-4021-7283-4, ISBN 1-4212-7259-8; BiblioBazaar, 2009, ISBN 1-103-92942-9 )
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:26:47 UTC
+- **Archived on:** 2024-12-15 20:38:38 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 11199 bytes

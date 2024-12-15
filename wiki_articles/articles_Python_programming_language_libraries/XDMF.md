@@ -26,7 +26,7 @@ XDMF (eXtensible Data Model and Format) provides a standard way to access data p
 == References ==
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:27:38 UTC
+- **Archived on:** 2024-12-15 20:39:24 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 525 bytes

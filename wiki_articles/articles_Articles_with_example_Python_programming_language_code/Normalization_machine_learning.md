@@ -4073,7 +4073,7 @@ Further reading
 "Normalization Layers". labml.ai Deep Learning Paper Implementations. Retrieved 2024-08-07.
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:26:42 UTC
+- **Archived on:** 2024-12-15 20:38:34 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 72054 bytes

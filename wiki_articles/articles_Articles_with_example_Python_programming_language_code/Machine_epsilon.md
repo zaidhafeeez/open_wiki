@@ -1366,7 +1366,7 @@ MACHAR, a routine (in C and Fortran) to "dynamically compute machine constants" 
 Diagnosing floating point calculations precision, Implementation of MACHAR in Component Pascal and Oberon based on the Fortran 77 version of MACHAR published in Numerical Recipes (Press et al., 1992).
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:26:34 UTC
+- **Archived on:** 2024-12-15 20:38:26 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 27322 bytes

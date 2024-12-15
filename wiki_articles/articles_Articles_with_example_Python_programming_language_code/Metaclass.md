@@ -137,7 +137,7 @@ External links
 What Is a Metaclass?
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:26:38 UTC
+- **Archived on:** 2024-12-15 20:38:30 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 11721 bytes

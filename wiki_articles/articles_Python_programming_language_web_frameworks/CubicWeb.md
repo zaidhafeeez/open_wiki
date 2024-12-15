@@ -77,7 +77,7 @@ CubicWeb components in the Python Package Index (PyPI)
 paper at Extended Semantic Web Conference 2013 at the Wayback Machine (archived 2020-02-09)
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:28:13 UTC
+- **Archived on:** 2024-12-15 20:39:59 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 2997 bytes

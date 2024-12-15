@@ -54,7 +54,7 @@ http://md.devc.at/internet/semantic-web/rdf/redland-rdf (TM-hub)
 http://kill.devc.at/internet/semantic-web/rdf/redland/tutorial
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:27:34 UTC
+- **Archived on:** 2024-12-15 20:39:20 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 884 bytes

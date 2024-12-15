@@ -89,7 +89,7 @@ External links
 Official website
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:27:14 UTC
+- **Archived on:** 2024-12-15 20:39:01 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 3091 bytes

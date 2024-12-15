@@ -796,7 +796,7 @@ Toth, Viktor (2005). "Programmable Calculators: The Lanczos Approximation".
 Weisstein, Eric W. "Lanczos Approximation". MathWorld.
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:26:30 UTC
+- **Archived on:** 2024-12-15 20:38:23 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 13986 bytes

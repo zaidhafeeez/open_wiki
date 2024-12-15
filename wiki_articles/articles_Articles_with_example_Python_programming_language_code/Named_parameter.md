@@ -96,7 +96,7 @@ In C++ this paradigm can be easily implemented: Boost Parameter Library
 Named Parameters in various programming languages at Rosetta Code
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:26:40 UTC
+- **Archived on:** 2024-12-15 20:38:32 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 4903 bytes

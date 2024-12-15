@@ -80,7 +80,7 @@ ZODB programming guide
 Introduction to the Zope Object Database
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:28:07 UTC
+- **Archived on:** 2024-12-15 20:39:50 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 6211 bytes

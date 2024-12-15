@@ -123,7 +123,7 @@ External links
 Introspection on Rosetta Code
 
 ## Archive Info
-- **Archived on:** 2024-12-15 20:27:05 UTC
+- **Archived on:** 2024-12-15 20:38:53 UTC
 - **Archive Source:** Wikipedia (_en_)
 - **Total References:** 0
 - **Article Size:** 5270 bytes
