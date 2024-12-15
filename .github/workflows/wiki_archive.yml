@@ -54,6 +54,16 @@ jobs:
         PYTHONUNBUFFERED: 1  # Enable real-time logging
         PYTHONIOENCODING: utf-8  # Ensure proper encoding
     
+    - name: Update Progress in README
+      run: |
+        python update_progress.py
+        if [[ -n "$(git status --porcelain README.md)" ]]; then
+          echo "readme_updated=true" >> $GITHUB_OUTPUT
+        else
+          echo "readme_updated=false" >> $GITHUB_OUTPUT
+        fi
+      id: update_progress
+    
     - name: Check for changes
       id: check_changes
       run: |
@@ -69,7 +79,12 @@ jobs:
       if: steps.check_changes.outputs.changes == 'true'
       run: |
         git add wiki_articles/
-
+        
+        # Add README if it was updated
+        if [[ "${{ steps.update_progress.outputs.readme_updated }}" == "true" ]]; then
+          git add README.md
+        fi
+        
         current_date=$(date +'%Y-%m-%d')
         
         git commit -m "Update wiki articles - $current_date" \
