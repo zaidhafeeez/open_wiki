@@ -1,0 +1,130 @@
+# Pytest
+
+## Article Metadata
+
+- **Last Updated:** 2024-12-15T03:25:34.109121+00:00
+- **Original Article:** [Pytest](https://en.wikipedia.org/wiki/Pytest)
+- **Language:** en
+- **Page ID:** 69852359
+
+## Summary
+
+Pytest is a Python testing framework that originated from the PyPy project. It can be used to write various types of software tests, including unit tests, integration tests, end-to-end tests, and functional tests. Its features include parametrized testing, fixtures, and assert re-writing.
+Pytest fixtures provide the contexts for tests by passing in parameter names in test cases; its parametrization eliminates duplicate code for testing multiple sets of input and output; and its rewritten assert 
+
+## Categories
+
+- Category:Articles with short description
+- Category:Free software testing tools
+- Category:Good articles
+- Category:Python (programming language) development tools
+- Category:Short description is different from Wikidata
+- Category:Unit testing frameworks
+
+## Table of Contents
+
+- History
+- Features
+- See also
+- References
+- External links
+
+## Content
+
+Pytest is a Python testing framework that originated from the PyPy project. It can be used to write various types of software tests, including unit tests, integration tests, end-to-end tests, and functional tests. Its features include parametrized testing, fixtures, and assert re-writing.
+Pytest fixtures provide the contexts for tests by passing in parameter names in test cases; its parametrization eliminates duplicate code for testing multiple sets of input and output; and its rewritten assert statements provide detailed output for causes of failures.
+
+History
+Pytest was developed as part of an effort by third-party packages to address Python's built-in module unittest's shortcomings. It originated as part of PyPy, an alternative implementation of Python to the standard CPython. Since its creation in early 2003, PyPy has had a heavy emphasis on testing. PyPy had unit tests for newly written code, regression tests for bugs, and integration tests using CPython's test suite.
+In mid 2004, a testing framework called utest emerged and contributors to PyPy began converting existing test cases to utest. Meanwhile, at EuroPython 2004 a complementary standard library for testing, named std, was invented. This package laid out the principles, such as assert rewriting, of what would later become pytest. In late 2004, the std project was renamed to py, std.utest became py.test, and the py library was separated from PyPy. In November 2010, pytest 2.0.0 was released as a package separate from py. It was still called py.test until August 2016, but following the release of pytest 3.0.0 the recommended command line entry point became pytest.
+Pytest has been classified by developer security platform Snyk as one of the key ecosystem projects in Python due to its popularity. Some well-known projects who switched to pytest from unittest and nose (another testing package) include those of Mozilla and Dropbox.
+
+Features
+Parametrized testing
+It is a common pattern in software testing to send values through test functions and check for correct output. In many cases, in order to thoroughly test functionalities, one needs to test multiple sets of input/output, and writing such cases separately would cause duplicate code as most of the actions would remain the same, only differing in input/output values. Pytest's parametrized testing feature eliminates such duplicate code by combining different iterations into one test case, then running these iterations and displaying each test's result separately.
+Parametrized tests in pytest are marked by the @pytest.mark.parametrize(argnames, argvalues) decorator, where the first parameter, argnames, is a string of comma-separated names, and argvalues is a list of values to pass into argnames. When there are multiple names in argnames, argvalues would be a list of tuples where values in each tuple corresponds to the names in argnames by index. The names in argnames are then passed into the test function marked by the decorator as parameters. When pytest runs such decorated tests, each pair of argnames and argvalues would constitute a separate run with its own test output and unique identifier. The identifier can then be used to run individual data pairs.: 52–58
+
+Assert rewriting
+When writing software tests, the assert statement is a primary means for communicating test failure, where expected values are compared to actual values.: 32–34  While Python's built-in assert keyword would only raise AssertionError with no details in cases of failure, pytest rewrites Python's assert keyword and provides detailed output for the causes of failures, such as what expressions in the assert statement evaluate to. A comparison can be made with unittest (Python's built-in module for testing)'s assert statements:: 32 
+
+unittest adheres to a more verbose syntax because it is inspired by the Java programming language's JUnit, as are most unit testing libraries; pytest achieves the same while intercepting Python's built-in assert calls, making the approach more concise.: 32
+
+Pytest fixtures
+Pytest's tests verify that computer code performs as expected using tests that are structured in an arrange, act and assert sequence known as AAA. Its fixtures provide the context for tests. They can be used to put a system into a known state and to pass data into test functions. Fixtures practically constitute the arrange phase in the anatomy of a test (AAA, short for arrange, act, assert). Pytest fixtures can run before test cases as setup or after test cases for clean up, but are different from unittest and nose (another third-party Python testing framework)'s setups and teardowns. Functions declared as pytest fixtures are marked by the @pytest.fixture decorator, whose names can then be passed into test functions as parameters. When pytest finds the fixtures' names in test functions' parameters, it first searches in the same module for such fixtures, and if not found, it searches for such fixtures in the conftest.py file.: 61 
+For example:
+
+In the above example, pytest fixture dataset returns a dictionary, which is then passed into test function test_dataset for assertion. In addition to fixture detection within the same file as test cases, pytest fixtures can also be placed in the conftest.py file in the tests directory. There can be multiple conftest.py files, each placed within a tests directory for fixtures to be detected for each subset of tests.: 63
+
+Fixture scopes
+In pytest, fixture scopes let the user define when a fixture should be called. There are four fixture scopes: function scope, class scope, module scope, and session scope. Function-scoped fixtures are default for all pytest fixtures, which are called every time a function having the fixture as a parameter runs.  The goal of specifying a broader fixture scope is to eliminate repeated fixture calls, which could slow down test execution. Class-scoped fixtures are called once per test class, regardless of the number of times they are called, and the same logic goes for all other scopes. When changing fixture scope, one need only add the scope parameter to fixture decorators, for example, @pytest.fixture(scope="class").: 72
+
+Test filtering
+Another feature of pytest is its ability to filter through tests, where only desired tests are selected to run, or behave in a certain way as desired by the developer. With the "k" option (e.g. pytest -k some_name), pytest would only run tests whose names include some_name. The opposite is true, where one can run pytest -k "not some_name", and pytest will run all tests whose names do not include some_name.
+Pytest's markers can, in addition to altering test behaviour, also filter tests. Pytest's markers are Python decorators starting with the @pytest.mark.<markername> syntax placed on top of test functions. With different arbitrarily named markers, running pytest -m <markername> on the command line will only run those tests decorated with such markers.: 13  All available markers can be listed by the pytest --markers along with their descriptions; custom markers can also be defined by users and registered in pytest.ini, in which case pytest --markers will also list those custom markers along with builtin markers.: 147
+
+See also
+JUnit, well-known software testing framework based on Java
+Doctest, well-known testing framework in Python for docstrings
+List of unit testing frameworks
+
+References
+External links
+Official website 
+https://pypi.org/project/pytest/
+https://docs.pytest.org
+
+## Related Articles
+
+### Internal Links
+
+- [Assertion (software development)](https://en.wikipedia.org/wiki/Assertion_(software_development))
+- [CPython](https://en.wikipedia.org/wiki/CPython)
+- [Class (computer programming)](https://en.wikipedia.org/wiki/Class_(computer_programming))
+- [Command-line interface](https://en.wikipedia.org/wiki/Command-line_interface)
+- [Computing platform](https://en.wikipedia.org/wiki/Computing_platform)
+- [Docstring](https://en.wikipedia.org/wiki/Docstring)
+- [Doctest](https://en.wikipedia.org/wiki/Doctest)
+- [Dropbox](https://en.wikipedia.org/wiki/Dropbox)
+- [Duplicate code](https://en.wikipedia.org/wiki/Duplicate_code)
+- [Entry point](https://en.wikipedia.org/wiki/Entry_point)
+- [Function object](https://en.wikipedia.org/wiki/Function_object)
+- [Functional testing](https://en.wikipedia.org/wiki/Functional_testing)
+- [Functional testing](https://en.wikipedia.org/wiki/Functional_testing)
+- [ISBN](https://en.wikipedia.org/wiki/ISBN)
+- [Integration testing](https://en.wikipedia.org/wiki/Integration_testing)
+- [JUnit](https://en.wikipedia.org/wiki/JUnit)
+- [Java (programming language)](https://en.wikipedia.org/wiki/Java_(programming_language))
+- [Library (computing)](https://en.wikipedia.org/wiki/Library_(computing))
+- [List of unit testing frameworks](https://en.wikipedia.org/wiki/List_of_unit_testing_frameworks)
+- [MIT License](https://en.wikipedia.org/wiki/MIT_License)
+- [MacOS](https://en.wikipedia.org/wiki/MacOS)
+- [Microsoft Windows](https://en.wikipedia.org/wiki/Microsoft_Windows)
+- [Modular programming](https://en.wikipedia.org/wiki/Modular_programming)
+- [Mozilla](https://en.wikipedia.org/wiki/Mozilla)
+- [POSIX](https://en.wikipedia.org/wiki/POSIX)
+- [Packt](https://en.wikipedia.org/wiki/Packt)
+- [Parameter (computer programming)](https://en.wikipedia.org/wiki/Parameter_(computer_programming))
+- [Programmer](https://en.wikipedia.org/wiki/Programmer)
+- [PyPy](https://en.wikipedia.org/wiki/PyPy)
+- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
+- [Python Package Index](https://en.wikipedia.org/wiki/Python_Package_Index)
+- [Python syntax and semantics](https://en.wikipedia.org/wiki/Python_syntax_and_semantics)
+- [Repository (version control)](https://en.wikipedia.org/wiki/Repository_(version_control))
+- [Software categories](https://en.wikipedia.org/wiki/Software_categories)
+- [Software framework](https://en.wikipedia.org/wiki/Software_framework)
+- [Software license](https://en.wikipedia.org/wiki/Software_license)
+- [Software release life cycle](https://en.wikipedia.org/wiki/Software_release_life_cycle)
+- [Software testing](https://en.wikipedia.org/wiki/Software_testing)
+- [Standard library](https://en.wikipedia.org/wiki/Standard_library)
+- [State (computer science)](https://en.wikipedia.org/wiki/State_(computer_science))
+- [Function (computer programming)](https://en.wikipedia.org/wiki/Function_(computer_programming))
+- [System testing](https://en.wikipedia.org/wiki/System_testing)
+- [Test case](https://en.wikipedia.org/wiki/Test_case)
+- [Test fixture](https://en.wikipedia.org/wiki/Test_fixture)
+- [Unit testing](https://en.wikipedia.org/wiki/Unit_testing)
+- [Wikipedia:Good articles](https://en.wikipedia.org/wiki/Wikipedia:Good_articles)
+- [Portal:Free and open-source software](https://en.wikipedia.org/wiki/Portal:Free_and_open-source_software)
+
+---
+_This article is part of the Python Programming Language wiki archive._
+_Retrieved and archived on: 2024-12-15T03:25:34.109121+00:00_
