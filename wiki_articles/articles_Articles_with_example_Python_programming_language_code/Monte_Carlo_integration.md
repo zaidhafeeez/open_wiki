@@ -1,18 +1,17 @@
 # Monte Carlo integration
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:35:42.092777+00:00
+## Metadata
+- **Last Updated:** 2024-12-14 01:24:50 UTC
 - **Original Article:** [Monte Carlo integration](https://en.wikipedia.org/wiki/Monte_Carlo_integration)
 - **Language:** en
 - **Page ID:** 1112960
 
 ## Summary
-
 In mathematics, Monte Carlo integration is a technique for numerical integration using random numbers. It is a particular Monte Carlo method that numerically computes a definite integral. While other algorithms usually evaluate the integrand at a regular grid, Monte Carlo randomly chooses points at which the integrand is evaluated. This method is particularly useful for higher-dimensional integrals.
-There are different methods to perform a Monte Carlo integration, such as uniform sampling, strat
+There are different methods to perform a Monte Carlo integration, such as uniform sampling, stratified sampling, importance sampling, sequential Monte Carlo (also known as a particle filter), and mean-field particle methods.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example C code
 - Category:Articles with example Python (programming language) code
@@ -1451,50 +1450,9 @@ Café math : Monte Carlo Integration : A blog article describing Monte Carlo int
 Boost.Math : Naive Monte Carlo integration: Documentation for the C++ naive Monte-Carlo routines
 Monte Carlo applet applied in statistical physics problems
 
-## Related Articles
-
-### Internal Links
-
-- [Acta Numerica](https://en.wikipedia.org/wiki/Acta_Numerica)
-- [Adaptive quadrature](https://en.wikipedia.org/wiki/Adaptive_quadrature)
-- [ArXiv](https://en.wikipedia.org/wiki/ArXiv)
-- [Auxiliary-field Monte Carlo](https://en.wikipedia.org/wiki/Auxiliary-field_Monte_Carlo)
-- [Bias of an estimator](https://en.wikipedia.org/wiki/Bias_of_an_estimator)
-- [Bibcode](https://en.wikipedia.org/wiki/Bibcode)
-- [David J. C. MacKay](https://en.wikipedia.org/wiki/David_J._C._MacKay)
-- [Integral](https://en.wikipedia.org/wiki/Integral)
-- [Deterministic algorithm](https://en.wikipedia.org/wiki/Deterministic_algorithm)
-- [Dirk Kroese](https://en.wikipedia.org/wiki/Dirk_Kroese)
-- [Disjoint sets](https://en.wikipedia.org/wiki/Disjoint_sets)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Importance sampling](https://en.wikipedia.org/wiki/Importance_sampling)
-- [Journal of Computational Physics](https://en.wikipedia.org/wiki/Journal_of_Computational_Physics)
-- [Law of large numbers](https://en.wikipedia.org/wiki/Law_of_large_numbers)
-- [Mathematical Reviews](https://en.wikipedia.org/wiki/Mathematical_Reviews)
-- [Wolfram Mathematica](https://en.wikipedia.org/wiki/Wolfram_Mathematica)
-- [Mathematics](https://en.wikipedia.org/wiki/Mathematics)
-- [Mean-field particle methods](https://en.wikipedia.org/wiki/Mean-field_particle_methods)
-- [Metropolis–Hastings algorithm](https://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm)
-- [Monte Carlo method](https://en.wikipedia.org/wiki/Monte_Carlo_method)
-- [Monte Carlo method in statistical mechanics](https://en.wikipedia.org/wiki/Monte_Carlo_method_in_statistical_mechanics)
-- [Multiple integral](https://en.wikipedia.org/wiki/Multiple_integral)
-- [Numerical integration](https://en.wikipedia.org/wiki/Numerical_integration)
-- [Particle filter](https://en.wikipedia.org/wiki/Particle_filter)
-- [Pseudorandomness](https://en.wikipedia.org/wiki/Pseudorandomness)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Quasi-Monte Carlo method](https://en.wikipedia.org/wiki/Quasi-Monte_Carlo_method)
-- [Russel E. Caflisch](https://en.wikipedia.org/wiki/Russel_E._Caflisch)
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [Variance](https://en.wikipedia.org/wiki/Variance)
-- [Standard error](https://en.wikipedia.org/wiki/Standard_error)
-- [Stochastic](https://en.wikipedia.org/wiki/Stochastic)
-- [Stratified sampling](https://en.wikipedia.org/wiki/Stratified_sampling)
-- [Trapezoidal rule](https://en.wikipedia.org/wiki/Trapezoidal_rule)
-- [Continuous uniform distribution](https://en.wikipedia.org/wiki/Continuous_uniform_distribution)
-- [VEGAS algorithm](https://en.wikipedia.org/wiki/VEGAS_algorithm)
-- [Variance reduction](https://en.wikipedia.org/wiki/Variance_reduction)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:35:42.092777+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:39 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 26442 bytes
+- **Word Count:** 2106 words

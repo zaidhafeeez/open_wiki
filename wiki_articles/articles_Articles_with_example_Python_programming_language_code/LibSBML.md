@@ -1,17 +1,17 @@
 # LibSBML
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:31:25.195824+00:00
+## Metadata
+- **Last Updated:** 2024-12-07 20:28:34 UTC
 - **Original Article:** [LibSBML](https://en.wikipedia.org/wiki/LibSBML)
 - **Language:** en
 - **Page ID:** 36121017
 
 ## Summary
-
-LibSBML is an open-source software library that provides an application programming interface (API) for the SBML (Systems Biology Markup Language ) format. The libSBML library can be embedded in a software application or used in a web servlet (such as one that might be served by Apache Tomcat) as part of the application or servlet's implementation of support for reading, writing, and manipulating SBML documents and data streams. The core of libSBML is written in ISO standard C++; the library pro
+LibSBML is an open-source software library that provides an application programming interface (API) for the SBML (Systems Biology Markup Language ) format. The libSBML library can be embedded in a software application or used in a web servlet (such as one that might be served by Apache Tomcat) as part of the application or servlet's implementation of support for reading, writing, and manipulating SBML documents and data streams. The core of libSBML is written in ISO standard C++; the library provides API for many programming languages via interfaces generated with the help of SWIG.
+The libSBML library is free software released under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 2.1 of the License, or any later version.  LibSBML was developed thanks to funding from many agencies, particularly the National Institute of General Medical Sciences (NIGMS, USA) as well as the Defense Advanced Research Projects Agency (DARPA, USA) under the Bio-SPICE program.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example Python (programming language) code
 - Category:Articles with short description
@@ -90,71 +90,9 @@ References
 External links
 libSBML Home Page
 
-## Related Articles
-
-### Internal Links
-
-- [Abstract syntax tree](https://en.wikipedia.org/wiki/Abstract_syntax_tree)
-- [Apache Tomcat](https://en.wikipedia.org/wiki/Apache_Tomcat)
-- [Apache Xerces](https://en.wikipedia.org/wiki/Apache_Xerces)
-- [API](https://en.wikipedia.org/wiki/API)
-- [BZIP domain](https://en.wikipedia.org/wiki/BZIP_domain)
-- [BioModels](https://en.wikipedia.org/wiki/BioModels)
-- [BioPAX](https://en.wikipedia.org/wiki/BioPAX)
-- [C++](https://en.wikipedia.org/wiki/C%2B%2B)
-- [COPASI](https://en.wikipedia.org/wiki/COPASI)
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [C Sharp (programming language)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
-- [CellML](https://en.wikipedia.org/wiki/CellML)
-- [CiteSeerX](https://en.wikipedia.org/wiki/CiteSeerX)
-- [Class (computer programming)](https://en.wikipedia.org/wiki/Class_(computer_programming))
-- [Computational model](https://en.wikipedia.org/wiki/Computational_model)
-- [DARPA](https://en.wikipedia.org/wiki/DARPA)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Expat (software)](https://en.wikipedia.org/wiki/Expat_(software))
-- [Free Software Foundation](https://en.wikipedia.org/wiki/Free_Software_Foundation)
-- [Free software](https://en.wikipedia.org/wiki/Free_software)
-- [Gzip](https://en.wikipedia.org/wiki/Gzip)
-- [Hiroaki Kitano](https://en.wikipedia.org/wiki/Hiroaki_Kitano)
-- [JSBML](https://en.wikipedia.org/wiki/JSBML)
-- [Java (programming language)](https://en.wikipedia.org/wiki/Java_(programming_language))
-- [GNU Lesser General Public License](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)
-- [Library (computing)](https://en.wikipedia.org/wiki/Library_(computing))
-- [Libxml2](https://en.wikipedia.org/wiki/Libxml2)
-- [MATLAB](https://en.wikipedia.org/wiki/MATLAB)
-- [Minimum information about a simulation experiment](https://en.wikipedia.org/wiki/Minimum_information_about_a_simulation_experiment)
-- [Minimum information required in the annotation of models](https://en.wikipedia.org/wiki/Minimum_information_required_in_the_annotation_of_models)
-- [Mac operating systems](https://en.wikipedia.org/wiki/Mac_operating_systems)
-- [MathML](https://en.wikipedia.org/wiki/MathML)
-- [Member variable](https://en.wikipedia.org/wiki/Member_variable)
-- [Microsoft Windows](https://en.wikipedia.org/wiki/Microsoft_Windows)
-- [National Institute of General Medical Sciences](https://en.wikipedia.org/wiki/National_Institute_of_General_Medical_Sciences)
-- [GNU Octave](https://en.wikipedia.org/wiki/GNU_Octave)
-- [Open-source software](https://en.wikipedia.org/wiki/Open-source_software)
-- [Operating system](https://en.wikipedia.org/wiki/Operating_system)
-- [PubMed](https://en.wikipedia.org/wiki/PubMed)
-- [Pedro Mendes (scientist)](https://en.wikipedia.org/wiki/Pedro_Mendes_(scientist))
-- [Perl](https://en.wikipedia.org/wiki/Perl)
-- [Programmer](https://en.wikipedia.org/wiki/Programmer)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Ruby (programming language)](https://en.wikipedia.org/wiki/Ruby_(programming_language))
-- [SBML](https://en.wikipedia.org/wiki/SBML)
-- [SWIG](https://en.wikipedia.org/wiki/SWIG)
-- [Jakarta Servlet](https://en.wikipedia.org/wiki/Jakarta_Servlet)
-- [Application software](https://en.wikipedia.org/wiki/Application_software)
-- [Software categories](https://en.wikipedia.org/wiki/Software_categories)
-- [Library (computing)](https://en.wikipedia.org/wiki/Library_(computing))
-- [Software license](https://en.wikipedia.org/wiki/Software_license)
-- [Software release life cycle](https://en.wikipedia.org/wiki/Software_release_life_cycle)
-- [Systems Biology Ontology](https://en.wikipedia.org/wiki/Systems_Biology_Ontology)
-- [Systems biology](https://en.wikipedia.org/wiki/Systems_biology)
-- [Unix-like](https://en.wikipedia.org/wiki/Unix-like)
-- [XML](https://en.wikipedia.org/wiki/XML)
-- [XML validation](https://en.wikipedia.org/wiki/XML_validation)
-- [ZIP (file format)](https://en.wikipedia.org/wiki/ZIP_(file_format))
-- [Template:Cite journal](https://en.wikipedia.org/wiki/Template:Cite_journal)
-- [Category:CS1 maint: DOI inactive as of December 2024](https://en.wikipedia.org/wiki/Category:CS1_maint:_DOI_inactive_as_of_December_2024)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:31:25.195824+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:31 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 7598 bytes
+- **Word Count:** 1139 words

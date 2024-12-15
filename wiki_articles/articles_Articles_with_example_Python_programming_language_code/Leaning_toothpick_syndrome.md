@@ -1,18 +1,18 @@
 # Leaning toothpick syndrome
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:31:23.207973+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 07:03:42 UTC
 - **Original Article:** [Leaning toothpick syndrome](https://en.wikipedia.org/wiki/Leaning_toothpick_syndrome)
 - **Language:** en
 - **Page ID:** 5552846
 
 ## Summary
-
 In computer programming, leaning toothpick syndrome (LTS) is the situation in which a quoted expression becomes unreadable because it contains a large number of escape characters, usually backslashes ("\"), to avoid delimiter collision.
-The official Perl documentation introduced the term to wider usage; there, the phrase is used to describe regular expressions that match Unix-style paths, in which the elements are separated by slashes /. The slash is also used as the default regular expression d
+The official Perl documentation introduced the term to wider usage; there, the phrase is used to describe regular expressions that match Unix-style paths, in which the elements are separated by slashes /. The slash is also used as the default regular expression delimiter, so to be used literally in the expression, it must be escaped with a backslash  \, leading to frequent escaped slashes represented as \/. If doubled, as in URLs, this yields \/\/ for an escaped //. A similar phenomenon occurs for DOS/Windows paths, where the backslash is used as a path separator, requiring a doubled backslash \\ – this can then be re-escaped for a regular expression inside an escaped string, requiring \\\\ to match a single backslash. In extreme cases, such as a regular expression in an escaped string, matching a Uniform Naming Convention path (which begins \\) requires 8 backslashes \\\\\\\\ due to 2 backslashes each being double-escaped.
+LTS appears in many programming languages and in many situations, including in patterns that match Uniform Resource Identifiers (URIs) and in programs that output quoted text. Many quines fall into the latter category.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example Perl code
 - Category:Articles with example Python (programming language) code
@@ -115,43 +115,9 @@ String literal
 
 == References ==
 
-## Related Articles
-
-### Internal Links
-
-- [Backslash](https://en.wikipedia.org/wiki/Backslash)
-- [Backtick](https://en.wikipedia.org/wiki/Backtick)
-- [C++11](https://en.wikipedia.org/wiki/C%2B%2B11)
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [C Sharp (programming language)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
-- [Computer programming](https://en.wikipedia.org/wiki/Computer_programming)
-- [DOS](https://en.wikipedia.org/wiki/DOS)
-- [Delimiter](https://en.wikipedia.org/wiki/Delimiter)
-- [Escape character](https://en.wikipedia.org/wiki/Escape_character)
-- [File Transfer Protocol](https://en.wikipedia.org/wiki/File_Transfer_Protocol)
-- [Go (programming language)](https://en.wikipedia.org/wiki/Go_(programming_language))
-- [Here document](https://en.wikipedia.org/wiki/Here_document)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Indentation style](https://en.wikipedia.org/wiki/Indentation_style)
-- [Magic quotes](https://en.wikipedia.org/wiki/Magic_quotes)
-- [PHP](https://en.wikipedia.org/wiki/PHP)
-- [Path (computing)](https://en.wikipedia.org/wiki/Path_(computing))
-- [Perl](https://en.wikipedia.org/wiki/Perl)
-- [Printf](https://en.wikipedia.org/wiki/Printf)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Quine (computing)](https://en.wikipedia.org/wiki/Quine_(computing))
-- [R (programming language)](https://en.wikipedia.org/wiki/R_(programming_language))
-- [Regular expression](https://en.wikipedia.org/wiki/Regular_expression)
-- [Ruby (programming language)](https://en.wikipedia.org/wiki/Ruby_(programming_language))
-- [Rust (programming language)](https://en.wikipedia.org/wiki/Rust_(programming_language))
-- [Scala (programming language)](https://en.wikipedia.org/wiki/Scala_(programming_language))
-- [Sed](https://en.wikipedia.org/wiki/Sed)
-- [String literal](https://en.wikipedia.org/wiki/String_literal)
-- [Path (computing)](https://en.wikipedia.org/wiki/Path_(computing))
-- [Uniform Resource Identifier](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier)
-- [Unix](https://en.wikipedia.org/wiki/Unix)
-- [Microsoft Windows](https://en.wikipedia.org/wiki/Microsoft_Windows)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:31:23.207973+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:31 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 4897 bytes
+- **Word Count:** 797 words

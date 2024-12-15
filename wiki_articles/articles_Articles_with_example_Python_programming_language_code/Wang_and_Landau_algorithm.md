@@ -1,18 +1,19 @@
 # Wang and Landau algorithm
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:56:35.867468+00:00
+## Metadata
+- **Last Updated:** 2024-11-28 17:07:00 UTC
 - **Original Article:** [Wang and Landau algorithm](https://en.wikipedia.org/wiki/Wang_and_Landau_algorithm)
 - **Language:** en
 - **Page ID:** 17506694
 
 ## Summary
-
 The Wang and Landau algorithm, proposed by  Fugao Wang and David P. Landau, is a Monte Carlo method designed to estimate the density of states of a system. The method performs a non-Markovian random walk to build the density of states by quickly visiting all the available energy spectrum. The Wang and Landau algorithm is an important method to obtain the density of states required to perform a multicanonical simulation.
-The Wang–Landau algorithm can be applied to any system which is characterize
+The Wang–Landau algorithm can be applied to any system which is characterized by a cost (or energy) function. For instance,
+it has been applied to the solution of numerical integrals and the folding of proteins.
+The Wang–Landau sampling is related to the metadynamics algorithm.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example Python (programming language) code
 - Category:Computational physics
@@ -1652,29 +1653,9 @@ Replica exchange STMD  has also been presented by the BU group.
 
 == References ==
 
-## Related Articles
-
-### Internal Links
-
-- [ArXiv](https://en.wikipedia.org/wiki/ArXiv)
-- [Bibcode](https://en.wikipedia.org/wiki/Bibcode)
-- [David P. Landau](https://en.wikipedia.org/wiki/David_P._Landau)
-- [Density of states](https://en.wikipedia.org/wiki/Density_of_states)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Estimator](https://en.wikipedia.org/wiki/Estimator)
-- [Harmonic oscillator](https://en.wikipedia.org/wiki/Harmonic_oscillator)
-- [Metadynamics](https://en.wikipedia.org/wiki/Metadynamics)
-- [Metropolis–Hastings algorithm](https://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm)
-- [Monte Carlo method](https://en.wikipedia.org/wiki/Monte_Carlo_method)
-- [Multicanonical ensemble](https://en.wikipedia.org/wiki/Multicanonical_ensemble)
-- [PubMed Central](https://en.wikipedia.org/wiki/PubMed_Central)
-- [PubMed](https://en.wikipedia.org/wiki/PubMed)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Random walk](https://en.wikipedia.org/wiki/Random_walk)
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [Stochastic process](https://en.wikipedia.org/wiki/Stochastic_process)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:56:35.867468+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:09 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 26670 bytes
+- **Word Count:** 2315 words

@@ -1,17 +1,16 @@
 # Fernando Pérez (software developer)
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:25:40.167788+00:00
+## Metadata
+- **Last Updated:** 2024-12-04 11:51:17 UTC
 - **Original Article:** [Fernando Pérez (software developer)](https://en.wikipedia.org/wiki/Fernando_P%C3%A9rez_(software_developer))
 - **Language:** en
 - **Page ID:** 47231026
 
 ## Summary
-
 Fernando Pérez is a Colombian physicist, software developer, and free software advocate. He is best known as the creator of the IPython programming environment, for which he received the 2012 Free Software Award from the Free Software Foundation and for his work on Project Jupyter for which he received the 2017 ACM Software System Award . He is a fellow of the Python Software Foundation, and a founding member of the NumFOCUS organization.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with hCards
 - Category:Articles with short description
@@ -42,32 +41,9 @@ References
 External links
  Media related to Fernando Pérez (software developer) at Wikimedia Commons
 
-## Related Articles
-
-### Internal Links
-
-- [ACM Software System Award](https://en.wikipedia.org/wiki/ACM_Software_System_Award)
-- [Associate professor](https://en.wikipedia.org/wiki/Associate_professor)
-- [Berkeley Institute for Data Science](https://en.wikipedia.org/wiki/Berkeley_Institute_for_Data_Science)
-- [Colombia](https://en.wikipedia.org/wiki/Colombia)
-- [Colombians](https://en.wikipedia.org/wiki/Colombians)
-- [FSF Free Software Awards](https://en.wikipedia.org/wiki/FSF_Free_Software_Awards)
-- [Free Software Foundation](https://en.wikipedia.org/wiki/Free_Software_Foundation)
-- [Free software](https://en.wikipedia.org/wiki/Free_software)
-- [IPython](https://en.wikipedia.org/wiki/IPython)
-- [Lattice QCD](https://en.wikipedia.org/wiki/Lattice_QCD)
-- [Lawrence Berkeley National Laboratory](https://en.wikipedia.org/wiki/Lawrence_Berkeley_National_Laboratory)
-- [Medellín](https://en.wikipedia.org/wiki/Medell%C3%ADn)
-- [Medellín](https://en.wikipedia.org/wiki/Medell%C3%ADn)
-- [NASA Exceptional Public Service Medal](https://en.wikipedia.org/wiki/NASA_Exceptional_Public_Service_Medal)
-- [Particle physics](https://en.wikipedia.org/wiki/Particle_physics)
-- [Project Jupyter](https://en.wikipedia.org/wiki/Project_Jupyter)
-- [Python Software Foundation](https://en.wikipedia.org/wiki/Python_Software_Foundation)
-- [University of Antioquia](https://en.wikipedia.org/wiki/University_of_Antioquia)
-- [University of California, Berkeley](https://en.wikipedia.org/wiki/University_of_California,_Berkeley)
-- [University of Colorado Boulder](https://en.wikipedia.org/wiki/University_of_Colorado_Boulder)
-- [Help:Authority control](https://en.wikipedia.org/wiki/Help:Authority_control)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:25:40.167788+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:44 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 1362 bytes
+- **Word Count:** 217 words

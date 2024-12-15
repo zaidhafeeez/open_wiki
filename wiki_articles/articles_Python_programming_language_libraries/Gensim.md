@@ -1,18 +1,17 @@
 # Gensim
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:25:38.316722+00:00
+## Metadata
+- **Last Updated:** 2024-12-06 06:13:33 UTC
 - **Original Article:** [Gensim](https://en.wikipedia.org/wiki/Gensim)
 - **Language:** en
 - **Page ID:** 36473068
 
 ## Summary
-
 Gensim is an open-source library for unsupervised topic modeling, document indexing, retrieval by similarity, and other natural language processing functionalities, using modern statistical machine learning.
 Gensim is implemented in Python and Cython for performance. Gensim is designed to handle large text collections using data streaming and incremental online algorithms, which differentiates it from most other machine learning software packages that target only in-memory processing.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All stub articles
 - Category:Articles with short description
@@ -50,43 +49,9 @@ References
 External links
 Official website
 
-## Related Articles
-
-### Internal Links
-
-- [Cython](https://en.wikipedia.org/wiki/Cython)
-- [FastText](https://en.wikipedia.org/wiki/FastText)
-- [GNU Lesser General Public License](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)
-- [Genshin Impact](https://en.wikipedia.org/wiki/Genshin_Impact)
-- [GitHub](https://en.wikipedia.org/wiki/GitHub)
-- [Gitter](https://en.wikipedia.org/wiki/Gitter)
-- [Google Groups](https://en.wikipedia.org/wiki/Google_Groups)
-- [Information retrieval](https://en.wikipedia.org/wiki/Information_retrieval)
-- [Latent Dirichlet allocation](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation)
-- [Latent semantic analysis](https://en.wikipedia.org/wiki/Latent_semantic_analysis)
-- [Linux](https://en.wikipedia.org/wiki/Linux)
-- [Locality-sensitive hashing](https://en.wikipedia.org/wiki/Locality-sensitive_hashing)
-- [MacOS](https://en.wikipedia.org/wiki/MacOS)
-- [Machine learning](https://en.wikipedia.org/wiki/Machine_learning)
-- [Microsoft Windows](https://en.wikipedia.org/wiki/Microsoft_Windows)
-- [Natural language processing](https://en.wikipedia.org/wiki/Natural_language_processing)
-- [Non-negative matrix factorization](https://en.wikipedia.org/wiki/Non-negative_matrix_factorization)
-- [Open-source software](https://en.wikipedia.org/wiki/Open-source_software)
-- [Operating system](https://en.wikipedia.org/wiki/Operating_system)
-- [Programmer](https://en.wikipedia.org/wiki/Programmer)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Repository (version control)](https://en.wikipedia.org/wiki/Repository_(version_control))
-- [Software](https://en.wikipedia.org/wiki/Software)
-- [Software categories](https://en.wikipedia.org/wiki/Software_categories)
-- [Software license](https://en.wikipedia.org/wiki/Software_license)
-- [Software release life cycle](https://en.wikipedia.org/wiki/Software_release_life_cycle)
-- [Tf–idf](https://en.wikipedia.org/wiki/Tf%E2%80%93idf)
-- [Topic model](https://en.wikipedia.org/wiki/Topic_model)
-- [Word2vec](https://en.wikipedia.org/wiki/Word2vec)
-- [Wikipedia:Stub](https://en.wikipedia.org/wiki/Wikipedia:Stub)
-- [Template:Science-software-stub](https://en.wikipedia.org/wiki/Template:Science-software-stub)
-- [Template talk:Science-software-stub](https://en.wikipedia.org/wiki/Template_talk:Science-software-stub)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:25:38.316722+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:27 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 1643 bytes
+- **Word Count:** 231 words

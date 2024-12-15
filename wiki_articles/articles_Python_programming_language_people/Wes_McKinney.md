@@ -1,17 +1,16 @@
 # Wes McKinney
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:25:53.317287+00:00
+## Metadata
+- **Last Updated:** 2024-12-04 11:51:59 UTC
 - **Original Article:** [Wes McKinney](https://en.wikipedia.org/wiki/Wes_McKinney)
 - **Language:** en
 - **Page ID:** 49055975
 
 ## Summary
-
-Wes McKinney is an American software developer and businessman. He is the creator and "Benevolent Dictator for Life" (BDFL) of the open-source pandas package for data analysis in the Python programming language, and has also authored three versions of the reference book Python for Data Analysis. He's also the creator of Apache Arrow, a cross-language development platform for in-memory data, and Ibis, a unified Python dataframe API. He was the CEO and founder of technology startup Datapad. He was
+Wes McKinney is an American software developer and businessman. He is the creator and "Benevolent Dictator for Life" (BDFL) of the open-source pandas package for data analysis in the Python programming language, and has also authored three versions of the reference book Python for Data Analysis. He's also the creator of Apache Arrow, a cross-language development platform for in-memory data, and Ibis, a unified Python dataframe API. He was the CEO and founder of technology startup Datapad. He was a software engineer at Two Sigma Investments. He founded Ursa Labs, which, in 2021, became part of Voltron Data. In 2022, it was announced that Voltron Data had raised $110 million.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:American chief executives
 - Category:American computer programmers
@@ -56,30 +55,9 @@ Personal website
 Book discussion on YCombinator
 Ibis project blog
 
-## Related Articles
-
-### Internal Links
-
-- [AQR Capital](https://en.wikipedia.org/wiki/AQR_Capital)
-- [Apache Arrow](https://en.wikipedia.org/wiki/Apache_Arrow)
-- [Bachelor of Science](https://en.wikipedia.org/wiki/Bachelor_of_Science)
-- [Benevolent dictator for life](https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
-- [Big data](https://en.wikipedia.org/wiki/Big_data)
-- [Cloudera](https://en.wikipedia.org/wiki/Cloudera)
-- [Duke University](https://en.wikipedia.org/wiki/Duke_University)
-- [Entrepreneurship](https://en.wikipedia.org/wiki/Entrepreneurship)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Massachusetts Institute of Technology](https://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology)
-- [Pandas (software)](https://en.wikipedia.org/wiki/Pandas_(software))
-- [Doctor of Philosophy](https://en.wikipedia.org/wiki/Doctor_of_Philosophy)
-- [Posit PBC](https://en.wikipedia.org/wiki/Posit_PBC)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Quartz (publication)](https://en.wikipedia.org/wiki/Quartz_(publication))
-- [Startup company](https://en.wikipedia.org/wiki/Startup_company)
-- [Two Sigma](https://en.wikipedia.org/wiki/Two_Sigma)
-- [VentureBeat](https://en.wikipedia.org/wiki/VentureBeat)
-- [Help:Authority control](https://en.wikipedia.org/wiki/Help:Authority_control)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:25:53.317287+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:43 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 2312 bytes
+- **Word Count:** 370 words

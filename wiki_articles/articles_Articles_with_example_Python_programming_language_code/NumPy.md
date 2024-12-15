@@ -1,17 +1,16 @@
 # NumPy
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:37:37.170538+00:00
+## Metadata
+- **Last Updated:** 2024-12-04 00:50:50 UTC
 - **Original Article:** [NumPy](https://en.wikipedia.org/wiki/NumPy)
 - **Language:** en
 - **Page ID:** 381782
 
 ## Summary
-
-NumPy (pronounced  NUM-py) is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays. The predecessor of NumPy, Numeric, was originally created by Jim Hugunin with contributions from several other developers. In 2005, Travis Oliphant created NumPy by incorporating features of the competing Numarray into Numeric, with extensive modifications. NumPy
+NumPy (pronounced  NUM-py) is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays. The predecessor of NumPy, Numeric, was originally created by Jim Hugunin with contributions from several other developers. In 2005, Travis Oliphant created NumPy by incorporating features of the competing Numarray into Numeric, with extensive modifications. NumPy is open-source software and has many contributors. NumPy is a NumFOCUS fiscally sponsored project.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles with unsourced statements
 - Category:All articles with vague or ambiguous time
@@ -122,129 +121,9 @@ Official website
 NumPy tutorials
 History of NumPy
 
-## Related Articles
-
-### Internal Links
-
-- [API](https://en.wikipedia.org/wiki/API)
-- [APL (programming language)](https://en.wikipedia.org/wiki/APL_(programming_language))
-- [Algorithm](https://en.wikipedia.org/wiki/Algorithm)
-- [ArXiv](https://en.wikipedia.org/wiki/ArXiv)
-- [Array](https://en.wikipedia.org/wiki/Array)
-- [Array (data structure)](https://en.wikipedia.org/wiki/Array_(data_structure))
-- [Array (data type)](https://en.wikipedia.org/wiki/Array_(data_type))
-- [Array programming](https://en.wikipedia.org/wiki/Array_programming)
-- [Array slicing](https://en.wikipedia.org/wiki/Array_slicing)
-- [BSD licenses](https://en.wikipedia.org/wiki/BSD_licenses)
-- [Basic Linear Algebra Subprograms](https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms)
-- [Bibcode](https://en.wikipedia.org/wiki/Bibcode)
-- [Big data](https://en.wikipedia.org/wiki/Big_data)
-- [Bytecode](https://en.wikipedia.org/wiki/Bytecode)
-- [C++](https://en.wikipedia.org/wiki/C%2B%2B)
-- [CPython](https://en.wikipedia.org/wiki/CPython)
-- [CUDA](https://en.wikipedia.org/wiki/CUDA)
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [The C Programming Language](https://en.wikipedia.org/wiki/The_C_Programming_Language)
-- [Central processing unit](https://en.wikipedia.org/wiki/Central_processing_unit)
-- [Compiler](https://en.wikipedia.org/wiki/Compiler)
-- [Computer cluster](https://en.wikipedia.org/wiki/Computer_cluster)
-- [Computer vision](https://en.wikipedia.org/wiki/Computer_vision)
-- [Corporation for National Research Initiatives](https://en.wikipedia.org/wiki/Corporation_for_National_Research_Initiatives)
-- [Cross-platform software](https://en.wikipedia.org/wiki/Cross-platform_software)
-- [CuPy](https://en.wikipedia.org/wiki/CuPy)
-- [Dask (software)](https://en.wikipedia.org/wiki/Dask_(software))
-- [Data buffer](https://en.wikipedia.org/wiki/Data_buffer)
-- [Data set](https://en.wikipedia.org/wiki/Data_set)
-- [Data structure](https://en.wikipedia.org/wiki/Data_structure)
-- [Debugger](https://en.wikipedia.org/wiki/Debugger)
-- [Deep learning](https://en.wikipedia.org/wiki/Deep_learning)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Drop-in replacement](https://en.wikipedia.org/wiki/Drop-in_replacement)
-- [F2c](https://en.wikipedia.org/wiki/F2c)
-- [Fortran](https://en.wikipedia.org/wiki/Fortran)
-- [Fortran](https://en.wikipedia.org/wiki/Fortran)
-- [Function (mathematics)](https://en.wikipedia.org/wiki/Function_(mathematics))
-- [GitHub](https://en.wikipedia.org/wiki/GitHub)
-- [Global interpreter lock](https://en.wikipedia.org/wiki/Global_interpreter_lock)
-- [Graphics processing unit](https://en.wikipedia.org/wiki/Graphics_processing_unit)
-- [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum)
-- [High-level programming language](https://en.wikipedia.org/wiki/High-level_programming_language)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [ISSN](https://en.wikipedia.org/wiki/ISSN)
-- [Inner loop](https://en.wikipedia.org/wiki/Inner_loop)
-- [Feature (computer vision)](https://en.wikipedia.org/wiki/Feature_(computer_vision))
-- [Interpreter (computing)](https://en.wikipedia.org/wiki/Interpreter_(computing))
-- [Jim Hugunin](https://en.wikipedia.org/wiki/Jim_Hugunin)
-- [Jython](https://en.wikipedia.org/wiki/Jython)
-- [Kernel (image processing)](https://en.wikipedia.org/wiki/Kernel_(image_processing))
-- [LAPACK](https://en.wikipedia.org/wiki/LAPACK)
-- [Language binding](https://en.wikipedia.org/wiki/Language_binding)
-- [Lawrence Livermore National Laboratory](https://en.wikipedia.org/wiki/Lawrence_Livermore_National_Laboratory)
-- [Library (computing)](https://en.wikipedia.org/wiki/Library_(computing))
-- [Linear algebra](https://en.wikipedia.org/wiki/Linear_algebra)
-- [List of algorithms](https://en.wikipedia.org/wiki/List_of_algorithms)
-- [List of numerical-analysis software](https://en.wikipedia.org/wiki/List_of_numerical-analysis_software)
-- [MATLAB](https://en.wikipedia.org/wiki/MATLAB)
-- [Mask (computing)](https://en.wikipedia.org/wiki/Mask_(computing))
-- [Massachusetts Institute of Technology](https://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology)
-- [Mathematics](https://en.wikipedia.org/wiki/Mathematics)
-- [Matplotlib](https://en.wikipedia.org/wiki/Matplotlib)
-- [Matrix (mathematics)](https://en.wikipedia.org/wiki/Matrix_(mathematics))
-- [MayaVi](https://en.wikipedia.org/wiki/MayaVi)
-- [Memory-mapped file](https://en.wikipedia.org/wiki/Memory-mapped_file)
-- [Nature (journal)](https://en.wikipedia.org/wiki/Nature_(journal))
-- [Numba](https://en.wikipedia.org/wiki/Numba)
-- [Numerical analysis](https://en.wikipedia.org/wiki/Numerical_analysis)
-- [Nvidia](https://en.wikipedia.org/wiki/Nvidia)
-- [Open-source software](https://en.wikipedia.org/wiki/Open-source_software)
-- [OpenCV](https://en.wikipedia.org/wiki/OpenCV)
-- [Operating system](https://en.wikipedia.org/wiki/Operating_system)
-- [PubMed Central](https://en.wikipedia.org/wiki/PubMed_Central)
-- [PubMed](https://en.wikipedia.org/wiki/PubMed)
-- [Pandas (software)](https://en.wikipedia.org/wiki/Pandas_(software))
-- [Plot (graphics)](https://en.wikipedia.org/wiki/Plot_(graphics))
-- [Programmer](https://en.wikipedia.org/wiki/Programmer)
-- [Programming language](https://en.wikipedia.org/wiki/Programming_language)
-- [PyPy](https://en.wikipedia.org/wiki/PyPy)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Python syntax and semantics](https://en.wikipedia.org/wiki/Python_syntax_and_semantics)
-- [Reference implementation](https://en.wikipedia.org/wiki/Reference_implementation)
-- [Repository (version control)](https://en.wikipedia.org/wiki/Repository_(version_control))
-- [Row- and column-major order](https://en.wikipedia.org/wiki/Row-_and_column-major_order)
-- [S-PLUS](https://en.wikipedia.org/wiki/S-PLUS)
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [S (programming language)](https://en.wikipedia.org/wiki/S_(programming_language))
-- [Scalar processor](https://en.wikipedia.org/wiki/Scalar_processor)
-- [SciPy](https://en.wikipedia.org/wiki/SciPy)
-- [Scikit-image](https://en.wikipedia.org/wiki/Scikit-image)
-- [Scikit-learn](https://en.wikipedia.org/wiki/Scikit-learn)
-- [Simulink](https://en.wikipedia.org/wiki/Simulink)
-- [Software categories](https://en.wikipedia.org/wiki/Software_categories)
-- [Software license](https://en.wikipedia.org/wiki/Software_license)
-- [Software release life cycle](https://en.wikipedia.org/wiki/Software_release_life_cycle)
-- [Space complexity](https://en.wikipedia.org/wiki/Space_complexity)
-- [Special interest group](https://en.wikipedia.org/wiki/Special_interest_group)
-- [Stride of an array](https://en.wikipedia.org/wiki/Stride_of_an_array)
-- [Subset](https://en.wikipedia.org/wiki/Subset)
-- [TensorFlow](https://en.wikipedia.org/wiki/TensorFlow)
-- [Tensor Processing Unit](https://en.wikipedia.org/wiki/Tensor_Processing_Unit)
-- [Theano (software)](https://en.wikipedia.org/wiki/Theano_(software))
-- [Travis Oliphant](https://en.wikipedia.org/wiki/Travis_Oliphant)
-- [Volatile memory](https://en.wikipedia.org/wiki/Volatile_memory)
-- [Wikidata](https://en.wikipedia.org/wiki/Wikidata)
-- [Wikipedia:Citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed)
-- [Wikipedia:Manual of Style/Dates and numbers](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Dates_and_numbers)
-- [Wikipedia:Please clarify](https://en.wikipedia.org/wiki/Wikipedia:Please_clarify)
-- [Wikipedia:Wikimedia sister projects](https://en.wikipedia.org/wiki/Wikipedia:Wikimedia_sister_projects)
-- [Template:SciPy ecosystem](https://en.wikipedia.org/wiki/Template:SciPy_ecosystem)
-- [Template talk:SciPy ecosystem](https://en.wikipedia.org/wiki/Template_talk:SciPy_ecosystem)
-- [Help:IPA/English](https://en.wikipedia.org/wiki/Help:IPA/English)
-- [Help:Pronunciation respelling key](https://en.wikipedia.org/wiki/Help:Pronunciation_respelling_key)
-- [Category:Articles with unsourced statements from December 2023](https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_December_2023)
-- [Category:Python (programming language) scientific libraries](https://en.wikipedia.org/wiki/Category:Python_(programming_language)_scientific_libraries)
-- [Category:Vague or ambiguous time from October 2013](https://en.wikipedia.org/wiki/Category:Vague_or_ambiguous_time_from_October_2013)
-- [Category:Wikipedia articles needing clarification from April 2020](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_needing_clarification_from_April_2020)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:37:37.170538+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:43 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 8849 bytes
+- **Word Count:** 1320 words

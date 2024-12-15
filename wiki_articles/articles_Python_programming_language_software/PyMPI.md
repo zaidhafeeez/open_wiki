@@ -1,19 +1,18 @@
 # PyMPI
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:08:22.158852+00:00
+## Metadata
+- **Last Updated:** 2024-11-26 12:58:12 UTC
 - **Original Article:** [PyMPI](https://en.wikipedia.org/wiki/PyMPI)
 - **Language:** en
 - **Page ID:** 3761499
 
 ## Summary
-
 pyMPI is a software project that integrates the Message Passing Interface (MPI) into the Python interpreter.
 It allows one to write parallel programs using the Python language.
 It has not been updated since 2013-04-17.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles needing additional references
 - Category:All articles with topics of unclear notability
@@ -53,26 +52,9 @@ References
 External links
 PyMPI on SourceForge
 
-## Related Articles
-
-### Internal Links
-
-- [Message Passing Interface](https://en.wikipedia.org/wiki/Message_Passing_Interface)
-- [Parallel computing](https://en.wikipedia.org/wiki/Parallel_computing)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [SourceForge](https://en.wikipedia.org/wiki/SourceForge)
-- [Wikipedia:Deletion policy](https://en.wikipedia.org/wiki/Wikipedia:Deletion_policy)
-- [Wikipedia:Independent sources](https://en.wikipedia.org/wiki/Wikipedia:Independent_sources)
-- [Wikipedia:Merging](https://en.wikipedia.org/wiki/Wikipedia:Merging)
-- [Wikipedia:Notability (organizations and companies)](https://en.wikipedia.org/wiki/Wikipedia:Notability_(organizations_and_companies))
-- [Wikipedia:Redirect](https://en.wikipedia.org/wiki/Wikipedia:Redirect)
-- [Wikipedia:Reliable sources](https://en.wikipedia.org/wiki/Wikipedia:Reliable_sources)
-- [Wikipedia:Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Help:Referencing for beginners](https://en.wikipedia.org/wiki/Help:Referencing_for_beginners)
-- [Category:Articles needing additional references from February 2015](https://en.wikipedia.org/wiki/Category:Articles_needing_additional_references_from_February_2015)
-- [Category:Articles with topics of unclear notability from February 2015](https://en.wikipedia.org/wiki/Category:Articles_with_topics_of_unclear_notability_from_February_2015)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:08:22.158852+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:28:01 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 591 bytes
+- **Word Count:** 102 words

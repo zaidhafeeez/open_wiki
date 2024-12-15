@@ -1,17 +1,16 @@
 # Celery (software)
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:25:42.166622+00:00
+## Metadata
+- **Last Updated:** 2024-12-06 06:16:01 UTC
 - **Original Article:** [Celery (software)](https://en.wikipedia.org/wiki/Celery_(software))
 - **Language:** en
 - **Page ID:** 36164746
 
 ## Summary
-
 Celery is an open source asynchronous task queue or job queue which is based on distributed message passing. While it supports scheduling, its focus is on operations in real time.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles with dead external links
 - Category:All stub articles
@@ -57,47 +56,9 @@ External links
 Official website
 celery on GitHub
 
-## Related Articles
-
-### Internal Links
-
-- [Advanced Message Queuing Protocol](https://en.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol)
-- [Amazon Simple Queue Service](https://en.wikipedia.org/wiki/Amazon_Simple_Queue_Service)
-- [BSD licenses](https://en.wikipedia.org/wiki/BSD_licenses)
-- [Computing platform](https://en.wikipedia.org/wiki/Computing_platform)
-- [Cross-platform software](https://en.wikipedia.org/wiki/Cross-platform_software)
-- [Free and open-source software](https://en.wikipedia.org/wiki/Free_and_open-source_software)
-- [GitHub](https://en.wikipedia.org/wiki/GitHub)
-- [Go (programming language)](https://en.wikipedia.org/wiki/Go_(programming_language))
-- [Instagram](https://en.wikipedia.org/wiki/Instagram)
-- [Message-oriented middleware](https://en.wikipedia.org/wiki/Message-oriented_middleware)
-- [Message broker](https://en.wikipedia.org/wiki/Message_broker)
-- [Multiprocessing](https://en.wikipedia.org/wiki/Multiprocessing)
-- [Node.js](https://en.wikipedia.org/wiki/Node.js)
-- [Open-source software](https://en.wikipedia.org/wiki/Open-source_software)
-- [PHP](https://en.wikipedia.org/wiki/PHP)
-- [Programmer](https://en.wikipedia.org/wiki/Programmer)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [RabbitMQ](https://en.wikipedia.org/wiki/RabbitMQ)
-- [Redis](https://en.wikipedia.org/wiki/Redis)
-- [Repository (version control)](https://en.wikipedia.org/wiki/Repository_(version_control))
-- [Ruby (programming language)](https://en.wikipedia.org/wiki/Ruby_(programming_language))
-- [Rust (programming language)](https://en.wikipedia.org/wiki/Rust_(programming_language))
-- [Software categories](https://en.wikipedia.org/wiki/Software_categories)
-- [Software license](https://en.wikipedia.org/wiki/Software_license)
-- [Software release life cycle](https://en.wikipedia.org/wiki/Software_release_life_cycle)
-- [Scheduling (computing)](https://en.wikipedia.org/wiki/Scheduling_(computing))
-- [Webhook](https://en.wikipedia.org/wiki/Webhook)
-- [Wikipedia:Link rot](https://en.wikipedia.org/wiki/Wikipedia:Link_rot)
-- [Wikipedia:No original research](https://en.wikipedia.org/wiki/Wikipedia:No_original_research)
-- [Wikipedia:Stub](https://en.wikipedia.org/wiki/Wikipedia:Stub)
-- [Template:Free-software-stub](https://en.wikipedia.org/wiki/Template:Free-software-stub)
-- [Template talk:Free-software-stub](https://en.wikipedia.org/wiki/Template_talk:Free-software-stub)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Category:Articles lacking reliable references from July 2024](https://en.wikipedia.org/wiki/Category:Articles_lacking_reliable_references_from_July_2024)
-- [Category:Articles with dead external links from November 2019](https://en.wikipedia.org/wiki/Category:Articles_with_dead_external_links_from_November_2019)
-- [Portal:Free and open-source software](https://en.wikipedia.org/wiki/Portal:Free_and_open-source_software)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:25:42.166622+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:52 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 1192 bytes
+- **Word Count:** 184 words

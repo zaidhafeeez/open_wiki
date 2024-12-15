@@ -1,18 +1,17 @@
 # Data Version Control (software)
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:25:37.932663+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 08:02:02 UTC
 - **Original Article:** [Data Version Control (software)](https://en.wikipedia.org/wiki/Data_Version_Control_(software))
 - **Language:** en
 - **Page ID:** 71925313
 
 ## Summary
-
 DVC is a free and open-source, platform-agnostic version system for data, machine learning models, and experiments. It is designed to make ML models shareable, experiments reproducible, and to track versions of models, data, and pipelines. DVC works on top of Git repositories and cloud storage.
 The first (beta) version of DVC 0.6 was launched in May 2017. In May 2020, DVC 1.0 was publicly released by Iterative.ai.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:2017 software
 - Category:Articles with short description
@@ -103,54 +102,9 @@ Official website
 dvc on GitHub
 VS Code extension
 
-## Related Articles
-
-### Internal Links
-
-- [Amazon S3](https://en.wikipedia.org/wiki/Amazon_S3)
-- [Apache License](https://en.wikipedia.org/wiki/Apache_License)
-- [ArXiv](https://en.wikipedia.org/wiki/ArXiv)
-- [Artifact (software development)](https://en.wikipedia.org/wiki/Artifact_(software_development))
-- [Cache (computing)](https://en.wikipedia.org/wiki/Cache_(computing))
-- [Cloud storage](https://en.wikipedia.org/wiki/Cloud_storage)
-- [Code](https://en.wikipedia.org/wiki/Code)
-- [Computer file](https://en.wikipedia.org/wiki/Computer_file)
-- [Configuration file](https://en.wikipedia.org/wiki/Configuration_file)
-- [Data](https://en.wikipedia.org/wiki/Data)
-- [Data and information visualization](https://en.wikipedia.org/wiki/Data_and_information_visualization)
-- [Data management](https://en.wikipedia.org/wiki/Data_management)
-- [Data science](https://en.wikipedia.org/wiki/Data_science)
-- [Data set](https://en.wikipedia.org/wiki/Data_set)
-- [Data storage](https://en.wikipedia.org/wiki/Data_storage)
-- [Free and open-source software](https://en.wikipedia.org/wiki/Free_and_open-source_software)
-- [Git](https://en.wikipedia.org/wiki/Git)
-- [GitHub](https://en.wikipedia.org/wiki/GitHub)
-- [Google Cloud Storage](https://en.wikipedia.org/wiki/Google_Cloud_Storage)
-- [HTML](https://en.wikipedia.org/wiki/HTML)
-- [JSON](https://en.wikipedia.org/wiki/JSON)
-- [Machine learning](https://en.wikipedia.org/wiki/Machine_learning)
-- [Container format](https://en.wikipedia.org/wiki/Container_format)
-- [Microsoft](https://en.wikipedia.org/wiki/Microsoft)
-- [Microsoft Azure](https://en.wikipedia.org/wiki/Microsoft_Azure)
-- [Pipeline (computing)](https://en.wikipedia.org/wiki/Pipeline_(computing))
-- [Pipeline (software)](https://en.wikipedia.org/wiki/Pipeline_(software))
-- [Programmer](https://en.wikipedia.org/wiki/Programmer)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Raw data](https://en.wikipedia.org/wiki/Raw_data)
-- [Repository (version control)](https://en.wikipedia.org/wiki/Repository_(version_control))
-- [Server (computing)](https://en.wikipedia.org/wiki/Server_(computing))
-- [Software](https://en.wikipedia.org/wiki/Software)
-- [Software categories](https://en.wikipedia.org/wiki/Software_categories)
-- [Software development](https://en.wikipedia.org/wiki/Software_development)
-- [Software license](https://en.wikipedia.org/wiki/Software_license)
-- [Software release life cycle](https://en.wikipedia.org/wiki/Software_release_life_cycle)
-- [Source-code editor](https://en.wikipedia.org/wiki/Source-code_editor)
-- [Training, validation, and test data sets](https://en.wikipedia.org/wiki/Training,_validation,_and_test_data_sets)
-- [User interface](https://en.wikipedia.org/wiki/User_interface)
-- [Visual Studio Code](https://en.wikipedia.org/wiki/Visual_Studio_Code)
-- [Workflow](https://en.wikipedia.org/wiki/Workflow)
-- [YAML (framework)](https://en.wikipedia.org/wiki/YAML_(framework))
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:25:37.932663+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:27 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 8018 bytes
+- **Word Count:** 1245 words

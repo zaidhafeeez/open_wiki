@@ -1,17 +1,16 @@
 # Sunrise equation
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:49:43.154869+00:00
+## Metadata
+- **Last Updated:** 2024-12-11 19:17:46 UTC
 - **Original Article:** [Sunrise equation](https://en.wikipedia.org/wiki/Sunrise_equation)
 - **Language:** en
 - **Page ID:** 4517642
 
 ## Summary
-
 The sunrise equation or sunset equation can be used to derive the time of sunrise or sunset for any solar declination and latitude in terms of local solar time when sunrise and sunset actually occur.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles needing additional references
 - Category:Articles needing additional references from June 2018
@@ -1250,53 +1249,9 @@ Equation of Time
 Long-Term Almanac for Sun, Moon, and Polaris V1.11
 Evaluating the Effectiveness of Current Atmospheric Refraction Models in Predicting Sunrise and Sunset Times
 
-## Related Articles
-
-### Internal Links
-
-- [Horizontal coordinate system](https://en.wikipedia.org/wiki/Horizontal_coordinate_system)
-- [Angular velocity](https://en.wikipedia.org/wiki/Angular_velocity)
-- [Antarctic Circle](https://en.wikipedia.org/wiki/Antarctic_Circle)
-- [Arctic Circle](https://en.wikipedia.org/wiki/Arctic_Circle)
-- [Argument of periapsis](https://en.wikipedia.org/wiki/Argument_of_periapsis)
-- [Atmospheric refraction](https://en.wikipedia.org/wiki/Atmospheric_refraction)
-- [DUT1](https://en.wikipedia.org/wiki/DUT1)
-- [Day](https://en.wikipedia.org/wiki/Day)
-- [Daytime](https://en.wikipedia.org/wiki/Daytime)
-- [Declination](https://en.wikipedia.org/wiki/Declination)
-- [Earth](https://en.wikipedia.org/wiki/Earth)
-- [Ecliptic coordinate system](https://en.wikipedia.org/wiki/Ecliptic_coordinate_system)
-- [Equation of the center](https://en.wikipedia.org/wiki/Equation_of_the_center)
-- [Equation of time](https://en.wikipedia.org/wiki/Equation_of_time)
-- [Equator](https://en.wikipedia.org/wiki/Equator)
-- [Equinox](https://en.wikipedia.org/wiki/Equinox)
-- [Fortran](https://en.wikipedia.org/wiki/Fortran)
-- [Hour angle](https://en.wikipedia.org/wiki/Hour_angle)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [International Atomic Time](https://en.wikipedia.org/wiki/International_Atomic_Time)
-- [Julian day](https://en.wikipedia.org/wiki/Julian_day)
-- [Julian day](https://en.wikipedia.org/wiki/Julian_day)
-- [Julian year (astronomy)](https://en.wikipedia.org/wiki/Julian_year_(astronomy))
-- [Latitude](https://en.wikipedia.org/wiki/Latitude)
-- [Leap second](https://en.wikipedia.org/wiki/Leap_second)
-- [Mean anomaly](https://en.wikipedia.org/wiki/Mean_anomaly)
-- [Solar time](https://en.wikipedia.org/wiki/Solar_time)
-- [Meridian (astronomy)](https://en.wikipedia.org/wiki/Meridian_(astronomy))
-- [Night](https://en.wikipedia.org/wiki/Night)
-- [Northern Hemisphere](https://en.wikipedia.org/wiki/Northern_Hemisphere)
-- [Position of the Sun](https://en.wikipedia.org/wiki/Position_of_the_Sun)
-- [Sight reduction](https://en.wikipedia.org/wiki/Sight_reduction)
-- [Hour angle](https://en.wikipedia.org/wiki/Hour_angle)
-- [Noon](https://en.wikipedia.org/wiki/Noon)
-- [Southern Hemisphere](https://en.wikipedia.org/wiki/Southern_Hemisphere)
-- [Sunrise](https://en.wikipedia.org/wiki/Sunrise)
-- [Sunset](https://en.wikipedia.org/wiki/Sunset)
-- [Terrestrial Time](https://en.wikipedia.org/wiki/Terrestrial_Time)
-- [Wikipedia:Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Help:Referencing for beginners](https://en.wikipedia.org/wiki/Help:Referencing_for_beginners)
-- [Category:Articles needing additional references from June 2018](https://en.wikipedia.org/wiki/Category:Articles_needing_additional_references_from_June_2018)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:49:43.154869+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:01 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 19918 bytes
+- **Word Count:** 1812 words

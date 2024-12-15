@@ -1,17 +1,16 @@
 # Lanczos approximation
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:31:22.826568+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 06:57:36 UTC
 - **Original Article:** [Lanczos approximation](https://en.wikipedia.org/wiki/Lanczos_approximation)
 - **Language:** en
 - **Page ID:** 1982776
 
 ## Summary
-
 In mathematics, the Lanczos approximation is a method for computing the gamma function numerically, published by Cornelius Lanczos in 1964. It is a practical alternative to the more popular Stirling's approximation for calculating the gamma function with fixed precision.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example Python (programming language) code
 - Category:Articles with short description
@@ -796,45 +795,9 @@ Pugh, Glendon (2004). An analysis of the Lanczos Gamma approximation (PDF) (PhD 
 Toth, Viktor (2005). "Programmable Calculators: The Lanczos Approximation".
 Weisstein, Eric W. "Lanczos Approximation". MathWorld.
 
-## Related Articles
-
-### Internal Links
-
-- [Bibcode](https://en.wikipedia.org/wiki/Bibcode)
-- [Boost (C++ libraries)](https://en.wikipedia.org/wiki/Boost_(C%2B%2B_libraries))
-- [CPython](https://en.wikipedia.org/wiki/CPython)
-- [Chebyshev polynomials](https://en.wikipedia.org/wiki/Chebyshev_polynomials)
-- [Complex plane](https://en.wikipedia.org/wiki/Complex_plane)
-- [Constant (mathematics)](https://en.wikipedia.org/wiki/Constant_(mathematics))
-- [Convergent series](https://en.wikipedia.org/wiki/Convergent_series)
-- [Cornelius Lanczos](https://en.wikipedia.org/wiki/Cornelius_Lanczos)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Double-precision floating-point format](https://en.wikipedia.org/wiki/Double-precision_floating-point_format)
-- [Elementary function](https://en.wikipedia.org/wiki/Elementary_function)
-- [Eric W. Weisstein](https://en.wikipedia.org/wiki/Eric_W._Weisstein)
-- [Floating-point arithmetic](https://en.wikipedia.org/wiki/Floating-point_arithmetic)
-- [GNU Scientific Library](https://en.wikipedia.org/wiki/GNU_Scientific_Library)
-- [Gamma function](https://en.wikipedia.org/wiki/Gamma_function)
-- [Upper half-plane](https://en.wikipedia.org/wiki/Upper_half-plane)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [ISSN](https://en.wikipedia.org/wiki/ISSN)
-- [Integral](https://en.wikipedia.org/wiki/Integral)
-- [JSTOR](https://en.wikipedia.org/wiki/JSTOR)
-- [Leonhard Euler](https://en.wikipedia.org/wiki/Leonhard_Euler)
-- [MathWorld](https://en.wikipedia.org/wiki/MathWorld)
-- [Mathematics](https://en.wikipedia.org/wiki/Mathematics)
-- [Matrix (mathematics)](https://en.wikipedia.org/wiki/Matrix_(mathematics))
-- [Matrix multiplication](https://en.wikipedia.org/wiki/Matrix_multiplication)
-- [Musl](https://en.wikipedia.org/wiki/Musl)
-- [Numerical Recipes](https://en.wikipedia.org/wiki/Numerical_Recipes)
-- [Partial fraction decomposition](https://en.wikipedia.org/wiki/Partial_fraction_decomposition)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Recursion](https://en.wikipedia.org/wiki/Recursion)
-- [Reflection formula](https://en.wikipedia.org/wiki/Reflection_formula)
-- [Single-precision floating-point format](https://en.wikipedia.org/wiki/Single-precision_floating-point_format)
-- [Spouge's approximation](https://en.wikipedia.org/wiki/Spouge%27s_approximation)
-- [Stirling's approximation](https://en.wikipedia.org/wiki/Stirling%27s_approximation)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:31:22.826568+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:30 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 13986 bytes
+- **Word Count:** 890 words

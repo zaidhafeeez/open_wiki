@@ -1,14 +1,12 @@
 # Rendezvous hashing
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:44:43.342916+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 07:37:41 UTC
 - **Original Article:** [Rendezvous hashing](https://en.wikipedia.org/wiki/Rendezvous_hashing)
 - **Language:** en
 - **Page ID:** 40543215
 
 ## Summary
-
 Rendezvous or highest random weight (HRW) hashing is an algorithm that allows clients to achieve distributed agreement on a set of 
   
     
@@ -35,9 +33,14 @@ Consistent hashing addresses the special case
         k
         =
         1
- 
+      
+    
+    {\displaystyle k=1}
+  
+ using a different method. Rendezvous hashing is both much simpler and more general than consistent hashing (see below).
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Algorithms
 - Category:Articles with example Python (programming language) code
@@ -1469,35 +1472,9 @@ References
 External links
 Rendezvous Hashing: an alternative to Consistent Hashing
 
-## Related Articles
-
-### Internal Links
-
-- [Cache Array Routing Protocol](https://en.wikipedia.org/wiki/Cache_Array_Routing_Protocol)
-- [Ceph (software)](https://en.wikipedia.org/wiki/Ceph_(software))
-- [CiteSeerX](https://en.wikipedia.org/wiki/CiteSeerX)
-- [Cleversafe Inc.](https://en.wikipedia.org/wiki/Cleversafe_Inc.)
-- [Consistent hashing](https://en.wikipedia.org/wiki/Consistent_hashing)
-- [Distributed database](https://en.wikipedia.org/wiki/Distributed_database)
-- [Distributed hash table](https://en.wikipedia.org/wiki/Distributed_hash_table)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Dynamo (storage system)](https://en.wikipedia.org/wiki/Dynamo_(storage_system))
-- [Hash function](https://en.wikipedia.org/wiki/Hash_function)
-- [Hash table](https://en.wikipedia.org/wiki/Hash_table)
-- [Hit rate](https://en.wikipedia.org/wiki/Hit_rate)
-- [IBM Cloud Object Storage](https://en.wikipedia.org/wiki/IBM_Cloud_Object_Storage)
-- [Key exchange](https://en.wikipedia.org/wiki/Key_exchange)
-- [Load balancing (computing)](https://en.wikipedia.org/wiki/Load_balancing_(computing))
-- [Mbone](https://en.wikipedia.org/wiki/Mbone)
-- [Multicast](https://en.wikipedia.org/wiki/Multicast)
-- [Protocol-Independent Multicast](https://en.wikipedia.org/wiki/Protocol-Independent_Multicast)
-- [Reduction (complexity)](https://en.wikipedia.org/wiki/Reduction_(complexity))
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [Shard (database architecture)](https://en.wikipedia.org/wiki/Shard_(database_architecture))
-- [University of Michigan](https://en.wikipedia.org/wiki/University_of_Michigan)
-- [Template:Cite journal](https://en.wikipedia.org/wiki/Template:Cite_journal)
-- [Help:CS1 errors](https://en.wikipedia.org/wiki/Help:CS1_errors)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:44:43.342916+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:53 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 30188 bytes
+- **Word Count:** 3542 words

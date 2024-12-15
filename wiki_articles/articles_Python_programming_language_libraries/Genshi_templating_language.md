@@ -1,19 +1,18 @@
 # Genshi (templating language)
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:25:51.722406+00:00
+## Metadata
+- **Last Updated:** 2024-11-24 06:40:50 UTC
 - **Original Article:** [Genshi (templating language)](https://en.wikipedia.org/wiki/Genshi_(templating_language))
 - **Language:** en
 - **Page ID:** 8471397
 
 ## Summary
-
 Genshi is a template engine for XML-based vocabularies written in 
 Python.  Genshi is used to easily insert generated output into XML-based languages, usually HTML, and reuse elements between documents.  Genshi's syntax is based on Kid, but its architecture is different. Genshi aims to implement some of its functionality while processing templates faster, by dynamically processing templates using a stream based API, instead of compiling templates to Python code.
-Genshi can be used with several P
+Genshi can be used with several Python web frameworks, such as CherryPy, TurboGears, Pylons and web2py. Genshi was the default templating language for TurboGears from versions 1.1 to 2.3.8.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Free software programmed in Python
 - Category:Free system software
@@ -51,33 +50,9 @@ References
 External links
 Official website
 
-## Related Articles
-
-### Internal Links
-
-- [CherryPy](https://en.wikipedia.org/wiki/CherryPy)
-- [Code generation (compiler)](https://en.wikipedia.org/wiki/Code_generation_(compiler))
-- [Cross-platform software](https://en.wikipedia.org/wiki/Cross-platform_software)
-- [HTML](https://en.wikipedia.org/wiki/HTML)
-- [HTML editor](https://en.wikipedia.org/wiki/HTML_editor)
-- [Comparison of web template engines](https://en.wikipedia.org/wiki/Comparison_of_web_template_engines)
-- [Operating system](https://en.wikipedia.org/wiki/Operating_system)
-- [Programmer](https://en.wikipedia.org/wiki/Programmer)
-- [Pylons project](https://en.wikipedia.org/wiki/Pylons_project)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Repository (version control)](https://en.wikipedia.org/wiki/Repository_(version_control))
-- [Software categories](https://en.wikipedia.org/wiki/Software_categories)
-- [Software license](https://en.wikipedia.org/wiki/Software_license)
-- [Software release life cycle](https://en.wikipedia.org/wiki/Software_release_life_cycle)
-- [Web template system](https://en.wikipedia.org/wiki/Web_template_system)
-- [TurboGears](https://en.wikipedia.org/wiki/TurboGears)
-- [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG)
-- [Web2py](https://en.wikipedia.org/wiki/Web2py)
-- [Web framework](https://en.wikipedia.org/wiki/Web_framework)
-- [XInclude](https://en.wikipedia.org/wiki/XInclude)
-- [XML](https://en.wikipedia.org/wiki/XML)
-- [XML namespace](https://en.wikipedia.org/wiki/XML_namespace)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:25:51.722406+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:27 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 1440 bytes
+- **Word Count:** 215 words

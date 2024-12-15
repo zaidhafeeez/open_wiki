@@ -1,18 +1,18 @@
 # Trial division
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:52:03.829612+00:00
+## Metadata
+- **Last Updated:** 2024-12-07 14:43:58 UTC
 - **Original Article:** [Trial division](https://en.wikipedia.org/wiki/Trial_division)
 - **Language:** en
 - **Page ID:** 557660
 
 ## Summary
-
 Trial division is the most laborious but easiest to understand of the integer factorization algorithms.  The essential idea behind trial division tests to see if an integer n, the integer to be factored, can be divided by each number in turn that is less than the square root of n. 
-For example, to find the prime factors of n = 70, one can try to divide 70 by successive primes: first, 70 / 2 = 35; next, neither 2 nor 3 evenly divides 35; finally, 35 / 5 = 7, and 7 is itself prime. So 70 = 2 × 5 ×
+For example, to find the prime factors of n = 70, one can try to divide 70 by successive primes: first, 70 / 2 = 35; next, neither 2 nor 3 evenly divides 35; finally, 35 / 5 = 7, and 7 is itself prime. So 70 = 2 × 5 × 7.
+Trial division was first described by Fibonacci in his book Liber Abaci (1202).
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles lacking in-text citations
 - Category:Articles lacking in-text citations from March 2014
@@ -179,127 +179,9 @@ Wikiversity offers a lesson on prime factorization using trial division with Pyt
 Fast JavaScript Prime Factor Calculator using trial division. Can handle numbers up to about 253
 Trial Division in Java, C and JavaScript (in Portuguese)
 
-## Related Articles
-
-### Internal Links
-
-- [AKS primality test](https://en.wikipedia.org/wiki/AKS_primality_test)
-- [Adleman–Pomerance–Rumely primality test](https://en.wikipedia.org/wiki/Adleman%E2%80%93Pomerance%E2%80%93Rumely_primality_test)
-- [Algorithm](https://en.wikipedia.org/wiki/Algorithm)
-- [Ancient Egyptian multiplication](https://en.wikipedia.org/wiki/Ancient_Egyptian_multiplication)
-- [Baby-step giant-step](https://en.wikipedia.org/wiki/Baby-step_giant-step)
-- [Baillie–PSW primality test](https://en.wikipedia.org/wiki/Baillie%E2%80%93PSW_primality_test)
-- [Berlekamp–Rabin algorithm](https://en.wikipedia.org/wiki/Berlekamp%E2%80%93Rabin_algorithm)
-- [Binary GCD algorithm](https://en.wikipedia.org/wiki/Binary_GCD_algorithm)
-- [Long division](https://en.wikipedia.org/wiki/Long_division)
-- [Carl Pomerance](https://en.wikipedia.org/wiki/Carl_Pomerance)
-- [Chakravala method](https://en.wikipedia.org/wiki/Chakravala_method)
-- [Chunking (division)](https://en.wikipedia.org/wiki/Chunking_(division))
-- [Cipolla's algorithm](https://en.wikipedia.org/wiki/Cipolla%27s_algorithm)
-- [Continued fraction factorization](https://en.wikipedia.org/wiki/Continued_fraction_factorization)
-- [Cornacchia's algorithm](https://en.wikipedia.org/wiki/Cornacchia%27s_algorithm)
-- [Discrete logarithm](https://en.wikipedia.org/wiki/Discrete_logarithm)
-- [Division algorithm](https://en.wikipedia.org/wiki/Division_algorithm)
-- [Dixon's factorization method](https://en.wikipedia.org/wiki/Dixon%27s_factorization_method)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Elliptic curve primality](https://en.wikipedia.org/wiki/Elliptic_curve_primality)
-- [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm)
-- [Euclidean division](https://en.wikipedia.org/wiki/Euclidean_division)
-- [Euler's factorization method](https://en.wikipedia.org/wiki/Euler%27s_factorization_method)
-- [Exponentiation by squaring](https://en.wikipedia.org/wiki/Exponentiation_by_squaring)
-- [Extended Euclidean algorithm](https://en.wikipedia.org/wiki/Extended_Euclidean_algorithm)
-- [Fermat's factorization method](https://en.wikipedia.org/wiki/Fermat%27s_factorization_method)
-- [Fermat primality test](https://en.wikipedia.org/wiki/Fermat_primality_test)
-- [Fibonacci](https://en.wikipedia.org/wiki/Fibonacci)
-- [Fourier division](https://en.wikipedia.org/wiki/Fourier_division)
-- [Function field sieve](https://en.wikipedia.org/wiki/Function_field_sieve)
-- [Multiplication algorithm](https://en.wikipedia.org/wiki/Multiplication_algorithm)
-- [General number field sieve](https://en.wikipedia.org/wiki/General_number_field_sieve)
-- [Generation of primes](https://en.wikipedia.org/wiki/Generation_of_primes)
-- [Division algorithm](https://en.wikipedia.org/wiki/Division_algorithm)
-- [Greatest common divisor](https://en.wikipedia.org/wiki/Greatest_common_divisor)
-- [Grid computing](https://en.wikipedia.org/wiki/Grid_computing)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Index calculus algorithm](https://en.wikipedia.org/wiki/Index_calculus_algorithm)
-- [Integer factorization](https://en.wikipedia.org/wiki/Integer_factorization)
-- [Integer relation algorithm](https://en.wikipedia.org/wiki/Integer_relation_algorithm)
-- [Integer square root](https://en.wikipedia.org/wiki/Integer_square_root)
-- [JSTOR](https://en.wikipedia.org/wiki/JSTOR)
-- [Judges of the International Criminal Court](https://en.wikipedia.org/wiki/Judges_of_the_International_Criminal_Court)
-- [Karatsuba algorithm](https://en.wikipedia.org/wiki/Karatsuba_algorithm)
-- [Korkine–Zolotarev lattice basis reduction algorithm](https://en.wikipedia.org/wiki/Korkine%E2%80%93Zolotarev_lattice_basis_reduction_algorithm)
-- [Kunerth's algorithm](https://en.wikipedia.org/wiki/Kunerth%27s_algorithm)
-- [Lehmer's GCD algorithm](https://en.wikipedia.org/wiki/Lehmer%27s_GCD_algorithm)
-- [Lenstra elliptic-curve factorization](https://en.wikipedia.org/wiki/Lenstra_elliptic-curve_factorization)
-- [Lenstra–Lenstra–Lovász lattice basis reduction algorithm](https://en.wikipedia.org/wiki/Lenstra%E2%80%93Lenstra%E2%80%93Lov%C3%A1sz_lattice_basis_reduction_algorithm)
-- [Liber Abaci](https://en.wikipedia.org/wiki/Liber_Abaci)
-- [Long division](https://en.wikipedia.org/wiki/Long_division)
-- [Multiplication algorithm](https://en.wikipedia.org/wiki/Multiplication_algorithm)
-- [Lucas primality test](https://en.wikipedia.org/wiki/Lucas_primality_test)
-- [Lucas–Lehmer primality test](https://en.wikipedia.org/wiki/Lucas%E2%80%93Lehmer_primality_test)
-- [Lucas–Lehmer–Riesel test](https://en.wikipedia.org/wiki/Lucas%E2%80%93Lehmer%E2%80%93Riesel_test)
-- [Mathematical Reviews](https://en.wikipedia.org/wiki/Mathematical_Reviews)
-- [Miller–Rabin primality test](https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test)
-- [Modular exponentiation](https://en.wikipedia.org/wiki/Modular_exponentiation)
-- [Montgomery modular multiplication](https://en.wikipedia.org/wiki/Montgomery_modular_multiplication)
-- [Multiplication algorithm](https://en.wikipedia.org/wiki/Multiplication_algorithm)
-- [Division algorithm](https://en.wikipedia.org/wiki/Division_algorithm)
-- [Number theory](https://en.wikipedia.org/wiki/Number_theory)
-- [Pocklington's algorithm](https://en.wikipedia.org/wiki/Pocklington%27s_algorithm)
-- [Pocklington primality test](https://en.wikipedia.org/wiki/Pocklington_primality_test)
-- [Pohlig–Hellman algorithm](https://en.wikipedia.org/wiki/Pohlig%E2%80%93Hellman_algorithm)
-- [Pollard's kangaroo algorithm](https://en.wikipedia.org/wiki/Pollard%27s_kangaroo_algorithm)
-- [Pollard's p − 1 algorithm](https://en.wikipedia.org/wiki/Pollard%27s_p_%E2%88%92_1_algorithm)
-- [Pollard's rho algorithm](https://en.wikipedia.org/wiki/Pollard%27s_rho_algorithm)
-- [Pollard's rho algorithm for logarithms](https://en.wikipedia.org/wiki/Pollard%27s_rho_algorithm_for_logarithms)
-- [Primality test](https://en.wikipedia.org/wiki/Primality_test)
-- [Primality test](https://en.wikipedia.org/wiki/Primality_test)
-- [Prime-counting function](https://en.wikipedia.org/wiki/Prime-counting_function)
-- [Prime number](https://en.wikipedia.org/wiki/Prime_number)
-- [Proth's theorem](https://en.wikipedia.org/wiki/Proth%27s_theorem)
-- [Public-key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Pépin's test](https://en.wikipedia.org/wiki/P%C3%A9pin%27s_test)
-- [Quadratic Frobenius test](https://en.wikipedia.org/wiki/Quadratic_Frobenius_test)
-- [Quadratic residue](https://en.wikipedia.org/wiki/Quadratic_residue)
-- [Quadratic sieve](https://en.wikipedia.org/wiki/Quadratic_sieve)
-- [RSA numbers](https://en.wikipedia.org/wiki/RSA_numbers)
-- [Rational sieve](https://en.wikipedia.org/wiki/Rational_sieve)
-- [Richard Crandall](https://en.wikipedia.org/wiki/Richard_Crandall)
-- [Division algorithm](https://en.wikipedia.org/wiki/Division_algorithm)
-- [Schoof's algorithm](https://en.wikipedia.org/wiki/Schoof%27s_algorithm)
-- [Schönhage–Strassen algorithm](https://en.wikipedia.org/wiki/Sch%C3%B6nhage%E2%80%93Strassen_algorithm)
-- [Shanks's square forms factorization](https://en.wikipedia.org/wiki/Shanks%27s_square_forms_factorization)
-- [Shor's algorithm](https://en.wikipedia.org/wiki/Shor%27s_algorithm)
-- [Short division](https://en.wikipedia.org/wiki/Short_division)
-- [Sieve of Atkin](https://en.wikipedia.org/wiki/Sieve_of_Atkin)
-- [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)
-- [Sieve of Pritchard](https://en.wikipedia.org/wiki/Sieve_of_Pritchard)
-- [Sieve of Sundaram](https://en.wikipedia.org/wiki/Sieve_of_Sundaram)
-- [Solovay–Strassen primality test](https://en.wikipedia.org/wiki/Solovay%E2%80%93Strassen_primality_test)
-- [Special number field sieve](https://en.wikipedia.org/wiki/Special_number_field_sieve)
-- [Springer Science+Business Media](https://en.wikipedia.org/wiki/Springer_Science%2BBusiness_Media)
-- [Square number](https://en.wikipedia.org/wiki/Square_number)
-- [Square root](https://en.wikipedia.org/wiki/Square_root)
-- [Supercomputer](https://en.wikipedia.org/wiki/Supercomputer)
-- [Tonelli–Shanks algorithm](https://en.wikipedia.org/wiki/Tonelli%E2%80%93Shanks_algorithm)
-- [Toom–Cook multiplication](https://en.wikipedia.org/wiki/Toom%E2%80%93Cook_multiplication)
-- [Trachtenberg system](https://en.wikipedia.org/wiki/Trachtenberg_system)
-- [Undergraduate Texts in Mathematics](https://en.wikipedia.org/wiki/Undergraduate_Texts_in_Mathematics)
-- [Wheel factorization](https://en.wikipedia.org/wiki/Wheel_factorization)
-- [Williams's p + 1 algorithm](https://en.wikipedia.org/wiki/Williams%27s_p_%2B_1_algorithm)
-- [Best, worst and average case](https://en.wikipedia.org/wiki/Best,_worst_and_average_case)
-- [ZbMATH Open](https://en.wikipedia.org/wiki/ZbMATH_Open)
-- [Wikipedia:Citing sources](https://en.wikipedia.org/wiki/Wikipedia:Citing_sources)
-- [Wikipedia:External links](https://en.wikipedia.org/wiki/Wikipedia:External_links)
-- [Wikipedia:Further reading](https://en.wikipedia.org/wiki/Wikipedia:Further_reading)
-- [Wikipedia:When to cite](https://en.wikipedia.org/wiki/Wikipedia:When_to_cite)
-- [Wikipedia:WikiProject Reliability](https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Reliability)
-- [Template:Number-theoretic algorithms](https://en.wikipedia.org/wiki/Template:Number-theoretic_algorithms)
-- [Template talk:Number-theoretic algorithms](https://en.wikipedia.org/wiki/Template_talk:Number-theoretic_algorithms)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Category:Articles lacking in-text citations from March 2014](https://en.wikipedia.org/wiki/Category:Articles_lacking_in-text_citations_from_March_2014)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:52:03.829612+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:05 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 6658 bytes
+- **Word Count:** 1002 words

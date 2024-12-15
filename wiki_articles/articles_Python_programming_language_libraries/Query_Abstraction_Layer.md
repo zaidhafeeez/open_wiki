@@ -1,17 +1,16 @@
 # Query Abstraction Layer
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:59:05.698775+00:00
+## Metadata
+- **Last Updated:** 2024-11-24 06:40:53 UTC
 - **Original Article:** [Query Abstraction Layer](https://en.wikipedia.org/wiki/Query_Abstraction_Layer)
 - **Language:** en
 - **Page ID:** 44307325
 
 ## Summary
-
 QAL is an open-source development project that aims to create a collection of libraries for mixing, moving, merging, substituting and transforming data; also in some cases, such as MongoDB, schemas.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with imported Creative Commons licensed text
 - Category:Cross-platform free software
@@ -42,37 +41,9 @@ External links
 QAL Documentation and examples
 API documentation
 
-## Related Articles
-
-### Internal Links
-
-- [BSD licenses](https://en.wikipedia.org/wiki/BSD_licenses)
-- [Business process management](https://en.wikipedia.org/wiki/Business_process_management)
-- [Comma-separated values](https://en.wikipedia.org/wiki/Comma-separated_values)
-- [Cross-platform software](https://en.wikipedia.org/wiki/Cross-platform_software)
-- [Database schema](https://en.wikipedia.org/wiki/Database_schema)
-- [Deb (file format)](https://en.wikipedia.org/wiki/Deb_(file_format))
-- [Deb (file format)](https://en.wikipedia.org/wiki/Deb_(file_format))
-- [IBM Db2](https://en.wikipedia.org/wiki/IBM_Db2)
-- [Microsoft SQL Server](https://en.wikipedia.org/wiki/Microsoft_SQL_Server)
-- [MariaDB](https://en.wikipedia.org/wiki/MariaDB)
-- [MongoDB](https://en.wikipedia.org/wiki/MongoDB)
-- [MySQL](https://en.wikipedia.org/wiki/MySQL)
-- [Operating system](https://en.wikipedia.org/wiki/Operating_system)
-- [Oracle Database](https://en.wikipedia.org/wiki/Oracle_Database)
-- [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL)
-- [Programmer](https://en.wikipedia.org/wiki/Programmer)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [SQL](https://en.wikipedia.org/wiki/SQL)
-- [Software categories](https://en.wikipedia.org/wiki/Software_categories)
-- [Software license](https://en.wikipedia.org/wiki/Software_license)
-- [Software release life cycle](https://en.wikipedia.org/wiki/Software_release_life_cycle)
-- [SourceForge](https://en.wikipedia.org/wiki/SourceForge)
-- [Tag soup](https://en.wikipedia.org/wiki/Tag_soup)
-- [XML](https://en.wikipedia.org/wiki/XML)
-- [Category:Python (programming language) libraries](https://en.wikipedia.org/wiki/Category:Python_(programming_language)_libraries)
-- [Category:Relational database management systems](https://en.wikipedia.org/wiki/Category:Relational_database_management_systems)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:59:05.698775+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:34 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 1350 bytes
+- **Word Count:** 203 words

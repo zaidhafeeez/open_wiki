@@ -1,17 +1,16 @@
 # Maurer rose
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:35:40.567048+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 07:22:49 UTC
 - **Original Article:** [Maurer rose](https://en.wikipedia.org/wiki/Maurer_rose)
 - **Language:** en
 - **Page ID:** 23664598
 
 ## Summary
-
 In geometry, the concept of a Maurer rose was introduced by Peter M. Maurer in his article titled A Rose is a Rose...[1]. A Maurer rose consists of some lines that connect some points on a rose curve.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example Python (programming language) code
 - Category:Articles with short description
@@ -60,26 +59,9 @@ Interactive Demonstration: https://codepen.io/Igor_Konovalov/full/ZJwPQv/
 Explorer: https://filip26.github.io/maurer-rose-explorer/ [source code]
 Draw from values and create vector graphics: https://www.sqrt.ch/Buch/Maurer/maurerroses.html
 
-## Related Articles
-
-### Internal Links
-
-- [CiteSeerX](https://en.wikipedia.org/wiki/CiteSeerX)
-- [Curve](https://en.wikipedia.org/wiki/Curve)
-- [Degree (angle)](https://en.wikipedia.org/wiki/Degree_(angle))
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Eric W. Weisstein](https://en.wikipedia.org/wiki/Eric_W._Weisstein)
-- [Geometry](https://en.wikipedia.org/wiki/Geometry)
-- [JSTOR](https://en.wikipedia.org/wiki/JSTOR)
-- [MathWorld](https://en.wikipedia.org/wiki/MathWorld)
-- [Polar coordinate system](https://en.wikipedia.org/wiki/Polar_coordinate_system)
-- [Polar coordinate system](https://en.wikipedia.org/wiki/Polar_coordinate_system)
-- [Polygonal chain](https://en.wikipedia.org/wiki/Polygonal_chain)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Radian](https://en.wikipedia.org/wiki/Radian)
-- [Rose (mathematics)](https://en.wikipedia.org/wiki/Rose_(mathematics))
-- [Vertex (geometry)](https://en.wikipedia.org/wiki/Vertex_(geometry))
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:35:40.567048+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:35 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 2041 bytes
+- **Word Count:** 335 words

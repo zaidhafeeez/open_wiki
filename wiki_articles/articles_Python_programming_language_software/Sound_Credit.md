@@ -1,18 +1,18 @@
 # Sound Credit
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:15:15.313389+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 07:57:58 UTC
 - **Original Article:** [Sound Credit](https://en.wikipedia.org/wiki/Sound_Credit)
 - **Language:** en
 - **Page ID:** 65945645
 
 ## Summary
-
 Sound Credit is a music credits platform with computer software applications for Windows, macOS, iOS, and Android.  It includes the Sound Credit Publisher cross-platform desktop application, the Tracker cross-platform digital audio workstation (DAW) plug-in, physical kiosks, smart card check-in system, and online database.
-Sound Credit is used in the music industry through multimodal interaction, with a free user profile option including identifier code generation, data entry and editing softwar
+Sound Credit is used in the music industry through multimodal interaction, with a free user profile option including identifier code generation, data entry and editing software developed for information quality (IQ).  It also functions as a data hub and exporter for data transmission throughout the music industry supply chain for royalty payment and attribution purposes.
+Music credits are loaded and saved into Sound Credit's DDEX RIN format implementation, as the first software available to the public with this capability.  As of 2019, Sound Credit is included with Pro Tools subscriptions.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:2017 software
 - Category:American music industry
@@ -105,68 +105,9 @@ References
 External links
 Sound Credit Website
 
-## Related Articles
-
-### Internal Links
-
-- [60 Minutes](https://en.wikipedia.org/wiki/60_Minutes)
-- [Android (operating system)](https://en.wikipedia.org/wiki/Android_(operating_system))
-- [Attribution (copyright)](https://en.wikipedia.org/wiki/Attribution_(copyright))
-- [Barcode reader](https://en.wikipedia.org/wiki/Barcode_reader)
-- [C++](https://en.wikipedia.org/wiki/C%2B%2B)
-- [Computing platform](https://en.wikipedia.org/wiki/Computing_platform)
-- [Country Music Association](https://en.wikipedia.org/wiki/Country_Music_Association)
-- [Acknowledgment (creative arts and sciences)](https://en.wikipedia.org/wiki/Acknowledgment_(creative_arts_and_sciences))
-- [DDEX](https://en.wikipedia.org/wiki/DDEX)
-- [Dart (programming language)](https://en.wikipedia.org/wiki/Dart_(programming_language))
-- [Data entry](https://en.wikipedia.org/wiki/Data_entry)
-- [Data hub](https://en.wikipedia.org/wiki/Data_hub)
-- [Data communication](https://en.wikipedia.org/wiki/Data_communication)
-- [Desktop computer](https://en.wikipedia.org/wiki/Desktop_computer)
-- [Digital audio workstation](https://en.wikipedia.org/wiki/Digital_audio_workstation)
-- [Editing](https://en.wikipedia.org/wiki/Editing)
-- [English language](https://en.wikipedia.org/wiki/English_language)
-- [Exporter (computing)](https://en.wikipedia.org/wiki/Exporter_(computing))
-- [Grammy Awards](https://en.wikipedia.org/wiki/Grammy_Awards)
-- [Gebre Waddell](https://en.wikipedia.org/wiki/Gebre_Waddell)
-- [Global Release Identifier](https://en.wikipedia.org/wiki/Global_Release_Identifier)
-- [God's Country (Blake Shelton song)](https://en.wikipedia.org/wiki/God%27s_Country_(Blake_Shelton_song))
-- [IOS](https://en.wikipedia.org/wiki/IOS)
-- [Identifier](https://en.wikipedia.org/wiki/Identifier)
-- [Incremental search](https://en.wikipedia.org/wiki/Incremental_search)
-- [Information quality](https://en.wikipedia.org/wiki/Information_quality)
-- [International Standard Name Identifier](https://en.wikipedia.org/wiki/International_Standard_Name_Identifier)
-- [International Standard Recording Code](https://en.wikipedia.org/wiki/International_Standard_Recording_Code)
-- [Kiosk software](https://en.wikipedia.org/wiki/Kiosk_software)
-- [Laravel](https://en.wikipedia.org/wiki/Laravel)
-- [Liner notes](https://en.wikipedia.org/wiki/Liner_notes)
-- [MacOS](https://en.wikipedia.org/wiki/MacOS)
-- [Digital card](https://en.wikipedia.org/wiki/Digital_card)
-- [Meg Whitman](https://en.wikipedia.org/wiki/Meg_Whitman)
-- [Microsoft Windows](https://en.wikipedia.org/wiki/Microsoft_Windows)
-- [Mobile device](https://en.wikipedia.org/wiki/Mobile_device)
-- [Multimodal interaction](https://en.wikipedia.org/wiki/Multimodal_interaction)
-- [Multimodal search](https://en.wikipedia.org/wiki/Multimodal_search)
-- [NAMM Show](https://en.wikipedia.org/wiki/NAMM_Show)
-- [Operating system](https://en.wikipedia.org/wiki/Operating_system)
-- [PHP](https://en.wikipedia.org/wiki/PHP)
-- [Pro Tools](https://en.wikipedia.org/wiki/Pro_Tools)
-- [Programmer](https://en.wikipedia.org/wiki/Programmer)
-- [Proprietary software](https://en.wikipedia.org/wiki/Proprietary_software)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Royalty payment](https://en.wikipedia.org/wiki/Royalty_payment)
-- [Software license](https://en.wikipedia.org/wiki/Software_license)
-- [Software release life cycle](https://en.wikipedia.org/wiki/Software_release_life_cycle)
-- [Supply chain](https://en.wikipedia.org/wiki/Supply_chain)
-- [TEC Awards](https://en.wikipedia.org/wiki/TEC_Awards)
-- [Tablet computer](https://en.wikipedia.org/wiki/Tablet_computer)
-- [Techstars](https://en.wikipedia.org/wiki/Techstars)
-- [User profile](https://en.wikipedia.org/wiki/User_profile)
-- [Warner Music Group](https://en.wikipedia.org/wiki/Warner_Music_Group)
-- [Web browser](https://en.wikipedia.org/wiki/Web_browser)
-- [Template:Cite magazine](https://en.wikipedia.org/wiki/Template:Cite_magazine)
-- [Help:CS1 errors](https://en.wikipedia.org/wiki/Help:CS1_errors)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:15:15.313389+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:28:04 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 4611 bytes
+- **Word Count:** 684 words

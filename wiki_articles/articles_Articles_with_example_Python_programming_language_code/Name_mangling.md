@@ -1,19 +1,22 @@
 # Name mangling
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:37:35.923223+00:00
+## Metadata
+- **Last Updated:** 2024-12-10 19:54:30 UTC
 - **Original Article:** [Name mangling](https://en.wikipedia.org/wiki/Name_mangling)
 - **Language:** en
 - **Page ID:** 725961
 
 ## Summary
-
 In compiler construction, name mangling (also called name decoration) is a technique used to solve various problems caused by the need to resolve unique names for programming entities in many modern programming languages.
 It provides means to encode added information in the name of a function, structure, class or another data type, to pass more semantic information from the compiler to the linker.
-The need for name mangling arises where a language allows different entities to be named with the s
+The need for name mangling arises where a language allows different entities to be named with the same identifier as long as they occupy a different namespace (typically defined by a module, class, or explicit namespace directive) or have different type signatures (such as in function overloading). It is required in these uses because each signature might require different, specialized calling convention in the machine code.
+Any object code produced by compilers is usually linked with other pieces of object code (produced by the same or another compiler) by a type of program called a linker. The linker needs a great deal of information on each program entity. For example, to correctly link a function it needs its name, the number of arguments and their types, and so on.
+The simple programming languages of the 1970s, like C, only distinguished subroutines by their name, ignoring other information including parameter and return types.
+Later languages, like C++, defined stricter requirements for routines to be considered "equal", such as the parameter types, return type, and calling convention of a function. These requirements enable method overloading and detection of some bugs (such as using different definitions of a function when compiling different source code files).
+These stricter requirements needed to work with extant programming tools and conventions. Thus, added requirements were encoded in the name of the symbol, since that was the only information a traditional linker had about a symbol.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles needing additional references
 - Category:All articles that may contain original research
@@ -257,142 +260,9 @@ Mixing C and C++ Code
 Levine, John R. (2000) [October 1999]. "Chapter 5: Symbol management". Linkers and Loaders. The Morgan Kaufmann Series in Software Engineering and Programming (1 ed.). San Francisco, USA: Morgan Kaufmann. ISBN 1-55860-496-0. OCLC 42413382. Archived from the original on 2012-12-05. Retrieved 2020-01-12. Code: [1][2] Errata: [3]
 Name mangling demystified by Fivos Kefallonitis
 
-## Related Articles
-
-### Internal Links
-
-- [API](https://en.wikipedia.org/wiki/API)
-- [Agner Fog](https://en.wikipedia.org/wiki/Agner_Fog)
-- [American National Standards Institute](https://en.wikipedia.org/wiki/American_National_Standards_Institute)
-- [Application binary interface](https://en.wikipedia.org/wiki/Application_binary_interface)
-- [Argument of a function](https://en.wikipedia.org/wiki/Argument_of_a_function)
-- [Binary-code compatibility](https://en.wikipedia.org/wiki/Binary-code_compatibility)
-- [Boost (C++ libraries)](https://en.wikipedia.org/wiki/Boost_(C%2B%2B_libraries))
-- [Borland](https://en.wikipedia.org/wiki/Borland)
-- [C++](https://en.wikipedia.org/wiki/C%2B%2B)
-- [C++ classes](https://en.wikipedia.org/wiki/C%2B%2B_classes)
-- [Template (C++)](https://en.wikipedia.org/wiki/Template_(C%2B%2B))
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [C Sharp (programming language)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
-- [Call stack](https://en.wikipedia.org/wiki/Call_stack)
-- [Calling convention](https://en.wikipedia.org/wiki/Calling_convention)
-- [Case sensitivity](https://en.wikipedia.org/wiki/Case_sensitivity)
-- [Clang](https://en.wikipedia.org/wiki/Clang)
-- [Class (computer programming)](https://en.wikipedia.org/wiki/Class_(computer_programming))
-- [Java class loader](https://en.wikipedia.org/wiki/Java_class_loader)
-- [Compaq](https://en.wikipedia.org/wiki/Compaq)
-- [Comparison of application virtualization software](https://en.wikipedia.org/wiki/Comparison_of_application_virtualization_software)
-- [Compiler](https://en.wikipedia.org/wiki/Compiler)
-- [Cray](https://en.wikipedia.org/wiki/Cray)
-- [DEC Alpha](https://en.wikipedia.org/wiki/DEC_Alpha)
-- [D (programming language)](https://en.wikipedia.org/wiki/D_(programming_language))
-- [Data structure alignment](https://en.wikipedia.org/wiki/Data_structure_alignment)
-- [Data type](https://en.wikipedia.org/wiki/Data_type)
-- [Delphi (software)](https://en.wikipedia.org/wiki/Delphi_(software))
-- [Digital Mars](https://en.wikipedia.org/wiki/Digital_Mars)
-- [Dynamic-link library](https://en.wikipedia.org/wiki/Dynamic-link_library)
-- [Dynamic linker](https://en.wikipedia.org/wiki/Dynamic_linker)
-- [Exception handling](https://en.wikipedia.org/wiki/Exception_handling)
-- [F2c](https://en.wikipedia.org/wiki/F2c)
-- [Filename mangling](https://en.wikipedia.org/wiki/Filename_mangling)
-- [Foreign function interface](https://en.wikipedia.org/wiki/Foreign_function_interface)
-- [Fortran](https://en.wikipedia.org/wiki/Fortran)
-- [Fortran 95 language features](https://en.wikipedia.org/wiki/Fortran_95_language_features)
-- [Free Pascal](https://en.wikipedia.org/wiki/Free_Pascal)
-- [Fully qualified name](https://en.wikipedia.org/wiki/Fully_qualified_name)
-- [Function (computer programming)](https://en.wikipedia.org/wiki/Function_(computer_programming))
-- [Function overloading](https://en.wikipedia.org/wiki/Function_overloading)
-- [GNU](https://en.wikipedia.org/wiki/GNU)
-- [GNU Compiler Collection](https://en.wikipedia.org/wiki/GNU_Compiler_Collection)
-- [GNU Fortran](https://en.wikipedia.org/wiki/GNU_Fortran)
-- [GitHub](https://en.wikipedia.org/wiki/GitHub)
-- [HP-UX](https://en.wikipedia.org/wiki/HP-UX)
-- [IA-64](https://en.wikipedia.org/wiki/IA-64)
-- [IBM AIX](https://en.wikipedia.org/wiki/IBM_AIX)
-- [IRIX](https://en.wikipedia.org/wiki/IRIX)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [C++](https://en.wikipedia.org/wiki/C%2B%2B)
-- [Identifier](https://en.wikipedia.org/wiki/Identifier)
-- [Inner class](https://en.wikipedia.org/wiki/Inner_class)
-- [Method (computer programming)](https://en.wikipedia.org/wiki/Method_(computer_programming))
-- [Intel](https://en.wikipedia.org/wiki/Intel)
-- [Java (programming language)](https://en.wikipedia.org/wiki/Java_(programming_language))
-- [Java Native Interface](https://en.wikipedia.org/wiki/Java_Native_Interface)
-- [John R. Levine](https://en.wikipedia.org/wiki/John_R._Levine)
-- [LAPACK](https://en.wikipedia.org/wiki/LAPACK)
-- [Language binding](https://en.wikipedia.org/wiki/Language_binding)
-- [Library (computing)](https://en.wikipedia.org/wiki/Library_(computing))
-- [Linker (computing)](https://en.wikipedia.org/wiki/Linker_(computing))
-- [Loader (computing)](https://en.wikipedia.org/wiki/Loader_(computing))
-- [Machine code](https://en.wikipedia.org/wiki/Machine_code)
-- [Memory segmentation](https://en.wikipedia.org/wiki/Memory_segmentation)
-- [Microsoft Visual C++](https://en.wikipedia.org/wiki/Microsoft_Visual_C%2B%2B)
-- [Microsoft Windows](https://en.wikipedia.org/wiki/Microsoft_Windows)
-- [Modular programming](https://en.wikipedia.org/wiki/Modular_programming)
-- [Morgan Kaufmann Publishers](https://en.wikipedia.org/wiki/Morgan_Kaufmann_Publishers)
-- [Name conflict](https://en.wikipedia.org/wiki/Name_conflict)
-- [Namespace](https://en.wikipedia.org/wiki/Namespace)
-- [Namespace](https://en.wikipedia.org/wiki/Namespace)
-- [Namespace](https://en.wikipedia.org/wiki/Namespace)
-- [OCLC](https://en.wikipedia.org/wiki/OCLC)
-- [Object code](https://en.wikipedia.org/wiki/Object_code)
-- [Objective-C](https://en.wikipedia.org/wiki/Objective-C)
-- [Opaque pointer](https://en.wikipedia.org/wiki/Opaque_pointer)
-- [OpenVMS](https://en.wikipedia.org/wiki/OpenVMS)
-- [Operator overloading](https://en.wikipedia.org/wiki/Operator_overloading)
-- [Parameter (computer programming)](https://en.wikipedia.org/wiki/Parameter_(computer_programming))
-- [Pascal (programming language)](https://en.wikipedia.org/wiki/Pascal_(programming_language))
-- [Polymorphism (computer science)](https://en.wikipedia.org/wiki/Polymorphism_(computer_science))
-- [Position-independent code](https://en.wikipedia.org/wiki/Position-independent_code)
-- [Programming language](https://en.wikipedia.org/wiki/Programming_language)
-- [Programming tool](https://en.wikipedia.org/wiki/Programming_tool)
-- [Punycode](https://en.wikipedia.org/wiki/Punycode)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Record (computer science)](https://en.wikipedia.org/wiki/Record_(computer_science))
-- [Relocation (computing)](https://en.wikipedia.org/wiki/Relocation_(computing))
-- [Reserved word](https://en.wikipedia.org/wiki/Reserved_word)
-- [Rust (programming language)](https://en.wikipedia.org/wiki/Rust_(programming_language))
-- [SWIG](https://en.wikipedia.org/wiki/SWIG)
-- [Shared library](https://en.wikipedia.org/wiki/Shared_library)
-- [Silicon Graphics](https://en.wikipedia.org/wiki/Silicon_Graphics)
-- [Source code](https://en.wikipedia.org/wiki/Source_code)
-- [Static library](https://en.wikipedia.org/wiki/Static_library)
-- [Method (computer programming)](https://en.wikipedia.org/wiki/Method_(computer_programming))
-- [Stropping (syntax)](https://en.wikipedia.org/wiki/Stropping_(syntax))
-- [Function (computer programming)](https://en.wikipedia.org/wiki/Function_(computer_programming))
-- [Swift (programming language)](https://en.wikipedia.org/wiki/Swift_(programming_language))
-- [Identifier (computer languages)](https://en.wikipedia.org/wiki/Identifier_(computer_languages))
-- [System call](https://en.wikipedia.org/wiki/System_call)
-- [Technical standard](https://en.wikipedia.org/wiki/Technical_standard)
-- [Template (C++)](https://en.wikipedia.org/wiki/Template_(C%2B%2B))
-- [Tru64 UNIX](https://en.wikipedia.org/wiki/Tru64_UNIX)
-- [Type signature](https://en.wikipedia.org/wiki/Type_signature)
-- [Typedef](https://en.wikipedia.org/wiki/Typedef)
-- [UNICOS](https://en.wikipedia.org/wiki/UNICOS)
-- [VAX](https://en.wikipedia.org/wiki/VAX)
-- [Virtual method table](https://en.wikipedia.org/wiki/Virtual_method_table)
-- [Virtual method table](https://en.wikipedia.org/wiki/Virtual_method_table)
-- [Visual Studio](https://en.wikipedia.org/wiki/Visual_Studio)
-- [Year 2038 problem](https://en.wikipedia.org/wiki/Year_2038_problem)
-- [Talk:Name mangling](https://en.wikipedia.org/wiki/Talk:Name_mangling)
-- [Wikipedia:Citing sources](https://en.wikipedia.org/wiki/Wikipedia:Citing_sources)
-- [Wikipedia:No original research](https://en.wikipedia.org/wiki/Wikipedia:No_original_research)
-- [Wikipedia:Templates for discussion/Log/2024 December 3](https://en.wikipedia.org/wiki/Wikipedia:Templates_for_discussion/Log/2024_December_3)
-- [Wikipedia:Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)
-- [Wikipedia:What Wikipedia is not](https://en.wikipedia.org/wiki/Wikipedia:What_Wikipedia_is_not)
-- [Template:Application binary interface](https://en.wikipedia.org/wiki/Template:Application_binary_interface)
-- [Template:Cite web](https://en.wikipedia.org/wiki/Template:Cite_web)
-- [Template:Manual](https://en.wikipedia.org/wiki/Template:Manual)
-- [Template talk:Application binary interface](https://en.wikipedia.org/wiki/Template_talk:Application_binary_interface)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Help:Referencing for beginners](https://en.wikipedia.org/wiki/Help:Referencing_for_beginners)
-- [Help:Template](https://en.wikipedia.org/wiki/Help:Template)
-- [Category:Articles needing additional references from December 2011](https://en.wikipedia.org/wiki/Category:Articles_needing_additional_references_from_December_2011)
-- [Category:Articles that may contain original research from September 2016](https://en.wikipedia.org/wiki/Category:Articles_that_may_contain_original_research_from_September_2016)
-- [Category:Articles to be expanded from June 2014](https://en.wikipedia.org/wiki/Category:Articles_to_be_expanded_from_June_2014)
-- [Category:CS1 maint: numeric names: authors list](https://en.wikipedia.org/wiki/Category:CS1_maint:_numeric_names:_authors_list)
-- [Category:Wikipedia articles with style issues from September 2016](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_with_style_issues_from_September_2016)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:37:35.923223+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:40 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 25767 bytes
+- **Word Count:** 3981 words

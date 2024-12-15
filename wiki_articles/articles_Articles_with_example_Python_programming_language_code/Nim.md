@@ -1,18 +1,17 @@
 # Nim
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:37:38.357644+00:00
+## Metadata
+- **Last Updated:** 2024-12-07 14:43:00 UTC
 - **Original Article:** [Nim](https://en.wikipedia.org/wiki/Nim)
 - **Language:** en
 - **Page ID:** 21885
 
 ## Summary
-
 Nim is a mathematical game of strategy in which two players take turns removing (or "nimming") objects from distinct heaps or piles. On each turn, a player must remove at least one object, and may remove any number of objects provided they all come from the same heap or pile. Depending on the version being played, the goal of the game is either to avoid taking the last object or to take the last object.
-Nim is fundamental to the Sprague–Grundy theorem, which essentially says that every impartial
+Nim is fundamental to the Sprague–Grundy theorem, which essentially says that every impartial game is equivalent to a nim game with a single pile.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles containing Chinese-language text
 - Category:Articles containing German-language text
@@ -486,95 +485,9 @@ External links
 The hot game of Nim – Nim theory and connections with other games at cut-the-knot
 Nim and 2-dimensional SuperNim at cut-the-knot
 
-## Related Articles
-
-### Internal Links
-
-- [1939 New York World's Fair](https://en.wikipedia.org/wiki/1939_New_York_World%27s_Fair)
-- [21 (drinking game)](https://en.wikipedia.org/wiki/21_(drinking_game))
-- [Abstract strategy game](https://en.wikipedia.org/wiki/Abstract_strategy_game)
-- [Alain Robbe-Grillet](https://en.wikipedia.org/wiki/Alain_Robbe-Grillet)
-- [American Mathematical Society](https://en.wikipedia.org/wiki/American_Mathematical_Society)
-- [Android Nim](https://en.wikipedia.org/wiki/Android_Nim)
-- [Annals of Mathematics](https://en.wikipedia.org/wiki/Annals_of_Mathematics)
-- [ArXiv](https://en.wikipedia.org/wiki/ArXiv)
-- [Associative property](https://en.wikipedia.org/wiki/Associative_property)
-- [Binary number](https://en.wikipedia.org/wiki/Binary_number)
-- [Bitwise operation](https://en.wikipedia.org/wiki/Bitwise_operation)
-- [Alice and Bob](https://en.wikipedia.org/wiki/Alice_and_Bob)
-- [Charles L. Bouton](https://en.wikipedia.org/wiki/Charles_L._Bouton)
-- [China](https://en.wikipedia.org/wiki/China)
-- [Chomp](https://en.wikipedia.org/wiki/Chomp)
-- [Combinatorial game theory](https://en.wikipedia.org/wiki/Combinatorial_game_theory)
-- [Commutative property](https://en.wikipedia.org/wiki/Commutative_property)
-- [Alexander Bogomolny](https://en.wikipedia.org/wiki/Alexander_Bogomolny)
-- [Decimal](https://en.wikipedia.org/wiki/Decimal)
-- [Digital sum in base b](https://en.wikipedia.org/wiki/Digital_sum_in_base_b)
-- [Disjunctive sum](https://en.wikipedia.org/wiki/Disjunctive_sum)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Dr. Nim](https://en.wikipedia.org/wiki/Dr._Nim)
-- [E. H. Moore](https://en.wikipedia.org/wiki/E._H._Moore)
-- [Exponentiation](https://en.wikipedia.org/wiki/Exponentiation)
-- [Ferranti](https://en.wikipedia.org/wiki/Ferranti)
-- [Festival of Britain](https://en.wikipedia.org/wiki/Festival_of_Britain)
-- [Fibonacci nim](https://en.wikipedia.org/wiki/Fibonacci_nim)
-- [Finite field](https://en.wikipedia.org/wiki/Finite_field)
-- [French New Wave](https://en.wikipedia.org/wiki/French_New_Wave)
-- [Fuzzy game](https://en.wikipedia.org/wiki/Fuzzy_game)
-- [Strategy game](https://en.wikipedia.org/wiki/Strategy_game)
-- [Genus theory](https://en.wikipedia.org/wiki/Genus_theory)
-- [Grundy's game](https://en.wikipedia.org/wiki/Grundy%27s_game)
-- [Hackenbush](https://en.wikipedia.org/wiki/Hackenbush)
-- [Harvard University](https://en.wikipedia.org/wiki/Harvard_University)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [If and only if](https://en.wikipedia.org/wiki/If_and_only_if)
-- [Impartial game](https://en.wikipedia.org/wiki/Impartial_game)
-- [Isaak Yaglom](https://en.wikipedia.org/wiki/Isaak_Yaglom)
-- [JSTOR](https://en.wikipedia.org/wiki/JSTOR)
-- [Kayles](https://en.wikipedia.org/wiki/Kayles)
-- [Last Year at Marienbad](https://en.wikipedia.org/wiki/Last_Year_at_Marienbad)
-- [Mathematical Reviews](https://en.wikipedia.org/wiki/Mathematical_Reviews)
-- [Manfred Eigen](https://en.wikipedia.org/wiki/Manfred_Eigen)
-- [Martin Gardner](https://en.wikipedia.org/wiki/Martin_Gardner)
-- [List of Martin Gardner Mathematical Games columns](https://en.wikipedia.org/wiki/List_of_Martin_Gardner_Mathematical_Games_columns)
-- [Mathematical game](https://en.wikipedia.org/wiki/Mathematical_game)
-- [Mathematics and the Imagination](https://en.wikipedia.org/wiki/Mathematics_and_the_Imagination)
-- [Misère](https://en.wikipedia.org/wiki/Mis%C3%A8re)
-- [Modular arithmetic](https://en.wikipedia.org/wiki/Modular_arithmetic)
-- [Sprague–Grundy theorem](https://en.wikipedia.org/wiki/Sprague%E2%80%93Grundy_theorem)
-- [NIM](https://en.wikipedia.org/wiki/NIM)
-- [Nim (programming language)](https://en.wikipedia.org/wiki/Nim_(programming_language))
-- [Nimatron](https://en.wikipedia.org/wiki/Nimatron)
-- [Nimber](https://en.wikipedia.org/wiki/Nimber)
-- [Nimrod (computer)](https://en.wikipedia.org/wiki/Nimrod_(computer))
-- [Notakto](https://en.wikipedia.org/wiki/Notakto)
-- [Octal game](https://en.wikipedia.org/wiki/Octal_game)
-- [Oxford English Dictionary](https://en.wikipedia.org/wiki/Oxford_English_Dictionary)
-- [Partially ordered set](https://en.wikipedia.org/wiki/Partially_ordered_set)
-- [Poset game](https://en.wikipedia.org/wiki/Poset_game)
-- [Raymond Redheffer](https://en.wikipedia.org/wiki/Raymond_Redheffer)
-- [Ruthild Winkler](https://en.wikipedia.org/wiki/Ruthild_Winkler)
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [Scientific American](https://en.wikipedia.org/wiki/Scientific_American)
-- [Sergei Tabachnikov](https://en.wikipedia.org/wiki/Sergei_Tabachnikov)
-- [Silvia Heubach](https://en.wikipedia.org/wiki/Silvia_Heubach)
-- [Solved game](https://en.wikipedia.org/wiki/Solved_game)
-- [Sprague–Grundy theorem](https://en.wikipedia.org/wiki/Sprague%E2%80%93Grundy_theorem)
-- [Star (game theory)](https://en.wikipedia.org/wiki/Star_(game_theory))
-- [Subtract a square](https://en.wikipedia.org/wiki/Subtract_a_square)
-- [Subtraction game](https://en.wikipedia.org/wiki/Subtraction_game)
-- [The New Yorker](https://en.wikipedia.org/wiki/The_New_Yorker)
-- [Tinkertoy](https://en.wikipedia.org/wiki/Tinkertoy)
-- [Total order](https://en.wikipedia.org/wiki/Total_order)
-- [Tri-nim](https://en.wikipedia.org/wiki/Tri-nim)
-- [Turing Tumble](https://en.wikipedia.org/wiki/Turing_Tumble)
-- [Ulam–Warburton automaton](https://en.wikipedia.org/wiki/Ulam%E2%80%93Warburton_automaton)
-- [Vacuous truth](https://en.wikipedia.org/wiki/Vacuous_truth)
-- [Westinghouse Electric Corporation](https://en.wikipedia.org/wiki/Westinghouse_Electric_Corporation)
-- [Winning Ways for Your Mathematical Plays](https://en.wikipedia.org/wiki/Winning_Ways_for_Your_Mathematical_Plays)
-- [Wythoff's game](https://en.wikipedia.org/wiki/Wythoff%27s_game)
-- [Zero game](https://en.wikipedia.org/wiki/Zero_game)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:37:38.357644+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:42 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 22975 bytes
+- **Word Count:** 3571 words

@@ -1,17 +1,16 @@
 # Fluidinfo
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:43:39.579492+00:00
+## Metadata
+- **Last Updated:** 2024-11-24 06:40:51 UTC
 - **Original Article:** [Fluidinfo](https://en.wikipedia.org/wiki/Fluidinfo)
 - **Language:** en
 - **Page ID:** 24374755
 
 ## Summary
-
 Fluidinfo, formerly named FluidDB until early 2011, is an online cloud data store based on an attribute-value centric data model. Fluidinfo is written in Python and characterized by a publicly writeable schema-less database that provides a  query language, a fine-grained permissions model and promotes data sharing, both publicly and in groups. The lack of an underlying RDBMS structure may classify Fluidinfo as a type of publicly writeable "collective database".
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Cloud storage
 - Category:NoSQL
@@ -83,48 +82,9 @@ Fluidinfo general discussion group
 Fluidinfo API/programmer discussion group
 Fluidinfo Blog
 
-## Related Articles
-
-### Internal Links
-
-- [Advanced Message Queuing Protocol](https://en.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol)
-- [Archive.today](https://en.wikipedia.org/wiki/Archive.today)
-- [Attribute–value system](https://en.wikipedia.org/wiki/Attribute%E2%80%93value_system)
-- [Barcelona](https://en.wikipedia.org/wiki/Barcelona)
-- [Cloud computing](https://en.wikipedia.org/wiki/Cloud_computing)
-- [Contextual Query Language](https://en.wikipedia.org/wiki/Contextual_Query_Language)
-- [DBpedia](https://en.wikipedia.org/wiki/DBpedia)
-- [Data sharing](https://en.wikipedia.org/wiki/Data_sharing)
-- [Delicious (website)](https://en.wikipedia.org/wiki/Delicious_(website))
-- [Entity–attribute–value model](https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model)
-- [Esther Dyson](https://en.wikipedia.org/wiki/Esther_Dyson)
-- [Freebase (database)](https://en.wikipedia.org/wiki/Freebase_(database))
-- [Information retrieval](https://en.wikipedia.org/wiki/Information_retrieval)
-- [Jason Calacanis](https://en.wikipedia.org/wiki/Jason_Calacanis)
-- [Linked data](https://en.wikipedia.org/wiki/Linked_data)
-- [Apache Lucene](https://en.wikipedia.org/wiki/Apache_Lucene)
-- [New York City](https://en.wikipedia.org/wiki/New_York_City)
-- [NoSQL](https://en.wikipedia.org/wiki/NoSQL)
-- [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL)
-- [Programmer](https://en.wikipedia.org/wiki/Programmer)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Query language](https://en.wikipedia.org/wiki/Query_language)
-- [Relational database](https://en.wikipedia.org/wiki/Relational_database)
-- [REST](https://en.wikipedia.org/wiki/REST)
-- [Robert Scoble](https://en.wikipedia.org/wiki/Robert_Scoble)
-- [Role-oriented programming](https://en.wikipedia.org/wiki/Role-oriented_programming)
-- [SQL](https://en.wikipedia.org/wiki/SQL)
-- [Semantic Web](https://en.wikipedia.org/wiki/Semantic_Web)
-- [Social bookmarking](https://en.wikipedia.org/wiki/Social_bookmarking)
-- [South by Southwest](https://en.wikipedia.org/wiki/South_by_Southwest)
-- [Tag (metadata)](https://en.wikipedia.org/wiki/Tag_(metadata))
-- [Apache Thrift](https://en.wikipedia.org/wiki/Apache_Thrift)
-- [Tim O'Reilly](https://en.wikipedia.org/wiki/Tim_O%27Reilly)
-- [Twisted (software)](https://en.wikipedia.org/wiki/Twisted_(software))
-- [Twitter](https://en.wikipedia.org/wiki/Twitter)
-- [United Kingdom](https://en.wikipedia.org/wiki/United_Kingdom)
-- [Wayback Machine](https://en.wikipedia.org/wiki/Wayback_Machine)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:43:39.579492+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:55 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 5154 bytes
+- **Word Count:** 796 words

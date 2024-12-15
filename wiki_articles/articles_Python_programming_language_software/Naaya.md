@@ -1,18 +1,17 @@
 # Naaya
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:59:28.142225+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 07:22:12 UTC
 - **Original Article:** [Naaya](https://en.wikipedia.org/wiki/Naaya)
 - **Language:** en
 - **Page ID:** 23196009
 
 ## Summary
-
 Naaya is an open source content management system built on top of the Zope Internet and application server. It is suited for people who want to quickly start a website and reduce to a minimum the need to refer to technical system administrators for its update and maintenance. Also, it is suited for creating networks of portals due to the integrated search across multiple sites, skinnable layout and support for creating self-installable toolkits.
-It is released under the Mozilla Public License (M
+It is released under the Mozilla Public License (MozPL or MPL) and it is designed in a modular and extensible way. It was initially developed by the European Environment Agency and several modules were added to suit the needs of other European institutions.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles needing additional references
 - Category:All articles with topics of unclear notability
@@ -53,30 +52,9 @@ References
 External links
 Naaya website
 
-## Related Articles
-
-### Internal Links
-
-- [Content management system](https://en.wikipedia.org/wiki/Content_management_system)
-- [European Environment Agency](https://en.wikipedia.org/wiki/European_Environment_Agency)
-- [Mozilla Public License](https://en.wikipedia.org/wiki/Mozilla_Public_License)
-- [Apache Subversion](https://en.wikipedia.org/wiki/Apache_Subversion)
-- [Trac](https://en.wikipedia.org/wiki/Trac)
-- [Web standards](https://en.wikipedia.org/wiki/Web_standards)
-- [Zope](https://en.wikipedia.org/wiki/Zope)
-- [Talk:Naaya](https://en.wikipedia.org/wiki/Talk:Naaya)
-- [Wikipedia:Deletion policy](https://en.wikipedia.org/wiki/Wikipedia:Deletion_policy)
-- [Wikipedia:Independent sources](https://en.wikipedia.org/wiki/Wikipedia:Independent_sources)
-- [Wikipedia:Merging](https://en.wikipedia.org/wiki/Wikipedia:Merging)
-- [Wikipedia:Notability](https://en.wikipedia.org/wiki/Wikipedia:Notability)
-- [Wikipedia:Redirect](https://en.wikipedia.org/wiki/Wikipedia:Redirect)
-- [Wikipedia:Reliable sources](https://en.wikipedia.org/wiki/Wikipedia:Reliable_sources)
-- [Wikipedia:Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Help:Referencing for beginners](https://en.wikipedia.org/wiki/Help:Referencing_for_beginners)
-- [Category:Articles needing additional references from July 2009](https://en.wikipedia.org/wiki/Category:Articles_needing_additional_references_from_July_2009)
-- [Category:Articles with topics of unclear notability from September 2016](https://en.wikipedia.org/wiki/Category:Articles_with_topics_of_unclear_notability_from_September_2016)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:59:28.142225+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:58 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 2902 bytes
+- **Word Count:** 429 words

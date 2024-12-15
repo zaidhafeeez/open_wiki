@@ -1,17 +1,41 @@
 # Sample entropy
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:44:42.087327+00:00
+## Metadata
+- **Last Updated:** 2024-12-04 12:33:31 UTC
 - **Original Article:** [Sample entropy](https://en.wikipedia.org/wiki/Sample_entropy)
 - **Language:** en
 - **Page ID:** 39507630
 
 ## Summary
-
-Sample entropy (SampEn; more appropriately K_2 entropy or Takens-Grassberger-Procaccia correlation entropy ) is a modification of approximate entropy (ApEn;  more appropriately "Procaccia-Cohen entropy"), used for assessing the complexity of physiological and other time-series signals, diagnosing e.g. diseased states. SampEn has two advantages over ApEn: data length independence and a relatively trouble-free implementation. Also, there is a small computational difference: In ApEn, the comparison
+Sample entropy (SampEn; more appropriately K_2 entropy or Takens-Grassberger-Procaccia correlation entropy ) is a modification of approximate entropy (ApEn;  more appropriately "Procaccia-Cohen entropy"), used for assessing the complexity of physiological and other time-series signals, diagnosing e.g. diseased states. SampEn has two advantages over ApEn: data length independence and a relatively trouble-free implementation. Also, there is a small computational difference: In ApEn, the comparison between the template vector (see below) and the rest of the vectors also includes comparison with itself. This guarantees that probabilities 
+  
+    
+      
+        
+          C
+          
+            i
+          
+          
+            ′
+            
+              m
+            
+          
+        
+        (
+        r
+        )
+      
+    
+    {\displaystyle C_{i}'^{m}(r)}
+  
+ are never zero. Consequently, it is always possible to take a logarithm of probabilities. Because template comparisons with itself lower ApEn values, the signals are interpreted to be more regular than they actually are. These self-matches are not included in SampEn. However, since SampEn makes direct use of the correlation integrals, it is not a real measure of information but an approximation. The foundations and differences with ApEn, as well as a step-by-step tutorial for its application is available at.
+SampEn is indeed identical to the "correlation entropy" K_2 of Grassberger & Procaccia , except that it is suggested in the latter that certain limits should be taken in order to achieve a result invariant under changes of variables. No such limits and no invariance properties are considered in SampEn.
+There is a multiscale version of SampEn as well, suggested by Costa and others. SampEn can be used in biomedical and biomechanical research, for example to evaluate postural control.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles with too many examples
 - Category:Articles with example Python (programming language) code
@@ -750,35 +774,9 @@ Approximate entropy
 
 == References ==
 
-## Related Articles
-
-### Internal Links
-
-- [Approximate entropy](https://en.wikipedia.org/wiki/Approximate_entropy)
-- [Bibcode](https://en.wikipedia.org/wiki/Bibcode)
-- [Chebyshev distance](https://en.wikipedia.org/wiki/Chebyshev_distance)
-- [Complexity](https://en.wikipedia.org/wiki/Complexity)
-- [Unit of observation](https://en.wikipedia.org/wiki/Unit_of_observation)
-- [Dimension](https://en.wikipedia.org/wiki/Dimension)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Embedding](https://en.wikipedia.org/wiki/Embedding)
-- [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance)
-- [Kolmogorov complexity](https://en.wikipedia.org/wiki/Kolmogorov_complexity)
-- [Logarithm](https://en.wikipedia.org/wiki/Logarithm)
-- [PubMed Central](https://en.wikipedia.org/wiki/PubMed_Central)
-- [PubMed](https://en.wikipedia.org/wiki/PubMed)
-- [Probability](https://en.wikipedia.org/wiki/Probability)
-- [Self-similarity](https://en.wikipedia.org/wiki/Self-similarity)
-- [Standard deviation](https://en.wikipedia.org/wiki/Standard_deviation)
-- [Time series](https://en.wikipedia.org/wiki/Time_series)
-- [Tolerance interval](https://en.wikipedia.org/wiki/Tolerance_interval)
-- [Vector (mathematics and physics)](https://en.wikipedia.org/wiki/Vector_(mathematics_and_physics))
-- [Wikipedia:Example cruft](https://en.wikipedia.org/wiki/Wikipedia:Example_cruft)
-- [Wikipedia:Manual of Style/Lists](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Lists)
-- [Wikipedia:Neutral point of view](https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view)
-- [Category:Articles with too many examples from July 2024](https://en.wikipedia.org/wiki/Category:Articles_with_too_many_examples_from_July_2024)
-- [Category:Wikipedia articles with style issues from July 2024](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_with_style_issues_from_July_2024)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:44:42.087327+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:55 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 10699 bytes
+- **Word Count:** 961 words

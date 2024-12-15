@@ -1,18 +1,20 @@
 # Mutator method
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:37:37.539585+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 06:55:19 UTC
 - **Original Article:** [Mutator method](https://en.wikipedia.org/wiki/Mutator_method)
 - **Language:** en
 - **Page ID:** 1113819
 
 ## Summary
-
 In computer science, a mutator method is a method used to control changes to a variable. They are also widely known as setter methods. Often a setter is accompanied by a getter, which returns the value of the private member variable. They are also known collectively as accessors.
-The mutator method is most often used in object-oriented programming, in keeping with the principle of encapsulation. According to this principle, member variables of a class are made private to hide and protect them fr
+The mutator method is most often used in object-oriented programming, in keeping with the principle of encapsulation. According to this principle, member variables of a class are made private to hide and protect them from other code, and can only be modified by a public member function (the mutator method), which takes the desired new value as a parameter, optionally validates it, and modifies the private member variable. Mutator methods can be compared to assignment operator overloading but they typically appear at different levels of the object hierarchy.
+Mutator methods may also be used in non-object-oriented environments. In this case, a reference to the variable to be modified is passed to the mutator, along with the new value. In this scenario, the compiler cannot restrict code from bypassing the mutator method and changing the variable directly. The responsibility falls to the developers to ensure the variable is only modified through the mutator method and not modified directly.
+In programming languages that support them, properties offer a convenient alternative without giving up the utility of encapsulation.
+In the examples below, a fully implemented mutator method can also validate the input data or take further action such as triggering an event.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example BASIC code
 - Category:Articles with example C++ code
@@ -151,51 +153,9 @@ Immutable object
 
 == References ==
 
-## Related Articles
-
-### Internal Links
-
-- [Agile software development](https://en.wikipedia.org/wiki/Agile_software_development)
-- [Assignment (computer science)](https://en.wikipedia.org/wiki/Assignment_(computer_science))
-- [Block (programming)](https://en.wikipedia.org/wiki/Block_(programming))
-- [Boilerplate code](https://en.wikipedia.org/wiki/Boilerplate_code)
-- [C Sharp (programming language)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
-- [Class (computer programming)](https://en.wikipedia.org/wiki/Class_(computer_programming))
-- [Common Lisp Object System](https://en.wikipedia.org/wiki/Common_Lisp_Object_System)
-- [Computer science](https://en.wikipedia.org/wiki/Computer_science)
-- [Cross-validation (statistics)](https://en.wikipedia.org/wiki/Cross-validation_(statistics))
-- [D (programming language)](https://en.wikipedia.org/wiki/D_(programming_language))
-- [Data integrity](https://en.wikipedia.org/wiki/Data_integrity)
-- [Data validation](https://en.wikipedia.org/wiki/Data_validation)
-- [ECMAScript version history](https://en.wikipedia.org/wiki/ECMAScript_version_history)
-- [Encapsulation (computer programming)](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming))
-- [Event (computing)](https://en.wikipedia.org/wiki/Event_(computing))
-- [GNUstep](https://en.wikipedia.org/wiki/GNUstep)
-- [IOS 4](https://en.wikipedia.org/wiki/IOS_4)
-- [IOS 6](https://en.wikipedia.org/wiki/IOS_6)
-- [Immutable object](https://en.wikipedia.org/wiki/Immutable_object)
-- [Indexer (programming)](https://en.wikipedia.org/wiki/Indexer_(programming))
-- [Information hiding](https://en.wikipedia.org/wiki/Information_hiding)
-- [Inline function](https://en.wikipedia.org/wiki/Inline_function)
-- [Instance variable](https://en.wikipedia.org/wiki/Instance_variable)
-- [Mac OS X Snow Leopard](https://en.wikipedia.org/wiki/Mac_OS_X_Snow_Leopard)
-- [Member variable](https://en.wikipedia.org/wiki/Member_variable)
-- [Method (computer programming)](https://en.wikipedia.org/wiki/Method_(computer_programming))
-- [Moose (Perl)](https://en.wikipedia.org/wiki/Moose_(Perl))
-- [OS X Mountain Lion](https://en.wikipedia.org/wiki/OS_X_Mountain_Lion)
-- [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
-- [Operator overloading](https://en.wikipedia.org/wiki/Operator_overloading)
-- [Pointer (computer programming)](https://en.wikipedia.org/wiki/Pointer_(computer_programming))
-- [Property (programming)](https://en.wikipedia.org/wiki/Property_(programming))
-- [Racket (programming language)](https://en.wikipedia.org/wiki/Racket_(programming_language))
-- [Ruby (programming language)](https://en.wikipedia.org/wiki/Ruby_(programming_language))
-- [Software bug](https://en.wikipedia.org/wiki/Software_bug)
-- [Software development](https://en.wikipedia.org/wiki/Software_development)
-- [Software maintenance](https://en.wikipedia.org/wiki/Software_maintenance)
-- [Ubuntu version history](https://en.wikipedia.org/wiki/Ubuntu_version_history)
-- [Variable (computer science)](https://en.wikipedia.org/wiki/Variable_(computer_science))
-- [Xcode](https://en.wikipedia.org/wiki/Xcode)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:37:37.539585+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:40 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 9535 bytes
+- **Word Count:** 1501 words

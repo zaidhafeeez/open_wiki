@@ -1,17 +1,17 @@
 # Pancake sorting
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:40:28.395812+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 06:53:22 UTC
 - **Original Article:** [Pancake sorting](https://en.wikipedia.org/wiki/Pancake_sorting)
 - **Language:** en
 - **Page ID:** 478065
 
 ## Summary
-
-Pancake sorting is the mathematical problem of sorting a disordered stack of pancakes in order of size when a spatula can be inserted at any point in the stack and used to flip all pancakes above it.  A pancake number is the minimum number of flips required for a given number of pancakes. In this form, the problem was first discussed by American geometer Jacob E. Goodman. A variant of the problem is concerned with burnt pancakes, where each pancake has a burnt side and all pancakes must, in addi
+Pancake sorting is the mathematical problem of sorting a disordered stack of pancakes in order of size when a spatula can be inserted at any point in the stack and used to flip all pancakes above it.  A pancake number is the minimum number of flips required for a given number of pancakes. In this form, the problem was first discussed by American geometer Jacob E. Goodman. A variant of the problem is concerned with burnt pancakes, where each pancake has a burnt side and all pancakes must, in addition, end up with the burnt side on bottom.
+All sorting methods require pairs of elements to be compared. For the traditional sorting problem, the usual problem studied is to minimize the number of comparisons required to sort a list. The number of actual operations, such as swapping two elements, is then irrelevant. For pancake sorting problems, in contrast, the aim is to minimize the number of operations, where the only allowed operations are reversals of the elements of some prefix of the sequence. Now, the number of comparisons is irrelevant.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example Python (programming language) code
 - Category:Articles with short description
@@ -172,125 +172,9 @@ Cut-the-Knot: Flipping pancakes puzzle, including a Java applet for the pancake 
 Douglas B. West's "The Pancake Problems"
 Weisstein, Eric W. "Pancake Sorting". MathWorld.
 
-## Related Articles
-
-### Internal Links
-
-- [Adaptive sort](https://en.wikipedia.org/wiki/Adaptive_sort)
-- [American flag sort](https://en.wikipedia.org/wiki/American_flag_sort)
-- [ArXiv](https://en.wikipedia.org/wiki/ArXiv)
-- [Batcher odd–even mergesort](https://en.wikipedia.org/wiki/Batcher_odd%E2%80%93even_mergesort)
-- [Bead sort](https://en.wikipedia.org/wiki/Bead_sort)
-- [Big O notation](https://en.wikipedia.org/wiki/Big_O_notation)
-- [Bill Gates](https://en.wikipedia.org/wiki/Bill_Gates)
-- [Bitonic sorter](https://en.wikipedia.org/wiki/Bitonic_sorter)
-- [Block sort](https://en.wikipedia.org/wiki/Block_sort)
-- [Bogosort](https://en.wikipedia.org/wiki/Bogosort)
-- [Bubble sort](https://en.wikipedia.org/wiki/Bubble_sort)
-- [Bucket sort](https://en.wikipedia.org/wiki/Bucket_sort)
-- [Burstsort](https://en.wikipedia.org/wiki/Burstsort)
-- [Cartesian tree](https://en.wikipedia.org/wiki/Cartesian_tree)
-- [Cascade merge sort](https://en.wikipedia.org/wiki/Cascade_merge_sort)
-- [Cayley graph](https://en.wikipedia.org/wiki/Cayley_graph)
-- [Christos Papadimitriou](https://en.wikipedia.org/wiki/Christos_Papadimitriou)
-- [CiteSeerX](https://en.wikipedia.org/wiki/CiteSeerX)
-- [Cocktail shaker sort](https://en.wikipedia.org/wiki/Cocktail_shaker_sort)
-- [Colva Roney-Dougal](https://en.wikipedia.org/wiki/Colva_Roney-Dougal)
-- [Comb sort](https://en.wikipedia.org/wiki/Comb_sort)
-- [Comparison sort](https://en.wikipedia.org/wiki/Comparison_sort)
-- [Computational complexity theory](https://en.wikipedia.org/wiki/Computational_complexity_theory)
-- [Counting sort](https://en.wikipedia.org/wiki/Counting_sort)
-- [Cycle sort](https://en.wikipedia.org/wiki/Cycle_sort)
-- [DNA computing](https://en.wikipedia.org/wiki/DNA_computing)
-- [David X. Cohen](https://en.wikipedia.org/wiki/David_X._Cohen)
-- [Dense graph](https://en.wikipedia.org/wiki/Dense_graph)
-- [Discrete Mathematics (journal)](https://en.wikipedia.org/wiki/Discrete_Mathematics_(journal))
-- [Distance (graph theory)](https://en.wikipedia.org/wiki/Distance_(graph_theory))
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Eric W. Weisstein](https://en.wikipedia.org/wiki/Eric_W._Weisstein)
-- [Escherichia coli](https://en.wikipedia.org/wiki/Escherichia_coli)
-- [Flashsort](https://en.wikipedia.org/wiki/Flashsort)
-- [Futurama](https://en.wikipedia.org/wiki/Futurama)
-- [Girth (graph theory)](https://en.wikipedia.org/wiki/Girth_(graph_theory))
-- [Gnome sort](https://en.wikipedia.org/wiki/Gnome_sort)
-- [Graph embedding](https://en.wikipedia.org/wiki/Graph_embedding)
-- [Heapsort](https://en.wikipedia.org/wiki/Heapsort)
-- [Hybrid algorithm](https://en.wikipedia.org/wiki/Hybrid_algorithm)
-- [Hypercube graph](https://en.wikipedia.org/wiki/Hypercube_graph)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [In-place algorithm](https://en.wikipedia.org/wiki/In-place_algorithm)
-- [Insertion sort](https://en.wikipedia.org/wiki/Insertion_sort)
-- [Integer sorting](https://en.wikipedia.org/wiki/Integer_sorting)
-- [Interpolation sort](https://en.wikipedia.org/wiki/Interpolation_sort)
-- [Introsort](https://en.wikipedia.org/wiki/Introsort)
-- [JSTOR](https://en.wikipedia.org/wiki/JSTOR)
-- [Jacob E. Goodman](https://en.wikipedia.org/wiki/Jacob_E._Goodman)
-- [Kirkpatrick–Reisch sort](https://en.wikipedia.org/wiki/Kirkpatrick%E2%80%93Reisch_sort)
-- [Laurie Heyer](https://en.wikipedia.org/wiki/Laurie_Heyer)
-- [Library sort](https://en.wikipedia.org/wiki/Library_sort)
-- [List (abstract data type)](https://en.wikipedia.org/wiki/List_(abstract_data_type))
-- [Mathematical Reviews](https://en.wikipedia.org/wiki/Mathematical_Reviews)
-- [Manuel Blum](https://en.wikipedia.org/wiki/Manuel_Blum)
-- [Marek Karpinski](https://en.wikipedia.org/wiki/Marek_Karpinski)
-- [MathWorld](https://en.wikipedia.org/wiki/MathWorld)
-- [Merge-insertion sort](https://en.wikipedia.org/wiki/Merge-insertion_sort)
-- [Merge sort](https://en.wikipedia.org/wiki/Merge_sort)
-- [Microsoft](https://en.wikipedia.org/wiki/Microsoft)
-- [NP-completeness](https://en.wikipedia.org/wiki/NP-completeness)
-- [NP-hardness](https://en.wikipedia.org/wiki/NP-hardness)
-- [Odd–even sort](https://en.wikipedia.org/wiki/Odd%E2%80%93even_sort)
-- [On-Line Encyclopedia of Integer Sequences](https://en.wikipedia.org/wiki/On-Line_Encyclopedia_of_Integer_Sequences)
-- [Oscillating merge sort](https://en.wikipedia.org/wiki/Oscillating_merge_sort)
-- [PubMed Central](https://en.wikipedia.org/wiki/PubMed_Central)
-- [PubMed](https://en.wikipedia.org/wiki/PubMed)
-- [Pairwise sorting network](https://en.wikipedia.org/wiki/Pairwise_sorting_network)
-- [Pancake graph](https://en.wikipedia.org/wiki/Pancake_graph)
-- [Parallel computing](https://en.wikipedia.org/wiki/Parallel_computing)
-- [Patience sorting](https://en.wikipedia.org/wiki/Patience_sorting)
-- [Permutation](https://en.wikipedia.org/wiki/Permutation)
-- [Pigeonhole sort](https://en.wikipedia.org/wiki/Pigeonhole_sort)
-- [Polyphase merge sort](https://en.wikipedia.org/wiki/Polyphase_merge_sort)
-- [Pre-topological order](https://en.wikipedia.org/wiki/Pre-topological_order)
-- [Substring](https://en.wikipedia.org/wiki/Substring)
-- [Proportion extend sort](https://en.wikipedia.org/wiki/Proportion_extend_sort)
-- [Proxmap sort](https://en.wikipedia.org/wiki/Proxmap_sort)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Quantum sort](https://en.wikipedia.org/wiki/Quantum_sort)
-- [Quicksort](https://en.wikipedia.org/wiki/Quicksort)
-- [Radix sort](https://en.wikipedia.org/wiki/Radix_sort)
-- [Regular graph](https://en.wikipedia.org/wiki/Regular_graph)
-- [Robert Tarjan](https://en.wikipedia.org/wiki/Robert_Tarjan)
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [Samplesort](https://en.wikipedia.org/wiki/Samplesort)
-- [Selection algorithm](https://en.wikipedia.org/wiki/Selection_algorithm)
-- [Selection sort](https://en.wikipedia.org/wiki/Selection_sort)
-- [Shellsort](https://en.wikipedia.org/wiki/Shellsort)
-- [Simon Singh](https://en.wikipedia.org/wiki/Simon_Singh)
-- [Slowsort](https://en.wikipedia.org/wiki/Slowsort)
-- [Smoothsort](https://en.wikipedia.org/wiki/Smoothsort)
-- [Sorting algorithm](https://en.wikipedia.org/wiki/Sorting_algorithm)
-- [Sorting network](https://en.wikipedia.org/wiki/Sorting_network)
-- [Sorting algorithm](https://en.wikipedia.org/wiki/Sorting_algorithm)
-- [Spaghetti sort](https://en.wikipedia.org/wiki/Spaghetti_sort)
-- [Spatula](https://en.wikipedia.org/wiki/Spatula)
-- [Splaysort](https://en.wikipedia.org/wiki/Splaysort)
-- [Spreadsort](https://en.wikipedia.org/wiki/Spreadsort)
-- [Stooge sort](https://en.wikipedia.org/wiki/Stooge_sort)
-- [The Guardian](https://en.wikipedia.org/wiki/The_Guardian)
-- [Timsort](https://en.wikipedia.org/wiki/Timsort)
-- [Topological sorting](https://en.wikipedia.org/wiki/Topological_sorting)
-- [Total order](https://en.wikipedia.org/wiki/Total_order)
-- [Tournament sort](https://en.wikipedia.org/wiki/Tournament_sort)
-- [Transdichotomous model](https://en.wikipedia.org/wiki/Transdichotomous_model)
-- [Tree sort](https://en.wikipedia.org/wiki/Tree_sort)
-- [University of Texas at Dallas](https://en.wikipedia.org/wiki/University_of_Texas_at_Dallas)
-- [Vertex-transitive graph](https://en.wikipedia.org/wiki/Vertex-transitive_graph)
-- [Weak heap](https://en.wikipedia.org/wiki/Weak_heap)
-- [X + Y sorting](https://en.wikipedia.org/wiki/X_%2B_Y_sorting)
-- [Template:Sorting](https://en.wikipedia.org/wiki/Template:Sorting)
-- [Template talk:Sorting](https://en.wikipedia.org/wiki/Template_talk:Sorting)
-- [Category:Use mdy dates from October 2014](https://en.wikipedia.org/wiki/Category:Use_mdy_dates_from_October_2014)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:40:28.395812+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:46 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 8153 bytes
+- **Word Count:** 1197 words

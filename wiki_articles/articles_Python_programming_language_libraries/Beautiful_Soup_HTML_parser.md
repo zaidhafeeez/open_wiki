@@ -1,17 +1,16 @@
 # Beautiful Soup (HTML parser)
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:25:50.619410+00:00
+## Metadata
+- **Last Updated:** 2024-12-06 05:56:43 UTC
 - **Original Article:** [Beautiful Soup (HTML parser)](https://en.wikipedia.org/wiki/Beautiful_Soup_(HTML_parser))
 - **Language:** en
 - **Page ID:** 35537613
 
 ## Summary
-
 Beautiful Soup is a Python package for parsing HTML and XML documents, including those with malformed markup. It creates a parse tree for documents that can be used to extract data from HTML, which is useful for web scraping.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles with unsourced statements
 - Category:Articles with short description
@@ -54,37 +53,9 @@ Nokogiri
 
 == References ==
 
-## Related Articles
-
-### Internal Links
-
-- [Alice's Adventures in Wonderland](https://en.wikipedia.org/wiki/Alice%27s_Adventures_in_Wonderland)
-- [Beautiful Soup](https://en.wikipedia.org/wiki/Beautiful_Soup)
-- [Comparison of HTML parsers](https://en.wikipedia.org/wiki/Comparison_of_HTML_parsers)
-- [Computing platform](https://en.wikipedia.org/wiki/Computing_platform)
-- [Control flow](https://en.wikipedia.org/wiki/Control_flow)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [HTML](https://en.wikipedia.org/wiki/HTML)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Jsoup](https://en.wikipedia.org/wiki/Jsoup)
-- [MIT License](https://en.wikipedia.org/wiki/MIT_License)
-- [Nokogiri (software)](https://en.wikipedia.org/wiki/Nokogiri_(software))
-- [Parse tree](https://en.wikipedia.org/wiki/Parse_tree)
-- [Programmer](https://en.wikipedia.org/wiki/Programmer)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Python Software Foundation License](https://en.wikipedia.org/wiki/Python_Software_Foundation_License)
-- [Repository (version control)](https://en.wikipedia.org/wiki/Repository_(version_control))
-- [Software categories](https://en.wikipedia.org/wiki/Software_categories)
-- [Software license](https://en.wikipedia.org/wiki/Software_license)
-- [Software release life cycle](https://en.wikipedia.org/wiki/Software_release_life_cycle)
-- [Standard library](https://en.wikipedia.org/wiki/Standard_library)
-- [Tag soup](https://en.wikipedia.org/wiki/Tag_soup)
-- [Web scraping](https://en.wikipedia.org/wiki/Web_scraping)
-- [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia)
-- [XML](https://en.wikipedia.org/wiki/XML)
-- [Wikipedia:Citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed)
-- [Category:Articles with unsourced statements from May 2024](https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_May_2024)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:25:50.619410+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:25 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 1298 bytes
+- **Word Count:** 213 words

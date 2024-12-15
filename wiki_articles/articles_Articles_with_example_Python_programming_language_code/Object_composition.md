@@ -1,18 +1,17 @@
 # Object composition
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:37:39.097644+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 06:57:25 UTC
 - **Original Article:** [Object composition](https://en.wikipedia.org/wiki/Object_composition)
 - **Language:** en
 - **Page ID:** 1911078
 
 ## Summary
-
 In computer science, object composition and object aggregation are closely related ways to combine objects or data types into more complex ones. In conversation, the distinction between composition and aggregation is often ignored. Common kinds of compositions are objects used in object-oriented programming,  tagged unions, sets, sequences, and various graph structures. Object compositions relate to, but are not the same as, data structures. 
-Object composition refers to the logical or conceptua
+Object composition refers to the logical or conceptual structure of the information, not the implementation or physical data structure used to represent it. For example, a sequence differs from a set because (among other things) the order of the composed items matters for the former but not the latter. Data structures such as arrays, linked lists, hash tables, and many others can be used to implement either of them. Perhaps confusingly, some of the same terms are used for both data structures and composites. For example, "binary tree" can refer to either: as a data structure it is a means of accessing a linear sequence of items, and the actual positions of items in the tree are irrelevant (the tree can be internally rearranged however one likes, without changing its meaning). However, as an object composition, the positions are relevant, and changing them would change the meaning (as for example in cladograms).
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All Wikipedia articles written in American English
 - Category:All articles with too many examples
@@ -170,103 +169,9 @@ External links
 Association, Aggregation and Composition, accessed in February 2009
 Harald Störrle, UML2, Addison-Wesley, 2005
 
-## Related Articles
-
-### Internal Links
-
-- [ALGOL 68](https://en.wikipedia.org/wiki/ALGOL_68)
-- [ALGOL 60](https://en.wikipedia.org/wiki/ALGOL_60)
-- [Array (data structure)](https://en.wikipedia.org/wiki/Array_(data_structure))
-- [Array](https://en.wikipedia.org/wiki/Array)
-- [Associative array](https://en.wikipedia.org/wiki/Associative_array)
-- [Binary tree](https://en.wikipedia.org/wiki/Binary_tree)
-- [C++](https://en.wikipedia.org/wiki/C%2B%2B)
-- [C++ classes](https://en.wikipedia.org/wiki/C%2B%2B_classes)
-- [COBOL](https://en.wikipedia.org/wiki/COBOL)
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [Chemistry](https://en.wikipedia.org/wiki/Chemistry)
-- [Cladogram](https://en.wikipedia.org/wiki/Cladogram)
-- [Class (computer programming)](https://en.wikipedia.org/wiki/Class_(computer_programming))
-- [Class (computer programming)](https://en.wikipedia.org/wiki/Class_(computer_programming))
-- [Common Lisp](https://en.wikipedia.org/wiki/Common_Lisp)
-- [Common Lisp Object System](https://en.wikipedia.org/wiki/Common_Lisp_Object_System)
-- [Component Object Model](https://en.wikipedia.org/wiki/Component_Object_Model)
-- [Composite data type](https://en.wikipedia.org/wiki/Composite_data_type)
-- [Composite pattern](https://en.wikipedia.org/wiki/Composite_pattern)
-- [Composite data type](https://en.wikipedia.org/wiki/Composite_data_type)
-- [Object composition](https://en.wikipedia.org/wiki/Object_composition)
-- [Composition over inheritance](https://en.wikipedia.org/wiki/Composition_over_inheritance)
-- [Computer science](https://en.wikipedia.org/wiki/Computer_science)
-- [Container (abstract data type)](https://en.wikipedia.org/wiki/Container_(abstract_data_type))
-- [Data structure](https://en.wikipedia.org/wiki/Data_structure)
-- [Data type](https://en.wikipedia.org/wiki/Data_type)
-- [Delegation (object-oriented programming)](https://en.wikipedia.org/wiki/Delegation_(object-oriented_programming))
-- [Delegation (computing)](https://en.wikipedia.org/wiki/Delegation_(computing))
-- [Directed acyclic graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Encapsulation (computer programming)](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming))
-- [Encapsulation (computer programming)](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming))
-- [Fortran](https://en.wikipedia.org/wiki/Fortran)
-- [Field (computer science)](https://en.wikipedia.org/wiki/Field_(computer_science))
-- [Function composition (computer science)](https://en.wikipedia.org/wiki/Function_composition_(computer_science))
-- [Graph (abstract data type)](https://en.wikipedia.org/wiki/Graph_(abstract_data_type))
-- [Has-a](https://en.wikipedia.org/wiki/Has-a)
-- [Hash table](https://en.wikipedia.org/wiki/Hash_table)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [ISSN](https://en.wikipedia.org/wiki/ISSN)
-- [IUnknown](https://en.wikipedia.org/wiki/IUnknown)
-- [Inheritance (object-oriented programming)](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming))
-- [Behavioral subtyping](https://en.wikipedia.org/wiki/Behavioral_subtyping)
-- [Interface (computing)](https://en.wikipedia.org/wiki/Interface_(computing))
-- [Interface (object-oriented programming)](https://en.wikipedia.org/wiki/Interface_(object-oriented_programming))
-- [Is-a](https://en.wikipedia.org/wiki/Is-a)
-- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-- [Java (programming language)](https://en.wikipedia.org/wiki/Java_(programming_language))
-- [Law of Demeter](https://en.wikipedia.org/wiki/Law_of_Demeter)
-- [Linked list](https://en.wikipedia.org/wiki/Linked_list)
-- [Linked list](https://en.wikipedia.org/wiki/Linked_list)
-- [Liskov substitution principle](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
-- [ML (programming language)](https://en.wikipedia.org/wiki/ML_(programming_language))
-- [Mereology](https://en.wikipedia.org/wiki/Mereology)
-- [OCLC](https://en.wikipedia.org/wiki/OCLC)
-- [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
-- [Object-oriented analysis and design](https://en.wikipedia.org/wiki/Object-oriented_analysis_and_design)
-- [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
-- [Object (computer science)](https://en.wikipedia.org/wiki/Object_(computer_science))
-- [Object lifetime](https://en.wikipedia.org/wiki/Object_lifetime)
-- [Ontology](https://en.wikipedia.org/wiki/Ontology)
-- [Pascal (programming language)](https://en.wikipedia.org/wiki/Pascal_(programming_language))
-- [Programming language](https://en.wikipedia.org/wiki/Programming_language)
-- [Prototype-based programming](https://en.wikipedia.org/wiki/Prototype-based_programming)
-- [Recursive data type](https://en.wikipedia.org/wiki/Recursive_data_type)
-- [Role](https://en.wikipedia.org/wiki/Role)
-- [Ontology components](https://en.wikipedia.org/wiki/Ontology_components)
-- [Sequence](https://en.wikipedia.org/wiki/Sequence)
-- [Set (abstract data type)](https://en.wikipedia.org/wiki/Set_(abstract_data_type))
-- [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk)
-- [Storage record](https://en.wikipedia.org/wiki/Storage_record)
-- [Strong and weak typing](https://en.wikipedia.org/wiki/Strong_and_weak_typing)
-- [Struct (C programming language)](https://en.wikipedia.org/wiki/Struct_(C_programming_language))
-- [Subtyping](https://en.wikipedia.org/wiki/Subtyping)
-- [Tagged union](https://en.wikipedia.org/wiki/Tagged_union)
-- [Tree (abstract data type)](https://en.wikipedia.org/wiki/Tree_(abstract_data_type))
-- [Tuple](https://en.wikipedia.org/wiki/Tuple)
-- [Unified Modeling Language](https://en.wikipedia.org/wiki/Unified_Modeling_Language)
-- [University](https://en.wikipedia.org/wiki/University)
-- [Virtual inheritance](https://en.wikipedia.org/wiki/Virtual_inheritance)
-- [Wikipedia:Citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed)
-- [Wikipedia:Example cruft](https://en.wikipedia.org/wiki/Wikipedia:Example_cruft)
-- [Wikipedia:Manual of Style/Lists](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Lists)
-- [Wikipedia:Neutral point of view](https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view)
-- [Template:Cite book](https://en.wikipedia.org/wiki/Template:Cite_book)
-- [Category:Articles with too many examples from August 2010](https://en.wikipedia.org/wiki/Category:Articles_with_too_many_examples_from_August_2010)
-- [Category:Articles with unsourced statements from April 2018](https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_April_2018)
-- [Category:Articles with unsourced statements from October 2020](https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_October_2020)
-- [Category:CS1 maint: others](https://en.wikipedia.org/wiki/Category:CS1_maint:_others)
-- [Category:Use American English from January 2019](https://en.wikipedia.org/wiki/Category:Use_American_English_from_January_2019)
-- [Category:Use mdy dates from January 2019](https://en.wikipedia.org/wiki/Category:Use_mdy_dates_from_January_2019)
-- [Category:Wikipedia articles with style issues from August 2010](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_with_style_issues_from_August_2010)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:37:39.097644+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:43 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 11631 bytes
+- **Word Count:** 1804 words

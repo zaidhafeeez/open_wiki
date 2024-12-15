@@ -1,18 +1,17 @@
 # Winsorizing
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:54:55.191556+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 06:57:01 UTC
 - **Original Article:** [Winsorizing](https://en.wikipedia.org/wiki/Winsorizing)
 - **Language:** en
 - **Page ID:** 1767926
 
 ## Summary
-
 Winsorizing or winsorization is the transformation of statistics by limiting extreme values in the statistical data to reduce the effect of possibly spurious outliers. It is named after the engineer-turned-biostatistician Charles P. Winsor (1895–1951). The effect is the same as clipping in signal processing.
-The distribution of many statistics can be heavily influenced by outliers, values that are 'way outside' the bulk of the data. A typical strategy to account for, without eliminating altogeth
+The distribution of many statistics can be heavily influenced by outliers, values that are 'way outside' the bulk of the data. A typical strategy to account for, without eliminating altogether, these outlier values is to 'reset' outliers to a specified percentile (or an upper and lower percentile) of the data.  For example, a 90% winsorization would see all data below the 5th percentile set to the 5th percentile, and all data above the 95th percentile set to the 95th percentile. Winsorized estimators are usually more robust to outliers than their more standard forms, although there are alternatives, such as trimming (see below), that will achieve a similar effect.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example Python (programming language) code
 - Category:Articles with example R code
@@ -79,42 +78,9 @@ Tukey, J. W. (1962). "The Future of Data Analysis". Annals of Mathematical Stati
 External links
 "Winsorization". R-bloggers. June 30, 2011.
 
-## Related Articles
-
-### Internal Links
-
-- [Annals of Mathematical Statistics](https://en.wikipedia.org/wiki/Annals_of_Mathematical_Statistics)
-- [Bibcode](https://en.wikipedia.org/wiki/Bibcode)
-- [Censoring (statistics)](https://en.wikipedia.org/wiki/Censoring_(statistics))
-- [Charles Winsor](https://en.wikipedia.org/wiki/Charles_Winsor)
-- [Clipping (signal processing)](https://en.wikipedia.org/wiki/Clipping_(signal_processing))
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Estimator](https://en.wikipedia.org/wiki/Estimator)
-- [Maximum and minimum](https://en.wikipedia.org/wiki/Maximum_and_minimum)
-- [Huber loss](https://en.wikipedia.org/wiki/Huber_loss)
-- [ISSN](https://en.wikipedia.org/wiki/ISSN)
-- [JSTOR](https://en.wikipedia.org/wiki/JSTOR)
-- [John Tukey](https://en.wikipedia.org/wiki/John_Tukey)
-- [MSCI](https://en.wikipedia.org/wiki/MSCI)
-- [Order statistic](https://en.wikipedia.org/wiki/Order_statistic)
-- [Outlier](https://en.wikipedia.org/wiki/Outlier)
-- [PubMed Central](https://en.wikipedia.org/wiki/PubMed_Central)
-- [PubMed](https://en.wikipedia.org/wiki/PubMed)
-- [Percentile](https://en.wikipedia.org/wiki/Percentile)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [R (programming language)](https://en.wikipedia.org/wiki/R_(programming_language))
-- [Robust regression](https://en.wikipedia.org/wiki/Robust_regression)
-- [Robust statistics](https://en.wikipedia.org/wiki/Robust_statistics)
-- [SciPy](https://en.wikipedia.org/wiki/SciPy)
-- [Statistic](https://en.wikipedia.org/wiki/Statistic)
-- [Stock market index](https://en.wikipedia.org/wiki/Stock_market_index)
-- [Survey methodology](https://en.wikipedia.org/wiki/Survey_methodology)
-- [Trimmed estimator](https://en.wikipedia.org/wiki/Trimmed_estimator)
-- [Truncated mean](https://en.wikipedia.org/wiki/Truncated_mean)
-- [Truncation (statistics)](https://en.wikipedia.org/wiki/Truncation_(statistics))
-- [Weighted arithmetic mean](https://en.wikipedia.org/wiki/Weighted_arithmetic_mean)
-- [Winsorized mean](https://en.wikipedia.org/wiki/Winsorized_mean)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:54:55.191556+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:10 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 4373 bytes
+- **Word Count:** 697 words

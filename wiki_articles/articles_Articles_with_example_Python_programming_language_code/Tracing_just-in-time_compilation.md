@@ -1,17 +1,16 @@
 # Tracing just-in-time compilation
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:51:38.244357+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 07:33:13 UTC
 - **Original Article:** [Tracing just-in-time compilation](https://en.wikipedia.org/wiki/Tracing_just-in-time_compilation)
 - **Language:** en
 - **Page ID:** 35604013
 
 ## Summary
-
 Tracing just-in-time compilation is a technique used by virtual machines to optimize the execution of a program at runtime. This is done by recording a linear sequence of frequently executed operations, compiling them to native machine code and executing them. This is opposed to traditional just-in-time (JIT) compilers that work on a per-method basis.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles with unsourced statements
 - Category:Articles with example Python (programming language) code
@@ -88,97 +87,9 @@ References
 External links
 Official website of LuaJIT
 
-## Related Articles
-
-### Internal Links
-
-- [Ahead-of-time compilation](https://en.wikipedia.org/wiki/Ahead-of-time_compilation)
-- [Andreas Gal](https://en.wikipedia.org/wiki/Andreas_Gal)
-- [Android Runtime](https://en.wikipedia.org/wiki/Android_Runtime)
-- [BEAM (Erlang virtual machine)](https://en.wikipedia.org/wiki/BEAM_(Erlang_virtual_machine))
-- [Bytecode](https://en.wikipedia.org/wiki/Bytecode)
-- [CPython](https://en.wikipedia.org/wiki/CPython)
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [Carnegie Mellon University](https://en.wikipedia.org/wiki/Carnegie_Mellon_University)
-- [CiteSeerX](https://en.wikipedia.org/wiki/CiteSeerX)
-- [Clang](https://en.wikipedia.org/wiki/Clang)
-- [Code generation (compiler)](https://en.wikipedia.org/wiki/Code_generation_(compiler))
-- [Common Intermediate Language](https://en.wikipedia.org/wiki/Common_Intermediate_Language)
-- [Common Language Runtime](https://en.wikipedia.org/wiki/Common_Language_Runtime)
-- [Common subexpression elimination](https://en.wikipedia.org/wiki/Common_subexpression_elimination)
-- [Compile and go system](https://en.wikipedia.org/wiki/Compile_and_go_system)
-- [Compile time](https://en.wikipedia.org/wiki/Compile_time)
-- [Compiler](https://en.wikipedia.org/wiki/Compiler)
-- [Computer program](https://en.wikipedia.org/wiki/Computer_program)
-- [Constant folding](https://en.wikipedia.org/wiki/Constant_folding)
-- [Crt0](https://en.wikipedia.org/wiki/Crt0)
-- [Dalvik (software)](https://en.wikipedia.org/wiki/Dalvik_(software))
-- [Dead-code elimination](https://en.wikipedia.org/wiki/Dead-code_elimination)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Dynamic recompilation](https://en.wikipedia.org/wiki/Dynamic_recompilation)
-- [DynamoRIO](https://en.wikipedia.org/wiki/DynamoRIO)
-- [Escape analysis](https://en.wikipedia.org/wiki/Escape_analysis)
-- [Executable](https://en.wikipedia.org/wiki/Executable)
-- [Execution (computing)](https://en.wikipedia.org/wiki/Execution_(computing))
-- [Firefox](https://en.wikipedia.org/wiki/Firefox)
-- [GNU Compiler Collection](https://en.wikipedia.org/wiki/GNU_Compiler_Collection)
-- [Guard (computer science)](https://en.wikipedia.org/wiki/Guard_(computer_science))
-- [HotSpot (virtual machine)](https://en.wikipedia.org/wiki/HotSpot_(virtual_machine))
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Intermediate representation](https://en.wikipedia.org/wiki/Intermediate_representation)
-- [Interpreter (computing)](https://en.wikipedia.org/wiki/Interpreter_(computing))
-- [James G. Mitchell](https://en.wikipedia.org/wiki/James_G._Mitchell)
-- [Java virtual machine](https://en.wikipedia.org/wiki/Java_virtual_machine)
-- [Just-in-time compilation](https://en.wikipedia.org/wiki/Just-in-time_compilation)
-- [Library of Congress Control Number](https://en.wikipedia.org/wiki/Library_of_Congress_Control_Number)
-- [LLVM](https://en.wikipedia.org/wiki/LLVM)
-- [Loop-invariant code motion](https://en.wikipedia.org/wiki/Loop-invariant_code_motion)
-- [Control flow](https://en.wikipedia.org/wiki/Control_flow)
-- [LuaJIT](https://en.wikipedia.org/wiki/LuaJIT)
-- [Machine code](https://en.wikipedia.org/wiki/Machine_code)
-- [Microcode](https://en.wikipedia.org/wiki/Microcode)
-- [Microsoft](https://en.wikipedia.org/wiki/Microsoft)
-- [Microsoft Visual C++](https://en.wikipedia.org/wiki/Microsoft_Visual_C%2B%2B)
-- [Mono (software)](https://en.wikipedia.org/wiki/Mono_(software))
-- [Mozilla](https://en.wikipedia.org/wiki/Mozilla)
-- [Machine code](https://en.wikipedia.org/wiki/Machine_code)
-- [Node.js](https://en.wikipedia.org/wiki/Node.js)
-- [OCLC](https://en.wikipedia.org/wiki/OCLC)
-- [Object code](https://en.wikipedia.org/wiki/Object_code)
-- [Objective-C](https://en.wikipedia.org/wiki/Objective-C)
-- [Program optimization](https://en.wikipedia.org/wiki/Program_optimization)
-- [Optimizing compiler](https://en.wikipedia.org/wiki/Optimizing_compiler)
-- [Preprocessor](https://en.wikipedia.org/wiki/Preprocessor)
-- [Profile-guided optimization](https://en.wikipedia.org/wiki/Profile-guided_optimization)
-- [Profiling (computer programming)](https://en.wikipedia.org/wiki/Profiling_(computer_programming))
-- [PyPy](https://en.wikipedia.org/wiki/PyPy)
-- [PyPy](https://en.wikipedia.org/wiki/PyPy)
-- [Register allocation](https://en.wikipedia.org/wiki/Register_allocation)
-- [Run-time type information](https://en.wikipedia.org/wiki/Run-time_type_information)
-- [Execution (computing)](https://en.wikipedia.org/wiki/Execution_(computing))
-- [Execution (computing)](https://en.wikipedia.org/wiki/Execution_(computing))
-- [Runtime system](https://en.wikipedia.org/wiki/Runtime_system)
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [Semantic dictionary encoding](https://en.wikipedia.org/wiki/Semantic_dictionary_encoding)
-- [Source-to-source compiler](https://en.wikipedia.org/wiki/Source-to-source_compiler)
-- [Source code](https://en.wikipedia.org/wiki/Source_code)
-- [SpiderMonkey](https://en.wikipedia.org/wiki/SpiderMonkey)
-- [Static single-assignment form](https://en.wikipedia.org/wiki/Static_single-assignment_form)
-- [Swift (programming language)](https://en.wikipedia.org/wiki/Swift_(programming_language))
-- [Trace tree](https://en.wikipedia.org/wiki/Trace_tree)
-- [Tracing (software)](https://en.wikipedia.org/wiki/Tracing_(software))
-- [Translator (computing)](https://en.wikipedia.org/wiki/Translator_(computing))
-- [V8 (JavaScript engine)](https://en.wikipedia.org/wiki/V8_(JavaScript_engine))
-- [Virtual machine](https://en.wikipedia.org/wiki/Virtual_machine)
-- [Virtual machine](https://en.wikipedia.org/wiki/Virtual_machine)
-- [Wikidata](https://en.wikipedia.org/wiki/Wikidata)
-- [Zend Engine](https://en.wikipedia.org/wiki/Zend_Engine)
-- [Wikipedia:Citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed)
-- [Template:Program execution](https://en.wikipedia.org/wiki/Template:Program_execution)
-- [Template talk:Program execution](https://en.wikipedia.org/wiki/Template_talk:Program_execution)
-- [Category:Articles with unsourced statements from May 2018](https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_May_2018)
-- [Portal:Computer programming](https://en.wikipedia.org/wiki/Portal:Computer_programming)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:51:38.244357+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:04 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 6343 bytes
+- **Word Count:** 984 words

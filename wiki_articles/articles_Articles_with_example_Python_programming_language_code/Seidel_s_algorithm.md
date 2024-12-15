@@ -1,14 +1,12 @@
 # Seidel's algorithm
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:48:03.452703+00:00
+## Metadata
+- **Last Updated:** 2024-11-26 20:30:40 UTC
 - **Original Article:** [Seidel's algorithm](https://en.wikipedia.org/wiki/Seidel%27s_algorithm)
 - **Language:** en
 - **Page ID:** 55206702
 
 ## Summary
-
 Seidel's algorithm is an algorithm designed by Raimund Seidel in 1992 for the all-pairs-shortest-path problem for undirected, unweighted, connected graphs. It solves the problem in 
   
     
@@ -40,9 +38,83 @@ Seidel's algorithm is an algorithm designed by Raimund Seidel in 1992 for the al
   
  vertices, where 
   
-   
+    
+      
+        ω
+        <
+        2.373
+      
+    
+    {\displaystyle \omega <2.373}
+  
+ is the exponent in the complexity 
+  
+    
+      
+        O
+        (
+        
+          n
+          
+            ω
+          
+        
+        )
+      
+    
+    {\displaystyle O(n^{\omega })}
+  
+ of 
+  
+    
+      
+        n
+        ×
+        n
+      
+    
+    {\displaystyle n\times n}
+  
+ matrix multiplication. If only the distances between each pair of vertices are sought, the same time bound can be achieved in the worst case. Even though the algorithm is designed for connected graphs, it can be applied individually to each connected component of a graph with the same running time overall. There is an exception to the expected running time given above for computing the paths: if 
+  
+    
+      
+        ω
+        =
+        2
+      
+    
+    {\displaystyle \omega =2}
+  
+ the expected running time becomes 
+  
+    
+      
+        O
+        (
+        
+          V
+          
+            2
+          
+        
+        
+          log
+          
+            2
+          
+        
+        ⁡
+        V
+        )
+      
+    
+    {\displaystyle O(V^{2}\log ^{2}V)}
+  
+.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example Python (programming language) code
 - Category:Computational problems in graph theory
@@ -453,21 +525,9 @@ Algorithms for undirected and directed graphs with weights from a finite univers
 
 == Notes ==
 
-## Related Articles
-
-### Internal Links
-
-- [Adjacency matrix](https://en.wikipedia.org/wiki/Adjacency_matrix)
-- [ArXiv](https://en.wikipedia.org/wiki/ArXiv)
-- [Computational complexity of matrix multiplication](https://en.wikipedia.org/wiki/Computational_complexity_of_matrix_multiplication)
-- [Component (graph theory)](https://en.wikipedia.org/wiki/Component_(graph_theory))
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Las Vegas algorithm](https://en.wikipedia.org/wiki/Las_Vegas_algorithm)
-- [Raimund Seidel](https://en.wikipedia.org/wiki/Raimund_Seidel)
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [Shortest path problem](https://en.wikipedia.org/wiki/Shortest_path_problem)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:48:03.452703+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:55 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 6017 bytes
+- **Word Count:** 562 words

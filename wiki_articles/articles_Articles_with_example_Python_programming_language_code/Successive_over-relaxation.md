@@ -1,18 +1,17 @@
 # Successive over-relaxation
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:52:03.433568+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 07:01:37 UTC
 - **Original Article:** [Successive over-relaxation](https://en.wikipedia.org/wiki/Successive_over-relaxation)
 - **Language:** en
 - **Page ID:** 4068447
 
 ## Summary
-
 In numerical linear algebra, the method of successive over-relaxation (SOR) is a variant of the Gauss–Seidel method for solving a linear system of equations, resulting in faster convergence. A similar method can be used for any slowly converging iterative process.
-It was devised simultaneously by David M. Young Jr. and by Stanley P. Frankel in 1950 for the purpose of automatically solving linear systems on digital computers. Over-relaxation methods had been used before the work of Young and Fran
+It was devised simultaneously by David M. Young Jr. and by Stanley P. Frankel in 1950 for the purpose of automatically solving linear systems on digital computers. Over-relaxation methods had been used before the work of Young and Frankel. An example is the method of Lewis Fry Richardson, and the methods developed by R. V. Southwell. However, these methods were designed for computation by human calculators, requiring some expertise to ensure convergence to the solution which made them inapplicable for programming on digital computers. These aspects are discussed in the thesis of David M. Young Jr.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example Python (programming language) code
 - Category:Articles with example pseudocode
@@ -2333,61 +2332,9 @@ External links
 Module for the SOR Method
 Tridiagonal linear system solver based on SOR, in C++
 
-## Related Articles
-
-### Internal Links
-
-- [Alexander Ostrowski](https://en.wikipedia.org/wiki/Alexander_Ostrowski)
-- [Automatically Tuned Linear Algebra Software](https://en.wikipedia.org/wiki/Automatically_Tuned_Linear_Algebra_Software)
-- [Basic Linear Algebra Subprograms](https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms)
-- [Belief propagation](https://en.wikipedia.org/wiki/Belief_propagation)
-- [CPU cache](https://en.wikipedia.org/wiki/CPU_cache)
-- [Cache-oblivious algorithm](https://en.wikipedia.org/wiki/Cache-oblivious_algorithm)
-- [Comparison of linear algebra libraries](https://en.wikipedia.org/wiki/Comparison_of_linear_algebra_libraries)
-- [Comparison of numerical-analysis software](https://en.wikipedia.org/wiki/Comparison_of_numerical-analysis_software)
-- [David M. Young Jr.](https://en.wikipedia.org/wiki/David_M._Young_Jr.)
-- [David M. Young Jr.](https://en.wikipedia.org/wiki/David_M._Young_Jr.)
-- [Diagonal matrix](https://en.wikipedia.org/wiki/Diagonal_matrix)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Floating-point arithmetic](https://en.wikipedia.org/wiki/Floating-point_arithmetic)
-- [Triangular matrix](https://en.wikipedia.org/wiki/Triangular_matrix)
-- [GNU Free Documentation License](https://en.wikipedia.org/wiki/GNU_Free_Documentation_License)
-- [Gauss–Seidel method](https://en.wikipedia.org/wiki/Gauss%E2%80%93Seidel_method)
-- [Computer (occupation)](https://en.wikipedia.org/wiki/Computer_(occupation))
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Iterative method](https://en.wikipedia.org/wiki/Iterative_method)
-- [Jacobi method](https://en.wikipedia.org/wiki/Jacobi_method)
-- [LAPACK](https://en.wikipedia.org/wiki/LAPACK)
-- [Lewis Fry Richardson](https://en.wikipedia.org/wiki/Lewis_Fry_Richardson)
-- [System of linear equations](https://en.wikipedia.org/wiki/System_of_linear_equations)
-- [MATLAB](https://en.wikipedia.org/wiki/MATLAB)
-- [MathWorld](https://en.wikipedia.org/wiki/MathWorld)
-- [Matrix decomposition](https://en.wikipedia.org/wiki/Matrix_decomposition)
-- [Matrix multiplication](https://en.wikipedia.org/wiki/Matrix_multiplication)
-- [Matrix multiplication algorithm](https://en.wikipedia.org/wiki/Matrix_multiplication_algorithm)
-- [Matrix splitting](https://en.wikipedia.org/wiki/Matrix_splitting)
-- [Multiprocessing](https://en.wikipedia.org/wiki/Multiprocessing)
-- [Newton's method](https://en.wikipedia.org/wiki/Newton%27s_method)
-- [Numerical linear algebra](https://en.wikipedia.org/wiki/Numerical_linear_algebra)
-- [Numerical stability](https://en.wikipedia.org/wiki/Numerical_stability)
-- [Definite matrix](https://en.wikipedia.org/wiki/Definite_matrix)
-- [Richard S. Varga](https://en.wikipedia.org/wiki/Richard_S._Varga)
-- [Richard V. Southwell](https://en.wikipedia.org/wiki/Richard_V._Southwell)
-- [Richardson extrapolation](https://en.wikipedia.org/wiki/Richardson_extrapolation)
-- [Robert J. Plemmons](https://en.wikipedia.org/wiki/Robert_J._Plemmons)
-- [Single instruction, multiple data](https://en.wikipedia.org/wiki/Single_instruction,_multiple_data)
-- [Sparse matrix](https://en.wikipedia.org/wiki/Sparse_matrix)
-- [Stan Frankel](https://en.wikipedia.org/wiki/Stan_Frankel)
-- [Symmetric matrix](https://en.wikipedia.org/wiki/Symmetric_matrix)
-- [Symmetric successive over-relaxation](https://en.wikipedia.org/wiki/Symmetric_successive_over-relaxation)
-- [System of linear equations](https://en.wikipedia.org/wiki/System_of_linear_equations)
-- [Translation lookaside buffer](https://en.wikipedia.org/wiki/Translation_lookaside_buffer)
-- [Triangular matrix](https://en.wikipedia.org/wiki/Triangular_matrix)
-- [Tridiagonal matrix](https://en.wikipedia.org/wiki/Tridiagonal_matrix)
-- [Yousef Saad](https://en.wikipedia.org/wiki/Yousef_Saad)
-- [Template:Numerical linear algebra](https://en.wikipedia.org/wiki/Template:Numerical_linear_algebra)
-- [Template talk:Numerical linear algebra](https://en.wikipedia.org/wiki/Template_talk:Numerical_linear_algebra)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:52:03.433568+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:01 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 37957 bytes
+- **Word Count:** 2124 words

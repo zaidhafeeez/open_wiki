@@ -1,17 +1,17 @@
 # Shamir's secret sharing
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:48:07.406888+00:00
+## Metadata
+- **Last Updated:** 2024-12-13 22:35:25 UTC
 - **Original Article:** [Shamir's secret sharing](https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing)
 - **Language:** en
 - **Page ID:** 10948177
 
 ## Summary
-
-Shamir's secret sharing (SSS) is an efficient secret sharing algorithm for distributing private information (the "secret") among a group. The secret cannot be revealed unless a quorum of the group acts together to pool their knowledge. To achieve this, the secret is mathematically divided into parts (the "shares") from which the secret can be reassembled only when a sufficient number of shares are combined. SSS has the property of information-theoretic security, meaning that even if an attacker 
+Shamir's secret sharing (SSS) is an efficient secret sharing algorithm for distributing private information (the "secret") among a group. The secret cannot be revealed unless a quorum of the group acts together to pool their knowledge. To achieve this, the secret is mathematically divided into parts (the "shares") from which the secret can be reassembled only when a sufficient number of shares are combined. SSS has the property of information-theoretic security, meaning that even if an attacker steals some shares, it is impossible for the attacker to reconstruct the secret unless they have stolen the quorum number of shares.
+Shamir's secret sharing is used in some applications to share the access keys to a master secret.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example Python (programming language) code
 - Category:Articles with short description
@@ -3396,57 +3396,9 @@ s4 - online shamir's secret sharing tool utilizing HashiCorp's shamir secret sha
 Shamir39 - webversion on iancoleman.io
 kn Secrets - webversion on a dedicated website, aiming to make Shamir's secret sharing as accessible as possible
 
-## Related Articles
-
-### Internal Links
-
-- [Adi Shamir](https://en.wikipedia.org/wiki/Adi_Shamir)
-- [Algorithm](https://en.wikipedia.org/wiki/Algorithm)
-- [Alice and Bob](https://en.wikipedia.org/wiki/Alice_and_Bob)
-- [Constant term](https://en.wikipedia.org/wiki/Constant_term)
-- [Crypto++](https://en.wikipedia.org/wiki/Crypto%2B%2B)
-- [Cryptocurrency wallet](https://en.wikipedia.org/wiki/Cryptocurrency_wallet)
-- [Cubic function](https://en.wikipedia.org/wiki/Cubic_function)
-- [Degree of a polynomial](https://en.wikipedia.org/wiki/Degree_of_a_polynomial)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth)
-- [Algorithmic efficiency](https://en.wikipedia.org/wiki/Algorithmic_efficiency)
-- [Email encryption](https://en.wikipedia.org/wiki/Email_encryption)
-- [Key (cryptography)](https://en.wikipedia.org/wiki/Key_(cryptography))
-- [Finite field](https://en.wikipedia.org/wiki/Finite_field)
-- [Finite field arithmetic](https://en.wikipedia.org/wiki/Finite_field_arithmetic)
-- [GNU General Public License](https://en.wikipedia.org/wiki/GNU_General_Public_License)
-- [GitHub](https://en.wikipedia.org/wiki/GitHub)
-- [Go (programming language)](https://en.wikipedia.org/wiki/Go_(programming_language))
-- [HashiCorp](https://en.wikipedia.org/wiki/HashiCorp)
-- [Homomorphic secret sharing](https://en.wikipedia.org/wiki/Homomorphic_secret_sharing)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Information-theoretic security](https://en.wikipedia.org/wiki/Information-theoretic_security)
-- [Interpolation](https://en.wikipedia.org/wiki/Interpolation)
-- [Israel](https://en.wikipedia.org/wiki/Israel)
-- [Lagrange polynomial](https://en.wikipedia.org/wiki/Lagrange_polynomial)
-- [Lagrange polynomial](https://en.wikipedia.org/wiki/Lagrange_polynomial)
-- [Line (geometry)](https://en.wikipedia.org/wiki/Line_(geometry))
-- [Cryptocurrency wallet](https://en.wikipedia.org/wiki/Cryptocurrency_wallet)
-- [One-time pad](https://en.wikipedia.org/wiki/One-time_pad)
-- [PCMag](https://en.wikipedia.org/wiki/PCMag)
-- [Parabola](https://en.wikipedia.org/wiki/Parabola)
-- [Partial password](https://en.wikipedia.org/wiki/Partial_password)
-- [Password manager](https://en.wikipedia.org/wiki/Password_manager)
-- [Point (geometry)](https://en.wikipedia.org/wiki/Point_(geometry))
-- [Polynomial](https://en.wikipedia.org/wiki/Polynomial)
-- [Polynomial interpolation](https://en.wikipedia.org/wiki/Polynomial_interpolation)
-- [Quorum](https://en.wikipedia.org/wiki/Quorum)
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [Safe](https://en.wikipedia.org/wiki/Safe)
-- [Secret sharing](https://en.wikipedia.org/wiki/Secret_sharing)
-- [Secure multi-party computation](https://en.wikipedia.org/wiki/Secure_multi-party_computation)
-- [Single point of failure](https://en.wikipedia.org/wiki/Single_point_of_failure)
-- [The Art of Computer Programming](https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming)
-- [Secret sharing](https://en.wikipedia.org/wiki/Secret_sharing)
-- [Two-person rule](https://en.wikipedia.org/wiki/Two-person_rule)
-- [Verifiable secret sharing](https://en.wikipedia.org/wiki/Verifiable_secret_sharing)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:48:07.406888+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:56 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 49660 bytes
+- **Word Count:** 3544 words

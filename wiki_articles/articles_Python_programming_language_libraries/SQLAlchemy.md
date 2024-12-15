@@ -1,17 +1,16 @@
 # SQLAlchemy
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:08:19.912868+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 07:08:03 UTC
 - **Original Article:** [SQLAlchemy](https://en.wikipedia.org/wiki/SQLAlchemy)
 - **Language:** en
 - **Page ID:** 9465815
 
 ## Summary
-
 SQLAlchemy is an open-source Python library that provides an SQL toolkit (called "SQLAlchemy Core") and an Object Relational Mapper (ORM) for database interactions. It allows developers to work with databases using Python objects, enabling efficient and flexible database access.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:2006 software
 - Category:Articles with short description
@@ -77,35 +76,9 @@ Notes
 Gift, Noah (12 Aug 2008). "Using SQLAlchemy". Developerworks. IBM. Retrieved 8 Feb 2011.
 Rick Copeland, Essential SQLAlchemy, O'Reilly, 2008, ISBN 0-596-51614-2
 
-## Related Articles
-
-### Internal Links
-
-- [Cross-platform software](https://en.wikipedia.org/wiki/Cross-platform_software)
-- [Cubes (OLAP server)](https://en.wikipedia.org/wiki/Cubes_(OLAP_server))
-- [Domain-specific language](https://en.wikipedia.org/wiki/Domain-specific_language)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Lazy loading](https://en.wikipedia.org/wiki/Lazy_loading)
-- [MIT License](https://en.wikipedia.org/wiki/MIT_License)
-- [O'Reilly Media](https://en.wikipedia.org/wiki/O%27Reilly_Media)
-- [Object–relational mapping](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping)
-- [Object–relational mapping](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping)
-- [Open source](https://en.wikipedia.org/wiki/Open_source)
-- [Operating system](https://en.wikipedia.org/wiki/Operating_system)
-- [Programmer](https://en.wikipedia.org/wiki/Programmer)
-- [Python Conference](https://en.wikipedia.org/wiki/Python_Conference)
-- [Pylons project](https://en.wikipedia.org/wiki/Pylons_project)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Repository (version control)](https://en.wikipedia.org/wiki/Repository_(version_control))
-- [SQL](https://en.wikipedia.org/wiki/SQL)
-- [SQLObject](https://en.wikipedia.org/wiki/SQLObject)
-- [Software categories](https://en.wikipedia.org/wiki/Software_categories)
-- [Software license](https://en.wikipedia.org/wiki/Software_license)
-- [Software release life cycle](https://en.wikipedia.org/wiki/Software_release_life_cycle)
-- [Storm (software)](https://en.wikipedia.org/wiki/Storm_(software))
-- [TurboGears](https://en.wikipedia.org/wiki/TurboGears)
-- [Portal:Free and open-source software](https://en.wikipedia.org/wiki/Portal:Free_and_open-source_software)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:08:19.912868+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:36 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 2272 bytes
+- **Word Count:** 321 words

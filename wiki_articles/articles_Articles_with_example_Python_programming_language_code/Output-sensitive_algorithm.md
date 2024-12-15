@@ -1,17 +1,16 @@
 # Output-sensitive algorithm
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:40:27.932245+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 07:10:28 UTC
 - **Original Article:** [Output-sensitive algorithm](https://en.wikipedia.org/wiki/Output-sensitive_algorithm)
 - **Language:** en
 - **Page ID:** 12127990
 
 ## Summary
-
-In computer science, an output-sensitive algorithm is an algorithm whose running time depends on the size of the output, instead of, or in addition to, the size of the input. For certain problems where the output size varies widely, for example from linear in the size of the input to quadratic in the size of the input, analyses that take the output size explicitly into account can produce better runtime bounds that differentiate algorithms that would otherwise have identical asymptotic complexit
+In computer science, an output-sensitive algorithm is an algorithm whose running time depends on the size of the output, instead of, or in addition to, the size of the input. For certain problems where the output size varies widely, for example from linear in the size of the input to quadratic in the size of the input, analyses that take the output size explicitly into account can produce better runtime bounds that differentiate algorithms that would otherwise have identical asymptotic complexity.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Analysis of algorithms
 - Category:Articles with example Python (programming language) code
@@ -50,32 +49,9 @@ Lazy evaluation
 
 == References ==
 
-## Related Articles
-
-### Internal Links
-
-- [ACM Transactions on Graphics](https://en.wikipedia.org/wiki/ACM_Transactions_on_Graphics)
-- [Algorithm](https://en.wikipedia.org/wiki/Algorithm)
-- [Big O notation](https://en.wikipedia.org/wiki/Big_O_notation)
-- [Chan's algorithm](https://en.wikipedia.org/wiki/Chan%27s_algorithm)
-- [Computational geometry](https://en.wikipedia.org/wiki/Computational_geometry)
-- [Computer science](https://en.wikipedia.org/wiki/Computer_science)
-- [Convex hull](https://en.wikipedia.org/wiki/Convex_hull)
-- [Convex hull algorithms](https://en.wikipedia.org/wiki/Convex_hull_algorithms)
-- [Division algorithm](https://en.wikipedia.org/wiki/Division_algorithm)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Enumeration algorithm](https://en.wikipedia.org/wiki/Enumeration_algorithm)
-- [Graham scan](https://en.wikipedia.org/wiki/Graham_scan)
-- [Handle System](https://en.wikipedia.org/wiki/Handle_System)
-- [Hidden-surface determination](https://en.wikipedia.org/wiki/Hidden-surface_determination)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Lazy evaluation](https://en.wikipedia.org/wiki/Lazy_evaluation)
-- [Long division](https://en.wikipedia.org/wiki/Long_division)
-- [Mark Overmars](https://en.wikipedia.org/wiki/Mark_Overmars)
-- [Micha Sharir](https://en.wikipedia.org/wiki/Micha_Sharir)
-- [Kirkpatrick–Seidel algorithm](https://en.wikipedia.org/wiki/Kirkpatrick%E2%80%93Seidel_algorithm)
-- [Voronoi diagram](https://en.wikipedia.org/wiki/Voronoi_diagram)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:40:27.932245+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:45 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 2606 bytes
+- **Word Count:** 407 words

@@ -1,17 +1,16 @@
 # Travis Oliphant
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:25:53.683599+00:00
+## Metadata
+- **Last Updated:** 2024-12-04 11:51:59 UTC
 - **Original Article:** [Travis Oliphant](https://en.wikipedia.org/wiki/Travis_Oliphant)
 - **Language:** en
 - **Page ID:** 49039980
 
 ## Summary
-
 Travis Oliphant is an American data scientist and businessman. He is a co-founder of NumFOCUS, a 501(c)(3) nonprofit charity in the United States, and sits on its advisory board. He is also a founder of technology startup Anaconda. In addition, Oliphant is the primary creator of NumPy and founding contributor to the SciPy packages in the Python programming language.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:1971 births
 - Category:American data scientists
@@ -57,47 +56,9 @@ References
 External links
 Travis Oliphant publications indexed by Google Scholar
 
-## Related Articles
-
-### Internal Links
-
-- [501(c)(3) organization](https://en.wikipedia.org/wiki/501(c)(3)_organization)
-- [Anaconda (Python distribution)](https://en.wikipedia.org/wiki/Anaconda_(Python_distribution))
-- [ArXiv](https://en.wikipedia.org/wiki/ArXiv)
-- [Biomedical engineering](https://en.wikipedia.org/wiki/Biomedical_engineering)
-- [Brigham Young University](https://en.wikipedia.org/wiki/Brigham_Young_University)
-- [Computing in Science & Engineering](https://en.wikipedia.org/wiki/Computing_in_Science_%26_Engineering)
-- [DARPA](https://en.wikipedia.org/wiki/DARPA)
-- [Data science](https://en.wikipedia.org/wiki/Data_science)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Electrical engineering](https://en.wikipedia.org/wiki/Electrical_engineering)
-- [Enthought](https://en.wikipedia.org/wiki/Enthought)
-- [Entrepreneurship](https://en.wikipedia.org/wiki/Entrepreneurship)
-- [Google Scholar](https://en.wikipedia.org/wiki/Google_Scholar)
-- [Graphics processing unit](https://en.wikipedia.org/wiki/Graphics_processing_unit)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [ISSN](https://en.wikipedia.org/wiki/ISSN)
-- [Mathematics](https://en.wikipedia.org/wiki/Mathematics)
-- [Mayo Clinic](https://en.wikipedia.org/wiki/Mayo_Clinic)
-- [Nature (journal)](https://en.wikipedia.org/wiki/Nature_(journal))
-- [Nature Methods](https://en.wikipedia.org/wiki/Nature_Methods)
-- [NumPy](https://en.wikipedia.org/wiki/NumPy)
-- [Open-source software](https://en.wikipedia.org/wiki/Open-source_software)
-- [PubMed Central](https://en.wikipedia.org/wiki/PubMed_Central)
-- [PubMed](https://en.wikipedia.org/wiki/PubMed)
-- [Probabilistic programming](https://en.wikipedia.org/wiki/Probabilistic_programming)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [Salt Lake City](https://en.wikipedia.org/wiki/Salt_Lake_City)
-- [SciPy](https://en.wikipedia.org/wiki/SciPy)
-- [Series A round](https://en.wikipedia.org/wiki/Series_A_round)
-- [Startup company](https://en.wikipedia.org/wiki/Startup_company)
-- [Tweet (social media)](https://en.wikipedia.org/wiki/Tweet_(social_media))
-- [Twitter](https://en.wikipedia.org/wiki/Twitter)
-- [Utah](https://en.wikipedia.org/wiki/Utah)
-- [Wikidata](https://en.wikipedia.org/wiki/Wikidata)
-- [Help:Authority control](https://en.wikipedia.org/wiki/Help:Authority_control)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:25:53.683599+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:44 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 2531 bytes
+- **Word Count:** 362 words

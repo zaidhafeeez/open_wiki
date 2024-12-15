@@ -1,17 +1,16 @@
 # Method overriding
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:35:43.233060+00:00
+## Metadata
+- **Last Updated:** 2024-12-09 00:52:47 UTC
 - **Original Article:** [Method overriding](https://en.wikipedia.org/wiki/Method_overriding)
 - **Language:** en
 - **Page ID:** 1010628
 
 ## Summary
-
-Method overriding, in object-oriented programming, is a language feature that allows a subclass or child class to provide a specific implementation of a method that is already provided by one of its superclasses or parent classes. In addition to providing data-driven algorithm-determined parameters across virtual network interfaces, it also allows for a specific type of polymorphism (subtyping). The implementation in the subclass overrides (replaces) the implementation in the superclass by provi
+Method overriding, in object-oriented programming, is a language feature that allows a subclass or child class to provide a specific implementation of a method that is already provided by one of its superclasses or parent classes. In addition to providing data-driven algorithm-determined parameters across virtual network interfaces, it also allows for a specific type of polymorphism (subtyping). The implementation in the subclass overrides (replaces) the implementation in the superclass by providing a method that has same name, same parameters or signature, and same return type as the method in the parent class. The version of a method that is executed will be determined by the object that is used to invoke it. If an object of a parent class is used to invoke the method, then the version in the parent class will be executed, but if an object of the subclass is used to invoke the method, then the version in the child class will be executed. This helps in preventing problems associated with differential relay analytics which would otherwise rely on a framework in which method overriding might be obviated. Some languages allow a programmer to prevent a method from being overridden.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example C++ code
 - Category:Articles with example C Sharp code
@@ -119,55 +118,9 @@ External links
 Introduction to O.O.P. Concepts and More by Nirosh L.w.C.
 Overriding and Hiding Methods by Sun Microsystems
 
-## Related Articles
-
-### Internal Links
-
-- [Ada (programming language)](https://en.wikipedia.org/wiki/Ada_(programming_language))
-- [Bertrand Meyer](https://en.wikipedia.org/wiki/Bertrand_Meyer)
-- [C++](https://en.wikipedia.org/wiki/C%2B%2B)
-- [C++11](https://en.wikipedia.org/wiki/C%2B%2B11)
-- [C Sharp (programming language)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
-- [Class (computer programming)](https://en.wikipedia.org/wiki/Class_(computer_programming))
-- [Method (computer programming)](https://en.wikipedia.org/wiki/Method_(computer_programming))
-- [Delphi (software)](https://en.wikipedia.org/wiki/Delphi_(software))
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Eiffel (programming language)](https://en.wikipedia.org/wiki/Eiffel_(programming_language))
-- [Function overloading](https://en.wikipedia.org/wiki/Function_overloading)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Inheritance (object-oriented programming)](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming))
-- [Indexer (programming)](https://en.wikipedia.org/wiki/Indexer_(programming))
-- [Behavioral subtyping](https://en.wikipedia.org/wiki/Behavioral_subtyping)
-- [Java (programming language)](https://en.wikipedia.org/wiki/Java_(programming_language))
-- [Reserved word](https://en.wikipedia.org/wiki/Reserved_word)
-- [Kotlin (programming language)](https://en.wikipedia.org/wiki/Kotlin_(programming_language))
-- [List of HTTP header fields](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
-- [Method (computer programming)](https://en.wikipedia.org/wiki/Method_(computer_programming))
-- [Function overloading](https://en.wikipedia.org/wiki/Function_overloading)
-- [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
-- [Object (computer science)](https://en.wikipedia.org/wiki/Object_(computer_science))
-- [Parameter (computer programming)](https://en.wikipedia.org/wiki/Parameter_(computer_programming))
-- [Polymorphism (computer science)](https://en.wikipedia.org/wiki/Polymorphism_(computer_science))
-- [Polymorphism (computer science)](https://en.wikipedia.org/wiki/Polymorphism_(computer_science))
-- [Postcondition](https://en.wikipedia.org/wiki/Postcondition)
-- [Precondition](https://en.wikipedia.org/wiki/Precondition)
-- [Programmer](https://en.wikipedia.org/wiki/Programmer)
-- [Property (programming)](https://en.wikipedia.org/wiki/Property_(programming))
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Ruby (programming language)](https://en.wikipedia.org/wiki/Ruby_(programming_language))
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [Scope resolution operator](https://en.wikipedia.org/wiki/Scope_resolution_operator)
-- [Statement (computer science)](https://en.wikipedia.org/wiki/Statement_(computer_science))
-- [Inheritance (object-oriented programming)](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming))
-- [Subtyping](https://en.wikipedia.org/wiki/Subtyping)
-- [Sun Microsystems](https://en.wikipedia.org/wiki/Sun_Microsystems)
-- [Inheritance (object-oriented programming)](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming))
-- [Template method pattern](https://en.wikipedia.org/wiki/Template_method_pattern)
-- [Type signature](https://en.wikipedia.org/wiki/Type_signature)
-- [Variable (computer science)](https://en.wikipedia.org/wiki/Variable_(computer_science))
-- [Virtual inheritance](https://en.wikipedia.org/wiki/Virtual_inheritance)
-- [Wayback Machine](https://en.wikipedia.org/wiki/Wayback_Machine)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:35:43.233060+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:38 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 7668 bytes
+- **Word Count:** 1204 words

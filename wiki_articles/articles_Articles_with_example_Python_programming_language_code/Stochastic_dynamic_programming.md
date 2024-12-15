@@ -1,17 +1,16 @@
 # Stochastic dynamic programming
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:48:11.963373+00:00
+## Metadata
+- **Last Updated:** 2024-12-14 09:52:04 UTC
 - **Original Article:** [Stochastic dynamic programming](https://en.wikipedia.org/wiki/Stochastic_dynamic_programming)
 - **Language:** en
 - **Page ID:** 52759748
 
 ## Summary
-
 Originally introduced by Richard E. Bellman in (Bellman 1957), stochastic dynamic programming is a technique for modelling and solving problems of decision making under uncertainty. Closely related to stochastic programming and dynamic programming, stochastic dynamic programming represents the problem under scrutiny in the form of a Bellman equation. The aim is to compute a policy prescribing how to act optimally in the face of uncertainty.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles to be expanded
 - Category:Articles to be expanded from January 2017
@@ -5320,41 +5319,9 @@ See also
 
 == References ==
 
-## Related Articles
-
-### Internal Links
-
-- [Bellman equation](https://en.wikipedia.org/wiki/Bellman_equation)
-- [CiteSeerX](https://en.wikipedia.org/wiki/CiteSeerX)
-- [Control theory](https://en.wikipedia.org/wiki/Control_theory)
-- [Curse of dimensionality](https://en.wikipedia.org/wiki/Curse_of_dimensionality)
-- [Decision theory](https://en.wikipedia.org/wiki/Decision_theory)
-- [Discounting](https://en.wikipedia.org/wiki/Discounting)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Dynamic programming](https://en.wikipedia.org/wiki/Dynamic_programming)
-- [Functional equation](https://en.wikipedia.org/wiki/Functional_equation)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Java version history](https://en.wikipedia.org/wiki/Java_version_history)
-- [Markov decision process](https://en.wikipedia.org/wiki/Markov_decision_process)
-- [Markov property](https://en.wikipedia.org/wiki/Markov_property)
-- [Memoization](https://en.wikipedia.org/wiki/Memoization)
-- [Optimal decision](https://en.wikipedia.org/wiki/Optimal_decision)
-- [Pairwise independence](https://en.wikipedia.org/wiki/Pairwise_independence)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Random variable](https://en.wikipedia.org/wiki/Random_variable)
-- [Reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning)
-- [Richard E. Bellman](https://en.wikipedia.org/wiki/Richard_E._Bellman)
-- [Richard E. Bellman](https://en.wikipedia.org/wiki/Richard_E._Bellman)
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [St. Petersburg paradox](https://en.wikipedia.org/wiki/St._Petersburg_paradox)
-- [Stationary process](https://en.wikipedia.org/wiki/Stationary_process)
-- [Stochastic control](https://en.wikipedia.org/wiki/Stochastic_control)
-- [Stochastic process](https://en.wikipedia.org/wiki/Stochastic_process)
-- [Stochastic programming](https://en.wikipedia.org/wiki/Stochastic_programming)
-- [Category:Articles to be expanded from January 2017](https://en.wikipedia.org/wiki/Category:Articles_to_be_expanded_from_January_2017)
-- [Portal:Mathematics](https://en.wikipedia.org/wiki/Portal:Mathematics)
-- [Portal:Systems science](https://en.wikipedia.org/wiki/Portal:Systems_science)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:48:11.963373+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:00 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 89019 bytes
+- **Word Count:** 4202 words

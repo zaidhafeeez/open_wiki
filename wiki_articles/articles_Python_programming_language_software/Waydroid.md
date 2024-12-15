@@ -1,17 +1,16 @@
 # Waydroid
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:22:31.787105+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 08:04:53 UTC
 - **Original Article:** [Waydroid](https://en.wikipedia.org/wiki/Waydroid)
 - **Language:** en
 - **Page ID:** 76530735
 
 ## Summary
-
 Waydroid is a container-based method that enables Android to run in a containerized environment on Linux systems. By using Linux namespaces, Waydroid keeps Android isolated but allows it to access the host system's hardware. Built on a customized version of LineageOS (Android 11), it enables Android applications to function alongside Linux applications on desktops and Linux-based mobile devices.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Android (operating system) software
 - Category:Articles with short description
@@ -56,45 +55,9 @@ Waydroid does not include an emulation layer. As a result, devices can only run 
 
 == Sources ==
 
-## Related Articles
-
-### Internal Links
-
-- [List of AMD graphics processing units](https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units)
-- [AArch64](https://en.wikipedia.org/wiki/AArch64)
-- [Anbox](https://en.wikipedia.org/wiki/Anbox)
-- [Android (operating system)](https://en.wikipedia.org/wiki/Android_(operating_system))
-- [Android 11](https://en.wikipedia.org/wiki/Android_11)
-- [Android (operating system)](https://en.wikipedia.org/wiki/Android_(operating_system))
-- [Android (operating system)](https://en.wikipedia.org/wiki/Android_(operating_system))
-- [Arch Linux](https://en.wikipedia.org/wiki/Arch_Linux)
-- [Computer hardware](https://en.wikipedia.org/wiki/Computer_hardware)
-- [Container format](https://en.wikipedia.org/wiki/Container_format)
-- [Containerization (computing)](https://en.wikipedia.org/wiki/Containerization_(computing))
-- [Desktop computer](https://en.wikipedia.org/wiki/Desktop_computer)
-- [Display resolution standards](https://en.wikipedia.org/wiki/Display_resolution_standards)
-- [Fedora Linux](https://en.wikipedia.org/wiki/Fedora_Linux)
-- [Google](https://en.wikipedia.org/wiki/Google)
-- [List of Google products](https://en.wikipedia.org/wiki/List_of_Google_products)
-- [Hardware abstraction](https://en.wikipedia.org/wiki/Hardware_abstraction)
-- [Computer hardware](https://en.wikipedia.org/wiki/Computer_hardware)
-- [Host system](https://en.wikipedia.org/wiki/Host_system)
-- [List of Intel graphics processing units](https://en.wikipedia.org/wiki/List_of_Intel_graphics_processing_units)
-- [Internet](https://en.wikipedia.org/wiki/Internet)
-- [LineageOS](https://en.wikipedia.org/wiki/LineageOS)
-- [Linux](https://en.wikipedia.org/wiki/Linux)
-- [Linux distribution](https://en.wikipedia.org/wiki/Linux_distribution)
-- [Linux range of use](https://en.wikipedia.org/wiki/Linux_range_of_use)
-- [Linux kernel](https://en.wikipedia.org/wiki/Linux_kernel)
-- [Linux namespaces](https://en.wikipedia.org/wiki/Linux_namespaces)
-- [Linux on embedded systems](https://en.wikipedia.org/wiki/Linux_on_embedded_systems)
-- [Namespace](https://en.wikipedia.org/wiki/Namespace)
-- [Network service](https://en.wikipedia.org/wiki/Network_service)
-- [Personal computer](https://en.wikipedia.org/wiki/Personal_computer)
-- [Ubuntu](https://en.wikipedia.org/wiki/Ubuntu)
-- [Windows 11](https://en.wikipedia.org/wiki/Windows_11)
-- [X86](https://en.wikipedia.org/wiki/X86)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:22:31.787105+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:28:07 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 3075 bytes
+- **Word Count:** 443 words

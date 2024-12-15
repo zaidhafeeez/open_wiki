@@ -1,17 +1,169 @@
 # Lambda calculus
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:31:24.476775+00:00
+## Metadata
+- **Last Updated:** 2024-12-09 15:20:50 UTC
 - **Original Article:** [Lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus)
 - **Language:** en
 - **Page ID:** 18203
 
 ## Summary
+Lambda calculus (also written as λ-calculus) is a formal system in mathematical logic for expressing computation based on function abstraction and application using variable binding and substitution. Untyped lambda calculus, the topic of this article, is a universal machine, a model of computation that can be used to simulate any Turing machine (and vice versa). It was introduced by the mathematician Alonzo Church in the 1930s as part of his research into the foundations of mathematics. In 1936, Church found a formulation which was logically consistent, and documented it in 1940.
+Lambda calculus consists of constructing lambda terms and performing reduction operations on them. A term is defined as any valid lambda calculus expression. In the simplest form of lambda calculus, terms are built using only the following rules:
 
-Lambda calculus (also written as λ-calculus) is a formal system in mathematical logic for expressing computation based on function abstraction and application using variable binding and substitution. Untyped lambda calculus, the topic of this article, is a universal machine, a model of computation that can be used to simulate any Turing machine (and vice versa). It was introduced by the mathematician Alonzo Church in the 1930s as part of his research into the foundations of mathematics. In 1936,
+  
+    
+      
+        x
+      
+    
+    {\textstyle x}
+  
+: A variable is a character or string representing a parameter.
+
+  
+    
+      
+        (
+        λ
+        x
+        .
+        M
+        )
+      
+    
+    {\textstyle (\lambda x.M)}
+  
+: A lambda abstraction is a function definition, taking as input the bound variable 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  
+ (between the λ and the punctum/dot .) and returning the body 
+  
+    
+      
+        M
+      
+    
+    {\textstyle M}
+  
+.
+
+  
+    
+      
+        (
+        M
+         
+        N
+        )
+      
+    
+    {\textstyle (M\ N)}
+  
+: An application, applying a function 
+  
+    
+      
+        M
+      
+    
+    {\textstyle M}
+  
+ to an argument 
+  
+    
+      
+        N
+      
+    
+    {\textstyle N}
+  
+. Both 
+  
+    
+      
+        M
+      
+    
+    {\textstyle M}
+  
+ and 
+  
+    
+      
+        N
+      
+    
+    {\textstyle N}
+  
+ are lambda terms.
+The reduction operations include:
+
+  
+    
+      
+        (
+        λ
+        x
+        .
+        M
+        [
+        x
+        ]
+        )
+        →
+        (
+        λ
+        y
+        .
+        M
+        [
+        y
+        ]
+        )
+      
+    
+    {\textstyle (\lambda x.M[x])\rightarrow (\lambda y.M[y])}
+  
+ : α-conversion, renaming the bound variables in the expression. Used to avoid name collisions.
+
+  
+    
+      
+        (
+        (
+        λ
+        x
+        .
+        M
+        )
+         
+        N
+        )
+        →
+        (
+        M
+        [
+        x
+        :=
+        N
+        ]
+        )
+      
+    
+    {\textstyle ((\lambda x.M)\ N)\rightarrow (M[x:=N])}
+  
+ : β-reduction, replacing the bound variables with the argument expression in the body of the abstraction.
+If De Bruijn indexing is used, then α-conversion is no longer required as there will be no name collisions. If repeated application of the reduction steps eventually terminates, then by the Church–Rosser theorem it will produce a β-normal form.
+Variable names are not needed if using a universal lambda function, such as Iota and Jot, which can create any function behavior by calling it on itself in various combinations.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:1936 in computing
 - Category:Articles with example Lisp (programming language) code
@@ -2788,642 +2940,9 @@ Implementing the Lambda calculus using C++ Templates
 Shane Steinert-Threlkeld, "Lambda Calculi", Internet Encyclopedia of Philosophy
 Anton Salikhmetov, Macro Lambda Calculus
 
-## Related Articles
-
-### Internal Links
-
-- [A. C. Croom](https://en.wikipedia.org/wiki/A._C._Croom)
-- [ALGOL 60](https://en.wikipedia.org/wiki/ALGOL_60)
-- [ASCII](https://en.wikipedia.org/wiki/ASCII)
-- [Abstract logic](https://en.wikipedia.org/wiki/Abstract_logic)
-- [Abstraction (computer science)](https://en.wikipedia.org/wiki/Abstraction_(computer_science))
-- [Ackermann set theory](https://en.wikipedia.org/wiki/Ackermann_set_theory)
-- [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing)
-- [Aleph number](https://en.wikipedia.org/wiki/Aleph_number)
-- [Alfred Foster (mathematician)](https://en.wikipedia.org/wiki/Alfred_Foster_(mathematician))
-- [Algebraic function](https://en.wikipedia.org/wiki/Algebraic_function)
-- [Algebraic logic](https://en.wikipedia.org/wiki/Algebraic_logic)
-- [Alice ter Meulen](https://en.wikipedia.org/wiki/Alice_ter_Meulen)
-- [Alonzo Church](https://en.wikipedia.org/wiki/Alonzo_Church)
-- [Alonzo Church (college president)](https://en.wikipedia.org/wiki/Alonzo_Church_(college_president))
-- [Alpha](https://en.wikipedia.org/wiki/Alpha)
-- [Alphabet (formal languages)](https://en.wikipedia.org/wiki/Alphabet_(formal_languages))
-- [Alternative semantics](https://en.wikipedia.org/wiki/Alternative_semantics)
-- [Ambiguity](https://en.wikipedia.org/wiki/Ambiguity)
-- [American Journal of Mathematics](https://en.wikipedia.org/wiki/American_Journal_of_Mathematics)
-- [Analytic function](https://en.wikipedia.org/wiki/Analytic_function)
-- [Anaphora (linguistics)](https://en.wikipedia.org/wiki/Anaphora_(linguistics))
-- [Anonymous function](https://en.wikipedia.org/wiki/Anonymous_function)
-- [Antecedent-contained deletion](https://en.wikipedia.org/wiki/Antecedent-contained_deletion)
-- [Applicative computing systems](https://en.wikipedia.org/wiki/Applicative_computing_systems)
-- [ArXiv](https://en.wikipedia.org/wiki/ArXiv)
-- [Argument](https://en.wikipedia.org/wiki/Argument)
-- [Arithmetic](https://en.wikipedia.org/wiki/Arithmetic)
-- [Arity](https://en.wikipedia.org/wiki/Arity)
-- [Atomic formula](https://en.wikipedia.org/wiki/Atomic_formula)
-- [Atomic sentence](https://en.wikipedia.org/wiki/Atomic_sentence)
-- [Automata theory](https://en.wikipedia.org/wiki/Automata_theory)
-- [Automated theorem proving](https://en.wikipedia.org/wiki/Automated_theorem_proving)
-- [Autonomy of syntax](https://en.wikipedia.org/wiki/Autonomy_of_syntax)
-- [Axiom](https://en.wikipedia.org/wiki/Axiom)
-- [Axiom of choice](https://en.wikipedia.org/wiki/Axiom_of_choice)
-- [Axiom schema](https://en.wikipedia.org/wiki/Axiom_schema)
-- [Axiomatic system](https://en.wikipedia.org/wiki/Axiomatic_system)
-- [Boolean algebra (structure)](https://en.wikipedia.org/wiki/Boolean_algebra_(structure))
-- [B, C, K, W system](https://en.wikipedia.org/wiki/B,_C,_K,_W_system)
-- [Backus–Naur form](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form)
-- [Banach–Tarski paradox](https://en.wikipedia.org/wiki/Banach%E2%80%93Tarski_paradox)
-- [Benjamin C. Pierce](https://en.wikipedia.org/wiki/Benjamin_C._Pierce)
-- [Beta](https://en.wikipedia.org/wiki/Beta)
-- [Beta normal form](https://en.wikipedia.org/wiki/Beta_normal_form)
-- [Bibcode](https://en.wikipedia.org/wiki/Bibcode)
-- [Big O notation](https://en.wikipedia.org/wiki/Big_O_notation)
-- [Bijection](https://en.wikipedia.org/wiki/Bijection)
-- [Binary combinatory logic](https://en.wikipedia.org/wiki/Binary_combinatory_logic)
-- [Binary operation](https://en.wikipedia.org/wiki/Binary_operation)
-- [Binary relation](https://en.wikipedia.org/wiki/Binary_relation)
-- [Binding (linguistics)](https://en.wikipedia.org/wiki/Binding_(linguistics))
-- [Boolean-valued function](https://en.wikipedia.org/wiki/Boolean-valued_function)
-- [Boolean algebra](https://en.wikipedia.org/wiki/Boolean_algebra)
-- [Boolean algebras canonically defined](https://en.wikipedia.org/wiki/Boolean_algebras_canonically_defined)
-- [Boolean function](https://en.wikipedia.org/wiki/Boolean_function)
-- [C++11](https://en.wikipedia.org/wiki/C%2B%2B11)
-- [Template (C++)](https://en.wikipedia.org/wiki/Template_(C%2B%2B))
-- [C. Anthony Anderson](https://en.wikipedia.org/wiki/C._Anthony_Anderson)
-- [C Sharp (programming language)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
-- [Calculus of constructions](https://en.wikipedia.org/wiki/Calculus_of_constructions)
-- [Caml](https://en.wikipedia.org/wiki/Caml)
-- [Cantor's diagonal argument](https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument)
-- [Cantor's paradox](https://en.wikipedia.org/wiki/Cantor%27s_paradox)
-- [Cantor's theorem](https://en.wikipedia.org/wiki/Cantor%27s_theorem)
-- [Cardinality](https://en.wikipedia.org/wiki/Cardinality)
-- [Cartesian closed category](https://en.wikipedia.org/wiki/Cartesian_closed_category)
-- [Cartesian product](https://en.wikipedia.org/wiki/Cartesian_product)
-- [Cataphora](https://en.wikipedia.org/wiki/Cataphora)
-- [Categorial grammar](https://en.wikipedia.org/wiki/Categorial_grammar)
-- [Categorical abstract machine](https://en.wikipedia.org/wiki/Categorical_abstract_machine)
-- [Categorical theory](https://en.wikipedia.org/wiki/Categorical_theory)
-- [Category (mathematics)](https://en.wikipedia.org/wiki/Category_(mathematics))
-- [Category of sets](https://en.wikipedia.org/wiki/Category_of_sets)
-- [Category theory](https://en.wikipedia.org/wiki/Category_theory)
-- [Church encoding](https://en.wikipedia.org/wiki/Church_encoding)
-- [Church encoding](https://en.wikipedia.org/wiki/Church_encoding)
-- [Church–Rosser theorem](https://en.wikipedia.org/wiki/Church%E2%80%93Rosser_theorem)
-- [Church–Turing thesis](https://en.wikipedia.org/wiki/Church%E2%80%93Turing_thesis)
-- [CiteSeerX](https://en.wikipedia.org/wiki/CiteSeerX)
-- [Class (set theory)](https://en.wikipedia.org/wiki/Class_(set_theory))
-- [Classical logic](https://en.wikipedia.org/wiki/Classical_logic)
-- [Clojure](https://en.wikipedia.org/wiki/Clojure)
-- [Codomain](https://en.wikipedia.org/wiki/Codomain)
-- [Coercion (linguistics)](https://en.wikipedia.org/wiki/Coercion_(linguistics))
-- [Cognitive semantics](https://en.wikipedia.org/wiki/Cognitive_semantics)
-- [Combinatory logic](https://en.wikipedia.org/wiki/Combinatory_logic)
-- [Combinatory categorial grammar](https://en.wikipedia.org/wiki/Combinatory_categorial_grammar)
-- [Combinatory logic](https://en.wikipedia.org/wiki/Combinatory_logic)
-- [Communications of the ACM](https://en.wikipedia.org/wiki/Communications_of_the_ACM)
-- [Compactness theorem](https://en.wikipedia.org/wiki/Compactness_theorem)
-- [Complement (set theory)](https://en.wikipedia.org/wiki/Complement_(set_theory))
-- [Complete theory](https://en.wikipedia.org/wiki/Complete_theory)
-- [Complex analysis](https://en.wikipedia.org/wiki/Complex_analysis)
-- [Computability](https://en.wikipedia.org/wiki/Computability)
-- [Computability theory](https://en.wikipedia.org/wiki/Computability_theory)
-- [Computable function](https://en.wikipedia.org/wiki/Computable_function)
-- [Computable set](https://en.wikipedia.org/wiki/Computable_set)
-- [Computably enumerable set](https://en.wikipedia.org/wiki/Computably_enumerable_set)
-- [Computational complexity theory](https://en.wikipedia.org/wiki/Computational_complexity_theory)
-- [Computational semantics](https://en.wikipedia.org/wiki/Computational_semantics)
-- [Computer science](https://en.wikipedia.org/wiki/Computer_science)
-- [Concrete category](https://en.wikipedia.org/wiki/Concrete_category)
-- [Conditional sentence](https://en.wikipedia.org/wiki/Conditional_sentence)
-- [Confluence (abstract rewriting)](https://en.wikipedia.org/wiki/Confluence_(abstract_rewriting))
-- [Conservative extension](https://en.wikipedia.org/wiki/Conservative_extension)
-- [Conservativity](https://en.wikipedia.org/wiki/Conservativity)
-- [Consistency](https://en.wikipedia.org/wiki/Consistency)
-- [Constant function](https://en.wikipedia.org/wiki/Constant_function)
-- [Constructible universe](https://en.wikipedia.org/wiki/Constructible_universe)
-- [Construction of the real numbers](https://en.wikipedia.org/wiki/Construction_of_the_real_numbers)
-- [Constructive set theory](https://en.wikipedia.org/wiki/Constructive_set_theory)
-- [Common ground (linguistics)](https://en.wikipedia.org/wiki/Common_ground_(linguistics))
-- [Continuation](https://en.wikipedia.org/wiki/Continuation)
-- [Continuous function](https://en.wikipedia.org/wiki/Continuous_function)
-- [Continuum hypothesis](https://en.wikipedia.org/wiki/Continuum_hypothesis)
-- [Conversational scoreboard](https://en.wikipedia.org/wiki/Conversational_scoreboard)
-- [Countable set](https://en.wikipedia.org/wiki/Countable_set)
-- [Counterfactual conditional](https://en.wikipedia.org/wiki/Counterfactual_conditional)
-- [Crossover effects](https://en.wikipedia.org/wiki/Crossover_effects)
-- [Cumulativity (linguistics)](https://en.wikipedia.org/wiki/Cumulativity_(linguistics))
-- [Currying](https://en.wikipedia.org/wiki/Currying)
-- [Curry–Howard correspondence](https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence)
-- [Dana Scott](https://en.wikipedia.org/wiki/Dana_Scott)
-- [De Bruijn index](https://en.wikipedia.org/wiki/De_Bruijn_index)
-- [De Bruijn notation](https://en.wikipedia.org/wiki/De_Bruijn_notation)
-- [De dicto and de re](https://en.wikipedia.org/wiki/De_dicto_and_de_re)
-- [De se](https://en.wikipedia.org/wiki/De_se)
-- [Decidability (logic)](https://en.wikipedia.org/wiki/Decidability_(logic))
-- [Decision problem](https://en.wikipedia.org/wiki/Decision_problem)
-- [Formal system](https://en.wikipedia.org/wiki/Formal_system)
-- [Definiteness](https://en.wikipedia.org/wiki/Definiteness)
-- [Denotation](https://en.wikipedia.org/wiki/Denotation)
-- [Denotational semantics](https://en.wikipedia.org/wiki/Denotational_semantics)
-- [Deontic modality](https://en.wikipedia.org/wiki/Deontic_modality)
-- [Diagram (mathematical logic)](https://en.wikipedia.org/wiki/Diagram_(mathematical_logic))
-- [Director string](https://en.wikipedia.org/wiki/Director_string)
-- [Discourse relation](https://en.wikipedia.org/wiki/Discourse_relation)
-- [Discourse representation theory](https://en.wikipedia.org/wiki/Discourse_representation_theory)
-- [Logical disjunction](https://en.wikipedia.org/wiki/Logical_disjunction)
-- [Distributed computing](https://en.wikipedia.org/wiki/Distributed_computing)
-- [Distributional semantics](https://en.wikipedia.org/wiki/Distributional_semantics)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Domain of a function](https://en.wikipedia.org/wiki/Domain_of_a_function)
-- [Domain theory](https://en.wikipedia.org/wiki/Domain_theory)
-- [Donkey sentence](https://en.wikipedia.org/wiki/Donkey_sentence)
-- [Downward entailing](https://en.wikipedia.org/wiki/Downward_entailing)
-- [Dynamic semantics](https://en.wikipedia.org/wiki/Dynamic_semantics)
-- [Eeny, meeny, miny, moe](https://en.wikipedia.org/wiki/Eeny,_meeny,_miny,_moe)
-- [Eiffel (programming language)](https://en.wikipedia.org/wiki/Eiffel_(programming_language))
-- [Element (mathematics)](https://en.wikipedia.org/wiki/Element_(mathematics))
-- [Elementary diagram](https://en.wikipedia.org/wiki/Elementary_diagram)
-- [Elementary equivalence](https://en.wikipedia.org/wiki/Elementary_equivalence)
-- [Elementary function arithmetic](https://en.wikipedia.org/wiki/Elementary_function_arithmetic)
-- [Empty set](https://en.wikipedia.org/wiki/Empty_set)
-- [Encyclopedia of Mathematics](https://en.wikipedia.org/wiki/Encyclopedia_of_Mathematics)
-- [Logical consequence](https://en.wikipedia.org/wiki/Logical_consequence)
-- [Enumeration](https://en.wikipedia.org/wiki/Enumeration)
-- [Epistemic modality](https://en.wikipedia.org/wiki/Epistemic_modality)
-- [Epsilon calculus](https://en.wikipedia.org/wiki/Epsilon_calculus)
-- [Universal algebra](https://en.wikipedia.org/wiki/Universal_algebra)
-- [Equiconsistency](https://en.wikipedia.org/wiki/Equiconsistency)
-- [Equivalence relation](https://en.wikipedia.org/wiki/Equivalence_relation)
-- [Esoteric programming language](https://en.wikipedia.org/wiki/Esoteric_programming_language)
-- [Eta](https://en.wikipedia.org/wiki/Eta)
-- [Euclid's Elements](https://en.wikipedia.org/wiki/Euclid%27s_Elements)
-- [Euclidean geometry](https://en.wikipedia.org/wiki/Euclidean_geometry)
-- [European Mathematical Society](https://en.wikipedia.org/wiki/European_Mathematical_Society)
-- [Evaluation strategy](https://en.wikipedia.org/wiki/Evaluation_strategy)
-- [Evidentiality](https://en.wikipedia.org/wiki/Evidentiality)
-- [Execution (computing)](https://en.wikipedia.org/wiki/Execution_(computing))
-- [Exhaustivity](https://en.wikipedia.org/wiki/Exhaustivity)
-- [Existential closure](https://en.wikipedia.org/wiki/Existential_closure)
-- [Existential quantification](https://en.wikipedia.org/wiki/Existential_quantification)
-- [Explicit substitution](https://en.wikipedia.org/wiki/Explicit_substitution)
-- [Expression (mathematics)](https://en.wikipedia.org/wiki/Expression_(mathematics))
-- [Extension (semantics)](https://en.wikipedia.org/wiki/Extension_(semantics))
-- [Extension by definitions](https://en.wikipedia.org/wiki/Extension_by_definitions)
-- [Extension by new constant and function names](https://en.wikipedia.org/wiki/Extension_by_new_constant_and_function_names)
-- [Extensionality](https://en.wikipedia.org/wiki/Extensionality)
-- [Factorial](https://en.wikipedia.org/wiki/Factorial)
-- [Faultless disagreement](https://en.wikipedia.org/wiki/Faultless_disagreement)
-- [Finitary relation](https://en.wikipedia.org/wiki/Finitary_relation)
-- [Finite-valued logic](https://en.wikipedia.org/wiki/Finite-valued_logic)
-- [Finite model theory](https://en.wikipedia.org/wiki/Finite_model_theory)
-- [Finite set](https://en.wikipedia.org/wiki/Finite_set)
-- [First-class function](https://en.wikipedia.org/wiki/First-class_function)
-- [First-class citizen](https://en.wikipedia.org/wiki/First-class_citizen)
-- [First-order logic](https://en.wikipedia.org/wiki/First-order_logic)
-- [Fixed-point combinator](https://en.wikipedia.org/wiki/Fixed-point_combinator)
-- [Fixed-point logic](https://en.wikipedia.org/wiki/Fixed-point_logic)
-- [Focus (linguistics)](https://en.wikipedia.org/wiki/Focus_(linguistics))
-- [Forcing (mathematics)](https://en.wikipedia.org/wiki/Forcing_(mathematics))
-- [Formal grammar](https://en.wikipedia.org/wiki/Formal_grammar)
-- [Formal language](https://en.wikipedia.org/wiki/Formal_language)
-- [Formal proof](https://en.wikipedia.org/wiki/Formal_proof)
-- [Semantics of logic](https://en.wikipedia.org/wiki/Semantics_of_logic)
-- [Formal semantics (natural language)](https://en.wikipedia.org/wiki/Formal_semantics_(natural_language))
-- [Formal system](https://en.wikipedia.org/wiki/Formal_system)
-- [Formalism (philosophy of mathematics)](https://en.wikipedia.org/wiki/Formalism_(philosophy_of_mathematics))
-- [Formation rule](https://en.wikipedia.org/wiki/Formation_rule)
-- [Foundations of geometry](https://en.wikipedia.org/wiki/Foundations_of_geometry)
-- [Foundations of mathematics](https://en.wikipedia.org/wiki/Foundations_of_mathematics)
-- [Free On-line Dictionary of Computing](https://en.wikipedia.org/wiki/Free_On-line_Dictionary_of_Computing)
-- [Free choice inference](https://en.wikipedia.org/wiki/Free_choice_inference)
-- [Free logic](https://en.wikipedia.org/wiki/Free_logic)
-- [Free variables and bound variables](https://en.wikipedia.org/wiki/Free_variables_and_bound_variables)
-- [Frege–Church ontology](https://en.wikipedia.org/wiki/Frege%E2%80%93Church_ontology)
-- [Fresh variable](https://en.wikipedia.org/wiki/Fresh_variable)
-- [Function (computer programming)](https://en.wikipedia.org/wiki/Function_(computer_programming))
-- [Function (mathematics)](https://en.wikipedia.org/wiki/Function_(mathematics))
-- [Function application](https://en.wikipedia.org/wiki/Function_application)
-- [Function composition](https://en.wikipedia.org/wiki/Function_composition)
-- [Complex analysis](https://en.wikipedia.org/wiki/Complex_analysis)
-- [Function of a real variable](https://en.wikipedia.org/wiki/Function_of_a_real_variable)
-- [Function of several complex variables](https://en.wikipedia.org/wiki/Function_of_several_complex_variables)
-- [Function of several real variables](https://en.wikipedia.org/wiki/Function_of_several_real_variables)
-- [Function pointer](https://en.wikipedia.org/wiki/Function_pointer)
-- [Function space](https://en.wikipedia.org/wiki/Function_space)
-- [Functional predicate](https://en.wikipedia.org/wiki/Functional_predicate)
-- [Functional programming](https://en.wikipedia.org/wiki/Functional_programming)
-- [Functor](https://en.wikipedia.org/wiki/Functor)
-- [Futures and promises](https://en.wikipedia.org/wiki/Futures_and_promises)
-- [Fuzzy set](https://en.wikipedia.org/wiki/Fuzzy_set)
-- [Gary R. Mar](https://en.wikipedia.org/wiki/Gary_R._Mar)
-- [General set theory](https://en.wikipedia.org/wiki/General_set_theory)
-- [Generalized quantifier](https://en.wikipedia.org/wiki/Generalized_quantifier)
-- [Generative grammar](https://en.wikipedia.org/wiki/Generative_grammar)
-- [George Alfred Barnard](https://en.wikipedia.org/wiki/George_Alfred_Barnard)
-- [Givenness](https://en.wikipedia.org/wiki/Givenness)
-- [Glue semantics](https://en.wikipedia.org/wiki/Glue_semantics)
-- [Graph reduction](https://en.wikipedia.org/wiki/Graph_reduction)
-- [Grothendieck universe](https://en.wikipedia.org/wiki/Grothendieck_universe)
-- [Ground expression](https://en.wikipedia.org/wiki/Ground_expression)
-- [Ground expression](https://en.wikipedia.org/wiki/Ground_expression)
-- [Gödel's completeness theorem](https://en.wikipedia.org/wiki/G%C3%B6del%27s_completeness_theorem)
-- [Gödel's incompleteness theorems](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems)
-- [Gödel numbering](https://en.wikipedia.org/wiki/G%C3%B6del_numbering)
-- [Hacker culture](https://en.wikipedia.org/wiki/Hacker_culture)
-- [Halting problem](https://en.wikipedia.org/wiki/Halting_problem)
-- [Harrop formula](https://en.wikipedia.org/wiki/Harrop_formula)
-- [Hartley Rogers Jr.](https://en.wikipedia.org/wiki/Hartley_Rogers_Jr.)
-- [Haskell](https://en.wikipedia.org/wiki/Haskell)
-- [Handle System](https://en.wikipedia.org/wiki/Handle_System)
-- [Henk Barendregt](https://en.wikipedia.org/wiki/Henk_Barendregt)
-- [Hereditary set](https://en.wikipedia.org/wiki/Hereditary_set)
-- [Heriot-Watt University](https://en.wikipedia.org/wiki/Heriot-Watt_University)
-- [Higher-order function](https://en.wikipedia.org/wiki/Higher-order_function)
-- [Higher-order logic](https://en.wikipedia.org/wiki/Higher-order_logic)
-- [Hilbert's axioms](https://en.wikipedia.org/wiki/Hilbert%27s_axioms)
-- [Hilbert system](https://en.wikipedia.org/wiki/Hilbert_system)
-- [History of logic](https://en.wikipedia.org/wiki/History_of_logic)
-- [Mathematical logic](https://en.wikipedia.org/wiki/Mathematical_logic)
-- [History of the function concept](https://en.wikipedia.org/wiki/History_of_the_function_concept)
-- [Homogeneity (semantics)](https://en.wikipedia.org/wiki/Homogeneity_(semantics))
-- [Hurford disjunction](https://en.wikipedia.org/wiki/Hurford_disjunction)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Identity function](https://en.wikipedia.org/wiki/Identity_function)
-- [If and only if](https://en.wikipedia.org/wiki/If_and_only_if)
-- [Image (mathematics)](https://en.wikipedia.org/wiki/Image_(mathematics))
-- [Imperative programming](https://en.wikipedia.org/wiki/Imperative_programming)
-- [Implicit function](https://en.wikipedia.org/wiki/Implicit_function)
-- [Inaccessible cardinal](https://en.wikipedia.org/wiki/Inaccessible_cardinal)
-- [Inalienable possession](https://en.wikipedia.org/wiki/Inalienable_possession)
-- [Independence (mathematical logic)](https://en.wikipedia.org/wiki/Independence_(mathematical_logic))
-- [Indexicality](https://en.wikipedia.org/wiki/Indexicality)
-- [Recursive definition](https://en.wikipedia.org/wiki/Recursive_definition)
-- [Inference](https://en.wikipedia.org/wiki/Inference)
-- [Inferential role semantics](https://en.wikipedia.org/wiki/Inferential_role_semantics)
-- [Infinite-valued logic](https://en.wikipedia.org/wiki/Infinite-valued_logic)
-- [Infinite set](https://en.wikipedia.org/wiki/Infinite_set)
-- [Information theory](https://en.wikipedia.org/wiki/Information_theory)
-- [Inhabited set](https://en.wikipedia.org/wiki/Inhabited_set)
-- [Injective function](https://en.wikipedia.org/wiki/Injective_function)
-- [Input/output](https://en.wikipedia.org/wiki/Input/output)
-- [Inquisitive semantics](https://en.wikipedia.org/wiki/Inquisitive_semantics)
-- [Integer-valued function](https://en.wikipedia.org/wiki/Integer-valued_function)
-- [Intension](https://en.wikipedia.org/wiki/Intension)
-- [Intensional logic](https://en.wikipedia.org/wiki/Intensional_logic)
-- [Interaction nets](https://en.wikipedia.org/wiki/Interaction_nets)
-- [Categorical logic](https://en.wikipedia.org/wiki/Categorical_logic)
-- [Internet Encyclopedia of Philosophy](https://en.wikipedia.org/wiki/Internet_Encyclopedia_of_Philosophy)
-- [Interpretation (logic)](https://en.wikipedia.org/wiki/Interpretation_(logic))
-- [Interpretation (model theory)](https://en.wikipedia.org/wiki/Interpretation_(model_theory))
-- [Structure (mathematical logic)](https://en.wikipedia.org/wiki/Structure_(mathematical_logic))
-- [Intersection (set theory)](https://en.wikipedia.org/wiki/Intersection_(set_theory))
-- [Intersective modifier](https://en.wikipedia.org/wiki/Intersective_modifier)
-- [Inverse function](https://en.wikipedia.org/wiki/Inverse_function)
-- [Iota and Jot](https://en.wikipedia.org/wiki/Iota_and_Jot)
-- [Definite description](https://en.wikipedia.org/wiki/Definite_description)
-- [Isomorphism](https://en.wikipedia.org/wiki/Isomorphism)
-- [J. Barkley Rosser](https://en.wikipedia.org/wiki/J._Barkley_Rosser)
-- [J. Barkley Rosser](https://en.wikipedia.org/wiki/J._Barkley_Rosser)
-- [JSTOR](https://en.wikipedia.org/wiki/JSTOR)
-- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-- [John C. Mitchell](https://en.wikipedia.org/wiki/John_C._Mitchell)
-- [John G. Kemeny](https://en.wikipedia.org/wiki/John_G._Kemeny)
-- [Kappa calculus](https://en.wikipedia.org/wiki/Kappa_calculus)
-- [Kleene–Rosser paradox](https://en.wikipedia.org/wiki/Kleene%E2%80%93Rosser_paradox)
-- [Knights of the Lambda Calculus](https://en.wikipedia.org/wiki/Knights_of_the_Lambda_Calculus)
-- [Kolmogorov complexity](https://en.wikipedia.org/wiki/Kolmogorov_complexity)
-- [Semantic theory of truth](https://en.wikipedia.org/wiki/Semantic_theory_of_truth)
-- [Kripke–Platek set theory](https://en.wikipedia.org/wiki/Kripke%E2%80%93Platek_set_theory)
-- [Krivine machine](https://en.wikipedia.org/wiki/Krivine_machine)
-- [Lambda](https://en.wikipedia.org/wiki/Lambda)
-- [Lambda-mu calculus](https://en.wikipedia.org/wiki/Lambda-mu_calculus)
-- [Lambda calculus definition](https://en.wikipedia.org/wiki/Lambda_calculus_definition)
-- [Lambda cube](https://en.wikipedia.org/wiki/Lambda_cube)
-- [Large cardinal](https://en.wikipedia.org/wiki/Large_cardinal)
-- [Exponentiation](https://en.wikipedia.org/wiki/Exponentiation)
-- [Lemma (mathematics)](https://en.wikipedia.org/wiki/Lemma_(mathematics))
-- [Leon Henkin](https://en.wikipedia.org/wiki/Leon_Henkin)
-- [Let expression](https://en.wikipedia.org/wiki/Let_expression)
-- [Lexical semantics](https://en.wikipedia.org/wiki/Lexical_semantics)
-- [Library (computing)](https://en.wikipedia.org/wiki/Library_(computing))
-- [Lindström's theorem](https://en.wikipedia.org/wiki/Lindstr%C3%B6m%27s_theorem)
-- [Linear map](https://en.wikipedia.org/wiki/Linear_map)
-- [Modality (semantics)](https://en.wikipedia.org/wiki/Modality_(semantics))
-- [Linguistics](https://en.wikipedia.org/wiki/Linguistics)
-- [Linguistics wars](https://en.wikipedia.org/wiki/Linguistics_wars)
-- [List of axiomatic systems in logic](https://en.wikipedia.org/wiki/List_of_axiomatic_systems_in_logic)
-- [List of axioms](https://en.wikipedia.org/wiki/List_of_axioms)
-- [List of first-order theories](https://en.wikipedia.org/wiki/List_of_first-order_theories)
-- [List of formal systems](https://en.wikipedia.org/wiki/List_of_formal_systems)
-- [List of mathematical functions](https://en.wikipedia.org/wiki/List_of_mathematical_functions)
-- [List of mathematical theories](https://en.wikipedia.org/wiki/List_of_mathematical_theories)
-- [List of set identities and relations](https://en.wikipedia.org/wiki/List_of_set_identities_and_relations)
-- [List of statements independent of ZFC](https://en.wikipedia.org/wiki/List_of_statements_independent_of_ZFC)
-- [Logic](https://en.wikipedia.org/wiki/Logic)
-- [Logic translation](https://en.wikipedia.org/wiki/Logic_translation)
-- [Logical biconditional](https://en.wikipedia.org/wiki/Logical_biconditional)
-- [Logical conjunction](https://en.wikipedia.org/wiki/Logical_conjunction)
-- [Logical connective](https://en.wikipedia.org/wiki/Logical_connective)
-- [Logical consequence](https://en.wikipedia.org/wiki/Logical_consequence)
-- [Logical constant](https://en.wikipedia.org/wiki/Logical_constant)
-- [Logical disjunction](https://en.wikipedia.org/wiki/Logical_disjunction)
-- [Logical equality](https://en.wikipedia.org/wiki/Logical_equality)
-- [Logical equivalence](https://en.wikipedia.org/wiki/Logical_equivalence)
-- [Logical form (linguistics)](https://en.wikipedia.org/wiki/Logical_form_(linguistics))
-- [Logical truth](https://en.wikipedia.org/wiki/Logical_truth)
-- [Logicism](https://en.wikipedia.org/wiki/Logicism)
-- [Logophoricity](https://en.wikipedia.org/wiki/Logophoricity)
-- [Low-level programming language](https://en.wikipedia.org/wiki/Low-level_programming_language)
-- [Löwenheim–Skolem theorem](https://en.wikipedia.org/wiki/L%C3%B6wenheim%E2%80%93Skolem_theorem)
-- [MIT Press](https://en.wikipedia.org/wiki/MIT_Press)
-- [Many-valued logic](https://en.wikipedia.org/wiki/Many-valued_logic)
-- [Map (mathematics)](https://en.wikipedia.org/wiki/Map_(mathematics))
-- [Maps to](https://en.wikipedia.org/wiki/Maps_to)
-- [Martin Davis (mathematician)](https://en.wikipedia.org/wiki/Martin_Davis_(mathematician))
-- [Material conditional](https://en.wikipedia.org/wiki/Material_conditional)
-- [Mathematical logic](https://en.wikipedia.org/wiki/Mathematical_logic)
-- [Mathematical object](https://en.wikipedia.org/wiki/Mathematical_object)
-- [Mathematical proof](https://en.wikipedia.org/wiki/Mathematical_proof)
-- [Mathematics](https://en.wikipedia.org/wiki/Mathematics)
-- [Maurice L'Abbé](https://en.wikipedia.org/wiki/Maurice_L%27Abb%C3%A9)
-- [Meaning postulate](https://en.wikipedia.org/wiki/Meaning_postulate)
-- [Measurable function](https://en.wikipedia.org/wiki/Measurable_function)
-- [Mereology](https://en.wikipedia.org/wiki/Mereology)
-- [Metalanguage](https://en.wikipedia.org/wiki/Metalanguage)
-- [Michael O. Rabin](https://en.wikipedia.org/wiki/Michael_O._Rabin)
-- [Minimal axioms for Boolean algebra](https://en.wikipedia.org/wiki/Minimal_axioms_for_Boolean_algebra)
-- [Minimalism (computing)](https://en.wikipedia.org/wiki/Minimalism_(computing))
-- [Mirativity](https://en.wikipedia.org/wiki/Mirativity)
-- [Modal subordination](https://en.wikipedia.org/wiki/Modal_subordination)
-- [Model complete theory](https://en.wikipedia.org/wiki/Model_complete_theory)
-- [Model of computation](https://en.wikipedia.org/wiki/Model_of_computation)
-- [Model theory](https://en.wikipedia.org/wiki/Model_theory)
-- [Mogensen–Scott encoding](https://en.wikipedia.org/wiki/Mogensen%E2%80%93Scott_encoding)
-- [Monad (functional programming)](https://en.wikipedia.org/wiki/Monad_(functional_programming))
-- [Monadic predicate calculus](https://en.wikipedia.org/wiki/Monadic_predicate_calculus)
-- [Monadic second-order logic](https://en.wikipedia.org/wiki/Monadic_second-order_logic)
-- [Montague grammar](https://en.wikipedia.org/wiki/Montague_grammar)
-- [Morphism](https://en.wikipedia.org/wiki/Morphism)
-- [Morse–Kelley set theory](https://en.wikipedia.org/wiki/Morse%E2%80%93Kelley_set_theory)
-- [Multivalued function](https://en.wikipedia.org/wiki/Multivalued_function)
-- [NLab](https://en.wikipedia.org/wiki/NLab)
-- [NP (complexity)](https://en.wikipedia.org/wiki/NP_(complexity))
-- [Naive set theory](https://en.wikipedia.org/wiki/Naive_set_theory)
-- [Name binding](https://en.wikipedia.org/wiki/Name_binding)
-- [Name collision](https://en.wikipedia.org/wiki/Name_collision)
-- [Name resolution (programming languages)](https://en.wikipedia.org/wiki/Name_resolution_(programming_languages))
-- [Natural deduction](https://en.wikipedia.org/wiki/Natural_deduction)
-- [Natural number](https://en.wikipedia.org/wiki/Natural_number)
-- [Negation](https://en.wikipedia.org/wiki/Negation)
-- [New Foundations](https://en.wikipedia.org/wiki/New_Foundations)
-- [Nicholas Rescher](https://en.wikipedia.org/wiki/Nicholas_Rescher)
-- [Non-Euclidean geometry](https://en.wikipedia.org/wiki/Non-Euclidean_geometry)
-- [Non-logical symbol](https://en.wikipedia.org/wiki/Non-logical_symbol)
-- [Non-standard model](https://en.wikipedia.org/wiki/Non-standard_model)
-- [Non-standard model of arithmetic](https://en.wikipedia.org/wiki/Non-standard_model_of_arithmetic)
-- [Nondeterministic algorithm](https://en.wikipedia.org/wiki/Nondeterministic_algorithm)
-- [Normal form (abstract rewriting)](https://en.wikipedia.org/wiki/Normal_form_(abstract_rewriting))
-- [Norman Shapiro](https://en.wikipedia.org/wiki/Norman_Shapiro)
-- [Elsevier](https://en.wikipedia.org/wiki/Elsevier)
-- [Object (computer science)](https://en.wikipedia.org/wiki/Object_(computer_science))
-- [Opaque context](https://en.wikipedia.org/wiki/Opaque_context)
-- [Open formula](https://en.wikipedia.org/wiki/Open_formula)
-- [Operation (mathematics)](https://en.wikipedia.org/wiki/Operation_(mathematics))
-- [Operational definition](https://en.wikipedia.org/wiki/Operational_definition)
-- [Ordered pair](https://en.wikipedia.org/wiki/Ordered_pair)
-- [Ordinal analysis](https://en.wikipedia.org/wiki/Ordinal_analysis)
-- [Ordinal number](https://en.wikipedia.org/wiki/Ordinal_number)
-- [Orrin Frink](https://en.wikipedia.org/wiki/Orrin_Frink)
-- [P (complexity)](https://en.wikipedia.org/wiki/P_(complexity))
-- [P versus NP problem](https://en.wikipedia.org/wiki/P_versus_NP_problem)
-- [Paradoxes of set theory](https://en.wikipedia.org/wiki/Paradoxes_of_set_theory)
-- [Parallel computing](https://en.wikipedia.org/wiki/Parallel_computing)
-- [Parameter (computer programming)](https://en.wikipedia.org/wiki/Parameter_(computer_programming))
-- [Partial function](https://en.wikipedia.org/wiki/Partial_function)
-- [Partially ordered set](https://en.wikipedia.org/wiki/Partially_ordered_set)
-- [Partition of a set](https://en.wikipedia.org/wiki/Partition_of_a_set)
-- [Pascal (programming language)](https://en.wikipedia.org/wiki/Pascal_(programming_language))
-- [Peano axioms](https://en.wikipedia.org/wiki/Peano_axioms)
-- [Performative utterance](https://en.wikipedia.org/wiki/Performative_utterance)
-- [Peter B. Andrews](https://en.wikipedia.org/wiki/Peter_B._Andrews)
-- [Peter Landin](https://en.wikipedia.org/wiki/Peter_Landin)
-- [Philosophy](https://en.wikipedia.org/wiki/Philosophy)
-- [Philosophy of language](https://en.wikipedia.org/wiki/Philosophy_of_language)
-- [Philosophy of mathematics](https://en.wikipedia.org/wiki/Philosophy_of_mathematics)
-- [Plural quantification](https://en.wikipedia.org/wiki/Plural_quantification)
-- [Polarity item](https://en.wikipedia.org/wiki/Polarity_item)
-- [Polynomial](https://en.wikipedia.org/wiki/Polynomial)
-- [PDF](https://en.wikipedia.org/wiki/PDF)
-- [Possible world](https://en.wikipedia.org/wiki/Possible_world)
-- [Power set](https://en.wikipedia.org/wiki/Power_set)
-- [Pragmatics](https://en.wikipedia.org/wiki/Pragmatics)
-- [Predicate (mathematical logic)](https://en.wikipedia.org/wiki/Predicate_(mathematical_logic))
-- [First-order logic](https://en.wikipedia.org/wiki/First-order_logic)
-- [Predicate variable](https://en.wikipedia.org/wiki/Predicate_variable)
-- [Presupposition](https://en.wikipedia.org/wiki/Presupposition)
-- [Primitive recursive arithmetic](https://en.wikipedia.org/wiki/Primitive_recursive_arithmetic)
-- [Primitive recursive function](https://en.wikipedia.org/wiki/Primitive_recursive_function)
-- [Princeton University](https://en.wikipedia.org/wiki/Princeton_University)
-- [Principia Mathematica](https://en.wikipedia.org/wiki/Principia_Mathematica)
-- [Principle of compositionality](https://en.wikipedia.org/wiki/Principle_of_compositionality)
-- [Privative adjective](https://en.wikipedia.org/wiki/Privative_adjective)
-- [Procedural programming](https://en.wikipedia.org/wiki/Procedural_programming)
-- [Process calculus](https://en.wikipedia.org/wiki/Process_calculus)
-- [Programming idiom](https://en.wikipedia.org/wiki/Programming_idiom)
-- [Programming language](https://en.wikipedia.org/wiki/Programming_language)
-- [Programming language theory](https://en.wikipedia.org/wiki/Programming_language_theory)
-- [Proof of impossibility](https://en.wikipedia.org/wiki/Proof_of_impossibility)
-- [Proof theory](https://en.wikipedia.org/wiki/Proof_theory)
-- [Proposition](https://en.wikipedia.org/wiki/Proposition)
-- [Propositional attitude](https://en.wikipedia.org/wiki/Propositional_attitude)
-- [Propositional calculus](https://en.wikipedia.org/wiki/Propositional_calculus)
-- [Propositional formula](https://en.wikipedia.org/wiki/Propositional_formula)
-- [Propositional variable](https://en.wikipedia.org/wiki/Propositional_variable)
-- [Pure type system](https://en.wikipedia.org/wiki/Pure_type_system)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Quantificational variability effect](https://en.wikipedia.org/wiki/Quantificational_variability_effect)
-- [Quantifier (logic)](https://en.wikipedia.org/wiki/Quantifier_(logic))
-- [Operator (linguistics)](https://en.wikipedia.org/wiki/Operator_(linguistics))
-- [Quantifier rank](https://en.wikipedia.org/wiki/Quantifier_rank)
-- [Quantization (linguistics)](https://en.wikipedia.org/wiki/Quantization_(linguistics))
-- [Question under discussion](https://en.wikipedia.org/wiki/Question_under_discussion)
-- [Rational function](https://en.wikipedia.org/wiki/Rational_function)
-- [Raymond Smullyan](https://en.wikipedia.org/wiki/Raymond_Smullyan)
-- [Real-valued function](https://en.wikipedia.org/wiki/Real-valued_function)
-- [Recursion](https://en.wikipedia.org/wiki/Recursion)
-- [Recursive definition](https://en.wikipedia.org/wiki/Recursive_definition)
-- [Computable set](https://en.wikipedia.org/wiki/Computable_set)
-- [Reduction strategy](https://en.wikipedia.org/wiki/Reduction_strategy)
-- [Reduction strategy](https://en.wikipedia.org/wiki/Reduction_strategy)
-- [Reference](https://en.wikipedia.org/wiki/Reference)
-- [Regular expression](https://en.wikipedia.org/wiki/Regular_expression)
-- [Relation (mathematics)](https://en.wikipedia.org/wiki/Relation_(mathematics))
-- [Responsive predicate](https://en.wikipedia.org/wiki/Responsive_predicate)
-- [Restriction (mathematics)](https://en.wikipedia.org/wiki/Restriction_(mathematics))
-- [Reverse mathematics](https://en.wikipedia.org/wiki/Reverse_mathematics)
-- [Rewriting](https://en.wikipedia.org/wiki/Rewriting)
-- [Rewriting](https://en.wikipedia.org/wiki/Rewriting)
-- [Richard Montague](https://en.wikipedia.org/wiki/Richard_Montague)
-- [Rising declarative](https://en.wikipedia.org/wiki/Rising_declarative)
-- [Robinson arithmetic](https://en.wikipedia.org/wiki/Robinson_arithmetic)
-- [Rule of inference](https://en.wikipedia.org/wiki/Rule_of_inference)
-- [Russell's paradox](https://en.wikipedia.org/wiki/Russell%27s_paradox)
-- [Ruy de Queiroz](https://en.wikipedia.org/wiki/Ruy_de_Queiroz)
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [SECD machine](https://en.wikipedia.org/wiki/SECD_machine)
-- [SKI combinator calculus](https://en.wikipedia.org/wiki/SKI_combinator_calculus)
-- [Satisfiability](https://en.wikipedia.org/wiki/Satisfiability)
-- [Saturated model](https://en.wikipedia.org/wiki/Saturated_model)
-- [Scala (programming language)](https://en.wikipedia.org/wiki/Scala_(programming_language))
-- [Scalar implicature](https://en.wikipedia.org/wiki/Scalar_implicature)
-- [Scheme (programming language)](https://en.wikipedia.org/wiki/Scheme_(programming_language))
-- [Schröder–Bernstein theorem](https://en.wikipedia.org/wiki/Schr%C3%B6der%E2%80%93Bernstein_theorem)
-- [Scope (formal semantics)](https://en.wikipedia.org/wiki/Scope_(formal_semantics))
-- [Scope (computer science)](https://en.wikipedia.org/wiki/Scope_(computer_science))
-- [Scott continuity](https://en.wikipedia.org/wiki/Scott_continuity)
-- [Scott–Curry theorem](https://en.wikipedia.org/wiki/Scott%E2%80%93Curry_theorem)
-- [Second-order arithmetic](https://en.wikipedia.org/wiki/Second-order_arithmetic)
-- [Second-order logic](https://en.wikipedia.org/wiki/Second-order_logic)
-- [Discourse relation](https://en.wikipedia.org/wiki/Discourse_relation)
-- [Self-reference](https://en.wikipedia.org/wiki/Self-reference)
-- [Self-verifying theories](https://en.wikipedia.org/wiki/Self-verifying_theories)
-- [Semantic parsing](https://en.wikipedia.org/wiki/Semantic_parsing)
-- [Semantic theory of truth](https://en.wikipedia.org/wiki/Semantic_theory_of_truth)
-- [Semantics](https://en.wikipedia.org/wiki/Semantics)
-- [Semantics (computer science)](https://en.wikipedia.org/wiki/Semantics_(computer_science))
-- [Semantics of logic](https://en.wikipedia.org/wiki/Semantics_of_logic)
-- [Sentence (mathematical logic)](https://en.wikipedia.org/wiki/Sentence_(mathematical_logic))
-- [Sequence](https://en.wikipedia.org/wiki/Sequence)
-- [Sequent calculus](https://en.wikipedia.org/wiki/Sequent_calculus)
-- [Set-valued function](https://en.wikipedia.org/wiki/Set-valued_function)
-- [Set (mathematics)](https://en.wikipedia.org/wiki/Set_(mathematics))
-- [Set theory](https://en.wikipedia.org/wiki/Set_theory)
-- [Signature (logic)](https://en.wikipedia.org/wiki/Signature_(logic))
-- [Simon B. Kochen](https://en.wikipedia.org/wiki/Simon_B._Kochen)
-- [Simply typed lambda calculus](https://en.wikipedia.org/wiki/Simply_typed_lambda_calculus)
-- [Singleton (mathematics)](https://en.wikipedia.org/wiki/Singleton_(mathematics))
-- [Singleton (mathematics)](https://en.wikipedia.org/wiki/Singleton_(mathematics))
-- [Situation semantics](https://en.wikipedia.org/wiki/Situation_semantics)
-- [Skolem arithmetic](https://en.wikipedia.org/wiki/Skolem_arithmetic)
-- [Sloppy identity](https://en.wikipedia.org/wiki/Sloppy_identity)
-- [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk)
-- [Smoothness](https://en.wikipedia.org/wiki/Smoothness)
-- [Soundness](https://en.wikipedia.org/wiki/Soundness)
-- [Spectrum of a sentence](https://en.wikipedia.org/wiki/Spectrum_of_a_sentence)
-- [Spectrum of a theory](https://en.wikipedia.org/wiki/Spectrum_of_a_theory)
-- [Speech act](https://en.wikipedia.org/wiki/Speech_act)
-- [Square of opposition](https://en.wikipedia.org/wiki/Square_of_opposition)
-- [Squiggle operator](https://en.wikipedia.org/wiki/Squiggle_operator)
-- [Standard ML](https://en.wikipedia.org/wiki/Standard_ML)
-- [Stephen Cole Kleene](https://en.wikipedia.org/wiki/Stephen_Cole_Kleene)
-- [Stephen Cole Kleene](https://en.wikipedia.org/wiki/Stephen_Cole_Kleene)
-- [Strawson entailment](https://en.wikipedia.org/wiki/Strawson_entailment)
-- [Strength (mathematical logic)](https://en.wikipedia.org/wiki/Strength_(mathematical_logic))
-- [Strict conditional](https://en.wikipedia.org/wiki/Strict_conditional)
-- [String (computer science)](https://en.wikipedia.org/wiki/String_(computer_science))
-- [Normal form (abstract rewriting)](https://en.wikipedia.org/wiki/Normal_form_(abstract_rewriting))
-- [Structure (mathematical logic)](https://en.wikipedia.org/wiki/Structure_(mathematical_logic))
-- [Structure and Interpretation of Computer Programs](https://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs)
-- [Studia Logica](https://en.wikipedia.org/wiki/Studia_Logica)
-- [Subsective modifier](https://en.wikipedia.org/wiki/Subsective_modifier)
-- [Substitution (logic)](https://en.wikipedia.org/wiki/Substitution_(logic))
-- [Substitution (logic)](https://en.wikipedia.org/wiki/Substitution_(logic))
-- [Substructure (mathematics)](https://en.wikipedia.org/wiki/Substructure_(mathematics))
-- [Subtrigging](https://en.wikipedia.org/wiki/Subtrigging)
-- [Subtyping](https://en.wikipedia.org/wiki/Subtyping)
-- [Supertask](https://en.wikipedia.org/wiki/Supertask)
-- [Supervaluationism](https://en.wikipedia.org/wiki/Supervaluationism)
-- [Surjective function](https://en.wikipedia.org/wiki/Surjective_function)
-- [Syllogism](https://en.wikipedia.org/wiki/Syllogism)
-- [Symbol (formal)](https://en.wikipedia.org/wiki/Symbol_(formal))
-- [Syntactic sugar](https://en.wikipedia.org/wiki/Syntactic_sugar)
-- [Syntax (logic)](https://en.wikipedia.org/wiki/Syntax_(logic))
-- [Syntax–semantics interface](https://en.wikipedia.org/wiki/Syntax%E2%80%93semantics_interface)
-- [System F](https://en.wikipedia.org/wiki/System_F)
-- [T-schema](https://en.wikipedia.org/wiki/T-schema)
-- [Tarski's axiomatization of the reals](https://en.wikipedia.org/wiki/Tarski%27s_axiomatization_of_the_reals)
-- [Tarski's axioms](https://en.wikipedia.org/wiki/Tarski%27s_axioms)
-- [Semantic theory of truth](https://en.wikipedia.org/wiki/Semantic_theory_of_truth)
-- [Tarski's undefinability theorem](https://en.wikipedia.org/wiki/Tarski%27s_undefinability_theorem)
-- [Tarski–Grothendieck set theory](https://en.wikipedia.org/wiki/Tarski%E2%80%93Grothendieck_set_theory)
-- [Tautology (logic)](https://en.wikipedia.org/wiki/Tautology_(logic))
-- [Telicity](https://en.wikipedia.org/wiki/Telicity)
-- [Temperature paradox](https://en.wikipedia.org/wiki/Temperature_paradox)
-- [Tense–aspect–mood](https://en.wikipedia.org/wiki/Tense%E2%80%93aspect%E2%80%93mood)
-- [Term (logic)](https://en.wikipedia.org/wiki/Term_(logic))
-- [Term logic](https://en.wikipedia.org/wiki/Term_logic)
-- [MIT Press](https://en.wikipedia.org/wiki/MIT_Press)
-- [Theorem](https://en.wikipedia.org/wiki/Theorem)
-- [Truth](https://en.wikipedia.org/wiki/Truth)
-- [Theory (mathematical logic)](https://en.wikipedia.org/wiki/Theory_(mathematical_logic))
-- [Thierry Coquand](https://en.wikipedia.org/wiki/Thierry_Coquand)
-- [Three-valued logic](https://en.wikipedia.org/wiki/Three-valued_logic)
-- [Timeline of mathematical logic](https://en.wikipedia.org/wiki/Timeline_of_mathematical_logic)
-- [To Mock a Mockingbird](https://en.wikipedia.org/wiki/To_Mock_a_Mockingbird)
-- [Transfer principle](https://en.wikipedia.org/wiki/Transfer_principle)
-- [Transitive set](https://en.wikipedia.org/wiki/Transitive_set)
-- [True arithmetic](https://en.wikipedia.org/wiki/True_arithmetic)
-- [Truth-conditional semantics](https://en.wikipedia.org/wiki/Truth-conditional_semantics)
-- [Truth predicate](https://en.wikipedia.org/wiki/Truth_predicate)
-- [Truth table](https://en.wikipedia.org/wiki/Truth_table)
-- [Truth value](https://en.wikipedia.org/wiki/Truth_value)
-- [Tuple](https://en.wikipedia.org/wiki/Tuple)
-- [Turing completeness](https://en.wikipedia.org/wiki/Turing_completeness)
-- [Turing completeness](https://en.wikipedia.org/wiki/Turing_completeness)
-- [Turing machine](https://en.wikipedia.org/wiki/Turing_machine)
-- [Type (model theory)](https://en.wikipedia.org/wiki/Type_(model_theory))
-- [Type shifter](https://en.wikipedia.org/wiki/Type_shifter)
-- [Type system](https://en.wikipedia.org/wiki/Type_system)
-- [Type theory](https://en.wikipedia.org/wiki/Type_theory)
-- [Type theory with records](https://en.wikipedia.org/wiki/Type_theory_with_records)
-- [Typed lambda calculus](https://en.wikipedia.org/wiki/Typed_lambda_calculus)
-- [Typed lambda calculus](https://en.wikipedia.org/wiki/Typed_lambda_calculus)
-- [Ultrafilter on a set](https://en.wikipedia.org/wiki/Ultrafilter_on_a_set)
-- [Ultraproduct](https://en.wikipedia.org/wiki/Ultraproduct)
-- [Uncountable set](https://en.wikipedia.org/wiki/Uncountable_set)
-- [Undecidable problem](https://en.wikipedia.org/wiki/Undecidable_problem)
-- [Uninterpreted function](https://en.wikipedia.org/wiki/Uninterpreted_function)
-- [Union (set theory)](https://en.wikipedia.org/wiki/Union_(set_theory))
-- [Uniqueness quantification](https://en.wikipedia.org/wiki/Uniqueness_quantification)
-- [Universal Turing machine](https://en.wikipedia.org/wiki/Universal_Turing_machine)
-- [Universal grinder](https://en.wikipedia.org/wiki/Universal_grinder)
-- [Universal Turing machine](https://en.wikipedia.org/wiki/Universal_Turing_machine)
-- [Universal quantification](https://en.wikipedia.org/wiki/Universal_quantification)
-- [Universal set](https://en.wikipedia.org/wiki/Universal_set)
-- [Universe (mathematics)](https://en.wikipedia.org/wiki/Universe_(mathematics))
-- [University of California, Los Angeles](https://en.wikipedia.org/wiki/University_of_California,_Los_Angeles)
-- [Unlambda](https://en.wikipedia.org/wiki/Unlambda)
-- [Up to](https://en.wikipedia.org/wiki/Up_to)
-- [Urelement](https://en.wikipedia.org/wiki/Urelement)
-- [Vagueness](https://en.wikipedia.org/wiki/Vagueness)
-- [Validity (logic)](https://en.wikipedia.org/wiki/Validity_(logic))
-- [Variable (mathematics)](https://en.wikipedia.org/wiki/Variable_(mathematics))
-- [Variable shadowing](https://en.wikipedia.org/wiki/Variable_shadowing)
-- [Venn diagram](https://en.wikipedia.org/wiki/Venn_diagram)
-- [Veridicality](https://en.wikipedia.org/wiki/Veridicality)
-- [Virtual machine](https://en.wikipedia.org/wiki/Virtual_machine)
-- [Von Neumann universe](https://en.wikipedia.org/wiki/Von_Neumann_universe)
-- [Von Neumann–Bernays–Gödel set theory](https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Bernays%E2%80%93G%C3%B6del_set_theory)
-- [Wayback Machine](https://en.wikipedia.org/wiki/Wayback_Machine)
-- [Normal form (abstract rewriting)](https://en.wikipedia.org/wiki/Normal_form_(abstract_rewriting))
-- [Well-formed formula](https://en.wikipedia.org/wiki/Well-formed_formula)
-- [William Bigelow Easton](https://en.wikipedia.org/wiki/William_Bigelow_Easton)
-- [William Boone (mathematician)](https://en.wikipedia.org/wiki/William_Boone_(mathematician))
-- [Wolfram Language](https://en.wikipedia.org/wiki/Wolfram_Language)
-- [Zermelo–Fraenkel set theory](https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory)
-- [Wikipedia:Foldoc license](https://en.wikipedia.org/wiki/Wikipedia:Foldoc_license)
-- [Template:Alonzo Church](https://en.wikipedia.org/wiki/Template:Alonzo_Church)
-- [Template:Formal semantics](https://en.wikipedia.org/wiki/Template:Formal_semantics)
-- [Template:Functions navbox](https://en.wikipedia.org/wiki/Template:Functions_navbox)
-- [Template:Mathematical logic](https://en.wikipedia.org/wiki/Template:Mathematical_logic)
-- [Template talk:Alonzo Church](https://en.wikipedia.org/wiki/Template_talk:Alonzo_Church)
-- [Template talk:Formal semantics](https://en.wikipedia.org/wiki/Template_talk:Formal_semantics)
-- [Template talk:Mathematical logic](https://en.wikipedia.org/wiki/Template_talk:Mathematical_logic)
-- [Help:Authority control](https://en.wikipedia.org/wiki/Help:Authority_control)
-- [Category:Functions](https://en.wikipedia.org/wiki/Category:Functions)
-- [Category:Theorems in the foundations of mathematics](https://en.wikipedia.org/wiki/Category:Theorems_in_the_foundations_of_mathematics)
-- [Portal:Mathematics](https://en.wikipedia.org/wiki/Portal:Mathematics)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:31:24.476775+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:30 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 71967 bytes
+- **Word Count:** 9830 words

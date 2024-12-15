@@ -1,17 +1,16 @@
 # Pyglet
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:42:32.227671+00:00
+## Metadata
+- **Last Updated:** 2024-11-26 12:58:32 UTC
 - **Original Article:** [Pyglet](https://en.wikipedia.org/wiki/Pyglet)
 - **Language:** en
 - **Page ID:** 39680910
 
 ## Summary
-
 Pyglet is a library for the Python programming language that provides an object-oriented application programming interface for the creation of games and other multimedia applications. pyglet runs on Microsoft Windows, macOS, and Linux; it is released under the BSD Licence. pyglet was first created by Alex Holkner.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles needing additional references
 - Category:All articles with topics of unclear notability
@@ -76,42 +75,9 @@ Official website
 Official documentation
 AVbin, the wrapper for libav
 
-## Related Articles
-
-### Internal Links
-
-- [API](https://en.wikipedia.org/wiki/API)
-- [Application software](https://en.wikipedia.org/wiki/Application_software)
-- [BSD licenses](https://en.wikipedia.org/wiki/BSD_licenses)
-- [Cocos2d](https://en.wikipedia.org/wiki/Cocos2d)
-- [FFmpeg](https://en.wikipedia.org/wiki/FFmpeg)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Kivy (framework)](https://en.wikipedia.org/wiki/Kivy_(framework))
-- [Libav](https://en.wikipedia.org/wiki/Libav)
-- [Library (computing)](https://en.wikipedia.org/wiki/Library_(computing))
-- [Linux](https://en.wikipedia.org/wiki/Linux)
-- [MacOS](https://en.wikipedia.org/wiki/MacOS)
-- [Microsoft Windows](https://en.wikipedia.org/wiki/Microsoft_Windows)
-- [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
-- [Panda3D](https://en.wikipedia.org/wiki/Panda3D)
-- [Programming language](https://en.wikipedia.org/wiki/Programming_language)
-- [Pygame](https://en.wikipedia.org/wiki/Pygame)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Simple DirectMedia Layer](https://en.wikipedia.org/wiki/Simple_DirectMedia_Layer)
-- [Wikipedia:Deletion policy](https://en.wikipedia.org/wiki/Wikipedia:Deletion_policy)
-- [Wikipedia:Independent sources](https://en.wikipedia.org/wiki/Wikipedia:Independent_sources)
-- [Wikipedia:Merging](https://en.wikipedia.org/wiki/Wikipedia:Merging)
-- [Wikipedia:Notability](https://en.wikipedia.org/wiki/Wikipedia:Notability)
-- [Wikipedia:Redirect](https://en.wikipedia.org/wiki/Wikipedia:Redirect)
-- [Wikipedia:Reliable sources](https://en.wikipedia.org/wiki/Wikipedia:Reliable_sources)
-- [Wikipedia:Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Help:Referencing for beginners](https://en.wikipedia.org/wiki/Help:Referencing_for_beginners)
-- [Category:Articles needing additional references from April 2024](https://en.wikipedia.org/wiki/Category:Articles_needing_additional_references_from_April_2024)
-- [Category:Articles with topics of unclear notability from April 2024](https://en.wikipedia.org/wiki/Category:Articles_with_topics_of_unclear_notability_from_April_2024)
-- [Portal:Free and open-source software](https://en.wikipedia.org/wiki/Portal:Free_and_open-source_software)
-- [Portal:Video games](https://en.wikipedia.org/wiki/Portal:Video_games)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:42:32.227671+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:51 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 2126 bytes
+- **Word Count:** 289 words

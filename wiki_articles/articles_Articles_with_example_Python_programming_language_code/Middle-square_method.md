@@ -1,17 +1,16 @@
 # Middle-square method
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:35:41.716368+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 06:54:17 UTC
 - **Original Article:** [Middle-square method](https://en.wikipedia.org/wiki/Middle-square_method)
 - **Language:** en
 - **Page ID:** 753942
 
 ## Summary
-
 In mathematics and computer science, the middle-square method is a method of generating pseudorandom numbers. In practice it is a highly flawed method for many practical purposes, since its period is usually very short and it has some severe weaknesses; repeated enough times, the middle-square method will either begin repeatedly generating the same number or cycle to a previous number in the sequence and loop indefinitely.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example C code
 - Category:Articles with example Python (programming language) code
@@ -53,29 +52,9 @@ Blum Blum Shub
 
 == References ==
 
-## Related Articles
-
-### Internal Links
-
-- [ArXiv](https://en.wikipedia.org/wiki/ArXiv)
-- [Blum Blum Shub](https://en.wikipedia.org/wiki/Blum_Blum_Shub)
-- [Directed graph](https://en.wikipedia.org/wiki/Directed_graph)
-- [ENIAC](https://en.wikipedia.org/wiki/ENIAC)
-- [Hash function](https://en.wikipedia.org/wiki/Hash_function)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Ivar Ekeland](https://en.wikipedia.org/wiki/Ivar_Ekeland)
-- [John von Neumann](https://en.wikipedia.org/wiki/John_von_Neumann)
-- [Jorge Luis Borges](https://en.wikipedia.org/wiki/Jorge_Luis_Borges)
-- [Leading zero](https://en.wikipedia.org/wiki/Leading_zero)
-- [Linear congruential generator](https://en.wikipedia.org/wiki/Linear_congruential_generator)
-- [Mathematics](https://en.wikipedia.org/wiki/Mathematics)
-- [Nicholas Metropolis](https://en.wikipedia.org/wiki/Nicholas_Metropolis)
-- [Pseudorandomness](https://en.wikipedia.org/wiki/Pseudorandomness)
-- [Pseudorandom number generator](https://en.wikipedia.org/wiki/Pseudorandom_number_generator)
-- [Punched card](https://en.wikipedia.org/wiki/Punched_card)
-- [History of Python](https://en.wikipedia.org/wiki/History_of_Python)
-- [Weyl sequence](https://en.wikipedia.org/wiki/Weyl_sequence)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:35:41.716368+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:38 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 3799 bytes
+- **Word Count:** 649 words

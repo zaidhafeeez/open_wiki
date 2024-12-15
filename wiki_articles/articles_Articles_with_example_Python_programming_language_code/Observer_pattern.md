@@ -1,18 +1,17 @@
 # Observer pattern
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:40:27.217701+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 06:51:58 UTC
 - **Original Article:** [Observer pattern](https://en.wikipedia.org/wiki/Observer_pattern)
 - **Language:** en
 - **Page ID:** 164863
 
 ## Summary
-
 In software design and engineering, the observer pattern is a software design pattern in which an object, named the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods.
-It is often used for implementing distributed event-handling systems in event-driven software. In such systems, the subject is usually named a "stream of events" or "stream source of events" while the observers are called "sin
+It is often used for implementing distributed event-handling systems in event-driven software. In such systems, the subject is usually named a "stream of events" or "stream source of events" while the observers are called "sinks of events." The stream nomenclature alludes to a physical setup in which the observers are physically separated and have no control over the emitted events from the subject/stream source. This pattern thus suits any process by which data arrives from some input that is not available to the CPU at startup, but instead may arrive at arbitrary or indeterminate times (HTTP requests, GPIO data, user input from peripherals and distributed databases, etc.).
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example C Sharp code
 - Category:Articles with example Java code
@@ -104,148 +103,9 @@ References
 External links
  Observer implementations in various languages at Wikibooks
 
-## Related Articles
-
-### Internal Links
-
-- [Abstract factory pattern](https://en.wikipedia.org/wiki/Abstract_factory_pattern)
-- [Action–domain–responder](https://en.wikipedia.org/wiki/Action%E2%80%93domain%E2%80%93responder)
-- [Active object](https://en.wikipedia.org/wiki/Active_object)
-- [Active record pattern](https://en.wikipedia.org/wiki/Active_record_pattern)
-- [Adapter pattern](https://en.wikipedia.org/wiki/Adapter_pattern)
-- [Anti-pattern](https://en.wikipedia.org/wiki/Anti-pattern)
-- [Architectural pattern](https://en.wikipedia.org/wiki/Architectural_pattern)
-- [Asynchronous method invocation](https://en.wikipedia.org/wiki/Asynchronous_method_invocation)
-- [Balking pattern](https://en.wikipedia.org/wiki/Balking_pattern)
-- [Behavioral pattern](https://en.wikipedia.org/wiki/Behavioral_pattern)
-- [Binding properties pattern](https://en.wikipedia.org/wiki/Binding_properties_pattern)
-- [Blackboard (design pattern)](https://en.wikipedia.org/wiki/Blackboard_(design_pattern))
-- [Booting](https://en.wikipedia.org/wiki/Booting)
-- [Bridge pattern](https://en.wikipedia.org/wiki/Bridge_pattern)
-- [Broker pattern](https://en.wikipedia.org/wiki/Broker_pattern)
-- [Builder pattern](https://en.wikipedia.org/wiki/Builder_pattern)
-- [Business delegate pattern](https://en.wikipedia.org/wiki/Business_delegate_pattern)
-- [Central processing unit](https://en.wikipedia.org/wiki/Central_processing_unit)
-- [Chain-of-responsibility pattern](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern)
-- [Charles Petzold](https://en.wikipedia.org/wiki/Charles_Petzold)
-- [Christopher Alexander](https://en.wikipedia.org/wiki/Christopher_Alexander)
-- [Class diagram](https://en.wikipedia.org/wiki/Class_diagram)
-- [Client–server model](https://en.wikipedia.org/wiki/Client%E2%80%93server_model)
-- [Command pattern](https://en.wikipedia.org/wiki/Command_pattern)
-- [Composite entity pattern](https://en.wikipedia.org/wiki/Composite_entity_pattern)
-- [Composite pattern](https://en.wikipedia.org/wiki/Composite_pattern)
-- [Concurrency pattern](https://en.wikipedia.org/wiki/Concurrency_pattern)
-- [Coupling (computer programming)](https://en.wikipedia.org/wiki/Coupling_(computer_programming))
-- [Creational pattern](https://en.wikipedia.org/wiki/Creational_pattern)
-- [Data access object](https://en.wikipedia.org/wiki/Data_access_object)
-- [Data transfer object](https://en.wikipedia.org/wiki/Data_transfer_object)
-- [Decorator pattern](https://en.wikipedia.org/wiki/Decorator_pattern)
-- [Delegation pattern](https://en.wikipedia.org/wiki/Delegation_pattern)
-- [Dependency injection](https://en.wikipedia.org/wiki/Dependency_injection)
-- [Deprecation](https://en.wikipedia.org/wiki/Deprecation)
-- [Design Patterns](https://en.wikipedia.org/wiki/Design_Patterns)
-- [Dispose pattern](https://en.wikipedia.org/wiki/Dispose_pattern)
-- [Distributed database](https://en.wikipedia.org/wiki/Distributed_database)
-- [Double-checked locking](https://en.wikipedia.org/wiki/Double-checked_locking)
-- [Douglas C. Schmidt](https://en.wikipedia.org/wiki/Douglas_C._Schmidt)
-- [Enterprise Integration Patterns](https://en.wikipedia.org/wiki/Enterprise_Integration_Patterns)
-- [Entity component system](https://en.wikipedia.org/wiki/Entity_component_system)
-- [Entity component system](https://en.wikipedia.org/wiki/Entity_component_system)
-- [Erich Gamma](https://en.wikipedia.org/wiki/Erich_Gamma)
-- [Event-driven programming](https://en.wikipedia.org/wiki/Event-driven_programming)
-- [Event (computing)](https://en.wikipedia.org/wiki/Event_(computing))
-- [Event (computing)](https://en.wikipedia.org/wiki/Event_(computing))
-- [Facade pattern](https://en.wikipedia.org/wiki/Facade_pattern)
-- [Factory method pattern](https://en.wikipedia.org/wiki/Factory_method_pattern)
-- [Flyweight pattern](https://en.wikipedia.org/wiki/Flyweight_pattern)
-- [Front controller](https://en.wikipedia.org/wiki/Front_controller)
-- [General-purpose input/output](https://en.wikipedia.org/wiki/General-purpose_input/output)
-- [Google Books](https://en.wikipedia.org/wiki/Google_Books)
-- [Grady Booch](https://en.wikipedia.org/wiki/Grady_Booch)
-- [Guarded suspension](https://en.wikipedia.org/wiki/Guarded_suspension)
-- [HTTP](https://en.wikipedia.org/wiki/HTTP)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Identity map pattern](https://en.wikipedia.org/wiki/Identity_map_pattern)
-- [Implicit invocation](https://en.wikipedia.org/wiki/Implicit_invocation)
-- [Intercepting filter pattern](https://en.wikipedia.org/wiki/Intercepting_filter_pattern)
-- [Interceptor pattern](https://en.wikipedia.org/wiki/Interceptor_pattern)
-- [Interpreter pattern](https://en.wikipedia.org/wiki/Interpreter_pattern)
-- [Inversion of control](https://en.wikipedia.org/wiki/Inversion_of_control)
-- [Iterator pattern](https://en.wikipedia.org/wiki/Iterator_pattern)
-- [JSP model 2 architecture](https://en.wikipedia.org/wiki/JSP_model_2_architecture)
-- [Java (programming language)](https://en.wikipedia.org/wiki/Java_(programming_language))
-- [Jim Coplien](https://en.wikipedia.org/wiki/Jim_Coplien)
-- [John Vlissides](https://en.wikipedia.org/wiki/John_Vlissides)
-- [Join-pattern](https://en.wikipedia.org/wiki/Join-pattern)
-- [Kent Beck](https://en.wikipedia.org/wiki/Kent_Beck)
-- [Lapsed listener problem](https://en.wikipedia.org/wiki/Lapsed_listener_problem)
-- [Lazy loading](https://en.wikipedia.org/wiki/Lazy_loading)
-- [Linda Rising](https://en.wikipedia.org/wiki/Linda_Rising)
-- [Lock (computer science)](https://en.wikipedia.org/wiki/Lock_(computer_science))
-- [Martin Fowler (software engineer)](https://en.wikipedia.org/wiki/Martin_Fowler_(software_engineer))
-- [Mediator pattern](https://en.wikipedia.org/wiki/Mediator_pattern)
-- [Memento pattern](https://en.wikipedia.org/wiki/Memento_pattern)
-- [Memory leak](https://en.wikipedia.org/wiki/Memory_leak)
-- [Method (computer programming)](https://en.wikipedia.org/wiki/Method_(computer_programming))
-- [Method chaining](https://en.wikipedia.org/wiki/Method_chaining)
-- [Microsoft Windows](https://en.wikipedia.org/wiki/Microsoft_Windows)
-- [Mock object](https://en.wikipedia.org/wiki/Mock_object)
-- [Model–view–controller](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
-- [Model–view–presenter](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter)
-- [Model–view–viewmodel](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel)
-- [Monitor (synchronization)](https://en.wikipedia.org/wiki/Monitor_(synchronization))
-- [Multitier architecture](https://en.wikipedia.org/wiki/Multitier_architecture)
-- [Naked objects](https://en.wikipedia.org/wiki/Naked_objects)
-- [Null object pattern](https://en.wikipedia.org/wiki/Null_object_pattern)
-- [OS/2](https://en.wikipedia.org/wiki/OS/2)
-- [Object (computer science)](https://en.wikipedia.org/wiki/Object_(computer_science))
-- [Object pool pattern](https://en.wikipedia.org/wiki/Object_pool_pattern)
-- [PCMag](https://en.wikipedia.org/wiki/PCMag)
-- [Painter's algorithm](https://en.wikipedia.org/wiki/Painter%27s_algorithm)
-- [Peripheral](https://en.wikipedia.org/wiki/Peripheral)
-- [Polling (computer science)](https://en.wikipedia.org/wiki/Polling_(computer_science))
-- [Portland Pattern Repository](https://en.wikipedia.org/wiki/Portland_Pattern_Repository)
-- [Proactor pattern](https://en.wikipedia.org/wiki/Proactor_pattern)
-- [Progress bar](https://en.wikipedia.org/wiki/Progress_bar)
-- [Prototype pattern](https://en.wikipedia.org/wiki/Prototype_pattern)
-- [Proxy pattern](https://en.wikipedia.org/wiki/Proxy_pattern)
-- [Publish–subscribe pattern](https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern)
-- [Publish–subscribe pattern](https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern)
-- [Publish–subscribe pattern](https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Ralph Johnson (computer scientist)](https://en.wikipedia.org/wiki/Ralph_Johnson_(computer_scientist))
-- [Reactor pattern](https://en.wikipedia.org/wiki/Reactor_pattern)
-- [Readers–writer lock](https://en.wikipedia.org/wiki/Readers%E2%80%93writer_lock)
-- [Robert C. Martin](https://en.wikipedia.org/wiki/Robert_C._Martin)
-- [Scalability](https://en.wikipedia.org/wiki/Scalability)
-- [Scheduled-task pattern](https://en.wikipedia.org/wiki/Scheduled-task_pattern)
-- [Scheduling (computing)](https://en.wikipedia.org/wiki/Scheduling_(computing))
-- [Semaphore (programming)](https://en.wikipedia.org/wiki/Semaphore_(programming))
-- [Sequence diagram](https://en.wikipedia.org/wiki/Sequence_diagram)
-- [Servant (design pattern)](https://en.wikipedia.org/wiki/Servant_(design_pattern))
-- [Service locator pattern](https://en.wikipedia.org/wiki/Service_locator_pattern)
-- [Singleton pattern](https://en.wikipedia.org/wiki/Singleton_pattern)
-- [Software design](https://en.wikipedia.org/wiki/Software_design)
-- [Software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern)
-- [Software engineering](https://en.wikipedia.org/wiki/Software_engineering)
-- [Specification pattern](https://en.wikipedia.org/wiki/Specification_pattern)
-- [State pattern](https://en.wikipedia.org/wiki/State_pattern)
-- [Strategy pattern](https://en.wikipedia.org/wiki/Strategy_pattern)
-- [Structural pattern](https://en.wikipedia.org/wiki/Structural_pattern)
-- [Template method pattern](https://en.wikipedia.org/wiki/Template_method_pattern)
-- [The Hillside Group](https://en.wikipedia.org/wiki/The_Hillside_Group)
-- [Thread-local storage](https://en.wikipedia.org/wiki/Thread-local_storage)
-- [Thread pool](https://en.wikipedia.org/wiki/Thread_pool)
-- [Twin pattern](https://en.wikipedia.org/wiki/Twin_pattern)
-- [Shim (computing)](https://en.wikipedia.org/wiki/Shim_(computing))
-- [Unified Modeling Language](https://en.wikipedia.org/wiki/Unified_Modeling_Language)
-- [Input/output](https://en.wikipedia.org/wiki/Input/output)
-- [Visitor pattern](https://en.wikipedia.org/wiki/Visitor_pattern)
-- [Ward Cunningham](https://en.wikipedia.org/wiki/Ward_Cunningham)
-- [Weak reference](https://en.wikipedia.org/wiki/Weak_reference)
-- [Template:Design patterns](https://en.wikipedia.org/wiki/Template:Design_patterns)
-- [Template talk:Design patterns](https://en.wikipedia.org/wiki/Template_talk:Design_patterns)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:40:27.217701+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:43 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 8498 bytes
+- **Word Count:** 1264 words

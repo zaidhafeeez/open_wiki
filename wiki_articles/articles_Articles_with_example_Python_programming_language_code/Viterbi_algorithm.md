@@ -1,18 +1,17 @@
 # Viterbi algorithm
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:54:51.115381+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 06:52:18 UTC
 - **Original Article:** [Viterbi algorithm](https://en.wikipedia.org/wiki/Viterbi_algorithm)
 - **Language:** en
 - **Page ID:** 228015
 
 ## Summary
-
 The Viterbi algorithm is a dynamic programming algorithm for obtaining the maximum a posteriori probability estimate of the most likely sequence of hidden states—called the Viterbi path—that results in a sequence of observed events. This is done especially in the context of Markov information sources and hidden Markov models (HMM).
-The algorithm has found universal application in decoding the convolutional codes used in both CDMA and GSM digital cellular, dial-up modems, satellite, deep-space co
+The algorithm has found universal application in decoding the convolutional codes used in both CDMA and GSM digital cellular, dial-up modems, satellite, deep-space communications, and 802.11 wireless LANs. It is now also commonly used in speech recognition, speech synthesis, diarization, keyword spotting, computational linguistics, and bioinformatics. For example, in speech-to-text (speech recognition), the acoustic signal is treated as the observed sequence of events, and a string of text is considered to be the "hidden cause" of the acoustic signal. The Viterbi algorithm finds the most likely string of text given the acoustic signal.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles needing additional references
 - Category:All articles that are too technical
@@ -730,78 +729,9 @@ Haskell
 Go
 SFIHMM includes code for Viterbi decoding.
 
-## Related Articles
-
-### Internal Links
-
-- [IEEE 802.11](https://en.wikipedia.org/wiki/IEEE_802.11)
-- [A* search algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm)
-- [Prior probability](https://en.wikipedia.org/wiki/Prior_probability)
-- [Algorithm](https://en.wikipedia.org/wiki/Algorithm)
-- [Amortized analysis](https://en.wikipedia.org/wiki/Amortized_analysis)
-- [Andrew Viterbi](https://en.wikipedia.org/wiki/Andrew_Viterbi)
-- [Arg max](https://en.wikipedia.org/wiki/Arg_max)
-- [Baum–Welch algorithm](https://en.wikipedia.org/wiki/Baum%E2%80%93Welch_algorithm)
-- [Bayesian network](https://en.wikipedia.org/wiki/Bayesian_network)
-- [Belief propagation](https://en.wikipedia.org/wiki/Belief_propagation)
-- [Bioinformatics](https://en.wikipedia.org/wiki/Bioinformatics)
-- [Code-division multiple access](https://en.wikipedia.org/wiki/Code-division_multiple_access)
-- [CiteSeerX](https://en.wikipedia.org/wiki/CiteSeerX)
-- [Computational linguistics](https://en.wikipedia.org/wiki/Computational_linguistics)
-- [Conditional random field](https://en.wikipedia.org/wiki/Conditional_random_field)
-- [Convolutional code](https://en.wikipedia.org/wiki/Convolutional_code)
-- [Convolutional code](https://en.wikipedia.org/wiki/Convolutional_code)
-- [Dial-up Internet access](https://en.wikipedia.org/wiki/Dial-up_Internet_access)
-- [Speaker diarisation](https://en.wikipedia.org/wiki/Speaker_diarisation)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Dynamic programming](https://en.wikipedia.org/wiki/Dynamic_programming)
-- [Error correction code](https://en.wikipedia.org/wiki/Error_correction_code)
-- [Expectation–maximization algorithm](https://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm)
-- [Forward–backward algorithm](https://en.wikipedia.org/wiki/Forward%E2%80%93backward_algorithm)
-- [Forward algorithm](https://en.wikipedia.org/wiki/Forward_algorithm)
-- [Error correction code](https://en.wikipedia.org/wiki/Error_correction_code)
-- [GSM](https://en.wikipedia.org/wiki/GSM)
-- [Godfried Toussaint](https://en.wikipedia.org/wiki/Godfried_Toussaint)
-- [Graphical model](https://en.wikipedia.org/wiki/Graphical_model)
-- [Hidden Markov model](https://en.wikipedia.org/wiki/Hidden_Markov_model)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Iterative Viterbi decoding](https://en.wikipedia.org/wiki/Iterative_Viterbi_decoding)
-- [Keyword spotting](https://en.wikipedia.org/wiki/Keyword_spotting)
-- [Latent and observable variables](https://en.wikipedia.org/wiki/Latent_and_observable_variables)
-- [Likelihood function](https://en.wikipedia.org/wiki/Likelihood_function)
-- [Markov chain](https://en.wikipedia.org/wiki/Markov_chain)
-- [Markov information source](https://en.wikipedia.org/wiki/Markov_information_source)
-- [Markov random field](https://en.wikipedia.org/wiki/Markov_random_field)
-- [Maximum a posteriori estimation](https://en.wikipedia.org/wiki/Maximum_a_posteriori_estimation)
-- [Multiple discovery](https://en.wikipedia.org/wiki/Multiple_discovery)
-- [Natural language processing](https://en.wikipedia.org/wiki/Natural_language_processing)
-- [Needleman–Wunsch algorithm](https://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm)
-- [Motion capture](https://en.wikipedia.org/wiki/Motion_capture)
-- [PubMed Central](https://en.wikipedia.org/wiki/PubMed_Central)
-- [PubMed](https://en.wikipedia.org/wiki/PubMed)
-- [Part-of-speech tagging](https://en.wikipedia.org/wiki/Part-of-speech_tagging)
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [Speech recognition](https://en.wikipedia.org/wiki/Speech_recognition)
-- [Speech recognition](https://en.wikipedia.org/wiki/Speech_recognition)
-- [Speech synthesis](https://en.wikipedia.org/wiki/Speech_synthesis)
-- [Trellis (graph)](https://en.wikipedia.org/wiki/Trellis_(graph))
-- [Convolutional code](https://en.wikipedia.org/wiki/Convolutional_code)
-- [Turbo code](https://en.wikipedia.org/wiki/Turbo_code)
-- [Viterbi decoder](https://en.wikipedia.org/wiki/Viterbi_decoder)
-- [Wagner–Fischer algorithm](https://en.wikipedia.org/wiki/Wagner%E2%80%93Fischer_algorithm)
-- [Wayback Machine](https://en.wikipedia.org/wiki/Wayback_Machine)
-- [Wikipedia:Citing sources](https://en.wikipedia.org/wiki/Wikipedia:Citing_sources)
-- [Wikipedia:Make technical articles understandable](https://en.wikipedia.org/wiki/Wikipedia:Make_technical_articles_understandable)
-- [Wikipedia:Please clarify](https://en.wikipedia.org/wiki/Wikipedia:Please_clarify)
-- [Wikipedia:Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)
-- [Template:Cite conference](https://en.wikipedia.org/wiki/Template:Cite_conference)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Help:Referencing for beginners](https://en.wikipedia.org/wiki/Help:Referencing_for_beginners)
-- [Category:Articles needing additional references from September 2023](https://en.wikipedia.org/wiki/Category:Articles_needing_additional_references_from_September_2023)
-- [Category:CS1 maint: multiple names: authors list](https://en.wikipedia.org/wiki/Category:CS1_maint:_multiple_names:_authors_list)
-- [Category:Wikipedia articles needing clarification from November 2017](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_needing_clarification_from_November_2017)
-- [Category:Wikipedia articles that are too technical from September 2023](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_that_are_too_technical_from_September_2023)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:54:51.115381+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:08 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 19788 bytes
+- **Word Count:** 2295 words

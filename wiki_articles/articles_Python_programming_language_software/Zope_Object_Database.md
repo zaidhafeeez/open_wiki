@@ -1,18 +1,17 @@
 # Zope Object Database
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:22:27.605094+00:00
+## Metadata
+- **Last Updated:** 2024-11-24 06:40:49 UTC
 - **Original Article:** [Zope Object Database](https://en.wikipedia.org/wiki/Zope_Object_Database)
 - **Language:** en
 - **Page ID:** 2920295
 
 ## Summary
-
 The Zope Object Database (ZODB) is an object-oriented database for transparently and persistently storing Python objects. It is included as part of the Zope web application server, but can also be used independently of Zope.
 Features of the ZODB include: transactions, history/undo, transparently pluggable storage, built-in caching, multiversion concurrency control (MVCC), and scalability across a network (using ZEO).
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Cross-platform software
 - Category:Free database management systems
@@ -80,31 +79,9 @@ ZODB Book
 ZODB programming guide
 Introduction to the Zope Object Database
 
-## Related Articles
-
-### Internal Links
-
-- [Apache Subversion](https://en.wikipedia.org/wiki/Apache_Subversion)
-- [Application server](https://en.wikipedia.org/wiki/Application_server)
-- [Atomicity (database systems)](https://en.wikipedia.org/wiki/Atomicity_(database_systems))
-- [Berkeley DB](https://en.wikipedia.org/wiki/Berkeley_DB)
-- [Cross-platform software](https://en.wikipedia.org/wiki/Cross-platform_software)
-- [Failover](https://en.wikipedia.org/wiki/Failover)
-- [GitHub](https://en.wikipedia.org/wiki/GitHub)
-- [Multiversion concurrency control](https://en.wikipedia.org/wiki/Multiversion_concurrency_control)
-- [Object database](https://en.wikipedia.org/wiki/Object_database)
-- [Operating system](https://en.wikipedia.org/wiki/Operating_system)
-- [Programmer](https://en.wikipedia.org/wiki/Programmer)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Relational database](https://en.wikipedia.org/wiki/Relational_database)
-- [Repository (version control)](https://en.wikipedia.org/wiki/Repository_(version_control))
-- [Software categories](https://en.wikipedia.org/wiki/Software_categories)
-- [Software license](https://en.wikipedia.org/wiki/Software_license)
-- [Software release life cycle](https://en.wikipedia.org/wiki/Software_release_life_cycle)
-- [Zope](https://en.wikipedia.org/wiki/Zope)
-- [Zope Public License](https://en.wikipedia.org/wiki/Zope_Public_License)
-- [Portal:Free and open-source software](https://en.wikipedia.org/wiki/Portal:Free_and_open-source_software)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:22:27.605094+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:28:07 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 6211 bytes
+- **Word Count:** 993 words

@@ -1,14 +1,12 @@
 # Pycassa
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:42:33.830278+00:00
+## Metadata
+- **Last Updated:** 2024-10-15 03:55:38 UTC
 - **Original Article:** [Pycassa](https://en.wikipedia.org/wiki/Pycassa)
 - **Language:** en
 - **Page ID:** 31217963
 
 ## Summary
-
 pycassa is a client library for Apache Cassandra.
 It is a Python client library having following features:
 
@@ -19,6 +17,7 @@ Method to map an existing class to a Cassandra column family
 Like Apache Cassandra, pycassa is open-source.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All orphaned articles
 - Category:All stub articles
@@ -51,26 +50,9 @@ References
 External links
 pycassa 1.0.6 Documentation
 
-## Related Articles
-
-### Internal Links
-
-- [Apache Cassandra](https://en.wikipedia.org/wiki/Apache_Cassandra)
-- [Batch processing](https://en.wikipedia.org/wiki/Batch_processing)
-- [Client (computing)](https://en.wikipedia.org/wiki/Client_(computing))
-- [Column family](https://en.wikipedia.org/wiki/Column_family)
-- [Connection pool](https://en.wikipedia.org/wiki/Connection_pool)
-- [Library (computing)](https://en.wikipedia.org/wiki/Library_(computing))
-- [Open-source software](https://en.wikipedia.org/wiki/Open-source_software)
-- [Picasa](https://en.wikipedia.org/wiki/Picasa)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Wikipedia:Orphan](https://en.wikipedia.org/wiki/Wikipedia:Orphan)
-- [Wikipedia:Stub](https://en.wikipedia.org/wiki/Wikipedia:Stub)
-- [Template:Compu-library-stub](https://en.wikipedia.org/wiki/Template:Compu-library-stub)
-- [Template talk:Compu-library-stub](https://en.wikipedia.org/wiki/Template_talk:Compu-library-stub)
-- [Help:Link](https://en.wikipedia.org/wiki/Help:Link)
-- [Category:Orphaned articles from March 2024](https://en.wikipedia.org/wiki/Category:Orphaned_articles_from_March_2024)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:42:33.830278+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:51 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 507 bytes
+- **Word Count:** 71 words

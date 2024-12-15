@@ -1,17 +1,16 @@
 # ADvantage Framework
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:25:40.914184+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 07:33:51 UTC
 - **Original Article:** [ADvantage Framework](https://en.wikipedia.org/wiki/ADvantage_Framework)
 - **Language:** en
 - **Page ID:** 36244326
 
 ## Summary
-
-ADvantage Framework is a model-based systems engineering software platform used for a range of activities including building and operating real-time simulation-based lab test facilities for  hardware-in-the-loop simulation purposes.  ADvantage includes several desktop applications and run-time services software. The ADvantage run-time services combine a Real-Time Operating System (RTOS)  layered on top of commercial computer equipment such as single board computers or standard PCs.  The ADvantag
+ADvantage Framework is a model-based systems engineering software platform used for a range of activities including building and operating real-time simulation-based lab test facilities for  hardware-in-the-loop simulation purposes.  ADvantage includes several desktop applications and run-time services software. The ADvantage run-time services combine a Real-Time Operating System (RTOS)  layered on top of commercial computer equipment such as single board computers or standard PCs.  The ADvantage tools include a development environment, a run-time environment, a plotting and analysis tool set, a fault insertion control application, and a vehicle network configuration and management tool that runs on a Windows or Linux desktop or laptop PC.  The ADvantage user base is composed mainly of aerospace, defense, and naval/marine companies and academic researchers.  Recent ADvantage real-time applications involved research and development of power systems applications including microgrid/smartgrid control and All-Electric Ship applications.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:2011 software
 - Category:2012 software
@@ -57,22 +56,9 @@ ADvantage SAS version 9.0.x
 
 == References ==
 
-## Related Articles
-
-### Internal Links
-
-- [GNU Compiler Collection](https://en.wikipedia.org/wiki/GNU_Compiler_Collection)
-- [Hardware-in-the-loop simulation](https://en.wikipedia.org/wiki/Hardware-in-the-loop_simulation)
-- [Linux](https://en.wikipedia.org/wiki/Linux)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Real-time operating system](https://en.wikipedia.org/wiki/Real-time_operating_system)
-- [Wayback Machine](https://en.wikipedia.org/wiki/Wayback_Machine)
-- [Microsoft Windows](https://en.wikipedia.org/wiki/Microsoft_Windows)
-- [WxWidgets](https://en.wikipedia.org/wiki/WxWidgets)
-- [Wikipedia:Make technical articles understandable](https://en.wikipedia.org/wiki/Wikipedia:Make_technical_articles_understandable)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Category:Wikipedia articles that are too technical from July 2018](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_that_are_too_technical_from_July_2018)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:25:40.914184+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:50 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 2494 bytes
+- **Word Count:** 336 words

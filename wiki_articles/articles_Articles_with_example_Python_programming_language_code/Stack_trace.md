@@ -1,17 +1,18 @@
 # Stack trace
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:48:08.166907+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 06:54:00 UTC
 - **Original Article:** [Stack trace](https://en.wikipedia.org/wiki/Stack_trace)
 - **Language:** en
 - **Page ID:** 656411
 
 ## Summary
-
-In computing, a stack trace (also called stack backtrace or stack traceback) is a report of the active stack frames at a certain point in time during the execution of a program. When a program is run, memory is often dynamically allocated in two places: the stack and the heap. Memory is continuously allocated on a stack but not on a heap, thus reflective of their names. Stack also refers to a programming construct, thus to differentiate it, this stack is referred to as the program's function cal
+In computing, a stack trace (also called stack backtrace or stack traceback) is a report of the active stack frames at a certain point in time during the execution of a program. When a program is run, memory is often dynamically allocated in two places: the stack and the heap. Memory is continuously allocated on a stack but not on a heap, thus reflective of their names. Stack also refers to a programming construct, thus to differentiate it, this stack is referred to as the program's function call stack. Technically, once a block of memory has been allocated on the stack, it cannot be easily removed as there can be other blocks of memory that were allocated before it. Each time a function is called in a program, a block of memory called an activation record is allocated on top of the call stack. Generally, the activation record stores the function's arguments and local variables. What exactly it contains and how it's laid out is determined by the calling convention.
+Programmers commonly use stack tracing during interactive and post-mortem debugging. End-users may see a stack trace displayed as part of an error message, which the user can then report to a programmer.
+A stack trace allows tracking the sequence of nested functions called - up to the point where the stack trace is generated. In a post-mortem scenario this extends up to the function where the failure occurred (but was not necessarily caused). Sibling calls do not appear in a stack trace.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example Python (programming language) code
 - Category:Articles with short description
@@ -65,42 +66,9 @@ Call stack
 
 == References ==
 
-## Related Articles
-
-### Internal Links
-
-- [Stack trace](https://en.wikipedia.org/wiki/Stack_trace)
-- [Backtrace (film)](https://en.wikipedia.org/wiki/Backtrace_(film))
-- [Boost (C++ libraries)](https://en.wikipedia.org/wiki/Boost_(C%2B%2B_libraries))
-- [C++](https://en.wikipedia.org/wiki/C%2B%2B)
-- [C++23](https://en.wikipedia.org/wiki/C%2B%2B23)
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [C Sharp (programming language)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
-- [Call stack](https://en.wikipedia.org/wiki/Call_stack)
-- [Calling convention](https://en.wikipedia.org/wiki/Calling_convention)
-- [Computer program](https://en.wikipedia.org/wiki/Computer_program)
-- [Computing](https://en.wikipedia.org/wiki/Computing)
-- [Context (computing)](https://en.wikipedia.org/wiki/Context_(computing))
-- [Debugging](https://en.wikipedia.org/wiki/Debugging)
-- [Environment variable](https://en.wikipedia.org/wiki/Environment_variable)
-- [Error message](https://en.wikipedia.org/wiki/Error_message)
-- [Exception handling](https://en.wikipedia.org/wiki/Exception_handling)
-- [Glibc](https://en.wikipedia.org/wiki/Glibc)
-- [Inline expansion](https://en.wikipedia.org/wiki/Inline_expansion)
-- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-- [Java (programming language)](https://en.wikipedia.org/wiki/Java_(programming_language))
-- [Library (computing)](https://en.wikipedia.org/wiki/Library_(computing))
-- [Macro (computer science)](https://en.wikipedia.org/wiki/Macro_(computer_science))
-- [Memory management](https://en.wikipedia.org/wiki/Memory_management)
-- [Nested function](https://en.wikipedia.org/wiki/Nested_function)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Rust (programming language)](https://en.wikipedia.org/wiki/Rust_(programming_language))
-- [Stack (abstract data type)](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))
-- [Call stack](https://en.wikipedia.org/wiki/Call_stack)
-- [Stack overflow](https://en.wikipedia.org/wiki/Stack_overflow)
-- [Standard streams](https://en.wikipedia.org/wiki/Standard_streams)
-- [Tail call](https://en.wikipedia.org/wiki/Tail_call)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:48:08.166907+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:00 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 4304 bytes
+- **Word Count:** 698 words

@@ -1,18 +1,17 @@
 # VPython
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:54:54.430516+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 07:05:46 UTC
 - **Original Article:** [VPython](https://en.wikipedia.org/wiki/VPython)
 - **Language:** en
 - **Page ID:** 7167573
 
 ## Summary
-
 VPython is Open Source, and a part of the Python Library, combining the Python programming language with a 3D graphics module called Visual.
-This library application allows users to create 3D objects, such as spheres and cones, and then display these objects in an app window. This aids creation of simple visualizations, allowing programmers to focus more on the computational aspect of their programs. VPython is a common tool for the illustration of simple mathematics and physics, especially in e
+This library application allows users to create 3D objects, such as spheres and cones, and then display these objects in an app window. This aids creation of simple visualizations, allowing programmers to focus more on the computational aspect of their programs. VPython is a common tool for the illustration of simple mathematics and physics, especially in education, due to its simplicity and open source licensing.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example Python (programming language) code
 - Category:Articles with short description
@@ -53,29 +52,9 @@ http://www.vpython.org/contents/cTsource/cToverview.html
 http://linuxgazette.net/144/john.html
 Scherer, D.; Dubois, P. & Sherwood, B. (2000). "VPython: 3D Interactive Scientific Graphics for Students". Computing in Science and Engineering. 2 (Sept./Oct. 2000): 82–88. Bibcode:2000CSE.....2e..56S. doi:10.1109/5992.877397.
 
-## Related Articles
-
-### Internal Links
-
-- [2D computer graphics](https://en.wikipedia.org/wiki/2D_computer_graphics)
-- [3D computer graphics](https://en.wikipedia.org/wiki/3D_computer_graphics)
-- [Bibcode](https://en.wikipedia.org/wiki/Bibcode)
-- [C++](https://en.wikipedia.org/wiki/C%2B%2B)
-- [Carnegie Mellon University](https://en.wikipedia.org/wiki/Carnegie_Mellon_University)
-- [Cross-platform software](https://en.wikipedia.org/wiki/Cross-platform_software)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [IPython](https://en.wikipedia.org/wiki/IPython)
-- [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
-- [Open-source license](https://en.wikipedia.org/wiki/Open-source_license)
-- [Operating system](https://en.wikipedia.org/wiki/Operating_system)
-- [Programmer](https://en.wikipedia.org/wiki/Programmer)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Ruth Chabay](https://en.wikipedia.org/wiki/Ruth_Chabay)
-- [Software license](https://en.wikipedia.org/wiki/Software_license)
-- [Software release life cycle](https://en.wikipedia.org/wiki/Software_release_life_cycle)
-- [TUTOR](https://en.wikipedia.org/wiki/TUTOR)
-- [VISQ](https://en.wikipedia.org/wiki/VISQ)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:54:54.430516+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:08 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 3751 bytes
+- **Word Count:** 554 words

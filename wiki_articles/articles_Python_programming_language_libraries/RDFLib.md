@@ -1,19 +1,24 @@
 # RDFLib
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:59:26.263479+00:00
+## Metadata
+- **Last Updated:** 2024-12-10 19:54:34 UTC
 - **Original Article:** [RDFLib](https://en.wikipedia.org/wiki/RDFLib)
 - **Language:** en
 - **Page ID:** 5423881
 
 ## Summary
-
 ‹The template Manual is being considered for merging.› 
 
-RDFLib is a Python library for working with RDF, a simple yet powerful language for representing information. This library contains parsers/serializers for almost all of the known RDF serializations, such as RDF/XML, Turtle, N-Triples, & JSON-LD, many of which are now supported in their updated form (e.g. Turtle 1.1). The library also contains both in-memory and persistent Graph back-ends for storing RDF information and numerous convenienc
+RDFLib is a Python library for working with RDF, a simple yet powerful language for representing information. This library contains parsers/serializers for almost all of the known RDF serializations, such as RDF/XML, Turtle, N-Triples, & JSON-LD, many of which are now supported in their updated form (e.g. Turtle 1.1). The library also contains both in-memory and persistent Graph back-ends for storing RDF information and numerous convenience functions for declaring graph namespaces, lodging SPARQL queries and so on. It is in continuous development with the most recent stable release, rdflib 6.1.1 having been released on 20 December 2021. It was originally created by Daniel Krech with the first release in November, 2002.
+A number of other Python projects use rdflib for RDF manipulation, including:
+
+OWL-RL - A simple implementation of the OWL2 RL Profile (reasoning engine)
+pySHACL - a Python SHACL validator
+pyLDAPI - an add-on module for the Python Flask web framework used to deliver Linked Data
+pyLODE - a Web Ontology Language documentation tool
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All Wikipedia articles in need of updating
 - Category:All articles to be expanded
@@ -237,52 +242,9 @@ External links
 Official website 
 RDFLib on GitHub
 
-## Related Articles
-
-### Internal Links
-
-- [API](https://en.wikipedia.org/wiki/API)
-- [Berkeley DB](https://en.wikipedia.org/wiki/Berkeley_DB)
-- [Closed-world assumption](https://en.wikipedia.org/wiki/Closed-world_assumption)
-- [Cross-platform software](https://en.wikipedia.org/wiki/Cross-platform_software)
-- [Flask (web framework)](https://en.wikipedia.org/wiki/Flask_(web_framework))
-- [GitHub](https://en.wikipedia.org/wiki/GitHub)
-- [Graph (abstract data type)](https://en.wikipedia.org/wiki/Graph_(abstract_data_type))
-- [Idiom](https://en.wikipedia.org/wiki/Idiom)
-- [Iteration](https://en.wikipedia.org/wiki/Iteration)
-- [JSON-LD](https://en.wikipedia.org/wiki/JSON-LD)
-- [Library (computing)](https://en.wikipedia.org/wiki/Library_(computing))
-- [Linked data](https://en.wikipedia.org/wiki/Linked_data)
-- [MySQL](https://en.wikipedia.org/wiki/MySQL)
-- [N-Triples](https://en.wikipedia.org/wiki/N-Triples)
-- [Named graph](https://en.wikipedia.org/wiki/Named_graph)
-- [Notation3](https://en.wikipedia.org/wiki/Notation3)
-- [Closed-world assumption](https://en.wikipedia.org/wiki/Closed-world_assumption)
-- [Operating system](https://en.wikipedia.org/wiki/Operating_system)
-- [Programmer](https://en.wikipedia.org/wiki/Programmer)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Random-access memory](https://en.wikipedia.org/wiki/Random-access_memory)
-- [Redland RDF Application Framework](https://en.wikipedia.org/wiki/Redland_RDF_Application_Framework)
-- [Repository (version control)](https://en.wikipedia.org/wiki/Repository_(version_control))
-- [Resource Description Framework](https://en.wikipedia.org/wiki/Resource_Description_Framework)
-- [SHACL](https://en.wikipedia.org/wiki/SHACL)
-- [SPARQL](https://en.wikipedia.org/wiki/SPARQL)
-- [SQLite](https://en.wikipedia.org/wiki/SQLite)
-- [Software categories](https://en.wikipedia.org/wiki/Software_categories)
-- [Software license](https://en.wikipedia.org/wiki/Software_license)
-- [Software release life cycle](https://en.wikipedia.org/wiki/Software_release_life_cycle)
-- [Web Ontology Language](https://en.wikipedia.org/wiki/Web_Ontology_Language)
-- [XML Schema (W3C)](https://en.wikipedia.org/wiki/XML_Schema_(W3C))
-- [Zope Object Database](https://en.wikipedia.org/wiki/Zope_Object_Database)
-- [Wikipedia:Templates for discussion/Log/2024 December 3](https://en.wikipedia.org/wiki/Wikipedia:Templates_for_discussion/Log/2024_December_3)
-- [Wikipedia:What Wikipedia is not](https://en.wikipedia.org/wiki/Wikipedia:What_Wikipedia_is_not)
-- [Template:Manual](https://en.wikipedia.org/wiki/Template:Manual)
-- [Help:Template](https://en.wikipedia.org/wiki/Help:Template)
-- [Category:Articles to be expanded from July 2010](https://en.wikipedia.org/wiki/Category:Articles_to_be_expanded_from_July_2010)
-- [Category:Articles with empty sections from July 2010](https://en.wikipedia.org/wiki/Category:Articles_with_empty_sections_from_July_2010)
-- [Category:Wikipedia articles in need of updating from October 2019](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_in_need_of_updating_from_October_2019)
-- [Category:Wikipedia articles with style issues from July 2021](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_with_style_issues_from_July_2021)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:59:26.263479+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:34 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 18093 bytes
+- **Word Count:** 2786 words

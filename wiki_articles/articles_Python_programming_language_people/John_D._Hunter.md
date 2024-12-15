@@ -1,17 +1,16 @@
 # John D. Hunter
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:25:39.067231+00:00
+## Metadata
+- **Last Updated:** 2024-12-04 11:50:49 UTC
 - **Original Article:** [John D. Hunter](https://en.wikipedia.org/wiki/John_D._Hunter)
 - **Language:** en
 - **Page ID:** 45714542
 
 ## Summary
-
 John D. Hunter (August 1, 1968 – August 28, 2012) was an American neurobiologist and the original author of Matplotlib.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:1968 births
 - Category:2012 deaths
@@ -55,34 +54,9 @@ From 2013 onwards, the SciPy Conference has hosted the annual John Hunter Excell
 
 == References ==
 
-## Related Articles
-
-### Internal Links
-
-- [ArXiv](https://en.wikipedia.org/wiki/ArXiv)
-- [Bibcode](https://en.wikipedia.org/wiki/Bibcode)
-- [Black hole](https://en.wikipedia.org/wiki/Black_hole)
-- [Chicago](https://en.wikipedia.org/wiki/Chicago)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Dyersburg, Tennessee](https://en.wikipedia.org/wiki/Dyersburg,_Tennessee)
-- [Electrocorticography](https://en.wikipedia.org/wiki/Electrocorticography)
-- [Epilepsy](https://en.wikipedia.org/wiki/Epilepsy)
-- [Event Horizon Telescope](https://en.wikipedia.org/wiki/Event_Horizon_Telescope)
-- [IPython](https://en.wikipedia.org/wiki/IPython)
-- [Matplotlib](https://en.wikipedia.org/wiki/Matplotlib)
-- [Neuroscientist](https://en.wikipedia.org/wiki/Neuroscientist)
-- [Neuroscience](https://en.wikipedia.org/wiki/Neuroscience)
-- [NumPy](https://en.wikipedia.org/wiki/NumPy)
-- [Phoenix (spacecraft)](https://en.wikipedia.org/wiki/Phoenix_(spacecraft))
-- [Princeton University](https://en.wikipedia.org/wiki/Princeton_University)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Python Software Foundation](https://en.wikipedia.org/wiki/Python_Software_Foundation)
-- [Rockefeller Chapel](https://en.wikipedia.org/wiki/Rockefeller_Chapel)
-- [SciPy](https://en.wikipedia.org/wiki/SciPy)
-- [Tennessee](https://en.wikipedia.org/wiki/Tennessee)
-- [The McCallie School](https://en.wikipedia.org/wiki/The_McCallie_School)
-- [University of Chicago](https://en.wikipedia.org/wiki/University_of_Chicago)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:25:39.067231+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:42 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 1793 bytes
+- **Word Count:** 276 words

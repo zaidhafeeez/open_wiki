@@ -1,17 +1,16 @@
 # String literal
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:48:48.918618+00:00
+## Metadata
+- **Last Updated:** 2024-12-15 13:20:22 UTC
 - **Original Article:** [String literal](https://en.wikipedia.org/wiki/String_literal)
 - **Language:** en
 - **Page ID:** 199706
 
 ## Summary
-
-A string literal or anonymous string is a literal for a string value in the source code of a computer program. Modern programming languages commonly use a quoted sequence of characters, formally "bracketed delimiters", as in x = "foo", where , "foo" is a string literal with value foo. Methods such as escape sequences can be used to avoid the problem of delimiter collision (issues with brackets) and allow the delimiters to be embedded in a string. There are many alternate notations for specifying
+A string literal or anonymous string is a literal for a string value in the source code of a computer program. Modern programming languages commonly use a quoted sequence of characters, formally "bracketed delimiters", as in x = "foo", where , "foo" is a string literal with value foo. Methods such as escape sequences can be used to avoid the problem of delimiter collision (issues with brackets) and allow the delimiters to be embedded in a string. There are many alternate notations for specifying string literals especially in complicated cases. The exact notation depends on the programming language in question. Nevertheless, there are general guidelines that most modern programming languages follow.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles with unsourced statements
 - Category:Articles with example Python (programming language) code
@@ -296,106 +295,9 @@ References
 External links
 Literals In Programming
 
-## Related Articles
-
-### Internal Links
-
-- [ANSI C](https://en.wikipedia.org/wiki/ANSI_C)
-- [ASCII](https://en.wikipedia.org/wiki/ASCII)
-- [Apostrophe](https://en.wikipedia.org/wiki/Apostrophe)
-- [Array (data type)](https://en.wikipedia.org/wiki/Array_(data_type))
-- [BASIC](https://en.wikipedia.org/wiki/BASIC)
-- [Backslash](https://en.wikipedia.org/wiki/Backslash)
-- [Backtick](https://en.wikipedia.org/wiki/Backtick)
-- [Bourne shell](https://en.wikipedia.org/wiki/Bourne_shell)
-- [C++11](https://en.wikipedia.org/wiki/C%2B%2B11)
-- [C11 (C standard revision)](https://en.wikipedia.org/wiki/C11_(C_standard_revision))
-- [CDATA](https://en.wikipedia.org/wiki/CDATA)
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [C Sharp (programming language)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
-- [C preprocessor](https://en.wikipedia.org/wiki/C_preprocessor)
-- [C string handling](https://en.wikipedia.org/wiki/C_string_handling)
-- [C syntax](https://en.wikipedia.org/wiki/C_syntax)
-- [Character literal](https://en.wikipedia.org/wiki/Character_literal)
-- [Clang](https://en.wikipedia.org/wiki/Clang)
-- [Code injection](https://en.wikipedia.org/wiki/Code_injection)
-- [Character encoding](https://en.wikipedia.org/wiki/Character_encoding)
-- [Overhead (computing)](https://en.wikipedia.org/wiki/Overhead_(computing))
-- [Constant folding](https://en.wikipedia.org/wiki/Constant_folding)
-- [DIGITAL Command Language](https://en.wikipedia.org/wiki/DIGITAL_Command_Language)
-- [D (programming language)](https://en.wikipedia.org/wiki/D_(programming_language))
-- [Delimiter](https://en.wikipedia.org/wiki/Delimiter)
-- [Delimiter](https://en.wikipedia.org/wiki/Delimiter)
-- [Docstring](https://en.wikipedia.org/wiki/Docstring)
-- [Empty string](https://en.wikipedia.org/wiki/Empty_string)
-- [Escape character](https://en.wikipedia.org/wiki/Escape_character)
-- [Escape sequence](https://en.wikipedia.org/wiki/Escape_sequence)
-- [Fortran](https://en.wikipedia.org/wiki/Fortran)
-- [Fortran](https://en.wikipedia.org/wiki/Fortran)
-- [GNU Compiler Collection](https://en.wikipedia.org/wiki/GNU_Compiler_Collection)
-- [Here document](https://en.wikipedia.org/wiki/Here_document)
-- [Hexadecimal](https://en.wikipedia.org/wiki/Hexadecimal)
-- [Hollerith constant](https://en.wikipedia.org/wiki/Hollerith_constant)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Integer literal](https://en.wikipedia.org/wiki/Integer_literal)
-- [J (programming language)](https://en.wikipedia.org/wiki/J_(programming_language))
-- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-- [Leaning toothpick syndrome](https://en.wikipedia.org/wiki/Leaning_toothpick_syndrome)
-- [Lexical analysis](https://en.wikipedia.org/wiki/Lexical_analysis)
-- [Literal (computer programming)](https://en.wikipedia.org/wiki/Literal_(computer_programming))
-- [M4 (computer language)](https://en.wikipedia.org/wiki/M4_(computer_language))
-- [Magic quotes](https://en.wikipedia.org/wiki/Magic_quotes)
-- [MediaWiki](https://en.wikipedia.org/wiki/MediaWiki)
-- [Metacharacter](https://en.wikipedia.org/wiki/Metacharacter)
-- [Modula-2](https://en.wikipedia.org/wiki/Modula-2)
-- [Null character](https://en.wikipedia.org/wiki/Null_character)
-- [Octal](https://en.wikipedia.org/wiki/Octal)
-- [PHP](https://en.wikipedia.org/wiki/PHP)
-- [Pascal (programming language)](https://en.wikipedia.org/wiki/Pascal_(programming_language))
-- [Path (computing)](https://en.wikipedia.org/wiki/Path_(computing))
-- [Perl](https://en.wikipedia.org/wiki/Perl)
-- [PostScript](https://en.wikipedia.org/wiki/PostScript)
-- [Prepared statement](https://en.wikipedia.org/wiki/Prepared_statement)
-- [Printf](https://en.wikipedia.org/wiki/Printf)
-- [Printf](https://en.wikipedia.org/wiki/Printf)
-- [Programmer](https://en.wikipedia.org/wiki/Programmer)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Quine (computing)](https://en.wikipedia.org/wiki/Quine_(computing))
-- [Quotation mark](https://en.wikipedia.org/wiki/Quotation_mark)
-- [Rexx](https://en.wikipedia.org/wiki/Rexx)
-- [Regular expression](https://en.wikipedia.org/wiki/Regular_expression)
-- [Ruby (programming language)](https://en.wikipedia.org/wiki/Ruby_(programming_language))
-- [SQL](https://en.wikipedia.org/wiki/SQL)
-- [SQL injection](https://en.wikipedia.org/wiki/SQL_injection)
-- [Scope (computer science)](https://en.wikipedia.org/wiki/Scope_(computer_science))
-- [Sed](https://en.wikipedia.org/wiki/Sed)
-- [Sigil (computer programming)](https://en.wikipedia.org/wiki/Sigil_(computer_programming))
-- [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk)
-- [Whitespace character](https://en.wikipedia.org/wiki/Whitespace_character)
-- [C file input/output](https://en.wikipedia.org/wiki/C_file_input/output)
-- [Standard streams](https://en.wikipedia.org/wiki/Standard_streams)
-- [Concatenation](https://en.wikipedia.org/wiki/Concatenation)
-- [String interpolation](https://en.wikipedia.org/wiki/String_interpolation)
-- [String literal](https://en.wikipedia.org/wiki/String_literal)
-- [C preprocessor](https://en.wikipedia.org/wiki/C_preprocessor)
-- [Syntactic sugar](https://en.wikipedia.org/wiki/Syntactic_sugar)
-- [Tcl](https://en.wikipedia.org/wiki/Tcl)
-- [Tiny C Compiler](https://en.wikipedia.org/wiki/Tiny_C_Compiler)
-- [Typewriter](https://en.wikipedia.org/wiki/Typewriter)
-- [Unicode](https://en.wikipedia.org/wiki/Unicode)
-- [Path (computing)](https://en.wikipedia.org/wiki/Path_(computing))
-- [Visual Basic (.NET)](https://en.wikipedia.org/wiki/Visual_Basic_(.NET))
-- [Web template system](https://en.wikipedia.org/wiki/Web_template_system)
-- [Well-formed document](https://en.wikipedia.org/wiki/Well-formed_document)
-- [Whitespace character](https://en.wikipedia.org/wiki/Whitespace_character)
-- [Wikifunctions](https://en.wikipedia.org/wiki/Wikifunctions)
-- [XML Literals](https://en.wikipedia.org/wiki/XML_Literals)
-- [XSLT](https://en.wikipedia.org/wiki/XSLT)
-- [YAML](https://en.wikipedia.org/wiki/YAML)
-- [Wikipedia:Citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed)
-- [Category:Articles with unsourced statements from February 2012](https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_February_2012)
-- [Category:Articles with unsourced statements from March 2011](https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_March_2011)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:48:48.918618+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:00 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 28819 bytes
+- **Word Count:** 4514 words

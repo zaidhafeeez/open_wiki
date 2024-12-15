@@ -1,20 +1,19 @@
 # Off-side rule
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:40:29.187245+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 06:53:49 UTC
 - **Original Article:** [Off-side rule](https://en.wikipedia.org/wiki/Off-side_rule)
 - **Language:** en
 - **Page ID:** 605595
 
 ## Summary
-
 The off-side rule describes syntax of a computer programming language that defines the bounds of a code block via indentation.
 The term was coined by Peter Landin, possibly as a pun on the offside law in association football.
 An off-side rule language is contrasted with a free-form language in which indentation has no syntactic meaning, and indentation is strictly a matter of style.
 An off-side rule language is also described as having significant indentation.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles needing additional references
 - Category:All articles with unsourced statements
@@ -118,112 +117,9 @@ Prettyprint
 
 == References ==
 
-## Related Articles
-
-### Internal Links
-
-- [ABC (programming language)](https://en.wikipedia.org/wiki/ABC_(programming_language))
-- [ALGOL 60](https://en.wikipedia.org/wiki/ALGOL_60)
-- [ALGOL 68](https://en.wikipedia.org/wiki/ALGOL_68)
-- [Agda (programming language)](https://en.wikipedia.org/wiki/Agda_(programming_language))
-- [Assembly language](https://en.wikipedia.org/wiki/Assembly_language)
-- [Association football](https://en.wikipedia.org/wiki/Association_football)
-- [BASIC](https://en.wikipedia.org/wiki/BASIC)
-- [Bash (Unix shell)](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
-- [Block (programming)](https://en.wikipedia.org/wiki/Block_(programming))
-- [Boo (programming language)](https://en.wikipedia.org/wiki/Boo_(programming_language))
-- [Bourne shell](https://en.wikipedia.org/wiki/Bourne_shell)
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [Cobra (programming language)](https://en.wikipedia.org/wiki/Cobra_(programming_language))
-- [Code folding](https://en.wikipedia.org/wiki/Code_folding)
-- [CoffeeScript](https://en.wikipedia.org/wiki/CoffeeScript)
-- [Communications of the ACM](https://en.wikipedia.org/wiki/Communications_of_the_ACM)
-- [Comparison of web template engines](https://en.wikipedia.org/wiki/Comparison_of_web_template_engines)
-- [Compiled language](https://en.wikipedia.org/wiki/Compiled_language)
-- [Computer](https://en.wikipedia.org/wiki/Computer)
-- [Conditional (computer programming)](https://en.wikipedia.org/wiki/Conditional_(computer_programming))
-- [Context-free grammar](https://en.wikipedia.org/wiki/Context-free_grammar)
-- [Control flow](https://en.wikipedia.org/wiki/Control_flow)
-- [Bracket](https://en.wikipedia.org/wiki/Bracket)
-- [Curry (programming language)](https://en.wikipedia.org/wiki/Curry_(programming_language))
-- [Dangling else](https://en.wikipedia.org/wiki/Dangling_else)
-- [Debugging](https://en.wikipedia.org/wiki/Debugging)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Elm (programming language)](https://en.wikipedia.org/wiki/Elm_(programming_language))
-- [Esoteric programming language](https://en.wikipedia.org/wiki/Esoteric_programming_language)
-- [F Sharp (programming language)](https://en.wikipedia.org/wiki/F_Sharp_(programming_language))
-- [Fifth-generation programming language](https://en.wikipedia.org/wiki/Fifth-generation_programming_language)
-- [First-generation programming language](https://en.wikipedia.org/wiki/First-generation_programming_language)
-- [For loop](https://en.wikipedia.org/wiki/For_loop)
-- [Formal grammar](https://en.wikipedia.org/wiki/Formal_grammar)
-- [Fortran](https://en.wikipedia.org/wiki/Fortran)
-- [Fourth-generation programming language](https://en.wikipedia.org/wiki/Fourth-generation_programming_language)
-- [Free-form language](https://en.wikipedia.org/wiki/Free-form_language)
-- [G-code](https://en.wikipedia.org/wiki/G-code)
-- [Godot (game engine)](https://en.wikipedia.org/wiki/Godot_(game_engine))
-- [Unreachable code](https://en.wikipedia.org/wiki/Unreachable_code)
-- [Haml](https://en.wikipedia.org/wiki/Haml)
-- [Haskell](https://en.wikipedia.org/wiki/Haskell)
-- [High-level programming language](https://en.wikipedia.org/wiki/High-level_programming_language)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [ISWIM](https://en.wikipedia.org/wiki/ISWIM)
-- [Indentation style](https://en.wikipedia.org/wiki/Indentation_style)
-- [Inform](https://en.wikipedia.org/wiki/Inform)
-- [Interpreter (computing)](https://en.wikipedia.org/wiki/Interpreter_(computing))
-- [Lexical analysis](https://en.wikipedia.org/wiki/Lexical_analysis)
-- [Lisp (programming language)](https://en.wikipedia.org/wiki/Lisp_(programming_language))
-- [LiveScript (programming language)](https://en.wikipedia.org/wiki/LiveScript_(programming_language))
-- [Low-level programming language](https://en.wikipedia.org/wiki/Low-level_programming_language)
-- [Machine code](https://en.wikipedia.org/wiki/Machine_code)
-- [Make (software)](https://en.wikipedia.org/wiki/Make_(software))
-- [Miranda (programming language)](https://en.wikipedia.org/wiki/Miranda_(programming_language))
-- [Modula-2](https://en.wikipedia.org/wiki/Modula-2)
-- [Nemerle](https://en.wikipedia.org/wiki/Nemerle)
-- [Nim (programming language)](https://en.wikipedia.org/wiki/Nim_(programming_language))
-- [Occam (programming language)](https://en.wikipedia.org/wiki/Occam_(programming_language))
-- [Offside (association football)](https://en.wikipedia.org/wiki/Offside_(association_football))
-- [Offside](https://en.wikipedia.org/wiki/Offside)
-- [PROMAL](https://en.wikipedia.org/wiki/PROMAL)
-- [Pascal (programming language)](https://en.wikipedia.org/wiki/Pascal_(programming_language))
-- [Peter Landin](https://en.wikipedia.org/wiki/Peter_Landin)
-- [Prettyprint](https://en.wikipedia.org/wiki/Prettyprint)
-- [Programming language](https://en.wikipedia.org/wiki/Programming_language)
-- [Programming language generations](https://en.wikipedia.org/wiki/Programming_language_generations)
-- [Programming paradigm](https://en.wikipedia.org/wiki/Programming_paradigm)
-- [Programming style](https://en.wikipedia.org/wiki/Programming_style)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Python syntax and semantics](https://en.wikipedia.org/wiki/Python_syntax_and_semantics)
-- [ReStructuredText](https://en.wikipedia.org/wiki/ReStructuredText)
-- [Reserved word](https://en.wikipedia.org/wiki/Reserved_word)
-- [S-expression](https://en.wikipedia.org/wiki/S-expression)
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [Sass (style sheet language)](https://en.wikipedia.org/wiki/Sass_(style_sheet_language))
-- [Scala (programming language)](https://en.wikipedia.org/wiki/Scala_(programming_language))
-- [Scheme (programming language)](https://en.wikipedia.org/wiki/Scheme_(programming_language))
-- [Scheme Requests for Implementation](https://en.wikipedia.org/wiki/Scheme_Requests_for_Implementation)
-- [Second-generation programming language](https://en.wikipedia.org/wiki/Second-generation_programming_language)
-- [Source-code editor](https://en.wikipedia.org/wiki/Source-code_editor)
-- [Parallax Propeller](https://en.wikipedia.org/wiki/Parallax_Propeller)
-- [Stylus (style sheet language)](https://en.wikipedia.org/wiki/Stylus_(style_sheet_language))
-- [Switch statement](https://en.wikipedia.org/wiki/Switch_statement)
-- [Syntax (programming languages)](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
-- [Syntax highlighting](https://en.wikipedia.org/wiki/Syntax_highlighting)
-- [ISWIM](https://en.wikipedia.org/wiki/ISWIM)
-- [Third-generation programming language](https://en.wikipedia.org/wiki/Third-generation_programming_language)
-- [Very high-level programming language](https://en.wikipedia.org/wiki/Very_high-level_programming_language)
-- [Whitespace character](https://en.wikipedia.org/wiki/Whitespace_character)
-- [Christophe de Dinechin](https://en.wikipedia.org/wiki/Christophe_de_Dinechin)
-- [YAML](https://en.wikipedia.org/wiki/YAML)
-- [Wikipedia:Citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed)
-- [Wikipedia:Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)
-- [Template:Types of programming languages](https://en.wikipedia.org/wiki/Template:Types_of_programming_languages)
-- [Template talk:Types of programming languages](https://en.wikipedia.org/wiki/Template_talk:Types_of_programming_languages)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Help:Referencing for beginners](https://en.wikipedia.org/wiki/Help:Referencing_for_beginners)
-- [Category:Articles needing additional references from December 2011](https://en.wikipedia.org/wiki/Category:Articles_needing_additional_references_from_December_2011)
-- [Category:Articles with unsourced statements from June 2012](https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_June_2012)
-- [Category:Use mdy dates from July 2022](https://en.wikipedia.org/wiki/Category:Use_mdy_dates_from_July_2022)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:40:29.187245+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:44 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 6410 bytes
+- **Word Count:** 1034 words

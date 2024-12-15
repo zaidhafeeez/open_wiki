@@ -1,18 +1,19 @@
 # TPK algorithm
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:52:35.843714+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 06:55:26 UTC
 - **Original Article:** [TPK algorithm](https://en.wikipedia.org/wiki/TPK_algorithm)
 - **Language:** en
 - **Page ID:** 1149596
 
 ## Summary
-
 The TPK algorithm is a simple program introduced by Donald Knuth and Luis Trabb Pardo to illustrate the evolution of computer programming languages. In their 1977 work "The Early Development of Programming Languages", Trabb Pardo and Knuth introduced a small program that involved arrays, indexing, mathematical functions, subroutines, I/O, conditionals and iteration. They then wrote implementations of the algorithm in several early programming languages to show how such concepts were expressed.
-T
+To explain the name "TPK", the authors referred to Grimm's law (which concerns the consonants 't', 'p', and 'k'), the sounds in the word "typical", and their own initials (Trabb Pardo and Knuth). In a talk based on the paper, Knuth said:
+
+You can only appreciate how deep the subject is by seeing how good people struggled with it and how the ideas emerged one at a time. In order to study this—Luis I think was the main instigator of this idea—we take one program—one algorithm—and we write it in every language. And that way from one example we can quickly psych out the flavor of that particular language. We call this the TPK program, and well, the fact that it has the initials of Trabb Pardo and Knuth is just a funny coincidence.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:1977 in computing
 - Category:Articles with example ALGOL 60 code
@@ -376,164 +377,9 @@ External links
 Implementations in many languages at Rosetta Code
 Implementations in several languages
 
-## Related Articles
-
-### Internal Links
-
-- ["Hello, World!" program](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program)
-- [-yllion](https://en.wikipedia.org/wiki/-yllion)
-- [1951 USAF resolution test chart](https://en.wikipedia.org/wiki/1951_USAF_resolution_test_chart)
-- [3DBenchy](https://en.wikipedia.org/wiki/3DBenchy)
-- [3D computer graphics](https://en.wikipedia.org/wiki/3D_computer_graphics)
-- [A-0 System](https://en.wikipedia.org/wiki/A-0_System)
-- [ALGOL 60](https://en.wikipedia.org/wiki/ALGOL_60)
-- [AMS Euler](https://en.wikipedia.org/wiki/AMS_Euler)
-- [ARITH-MATIC](https://en.wikipedia.org/wiki/ARITH-MATIC)
-- [Acid1](https://en.wikipedia.org/wiki/Acid1)
-- [Acid2](https://en.wikipedia.org/wiki/Acid2)
-- [Acid3](https://en.wikipedia.org/wiki/Acid3)
-- [Alan Perlis](https://en.wikipedia.org/wiki/Alan_Perlis)
-- [Algorithm](https://en.wikipedia.org/wiki/Algorithm)
-- [Alick Glennie](https://en.wikipedia.org/wiki/Alick_Glennie)
-- [Allen Kent](https://en.wikipedia.org/wiki/Allen_Kent)
-- [Andrey Yershov](https://en.wikipedia.org/wiki/Andrey_Yershov)
-- [Array (data structure)](https://en.wikipedia.org/wiki/Array_(data_structure))
-- [Arthur Burks](https://en.wikipedia.org/wiki/Arthur_Burks)
-- [Artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence)
-- [Autocode](https://en.wikipedia.org/wiki/Autocode)
-- [Bad Apple!!](https://en.wikipedia.org/wiki/Bad_Apple!!)
-- [Web (programming system)](https://en.wikipedia.org/wiki/Web_(programming_system))
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [Calgary corpus](https://en.wikipedia.org/wiki/Calgary_corpus)
-- [Canterbury corpus](https://en.wikipedia.org/wiki/Canterbury_corpus)
-- [Chinese room](https://en.wikipedia.org/wiki/Chinese_room)
-- [Computer History Museum](https://en.wikipedia.org/wiki/Computer_History_Museum)
-- [Computer Modern](https://en.wikipedia.org/wiki/Computer_Modern)
-- [Computer language](https://en.wikipedia.org/wiki/Computer_language)
-- [Computer program](https://en.wikipedia.org/wiki/Computer_program)
-- [Computers and Typesetting](https://en.wikipedia.org/wiki/Computers_and_Typesetting)
-- [Concrete Mathematics](https://en.wikipedia.org/wiki/Concrete_Mathematics)
-- [Concrete Roman](https://en.wikipedia.org/wiki/Concrete_Roman)
-- [Conditional (computer programming)](https://en.wikipedia.org/wiki/Conditional_(computer_programming))
-- [Cornell box](https://en.wikipedia.org/wiki/Cornell_box)
-- [Corrado Böhm](https://en.wikipedia.org/wiki/Corrado_B%C3%B6hm)
-- [Dancing Links](https://en.wikipedia.org/wiki/Dancing_Links)
-- [Data compression](https://en.wikipedia.org/wiki/Data_compression)
-- [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth)
-- [EBU colour bars](https://en.wikipedia.org/wiki/EBU_colour_bars)
-- [EIA 1956 resolution chart](https://en.wikipedia.org/wiki/EIA_1956_resolution_chart)
-- [EICAR test file](https://en.wikipedia.org/wiki/EICAR_test_file)
-- [ETP-1](https://en.wikipedia.org/wiki/ETP-1)
-- [EURion constellation](https://en.wikipedia.org/wiki/EURion_constellation)
-- [Etaoin shrdlu](https://en.wikipedia.org/wiki/Etaoin_shrdlu)
-- [Filler text](https://en.wikipedia.org/wiki/Filler_text)
-- [Film leader](https://en.wikipedia.org/wiki/Film_leader)
-- [Fisher–Yates shuffle](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle)
-- [Flowchart](https://en.wikipedia.org/wiki/Flowchart)
-- [Font](https://en.wikipedia.org/wiki/Font)
-- [Fortran](https://en.wikipedia.org/wiki/Fortran)
-- [Friedrich L. Bauer](https://en.wikipedia.org/wiki/Friedrich_L._Bauer)
-- [Function (mathematics)](https://en.wikipedia.org/wiki/Function_(mathematics))
-- [Gian-Carlo Rota](https://en.wikipedia.org/wiki/Gian-Carlo_Rota)
-- [GTUBE](https://en.wikipedia.org/wiki/GTUBE)
-- [Grace Hopper](https://en.wikipedia.org/wiki/Grace_Hopper)
-- [Grimm's law](https://en.wikipedia.org/wiki/Grimm%27s_law)
-- [Hamburgevons](https://en.wikipedia.org/wiki/Hamburgevons)
-- [Harvard sentences](https://en.wikipedia.org/wiki/Harvard_sentences)
-- [Haskell Curry](https://en.wikipedia.org/wiki/Haskell_Curry)
-- [Heinz Rutishauser](https://en.wikipedia.org/wiki/Heinz_Rutishauser)
-- [Herman Goldstine](https://en.wikipedia.org/wiki/Herman_Goldstine)
-- [Hutter Prize](https://en.wikipedia.org/wiki/Hutter_Prize)
-- [Input/output](https://en.wikipedia.org/wiki/Input/output)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [ImageNet](https://en.wikipedia.org/wiki/ImageNet)
-- [Indian-head test pattern](https://en.wikipedia.org/wiki/Indian-head_test_pattern)
-- [Iteration](https://en.wikipedia.org/wiki/Iteration)
-- [Jack Howlett](https://en.wikipedia.org/wiki/Jack_Howlett)
-- [John Backus](https://en.wikipedia.org/wiki/John_Backus)
-- [John Mauchly](https://en.wikipedia.org/wiki/John_Mauchly)
-- [John von Neumann](https://en.wikipedia.org/wiki/John_von_Neumann)
-- [Perl](https://en.wikipedia.org/wiki/Perl)
-- [Klaus Samelson](https://en.wikipedia.org/wiki/Klaus_Samelson)
-- [Knuth's Algorithm X](https://en.wikipedia.org/wiki/Knuth%27s_Algorithm_X)
-- [Knuth's Simpath algorithm](https://en.wikipedia.org/wiki/Knuth%27s_Simpath_algorithm)
-- [Knuth's up-arrow notation](https://en.wikipedia.org/wiki/Knuth%27s_up-arrow_notation)
-- [Knuth Prize](https://en.wikipedia.org/wiki/Knuth_Prize)
-- [Knuth reward check](https://en.wikipedia.org/wiki/Knuth_reward_check)
-- [Knuth–Bendix completion algorithm](https://en.wikipedia.org/wiki/Knuth%E2%80%93Bendix_completion_algorithm)
-- [Knuth–Morris–Pratt algorithm](https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm)
-- [Konrad Zuse](https://en.wikipedia.org/wiki/Konrad_Zuse)
-- [Laning and Zierler system](https://en.wikipedia.org/wiki/Laning_and_Zierler_system)
-- [Lenna](https://en.wikipedia.org/wiki/Lenna)
-- [List of BBC test cards](https://en.wikipedia.org/wiki/List_of_BBC_test_cards)
-- [List of common 3D test models](https://en.wikipedia.org/wiki/List_of_common_3D_test_models)
-- [List of datasets for machine-learning research](https://en.wikipedia.org/wiki/List_of_datasets_for_machine-learning_research)
-- [Literate programming](https://en.wikipedia.org/wiki/Literate_programming)
-- [Lorem ipsum](https://en.wikipedia.org/wiki/Lorem_ipsum)
-- [MATH-MATIC](https://en.wikipedia.org/wiki/MATH-MATIC)
-- [MIX (abstract machine)](https://en.wikipedia.org/wiki/MIX_(abstract_machine))
-- [MMIX](https://en.wikipedia.org/wiki/MMIX)
-- [MNIST database](https://en.wikipedia.org/wiki/MNIST_database)
-- [Machine learning](https://en.wikipedia.org/wiki/Machine_learning)
-- [Man or boy test](https://en.wikipedia.org/wiki/Man_or_boy_test)
-- [Manchester Mark 1](https://en.wikipedia.org/wiki/Manchester_Mark_1)
-- [Metafont](https://en.wikipedia.org/wiki/Metafont)
-- [Nicholas Metropolis](https://en.wikipedia.org/wiki/Nicholas_Metropolis)
-- [Pangram](https://en.wikipedia.org/wiki/Pangram)
-- [Philips PM5540](https://en.wikipedia.org/wiki/Philips_PM5540)
-- [Philips circle pattern](https://en.wikipedia.org/wiki/Philips_circle_pattern)
-- [Plankalkül](https://en.wikipedia.org/wiki/Plankalk%C3%BCl)
-- [Potrzebie](https://en.wikipedia.org/wiki/Potrzebie)
-- [Programming language](https://en.wikipedia.org/wiki/Programming_language)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Quater-imaginary base](https://en.wikipedia.org/wiki/Quater-imaginary_base)
-- [Quine (computing)](https://en.wikipedia.org/wiki/Quine_(computing))
-- [Reference implementation](https://en.wikipedia.org/wiki/Reference_implementation)
-- [Robinson–Schensted–Knuth correspondence](https://en.wikipedia.org/wiki/Robinson%E2%80%93Schensted%E2%80%93Knuth_correspondence)
-- [Rosetta Code](https://en.wikipedia.org/wiki/Rosetta_Code)
-- [Rust (programming language)](https://en.wikipedia.org/wiki/Rust_(programming_language))
-- [SMPTE color bars](https://en.wikipedia.org/wiki/SMPTE_color_bars)
-- [Sanity check](https://en.wikipedia.org/wiki/Sanity_check)
-- [Selected papers series of Knuth](https://en.wikipedia.org/wiki/Selected_papers_series_of_Knuth)
-- [Shakedown (testing)](https://en.wikipedia.org/wiki/Shakedown_(testing))
-- [Short Code (computer language)](https://en.wikipedia.org/wiki/Short_Code_(computer_language))
-- [Snell & Wilcox Zone Plate](https://en.wikipedia.org/wiki/Snell_%26_Wilcox_Zone_Plate)
-- [Software](https://en.wikipedia.org/wiki/Software)
-- [Standard test image](https://en.wikipedia.org/wiki/Standard_test_image)
-- [Stanford bunny](https://en.wikipedia.org/wiki/Stanford_bunny)
-- [Stanford dragon](https://en.wikipedia.org/wiki/Stanford_dragon)
-- [Function (computer programming)](https://en.wikipedia.org/wiki/Function_(computer_programming))
-- [Surreal number](https://en.wikipedia.org/wiki/Surreal_number)
-- [TVE test card](https://en.wikipedia.org/wiki/TVE_test_card)
-- [TeX](https://en.wikipedia.org/wiki/TeX)
-- [Telefunken FuBK](https://en.wikipedia.org/wiki/Telefunken_FuBK)
-- [Test Card F](https://en.wikipedia.org/wiki/Test_Card_F)
-- [Test Card F](https://en.wikipedia.org/wiki/Test_Card_F)
-- [Test Card F](https://en.wikipedia.org/wiki/Test_Card_F)
-- [Test Card F](https://en.wikipedia.org/wiki/Test_Card_F)
-- [Test card](https://en.wikipedia.org/wiki/Test_card)
-- [Test functions for optimization](https://en.wikipedia.org/wiki/Test_functions_for_optimization)
-- [The Art of Computer Programming](https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming)
-- [The Complexity of Songs](https://en.wikipedia.org/wiki/The_Complexity_of_Songs)
-- [The North Wind and the Sun](https://en.wikipedia.org/wiki/The_North_Wind_and_the_Sun)
-- [The quick brown fox jumps over the lazy dog](https://en.wikipedia.org/wiki/The_quick_brown_fox_jumps_over_the_lazy_dog)
-- [Things a Computer Scientist Rarely Talks About](https://en.wikipedia.org/wiki/Things_a_Computer_Scientist_Rarely_Talks_About)
-- [Tom's Diner](https://en.wikipedia.org/wiki/Tom%27s_Diner)
-- [Tony Brooker](https://en.wikipedia.org/wiki/Tony_Brooker)
-- [TPK algorithm](https://en.wikipedia.org/wiki/TPK_algorithm)
-- [Turing test](https://en.wikipedia.org/wiki/Turing_test)
-- [Typography](https://en.wikipedia.org/wiki/Typography)
-- [Universal Electronic Test Chart](https://en.wikipedia.org/wiki/Universal_Electronic_Test_Chart)
-- [Utah teapot](https://en.wikipedia.org/wiki/Utah_teapot)
-- [Web (programming system)](https://en.wikipedia.org/wiki/Web_(programming_system))
-- [Webdriver Torso](https://en.wikipedia.org/wiki/Webdriver_Torso)
-- [Template:Donald Knuth](https://en.wikipedia.org/wiki/Template:Donald_Knuth)
-- [Template:Standard test item](https://en.wikipedia.org/wiki/Template:Standard_test_item)
-- [Template talk:Donald Knuth](https://en.wikipedia.org/wiki/Template_talk:Donald_Knuth)
-- [Template talk:Standard test item](https://en.wikipedia.org/wiki/Template_talk:Standard_test_item)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:52:35.843714+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:04 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 8576 bytes
+- **Word Count:** 929 words

@@ -1,18 +1,17 @@
 # Pytest
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:25:34.109121+00:00
+## Metadata
+- **Last Updated:** 2024-12-06 06:18:25 UTC
 - **Original Article:** [Pytest](https://en.wikipedia.org/wiki/Pytest)
 - **Language:** en
 - **Page ID:** 69852359
 
 ## Summary
-
 Pytest is a Python testing framework that originated from the PyPy project. It can be used to write various types of software tests, including unit tests, integration tests, end-to-end tests, and functional tests. Its features include parametrized testing, fixtures, and assert re-writing.
-Pytest fixtures provide the contexts for tests by passing in parameter names in test cases; its parametrization eliminates duplicate code for testing multiple sets of input and output; and its rewritten assert 
+Pytest fixtures provide the contexts for tests by passing in parameter names in test cases; its parametrization eliminates duplicate code for testing multiple sets of input and output; and its rewritten assert statements provide detailed output for causes of failures.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with short description
 - Category:Free software testing tools
@@ -73,58 +72,9 @@ Official website
 https://pypi.org/project/pytest/
 https://docs.pytest.org
 
-## Related Articles
-
-### Internal Links
-
-- [Assertion (software development)](https://en.wikipedia.org/wiki/Assertion_(software_development))
-- [CPython](https://en.wikipedia.org/wiki/CPython)
-- [Class (computer programming)](https://en.wikipedia.org/wiki/Class_(computer_programming))
-- [Command-line interface](https://en.wikipedia.org/wiki/Command-line_interface)
-- [Computing platform](https://en.wikipedia.org/wiki/Computing_platform)
-- [Docstring](https://en.wikipedia.org/wiki/Docstring)
-- [Doctest](https://en.wikipedia.org/wiki/Doctest)
-- [Dropbox](https://en.wikipedia.org/wiki/Dropbox)
-- [Duplicate code](https://en.wikipedia.org/wiki/Duplicate_code)
-- [Entry point](https://en.wikipedia.org/wiki/Entry_point)
-- [Function object](https://en.wikipedia.org/wiki/Function_object)
-- [Functional testing](https://en.wikipedia.org/wiki/Functional_testing)
-- [Functional testing](https://en.wikipedia.org/wiki/Functional_testing)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Integration testing](https://en.wikipedia.org/wiki/Integration_testing)
-- [JUnit](https://en.wikipedia.org/wiki/JUnit)
-- [Java (programming language)](https://en.wikipedia.org/wiki/Java_(programming_language))
-- [Library (computing)](https://en.wikipedia.org/wiki/Library_(computing))
-- [List of unit testing frameworks](https://en.wikipedia.org/wiki/List_of_unit_testing_frameworks)
-- [MIT License](https://en.wikipedia.org/wiki/MIT_License)
-- [MacOS](https://en.wikipedia.org/wiki/MacOS)
-- [Microsoft Windows](https://en.wikipedia.org/wiki/Microsoft_Windows)
-- [Modular programming](https://en.wikipedia.org/wiki/Modular_programming)
-- [Mozilla](https://en.wikipedia.org/wiki/Mozilla)
-- [POSIX](https://en.wikipedia.org/wiki/POSIX)
-- [Packt](https://en.wikipedia.org/wiki/Packt)
-- [Parameter (computer programming)](https://en.wikipedia.org/wiki/Parameter_(computer_programming))
-- [Programmer](https://en.wikipedia.org/wiki/Programmer)
-- [PyPy](https://en.wikipedia.org/wiki/PyPy)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Python Package Index](https://en.wikipedia.org/wiki/Python_Package_Index)
-- [Python syntax and semantics](https://en.wikipedia.org/wiki/Python_syntax_and_semantics)
-- [Repository (version control)](https://en.wikipedia.org/wiki/Repository_(version_control))
-- [Software categories](https://en.wikipedia.org/wiki/Software_categories)
-- [Software framework](https://en.wikipedia.org/wiki/Software_framework)
-- [Software license](https://en.wikipedia.org/wiki/Software_license)
-- [Software release life cycle](https://en.wikipedia.org/wiki/Software_release_life_cycle)
-- [Software testing](https://en.wikipedia.org/wiki/Software_testing)
-- [Standard library](https://en.wikipedia.org/wiki/Standard_library)
-- [State (computer science)](https://en.wikipedia.org/wiki/State_(computer_science))
-- [Function (computer programming)](https://en.wikipedia.org/wiki/Function_(computer_programming))
-- [System testing](https://en.wikipedia.org/wiki/System_testing)
-- [Test case](https://en.wikipedia.org/wiki/Test_case)
-- [Test fixture](https://en.wikipedia.org/wiki/Test_fixture)
-- [Unit testing](https://en.wikipedia.org/wiki/Unit_testing)
-- [Wikipedia:Good articles](https://en.wikipedia.org/wiki/Wikipedia:Good_articles)
-- [Portal:Free and open-source software](https://en.wikipedia.org/wiki/Portal:Free_and_open-source_software)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:25:34.109121+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:15 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 7525 bytes
+- **Word Count:** 1160 words

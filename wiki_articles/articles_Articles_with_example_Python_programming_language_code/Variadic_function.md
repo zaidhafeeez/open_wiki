@@ -1,18 +1,17 @@
 # Variadic function
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:54:50.399474+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 06:56:34 UTC
 - **Original Article:** [Variadic function](https://en.wikipedia.org/wiki/Variadic_function)
 - **Language:** en
 - **Page ID:** 1576209
 
 ## Summary
-
 In mathematics and in computer programming, a variadic function is a function of indefinite arity, i.e., one which accepts a variable number of arguments. Support for variadic functions differs widely among programming languages.
 The term variadic is a neologism, dating back to 1936–1937.  The term was not widely used until the 1970s.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles with unsourced statements
 - Category:Articles with example C++ code
@@ -161,79 +160,9 @@ Variadic function. Rosetta Code task showing the implementation of variadic func
 Variable Argument Functions — A tutorial on Variable Argument Functions for C++
 GNU libc manual
 
-## Related Articles
-
-### Internal Links
-
-- [Apply](https://en.wikipedia.org/wiki/Apply)
-- [Parameter (computer programming)](https://en.wikipedia.org/wiki/Parameter_(computer_programming))
-- [Arity](https://en.wikipedia.org/wiki/Arity)
-- [Array (data type)](https://en.wikipedia.org/wiki/Array_(data_type))
-- [Associative property](https://en.wikipedia.org/wiki/Associative_property)
-- [C23 (C standard revision)](https://en.wikipedia.org/wiki/C23_(C_standard_revision))
-- [CERT Coding Standards](https://en.wikipedia.org/wiki/CERT_Coding_Standards)
-- [CERT Coordination Center](https://en.wikipedia.org/wiki/CERT_Coordination_Center)
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [C Sharp (programming language)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
-- [Common Lisp](https://en.wikipedia.org/wiki/Common_Lisp)
-- [Computer programming](https://en.wikipedia.org/wiki/Computer_programming)
-- [Concatenation](https://en.wikipedia.org/wiki/Concatenation)
-- [Delphi (software)](https://en.wikipedia.org/wiki/Delphi_(software))
-- [Deprecation](https://en.wikipedia.org/wiki/Deprecation)
-- [Fold (higher-order function)](https://en.wikipedia.org/wiki/Fold_(higher-order_function))
-- [Parameter (computer programming)](https://en.wikipedia.org/wiki/Parameter_(computer_programming))
-- [Format (Common Lisp)](https://en.wikipedia.org/wiki/Format_(Common_Lisp))
-- [Uncontrolled format string](https://en.wikipedia.org/wiki/Uncontrolled_format_string)
-- [Free Pascal](https://en.wikipedia.org/wiki/Free_Pascal)
-- [Function (computer programming)](https://en.wikipedia.org/wiki/Function_(computer_programming))
-- [Functional programming](https://en.wikipedia.org/wiki/Functional_programming)
-- [GNU Pascal](https://en.wikipedia.org/wiki/GNU_Pascal)
-- [Go (programming language)](https://en.wikipedia.org/wiki/Go_(programming_language))
-- [Haskell](https://en.wikipedia.org/wiki/Haskell)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [International Organization for Standardization](https://en.wikipedia.org/wiki/International_Organization_for_Standardization)
-- [Intrinsic function](https://en.wikipedia.org/wiki/Intrinsic_function)
-- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-- [Java (programming language)](https://en.wikipedia.org/wiki/Java_(programming_language))
-- [Java syntax](https://en.wikipedia.org/wiki/Java_syntax)
-- [Lua (programming language)](https://en.wikipedia.org/wiki/Lua_(programming_language))
-- [Macro (computer science)](https://en.wikipedia.org/wiki/Macro_(computer_science))
-- [Mathematics](https://en.wikipedia.org/wiki/Mathematics)
-- [Named parameter](https://en.wikipedia.org/wiki/Named_parameter)
-- [Neologism](https://en.wikipedia.org/wiki/Neologism)
-- [PHP](https://en.wikipedia.org/wiki/PHP)
-- [Pascal (programming language)](https://en.wikipedia.org/wiki/Pascal_(programming_language))
-- [Printf](https://en.wikipedia.org/wiki/Printf)
-- [Programming language](https://en.wikipedia.org/wiki/Programming_language)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Raku (programming language)](https://en.wikipedia.org/wiki/Raku_(programming_language))
-- [Rosetta Code](https://en.wikipedia.org/wiki/Rosetta_Code)
-- [Ruby (programming language)](https://en.wikipedia.org/wiki/Ruby_(programming_language))
-- [Rust (programming language)](https://en.wikipedia.org/wiki/Rust_(programming_language))
-- [Sentinel value](https://en.wikipedia.org/wiki/Sentinel_value)
-- [Stack (abstract data type)](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))
-- [Stdarg.h](https://en.wikipedia.org/wiki/Stdarg.h)
-- [Swift (programming language)](https://en.wikipedia.org/wiki/Swift_(programming_language))
-- [Syntactic sugar](https://en.wikipedia.org/wiki/Syntactic_sugar)
-- [Tcl](https://en.wikipedia.org/wiki/Tcl)
-- [Rewriting](https://en.wikipedia.org/wiki/Rewriting)
-- [Type class](https://en.wikipedia.org/wiki/Type_class)
-- [Type safety](https://en.wikipedia.org/wiki/Type_safety)
-- [Stdarg.h](https://en.wikipedia.org/wiki/Stdarg.h)
-- [Stdarg.h](https://en.wikipedia.org/wiki/Stdarg.h)
-- [Stdarg.h](https://en.wikipedia.org/wiki/Stdarg.h)
-- [Stdarg.h](https://en.wikipedia.org/wiki/Stdarg.h)
-- [Variadic function](https://en.wikipedia.org/wiki/Variadic_function)
-- [Stdarg.h](https://en.wikipedia.org/wiki/Stdarg.h)
-- [Variadic macro in the C preprocessor](https://en.wikipedia.org/wiki/Variadic_macro_in_the_C_preprocessor)
-- [Variadic template](https://en.wikipedia.org/wiki/Variadic_template)
-- [Variadic template](https://en.wikipedia.org/wiki/Variadic_template)
-- [Tagged union](https://en.wikipedia.org/wiki/Tagged_union)
-- [Wikipedia:Citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed)
-- [Wikipedia:Please clarify](https://en.wikipedia.org/wiki/Wikipedia:Please_clarify)
-- [Category:Articles with unsourced statements from February 2018](https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_February_2018)
-- [Category:Wikipedia articles needing clarification from May 2018](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_needing_clarification_from_May_2018)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:54:50.399474+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:07 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 11773 bytes
+- **Word Count:** 1913 words

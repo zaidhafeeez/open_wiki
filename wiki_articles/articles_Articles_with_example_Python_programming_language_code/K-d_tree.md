@@ -1,21 +1,20 @@
 # K-d tree
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:31:22.460110+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 06:56:49 UTC
 - **Original Article:** [K-d tree](https://en.wikipedia.org/wiki/K-d_tree)
 - **Language:** en
 - **Page ID:** 1676725
 
 ## Summary
-
 In computer science, a k-d tree (short for k-dimensional tree) is a space-partitioning data structure for organizing points in a k-dimensional space. K-dimensional is that which concerns exactly k orthogonal axes or a space of any number of dimensions. k-d trees are a useful data structure for several applications, such as:
 
 Searches involving a multidimensional search key (e.g. range searches and nearest neighbor searches) &
 Creating point clouds.
-k-d trees are a special case of binary space pa
+k-d trees are a special case of binary space partitioning trees.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles to be expanded
 - Category:Articles to be expanded from February 2011
@@ -492,180 +491,9 @@ scikit-learn, a Python library for machine learning, contains implementations of
 
 == References ==
 
-## Related Articles
-
-### Internal Links
-
-- [B-tree](https://en.wikipedia.org/wiki/B-tree)
-- [2–3 tree](https://en.wikipedia.org/wiki/2%E2%80%933_tree)
-- [2–3–4 tree](https://en.wikipedia.org/wiki/2%E2%80%933%E2%80%934_tree)
-- [AA tree](https://en.wikipedia.org/wiki/AA_tree)
-- [ACM Transactions on Mathematical Software](https://en.wikipedia.org/wiki/ACM_Transactions_on_Mathematical_Software)
-- [ALGLIB](https://en.wikipedia.org/wiki/ALGLIB)
-- [AVL tree](https://en.wikipedia.org/wiki/AVL_tree)
-- [Adaptive k-d tree](https://en.wikipedia.org/wiki/Adaptive_k-d_tree)
-- [Algorithm](https://en.wikipedia.org/wiki/Algorithm)
-- [Associative array](https://en.wikipedia.org/wiki/Associative_array)
-- [B-tree](https://en.wikipedia.org/wiki/B-tree)
-- [B+ tree](https://en.wikipedia.org/wiki/B%2B_tree)
-- [B-tree](https://en.wikipedia.org/wiki/B-tree)
-- [BK-tree](https://en.wikipedia.org/wiki/BK-tree)
-- [Binary space partitioning](https://en.wikipedia.org/wiki/Binary_space_partitioning)
-- [Self-balancing binary search tree](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree)
-- [Self-balancing binary search tree](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree)
-- [Ball tree](https://en.wikipedia.org/wiki/Ball_tree)
-- [Best bin first](https://en.wikipedia.org/wiki/Best_bin_first)
-- [Big O notation](https://en.wikipedia.org/wiki/Big_O_notation)
-- [Binary search tree](https://en.wikipedia.org/wiki/Binary_search_tree)
-- [Binary heap](https://en.wikipedia.org/wiki/Binary_heap)
-- [Binary search tree](https://en.wikipedia.org/wiki/Binary_search_tree)
-- [Binary space partitioning](https://en.wikipedia.org/wiki/Binary_space_partitioning)
-- [Binary tree](https://en.wikipedia.org/wiki/Binary_tree)
-- [Binomial heap](https://en.wikipedia.org/wiki/Binomial_heap)
-- [Bounding interval hierarchy](https://en.wikipedia.org/wiki/Bounding_interval_hierarchy)
-- [Brodal queue](https://en.wikipedia.org/wiki/Brodal_queue)
-- [Bx-tree](https://en.wikipedia.org/wiki/Bx-tree)
-- [C++](https://en.wikipedia.org/wiki/C%2B%2B)
-- [C-trie](https://en.wikipedia.org/wiki/C-trie)
-- [CGAL](https://en.wikipedia.org/wiki/CGAL)
-- [C Sharp (programming language)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
-- [Cartesian tree](https://en.wikipedia.org/wiki/Cartesian_tree)
-- [Charles E. Leiserson](https://en.wikipedia.org/wiki/Charles_E._Leiserson)
-- [Communications of the ACM](https://en.wikipedia.org/wiki/Communications_of_the_ACM)
-- [Computer graphics](https://en.wikipedia.org/wiki/Computer_graphics)
-- [Computer science](https://en.wikipedia.org/wiki/Computer_science)
-- [Cover tree](https://en.wikipedia.org/wiki/Cover_tree)
-- [Ctrie](https://en.wikipedia.org/wiki/Ctrie)
-- [Curse of dimensionality](https://en.wikipedia.org/wiki/Curse_of_dimensionality)
-- [D-ary heap](https://en.wikipedia.org/wiki/D-ary_heap)
-- [Dancing tree](https://en.wikipedia.org/wiki/Dancing_tree)
-- [Data structure](https://en.wikipedia.org/wiki/Data_structure)
-- [David Mount](https://en.wikipedia.org/wiki/David_Mount)
-- [Dimension](https://en.wikipedia.org/wiki/Dimension)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Euclidean space](https://en.wikipedia.org/wiki/Euclidean_space)
-- [Exponential tree](https://en.wikipedia.org/wiki/Exponential_tree)
-- [Fenwick tree](https://en.wikipedia.org/wiki/Fenwick_tree)
-- [Fibonacci heap](https://en.wikipedia.org/wiki/Fibonacci_heap)
-- [Finger tree](https://en.wikipedia.org/wiki/Finger_tree)
-- [Fractal tree index](https://en.wikipedia.org/wiki/Fractal_tree_index)
-- [Fusion tree](https://en.wikipedia.org/wiki/Fusion_tree)
-- [Guillotine cutting](https://en.wikipedia.org/wiki/Guillotine_cutting)
-- [HTree](https://en.wikipedia.org/wiki/HTree)
-- [Half-space (geometry)](https://en.wikipedia.org/wiki/Half-space_(geometry))
-- [Hash calendar](https://en.wikipedia.org/wiki/Hash_calendar)
-- [Hash tree (persistent data structure)](https://en.wikipedia.org/wiki/Hash_tree_(persistent_data_structure))
-- [Heap (data structure)](https://en.wikipedia.org/wiki/Heap_(data_structure))
-- [Heapsort](https://en.wikipedia.org/wiki/Heapsort)
-- [Hilbert R-tree](https://en.wikipedia.org/wiki/Hilbert_R-tree)
-- [Hyperplane](https://en.wikipedia.org/wiki/Hyperplane)
-- [Hyperrectangle](https://en.wikipedia.org/wiki/Hyperrectangle)
-- [N-sphere](https://en.wikipedia.org/wiki/N-sphere)
-- [IDistance](https://en.wikipedia.org/wiki/IDistance)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Implicit k-d tree](https://en.wikipedia.org/wiki/Implicit_k-d_tree)
-- [Implicit k-d tree](https://en.wikipedia.org/wiki/Implicit_k-d_tree)
-- [Interval tree](https://en.wikipedia.org/wiki/Interval_tree)
-- [Introduction to Algorithms](https://en.wikipedia.org/wiki/Introduction_to_Algorithms)
-- [Invariant (mathematics)](https://en.wikipedia.org/wiki/Invariant_(mathematics))
-- [Jacob E. Goodman](https://en.wikipedia.org/wiki/Jacob_E._Goodman)
-- [Jerome H. Friedman](https://en.wikipedia.org/wiki/Jerome_H._Friedman)
-- [Jon Bentley (computer scientist)](https://en.wikipedia.org/wiki/Jon_Bentley_(computer_scientist))
-- [K-D-B-tree](https://en.wikipedia.org/wiki/K-D-B-tree)
-- [M-ary tree](https://en.wikipedia.org/wiki/M-ary_tree)
-- [Klee's measure problem](https://en.wikipedia.org/wiki/Klee%27s_measure_problem)
-- [Left-child right-sibling binary tree](https://en.wikipedia.org/wiki/Left-child_right-sibling_binary_tree)
-- [Left-leaning red–black tree](https://en.wikipedia.org/wiki/Left-leaning_red%E2%80%93black_tree)
-- [Leftist tree](https://en.wikipedia.org/wiki/Leftist_tree)
-- [Link/cut tree](https://en.wikipedia.org/wiki/Link/cut_tree)
-- [List of data structures](https://en.wikipedia.org/wiki/List_of_data_structures)
-- [Log-structured merge-tree](https://en.wikipedia.org/wiki/Log-structured_merge-tree)
-- [M-tree](https://en.wikipedia.org/wiki/M-tree)
-- [Vantage-point tree](https://en.wikipedia.org/wiki/Vantage-point_tree)
-- [Manuel Blum](https://en.wikipedia.org/wiki/Manuel_Blum)
-- [Median](https://en.wikipedia.org/wiki/Median)
-- [Median of medians](https://en.wikipedia.org/wiki/Median_of_medians)
-- [Merge sort](https://en.wikipedia.org/wiki/Merge_sort)
-- [Merkle tree](https://en.wikipedia.org/wiki/Merkle_tree)
-- [Metric tree](https://en.wikipedia.org/wiki/Metric_tree)
-- [Min/max kd-tree](https://en.wikipedia.org/wiki/Min/max_kd-tree)
-- [Nearest neighbor search](https://en.wikipedia.org/wiki/Nearest_neighbor_search)
-- [Nearest neighbor search](https://en.wikipedia.org/wiki/Nearest_neighbor_search)
-- [Office of Scientific and Technical Information](https://en.wikipedia.org/wiki/Office_of_Scientific_and_Technical_Information)
-- [Octree](https://en.wikipedia.org/wiki/Octree)
-- [Optimal binary search tree](https://en.wikipedia.org/wiki/Optimal_binary_search_tree)
-- [Order statistic tree](https://en.wikipedia.org/wiki/Order_statistic_tree)
-- [Range searching](https://en.wikipedia.org/wiki/Range_searching)
-- [PH-tree](https://en.wikipedia.org/wiki/PH-tree)
-- [PQ tree](https://en.wikipedia.org/wiki/PQ_tree)
-- [Pairing heap](https://en.wikipedia.org/wiki/Pairing_heap)
-- [Palindrome tree](https://en.wikipedia.org/wiki/Palindrome_tree)
-- [Piotr Indyk](https://en.wikipedia.org/wiki/Piotr_Indyk)
-- [Plane (mathematics)](https://en.wikipedia.org/wiki/Plane_(mathematics))
-- [Point (geometry)](https://en.wikipedia.org/wiki/Point_(geometry))
-- [Point cloud](https://en.wikipedia.org/wiki/Point_cloud)
-- [Priority R-tree](https://en.wikipedia.org/wiki/Priority_R-tree)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Quadtree](https://en.wikipedia.org/wiki/Quadtree)
-- [R*-tree](https://en.wikipedia.org/wiki/R*-tree)
-- [R+ tree](https://en.wikipedia.org/wiki/R%2B_tree)
-- [R-tree](https://en.wikipedia.org/wiki/R-tree)
-- [Radix tree](https://en.wikipedia.org/wiki/Radix_tree)
-- [Range searching](https://en.wikipedia.org/wiki/Range_searching)
-- [Range searching](https://en.wikipedia.org/wiki/Range_searching)
-- [Range tree](https://en.wikipedia.org/wiki/Range_tree)
-- [Ray tracing (graphics)](https://en.wikipedia.org/wiki/Ray_tracing_(graphics))
-- [Rectangle](https://en.wikipedia.org/wiki/Rectangle)
-- [Recursive partitioning](https://en.wikipedia.org/wiki/Recursive_partitioning)
-- [Red–black tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
-- [Relaxed k-d tree](https://en.wikipedia.org/wiki/Relaxed_k-d_tree)
-- [Robert Tarjan](https://en.wikipedia.org/wiki/Robert_Tarjan)
-- [Robert W. Floyd](https://en.wikipedia.org/wiki/Robert_W._Floyd)
-- [Ron Rivest](https://en.wikipedia.org/wiki/Ron_Rivest)
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [SPQR tree](https://en.wikipedia.org/wiki/SPQR_tree)
-- [Scapegoat tree](https://en.wikipedia.org/wiki/Scapegoat_tree)
-- [SciPy](https://en.wikipedia.org/wiki/SciPy)
-- [Scikit-learn](https://en.wikipedia.org/wiki/Scikit-learn)
-- [Search tree](https://en.wikipedia.org/wiki/Search_tree)
-- [Segment tree](https://en.wikipedia.org/wiki/Segment_tree)
-- [Selection algorithm](https://en.wikipedia.org/wiki/Selection_algorithm)
-- [Set (abstract data type)](https://en.wikipedia.org/wiki/Set_(abstract_data_type))
-- [Skew binomial heap](https://en.wikipedia.org/wiki/Skew_binomial_heap)
-- [Skew heap](https://en.wikipedia.org/wiki/Skew_heap)
-- [Space complexity](https://en.wikipedia.org/wiki/Space_complexity)
-- [Space partitioning](https://en.wikipedia.org/wiki/Space_partitioning)
-- [Spatial database](https://en.wikipedia.org/wiki/Spatial_database)
-- [Splay tree](https://en.wikipedia.org/wiki/Splay_tree)
-- [Tree (abstract data type)](https://en.wikipedia.org/wiki/Tree_(abstract_data_type))
-- [Suffix tree](https://en.wikipedia.org/wiki/Suffix_tree)
-- [Normal (geometry)](https://en.wikipedia.org/wiki/Normal_(geometry))
-- [T-tree](https://en.wikipedia.org/wiki/T-tree)
-- [Ternary search tree](https://en.wikipedia.org/wiki/Ternary_search_tree)
-- [Thomas H. Cormen](https://en.wikipedia.org/wiki/Thomas_H._Cormen)
-- [Time complexity](https://en.wikipedia.org/wiki/Time_complexity)
-- [Top tree](https://en.wikipedia.org/wiki/Top_tree)
-- [Treap](https://en.wikipedia.org/wiki/Treap)
-- [Tree (abstract data type)](https://en.wikipedia.org/wiki/Tree_(abstract_data_type))
-- [Tree (abstract data type)](https://en.wikipedia.org/wiki/Tree_(abstract_data_type))
-- [Tree (abstract data type)](https://en.wikipedia.org/wiki/Tree_(abstract_data_type))
-- [Tree rotation](https://en.wikipedia.org/wiki/Tree_rotation)
-- [Tree traversal](https://en.wikipedia.org/wiki/Tree_traversal)
-- [Trie](https://en.wikipedia.org/wiki/Trie)
-- [UB-tree](https://en.wikipedia.org/wiki/UB-tree)
-- [Van Emde Boas tree](https://en.wikipedia.org/wiki/Van_Emde_Boas_tree)
-- [Vantage-point tree](https://en.wikipedia.org/wiki/Vantage-point_tree)
-- [Vaughan Pratt](https://en.wikipedia.org/wiki/Vaughan_Pratt)
-- [Weak heap](https://en.wikipedia.org/wiki/Weak_heap)
-- [Weight-balanced tree](https://en.wikipedia.org/wiki/Weight-balanced_tree)
-- [X-fast trie](https://en.wikipedia.org/wiki/X-fast_trie)
-- [X-tree](https://en.wikipedia.org/wiki/X-tree)
-- [Y-fast trie](https://en.wikipedia.org/wiki/Y-fast_trie)
-- [Template:CS trees](https://en.wikipedia.org/wiki/Template:CS_trees)
-- [Template talk:CS trees](https://en.wikipedia.org/wiki/Template_talk:CS_trees)
-- [Category:Articles to be expanded from February 2011](https://en.wikipedia.org/wiki/Category:Articles_to_be_expanded_from_February_2011)
-- [Category:Articles to be expanded from November 2008](https://en.wikipedia.org/wiki/Category:Articles_to_be_expanded_from_November_2008)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:31:22.460110+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:29 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 21796 bytes
+- **Word Count:** 3222 words

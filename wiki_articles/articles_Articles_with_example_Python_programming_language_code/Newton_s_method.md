@@ -1,14 +1,12 @@
 # Newton's method
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:37:36.400787+00:00
+## Metadata
+- **Last Updated:** 2024-12-13 08:15:13 UTC
 - **Original Article:** [Newton's method](https://en.wikipedia.org/wiki/Newton%27s_method)
 - **Language:** en
 - **Page ID:** 22145
 
 ## Summary
-
 In numerical analysis, the Newton–Raphson method, also known simply as Newton's method, named after Isaac Newton and Joseph Raphson, is a root-finding algorithm which produces successively better approximations to the roots (or zeroes) of a real-valued function. The most basic version starts with a real-valued function  f, its derivative f′, and an initial guess x0 for a root of f. If f satisfies certain assumptions and the initial guess is close, then
 
   
@@ -16,9 +14,111 @@ In numerical analysis, the Newton–Raphson method, also known simply as Newton'
       
         
           x
+          
+            1
+          
+        
+        =
+        
+          x
+          
+            0
+          
+        
+        −
+        
+          
+            
+              f
+              (
+              
+                x
+                
+                  0
+                
+              
+              )
+            
+            
+              
+                f
+                ′
+              
+              (
+              
+                x
+                
+                  0
+                
+              
+              )
+            
+          
+        
       
+    
+    {\displaystyle x_{1}=x_{0}-{\frac {f(x_{0})}{f'(x_{0})}}}
+  
+
+is a better approximation of the root than x0. Geometrically, (x1, 0) is the x-intercept of the tangent of the graph of f at (x0, f(x0)): that is, the improved guess, x1, is the unique root of the linear approximation of f  at the initial guess, x0. The process is repeated as
+
+  
+    
+      
+        
+          x
+          
+            n
+            +
+            1
+          
+        
+        =
+        
+          x
+          
+            n
+          
+        
+        −
+        
+          
+            
+              f
+              (
+              
+                x
+                
+                  n
+                
+              
+              )
+            
+            
+              
+                f
+                ′
+              
+              (
+              
+                x
+                
+                  n
+                
+              
+              )
+            
+          
+        
+      
+    
+    {\displaystyle x_{n+1}=x_{n}-{\frac {f(x_{n})}{f'(x_{n})}}}
+  
+
+until a sufficiently precise value is reached. The number of correct digits roughly doubles with each step. This algorithm is first in the class of Householder's methods, and was succeeded by Halley's method. The method can also be extended to complex functions and to systems of equations.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles lacking reliable references
 - Category:All articles to be expanded
@@ -4306,369 +4406,9 @@ Newton's method, Citizendium.
 Mathews, J., The Accelerated and Modified Newton Methods, Course notes.
 Wu, X., Roots of Equations, Course notes.
 
-## Related Articles
-
-### Internal Links
-
-- [Aberth method](https://en.wikipedia.org/wiki/Aberth_method)
-- [Abraham de Moivre](https://en.wikipedia.org/wiki/Abraham_de_Moivre)
-- [Absolute space and time](https://en.wikipedia.org/wiki/Absolute_space_and_time)
-- [Academic Press](https://en.wikipedia.org/wiki/Academic_Press)
-- [Active-set method](https://en.wikipedia.org/wiki/Active-set_method)
-- [Affine scaling](https://en.wikipedia.org/wiki/Affine_scaling)
-- [Aitken's delta-squared process](https://en.wikipedia.org/wiki/Aitken%27s_delta-squared_process)
-- [Alexander Ostrowski](https://en.wikipedia.org/wiki/Alexander_Ostrowski)
-- [Almost all](https://en.wikipedia.org/wiki/Almost_all)
-- [An Historical Account of Two Notable Corruptions of Scripture](https://en.wikipedia.org/wiki/An_Historical_Account_of_Two_Notable_Corruptions_of_Scripture)
-- [Ancient Greece](https://en.wikipedia.org/wiki/Ancient_Greece)
-- [Approximation algorithm](https://en.wikipedia.org/wiki/Approximation_algorithm)
-- [Arithmetic mean](https://en.wikipedia.org/wiki/Arithmetic_mean)
-- [Arithmetic](https://en.wikipedia.org/wiki/Arithmetic)
-- [Arithmetica Universalis](https://en.wikipedia.org/wiki/Arithmetica_Universalis)
-- [Arthur Cayley](https://en.wikipedia.org/wiki/Arthur_Cayley)
-- [Astronomers Monument](https://en.wikipedia.org/wiki/Astronomers_Monument)
-- [Augmented Lagrangian method](https://en.wikipedia.org/wiki/Augmented_Lagrangian_method)
-- [Babylonia](https://en.wikipedia.org/wiki/Babylonia)
-- [Bairstow's method](https://en.wikipedia.org/wiki/Bairstow%27s_method)
-- [Banach space](https://en.wikipedia.org/wiki/Banach_space)
-- [Barrier function](https://en.wikipedia.org/wiki/Barrier_function)
-- [Attractor](https://en.wikipedia.org/wiki/Attractor)
-- [Bellman–Ford algorithm](https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm)
-- [Benjamin Pulleyn](https://en.wikipedia.org/wiki/Benjamin_Pulleyn)
-- [Berndt–Hall–Hall–Hausman algorithm](https://en.wikipedia.org/wiki/Berndt%E2%80%93Hall%E2%80%93Hall%E2%80%93Hausman_algorithm)
-- [Bessel function](https://en.wikipedia.org/wiki/Bessel_function)
-- [Bibcode](https://en.wikipedia.org/wiki/Bibcode)
-- [Bisection method](https://en.wikipedia.org/wiki/Bisection_method)
-- [Borůvka's algorithm](https://en.wikipedia.org/wiki/Bor%C5%AFvka%27s_algorithm)
-- [Branch and bound](https://en.wikipedia.org/wiki/Branch_and_bound)
-- [Branch and cut](https://en.wikipedia.org/wiki/Branch_and_cut)
-- [Brent's method](https://en.wikipedia.org/wiki/Brent%27s_method)
-- [Broyden's method](https://en.wikipedia.org/wiki/Broyden%27s_method)
-- [Broyden–Fletcher–Goldfarb–Shanno algorithm](https://en.wikipedia.org/wiki/Broyden%E2%80%93Fletcher%E2%80%93Goldfarb%E2%80%93Shanno_algorithm)
-- [Bucket argument](https://en.wikipedia.org/wiki/Bucket_argument)
-- [Bulletin of the American Mathematical Society](https://en.wikipedia.org/wiki/Bulletin_of_the_American_Mathematical_Society)
-- [Calculus](https://en.wikipedia.org/wiki/Calculus)
-- [Cambridge University Press](https://en.wikipedia.org/wiki/Cambridge_University_Press)
-- [Catherine Barton](https://en.wikipedia.org/wiki/Catherine_Barton)
-- [Celestial mechanics](https://en.wikipedia.org/wiki/Celestial_mechanics)
-- [Chaos theory](https://en.wikipedia.org/wiki/Chaos_theory)
-- [Chebyshev iteration](https://en.wikipedia.org/wiki/Chebyshev_iteration)
-- [Classical mechanics](https://en.wikipedia.org/wiki/Classical_mechanics)
-- [Claude Lemaréchal](https://en.wikipedia.org/wiki/Claude_Lemar%C3%A9chal)
-- [Claudia Sagastizábal](https://en.wikipedia.org/wiki/Claudia_Sagastiz%C3%A1bal)
-- [Combinatorial optimization](https://en.wikipedia.org/wiki/Combinatorial_optimization)
-- [Comparison of optimization software](https://en.wikipedia.org/wiki/Comparison_of_optimization_software)
-- [Complex analysis](https://en.wikipedia.org/wiki/Complex_analysis)
-- [Complex analysis](https://en.wikipedia.org/wiki/Complex_analysis)
-- [Complex plane](https://en.wikipedia.org/wiki/Complex_plane)
-- [Concave function](https://en.wikipedia.org/wiki/Concave_function)
-- [Convex optimization](https://en.wikipedia.org/wiki/Convex_optimization)
-- [Convex optimization](https://en.wikipedia.org/wiki/Convex_optimization)
-- [Copernican Revolution](https://en.wikipedia.org/wiki/Copernican_Revolution)
-- [Corpuscular theory of light](https://en.wikipedia.org/wiki/Corpuscular_theory_of_light)
-- [Cranbury Park](https://en.wikipedia.org/wiki/Cranbury_Park)
-- [Criss-cross algorithm](https://en.wikipedia.org/wiki/Criss-cross_algorithm)
-- [Cutting-plane method](https://en.wikipedia.org/wiki/Cutting-plane_method)
-- [Davidon–Fletcher–Powell formula](https://en.wikipedia.org/wiki/Davidon%E2%80%93Fletcher%E2%80%93Powell_formula)
-- [De analysi per aequationes numero terminorum infinitas](https://en.wikipedia.org/wiki/De_analysi_per_aequationes_numero_terminorum_infinitas)
-- [De motu corporum in gyrum](https://en.wikipedia.org/wiki/De_motu_corporum_in_gyrum)
-- [Derivative](https://en.wikipedia.org/wiki/Derivative)
-- [Difference quotient](https://en.wikipedia.org/wiki/Difference_quotient)
-- [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
-- [Dinic's algorithm](https://en.wikipedia.org/wiki/Dinic%27s_algorithm)
-- [Division algorithm](https://en.wikipedia.org/wiki/Division_algorithm)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Durand–Kerner method](https://en.wikipedia.org/wiki/Durand%E2%80%93Kerner_method)
-- [Dynamic programming](https://en.wikipedia.org/wiki/Dynamic_programming)
-- [Early life of Isaac Newton](https://en.wikipedia.org/wiki/Early_life_of_Isaac_Newton)
-- [Edmonds–Karp algorithm](https://en.wikipedia.org/wiki/Edmonds%E2%80%93Karp_algorithm)
-- [Ellipsoid method](https://en.wikipedia.org/wiki/Ellipsoid_method)
-- [Encyclopedia of Mathematics](https://en.wikipedia.org/wiki/Encyclopedia_of_Mathematics)
-- [Endre Süli](https://en.wikipedia.org/wiki/Endre_S%C3%BCli)
-- [Eric W. Weisstein](https://en.wikipedia.org/wiki/Eric_W._Weisstein)
-- [Euclidean space](https://en.wikipedia.org/wiki/Euclidean_space)
-- [Euler method](https://en.wikipedia.org/wiki/Euler_method)
-- [European Mathematical Society](https://en.wikipedia.org/wiki/European_Mathematical_Society)
-- [Evolutionary algorithm](https://en.wikipedia.org/wiki/Evolutionary_algorithm)
-- [Greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm)
-- [Fast inverse square root](https://en.wikipedia.org/wiki/Fast_inverse_square_root)
-- [Finite difference](https://en.wikipedia.org/wiki/Finite_difference)
-- [Fixed-point iteration](https://en.wikipedia.org/wiki/Fixed-point_iteration)
-- [Floating-point arithmetic](https://en.wikipedia.org/wiki/Floating-point_arithmetic)
-- [Flow network](https://en.wikipedia.org/wiki/Flow_network)
-- [Floyd–Warshall algorithm](https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm)
-- [Fluxion](https://en.wikipedia.org/wiki/Fluxion)
-- [Ford–Fulkerson algorithm](https://en.wikipedia.org/wiki/Ford%E2%80%93Fulkerson_algorithm)
-- [Fractal](https://en.wikipedia.org/wiki/Fractal)
-- [Frank–Wolfe algorithm](https://en.wikipedia.org/wiki/Frank%E2%80%93Wolfe_algorithm)
-- [François Viète](https://en.wikipedia.org/wiki/Fran%C3%A7ois_Vi%C3%A8te)
-- [Fréchet derivative](https://en.wikipedia.org/wiki/Fr%C3%A9chet_derivative)
-- [Fréchet space](https://en.wikipedia.org/wiki/Fr%C3%A9chet_space)
-- [Function (mathematics)](https://en.wikipedia.org/wiki/Function_(mathematics))
-- [Functional (mathematics)](https://en.wikipedia.org/wiki/Functional_(mathematics))
-- [Gauss–Newton algorithm](https://en.wikipedia.org/wiki/Gauss%E2%80%93Newton_algorithm)
-- [General Scholium](https://en.wikipedia.org/wiki/General_Scholium)
-- [Generalized Gauss–Newton method](https://en.wikipedia.org/wiki/Generalized_Gauss%E2%80%93Newton_method)
-- [Generalized inverse](https://en.wikipedia.org/wiki/Generalized_inverse)
-- [Golden-section search](https://en.wikipedia.org/wiki/Golden-section_search)
-- [Gradient](https://en.wikipedia.org/wiki/Gradient)
-- [Gradient descent](https://en.wikipedia.org/wiki/Gradient_descent)
-- [Graeffe's method](https://en.wikipedia.org/wiki/Graeffe%27s_method)
-- [List of algorithms](https://en.wikipedia.org/wiki/List_of_algorithms)
-- [Graph of a function](https://en.wikipedia.org/wiki/Graph_of_a_function)
-- [Gravitational constant](https://en.wikipedia.org/wiki/Gravitational_constant)
-- [Greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm)
-- [Halley's method](https://en.wikipedia.org/wiki/Halley%27s_method)
-- [Henry Briggs (mathematician)](https://en.wikipedia.org/wiki/Henry_Briggs_(mathematician))
-- [Hensel's lemma](https://en.wikipedia.org/wiki/Hensel%27s_lemma)
-- [Hessian matrix](https://en.wikipedia.org/wiki/Hessian_matrix)
-- [Heuristic (computer science)](https://en.wikipedia.org/wiki/Heuristic_(computer_science))
-- [Hill climbing](https://en.wikipedia.org/wiki/Hill_climbing)
-- [Householder's method](https://en.wikipedia.org/wiki/Householder%27s_method)
-- [Hypotheses non fingo](https://en.wikipedia.org/wiki/Hypotheses_non_fingo)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [ISSN](https://en.wikipedia.org/wiki/ISSN)
-- [ITP method](https://en.wikipedia.org/wiki/ITP_method)
-- [Impact depth](https://en.wikipedia.org/wiki/Impact_depth)
-- [Implicit function theorem](https://en.wikipedia.org/wiki/Implicit_function_theorem)
-- [Inertia](https://en.wikipedia.org/wiki/Inertia)
-- [Isaac Newton Medal](https://en.wikipedia.org/wiki/Isaac_Newton_Medal)
-- [Integer programming](https://en.wikipedia.org/wiki/Integer_programming)
-- [Integer square root](https://en.wikipedia.org/wiki/Integer_square_root)
-- [Intermediate value theorem](https://en.wikipedia.org/wiki/Intermediate_value_theorem)
-- [Interval arithmetic](https://en.wikipedia.org/wiki/Interval_arithmetic)
-- [Inverse quadratic interpolation](https://en.wikipedia.org/wiki/Inverse_quadratic_interpolation)
-- [Isaac Barrow](https://en.wikipedia.org/wiki/Isaac_Barrow)
-- [Isaac Newton](https://en.wikipedia.org/wiki/Isaac_Newton)
-- [Isaac Newton's apple tree](https://en.wikipedia.org/wiki/Isaac_Newton%27s_apple_tree)
-- [Isaac Newton's occult studies](https://en.wikipedia.org/wiki/Isaac_Newton%27s_occult_studies)
-- [Isaac Newton Gargoyle](https://en.wikipedia.org/wiki/Isaac_Newton_Gargoyle)
-- [Isaac Newton Group of Telescopes](https://en.wikipedia.org/wiki/Isaac_Newton_Group_of_Telescopes)
-- [Isaac Newton Institute](https://en.wikipedia.org/wiki/Isaac_Newton_Institute)
-- [Isaac Newton Telescope](https://en.wikipedia.org/wiki/Isaac_Newton_Telescope)
-- [Isaac Newton in popular culture](https://en.wikipedia.org/wiki/Isaac_Newton_in_popular_culture)
-- [Embedding](https://en.wikipedia.org/wiki/Embedding)
-- [Iterative method](https://en.wikipedia.org/wiki/Iterative_method)
-- [JSTOR](https://en.wikipedia.org/wiki/JSTOR)
-- [Jacobian matrix and determinant](https://en.wikipedia.org/wiki/Jacobian_matrix_and_determinant)
-- [Jacobian matrix and determinant](https://en.wikipedia.org/wiki/Jacobian_matrix_and_determinant)
-- [Jamshid al-Kashi](https://en.wikipedia.org/wiki/Jamshid_al-Kashi)
-- [Jenkins–Traub algorithm](https://en.wikipedia.org/wiki/Jenkins%E2%80%93Traub_algorithm)
-- [John Colson](https://en.wikipedia.org/wiki/John_Colson)
-- [John Conduitt](https://en.wikipedia.org/wiki/John_Conduitt)
-- [John Forbes Nash Jr.](https://en.wikipedia.org/wiki/John_Forbes_Nash_Jr.)
-- [John Keill](https://en.wikipedia.org/wiki/John_Keill)
-- [John Wallis](https://en.wikipedia.org/wiki/John_Wallis)
-- [Joseph F. Traub](https://en.wikipedia.org/wiki/Joseph_F._Traub)
-- [Joseph Fourier](https://en.wikipedia.org/wiki/Joseph_Fourier)
-- [Joseph Raphson](https://en.wikipedia.org/wiki/Joseph_Raphson)
-- [Julia set](https://en.wikipedia.org/wiki/Julia_set)
-- [Jürgen Moser](https://en.wikipedia.org/wiki/J%C3%BCrgen_Moser)
-- [Kantorovich theorem](https://en.wikipedia.org/wiki/Kantorovich_theorem)
-- [Karmarkar's algorithm](https://en.wikipedia.org/wiki/Karmarkar%27s_algorithm)
-- [Kepler's laws of planetary motion](https://en.wikipedia.org/wiki/Kepler%27s_laws_of_planetary_motion)
-- [Kissing number](https://en.wikipedia.org/wiki/Kissing_number)
-- [Kruskal's algorithm](https://en.wikipedia.org/wiki/Kruskal%27s_algorithm)
-- [Taylor's theorem](https://en.wikipedia.org/wiki/Taylor%27s_theorem)
-- [Laguerre's method](https://en.wikipedia.org/wiki/Laguerre%27s_method)
-- [Later life of Isaac Newton](https://en.wikipedia.org/wiki/Later_life_of_Isaac_Newton)
-- [Lehmer–Schur algorithm](https://en.wikipedia.org/wiki/Lehmer%E2%80%93Schur_algorithm)
-- [Leibniz–Newton calculus controversy](https://en.wikipedia.org/wiki/Leibniz%E2%80%93Newton_calculus_controversy)
-- [Lemke's algorithm](https://en.wikipedia.org/wiki/Lemke%27s_algorithm)
-- [Levenberg–Marquardt algorithm](https://en.wikipedia.org/wiki/Levenberg%E2%80%93Marquardt_algorithm)
-- [Limit of a sequence](https://en.wikipedia.org/wiki/Limit_of_a_sequence)
-- [Limited-memory BFGS](https://en.wikipedia.org/wiki/Limited-memory_BFGS)
-- [Line search](https://en.wikipedia.org/wiki/Line_search)
-- [Linear approximation](https://en.wikipedia.org/wiki/Linear_approximation)
-- [Linear programming](https://en.wikipedia.org/wiki/Linear_programming)
-- [List of things named after Isaac Newton](https://en.wikipedia.org/wiki/List_of_things_named_after_Isaac_Newton)
-- [Local convergence](https://en.wikipedia.org/wiki/Local_convergence)
-- [Local search (optimization)](https://en.wikipedia.org/wiki/Local_search_(optimization))
-- [Luminiferous aether](https://en.wikipedia.org/wiki/Luminiferous_aether)
-- [MIT Press](https://en.wikipedia.org/wiki/MIT_Press)
-- [Mathematical Reviews](https://en.wikipedia.org/wiki/Mathematical_Reviews)
-- [MathWorld](https://en.wikipedia.org/wiki/MathWorld)
-- [Mathematical optimization](https://en.wikipedia.org/wiki/Mathematical_optimization)
-- [Mathematics in the medieval Islamic world](https://en.wikipedia.org/wiki/Mathematics_in_the_medieval_Islamic_world)
-- [Matroid](https://en.wikipedia.org/wiki/Matroid)
-- [Mean value theorem](https://en.wikipedia.org/wiki/Mean_value_theorem)
-- [Metaheuristic](https://en.wikipedia.org/wiki/Metaheuristic)
-- [Method of Fluxions](https://en.wikipedia.org/wiki/Method_of_Fluxions)
-- [Methods of computing square roots](https://en.wikipedia.org/wiki/Methods_of_computing_square_roots)
-- [Mikhael Gromov (mathematician)](https://en.wikipedia.org/wiki/Mikhael_Gromov_(mathematician))
-- [Minimum spanning tree](https://en.wikipedia.org/wiki/Minimum_spanning_tree)
-- [Mirror descent](https://en.wikipedia.org/wiki/Mirror_descent)
-- [Monotonic function](https://en.wikipedia.org/wiki/Monotonic_function)
-- [Monotonic function](https://en.wikipedia.org/wiki/Monotonic_function)
-- [Muller's method](https://en.wikipedia.org/wiki/Muller%27s_method)
-- [Multiplicative inverse](https://en.wikipedia.org/wiki/Multiplicative_inverse)
-- [Multiplicity (mathematics)](https://en.wikipedia.org/wiki/Multiplicity_(mathematics))
-- [Nash–Moser theorem](https://en.wikipedia.org/wiki/Nash%E2%80%93Moser_theorem)
-- [Natural logarithm](https://en.wikipedia.org/wiki/Natural_logarithm)
-- [Neighbourhood (mathematics)](https://en.wikipedia.org/wiki/Neighbourhood_(mathematics))
-- [Nelder–Mead method](https://en.wikipedia.org/wiki/Nelder%E2%80%93Mead_method)
-- [Newton's cannonball](https://en.wikipedia.org/wiki/Newton%27s_cannonball)
-- [Newton's cradle](https://en.wikipedia.org/wiki/Newton%27s_cradle)
-- [Newton's identities](https://en.wikipedia.org/wiki/Newton%27s_identities)
-- [Newton's inequalities](https://en.wikipedia.org/wiki/Newton%27s_inequalities)
-- [Newton's law of cooling](https://en.wikipedia.org/wiki/Newton%27s_law_of_cooling)
-- [Newton's law of universal gravitation](https://en.wikipedia.org/wiki/Newton%27s_law_of_universal_gravitation)
-- [Newton's laws of motion](https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion)
-- [Newton's metal](https://en.wikipedia.org/wiki/Newton%27s_metal)
-- [Newton's method in optimization](https://en.wikipedia.org/wiki/Newton%27s_method_in_optimization)
-- [Notation for differentiation](https://en.wikipedia.org/wiki/Notation_for_differentiation)
-- [Newton's reflector](https://en.wikipedia.org/wiki/Newton%27s_reflector)
-- [Newton's rings](https://en.wikipedia.org/wiki/Newton%27s_rings)
-- [Newton's theorem about ovals](https://en.wikipedia.org/wiki/Newton%27s_theorem_about_ovals)
-- [Newton's theorem of revolving orbits](https://en.wikipedia.org/wiki/Newton%27s_theorem_of_revolving_orbits)
-- [Newton (Blake)](https://en.wikipedia.org/wiki/Newton_(Blake))
-- [Newton (Paolozzi)](https://en.wikipedia.org/wiki/Newton_(Paolozzi))
-- [Newton (unit)](https://en.wikipedia.org/wiki/Newton_(unit))
-- [Newton International Fellowship](https://en.wikipedia.org/wiki/Newton_International_Fellowship)
-- [Newton disc](https://en.wikipedia.org/wiki/Newton_disc)
-- [Newton fractal](https://en.wikipedia.org/wiki/Newton_fractal)
-- [Newton polygon](https://en.wikipedia.org/wiki/Newton_polygon)
-- [Newton polynomial](https://en.wikipedia.org/wiki/Newton_polynomial)
-- [Newton scale](https://en.wikipedia.org/wiki/Newton_scale)
-- [Newtonian dynamics](https://en.wikipedia.org/wiki/Newtonian_dynamics)
-- [Newtonian fluid](https://en.wikipedia.org/wiki/Newtonian_fluid)
-- [Newtonian potential](https://en.wikipedia.org/wiki/Newtonian_potential)
-- [Newtonian telescope](https://en.wikipedia.org/wiki/Newtonian_telescope)
-- [Newtonianism](https://en.wikipedia.org/wiki/Newtonianism)
-- [Newton–Cartan theory](https://en.wikipedia.org/wiki/Newton%E2%80%93Cartan_theory)
-- [Newton–Cotes formulas](https://en.wikipedia.org/wiki/Newton%E2%80%93Cotes_formulas)
-- [Newton–Euler equations](https://en.wikipedia.org/wiki/Newton%E2%80%93Euler_equations)
-- [Newton–Krylov method](https://en.wikipedia.org/wiki/Newton%E2%80%93Krylov_method)
-- [Newton–Okounkov body](https://en.wikipedia.org/wiki/Newton%E2%80%93Okounkov_body)
-- [Newton–Pepys problem](https://en.wikipedia.org/wiki/Newton%E2%80%93Pepys_problem)
-- [Non-linear least squares](https://en.wikipedia.org/wiki/Non-linear_least_squares)
-- [Nonlinear conjugate gradient method](https://en.wikipedia.org/wiki/Nonlinear_conjugate_gradient_method)
-- [Nonlinear programming](https://en.wikipedia.org/wiki/Nonlinear_programming)
-- [Normal distribution](https://en.wikipedia.org/wiki/Normal_distribution)
-- [Notes on the Jewish Temple](https://en.wikipedia.org/wiki/Notes_on_the_Jewish_Temple)
-- [Numerical analysis](https://en.wikipedia.org/wiki/Numerical_analysis)
-- [OCLC](https://en.wikipedia.org/wiki/OCLC)
-- [Opticks](https://en.wikipedia.org/wiki/Opticks)
-- [Mathematical optimization](https://en.wikipedia.org/wiki/Mathematical_optimization)
-- [Rate of convergence](https://en.wikipedia.org/wiki/Rate_of_convergence)
-- [Parallel metaheuristic](https://en.wikipedia.org/wiki/Parallel_metaheuristic)
-- [Parallelogram of force](https://en.wikipedia.org/wiki/Parallelogram_of_force)
-- [Parameterized post-Newtonian formalism](https://en.wikipedia.org/wiki/Parameterized_post-Newtonian_formalism)
-- [Penalty method](https://en.wikipedia.org/wiki/Penalty_method)
-- [Peter Henrici (mathematician)](https://en.wikipedia.org/wiki/Peter_Henrici_(mathematician))
-- [Philosophiæ Naturalis Principia Mathematica](https://en.wikipedia.org/wiki/Philosophi%C3%A6_Naturalis_Principia_Mathematica)
-- [Polynomial root-finding algorithms](https://en.wikipedia.org/wiki/Polynomial_root-finding_algorithms)
-- [Post-Newtonian expansion](https://en.wikipedia.org/wiki/Post-Newtonian_expansion)
-- [Powell's dog leg method](https://en.wikipedia.org/wiki/Powell%27s_dog_leg_method)
-- [Powell's method](https://en.wikipedia.org/wiki/Powell%27s_method)
-- [Power number](https://en.wikipedia.org/wiki/Power_number)
-- [Power series](https://en.wikipedia.org/wiki/Power_series)
-- [Prentice Hall](https://en.wikipedia.org/wiki/Prentice_Hall)
-- [Prim's algorithm](https://en.wikipedia.org/wiki/Prim%27s_algorithm)
-- [Probability density function](https://en.wikipedia.org/wiki/Probability_density_function)
-- [Problem of Apollonius](https://en.wikipedia.org/wiki/Problem_of_Apollonius)
-- [Puiseux series](https://en.wikipedia.org/wiki/Puiseux_series)
-- [Push–relabel maximum flow algorithm](https://en.wikipedia.org/wiki/Push%E2%80%93relabel_maximum_flow_algorithm)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Q-analog](https://en.wikipedia.org/wiki/Q-analog)
-- [Quadratic programming](https://en.wikipedia.org/wiki/Quadratic_programming)
-- [Quaestiones quaedam philosophicae](https://en.wikipedia.org/wiki/Quaestiones_quaedam_philosophicae)
-- [Quasi-Newton method](https://en.wikipedia.org/wiki/Quasi-Newton_method)
-- [Rate of convergence](https://en.wikipedia.org/wiki/Rate_of_convergence)
-- [Real-valued function](https://en.wikipedia.org/wiki/Real-valued_function)
-- [Real number](https://en.wikipedia.org/wiki/Real_number)
-- [Regula falsi](https://en.wikipedia.org/wiki/Regula_falsi)
-- [Religious views of Isaac Newton](https://en.wikipedia.org/wiki/Religious_views_of_Isaac_Newton)
-- [Revised simplex method](https://en.wikipedia.org/wiki/Revised_simplex_method)
-- [Richard S. Hamilton](https://en.wikipedia.org/wiki/Richard_S._Hamilton)
-- [Richardson extrapolation](https://en.wikipedia.org/wiki/Richardson_extrapolation)
-- [Ridders' method](https://en.wikipedia.org/wiki/Ridders%27_method)
-- [Riemannian manifold](https://en.wikipedia.org/wiki/Riemannian_manifold)
-- [Roger Cotes](https://en.wikipedia.org/wiki/Roger_Cotes)
-- [Root-finding algorithm](https://en.wikipedia.org/wiki/Root-finding_algorithm)
-- [Root-finding algorithm](https://en.wikipedia.org/wiki/Root-finding_algorithm)
-- [Zero of a function](https://en.wikipedia.org/wiki/Zero_of_a_function)
-- [Rotating spheres](https://en.wikipedia.org/wiki/Rotating_spheres)
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [Schrödinger–Newton equation](https://en.wikipedia.org/wiki/Schr%C3%B6dinger%E2%80%93Newton_equation)
-- [Scientific Revolution](https://en.wikipedia.org/wiki/Scientific_Revolution)
-- [Scoring algorithm](https://en.wikipedia.org/wiki/Scoring_algorithm)
-- [Secant method](https://en.wikipedia.org/wiki/Secant_method)
-- [Second derivative](https://en.wikipedia.org/wiki/Second_derivative)
-- [Seki Takakazu](https://en.wikipedia.org/wiki/Seki_Takakazu)
-- [Sequence](https://en.wikipedia.org/wiki/Sequence)
-- [Sequential quadratic programming](https://en.wikipedia.org/wiki/Sequential_quadratic_programming)
-- [Sharaf al-Din al-Tusi](https://en.wikipedia.org/wiki/Sharaf_al-Din_al-Tusi)
-- [Bellman–Ford algorithm](https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm)
-- [Shortest path problem](https://en.wikipedia.org/wiki/Shortest_path_problem)
-- [Sidi's generalized secant method](https://en.wikipedia.org/wiki/Sidi%27s_generalized_secant_method)
-- [Simplex algorithm](https://en.wikipedia.org/wiki/Simplex_algorithm)
-- [Simulated annealing](https://en.wikipedia.org/wiki/Simulated_annealing)
-- [Sir Isaac Newton Sixth Form](https://en.wikipedia.org/wiki/Sir_Isaac_Newton_Sixth_Form)
-- [Smoothing](https://en.wikipedia.org/wiki/Smoothing)
-- [Spectrum](https://en.wikipedia.org/wiki/Spectrum)
-- [Spiral optimization algorithm](https://en.wikipedia.org/wiki/Spiral_optimization_algorithm)
-- [Splitting circle method](https://en.wikipedia.org/wiki/Splitting_circle_method)
-- [Springer Science+Business Media](https://en.wikipedia.org/wiki/Springer_Science%2BBusiness_Media)
-- [Standing on the shoulders of giants](https://en.wikipedia.org/wiki/Standing_on_the_shoulders_of_giants)
-- [Statal Institute of Higher Education Isaac Newton](https://en.wikipedia.org/wiki/Statal_Institute_of_Higher_Education_Isaac_Newton)
-- [Steffensen's method](https://en.wikipedia.org/wiki/Steffensen%27s_method)
-- [Stephen P. Boyd](https://en.wikipedia.org/wiki/Stephen_P._Boyd)
-- [Monotonic function](https://en.wikipedia.org/wiki/Monotonic_function)
-- [Structural coloration](https://en.wikipedia.org/wiki/Structural_coloration)
-- [Subgradient method](https://en.wikipedia.org/wiki/Subgradient_method)
-- [Successive linear programming](https://en.wikipedia.org/wiki/Successive_linear_programming)
-- [Successive over-relaxation](https://en.wikipedia.org/wiki/Successive_over-relaxation)
-- [Successive parabolic interpolation](https://en.wikipedia.org/wiki/Successive_parabolic_interpolation)
-- [Symmetric rank-one](https://en.wikipedia.org/wiki/Symmetric_rank-one)
-- [System of linear equations](https://en.wikipedia.org/wiki/System_of_linear_equations)
-- [Nonlinear system](https://en.wikipedia.org/wiki/Nonlinear_system)
-- [System of equations](https://en.wikipedia.org/wiki/System_of_equations)
-- [Table of Newtonian series](https://en.wikipedia.org/wiki/Table_of_Newtonian_series)
-- [Tabu search](https://en.wikipedia.org/wiki/Tabu_search)
-- [Tangent](https://en.wikipedia.org/wiki/Tangent)
-- [Tangent](https://en.wikipedia.org/wiki/Tangent)
-- [Taylor's theorem](https://en.wikipedia.org/wiki/Taylor%27s_theorem)
-- [Taylor series](https://en.wikipedia.org/wiki/Taylor_series)
-- [Taylor series](https://en.wikipedia.org/wiki/Taylor_series)
-- [The Chronology of Ancient Kingdoms Amended](https://en.wikipedia.org/wiki/The_Chronology_of_Ancient_Kingdoms_Amended)
-- [The College Mathematics Journal](https://en.wikipedia.org/wiki/The_College_Mathematics_Journal)
-- [Opticks](https://en.wikipedia.org/wiki/Opticks)
-- [Thomas Simpson](https://en.wikipedia.org/wiki/Thomas_Simpson)
-- [Neighbourhood (mathematics)](https://en.wikipedia.org/wiki/Neighbourhood_(mathematics))
-- [Transcendental equation](https://en.wikipedia.org/wiki/Transcendental_equation)
-- [Truncated Newton method](https://en.wikipedia.org/wiki/Truncated_Newton_method)
-- [Trust region](https://en.wikipedia.org/wiki/Trust_region)
-- [Wikibooks](https://en.wikipedia.org/wiki/Wikibooks)
-- [Wilkinson's polynomial](https://en.wikipedia.org/wiki/Wilkinson%27s_polynomial)
-- [William Clarke (apothecary)](https://en.wikipedia.org/wiki/William_Clarke_(apothecary))
-- [William Jones (mathematician)](https://en.wikipedia.org/wiki/William_Jones_(mathematician))
-- [William Stukeley](https://en.wikipedia.org/wiki/William_Stukeley)
-- [William Whiston](https://en.wikipedia.org/wiki/William_Whiston)
-- [Wolfe conditions](https://en.wikipedia.org/wiki/Wolfe_conditions)
-- [Woolsthorpe Manor](https://en.wikipedia.org/wiki/Woolsthorpe_Manor)
-- [Zero of a function](https://en.wikipedia.org/wiki/Zero_of_a_function)
-- [XMM-Newton](https://en.wikipedia.org/wiki/XMM-Newton)
-- [ZbMATH Open](https://en.wikipedia.org/wiki/ZbMATH_Open)
-- [Zero of a function](https://en.wikipedia.org/wiki/Zero_of_a_function)
-- [Wikipedia:Citing sources](https://en.wikipedia.org/wiki/Wikipedia:Citing_sources)
-- [Wikipedia:Citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed)
-- [Wikipedia:Citing sources](https://en.wikipedia.org/wiki/Wikipedia:Citing_sources)
-- [Wikipedia:Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)
-- [Template:Isaac Newton](https://en.wikipedia.org/wiki/Template:Isaac_Newton)
-- [Template:Optimization algorithms](https://en.wikipedia.org/wiki/Template:Optimization_algorithms)
-- [Template:Root-finding algorithms](https://en.wikipedia.org/wiki/Template:Root-finding_algorithms)
-- [Template talk:Isaac Newton](https://en.wikipedia.org/wiki/Template_talk:Isaac_Newton)
-- [Template talk:Optimization algorithms](https://en.wikipedia.org/wiki/Template_talk:Optimization_algorithms)
-- [Template talk:Root-finding algorithms](https://en.wikipedia.org/wiki/Template_talk:Root-finding_algorithms)
-- [Help:Authority control](https://en.wikipedia.org/wiki/Help:Authority_control)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Category:Articles lacking reliable references from February 2019](https://en.wikipedia.org/wiki/Category:Articles_lacking_reliable_references_from_February_2019)
-- [Category:Articles to be expanded from February 2019](https://en.wikipedia.org/wiki/Category:Articles_to_be_expanded_from_February_2019)
-- [Category:Articles with unsourced statements from June 2024](https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_June_2024)
-- [Category:Use dmy dates from January 2020](https://en.wikipedia.org/wiki/Category:Use_dmy_dates_from_January_2020)
-- [Category:Wikipedia articles needing page number citations from June 2024](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_needing_page_number_citations_from_June_2024)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:37:36.400787+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:42 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 109628 bytes
+- **Word Count:** 7407 words

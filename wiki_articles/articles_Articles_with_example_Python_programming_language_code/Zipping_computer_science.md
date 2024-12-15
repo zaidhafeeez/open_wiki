@@ -1,17 +1,16 @@
 # Zipping (computer science)
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:55:33.120498+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 06:56:17 UTC
 - **Original Article:** [Zipping (computer science)](https://en.wikipedia.org/wiki/Zipping_(computer_science))
 - **Language:** en
 - **Page ID:** 1463083
 
 ## Summary
-
 In computer science, zipping is a function which maps a tuple of sequences into a sequence of tuples.  This name zip derives from the action of a zipper in that it interleaves two formerly disjoint sequences.  The inverse function is unzip.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example Clojure code
 - Category:Articles with example Haskell code
@@ -353,36 +352,9 @@ Map (higher-order function)
 
 == References ==
 
-## Related Articles
-
-### Internal Links
-
-- [Alphabet (formal languages)](https://en.wikipedia.org/wiki/Alphabet_(formal_languages))
-- [Arity](https://en.wikipedia.org/wiki/Arity)
-- [Chapel (programming language)](https://en.wikipedia.org/wiki/Chapel_(programming_language))
-- [Clojure](https://en.wikipedia.org/wiki/Clojure)
-- [Common Lisp](https://en.wikipedia.org/wiki/Common_Lisp)
-- [Computer science](https://en.wikipedia.org/wiki/Computer_science)
-- [D (programming language)](https://en.wikipedia.org/wiki/D_(programming_language))
-- [Data mapping](https://en.wikipedia.org/wiki/Data_mapping)
-- [F Sharp (programming language)](https://en.wikipedia.org/wiki/F_Sharp_(programming_language))
-- [Data compression](https://en.wikipedia.org/wiki/Data_compression)
-- [Function (computer programming)](https://en.wikipedia.org/wiki/Function_(computer_programming))
-- [Haskell](https://en.wikipedia.org/wiki/Haskell)
-- [Lisp (programming language)](https://en.wikipedia.org/wiki/Lisp_(programming_language))
-- [Map (higher-order function)](https://en.wikipedia.org/wiki/Map_(higher-order_function))
-- [Programming language](https://en.wikipedia.org/wiki/Programming_language)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Ruby (programming language)](https://en.wikipedia.org/wiki/Ruby_(programming_language))
-- [Scala (programming language)](https://en.wikipedia.org/wiki/Scala_(programming_language))
-- [Sequence](https://en.wikipedia.org/wiki/Sequence)
-- [Function (computer programming)](https://en.wikipedia.org/wiki/Function_(computer_programming))
-- [Tuple](https://en.wikipedia.org/wiki/Tuple)
-- [Uniform Function Call Syntax](https://en.wikipedia.org/wiki/Uniform_Function_Call_Syntax)
-- [Variadic function](https://en.wikipedia.org/wiki/Variadic_function)
-- [Formal language](https://en.wikipedia.org/wiki/Formal_language)
-- [Zipper](https://en.wikipedia.org/wiki/Zipper)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:55:33.120498+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:10 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 5086 bytes
+- **Word Count:** 538 words

@@ -1,17 +1,16 @@
 # Roundup (issue tracker)
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:15:10.603408+00:00
+## Metadata
+- **Last Updated:** 2024-12-12 16:18:18 UTC
 - **Original Article:** [Roundup (issue tracker)](https://en.wikipedia.org/wiki/Roundup_(issue_tracker))
 - **Language:** en
 - **Page ID:** 10567064
 
 ## Summary
-
 Roundup is an open-source issue or bug tracking system featuring a command-line, web and e-mail interface. It is written in Python and designed to be highly customizable.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with short description
 - Category:Bug and issue tracking software
@@ -85,89 +84,9 @@ References
 External links
 Official website
 
-## Related Articles
-
-### Internal Links
-
-- [Apache Allura](https://en.wikipedia.org/wiki/Apache_Allura)
-- [Trac](https://en.wikipedia.org/wiki/Trac)
-- [Assembla](https://en.wikipedia.org/wiki/Assembla)
-- [Automation](https://en.wikipedia.org/wiki/Automation)
-- [GitKraken](https://en.wikipedia.org/wiki/GitKraken)
-- [Azure DevOps Server](https://en.wikipedia.org/wiki/Azure_DevOps_Server)
-- [Backup](https://en.wikipedia.org/wiki/Backup)
-- [Bitbucket](https://en.wikipedia.org/wiki/Bitbucket)
-- [Bug tracking system](https://en.wikipedia.org/wiki/Bug_tracking_system)
-- [Bugzilla](https://en.wikipedia.org/wiki/Bugzilla)
-- [Class (computer programming)](https://en.wikipedia.org/wiki/Class_(computer_programming))
-- [Class (computer programming)](https://en.wikipedia.org/wiki/Class_(computer_programming))
-- [CodePlex](https://en.wikipedia.org/wiki/CodePlex)
-- [Codeberg](https://en.wikipedia.org/wiki/Codeberg)
-- [Common Gateway Interface](https://en.wikipedia.org/wiki/Common_Gateway_Interface)
-- [Comparison of issue-tracking systems](https://en.wikipedia.org/wiki/Comparison_of_issue-tracking_systems)
-- [Cross-platform software](https://en.wikipedia.org/wiki/Cross-platform_software)
-- [Daemon (computing)](https://en.wikipedia.org/wiki/Daemon_(computing))
-- [Database](https://en.wikipedia.org/wiki/Database)
-- [Database abstraction layer](https://en.wikipedia.org/wiki/Database_abstraction_layer)
-- [Debbugs](https://en.wikipedia.org/wiki/Debbugs)
-- [Email](https://en.wikipedia.org/wiki/Email)
-- [Fossil (software)](https://en.wikipedia.org/wiki/Fossil_(software))
-- [Free software](https://en.wikipedia.org/wiki/Free_software)
-- [GNATS](https://en.wikipedia.org/wiki/GNATS)
-- [GNU Savannah](https://en.wikipedia.org/wiki/GNU_Savannah)
-- [Gateway (telecommunications)](https://en.wikipedia.org/wiki/Gateway_(telecommunications))
-- [GitHub](https://en.wikipedia.org/wiki/GitHub)
-- [GitLab](https://en.wikipedia.org/wiki/GitLab)
-- [Gitea](https://en.wikipedia.org/wiki/Gitea)
-- [HTML](https://en.wikipedia.org/wiki/HTML)
-- [Helix ALM](https://en.wikipedia.org/wiki/Helix_ALM)
-- [Issue tracking system](https://en.wikipedia.org/wiki/Issue_tracking_system)
-- [Jinja (template engine)](https://en.wikipedia.org/wiki/Jinja_(template_engine))
-- [Jira (software)](https://en.wikipedia.org/wiki/Jira_(software))
-- [Launchpad (website)](https://en.wikipedia.org/wiki/Launchpad_(website))
-- [MIT License](https://en.wikipedia.org/wiki/MIT_License)
-- [Mailing list](https://en.wikipedia.org/wiki/Mailing_list)
-- [Mantis Bug Tracker](https://en.wikipedia.org/wiki/Mantis_Bug_Tracker)
-- [Visual Studio](https://en.wikipedia.org/wiki/Visual_Studio)
-- [MySQL](https://en.wikipedia.org/wiki/MySQL)
-- [OSDN](https://en.wikipedia.org/wiki/OSDN)
-- [Object (computer science)](https://en.wikipedia.org/wiki/Object_(computer_science))
-- [Open-core model](https://en.wikipedia.org/wiki/Open-core_model)
-- [Open source](https://en.wikipedia.org/wiki/Open_source)
-- [Operating system](https://en.wikipedia.org/wiki/Operating_system)
-- [Phabricator](https://en.wikipedia.org/wiki/Phabricator)
-- [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL)
-- [Process (computing)](https://en.wikipedia.org/wiki/Process_(computing))
-- [Programmer](https://en.wikipedia.org/wiki/Programmer)
-- [Proprietary software](https://en.wikipedia.org/wiki/Proprietary_software)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Relational database](https://en.wikipedia.org/wiki/Relational_database)
-- [Redmine](https://en.wikipedia.org/wiki/Redmine)
-- [Repository (version control)](https://en.wikipedia.org/wiki/Repository_(version_control))
-- [REST](https://en.wikipedia.org/wiki/REST)
-- [Request Tracker](https://en.wikipedia.org/wiki/Request_Tracker)
-- [SQLite](https://en.wikipedia.org/wiki/SQLite)
-- [Shell script](https://en.wikipedia.org/wiki/Shell_script)
-- [Software categories](https://en.wikipedia.org/wiki/Software_categories)
-- [Software license](https://en.wikipedia.org/wiki/Software_license)
-- [Software release life cycle](https://en.wikipedia.org/wiki/Software_release_life_cycle)
-- [SourceForge](https://en.wikipedia.org/wiki/SourceForge)
-- [Standalone program](https://en.wikipedia.org/wiki/Standalone_program)
-- [Function (computer programming)](https://en.wikipedia.org/wiki/Function_(computer_programming))
-- [Table (database)](https://en.wikipedia.org/wiki/Table_(database))
-- [Template Attribute Language](https://en.wikipedia.org/wiki/Template_Attribute_Language)
-- [Trac](https://en.wikipedia.org/wiki/Trac)
-- [Tuleap](https://en.wikipedia.org/wiki/Tuleap)
-- [User interface](https://en.wikipedia.org/wiki/User_interface)
-- [Web Server Gateway Interface](https://en.wikipedia.org/wiki/Web_Server_Gateway_Interface)
-- [Web application](https://en.wikipedia.org/wiki/Web_application)
-- [XHTML](https://en.wikipedia.org/wiki/XHTML)
-- [XML-RPC](https://en.wikipedia.org/wiki/XML-RPC)
-- [YouTrack](https://en.wikipedia.org/wiki/YouTrack)
-- [Template:Bug tracking systems](https://en.wikipedia.org/wiki/Template:Bug_tracking_systems)
-- [Template talk:Bug tracking systems](https://en.wikipedia.org/wiki/Template_talk:Bug_tracking_systems)
-- [Category:Bug and issue tracking software](https://en.wikipedia.org/wiki/Category:Bug_and_issue_tracking_software)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:15:10.603408+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:28:04 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 3897 bytes
+- **Word Count:** 589 words

@@ -1,18 +1,17 @@
 # Weisfeiler Leman graph isomorphism test
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:54:54.798462+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 08:03:58 UTC
 - **Original Article:** [Weisfeiler Leman graph isomorphism test](https://en.wikipedia.org/wiki/Weisfeiler_Leman_graph_isomorphism_test)
 - **Language:** en
 - **Page ID:** 75168719
 
 ## Summary
-
 In graph theory, the Weisfeiler Leman graph isomorphism test is a heuristic test for the existence of an isomorphism between two graphs G and H. It is a generalization of the color refinement algorithm and has been first described by Weisfeiler and Leman in 1968. The original formulation is based on graph canonization, a normal form for graphs, while there is also a combinatorial interpretation in the spirit of color refinement and a connection to logic.
-There are several versions of the test  (
+There are several versions of the test  (e.g. k-WL and k-FWL) referred to in the literature by various names, which easily leads to confusion. Additionally, Andrey Leman is spelled `Lehman' in several older articles.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles covered by WikiProject Wikify
 - Category:All articles needing additional references
@@ -1205,51 +1204,9 @@ Graph neural network
 
 == References ==
 
-## Related Articles
-
-### Internal Links
-
-- [Andrey Leman](https://en.wikipedia.org/wiki/Andrey_Leman)
-- [ArXiv](https://en.wikipedia.org/wiki/ArXiv)
-- [Neural network (machine learning)](https://en.wikipedia.org/wiki/Neural_network_(machine_learning))
-- [Belief propagation](https://en.wikipedia.org/wiki/Belief_propagation)
-- [Boris Weisfeiler](https://en.wikipedia.org/wiki/Boris_Weisfeiler)
-- [Colour refinement algorithm](https://en.wikipedia.org/wiki/Colour_refinement_algorithm)
-- [Computational complexity theory](https://en.wikipedia.org/wiki/Computational_complexity_theory)
-- [Cycle (graph theory)](https://en.wikipedia.org/wiki/Cycle_(graph_theory))
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Glossary of graph theory](https://en.wikipedia.org/wiki/Glossary_of_graph_theory)
-- [Graph (discrete mathematics)](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics))
-- [Graph canonization](https://en.wikipedia.org/wiki/Graph_canonization)
-- [Graph isomorphism](https://en.wikipedia.org/wiki/Graph_isomorphism)
-- [Graph kernel](https://en.wikipedia.org/wiki/Graph_kernel)
-- [Graph neural network](https://en.wikipedia.org/wiki/Graph_neural_network)
-- [Graph theory](https://en.wikipedia.org/wiki/Graph_theory)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Kernel method](https://en.wikipedia.org/wiki/Kernel_method)
-- [Kernelization](https://en.wikipedia.org/wiki/Kernelization)
-- [Machine learning](https://en.wikipedia.org/wiki/Machine_learning)
-- [NP-hardness](https://en.wikipedia.org/wiki/NP-hardness)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Regular graph](https://en.wikipedia.org/wiki/Regular_graph)
-- [Regular graph](https://en.wikipedia.org/wiki/Regular_graph)
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [Support vector machine](https://en.wikipedia.org/wiki/Support_vector_machine)
-- [Support vector machine](https://en.wikipedia.org/wiki/Support_vector_machine)
-- [Wikipedia:Citing sources](https://en.wikipedia.org/wiki/Wikipedia:Citing_sources)
-- [Wikipedia:Content forks](https://en.wikipedia.org/wiki/Wikipedia:Content_forks)
-- [Wikipedia:Handling trivia](https://en.wikipedia.org/wiki/Wikipedia:Handling_trivia)
-- [Wikipedia:Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)
-- [Wikipedia:What Wikipedia is not](https://en.wikipedia.org/wiki/Wikipedia:What_Wikipedia_is_not)
-- [Help:Footnotes](https://en.wikipedia.org/wiki/Help:Footnotes)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Help:Referencing for beginners](https://en.wikipedia.org/wiki/Help:Referencing_for_beginners)
-- [Category:Articles covered by WikiProject Wikify from December 2023](https://en.wikipedia.org/wiki/Category:Articles_covered_by_WikiProject_Wikify_from_December_2023)
-- [Category:Articles needing additional references from December 2023](https://en.wikipedia.org/wiki/Category:Articles_needing_additional_references_from_December_2023)
-- [Category:Wikipedia articles that are excessively detailed from December 2023](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_that_are_excessively_detailed_from_December_2023)
-- [Category:Wikipedia articles with style issues from December 2023](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_with_style_issues_from_December_2023)
-- [Category:Wikipedia references cleanup from December 2023](https://en.wikipedia.org/wiki/Category:Wikipedia_references_cleanup_from_December_2023)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:54:54.798462+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:09 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 21058 bytes
+- **Word Count:** 2016 words

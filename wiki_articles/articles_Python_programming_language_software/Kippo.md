@@ -1,18 +1,17 @@
 # Kippo
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:59:27.765993+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 07:32:05 UTC
 - **Original Article:** [Kippo](https://en.wikipedia.org/wiki/Kippo)
 - **Language:** en
 - **Page ID:** 34192383
 
 ## Summary
-
 Kippo is a medium-interaction SSH honeypot written in Python. Kippo is used to log brute-force attacks and the entire shell interaction performed by an attacker. It is inspired by Kojoney. The source code is released under the New BSD License.
 Kippo is no longer under active development  and recommends using the fork'd project Cowrie.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All stub articles
 - Category:Articles with short description
@@ -48,22 +47,9 @@ Kippo (Old homepage) at GoogleCode
 Cowrie - Active Kippo Fork at GitHub
 Kojoney - A honeypot for the SSH Service
 
-## Related Articles
-
-### Internal Links
-
-- [BSD licenses](https://en.wikipedia.org/wiki/BSD_licenses)
-- [Computer security](https://en.wikipedia.org/wiki/Computer_security)
-- [Twisted (software)](https://en.wikipedia.org/wiki/Twisted_(software))
-- [Cowrie (honeypot)](https://en.wikipedia.org/wiki/Cowrie_(honeypot))
-- [GitHub](https://en.wikipedia.org/wiki/GitHub)
-- [Google Developers](https://en.wikipedia.org/wiki/Google_Developers)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Twisted (software)](https://en.wikipedia.org/wiki/Twisted_(software))
-- [Wikipedia:Stub](https://en.wikipedia.org/wiki/Wikipedia:Stub)
-- [Template:Computer-security-stub](https://en.wikipedia.org/wiki/Template:Computer-security-stub)
-- [Template talk:Computer-security-stub](https://en.wikipedia.org/wiki/Template_talk:Computer-security-stub)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:59:27.765993+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:56 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 627 bytes
+- **Word Count:** 98 words

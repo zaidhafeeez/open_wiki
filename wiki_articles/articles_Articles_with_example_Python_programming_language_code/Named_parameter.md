@@ -1,17 +1,16 @@
 # Named parameter
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:37:37.916294+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 06:53:26 UTC
 - **Original Article:** [Named parameter](https://en.wikipedia.org/wiki/Named_parameter)
 - **Language:** en
 - **Page ID:** 495104
 
 ## Summary
-
 In computer programming, named parameters, named-parameter arguments, named arguments or keyword arguments refer to a computer language's support for function calls to clearly associate each argument with a given parameter within the function call.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles needing additional references
 - Category:All articles with dead external links
@@ -96,64 +95,9 @@ https://web.archive.org/web/20070502112455/http://plg.uwaterloo.ca/~rgesteve/cfo
 In C++ this paradigm can be easily implemented: Boost Parameter Library
 Named Parameters in various programming languages at Rosetta Code
 
-## Related Articles
-
-### Internal Links
-
-- [Ada (programming language)](https://en.wikipedia.org/wiki/Ada_(programming_language))
-- [Associative array](https://en.wikipedia.org/wiki/Associative_array)
-- [Builder pattern](https://en.wikipedia.org/wiki/Builder_pattern)
-- [C++](https://en.wikipedia.org/wiki/C%2B%2B)
-- [C++20](https://en.wikipedia.org/wiki/C%2B%2B20)
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [C Sharp (programming language)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
-- [C Sharp 4.0](https://en.wikipedia.org/wiki/C_Sharp_4.0)
-- [Ceylon (programming language)](https://en.wikipedia.org/wiki/Ceylon_(programming_language))
-- [ColdFusion Markup Language](https://en.wikipedia.org/wiki/ColdFusion_Markup_Language)
-- [Common Lisp](https://en.wikipedia.org/wiki/Common_Lisp)
-- [Computer programming](https://en.wikipedia.org/wiki/Computer_programming)
-- [Connascence](https://en.wikipedia.org/wiki/Connascence)
-- [Default argument](https://en.wikipedia.org/wiki/Default_argument)
-- [Fluent interface](https://en.wikipedia.org/wiki/Fluent_interface)
-- [Fortran](https://en.wikipedia.org/wiki/Fortran)
-- [IDL (programming language)](https://en.wikipedia.org/wiki/IDL_(programming_language))
-- [Integrated development environment](https://en.wikipedia.org/wiki/Integrated_development_environment)
-- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-- [Java (programming language)](https://en.wikipedia.org/wiki/Java_(programming_language))
-- [Kotlin (programming language)](https://en.wikipedia.org/wiki/Kotlin_(programming_language))
-- [Wolfram Mathematica](https://en.wikipedia.org/wiki/Wolfram_Mathematica)
-- [Method chaining](https://en.wikipedia.org/wiki/Method_chaining)
-- [OCaml](https://en.wikipedia.org/wiki/OCaml)
-- [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
-- [Objective-C](https://en.wikipedia.org/wiki/Objective-C)
-- [PHP](https://en.wikipedia.org/wiki/PHP)
-- [PL/SQL](https://en.wikipedia.org/wiki/PL/SQL)
-- [Parameter (computer programming)](https://en.wikipedia.org/wiki/Parameter_(computer_programming))
-- [Parameter (computer programming)](https://en.wikipedia.org/wiki/Parameter_(computer_programming))
-- [Partial application](https://en.wikipedia.org/wiki/Partial_application)
-- [Perl](https://en.wikipedia.org/wiki/Perl)
-- [PowerShell](https://en.wikipedia.org/wiki/PowerShell)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [R (programming language)](https://en.wikipedia.org/wiki/R_(programming_language))
-- [Record (computer science)](https://en.wikipedia.org/wiki/Record_(computer_science))
-- [Rosetta Code](https://en.wikipedia.org/wiki/Rosetta_Code)
-- [Ruby (programming language)](https://en.wikipedia.org/wiki/Ruby_(programming_language))
-- [Scala (programming language)](https://en.wikipedia.org/wiki/Scala_(programming_language))
-- [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk)
-- [Swift (programming language)](https://en.wikipedia.org/wiki/Swift_(programming_language))
-- [Tag (programming)](https://en.wikipedia.org/wiki/Tag_(programming))
-- [Unit type](https://en.wikipedia.org/wiki/Unit_type)
-- [Visual Basic](https://en.wikipedia.org/wiki/Visual_Basic)
-- [Wikipedia:Citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed)
-- [Wikipedia:Link rot](https://en.wikipedia.org/wiki/Wikipedia:Link_rot)
-- [Wikipedia:Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Help:Referencing for beginners](https://en.wikipedia.org/wiki/Help:Referencing_for_beginners)
-- [Help:Template](https://en.wikipedia.org/wiki/Help:Template)
-- [Category:Articles needing additional references from August 2014](https://en.wikipedia.org/wiki/Category:Articles_needing_additional_references_from_August_2014)
-- [Category:Articles with dead external links from December 2023](https://en.wikipedia.org/wiki/Category:Articles_with_dead_external_links_from_December_2023)
-- [Category:Articles with unsourced statements from July 2021](https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_July_2021)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:37:37.916294+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:40 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 4903 bytes
+- **Word Count:** 742 words

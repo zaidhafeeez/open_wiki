@@ -1,18 +1,25 @@
 # Matrix chain multiplication
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:34:01.214217+00:00
+## Metadata
+- **Last Updated:** 2024-12-15 19:51:41 UTC
 - **Original Article:** [Matrix chain multiplication](https://en.wikipedia.org/wiki/Matrix_chain_multiplication)
 - **Language:** en
 - **Page ID:** 1538007
 
 ## Summary
-
 Matrix chain multiplication (or the matrix chain ordering problem) is an optimization problem concerning the most efficient way to multiply a given sequence of matrices.  The problem is not actually to perform the multiplications, but merely to decide the sequence of the matrix multiplications involved.  The problem may be solved using dynamic programming.
-There are many options because matrix multiplication is associative. In other words, no matter how the product is parenthesized, the result o
+There are many options because matrix multiplication is associative. In other words, no matter how the product is parenthesized, the result obtained will remain the same. For example, for four matrices A, B, C, and D, there are five possible options:
+
+((AB)C)D = (A(BC))D = (AB)(CD) = A((BC)D) = A(B(CD)).
+Although it does not affect the product, the order in which the terms are parenthesized affects the number of simple arithmetic operations needed to compute the product, that is, the computational complexity. The straightforward multiplication of a matrix that is X × Y by a matrix that is Y × Z requires XYZ ordinary multiplications and X(Y − 1)Z ordinary additions.  In this context, it is typical to use the number of ordinary multiplications as a measure of the runtime complexity.
+If A is a 10 × 30 matrix, B is a 30 × 5 matrix, and C is a 5 × 60 matrix, then
+
+computing (AB)C needs (10×30×5) + (10×5×60)  = 1500 + 3000 = 4500 operations, while
+computing A(BC) needs (30×5×60) + (10×30×60) = 9000 + 18000 = 27000 operations.
+Clearly the first method is more efficient. With this information, the problem statement can be refined as "how to determine the optimal parenthesization of a product of n matrices?" The number of possible parenthesizations is given by the (n–1)th Catalan  number, which is O(4n / n3/2), so checking each possible parenthesization (brute force) would require a run-time that is exponential in the number of matrices, which is very slow and impractical for large n. A quicker solution to this problem can be achieved by breaking up the problem into a set of related subproblems.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example Python (programming language) code
 - Category:Articles with short description
@@ -697,51 +704,9 @@ Tamari lattice
 
 == References ==
 
-## Related Articles
-
-### Internal Links
-
-- [Associahedron](https://en.wikipedia.org/wiki/Associahedron)
-- [Associative property](https://en.wikipedia.org/wiki/Associative_property)
-- [Big O notation](https://en.wikipedia.org/wiki/Big_O_notation)
-- [Binary operation](https://en.wikipedia.org/wiki/Binary_operation)
-- [Bracket (mathematics)](https://en.wikipedia.org/wiki/Bracket_(mathematics))
-- [Brute-force search](https://en.wikipedia.org/wiki/Brute-force_search)
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [Catalan number](https://en.wikipedia.org/wiki/Catalan_number)
-- [Charles E. Leiserson](https://en.wikipedia.org/wiki/Charles_E._Leiserson)
-- [CiteSeerX](https://en.wikipedia.org/wiki/CiteSeerX)
-- [Clifford Stein](https://en.wikipedia.org/wiki/Clifford_Stein)
-- [Computational complexity](https://en.wikipedia.org/wiki/Computational_complexity)
-- [Database](https://en.wikipedia.org/wiki/Database)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Dynamic programming](https://en.wikipedia.org/wiki/Dynamic_programming)
-- [Francis Y. L. Chin](https://en.wikipedia.org/wiki/Francis_Y._L._Chin)
-- [Hexagon](https://en.wikipedia.org/wiki/Hexagon)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [ISSN](https://en.wikipedia.org/wiki/ISSN)
-- [Join (SQL)](https://en.wikipedia.org/wiki/Join_(SQL))
-- [Linked list](https://en.wikipedia.org/wiki/Linked_list)
-- [Matrix (mathematics)](https://en.wikipedia.org/wiki/Matrix_(mathematics))
-- [Matrix multiplication](https://en.wikipedia.org/wiki/Matrix_multiplication)
-- [Memoization](https://en.wikipedia.org/wiki/Memoization)
-- [Optimization problem](https://en.wikipedia.org/wiki/Optimization_problem)
-- [Polygon triangulation](https://en.wikipedia.org/wiki/Polygon_triangulation)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Query optimization](https://en.wikipedia.org/wiki/Query_optimization)
-- [Recursion](https://en.wikipedia.org/wiki/Recursion)
-- [Reduction (complexity)](https://en.wikipedia.org/wiki/Reduction_(complexity))
-- [Regular polygon](https://en.wikipedia.org/wiki/Regular_polygon)
-- [Ron Rivest](https://en.wikipedia.org/wiki/Ron_Rivest)
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [Concatenation](https://en.wikipedia.org/wiki/Concatenation)
-- [T. C. Hu](https://en.wikipedia.org/wiki/T._C._Hu)
-- [Tamari lattice](https://en.wikipedia.org/wiki/Tamari_lattice)
-- [Thomas H. Cormen](https://en.wikipedia.org/wiki/Thomas_H._Cormen)
-- [Time complexity](https://en.wikipedia.org/wiki/Time_complexity)
-- [Bottom–up and top–down design](https://en.wikipedia.org/wiki/Bottom%E2%80%93up_and_top%E2%80%93down_design)
-- [Wayback Machine](https://en.wikipedia.org/wiki/Wayback_Machine)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:34:01.214217+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:35 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 16507 bytes
+- **Word Count:** 1934 words

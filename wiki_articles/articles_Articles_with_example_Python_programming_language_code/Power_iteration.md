@@ -1,14 +1,12 @@
 # Power iteration
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:42:30.981673+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 07:04:19 UTC
 - **Original Article:** [Power iteration](https://en.wikipedia.org/wiki/Power_iteration)
 - **Language:** en
 - **Page ID:** 5975550
 
 ## Summary
-
 In mathematics, power iteration (also known as the power method) is an eigenvalue algorithm: given a diagonalizable matrix 
   
     
@@ -45,8 +43,73 @@ In mathematics, power iteration (also known as the power method) is an eigenvalu
     
     {\displaystyle v}
   
+, which is a corresponding eigenvector of 
+  
+    
+      
+        λ
+      
+    
+    {\displaystyle \lambda }
+  
+, that is, 
+  
+    
+      
+        A
+        v
+        =
+        λ
+        v
+      
+    
+    {\displaystyle Av=\lambda v}
+  
+.
+The algorithm is also known as the Von Mises iteration.
+Power iteration is a very simple algorithm, but it may converge slowly. The most time-consuming operation of the algorithm is the multiplication of matrix 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  
+ by a vector, so it is effective for a very large sparse matrix with appropriate implementation. The speed of convergence is like 
+  
+    
+      
+        (
+        
+          λ
+          
+            1
+          
+        
+        
+          /
+        
+        
+          λ
+          
+            2
+          
+        
+        
+          )
+          
+            k
+          
+        
+      
+    
+    {\displaystyle (\lambda _{1}/\lambda _{2})^{k}}
+  
+(see a later section). In words, convergence is exponential with base being the spectral gap.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example Python (programming language) code
 - Category:Articles with short description
@@ -3193,66 +3256,9 @@ Inverse iteration
 
 == References ==
 
-## Related Articles
-
-### Internal Links
-
-- [Almost surely](https://en.wikipedia.org/wiki/Almost_surely)
-- [Arnoldi iteration](https://en.wikipedia.org/wiki/Arnoldi_iteration)
-- [Automatically Tuned Linear Algebra Software](https://en.wikipedia.org/wiki/Automatically_Tuned_Linear_Algebra_Software)
-- [Basic Linear Algebra Subprograms](https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms)
-- [CPU cache](https://en.wikipedia.org/wiki/CPU_cache)
-- [Cache-oblivious algorithm](https://en.wikipedia.org/wiki/Cache-oblivious_algorithm)
-- [Comparison of linear algebra libraries](https://en.wikipedia.org/wiki/Comparison_of_linear_algebra_libraries)
-- [Comparison of numerical-analysis software](https://en.wikipedia.org/wiki/Comparison_of_numerical-analysis_software)
-- [Computational problem](https://en.wikipedia.org/wiki/Computational_problem)
-- [Condition number](https://en.wikipedia.org/wiki/Condition_number)
-- [Diagonalizable matrix](https://en.wikipedia.org/wiki/Diagonalizable_matrix)
-- [Eigenvalues and eigenvectors](https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors)
-- [Eigenvalue algorithm](https://en.wikipedia.org/wiki/Eigenvalue_algorithm)
-- [Eigenvalues and eigenvectors](https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors)
-- [Floating-point arithmetic](https://en.wikipedia.org/wiki/Floating-point_arithmetic)
-- [Generic property](https://en.wikipedia.org/wiki/Generic_property)
-- [Geometric progression](https://en.wikipedia.org/wiki/Geometric_progression)
-- [Google](https://en.wikipedia.org/wiki/Google)
-- [Ilse Ipsen](https://en.wikipedia.org/wiki/Ilse_Ipsen)
-- [Inverse iteration](https://en.wikipedia.org/wiki/Inverse_iteration)
-- [Jordan normal form](https://en.wikipedia.org/wiki/Jordan_normal_form)
-- [Krylov subspace](https://en.wikipedia.org/wiki/Krylov_subspace)
-- [LAPACK](https://en.wikipedia.org/wiki/LAPACK)
-- [LOBPCG](https://en.wikipedia.org/wiki/LOBPCG)
-- [Lanczos algorithm](https://en.wikipedia.org/wiki/Lanczos_algorithm)
-- [MATLAB](https://en.wikipedia.org/wiki/MATLAB)
-- [Mathematics](https://en.wikipedia.org/wiki/Mathematics)
-- [Matrix-free methods](https://en.wikipedia.org/wiki/Matrix-free_methods)
-- [Matrix (mathematics)](https://en.wikipedia.org/wiki/Matrix_(mathematics))
-- [Matrix decomposition](https://en.wikipedia.org/wiki/Matrix_decomposition)
-- [Matrix multiplication](https://en.wikipedia.org/wiki/Matrix_multiplication)
-- [Matrix multiplication algorithm](https://en.wikipedia.org/wiki/Matrix_multiplication_algorithm)
-- [Matrix splitting](https://en.wikipedia.org/wiki/Matrix_splitting)
-- [Multiprocessing](https://en.wikipedia.org/wiki/Multiprocessing)
-- [Numerical linear algebra](https://en.wikipedia.org/wiki/Numerical_linear_algebra)
-- [Numerical stability](https://en.wikipedia.org/wiki/Numerical_stability)
-- [PageRank](https://en.wikipedia.org/wiki/PageRank)
-- [Rayleigh quotient](https://en.wikipedia.org/wiki/Rayleigh_quotient)
-- [Rayleigh quotient iteration](https://en.wikipedia.org/wiki/Rayleigh_quotient_iteration)
-- [Recurrence relation](https://en.wikipedia.org/wiki/Recurrence_relation)
-- [Richard von Mises](https://en.wikipedia.org/wiki/Richard_von_Mises)
-- [Single instruction, multiple data](https://en.wikipedia.org/wiki/Single_instruction,_multiple_data)
-- [Sparse matrix](https://en.wikipedia.org/wiki/Sparse_matrix)
-- [Spectral gap](https://en.wikipedia.org/wiki/Spectral_gap)
-- [Spectral radius](https://en.wikipedia.org/wiki/Spectral_radius)
-- [System of linear equations](https://en.wikipedia.org/wiki/System_of_linear_equations)
-- [Translation lookaside buffer](https://en.wikipedia.org/wiki/Translation_lookaside_buffer)
-- [Twitter](https://en.wikipedia.org/wiki/Twitter)
-- [Wikipedia:Please clarify](https://en.wikipedia.org/wiki/Wikipedia:Please_clarify)
-- [Template:Cite news](https://en.wikipedia.org/wiki/Template:Cite_news)
-- [Template:Numerical linear algebra](https://en.wikipedia.org/wiki/Template:Numerical_linear_algebra)
-- [Template talk:Numerical linear algebra](https://en.wikipedia.org/wiki/Template_talk:Numerical_linear_algebra)
-- [Category:CS1 maint: multiple names: authors list](https://en.wikipedia.org/wiki/Category:CS1_maint:_multiple_names:_authors_list)
-- [Category:Use dmy dates from January 2020](https://en.wikipedia.org/wiki/Category:Use_dmy_dates_from_January_2020)
-- [Category:Wikipedia articles needing clarification from October 2016](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_needing_clarification_from_October_2016)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:42:30.981673+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:48 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 60843 bytes
+- **Word Count:** 2007 words

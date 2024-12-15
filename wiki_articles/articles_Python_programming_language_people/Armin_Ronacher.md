@@ -1,18 +1,17 @@
 # Armin Ronacher
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:43:37.199155+00:00
+## Metadata
+- **Last Updated:** 2024-12-04 11:52:47 UTC
 - **Original Article:** [Armin Ronacher](https://en.wikipedia.org/wiki/Armin_Ronacher)
 - **Language:** en
 - **Page ID:** 51218917
 
 ## Summary
-
 Armin Ronacher (born 10 May 1989) is an Austrian open source software programmer and the creator of the Flask web framework for Python.
 He is a frequent speaker at developer conferences and has a popular blog about software development and open source.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:1989 births
 - Category:Articles with hCards
@@ -62,32 +61,9 @@ Armin Ronacher's Thoughts and Writings - Ronacher's blog
 Pallets Project
 Lektor CMS
 
-## Related Articles
-
-### Internal Links
-
-- [Django (web framework)](https://en.wikipedia.org/wiki/Django_(web_framework))
-- [Flask (web framework)](https://en.wikipedia.org/wiki/Flask_(web_framework))
-- [Jinja (template engine)](https://en.wikipedia.org/wiki/Jinja_(template_engine))
-- [Open-source software](https://en.wikipedia.org/wiki/Open-source_software)
-- [PhpBB](https://en.wikipedia.org/wiki/PhpBB)
-- [Plurk](https://en.wikipedia.org/wiki/Plurk)
-- [Prix Ars Electronica](https://en.wikipedia.org/wiki/Prix_Ars_Electronica)
-- [Programmer](https://en.wikipedia.org/wiki/Programmer)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Python Software Foundation](https://en.wikipedia.org/wiki/Python_Software_Foundation)
-- [Shuttleworth Foundation](https://en.wikipedia.org/wiki/Shuttleworth_Foundation)
-- [Software development](https://en.wikipedia.org/wiki/Software_development)
-- [Sphinx (documentation generator)](https://en.wikipedia.org/wiki/Sphinx_(documentation_generator))
-- [Splash Damage](https://en.wikipedia.org/wiki/Splash_Damage)
-- [Ubuntu](https://en.wikipedia.org/wiki/Ubuntu)
-- [Web Server Gateway Interface](https://en.wikipedia.org/wiki/Web_Server_Gateway_Interface)
-- [Talk:Armin Ronacher](https://en.wikipedia.org/wiki/Talk:Armin_Ronacher)
-- [Wikipedia:Conflict of interest](https://en.wikipedia.org/wiki/Wikipedia:Conflict_of_interest)
-- [Wikipedia:Neutral point of view](https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Category:Wikipedia articles with possible conflicts of interest from May 2023](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_with_possible_conflicts_of_interest_from_May_2023)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:43:37.199155+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:46 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 2342 bytes
+- **Word Count:** 369 words

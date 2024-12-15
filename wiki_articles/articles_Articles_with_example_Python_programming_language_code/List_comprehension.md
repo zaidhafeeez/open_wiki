@@ -1,17 +1,16 @@
 # List comprehension
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:33:59.715919+00:00
+## Metadata
+- **Last Updated:** 2024-12-15 17:02:35 UTC
 - **Original Article:** [List comprehension](https://en.wikipedia.org/wiki/List_comprehension)
 - **Language:** en
 - **Page ID:** 275744
 
 ## Summary
-
 A list comprehension is a syntactic construct available in some programming languages for creating a list based on existing lists. It follows the form of the mathematical set-builder notation (set comprehension) as distinct from the use of map and filter functions.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example Haskell code
 - Category:Articles with example Python (programming language) code
@@ -474,56 +473,9 @@ Python Enhancement Proposal PEP 202: List Comprehensions.
 Python Language Reference, Generator expressions.
 Python Enhancement Proposal PEP 289: Generator Expressions.
 
-## Related Articles
-
-### Internal Links
-
-- [Abstract syntax tree](https://en.wikipedia.org/wiki/Abstract_syntax_tree)
-- [Anonymous function](https://en.wikipedia.org/wiki/Anonymous_function)
-- [Associative array](https://en.wikipedia.org/wiki/Associative_array)
-- [Axiom (computer algebra system)](https://en.wikipedia.org/wiki/Axiom_(computer_algebra_system))
-- [Boost (C++ libraries)](https://en.wikipedia.org/wiki/Boost_(C%2B%2B_libraries))
-- [C Sharp (programming language)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
-- [Comparison of programming languages (list comprehension)](https://en.wikipedia.org/wiki/Comparison_of_programming_languages_(list_comprehension))
-- [Computer algebra system](https://en.wikipedia.org/wiki/Computer_algebra_system)
-- [David Turner (computer scientist)](https://en.wikipedia.org/wiki/David_Turner_(computer_scientist))
-- [Domain-specific language](https://en.wikipedia.org/wiki/Domain-specific_language)
-- [Erase–remove idiom](https://en.wikipedia.org/wiki/Erase%E2%80%93remove_idiom)
-- [FLWOR](https://en.wikipedia.org/wiki/FLWOR)
-- [Filter (higher-order function)](https://en.wikipedia.org/wiki/Filter_(higher-order_function))
-- [Generator (computer programming)](https://en.wikipedia.org/wiki/Generator_(computer_programming))
-- [Glasgow Haskell Compiler](https://en.wikipedia.org/wiki/Glasgow_Haskell_Compiler)
-- [Haskell](https://en.wikipedia.org/wiki/Haskell)
-- [Haskell](https://en.wikipedia.org/wiki/Haskell)
-- [Heinrich Kleisli](https://en.wikipedia.org/wiki/Heinrich_Kleisli)
-- [Iterator](https://en.wikipedia.org/wiki/Iterator)
-- [John Darlington](https://en.wikipedia.org/wiki/John_Darlington)
-- [Language Integrated Query](https://en.wikipedia.org/wiki/Language_Integrated_Query)
-- [List (abstract data type)](https://en.wikipedia.org/wiki/List_(abstract_data_type))
-- [Map (higher-order function)](https://en.wikipedia.org/wiki/Map_(higher-order_function))
-- [Miranda (programming language)](https://en.wikipedia.org/wiki/Miranda_(programming_language))
-- [Monad (functional programming)](https://en.wikipedia.org/wiki/Monad_(functional_programming))
-- [NPL (programming language)](https://en.wikipedia.org/wiki/NPL_(programming_language))
-- [Natural number](https://en.wikipedia.org/wiki/Natural_number)
-- [Operator overloading](https://en.wikipedia.org/wiki/Operator_overloading)
-- [Philip Wadler](https://en.wikipedia.org/wiki/Philip_Wadler)
-- [Predicate (mathematical logic)](https://en.wikipedia.org/wiki/Predicate_(mathematical_logic))
-- [Programming language](https://en.wikipedia.org/wiki/Programming_language)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Racket (programming language)](https://en.wikipedia.org/wiki/Racket_(programming_language))
-- [Rod Burstall](https://en.wikipedia.org/wiki/Rod_Burstall)
-- [SETL](https://en.wikipedia.org/wiki/SETL)
-- [SQL](https://en.wikipedia.org/wiki/SQL)
-- [Select (SQL)](https://en.wikipedia.org/wiki/Select_(SQL))
-- [Set-builder notation](https://en.wikipedia.org/wiki/Set-builder_notation)
-- [Set (abstract data type)](https://en.wikipedia.org/wiki/Set_(abstract_data_type))
-- [Stream (computing)](https://en.wikipedia.org/wiki/Stream_(computing))
-- [Syntax (programming languages)](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
-- [Thread safety](https://en.wikipedia.org/wiki/Thread_safety)
-- [World Wide Web Consortium](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium)
-- [W3Schools](https://en.wikipedia.org/wiki/W3Schools)
-- [Zermelo–Fraenkel set theory](https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:33:59.715919+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:32 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 14431 bytes
+- **Word Count:** 1844 words

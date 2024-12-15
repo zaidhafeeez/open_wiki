@@ -1,21 +1,31 @@
 # Prepared statement
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:42:32.980919+00:00
+## Metadata
+- **Last Updated:** 2024-12-12 23:33:08 UTC
 - **Original Article:** [Prepared statement](https://en.wikipedia.org/wiki/Prepared_statement)
 - **Language:** en
 - **Page ID:** 33211278
 
 ## Summary
-
 In database management systems (DBMS), a prepared statement, parameterized statement, or parameterized query is a feature where the database pre-compiles SQL code and stores the results, separating it from data. Benefits of prepared statements are:
 
 efficiency, because they can be used repeatedly without re-compiling
 security, by reducing or eliminating SQL injection attacks
-A prepared statement takes the form of a pre-compiled template into which constant values are substituted during each exec
+A prepared statement takes the form of a pre-compiled template into which constant values are substituted during each execution, and typically use SQL DML statements such as INSERT, SELECT, or UPDATE.
+A common workflow for prepared statements is:
+
+Prepare: The application creates the statement template and sends it to the DBMS. Certain values are left unspecified, called parameters, placeholders or bind variables (labelled "?" below):
+INSERT INTO products (name, price) VALUES (?, ?);
+Compile: The DBMS compiles (parses, optimizes and translates) the statement template, and stores the result without executing it.
+Execute: The application supplies (or binds) values for the parameters of the statement template, and the DBMS executes the statement (possibly returning a result). The application may request the DBMS to execute the statement many times with different values. In the above example, the application might supply the values "bike" for the first parameter and "10900" for the second parameter, and then later the values "shoes" and "7400".
+The alternative to a prepared statement is calling SQL directly from the application source code in a way that combines code and data. The direct equivalent to the above example is:
+
+Not all optimization can be performed at the time the statement template is compiled, for two reasons: the best plan may depend on the specific values of the parameters, and the best plan may change as tables and indexes change over time.
+On the other hand, if a query is executed only once, server-side prepared statements can be slower because of the additional round-trip to the server. Implementation limitations may also lead to performance penalties; for example, some versions of MySQL did not cache results of prepared queries. 
+A stored procedure, which is also precompiled and stored on the server for later execution, has similar advantages. Unlike a stored procedure, a prepared statement is not normally written in a procedural language and cannot use or modify variables or use control flow structures, relying instead on the declarative database query language. Due to their simplicity and client-side emulation, prepared statements are more portable across vendors.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles containing potentially dated statements
 - Category:Articles containing potentially dated statements from 2007
@@ -113,43 +123,9 @@ Code injection
 
 == References ==
 
-## Related Articles
-
-### Internal Links
-
-- [Fourth-generation programming language](https://en.wikipedia.org/wiki/Fourth-generation_programming_language)
-- [ADO.NET](https://en.wikipedia.org/wiki/ADO.NET)
-- [C Sharp (programming language)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
-- [Code injection](https://en.wikipedia.org/wiki/Code_injection)
-- [Database](https://en.wikipedia.org/wiki/Database)
-- [Data manipulation language](https://en.wikipedia.org/wiki/Data_manipulation_language)
-- [Database](https://en.wikipedia.org/wiki/Database)
-- [H2 (database)](https://en.wikipedia.org/wiki/H2_(database))
-- [IBM Db2](https://en.wikipedia.org/wiki/IBM_Db2)
-- [Insert (SQL)](https://en.wikipedia.org/wiki/Insert_(SQL))
-- [Java (programming language)](https://en.wikipedia.org/wiki/Java_(programming_language))
-- [Java Database Connectivity](https://en.wikipedia.org/wiki/Java_Database_Connectivity)
-- [Magic Software Enterprises](https://en.wikipedia.org/wiki/Magic_Software_Enterprises)
-- [Microsoft SQL Server](https://en.wikipedia.org/wiki/Microsoft_SQL_Server)
-- [MySQL](https://en.wikipedia.org/wiki/MySQL)
-- [Oracle Database](https://en.wikipedia.org/wiki/Oracle_Database)
-- [PHP](https://en.wikipedia.org/wiki/PHP)
-- [PHP](https://en.wikipedia.org/wiki/PHP)
-- [Perl](https://en.wikipedia.org/wiki/Perl)
-- [Perl DBI](https://en.wikipedia.org/wiki/Perl_DBI)
-- [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL)
-- [PureBasic](https://en.wikipedia.org/wiki/PureBasic)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Query optimization](https://en.wikipedia.org/wiki/Query_optimization)
-- [SQL](https://en.wikipedia.org/wiki/SQL)
-- [SQL injection](https://en.wikipedia.org/wiki/SQL_injection)
-- [SQLite](https://en.wikipedia.org/wiki/SQLite)
-- [Select (SQL)](https://en.wikipedia.org/wiki/Select_(SQL))
-- [Stored procedure](https://en.wikipedia.org/wiki/Stored_procedure)
-- [Template processor](https://en.wikipedia.org/wiki/Template_processor)
-- [Update (SQL)](https://en.wikipedia.org/wiki/Update_(SQL))
-- [Category:Articles containing potentially dated statements from 2007](https://en.wikipedia.org/wiki/Category:Articles_containing_potentially_dated_statements_from_2007)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:42:32.980919+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:48 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 6188 bytes
+- **Word Count:** 939 words

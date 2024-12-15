@@ -1,18 +1,18 @@
 # Nmap
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:59:28.573285+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 06:53:04 UTC
 - **Original Article:** [Nmap](https://en.wikipedia.org/wiki/Nmap)
 - **Language:** en
 - **Page ID:** 401135
 
 ## Summary
-
 Nmap (Network Mapper) is a network scanner created by Gordon Lyon (also known by his pseudonym Fyodor Vaskovich). Nmap is used to discover hosts and services on a computer network by sending packets and analyzing the responses.
-Nmap provides a number of features for probing computer networks, including host discovery and service and operating system detection. These features are extensible by scripts that provide more advanced service detection, vulnerability detection, and other features. Nmap 
+Nmap provides a number of features for probing computer networks, including host discovery and service and operating system detection. These features are extensible by scripts that provide more advanced service detection, vulnerability detection, and other features. Nmap can adapt to network conditions including latency and congestion during a scan.
+Nmap started as a Linux utility and was ported to other systems including Windows, macOS, and BSD. It is most popular on Linux, followed by Windows.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles with unsourced statements
 - Category:Articles with short description
@@ -124,113 +124,9 @@ References
 External links
 Official website
 
-## Related Articles
-
-### Internal Links
-
-- [Aircrack-ng](https://en.wikipedia.org/wiki/Aircrack-ng)
-- [AWK](https://en.wikipedia.org/wiki/AWK)
-- [BBC News](https://en.wikipedia.org/wiki/BBC_News)
-- [Berkeley Software Distribution](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution)
-- [BackBox](https://en.wikipedia.org/wiki/BackBox)
-- [BackTrack](https://en.wikipedia.org/wiki/BackTrack)
-- [Battle Royale (film)](https://en.wikipedia.org/wiki/Battle_Royale_(film))
-- [Black hat (computer security)](https://en.wikipedia.org/wiki/Black_hat_(computer_security))
-- [The Bourne Ultimatum (film)](https://en.wikipedia.org/wiki/The_Bourne_Ultimatum_(film))
-- [Burglary](https://en.wikipedia.org/wiki/Burglary)
-- [C++](https://en.wikipedia.org/wiki/C%2B%2B)
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [Computer network](https://en.wikipedia.org/wiki/Computer_network)
-- [Computerworld](https://en.wikipedia.org/wiki/Computerworld)
-- [Conficker](https://en.wikipedia.org/wiki/Conficker)
-- [Cross-platform software](https://en.wikipedia.org/wiki/Cross-platform_software)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System)
-- [Dredd](https://en.wikipedia.org/wiki/Dredd)
-- [Elysium (film)](https://en.wikipedia.org/wiki/Elysium_(film))
-- [English language](https://en.wikipedia.org/wiki/English_language)
-- [Exploit (computer security)](https://en.wikipedia.org/wiki/Exploit_(computer_security))
-- [Firewall (computing)](https://en.wikipedia.org/wiki/Firewall_(computing))
-- [GNU General Public License](https://en.wikipedia.org/wiki/GNU_General_Public_License)
-- [GTK](https://en.wikipedia.org/wiki/GTK)
-- [Graphical user interface](https://en.wikipedia.org/wiki/Graphical_user_interface)
-- [Google Summer of Code](https://en.wikipedia.org/wiki/Google_Summer_of_Code)
-- [Gordon Lyon](https://en.wikipedia.org/wiki/Gordon_Lyon)
-- [Grep](https://en.wikipedia.org/wiki/Grep)
-- [HTML](https://en.wikipedia.org/wiki/HTML)
-- [Hacknet](https://en.wikipedia.org/wiki/Hacknet)
-- [Host (network)](https://en.wikipedia.org/wiki/Host_(network))
-- [Hping](https://en.wikipedia.org/wiki/Hping)
-- [IEEE Security & Privacy](https://en.wikipedia.org/wiki/IEEE_Security_%26_Privacy)
-- [IPv6](https://en.wikipedia.org/wiki/IPv6)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Internet Control Message Protocol](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol)
-- [Judge Dredd](https://en.wikipedia.org/wiki/Judge_Dredd)
-- [Kali Linux](https://en.wikipedia.org/wiki/Kali_Linux)
-- [Kevin Poulsen](https://en.wikipedia.org/wiki/Kevin_Poulsen)
-- [Kismet (software)](https://en.wikipedia.org/wiki/Kismet_(software))
-- [Leet](https://en.wikipedia.org/wiki/Leet)
-- [Leet](https://en.wikipedia.org/wiki/Leet)
-- [Linux](https://en.wikipedia.org/wiki/Linux)
-- [Live Free or Die Hard](https://en.wikipedia.org/wiki/Live_Free_or_Die_Hard)
-- [Lua (programming language)](https://en.wikipedia.org/wiki/Lua_(programming_language))
-- [MAC address](https://en.wikipedia.org/wiki/MAC_address)
-- [MacOS](https://en.wikipedia.org/wiki/MacOS)
-- [Metasploit](https://en.wikipedia.org/wiki/Metasploit)
-- [Microsoft Windows](https://en.wikipedia.org/wiki/Microsoft_Windows)
-- [Mmap](https://en.wikipedia.org/wiki/Mmap)
-- [Netcat](https://en.wikipedia.org/wiki/Netcat)
-- [Neo (The Matrix)](https://en.wikipedia.org/wiki/Neo_(The_Matrix))
-- [Nessus (software)](https://en.wikipedia.org/wiki/Nessus_(software))
-- [Netcat](https://en.wikipedia.org/wiki/Netcat)
-- [Network congestion](https://en.wikipedia.org/wiki/Network_congestion)
-- [Network delay](https://en.wikipedia.org/wiki/Network_delay)
-- [Network mapping](https://en.wikipedia.org/wiki/Network_mapping)
-- [Network packet](https://en.wikipedia.org/wiki/Network_packet)
-- [Network enumeration](https://en.wikipedia.org/wiki/Network_enumeration)
-- [Network security](https://en.wikipedia.org/wiki/Network_security)
-- [OpenVAS](https://en.wikipedia.org/wiki/OpenVAS)
-- [Operating system](https://en.wikipedia.org/wiki/Operating_system)
-- [Osborne Clarke](https://en.wikipedia.org/wiki/Osborne_Clarke)
-- [Phrack](https://en.wikipedia.org/wiki/Phrack)
-- [Port scanner](https://en.wikipedia.org/wiki/Port_scanner)
-- [Programmer](https://en.wikipedia.org/wiki/Programmer)
-- [Proprietary software](https://en.wikipedia.org/wiki/Proprietary_software)
-- [Pseudonym](https://en.wikipedia.org/wiki/Pseudonym)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Repository (version control)](https://en.wikipedia.org/wiki/Repository_(version_control))
-- [SCO–Linux disputes](https://en.wikipedia.org/wiki/SCO%E2%80%93Linux_disputes)
-- [SCO Group](https://en.wikipedia.org/wiki/SCO_Group)
-- [Stream Control Transmission Protocol](https://en.wikipedia.org/wiki/Stream_Control_Transmission_Protocol)
-- [Script kiddie](https://en.wikipedia.org/wiki/Script_kiddie)
-- [Scripting language](https://en.wikipedia.org/wiki/Scripting_language)
-- [Sed](https://en.wikipedia.org/wiki/Sed)
-- [Shodan (website)](https://en.wikipedia.org/wiki/Shodan_(website))
-- [Snowden (film)](https://en.wikipedia.org/wiki/Snowden_(film))
-- [Software categories](https://en.wikipedia.org/wiki/Software_categories)
-- [Software license](https://en.wikipedia.org/wiki/Software_license)
-- [Software release life cycle](https://en.wikipedia.org/wiki/Software_release_life_cycle)
-- [Subdomain](https://en.wikipedia.org/wiki/Subdomain)
-- [Supreme Court of Finland](https://en.wikipedia.org/wiki/Supreme_Court_of_Finland)
-- [Internet protocol suite](https://en.wikipedia.org/wiki/Internet_protocol_suite)
-- [TCP/IP stack fingerprinting](https://en.wikipedia.org/wiki/TCP/IP_stack_fingerprinting)
-- [Port (computer networking)](https://en.wikipedia.org/wiki/Port_(computer_networking))
-- [The Listening (film)](https://en.wikipedia.org/wiki/The_Listening_(film))
-- [The Matrix Reloaded](https://en.wikipedia.org/wiki/The_Matrix_Reloaded)
-- [The Register](https://en.wikipedia.org/wiki/The_Register)
-- [Transmission Control Protocol](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)
-- [Trinity (The Matrix)](https://en.wikipedia.org/wiki/Trinity_(The_Matrix))
-- [Wayback Machine](https://en.wikipedia.org/wiki/Wayback_Machine)
-- [Web service](https://en.wikipedia.org/wiki/Web_service)
-- [White hat (computer security)](https://en.wikipedia.org/wiki/White_hat_(computer_security))
-- [Wireshark](https://en.wikipedia.org/wiki/Wireshark)
-- [XML](https://en.wikipedia.org/wiki/XML)
-- [XSLT](https://en.wikipedia.org/wiki/XSLT)
-- [ZMap (software)](https://en.wikipedia.org/wiki/ZMap_(software))
-- [Wikipedia:Citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed)
-- [Category:Articles with unsourced statements from January 2014](https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_January_2014)
-- [Portal:Free and open-source software](https://en.wikipedia.org/wiki/Portal:Free_and_open-source_software)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:59:28.573285+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:59 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 6961 bytes
+- **Word Count:** 1088 words

@@ -1,17 +1,16 @@
 # Peirce's criterion
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:40:28.802397+00:00
+## Metadata
+- **Last Updated:** 2024-08-17 23:21:35 UTC
 - **Original Article:** [Peirce's criterion](https://en.wikipedia.org/wiki/Peirce%27s_criterion)
 - **Language:** en
 - **Page ID:** 4015679
 
 ## Summary
-
 In robust statistics, Peirce's criterion  is a rule for eliminating outliers from data sets, which was devised by Benjamin Peirce.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example Python (programming language) code
 - Category:Articles with example R code
@@ -142,31 +141,9 @@ Stigler, Stephen M. (1989). "Mathematical Statistics in the Early States". In Pe
 Hawkins, D.M. (1980). Identification of outliers. Chapman and Hall, London. ISBN 0-412-21900-X
 Chauvenet, W. (1876) A Manual of Spherical and Practical Astronomy. J.B.Lippincott, Philadelphia. (reprints of various editions: Dover, 1960; Peter Smith Pub, 2000, ISBN 0-8446-1845-4; Adamant Media Corporation (2 Volumes), 2001, ISBN 1-4021-7283-4, ISBN 1-4212-7259-8; BiblioBazaar, 2009, ISBN 1-103-92942-9 )
 
-## Related Articles
-
-### Internal Links
-
-- [Benjamin Peirce](https://en.wikipedia.org/wiki/Benjamin_Peirce)
-- [Chapman & Hall](https://en.wikipedia.org/wiki/Chapman_%26_Hall)
-- [Charles Sanders Peirce](https://en.wikipedia.org/wiki/Charles_Sanders_Peirce)
-- [Data set](https://en.wikipedia.org/wiki/Data_set)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Frank Anscombe](https://en.wikipedia.org/wiki/Frank_Anscombe)
-- [Normal distribution](https://en.wikipedia.org/wiki/Normal_distribution)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [JSTOR](https://en.wikipedia.org/wiki/JSTOR)
-- [Likelihood-ratio test](https://en.wikipedia.org/wiki/Likelihood-ratio_test)
-- [Mathematical Reviews](https://en.wikipedia.org/wiki/Mathematical_Reviews)
-- [Median](https://en.wikipedia.org/wiki/Median)
-- [Outlier](https://en.wikipedia.org/wiki/Outlier)
-- [Robust statistics](https://en.wikipedia.org/wiki/Robust_statistics)
-- [Robust statistics](https://en.wikipedia.org/wiki/Robust_statistics)
-- [Statistical hypothesis test](https://en.wikipedia.org/wiki/Statistical_hypothesis_test)
-- [Stephen Stigler](https://en.wikipedia.org/wiki/Stephen_Stigler)
-- [Stephen Stigler](https://en.wikipedia.org/wiki/Stephen_Stigler)
-- [United States Coast and Geodetic Survey](https://en.wikipedia.org/wiki/United_States_Coast_and_Geodetic_Survey)
-- [William Chauvenet](https://en.wikipedia.org/wiki/William_Chauvenet)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:40:28.802397+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:47 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 11199 bytes
+- **Word Count:** 1667 words

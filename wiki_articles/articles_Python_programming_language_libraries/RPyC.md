@@ -1,17 +1,16 @@
 # RPyC
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:08:24.387164+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 07:02:08 UTC
 - **Original Article:** [RPyC](https://en.wikipedia.org/wiki/RPyC)
 - **Language:** en
 - **Page ID:** 4379735
 
 ## Summary
-
 RPyC (pronounced are-pie-see), or Remote Python Call, is a Python library for remote procedure calls (RPC), as well as distributed computing. Unlike regular RPC mechanisms, such as ONC RPC, CORBA or Java RMI, RPyC is transparent, symmetric, and requires no special decoration or definition languages. Moreover, it provides programmatic access to any pythonic element, be it functions, classes, instances or modules.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles lacking reliable references
 - Category:Articles lacking reliable references from November 2009
@@ -73,38 +72,9 @@ References
 External links
 Official website
 
-## Related Articles
-
-### Internal Links
-
-- [Common Object Request Broker Architecture](https://en.wikipedia.org/wiki/Common_Object_Request_Broker_Architecture)
-- [Capability-based security](https://en.wikipedia.org/wiki/Capability-based_security)
-- [Concurrent computing](https://en.wikipedia.org/wiki/Concurrent_computing)
-- [Cross-platform software](https://en.wikipedia.org/wiki/Cross-platform_software)
-- [Distributed computing](https://en.wikipedia.org/wiki/Distributed_computing)
-- [Inetd](https://en.wikipedia.org/wiki/Inetd)
-- [Java remote method invocation](https://en.wikipedia.org/wiki/Java_remote_method_invocation)
-- [MIT License](https://en.wikipedia.org/wiki/MIT_License)
-- [Sun RPC](https://en.wikipedia.org/wiki/Sun_RPC)
-- [Operating system](https://en.wikipedia.org/wiki/Operating_system)
-- [Programmer](https://en.wikipedia.org/wiki/Programmer)
-- [Futures and promises](https://en.wikipedia.org/wiki/Futures_and_promises)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Royal Perth Yacht Club](https://en.wikipedia.org/wiki/Royal_Perth_Yacht_Club)
-- [Remote procedure call](https://en.wikipedia.org/wiki/Remote_procedure_call)
-- [Remote procedure call](https://en.wikipedia.org/wiki/Remote_procedure_call)
-- [Repository (version control)](https://en.wikipedia.org/wiki/Repository_(version_control))
-- [Software categories](https://en.wikipedia.org/wiki/Software_categories)
-- [Software license](https://en.wikipedia.org/wiki/Software_license)
-- [Software release life cycle](https://en.wikipedia.org/wiki/Software_release_life_cycle)
-- [Thread (computing)](https://en.wikipedia.org/wiki/Thread_(computing))
-- [Virtual private network](https://en.wikipedia.org/wiki/Virtual_private_network)
-- [Wikipedia:No original research](https://en.wikipedia.org/wiki/Wikipedia:No_original_research)
-- [Wikipedia:Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Category:Articles lacking reliable references from November 2009](https://en.wikipedia.org/wiki/Category:Articles_lacking_reliable_references_from_November_2009)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:08:24.387164+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:35 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 4069 bytes
+- **Word Count:** 601 words

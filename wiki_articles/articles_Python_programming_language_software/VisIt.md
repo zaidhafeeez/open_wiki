@@ -1,17 +1,16 @@
 # VisIt
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:22:27.222926+00:00
+## Metadata
+- **Last Updated:** 2024-11-24 06:40:51 UTC
 - **Original Article:** [VisIt](https://en.wikipedia.org/wiki/VisIt)
 - **Language:** en
 - **Page ID:** 15981088
 
 ## Summary
-
 VisIt is an open-source, interactive parallel visualization, and graphical analysis tool designed for viewing scientific data. It can visualize scalar and vector fields on 2D and 3D structured and unstructured meshes.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles needing additional references
 - Category:All articles with a promotional tone
@@ -78,107 +77,9 @@ VTK
 
 == References ==
 
-## Related Articles
-
-### Internal Links
-
-- [2D geometric model](https://en.wikipedia.org/wiki/2D_geometric_model)
-- [IBM AIX](https://en.wikipedia.org/wiki/IBM_AIX)
-- [Adaptive mesh refinement](https://en.wikipedia.org/wiki/Adaptive_mesh_refinement)
-- [Advanced Simulation and Computing Program](https://en.wikipedia.org/wiki/Advanced_Simulation_and_Computing_Program)
-- [Altix](https://en.wikipedia.org/wiki/Altix)
-- [Analysis](https://en.wikipedia.org/wiki/Analysis)
-- [Animation](https://en.wikipedia.org/wiki/Animation)
-- [BSD licenses](https://en.wikipedia.org/wiki/BSD_licenses)
-- [Batch processing](https://en.wikipedia.org/wiki/Batch_processing)
-- [C++](https://en.wikipedia.org/wiki/C%2B%2B)
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [Client–server model](https://en.wikipedia.org/wiki/Client%E2%80%93server_model)
-- [Computer cluster](https://en.wikipedia.org/wiki/Computer_cluster)
-- [Constructive solid geometry](https://en.wikipedia.org/wiki/Constructive_solid_geometry)
-- [Regular grid](https://en.wikipedia.org/wiki/Regular_grid)
-- [Data-flow diagram](https://en.wikipedia.org/wiki/Data-flow_diagram)
-- [Data processing](https://en.wikipedia.org/wiki/Data_processing)
-- [Distributed computing](https://en.wikipedia.org/wiki/Distributed_computing)
-- [Dynamic loading](https://en.wikipedia.org/wiki/Dynamic_loading)
-- [Extensibility](https://en.wikipedia.org/wiki/Extensibility)
-- [International Framework for Nuclear Energy Cooperation](https://en.wikipedia.org/wiki/International_Framework_for_Nuclear_Energy_Cooperation)
-- [Graphical user interface](https://en.wikipedia.org/wiki/Graphical_user_interface)
-- [Graphics card](https://en.wikipedia.org/wiki/Graphics_card)
-- [IRIX](https://en.wikipedia.org/wiki/IRIX)
-- [In situ](https://en.wikipedia.org/wiki/In_situ)
-- [Input/output](https://en.wikipedia.org/wiki/Input/output)
-- [Visualization (graphics)](https://en.wikipedia.org/wiki/Visualization_(graphics))
-- [Java (programming language)](https://en.wikipedia.org/wiki/Java_(programming_language))
-- [Key frame](https://en.wikipedia.org/wiki/Key_frame)
-- [Lawrence Berkeley National Laboratory](https://en.wikipedia.org/wiki/Lawrence_Berkeley_National_Laboratory)
-- [Lawrence Livermore National Laboratory](https://en.wikipedia.org/wiki/Lawrence_Livermore_National_Laboratory)
-- [Linux](https://en.wikipedia.org/wiki/Linux)
-- [MacOS](https://en.wikipedia.org/wiki/MacOS)
-- [Mac (computer)](https://en.wikipedia.org/wiki/Mac_(computer))
-- [Microsoft Windows](https://en.wikipedia.org/wiki/Microsoft_Windows)
-- [Oak Ridge National Laboratory](https://en.wikipedia.org/wiki/Oak_Ridge_National_Laboratory)
-- [Open-source software](https://en.wikipedia.org/wiki/Open-source_software)
-- [Operating system](https://en.wikipedia.org/wiki/Operating_system)
-- [Page zooming](https://en.wikipedia.org/wiki/Page_zooming)
-- [Panning (camera)](https://en.wikipedia.org/wiki/Panning_(camera))
-- [ParaView](https://en.wikipedia.org/wiki/ParaView)
-- [Parallel computing](https://en.wikipedia.org/wiki/Parallel_computing)
-- [Parallel computing](https://en.wikipedia.org/wiki/Parallel_computing)
-- [Plug-in (computing)](https://en.wikipedia.org/wiki/Plug-in_(computing))
-- [Programmer](https://en.wikipedia.org/wiki/Programmer)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Qt (software)](https://en.wikipedia.org/wiki/Qt_(software))
-- [Rayleigh–Taylor instability](https://en.wikipedia.org/wiki/Rayleigh%E2%80%93Taylor_instability)
-- [Regular grid](https://en.wikipedia.org/wiki/Regular_grid)
-- [Test suite](https://en.wikipedia.org/wiki/Test_suite)
-- [Remote desktop software](https://en.wikipedia.org/wiki/Remote_desktop_software)
-- [Rendering (computer graphics)](https://en.wikipedia.org/wiki/Rendering_(computer_graphics))
-- [Rotation](https://en.wikipedia.org/wiki/Rotation)
-- [Execution (computing)](https://en.wikipedia.org/wiki/Execution_(computing))
-- [Scalar field](https://en.wikipedia.org/wiki/Scalar_field)
-- [Scientific visualization](https://en.wikipedia.org/wiki/Scientific_visualization)
-- [Scripting language](https://en.wikipedia.org/wiki/Scripting_language)
-- [Thread (computing)](https://en.wikipedia.org/wiki/Thread_(computing))
-- [Software categories](https://en.wikipedia.org/wiki/Software_categories)
-- [Software license](https://en.wikipedia.org/wiki/Software_license)
-- [Software release life cycle](https://en.wikipedia.org/wiki/Software_release_life_cycle)
-- [Oracle Solaris](https://en.wikipedia.org/wiki/Oracle_Solaris)
-- [Statistics](https://en.wikipedia.org/wiki/Statistics)
-- [Regular grid](https://en.wikipedia.org/wiki/Regular_grid)
-- [Surface area](https://en.wikipedia.org/wiki/Surface_area)
-- [Tensor field](https://en.wikipedia.org/wiki/Tensor_field)
-- [Three-dimensional space](https://en.wikipedia.org/wiki/Three-dimensional_space)
-- [Time evolution](https://en.wikipedia.org/wiki/Time_evolution)
-- [Tru64 UNIX](https://en.wikipedia.org/wiki/Tru64_UNIX)
-- [Unix-like](https://en.wikipedia.org/wiki/Unix-like)
-- [United States Department of Energy](https://en.wikipedia.org/wiki/United_States_Department_of_Energy)
-- [University of California, Davis](https://en.wikipedia.org/wiki/University_of_California,_Davis)
-- [Unix](https://en.wikipedia.org/wiki/Unix)
-- [Unstructured grid](https://en.wikipedia.org/wiki/Unstructured_grid)
-- [User interface](https://en.wikipedia.org/wiki/User_interface)
-- [VTK](https://en.wikipedia.org/wiki/VTK)
-- [Vector field](https://en.wikipedia.org/wiki/Vector_field)
-- [Flow velocity](https://en.wikipedia.org/wiki/Flow_velocity)
-- [Visualization (graphics)](https://en.wikipedia.org/wiki/Visualization_(graphics))
-- [Volume](https://en.wikipedia.org/wiki/Volume)
-- [Cray XT4](https://en.wikipedia.org/wiki/Cray_XT4)
-- [Wikipedia:Citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed)
-- [Wikipedia:Citing sources](https://en.wikipedia.org/wiki/Wikipedia:Citing_sources)
-- [Wikipedia:External links](https://en.wikipedia.org/wiki/Wikipedia:External_links)
-- [Wikipedia:Neutral point of view](https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view)
-- [Wikipedia:Spam](https://en.wikipedia.org/wiki/Wikipedia:Spam)
-- [Wikipedia:Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)
-- [Wikipedia:What Wikipedia is not](https://en.wikipedia.org/wiki/Wikipedia:What_Wikipedia_is_not)
-- [Wikipedia:WikiProject Lists](https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Lists)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Help:Referencing for beginners](https://en.wikipedia.org/wiki/Help:Referencing_for_beginners)
-- [Category:Articles needing additional references from February 2013](https://en.wikipedia.org/wiki/Category:Articles_needing_additional_references_from_February_2013)
-- [Category:Articles with a promotional tone from July 2018](https://en.wikipedia.org/wiki/Category:Articles_with_a_promotional_tone_from_July_2018)
-- [Category:Articles with unsourced statements from June 2024](https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_June_2024)
-- [Category:Incomplete lists from August 2008](https://en.wikipedia.org/wiki/Category:Incomplete_lists_from_August_2008)
-- [Portal:Free and open-source software](https://en.wikipedia.org/wiki/Portal:Free_and_open-source_software)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:22:27.222926+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:28:07 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 7197 bytes
+- **Word Count:** 1058 words

@@ -1,14 +1,12 @@
 # Type introspection
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:52:27.473028+00:00
+## Metadata
+- **Last Updated:** 2024-12-10 19:54:29 UTC
 - **Original Article:** [Type introspection](https://en.wikipedia.org/wiki/Type_introspection)
 - **Language:** en
 - **Page ID:** 390415
 
 ## Summary
-
 In computing, type introspection is the ability of a program to examine the type or properties of an object
 at runtime.
 Some programming languages possess this capability.
@@ -20,6 +18,7 @@ and
 Go).
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles with style issues
 - Category:All articles with too many examples
@@ -123,51 +122,9 @@ References
 External links
 Introspection on Rosetta Code
 
-## Related Articles
-
-### Internal Links
-
-- [ActionScript](https://en.wikipedia.org/wiki/ActionScript)
-- [Cocoa (API)](https://en.wikipedia.org/wiki/Cocoa_(API))
-- [Computing](https://en.wikipedia.org/wiki/Computing)
-- [Data type](https://en.wikipedia.org/wiki/Data_type)
-- [Run-time type information](https://en.wikipedia.org/wiki/Run-time_type_information)
-- [Go (programming language)](https://en.wikipedia.org/wiki/Go_(programming_language))
-- [Inheritance (object-oriented programming)](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming))
-- [Ruby (programming language)](https://en.wikipedia.org/wiki/Ruby_(programming_language))
-- [Java (programming language)](https://en.wikipedia.org/wiki/Java_(programming_language))
-- [Julia (programming language)](https://en.wikipedia.org/wiki/Julia_(programming_language))
-- [Metaobject](https://en.wikipedia.org/wiki/Metaobject)
-- [Method (computer programming)](https://en.wikipedia.org/wiki/Method_(computer_programming))
-- [Moose (Perl)](https://en.wikipedia.org/wiki/Moose_(Perl))
-- [Object (computer science)](https://en.wikipedia.org/wiki/Object_(computer_science))
-- [Objective-C](https://en.wikipedia.org/wiki/Objective-C)
-- [OpenStep](https://en.wikipedia.org/wiki/OpenStep)
-- [PHP](https://en.wikipedia.org/wiki/PHP)
-- [Perl](https://en.wikipedia.org/wiki/Perl)
-- [Programming language](https://en.wikipedia.org/wiki/Programming_language)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Reflective programming](https://en.wikipedia.org/wiki/Reflective_programming)
-- [Reflective programming](https://en.wikipedia.org/wiki/Reflective_programming)
-- [Reification (computer science)](https://en.wikipedia.org/wiki/Reification_(computer_science))
-- [Role-oriented programming](https://en.wikipedia.org/wiki/Role-oriented_programming)
-- [Ruby (programming language)](https://en.wikipedia.org/wiki/Ruby_(programming_language))
-- [Run-time type information](https://en.wikipedia.org/wiki/Run-time_type_information)
-- [Execution (computing)](https://en.wikipedia.org/wiki/Execution_(computing))
-- [Run-time type information](https://en.wikipedia.org/wiki/Run-time_type_information)
-- [Typeof](https://en.wikipedia.org/wiki/Typeof)
-- [Talk:Type introspection](https://en.wikipedia.org/wiki/Talk:Type_introspection)
-- [Wikipedia:Example cruft](https://en.wikipedia.org/wiki/Wikipedia:Example_cruft)
-- [Wikipedia:Manual of Style/Lists](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Lists)
-- [Wikipedia:Neutral point of view](https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view)
-- [Wikipedia:Templates for discussion/Log/2024 December 3](https://en.wikipedia.org/wiki/Wikipedia:Templates_for_discussion/Log/2024_December_3)
-- [Wikipedia:What Wikipedia is not](https://en.wikipedia.org/wiki/Wikipedia:What_Wikipedia_is_not)
-- [Template:Manual](https://en.wikipedia.org/wiki/Template:Manual)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Help:Template](https://en.wikipedia.org/wiki/Help:Template)
-- [Category:Articles with too many examples from December 2011](https://en.wikipedia.org/wiki/Category:Articles_with_too_many_examples_from_December_2011)
-- [Category:Wikipedia articles with style issues from December 2011](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_with_style_issues_from_December_2011)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:52:27.473028+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:05 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 5270 bytes
+- **Word Count:** 835 words

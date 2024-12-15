@@ -1,18 +1,18 @@
 # Page replacement algorithm
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:40:29.981612+00:00
+## Metadata
+- **Last Updated:** 2024-12-13 14:33:52 UTC
 - **Original Article:** [Page replacement algorithm](https://en.wikipedia.org/wiki/Page_replacement_algorithm)
 - **Language:** en
 - **Page ID:** 727476
 
 ## Summary
-
 In a computer operating system that uses paging for virtual memory management, page replacement algorithms decide which memory pages to page out, sometimes called swap out, or write to disk, when a page of memory needs to be allocated. Page replacement happens when a requested page is not in memory (page fault) and a free page cannot be used to satisfy the allocation, either because there are none, or because the number of free pages is lower than some threshold.
-When the page that was selected 
+When the page that was selected for replacement and paged out is referenced again it has to be paged in (read in from disk), and this involves waiting for I/O completion. This determines the quality of the page replacement algorithm: the less time waiting for page-ins, the better the algorithm. A page replacement algorithm looks at the limited information about accesses to the pages provided by hardware, and tries to guess which pages should be replaced to minimize the total number of page misses, while balancing this with the costs (primary storage and processor time) of the algorithm itself.
+The page replacing problem is a typical online problem from the competitive analysis perspective in the sense that the optimal deterministic algorithm is known.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All Wikipedia articles needing clarification
 - Category:All articles with unsourced statements
@@ -489,86 +489,9 @@ References
 
 == Further reading ==
 
-## Related Articles
-
-### Internal Links
-
-- [ARM architecture family](https://en.wikipedia.org/wiki/ARM_architecture_family)
-- [ARM architecture family](https://en.wikipedia.org/wiki/ARM_architecture_family)
-- [Adaptive replacement cache](https://en.wikipedia.org/wiki/Adaptive_replacement_cache)
-- [Amortized analysis](https://en.wikipedia.org/wiki/Amortized_analysis)
-- [Anonymous pipe](https://en.wikipedia.org/wiki/Anonymous_pipe)
-- [Arithmetic shift](https://en.wikipedia.org/wiki/Arithmetic_shift)
-- [Binary number](https://en.wikipedia.org/wiki/Binary_number)
-- [Device file](https://en.wikipedia.org/wiki/Device_file)
-- [Bélády's anomaly](https://en.wikipedia.org/wiki/B%C3%A9l%C3%A1dy%27s_anomaly)
-- [CPU cache](https://en.wikipedia.org/wiki/CPU_cache)
-- [Cache replacement policies](https://en.wikipedia.org/wiki/Cache_replacement_policies)
-- [CiteSeerX](https://en.wikipedia.org/wiki/CiteSeerX)
-- [Clairvoyance](https://en.wikipedia.org/wiki/Clairvoyance)
-- [Computer](https://en.wikipedia.org/wiki/Computer)
-- [Dirty bit](https://en.wikipedia.org/wiki/Dirty_bit)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Fernando J. Corbató](https://en.wikipedia.org/wiki/Fernando_J._Corbat%C3%B3)
-- [FreeBSD](https://en.wikipedia.org/wiki/FreeBSD)
-- [Duplex (telecommunications)](https://en.wikipedia.org/wiki/Duplex_(telecommunications))
-- [Garbage collection (computer science)](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science))
-- [Hash table](https://en.wikipedia.org/wiki/Hash_table)
-- [Memory management](https://en.wikipedia.org/wiki/Memory_management)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [ISSN](https://en.wikipedia.org/wiki/ISSN)
-- [Intel i860](https://en.wikipedia.org/wiki/Intel_i860)
-- [Journaling file system](https://en.wikipedia.org/wiki/Journaling_file_system)
-- [Kernel (operating system)](https://en.wikipedia.org/wiki/Kernel_(operating_system))
-- [Library of Congress Control Number](https://en.wikipedia.org/wiki/Library_of_Congress_Control_Number)
-- [LIRS caching algorithm](https://en.wikipedia.org/wiki/LIRS_caching_algorithm)
-- [LWN.net](https://en.wikipedia.org/wiki/LWN.net)
-- [Linux](https://en.wikipedia.org/wiki/Linux)
-- [Linux kernel](https://en.wikipedia.org/wiki/Linux_kernel)
-- [Locality of reference](https://en.wikipedia.org/wiki/Locality_of_reference)
-- [László Bélády](https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_B%C3%A9l%C3%A1dy)
-- [MIT Press](https://en.wikipedia.org/wiki/MIT_Press)
-- [Memory management](https://en.wikipedia.org/wiki/Memory_management)
-- [Memory management (operating systems)](https://en.wikipedia.org/wiki/Memory_management_(operating_systems))
-- [Memory paging](https://en.wikipedia.org/wiki/Memory_paging)
-- [Mmap](https://en.wikipedia.org/wiki/Mmap)
-- [OCLC](https://en.wikipedia.org/wiki/OCLC)
-- [Open Library](https://en.wikipedia.org/wiki/Open_Library)
-- [OS/390](https://en.wikipedia.org/wiki/OS/390)
-- [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
-- [Online algorithm](https://en.wikipedia.org/wiki/Online_algorithm)
-- [Online algorithm](https://en.wikipedia.org/wiki/Online_algorithm)
-- [OpenVMS](https://en.wikipedia.org/wiki/OpenVMS)
-- [Operating system](https://en.wikipedia.org/wiki/Operating_system)
-- [Page (computer memory)](https://en.wikipedia.org/wiki/Page_(computer_memory))
-- [Page fault](https://en.wikipedia.org/wiki/Page_fault)
-- [Page table](https://en.wikipedia.org/wiki/Page_table)
-- [Memory paging](https://en.wikipedia.org/wiki/Memory_paging)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [Sbrk](https://en.wikipedia.org/wiki/Sbrk)
-- [Scheduling (computing)](https://en.wikipedia.org/wiki/Scheduling_(computing))
-- [Shared memory](https://en.wikipedia.org/wiki/Shared_memory)
-- [Oracle Solaris](https://en.wikipedia.org/wiki/Oracle_Solaris)
-- [Stack-based memory allocation](https://en.wikipedia.org/wiki/Stack-based_memory_allocation)
-- [Tmpfs](https://en.wikipedia.org/wiki/Tmpfs)
-- [Tree (abstract data type)](https://en.wikipedia.org/wiki/Tree_(abstract_data_type))
-- [User space and kernel space](https://en.wikipedia.org/wiki/User_space_and_kernel_space)
-- [VAX](https://en.wikipedia.org/wiki/VAX)
-- [Virtual memory](https://en.wikipedia.org/wiki/Virtual_memory)
-- [Working set](https://en.wikipedia.org/wiki/Working_set)
-- [X86](https://en.wikipedia.org/wiki/X86)
-- [X86-64](https://en.wikipedia.org/wiki/X86-64)
-- [Talk:Page replacement algorithm](https://en.wikipedia.org/wiki/Talk:Page_replacement_algorithm)
-- [Wikipedia:Citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed)
-- [Wikipedia:Please clarify](https://en.wikipedia.org/wiki/Wikipedia:Please_clarify)
-- [Wikipedia:Vagueness](https://en.wikipedia.org/wiki/Wikipedia:Vagueness)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Category:Articles with unsourced statements from July 2022](https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_July_2022)
-- [Category:Use dmy dates from February 2021](https://en.wikipedia.org/wiki/Category:Use_dmy_dates_from_February_2021)
-- [Category:Wikipedia articles needing clarification from August 2011](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_needing_clarification_from_August_2011)
-- [Category:Wikipedia articles needing clarification from December 2015](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_needing_clarification_from_December_2015)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:40:29.981612+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:46 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 31526 bytes
+- **Word Count:** 4822 words

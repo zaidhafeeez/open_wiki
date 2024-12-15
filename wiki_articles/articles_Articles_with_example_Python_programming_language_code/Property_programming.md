@@ -1,17 +1,16 @@
 # Property (programming)
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:42:33.404953+00:00
+## Metadata
+- **Last Updated:** 2024-12-13 14:33:52 UTC
 - **Original Article:** [Property (programming)](https://en.wikipedia.org/wiki/Property_(programming))
 - **Language:** en
 - **Page ID:** 5999262
 
 ## Summary
-
-A property, in some object-oriented programming languages, is a special sort of class member, intermediate in functionality between a field (or data member) and a method. The syntax for reading and writing of properties is like for fields, but property reads and writes are (usually) translated to 'getter' and 'setter' method calls. The field-like syntax is easier to read and write than many method calls, yet the interposition of method calls "under the hood" allows for data validation, active up
+A property, in some object-oriented programming languages, is a special sort of class member, intermediate in functionality between a field (or data member) and a method. The syntax for reading and writing of properties is like for fields, but property reads and writes are (usually) translated to 'getter' and 'setter' method calls. The field-like syntax is easier to read and write than many method calls, yet the interposition of method calls "under the hood" allows for data validation, active updating (e.g., of GUI elements), or implementation of what may be called "read-only fields".
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All Wikipedia articles needing clarification
 - Category:All articles needing additional references
@@ -116,69 +115,9 @@ Uniform access principle
 
 == References ==
 
-## Related Articles
-
-### Internal Links
-
-- [Mutator method](https://en.wikipedia.org/wiki/Mutator_method)
-- [ActionScript](https://en.wikipedia.org/wiki/ActionScript)
-- [Active updating](https://en.wikipedia.org/wiki/Active_updating)
-- [Attribute (computing)](https://en.wikipedia.org/wiki/Attribute_(computing))
-- [Borland C++](https://en.wikipedia.org/wiki/Borland_C%2B%2B)
-- [Data binding](https://en.wikipedia.org/wiki/Data_binding)
-- [C++](https://en.wikipedia.org/wiki/C%2B%2B)
-- [C++Builder](https://en.wikipedia.org/wiki/C%2B%2BBuilder)
-- [C Sharp (programming language)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
-- [Class (computer programming)](https://en.wikipedia.org/wiki/Class_(computer_programming))
-- [D (programming language)](https://en.wikipedia.org/wiki/D_(programming_language))
-- [Data validation](https://en.wikipedia.org/wiki/Data_validation)
-- [F Sharp (programming language)](https://en.wikipedia.org/wiki/F_Sharp_(programming_language))
-- [Field (computer science)](https://en.wikipedia.org/wiki/Field_(computer_science))
-- [Free Pascal](https://en.wikipedia.org/wiki/Free_Pascal)
-- [GNU Compiler Collection](https://en.wikipedia.org/wiki/GNU_Compiler_Collection)
-- [Graphical user interface](https://en.wikipedia.org/wiki/Graphical_user_interface)
-- [Apache Groovy](https://en.wikipedia.org/wiki/Apache_Groovy)
-- [Indexer (programming)](https://en.wikipedia.org/wiki/Indexer_(programming))
-- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-- [Java (programming language)](https://en.wikipedia.org/wiki/Java_(programming_language))
-- [Java virtual machine](https://en.wikipedia.org/wiki/Java_virtual_machine)
-- [Kotlin (programming language)](https://en.wikipedia.org/wiki/Kotlin_(programming_language))
-- [LLVM](https://en.wikipedia.org/wiki/LLVM)
-- [Lua (programming language)](https://en.wikipedia.org/wiki/Lua_(programming_language))
-- [Method (computer programming)](https://en.wikipedia.org/wiki/Method_(computer_programming))
-- [Method (computer programming)](https://en.wikipedia.org/wiki/Method_(computer_programming))
-- [Visual Studio](https://en.wikipedia.org/wiki/Visual_Studio)
-- [Mutator method](https://en.wikipedia.org/wiki/Mutator_method)
-- [Oberon-2](https://en.wikipedia.org/wiki/Oberon-2)
-- [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
-- [Object Pascal](https://en.wikipedia.org/wiki/Object_Pascal)
-- [Objective-C](https://en.wikipedia.org/wiki/Objective-C)
-- [Operator overloading](https://en.wikipedia.org/wiki/Operator_overloading)
-- [Perl](https://en.wikipedia.org/wiki/Perl)
-- [Programming language](https://en.wikipedia.org/wiki/Programming_language)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Ruby (programming language)](https://en.wikipedia.org/wiki/Ruby_(programming_language))
-- [Scala (programming language)](https://en.wikipedia.org/wiki/Scala_(programming_language))
-- [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk)
-- [Inheritance (object-oriented programming)](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming))
-- [Swift (programming language)](https://en.wikipedia.org/wiki/Swift_(programming_language))
-- [Syntactic sugar](https://en.wikipedia.org/wiki/Syntactic_sugar)
-- [Uniform access principle](https://en.wikipedia.org/wiki/Uniform_access_principle)
-- [Visual Basic](https://en.wikipedia.org/wiki/Visual_Basic)
-- [Talk:Property (programming)](https://en.wikipedia.org/wiki/Talk:Property_(programming))
-- [Wikipedia:Citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed)
-- [Wikipedia:Citing sources](https://en.wikipedia.org/wiki/Wikipedia:Citing_sources)
-- [Wikipedia:Please clarify](https://en.wikipedia.org/wiki/Wikipedia:Please_clarify)
-- [Wikipedia:Vagueness](https://en.wikipedia.org/wiki/Wikipedia:Vagueness)
-- [Wikipedia:Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)
-- [Help:Authority control](https://en.wikipedia.org/wiki/Help:Authority_control)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Help:Referencing for beginners](https://en.wikipedia.org/wiki/Help:Referencing_for_beginners)
-- [Category:Articles needing additional references from January 2022](https://en.wikipedia.org/wiki/Category:Articles_needing_additional_references_from_January_2022)
-- [Category:Articles needing additional references from October 2016](https://en.wikipedia.org/wiki/Category:Articles_needing_additional_references_from_October_2016)
-- [Category:Articles with unsourced statements from March 2020](https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_March_2020)
-- [Category:Wikipedia articles needing clarification from October 2016](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_needing_clarification_from_October_2016)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:42:33.404953+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:50 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 3990 bytes
+- **Word Count:** 584 words

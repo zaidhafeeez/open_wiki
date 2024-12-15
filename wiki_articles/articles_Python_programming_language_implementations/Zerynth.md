@@ -1,18 +1,17 @@
 # Zerynth
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:43:24.297116+00:00
+## Metadata
+- **Last Updated:** 2024-11-26 12:58:45 UTC
 - **Original Article:** [Zerynth](https://en.wikipedia.org/wiki/Zerynth)
 - **Language:** en
 - **Page ID:** 61101615
 
 ## Summary
-
 Zerynth revolutionizes industrial production with an advanced platform that integrates IoT and AI, facilitating the optimization of production processes and reducing energy consumption. 
-The mission of the company is to enable companies on their digital transformation journey by seamlessly connecting any machinery to a powerful Industrial AI system. With the launch of Zero, the Industrial AI Copilot, they position ourselves as leaders in the field of industrial AI, promoting production efficienc
+The mission of the company is to enable companies on their digital transformation journey by seamlessly connecting any machinery to a powerful Industrial AI system. With the launch of Zero, the Industrial AI Copilot, they position ourselves as leaders in the field of industrial AI, promoting production efficiency and sustainability.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles lacking reliable references
 - Category:All articles with topics of unclear notability
@@ -58,40 +57,9 @@ Founded in 2015, Zerynth has experienced exponential growth and now boasts a tea
 
 == References ==
 
-## Related Articles
-
-### Internal Links
-
-- [Artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence)
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [Computing platform](https://en.wikipedia.org/wiki/Computing_platform)
-- [Internet of things](https://en.wikipedia.org/wiki/Internet_of_things)
-- [Linux](https://en.wikipedia.org/wiki/Linux)
-- [MacOS](https://en.wikipedia.org/wiki/MacOS)
-- [Microcontroller](https://en.wikipedia.org/wiki/Microcontroller)
-- [Microsoft Copilot](https://en.wikipedia.org/wiki/Microsoft_Copilot)
-- [Microsoft Windows](https://en.wikipedia.org/wiki/Microsoft_Windows)
-- [Operating system](https://en.wikipedia.org/wiki/Operating_system)
-- [Programmer](https://en.wikipedia.org/wiki/Programmer)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Software categories](https://en.wikipedia.org/wiki/Software_categories)
-- [Software license](https://en.wikipedia.org/wiki/Software_license)
-- [Visual Studio Code](https://en.wikipedia.org/wiki/Visual_Studio_Code)
-- [Talk:Zerynth](https://en.wikipedia.org/wiki/Talk:Zerynth)
-- [Wikipedia:Citing sources](https://en.wikipedia.org/wiki/Wikipedia:Citing_sources)
-- [Wikipedia:Deletion policy](https://en.wikipedia.org/wiki/Wikipedia:Deletion_policy)
-- [Wikipedia:Independent sources](https://en.wikipedia.org/wiki/Wikipedia:Independent_sources)
-- [Wikipedia:Independent sources](https://en.wikipedia.org/wiki/Wikipedia:Independent_sources)
-- [Wikipedia:Merging](https://en.wikipedia.org/wiki/Wikipedia:Merging)
-- [Wikipedia:Neutral point of view](https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view)
-- [Wikipedia:Notability (organizations and companies)](https://en.wikipedia.org/wiki/Wikipedia:Notability_(organizations_and_companies))
-- [Wikipedia:Redirect](https://en.wikipedia.org/wiki/Wikipedia:Redirect)
-- [Wikipedia:Reliable sources](https://en.wikipedia.org/wiki/Wikipedia:Reliable_sources)
-- [Wikipedia:Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Category:Articles lacking reliable references from August 2022](https://en.wikipedia.org/wiki/Category:Articles_lacking_reliable_references_from_August_2022)
-- [Category:Articles with topics of unclear notability from August 2022](https://en.wikipedia.org/wiki/Category:Articles_with_topics_of_unclear_notability_from_August_2022)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:43:24.297116+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:22 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 2977 bytes
+- **Word Count:** 417 words

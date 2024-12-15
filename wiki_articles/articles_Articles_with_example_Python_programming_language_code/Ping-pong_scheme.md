@@ -1,17 +1,16 @@
 # Ping-pong scheme
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:42:32.584457+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 07:10:39 UTC
 - **Original Article:** [Ping-pong scheme](https://en.wikipedia.org/wiki/Ping-pong_scheme)
 - **Language:** en
 - **Page ID:** 12242679
 
 ## Summary
-
 Algorithms said to employ a ping-pong scheme exist in different fields of software engineering. They are characterized by an alternation between two entities. In the examples described below, these entities are communication partners, network paths or file blocks.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Algorithms
 - Category:All articles needing additional references
@@ -48,32 +47,9 @@ If you were to get the next path from a function call, it would look like this i
 
 == References ==
 
-## Related Articles
-
-### Internal Links
-
-- [Block (data storage)](https://en.wikipedia.org/wiki/Block_(data_storage))
-- [Crash (computing)](https://en.wikipedia.org/wiki/Crash_(computing))
-- [Database](https://en.wikipedia.org/wiki/Database)
-- [Database transaction](https://en.wikipedia.org/wiki/Database_transaction)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Durability (database systems)](https://en.wikipedia.org/wiki/Durability_(database_systems))
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Internet Control Message Protocol](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol)
-- [Ping (networking utility)](https://en.wikipedia.org/wiki/Ping_(networking_utility))
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Routing](https://en.wikipedia.org/wiki/Routing)
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [Software engineering](https://en.wikipedia.org/wiki/Software_engineering)
-- [Transaction log](https://en.wikipedia.org/wiki/Transaction_log)
-- [Wikipedia:Citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed)
-- [Wikipedia:Citing sources](https://en.wikipedia.org/wiki/Wikipedia:Citing_sources)
-- [Wikipedia:Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Help:Referencing for beginners](https://en.wikipedia.org/wiki/Help:Referencing_for_beginners)
-- [Category:Articles needing additional references from June 2010](https://en.wikipedia.org/wiki/Category:Articles_needing_additional_references_from_June_2010)
-- [Category:Articles with unsourced statements from October 2024](https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_October_2024)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:42:32.584457+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:48 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 2228 bytes
+- **Word Count:** 377 words

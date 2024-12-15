@@ -1,14 +1,12 @@
 # Maximum subarray problem
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:35:42.491505+00:00
+## Metadata
+- **Last Updated:** 2024-12-06 05:13:54 UTC
 - **Original Article:** [Maximum subarray problem](https://en.wikipedia.org/wiki/Maximum_subarray_problem)
 - **Language:** en
 - **Page ID:** 10575678
 
 ## Summary
-
 In computer science, the maximum sum subarray problem, also known as the maximum segment sum problem, is the task of finding a contiguous subarray with the largest sum, within a given one-dimensional array A[1...n] of numbers. It can be solved in 
   
     
@@ -36,9 +34,73 @@ In computer science, the maximum sum subarray problem, also known as the maximum
  space.
 Formally, the task is to find indices 
   
- 
+    
+      
+        i
+      
+    
+    {\displaystyle i}
+  
+ and 
+  
+    
+      
+        j
+      
+    
+    {\displaystyle j}
+  
+ with 
+  
+    
+      
+        1
+        ≤
+        i
+        ≤
+        j
+        ≤
+        n
+      
+    
+    {\displaystyle 1\leq i\leq j\leq n}
+  
+, such that the sum
+
+  
+    
+      
+        
+          ∑
+          
+            x
+            =
+            i
+          
+          
+            j
+          
+        
+        A
+        [
+        x
+        ]
+      
+    
+    {\displaystyle \sum _{x=i}^{j}A[x]}
+  
+
+is as large as possible. (Some formulations of the problem also allow the empty subarray to be considered; by convention, the sum of all values of the empty subarray is zero.)  Each number in the input array A could be positive, negative, or zero.
+For example, for the array of values [−2, 1, −3, 4, −1, 2, 1, −5, 4], the contiguous subarray with the largest sum is [4, −1, 2, 1], with sum 6.
+Some properties of this problem are: 
+
+If the array contains all non-negative numbers, then the problem is trivial; a maximum subarray is the entire array.
+If the array contains all non-positive numbers, then a solution is any subarray of size 1 containing the maximal value of the array (or the empty subarray, if it is permitted).
+Several different sub-arrays may have the same maximum sum.
+Although this problem can be solved using several different algorithmic techniques, including brute force, divide and conquer, dynamic programming, and reduction to shortest paths, a simple single-pass algorithm known as Kadane's algorithm solves it efficiently.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example Python (programming language) code
 - Category:Articles with short description
@@ -727,44 +789,9 @@ alexeigor.wikidot.com
 greatest subsequential sum problem on Rosetta Code
 geeksforgeeks page on Kadane's Algorithm
 
-## Related Articles
-
-### Internal Links
-
-- [Array (data structure)](https://en.wikipedia.org/wiki/Array_(data_structure))
-- [Bibcode](https://en.wikipedia.org/wiki/Bibcode)
-- [Bird–Meertens formalism](https://en.wikipedia.org/wiki/Bird%E2%80%93Meertens_formalism)
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [Carnegie Mellon University](https://en.wikipedia.org/wiki/Carnegie_Mellon_University)
-- [Communications of the ACM](https://en.wikipedia.org/wiki/Communications_of_the_ACM)
-- [Computer science](https://en.wikipedia.org/wiki/Computer_science)
-- [Computer vision](https://en.wikipedia.org/wiki/Computer_vision)
-- [David Gries](https://en.wikipedia.org/wiki/David_Gries)
-- [Divide-and-conquer algorithm](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Dynamic programming](https://en.wikipedia.org/wiki/Dynamic_programming)
-- [Edsger W. Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra)
-- [Empty sum](https://en.wikipedia.org/wiki/Empty_sum)
-- [Frama-C](https://en.wikipedia.org/wiki/Frama-C)
-- [Handle System](https://en.wikipedia.org/wiki/Handle_System)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Joseph Born Kadane](https://en.wikipedia.org/wiki/Joseph_Born_Kadane)
-- [Jon Bentley (computer scientist)](https://en.wikipedia.org/wiki/Jon_Bentley_(computer_scientist))
-- [Joseph Born Kadane](https://en.wikipedia.org/wiki/Joseph_Born_Kadane)
-- [Loop invariant](https://en.wikipedia.org/wiki/Loop_invariant)
-- [Maximum likelihood estimation](https://en.wikipedia.org/wiki/Maximum_likelihood_estimation)
-- [Michael Ian Shamos](https://en.wikipedia.org/wiki/Michael_Ian_Shamos)
-- [Min-plus matrix multiplication](https://en.wikipedia.org/wiki/Min-plus_matrix_multiplication)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Richard Bird (computer scientist)](https://en.wikipedia.org/wiki/Richard_Bird_(computer_scientist))
-- [Richard Bird (computer scientist)](https://en.wikipedia.org/wiki/Richard_Bird_(computer_scientist))
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [Sequence analysis](https://en.wikipedia.org/wiki/Sequence_analysis)
-- [Shortest path problem](https://en.wikipedia.org/wiki/Shortest_path_problem)
-- [Subset sum problem](https://en.wikipedia.org/wiki/Subset_sum_problem)
-- [The Computer Journal](https://en.wikipedia.org/wiki/The_Computer_Journal)
-- [Ulf Grenander](https://en.wikipedia.org/wiki/Ulf_Grenander)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:35:42.491505+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:36 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 16742 bytes
+- **Word Count:** 2075 words

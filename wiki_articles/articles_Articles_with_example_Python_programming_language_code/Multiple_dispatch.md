@@ -1,17 +1,16 @@
 # Multiple dispatch
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:37:35.547319+00:00
+## Metadata
+- **Last Updated:** 2024-12-15 14:36:31 UTC
 - **Original Article:** [Multiple dispatch](https://en.wikipedia.org/wiki/Multiple_dispatch)
 - **Language:** en
 - **Page ID:** 191413
 
 ## Summary
-
-Multiple dispatch or multimethods is a feature of some programming languages in which a function or method can be dynamically dispatched based on the run-time (dynamic) type or, in the more general case, some other attribute of more than one of its arguments. This is a generalization of single-dispatch polymorphism where a function or method call is dynamically dispatched based on the derived type of the object on which the method has been called. Multiple dispatch routes the dynamic dispatch to
+Multiple dispatch or multimethods is a feature of some programming languages in which a function or method can be dynamically dispatched based on the run-time (dynamic) type or, in the more general case, some other attribute of more than one of its arguments. This is a generalization of single-dispatch polymorphism where a function or method call is dynamically dispatched based on the derived type of the object on which the method has been called. Multiple dispatch routes the dynamic dispatch to the implementing function or method using the combined characteristics of one or more arguments.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles containing potentially dated statements
 - Category:All articles with unsourced statements
@@ -209,98 +208,9 @@ External links
 Stroustrup, Bjarne; Solodkyy, Yuriy; Pirkelbauer, Peter (2007). Open Multi-Methods for C++ (PDF). ACM 6th International Conference on Generative Programming and Component Engineering.
 "Dynamic multiple dispatch". docs.racket-lang.org. Retrieved 2018-03-12.
 
-## Related Articles
-
-### Internal Links
-
-- [.NET Framework](https://en.wikipedia.org/wiki/.NET_Framework)
-- [Ad hoc polymorphism](https://en.wikipedia.org/wiki/Ad_hoc_polymorphism)
-- [Apache Groovy](https://en.wikipedia.org/wiki/Apache_Groovy)
-- [ArXiv](https://en.wikipedia.org/wiki/ArXiv)
-- [Bibcode](https://en.wikipedia.org/wiki/Bibcode)
-- [Bjarne Stroustrup](https://en.wikipedia.org/wiki/Bjarne_Stroustrup)
-- [Branch table](https://en.wikipedia.org/wiki/Branch_table)
-- [C++](https://en.wikipedia.org/wiki/C%2B%2B)
-- [CMU Common Lisp](https://en.wikipedia.org/wiki/CMU_Common_Lisp)
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [C Sharp (programming language)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
-- [C Sharp 4.0](https://en.wikipedia.org/wiki/C_Sharp_4.0)
-- [Cecil (programming language)](https://en.wikipedia.org/wiki/Cecil_(programming_language))
-- [CiteSeerX](https://en.wikipedia.org/wiki/CiteSeerX)
-- [Clojure](https://en.wikipedia.org/wiki/Clojure)
-- [Common Lisp](https://en.wikipedia.org/wiki/Common_Lisp)
-- [Common Lisp Object System](https://en.wikipedia.org/wiki/Common_Lisp_Object_System)
-- [Compile time](https://en.wikipedia.org/wiki/Compile_time)
-- [Covariance and contravariance (computer science)](https://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science))
-- [D (programming language)](https://en.wikipedia.org/wiki/D_(programming_language))
-- [Data type](https://en.wikipedia.org/wiki/Data_type)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Double dispatch](https://en.wikipedia.org/wiki/Double_dispatch)
-- [Dylan (programming language)](https://en.wikipedia.org/wiki/Dylan_(programming_language))
-- [Dynamic dispatch](https://en.wikipedia.org/wiki/Dynamic_dispatch)
-- [Emacs Lisp](https://en.wikipedia.org/wiki/Emacs_Lisp)
-- [Expression problem](https://en.wikipedia.org/wiki/Expression_problem)
-- [Factor (programming language)](https://en.wikipedia.org/wiki/Factor_(programming_language))
-- [Fortress (programming language)](https://en.wikipedia.org/wiki/Fortress_(programming_language))
-- [Function overloading](https://en.wikipedia.org/wiki/Function_overloading)
-- [Function pointer](https://en.wikipedia.org/wiki/Function_pointer)
-- [Generic function](https://en.wikipedia.org/wiki/Generic_function)
-- [Generic programming](https://en.wikipedia.org/wiki/Generic_programming)
-- [GitHub](https://en.wikipedia.org/wiki/GitHub)
-- [Apache Groovy](https://en.wikipedia.org/wiki/Apache_Groovy)
-- [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-- [Java (programming language)](https://en.wikipedia.org/wiki/Java_(programming_language))
-- [Java virtual machine](https://en.wikipedia.org/wiki/Java_virtual_machine)
-- [Julia (programming language)](https://en.wikipedia.org/wiki/Julia_(programming_language))
-- [Lasso (programming language)](https://en.wikipedia.org/wiki/Lasso_(programming_language))
-- [Late binding](https://en.wikipedia.org/wiki/Late_binding)
-- [Library (computing)](https://en.wikipedia.org/wiki/Library_(computing))
-- [McCLIM](https://en.wikipedia.org/wiki/McCLIM)
-- [Method (computer programming)](https://en.wikipedia.org/wiki/Method_(computer_programming))
-- [Multiple inheritance](https://en.wikipedia.org/wiki/Multiple_inheritance)
-- [Nim (programming language)](https://en.wikipedia.org/wiki/Nim_(programming_language))
-- [Operator (computer programming)](https://en.wikipedia.org/wiki/Operator_(computer_programming))
-- [Operator overloading](https://en.wikipedia.org/wiki/Operator_overloading)
-- [Parameter (computer programming)](https://en.wikipedia.org/wiki/Parameter_(computer_programming))
-- [Parametric polymorphism](https://en.wikipedia.org/wiki/Parametric_polymorphism)
-- [Perl](https://en.wikipedia.org/wiki/Perl)
-- [Polymorphism (computer science)](https://en.wikipedia.org/wiki/Polymorphism_(computer_science))
-- [Polymorphism (computer science)](https://en.wikipedia.org/wiki/Polymorphism_(computer_science))
-- [Predicate dispatch](https://en.wikipedia.org/wiki/Predicate_dispatch)
-- [Programming language](https://en.wikipedia.org/wiki/Programming_language)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Python syntax and semantics](https://en.wikipedia.org/wiki/Python_syntax_and_semantics)
-- [R (programming language)](https://en.wikipedia.org/wiki/R_(programming_language))
-- [Racket (programming language)](https://en.wikipedia.org/wiki/Racket_(programming_language))
-- [Raku (programming language)](https://en.wikipedia.org/wiki/Raku_(programming_language))
-- [Ruby (programming language)](https://en.wikipedia.org/wiki/Ruby_(programming_language))
-- [Execution (computing)](https://en.wikipedia.org/wiki/Execution_(computing))
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [Scheme (programming language)](https://en.wikipedia.org/wiki/Scheme_(programming_language))
-- [Seed7](https://en.wikipedia.org/wiki/Seed7)
-- [Dynamic dispatch](https://en.wikipedia.org/wiki/Dynamic_dispatch)
-- [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk)
-- [Source code](https://en.wikipedia.org/wiki/Source_code)
-- [Standard library](https://en.wikipedia.org/wiki/Standard_library)
-- [Steel Bank Common Lisp](https://en.wikipedia.org/wiki/Steel_Bank_Common_Lisp)
-- [Function (computer programming)](https://en.wikipedia.org/wiki/Function_(computer_programming))
-- [Subtyping](https://en.wikipedia.org/wiki/Subtyping)
-- [Text Adventure Development System](https://en.wikipedia.org/wiki/Text_Adventure_Development_System)
-- [TypeScript](https://en.wikipedia.org/wiki/TypeScript)
-- [Virtual function](https://en.wikipedia.org/wiki/Virtual_function)
-- [Visitor pattern](https://en.wikipedia.org/wiki/Visitor_pattern)
-- [Visual Basic (.NET)](https://en.wikipedia.org/wiki/Visual_Basic_(.NET))
-- [Virtual method table](https://en.wikipedia.org/wiki/Virtual_method_table)
-- [Wayback Machine](https://en.wikipedia.org/wiki/Wayback_Machine)
-- [Wolfram Language](https://en.wikipedia.org/wiki/Wolfram_Language)
-- [Wikipedia:Citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed)
-- [Template:Polymorphism](https://en.wikipedia.org/wiki/Template:Polymorphism)
-- [Template talk:Polymorphism](https://en.wikipedia.org/wiki/Template_talk:Polymorphism)
-- [Category:Articles containing potentially dated statements from 2021](https://en.wikipedia.org/wiki/Category:Articles_containing_potentially_dated_statements_from_2021)
-- [Category:Articles with unsourced statements from December 2007](https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_December_2007)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:37:35.547319+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:39 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 20180 bytes
+- **Word Count:** 3052 words

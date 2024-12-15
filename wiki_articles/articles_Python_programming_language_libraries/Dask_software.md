@@ -1,18 +1,18 @@
 # Dask (software)
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:25:51.349613+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 07:53:54 UTC
 - **Original Article:** [Dask (software)](https://en.wikipedia.org/wiki/Dask_(software))
 - **Language:** en
 - **Page ID:** 60583826
 
 ## Summary
-
 Dask is an open-source Python library for parallel computing. Dask scales Python code from multi-core local machines to large distributed clusters in the cloud. Dask provides a familiar user interface by mirroring the APIs of other libraries in the PyData ecosystem including: Pandas, scikit-learn and NumPy. It also exposes low-level APIs that help programmers run custom algorithms in parallel.
-Dask was created by Matthew Rocklin in December 2014 and has over 9.8k stars and 500 contributors on Gi
+Dask was created by Matthew Rocklin in December 2014 and has over 9.8k stars and 500 contributors on GitHub.
+Dask is used by retail, financial, governmental organizations, as well as life science and geophysical institutes. Walmart, Wayfair, JDA, GrubHub, General Motors, Nvidia, Harvard Medical School, Capital One and NASA are among the organizations that use Dask.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles with dead external links
 - Category:Articles with dead external links from August 2024
@@ -170,65 +170,9 @@ References
 External links
 Official website
 
-## Related Articles
-
-### Internal Links
-
-- [API](https://en.wikipedia.org/wiki/API)
-- [Anaconda (Python distribution)](https://en.wikipedia.org/wiki/Anaconda_(Python_distribution))
-- [Apache Airflow](https://en.wikipedia.org/wiki/Apache_Airflow)
-- [Apache Hadoop](https://en.wikipedia.org/wiki/Apache_Hadoop)
-- [Barclays](https://en.wikipedia.org/wiki/Barclays)
-- [Bessemer Venture Partners](https://en.wikipedia.org/wiki/Bessemer_Venture_Partners)
-- [Blue Yonder](https://en.wikipedia.org/wiki/Blue_Yonder)
-- [C++](https://en.wikipedia.org/wiki/C%2B%2B)
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [Capital One](https://en.wikipedia.org/wiki/Capital_One)
-- [Chan Zuckerberg Initiative](https://en.wikipedia.org/wiki/Chan_Zuckerberg_Initiative)
-- [Federal government of the United States](https://en.wikipedia.org/wiki/Federal_government_of_the_United_States)
-- [General Motors](https://en.wikipedia.org/wiki/General_Motors)
-- [GitHub](https://en.wikipedia.org/wiki/GitHub)
-- [Gordon and Betty Moore Foundation](https://en.wikipedia.org/wiki/Gordon_and_Betty_Moore_Foundation)
-- [Gradient boosting](https://en.wikipedia.org/wiki/Gradient_boosting)
-- [Grubhub](https://en.wikipedia.org/wiki/Grubhub)
-- [Harvard Medical School](https://en.wikipedia.org/wiki/Harvard_Medical_School)
-- [Howard Hughes Medical Institute](https://en.wikipedia.org/wiki/Howard_Hughes_Medical_Institute)
-- [Blue Yonder](https://en.wikipedia.org/wiki/Blue_Yonder)
-- [Keras](https://en.wikipedia.org/wiki/Keras)
-- [Kubernetes](https://en.wikipedia.org/wiki/Kubernetes)
-- [Los Alamos National Laboratory](https://en.wikipedia.org/wiki/Los_Alamos_National_Laboratory)
-- [Linux](https://en.wikipedia.org/wiki/Linux)
-- [MacOS](https://en.wikipedia.org/wiki/MacOS)
-- [Memory footprint](https://en.wikipedia.org/wiki/Memory_footprint)
-- [Met Office](https://en.wikipedia.org/wiki/Met_Office)
-- [Microsoft Windows](https://en.wikipedia.org/wiki/Microsoft_Windows)
-- [NASA](https://en.wikipedia.org/wiki/NASA)
-- [NumPy](https://en.wikipedia.org/wiki/NumPy)
-- [Nvidia](https://en.wikipedia.org/wiki/Nvidia)
-- [Open-source software](https://en.wikipedia.org/wiki/Open-source_software)
-- [Operating system](https://en.wikipedia.org/wiki/Operating_system)
-- [Pandas (software)](https://en.wikipedia.org/wiki/Pandas_(software))
-- [Parallel computing](https://en.wikipedia.org/wiki/Parallel_computing)
-- [Programmer](https://en.wikipedia.org/wiki/Programmer)
-- [PyTorch](https://en.wikipedia.org/wiki/PyTorch)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Repository (version control)](https://en.wikipedia.org/wiki/Repository_(version_control))
-- [Scikit-learn](https://en.wikipedia.org/wiki/Scikit-learn)
-- [Seismology](https://en.wikipedia.org/wiki/Seismology)
-- [Slurm Workload Manager](https://en.wikipedia.org/wiki/Slurm_Workload_Manager)
-- [Software categories](https://en.wikipedia.org/wiki/Software_categories)
-- [Software license](https://en.wikipedia.org/wiki/Software_license)
-- [Software release life cycle](https://en.wikipedia.org/wiki/Software_release_life_cycle)
-- [TensorFlow](https://en.wikipedia.org/wiki/TensorFlow)
-- [Travis Oliphant](https://en.wikipedia.org/wiki/Travis_Oliphant)
-- [University of California, Berkeley](https://en.wikipedia.org/wiki/University_of_California,_Berkeley)
-- [User interface](https://en.wikipedia.org/wiki/User_interface)
-- [Walmart](https://en.wikipedia.org/wiki/Walmart)
-- [Wayfair](https://en.wikipedia.org/wiki/Wayfair)
-- [XGBoost](https://en.wikipedia.org/wiki/XGBoost)
-- [Wikipedia:Link rot](https://en.wikipedia.org/wiki/Wikipedia:Link_rot)
-- [Category:Articles with dead external links from August 2024](https://en.wikipedia.org/wiki/Category:Articles_with_dead_external_links_from_August_2024)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:25:51.349613+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:26 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 13886 bytes
+- **Word Count:** 2041 words

@@ -1,19 +1,18 @@
 # Resource management (computing)
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:44:41.681046+00:00
+## Metadata
+- **Last Updated:** 2024-12-06 05:14:33 UTC
 - **Original Article:** [Resource management (computing)](https://en.wikipedia.org/wiki/Resource_management_(computing))
 - **Language:** en
 - **Page ID:** 41836840
 
 ## Summary
-
 In computer programming, resource management refers to techniques for managing resources (components with limited availability).
 Computer programs may manage their own resources by using features exposed by programming languages (Elder, Jackson & Liblit (2008) is a survey article contrasting different approaches), or may elect to manage them by a host – an operating system or virtual machine – or another program.
-Host-based management is known as resource tracking, and consists of cleaning up re
+Host-based management is known as resource tracking, and consists of cleaning up resource leaks: terminating access to resources that have been acquired but not released after use. This is known as reclaiming resources, and is analogous to garbage collection for memory. On many systems, the operating system reclaims resources after the process makes the exit system call.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles with specifically marked weasel-worded phrases
 - Category:Articles with example Python (programming language) code
@@ -130,89 +129,9 @@ DG Update: Dispose, Finalization, and Resource Management, Joe Duffy
 External links
 Deterministic Resource Management, WikiWikiWeb
 
-## Related Articles
-
-### Internal Links
-
-- [.NET Framework](https://en.wikipedia.org/wiki/.NET_Framework)
-- [Adapter pattern](https://en.wikipedia.org/wiki/Adapter_pattern)
-- [Advice (programming)](https://en.wikipedia.org/wiki/Advice_(programming))
-- [Andrei Alexandrescu](https://en.wikipedia.org/wiki/Andrei_Alexandrescu)
-- [Anti-pattern](https://en.wikipedia.org/wiki/Anti-pattern)
-- [Aspect-oriented programming](https://en.wikipedia.org/wiki/Aspect-oriented_programming)
-- [Association (object-oriented programming)](https://en.wikipedia.org/wiki/Association_(object-oriented_programming))
-- [C Sharp (programming language)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
-- [Class invariant](https://en.wikipedia.org/wiki/Class_invariant)
-- [Common Lisp](https://en.wikipedia.org/wiki/Common_Lisp)
-- [Computer program](https://en.wikipedia.org/wiki/Computer_program)
-- [Computer programming](https://en.wikipedia.org/wiki/Computer_programming)
-- [Concurrent computing](https://en.wikipedia.org/wiki/Concurrent_computing)
-- [Control-flow analysis](https://en.wikipedia.org/wiki/Control-flow_analysis)
-- [Decorator pattern](https://en.wikipedia.org/wiki/Decorator_pattern)
-- [Delegation pattern](https://en.wikipedia.org/wiki/Delegation_pattern)
-- [Dependency injection](https://en.wikipedia.org/wiki/Dependency_injection)
-- [Continuation-passing style](https://en.wikipedia.org/wiki/Continuation-passing_style)
-- [Dispose pattern](https://en.wikipedia.org/wiki/Dispose_pattern)
-- [Document Object Model](https://en.wikipedia.org/wiki/Document_Object_Model)
-- [Dominator (graph theory)](https://en.wikipedia.org/wiki/Dominator_(graph_theory))
-- [Encapsulation (computer programming)](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming))
-- [Exception handling](https://en.wikipedia.org/wiki/Exception_handling)
-- [Exception safety](https://en.wikipedia.org/wiki/Exception_safety)
-- [Exit (system call)](https://en.wikipedia.org/wiki/Exit_(system_call))
-- [Field (computer science)](https://en.wikipedia.org/wiki/Field_(computer_science))
-- [File descriptor](https://en.wikipedia.org/wiki/File_descriptor)
-- [File descriptor](https://en.wikipedia.org/wiki/File_descriptor)
-- [Finalizer](https://en.wikipedia.org/wiki/Finalizer)
-- [Garbage collection (computer science)](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science))
-- [Google Closure Tools](https://en.wikipedia.org/wiki/Google_Closure_Tools)
-- [Goto](https://en.wikipedia.org/wiki/Goto)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-- [Java (programming language)](https://en.wikipedia.org/wiki/Java_(programming_language))
-- [Java Class Library](https://en.wikipedia.org/wiki/Java_Class_Library)
-- [Java Native Interface](https://en.wikipedia.org/wiki/Java_Native_Interface)
-- [Joe Duffy](https://en.wikipedia.org/wiki/Joe_Duffy)
-- [Kent Beck](https://en.wikipedia.org/wiki/Kent_Beck)
-- [Lapsed listener problem](https://en.wikipedia.org/wiki/Lapsed_listener_problem)
-- [Memory management](https://en.wikipedia.org/wiki/Memory_management)
-- [NIL (programming language)](https://en.wikipedia.org/wiki/NIL_(programming_language))
-- [Nullable type](https://en.wikipedia.org/wiki/Nullable_type)
-- [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
-- [Object composition](https://en.wikipedia.org/wiki/Object_composition)
-- [Object composition](https://en.wikipedia.org/wiki/Object_composition)
-- [Object graph](https://en.wikipedia.org/wiki/Object_graph)
-- [Object lifetime](https://en.wikipedia.org/wiki/Object_lifetime)
-- [Observer pattern](https://en.wikipedia.org/wiki/Observer_pattern)
-- [Operating system](https://en.wikipedia.org/wiki/Operating_system)
-- [Pipeline (software)](https://en.wikipedia.org/wiki/Pipeline_(software))
-- [Pool (computer science)](https://en.wikipedia.org/wiki/Pool_(computer_science))
-- [Dominator (graph theory)](https://en.wikipedia.org/wiki/Dominator_(graph_theory))
-- [Programming language](https://en.wikipedia.org/wiki/Programming_language)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Resource acquisition is initialization](https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization)
-- [Resource contention](https://en.wikipedia.org/wiki/Resource_contention)
-- [Resource leak](https://en.wikipedia.org/wiki/Resource_leak)
-- [Runtime system](https://en.wikipedia.org/wiki/Runtime_system)
-- [Scheme (programming language)](https://en.wikipedia.org/wiki/Scheme_(programming_language))
-- [Security bug](https://en.wikipedia.org/wiki/Security_bug)
-- [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk)
-- [Structured programming](https://en.wikipedia.org/wiki/Structured_programming)
-- [Function (computer programming)](https://en.wikipedia.org/wiki/Function_(computer_programming))
-- [System call](https://en.wikipedia.org/wiki/System_call)
-- [System resource](https://en.wikipedia.org/wiki/System_resource)
-- [Tracing (software)](https://en.wikipedia.org/wiki/Tracing_(software))
-- [Tracing garbage collection](https://en.wikipedia.org/wiki/Tracing_garbage_collection)
-- [Transitive relation](https://en.wikipedia.org/wiki/Transitive_relation)
-- [University of Wisconsin–Madison](https://en.wikipedia.org/wiki/University_of_Wisconsin%E2%80%93Madison)
-- [Virtual machine](https://en.wikipedia.org/wiki/Virtual_machine)
-- [WikiWikiWeb](https://en.wikipedia.org/wiki/WikiWikiWeb)
-- [Wikipedia:Manual of Style/Words to watch](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch)
-- [Template:Cite tech report](https://en.wikipedia.org/wiki/Template:Cite_tech_report)
-- [Help:CS1 errors](https://en.wikipedia.org/wiki/Help:CS1_errors)
-- [Category:Articles with specifically marked weasel-worded phrases from November 2016](https://en.wikipedia.org/wiki/Category:Articles_with_specifically_marked_weasel-worded_phrases_from_November_2016)
-- [Category:CS1 maint: postscript](https://en.wikipedia.org/wiki/Category:CS1_maint:_postscript)
-- [Portal:Computer programming](https://en.wikipedia.org/wiki/Portal:Computer_programming)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:44:41.681046+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:53 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 19940 bytes
+- **Word Count:** 3068 words

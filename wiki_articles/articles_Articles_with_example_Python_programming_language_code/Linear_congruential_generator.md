@@ -1,18 +1,144 @@
 # Linear congruential generator
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:33:57.778667+00:00
+## Metadata
+- **Last Updated:** 2024-12-07 02:19:43 UTC
 - **Original Article:** [Linear congruential generator](https://en.wikipedia.org/wiki/Linear_congruential_generator)
 - **Language:** en
 - **Page ID:** 45527
 
 ## Summary
-
 A linear congruential generator (LCG) is an algorithm that yields a sequence of pseudo-randomized numbers calculated with a discontinuous piecewise linear equation. The method represents one of the oldest and best-known pseudorandom number generator algorithms. The theory behind them is relatively easy to understand, and they are easily implemented and fast, especially on computer hardware which can provide modular arithmetic by storage-bit truncation.
-The generator is defined by the recurrence 
+The generator is defined by the recurrence relation:
+
+  
+    
+      
+        
+          X
+          
+            n
+            +
+            1
+          
+        
+        =
+        
+          (
+          
+            a
+            
+              X
+              
+                n
+              
+            
+            +
+            c
+          
+          )
+        
+        
+          mod
+          
+            m
+          
+        
+      
+    
+    {\displaystyle X_{n+1}=\left(aX_{n}+c\right){\bmod {m}}}
+  
+
+where 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ is the sequence of pseudo-random values, and
+
+  
+    
+      
+        m
+        ,
+        
+        0
+        <
+        m
+      
+    
+    {\displaystyle m,\,0<m}
+  
+ — the "modulus"
+
+  
+    
+      
+        a
+        ,
+        
+        0
+        <
+        a
+        <
+        m
+      
+    
+    {\displaystyle a,\,0<a<m}
+  
+ — the "multiplier"
+
+  
+    
+      
+        c
+        ,
+        
+        0
+        ≤
+        c
+        <
+        m
+      
+    
+    {\displaystyle c,\,0\leq c<m}
+  
+ — the "increment"
+
+  
+    
+      
+        
+          X
+          
+            0
+          
+        
+        ,
+        
+        0
+        ≤
+        
+          X
+          
+            0
+          
+        
+        <
+        m
+      
+    
+    {\displaystyle X_{0},\,0\leq X_{0}<m}
+  
+ — the "seed" or "start value"
+are integer constants that specify the generator. If c = 0, the generator is often called a multiplicative congruential generator (MCG), or Lehmer RNG. If c ≠ 0, the method is called a mixed congruential generator.: 4- 
+When c ≠ 0, a mathematician would call the recurrence an affine transformation, not a linear one, but the misnomer is well-established in computer science.: 1
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles needing additional references
 - Category:All articles with unsourced statements
@@ -536,141 +662,9 @@ The "Death of Art" computer art project at Goldstein Technologies LLC, uses an L
 P. L'Ecuyer and R. Simard, "TestU01: A C Library for Empirical Testing of Random Number Generators", May 2006, revised November 2006, ACM Transactions on Mathematical Software, 33, 4, Article 22, August 2007.
 Article about another way of cracking LCG
 
-## Related Articles
-
-### Internal Links
-
-- [ACORN (random number generator)](https://en.wikipedia.org/wiki/ACORN_(random_number_generator))
-- [ANSI C](https://en.wikipedia.org/wiki/ANSI_C)
-- [Affine transformation](https://en.wikipedia.org/wiki/Affine_transformation)
-- [Algorithm](https://en.wikipedia.org/wiki/Algorithm)
-- [ArXiv](https://en.wikipedia.org/wiki/ArXiv)
-- [As-if rule](https://en.wikipedia.org/wiki/As-if_rule)
-- [Bibcode](https://en.wikipedia.org/wiki/Bibcode)
-- [Birthday problem](https://en.wikipedia.org/wiki/Birthday_problem)
-- [Borland](https://en.wikipedia.org/wiki/Borland)
-- [Delphi (software)](https://en.wikipedia.org/wiki/Delphi_(software))
-- [C++11](https://en.wikipedia.org/wiki/C%2B%2B11)
-- [C11 (C standard revision)](https://en.wikipedia.org/wiki/C11_(C_standard_revision))
-- [C17 (C standard revision)](https://en.wikipedia.org/wiki/C17_(C_standard_revision))
-- [ANSI C](https://en.wikipedia.org/wiki/ANSI_C)
-- [C99](https://en.wikipedia.org/wiki/C99)
-- [Carbon (API)](https://en.wikipedia.org/wiki/Carbon_(API))
-- [Carry-less product](https://en.wikipedia.org/wiki/Carry-less_product)
-- [Cc65](https://en.wikipedia.org/wiki/Cc65)
-- [Circulant matrix](https://en.wikipedia.org/wiki/Circulant_matrix)
-- [CiteSeerX](https://en.wikipedia.org/wiki/CiteSeerX)
-- [CodeWarrior](https://en.wikipedia.org/wiki/CodeWarrior)
-- [Combined linear congruential generator](https://en.wikipedia.org/wiki/Combined_linear_congruential_generator)
-- [Communications of the ACM](https://en.wikipedia.org/wiki/Communications_of_the_ACM)
-- [Compiler](https://en.wikipedia.org/wiki/Compiler)
-- [Coprime integers](https://en.wikipedia.org/wiki/Coprime_integers)
-- [Block cipher mode of operation](https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation)
-- [Cryptographically secure pseudorandom number generator](https://en.wikipedia.org/wiki/Cryptographically_secure_pseudorandom_number_generator)
-- [Digital Mars](https://en.wikipedia.org/wiki/Digital_Mars)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth)
-- [List of Latin phrases (E)](https://en.wikipedia.org/wiki/List_of_Latin_phrases_(E))
-- [Exclusive or](https://en.wikipedia.org/wiki/Exclusive_or)
-- [Free Pascal](https://en.wikipedia.org/wiki/Free_Pascal)
-- [Full cycle](https://en.wikipedia.org/wiki/Full_cycle)
-- [GF(2)](https://en.wikipedia.org/wiki/GF(2))
-- [GNU Compiler Collection](https://en.wikipedia.org/wiki/GNU_Compiler_Collection)
-- [Generator (computer programming)](https://en.wikipedia.org/wiki/Generator_(computer_programming))
-- [George Marsaglia](https://en.wikipedia.org/wiki/George_Marsaglia)
-- [Glibc](https://en.wikipedia.org/wiki/Glibc)
-- [Guy L. Steele Jr.](https://en.wikipedia.org/wiki/Guy_L._Steele_Jr.)
-- [Harvey Mudd College](https://en.wikipedia.org/wiki/Harvey_Mudd_College)
-- [Haskell](https://en.wikipedia.org/wiki/Haskell)
-- [Handle System](https://en.wikipedia.org/wiki/Handle_System)
-- [Hyperplane](https://en.wikipedia.org/wiki/Hyperplane)
-- [Hyperplane](https://en.wikipedia.org/wiki/Hyperplane)
-- [VisualAge](https://en.wikipedia.org/wiki/VisualAge)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [If and only if](https://en.wikipedia.org/wiki/If_and_only_if)
-- [Integer](https://en.wikipedia.org/wiki/Integer)
-- [Internet Engineering Task Force](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force)
-- [Inversive congruential generator](https://en.wikipedia.org/wiki/Inversive_congruential_generator)
-- [Java (programming language)](https://en.wikipedia.org/wiki/Java_(programming_language))
-- [Joan Boyar](https://en.wikipedia.org/wiki/Joan_Boyar)
-- [Journal of the ACM](https://en.wikipedia.org/wiki/Journal_of_the_ACM)
-- [KISS (algorithm)](https://en.wikipedia.org/wiki/KISS_(algorithm))
-- [Lagged Fibonacci generator](https://en.wikipedia.org/wiki/Lagged_Fibonacci_generator)
-- [Lazy evaluation](https://en.wikipedia.org/wiki/Lazy_evaluation)
-- [Least common multiple](https://en.wikipedia.org/wiki/Least_common_multiple)
-- [Lehmer random number generator](https://en.wikipedia.org/wiki/Lehmer_random_number_generator)
-- [Lehmer random number generator](https://en.wikipedia.org/wiki/Lehmer_random_number_generator)
-- [Linear-feedback shift register](https://en.wikipedia.org/wiki/Linear-feedback_shift_register)
-- [Linear map](https://en.wikipedia.org/wiki/Linear_map)
-- [List of random number generators](https://en.wikipedia.org/wiki/List_of_random_number_generators)
-- [Logical shift](https://en.wikipedia.org/wiki/Logical_shift)
-- [Lehmer random number generator](https://en.wikipedia.org/wiki/Lehmer_random_number_generator)
-- [MMIX](https://en.wikipedia.org/wiki/MMIX)
-- [Marsaglia's theorem](https://en.wikipedia.org/wiki/Marsaglia%27s_theorem)
-- [Mathematics of Computation](https://en.wikipedia.org/wiki/Mathematics_of_Computation)
-- [Mersenne Twister](https://en.wikipedia.org/wiki/Mersenne_Twister)
-- [Mersenne prime](https://en.wikipedia.org/wiki/Mersenne_prime)
-- [Mersenne Twister](https://en.wikipedia.org/wiki/Mersenne_Twister)
-- [Modular arithmetic](https://en.wikipedia.org/wiki/Modular_arithmetic)
-- [Modulo](https://en.wikipedia.org/wiki/Modulo)
-- [Multiply-with-carry pseudorandom number generator](https://en.wikipedia.org/wiki/Multiply-with-carry_pseudorandom_number_generator)
-- [Musl](https://en.wikipedia.org/wiki/Musl)
-- [Windows Native API](https://en.wikipedia.org/wiki/Windows_Native_API)
-- [Neil Gershenfeld](https://en.wikipedia.org/wiki/Neil_Gershenfeld)
-- [Newlib](https://en.wikipedia.org/wiki/Newlib)
-- [Numerical Recipes](https://en.wikipedia.org/wiki/Numerical_Recipes)
-- [OpenVMS](https://en.wikipedia.org/wiki/OpenVMS)
-- [Operations Research Letters](https://en.wikipedia.org/wiki/Operations_Research_Letters)
-- [PubMed Central](https://en.wikipedia.org/wiki/PubMed_Central)
-- [PubMed](https://en.wikipedia.org/wiki/PubMed)
-- [Proceedings of the National Academy of Sciences of the United States of America](https://en.wikipedia.org/wiki/Proceedings_of_the_National_Academy_of_Sciences_of_the_United_States_of_America)
-- [POSIX](https://en.wikipedia.org/wiki/POSIX)
-- [Permuted congruential generator](https://en.wikipedia.org/wiki/Permuted_congruential_generator)
-- [Piecewise linear function](https://en.wikipedia.org/wiki/Piecewise_linear_function)
-- [Polynomial ring](https://en.wikipedia.org/wiki/Polynomial_ring)
-- [Power of two](https://en.wikipedia.org/wiki/Power_of_two)
-- [Prime number](https://en.wikipedia.org/wiki/Prime_number)
-- [Primitive element (finite field)](https://en.wikipedia.org/wiki/Primitive_element_(finite_field))
-- [Pseudorandom number generator](https://en.wikipedia.org/wiki/Pseudorandom_number_generator)
-- [Pseudorandomness](https://en.wikipedia.org/wiki/Pseudorandomness)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [RANDU](https://en.wikipedia.org/wiki/RANDU)
-- [Randomness](https://en.wikipedia.org/wiki/Randomness)
-- [Rank (linear algebra)](https://en.wikipedia.org/wiki/Rank_(linear_algebra))
-- [Recurrence relation](https://en.wikipedia.org/wiki/Recurrence_relation)
-- [Request for Comments](https://en.wikipedia.org/wiki/Request_for_Comments)
-- [Runtime library](https://en.wikipedia.org/wiki/Runtime_library)
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [Sebastiano Vigna](https://en.wikipedia.org/wiki/Sebastiano_Vigna)
-- [Sequence](https://en.wikipedia.org/wiki/Sequence)
-- [Spectral test](https://en.wikipedia.org/wiki/Spectral_test)
-- [Square-free integer](https://en.wikipedia.org/wiki/Square-free_integer)
-- [C standard library](https://en.wikipedia.org/wiki/C_standard_library)
-- [Subtract with carry](https://en.wikipedia.org/wiki/Subtract_with_carry)
-- [TestU01](https://en.wikipedia.org/wiki/TestU01)
-- [Randomness test](https://en.wikipedia.org/wiki/Randomness_test)
-- [The Art of Computer Programming](https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming)
-- [Turbo Pascal](https://en.wikipedia.org/wiki/Turbo_Pascal)
-- [Two's complement](https://en.wikipedia.org/wiki/Two%27s_complement)
-- [Video game console](https://en.wikipedia.org/wiki/Video_game_console)
-- [Virtual Pascal](https://en.wikipedia.org/wiki/Virtual_Pascal)
-- [Visual Basic](https://en.wikipedia.org/wiki/Visual_Basic)
-- [Microsoft Visual C++](https://en.wikipedia.org/wiki/Microsoft_Visual_C%2B%2B)
-- [Watcom C/C++](https://en.wikipedia.org/wiki/Watcom_C/C%2B%2B)
-- [Wayback Machine](https://en.wikipedia.org/wiki/Wayback_Machine)
-- [Weyl sequence](https://en.wikipedia.org/wiki/Weyl_sequence)
-- [Wichmann–Hill](https://en.wikipedia.org/wiki/Wichmann%E2%80%93Hill)
-- [Windows Vista](https://en.wikipedia.org/wiki/Windows_Vista)
-- [Word (computer architecture)](https://en.wikipedia.org/wiki/Word_(computer_architecture))
-- [Xorshift](https://en.wikipedia.org/wiki/Xorshift)
-- [ZX81](https://en.wikipedia.org/wiki/ZX81)
-- [Wikipedia:Citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed)
-- [Wikipedia:Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Help:Referencing for beginners](https://en.wikipedia.org/wiki/Help:Referencing_for_beginners)
-- [Category:Articles needing additional references from July 2021](https://en.wikipedia.org/wiki/Category:Articles_needing_additional_references_from_July_2021)
-- [Category:Articles with unsourced statements from November 2017](https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_November_2017)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:33:57.778667+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:31 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 23552 bytes
+- **Word Count:** 3456 words

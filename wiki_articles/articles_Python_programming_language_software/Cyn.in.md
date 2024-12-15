@@ -1,18 +1,17 @@
 # Cyn.in
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:43:38.390619+00:00
+## Metadata
+- **Last Updated:** 2024-11-24 06:40:50 UTC
 - **Original Article:** [Cyn.in](https://en.wikipedia.org/wiki/Cyn.in)
 - **Language:** en
 - **Page ID:** 8384084
 
 ## Summary
-
 Cyn.in is an open-source enterprise collaborative software built on top of Plone a content management system written in the Python programming language which is a layer above Zope. Cyn.in is developed by Cynapse a company founded by Apurva Roy Choudhury and Dhiraj Gupta which is based in India. Cyn.in enables its users to store, retrieve and organize files and rich content in a collaborative, multiuser environment.
-Cyn.in comes in three flavors. Cyn.in Community Edition is released under the GNU
+Cyn.in comes in three flavors. Cyn.in Community Edition is released under the GNU General Public License version 3 based on open standards and is completely "free" to use. Cyn.in Enterprise Editions are commercially supported, certified and tested by Cynapse. The on-premises appliance is designed towards businesses who want to install the software on their infrastructure behind their firewall. With the On-Demand Service, Cynapse hosts the software for businesses to use, in secure cloud servers.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:2006 software
 - Category:Adobe Integrated Runtime platform software
@@ -158,84 +157,9 @@ User and Administration Wiki Documentation
 Cyn.in listed as an add-on product on the Plone Website
 Cyn.in Desktop client listing in the Flex showcase
 
-## Related Articles
-
-### Internal Links
-
-- [.NET Framework](https://en.wikipedia.org/wiki/.NET_Framework)
-- [Ajax (programming)](https://en.wikipedia.org/wiki/Ajax_(programming))
-- [Accessibility](https://en.wikipedia.org/wiki/Accessibility)
-- [Authentication](https://en.wikipedia.org/wiki/Authentication)
-- [Authorization](https://en.wikipedia.org/wiki/Authorization)
-- [Backup](https://en.wikipedia.org/wiki/Backup)
-- [Blog](https://en.wikipedia.org/wiki/Blog)
-- [Blog](https://en.wikipedia.org/wiki/Blog)
-- [Business software](https://en.wikipedia.org/wiki/Business_software)
-- [CSS](https://en.wikipedia.org/wiki/CSS)
-- [Collaborative software](https://en.wikipedia.org/wiki/Collaborative_software)
-- [Collaboration](https://en.wikipedia.org/wiki/Collaboration)
-- [Collaborative software](https://en.wikipedia.org/wiki/Collaborative_software)
-- [Content management system](https://en.wikipedia.org/wiki/Content_management_system)
-- [Cross-platform software](https://en.wikipedia.org/wiki/Cross-platform_software)
-- [Digital asset management](https://en.wikipedia.org/wiki/Digital_asset_management)
-- [Document management system](https://en.wikipedia.org/wiki/Document_management_system)
-- [Enterprise content management](https://en.wikipedia.org/wiki/Enterprise_content_management)
-- [Enterprise social software](https://en.wikipedia.org/wiki/Enterprise_social_software)
-- [Faceted search](https://en.wikipedia.org/wiki/Faceted_search)
-- [File system](https://en.wikipedia.org/wiki/File_system)
-- [Directory (computing)](https://en.wikipedia.org/wiki/Directory_(computing))
-- [GNU General Public License](https://en.wikipedia.org/wiki/GNU_General_Public_License)
-- [Google Maps](https://en.wikipedia.org/wiki/Google_Maps)
-- [Internationalization and localization](https://en.wikipedia.org/wiki/Internationalization_and_localization)
-- [India](https://en.wikipedia.org/wiki/India)
-- [Information management](https://en.wikipedia.org/wiki/Information_management)
-- [Knowledge management](https://en.wikipedia.org/wiki/Knowledge_management)
-- [Knowledge transfer](https://en.wikipedia.org/wiki/Knowledge_transfer)
-- [List of collaborative software](https://en.wikipedia.org/wiki/List_of_collaborative_software)
-- [List of content management systems](https://en.wikipedia.org/wiki/List_of_content_management_systems)
-- [Microblogging](https://en.wikipedia.org/wiki/Microblogging)
-- [Microsoft Excel](https://en.wikipedia.org/wiki/Microsoft_Excel)
-- [Microsoft PowerPoint](https://en.wikipedia.org/wiki/Microsoft_PowerPoint)
-- [Microsoft Word](https://en.wikipedia.org/wiki/Microsoft_Word)
-- [Multitenancy](https://en.wikipedia.org/wiki/Multitenancy)
-- [Multi-user software](https://en.wikipedia.org/wiki/Multi-user_software)
-- [Open-source software](https://en.wikipedia.org/wiki/Open-source_software)
-- [Open standard](https://en.wikipedia.org/wiki/Open_standard)
-- [Operating system](https://en.wikipedia.org/wiki/Operating_system)
-- [Personal information management](https://en.wikipedia.org/wiki/Personal_information_management)
-- [Plone (software)](https://en.wikipedia.org/wiki/Plone_(software))
-- [Plone (software)](https://en.wikipedia.org/wiki/Plone_(software))
-- [PDF](https://en.wikipedia.org/wiki/PDF)
-- [Programmer](https://en.wikipedia.org/wiki/Programmer)
-- [Programming language](https://en.wikipedia.org/wiki/Programming_language)
-- [Publishing](https://en.wikipedia.org/wiki/Publishing)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [RSS](https://en.wikipedia.org/wiki/RSS)
-- [Media (communication)](https://en.wikipedia.org/wiki/Media_(communication))
-- [Software as a service](https://en.wikipedia.org/wiki/Software_as_a_service)
-- [Slide show](https://en.wikipedia.org/wiki/Slide_show)
-- [Software as a service](https://en.wikipedia.org/wiki/Software_as_a_service)
-- [Software categories](https://en.wikipedia.org/wiki/Software_categories)
-- [Software license](https://en.wikipedia.org/wiki/Software_license)
-- [Software release life cycle](https://en.wikipedia.org/wiki/Software_release_life_cycle)
-- [SourceForge](https://en.wikipedia.org/wiki/SourceForge)
-- [Subdomain](https://en.wikipedia.org/wiki/Subdomain)
-- [Taxonomy](https://en.wikipedia.org/wiki/Taxonomy)
-- [The New York Times](https://en.wikipedia.org/wiki/The_New_York_Times)
-- [URL](https://en.wikipedia.org/wiki/URL)
-- [Version control](https://en.wikipedia.org/wiki/Version_control)
-- [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG)
-- [Wayback Machine](https://en.wikipedia.org/wiki/Wayback_Machine)
-- [WebDAV](https://en.wikipedia.org/wiki/WebDAV)
-- [Wiki](https://en.wikipedia.org/wiki/Wiki)
-- [Wiki](https://en.wikipedia.org/wiki/Wiki)
-- [Workflow](https://en.wikipedia.org/wiki/Workflow)
-- [XHTML](https://en.wikipedia.org/wiki/XHTML)
-- [Zope](https://en.wikipedia.org/wiki/Zope)
-- [Wikipedia:Link rot](https://en.wikipedia.org/wiki/Wikipedia:Link_rot)
-- [Category:Articles with dead external links from August 2017](https://en.wikipedia.org/wiki/Category:Articles_with_dead_external_links_from_August_2017)
-- [Portal:Free and open-source software](https://en.wikipedia.org/wiki/Portal:Free_and_open-source_software)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:43:38.390619+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:53 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 6241 bytes
+- **Word Count:** 918 words

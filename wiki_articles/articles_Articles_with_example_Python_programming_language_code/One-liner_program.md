@@ -1,22 +1,23 @@
 # One-liner program
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:40:29.596846+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 06:54:41 UTC
 - **Original Article:** [One-liner program](https://en.wikipedia.org/wiki/One-liner_program)
 - **Language:** en
 - **Page ID:** 898917
 
 ## Summary
-
 In computer programming, a one-liner program originally was textual input to the command line of an operating system shell that performed some function in just one line of input. In the present day, a one-liner can be
 
 an expression written in the language of the shell;
 the invocation of an interpreter together with program source for the interpreter to run;
 the invocation of a compiler together with source to compile and instructions for executing the compiled program.
-Certain dynamic languages
+Certain dynamic languages for scripting, such as AWK, sed, and Perl, have traditionally been adept at expressing one-liners.
+Shell interpreters such as Unix shells or Windows PowerShell allow for the construction of powerful one-liners.
+The use of the phrase one-liner has been widened to also include program-source for any language that does something useful in one line.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles needing additional references
 - Category:Articles needing additional references from May 2019
@@ -158,53 +159,9 @@ Tcl Sources, main Tcl and Tk source code download website
 Tcler's Wiki, Tcl/Tk scripts and reference clearing house
 TkDocs, Tcl/Tk Official documentation and archives
 
-## Related Articles
-
-### Internal Links
-
-- [APL (programming language)](https://en.wikipedia.org/wiki/APL_(programming_language))
-- [ASCII](https://en.wikipedia.org/wiki/ASCII)
-- [AWK](https://en.wikipedia.org/wiki/AWK)
-- [BASIC](https://en.wikipedia.org/wiki/BASIC)
-- [Bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet)
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [Command-line interface](https://en.wikipedia.org/wiki/Command-line_interface)
-- [Commodore 64](https://en.wikipedia.org/wiki/Commodore_64)
-- [Compiler](https://en.wikipedia.org/wiki/Compiler)
-- [Computer programming](https://en.wikipedia.org/wiki/Computer_programming)
-- [Creative Commons license](https://en.wikipedia.org/wiki/Creative_Commons_license)
-- [Dynamic programming language](https://en.wikipedia.org/wiki/Dynamic_programming_language)
-- [Execution (computing)](https://en.wikipedia.org/wiki/Execution_(computing))
-- [Expression (computer science)](https://en.wikipedia.org/wiki/Expression_(computer_science))
-- [Haskell](https://en.wikipedia.org/wiki/Haskell)
-- [Home computer](https://en.wikipedia.org/wiki/Home_computer)
-- [International Obfuscated C Code Contest](https://en.wikipedia.org/wiki/International_Obfuscated_C_Code_Contest)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Interpreter (computing)](https://en.wikipedia.org/wiki/Interpreter_(computing))
-- [J (programming language)](https://en.wikipedia.org/wiki/J_(programming_language))
-- [Operating system](https://en.wikipedia.org/wiki/Operating_system)
-- [Perl](https://en.wikipedia.org/wiki/Perl)
-- [Programming language](https://en.wikipedia.org/wiki/Programming_language)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Quicksort](https://en.wikipedia.org/wiki/Quicksort)
-- [Racket (programming language)](https://en.wikipedia.org/wiki/Racket_(programming_language))
-- [Scripting language](https://en.wikipedia.org/wiki/Scripting_language)
-- [Sed](https://en.wikipedia.org/wiki/Sed)
-- [Shell (computing)](https://en.wikipedia.org/wiki/Shell_(computing))
-- [Tcl](https://en.wikipedia.org/wiki/Tcl)
-- [The AWK Programming Language](https://en.wikipedia.org/wiki/The_AWK_Programming_Language)
-- [Type-in program](https://en.wikipedia.org/wiki/Type-in_program)
-- [Unix](https://en.wikipedia.org/wiki/Unix)
-- [Unix shell](https://en.wikipedia.org/wiki/Unix_shell)
-- [Wc (Unix)](https://en.wikipedia.org/wiki/Wc_(Unix))
-- [Wikibooks](https://en.wikipedia.org/wiki/Wikibooks)
-- [PowerShell](https://en.wikipedia.org/wiki/PowerShell)
-- [Wikipedia:Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)
-- [Wikipedia:Wikimedia sister projects](https://en.wikipedia.org/wiki/Wikipedia:Wikimedia_sister_projects)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Help:Referencing for beginners](https://en.wikipedia.org/wiki/Help:Referencing_for_beginners)
-- [Category:Articles needing additional references from May 2019](https://en.wikipedia.org/wiki/Category:Articles_needing_additional_references_from_May_2019)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:40:29.596846+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:44 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 7733 bytes
+- **Word Count:** 1240 words

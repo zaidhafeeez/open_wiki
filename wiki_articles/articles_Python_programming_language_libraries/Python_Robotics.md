@@ -1,17 +1,16 @@
 # Python Robotics
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:59:05.319081+00:00
+## Metadata
+- **Last Updated:** 2024-11-24 06:40:51 UTC
 - **Original Article:** [Python Robotics](https://en.wikipedia.org/wiki/Python_Robotics)
 - **Language:** en
 - **Page ID:** 18757423
 
 ## Summary
-
 Python Robotics (Pyro) is a project designed to create an easy-to-use interface for accessing and controlling a wide variety of real and simulated robots.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:2003 in robotics
 - Category:2003 software
@@ -48,31 +47,9 @@ Blank, D. S.; Yanco, H.; Kumar, D.; Meeden, L. (Spring 2004). Avoiding the Karel
 External links
 Beyond LEGOs - NSF funding page for Pyrobot
 
-## Related Articles
-
-### Internal Links
-
-- [AIBO](https://en.wikipedia.org/wiki/AIBO)
-- [Association for the Advancement of Artificial Intelligence](https://en.wikipedia.org/wiki/Association_for_the_Advancement_of_Artificial_Intelligence)
-- [Association for the Advancement of Artificial Intelligence](https://en.wikipedia.org/wiki/Association_for_the_Advancement_of_Artificial_Intelligence)
-- [Bryn Mawr College](https://en.wikipedia.org/wiki/Bryn_Mawr_College)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Holly Yanco](https://en.wikipedia.org/wiki/Holly_Yanco)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Institute for Personal Robots in Education](https://en.wikipedia.org/wiki/Institute_for_Personal_Robots_in_Education)
-- [Khepera mobile robot](https://en.wikipedia.org/wiki/Khepera_mobile_robot)
-- [National Science Foundation](https://en.wikipedia.org/wiki/National_Science_Foundation)
-- [Player Project](https://en.wikipedia.org/wiki/Player_Project)
-- [Python Robotics](https://en.wikipedia.org/wiki/Python_Robotics)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Robotics](https://en.wikipedia.org/wiki/Robotics)
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [SIGCSE Technical Symposium on Computer Science Education](https://en.wikipedia.org/wiki/SIGCSE_Technical_Symposium_on_Computer_Science_Education)
-- [SRI International](https://en.wikipedia.org/wiki/SRI_International)
-- [Software release life cycle](https://en.wikipedia.org/wiki/Software_release_life_cycle)
-- [Swarthmore College](https://en.wikipedia.org/wiki/Swarthmore_College)
-- [University of Massachusetts Lowell](https://en.wikipedia.org/wiki/University_of_Massachusetts_Lowell)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:59:05.319081+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:33 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 2244 bytes
+- **Word Count:** 329 words

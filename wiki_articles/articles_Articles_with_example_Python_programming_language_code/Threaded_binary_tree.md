@@ -1,18 +1,17 @@
 # Threaded binary tree
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:50:58.461365+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 07:01:58 UTC
 - **Original Article:** [Threaded binary tree](https://en.wikipedia.org/wiki/Threaded_binary_tree)
 - **Language:** en
 - **Page ID:** 4262609
 
 ## Summary
-
 In computing, a threaded binary tree is a binary tree variant that facilitates traversal in a particular order.
-An entire binary search tree can be easily traversed in order of the main key, but given only a pointer to a node, finding the node which comes next may be slow or impossible. For example, leaf nodes by definition have no descendants, so given only a pointer to a leaf node no other node can be reached. A threaded tree adds extra information in some or all nodes, so that for any given s
+An entire binary search tree can be easily traversed in order of the main key, but given only a pointer to a node, finding the node which comes next may be slow or impossible. For example, leaf nodes by definition have no descendants, so given only a pointer to a leaf node no other node can be reached. A threaded tree adds extra information in some or all nodes, so that for any given single node the "next" node can be found quickly, allowing tree traversal without recursion and the extra storage (proportional to the tree's depth) that recursion requires.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles needing rewrite
 - Category:Articles with example Python (programming language) code
@@ -78,31 +77,9 @@ References
 External links
 GNU libavl 2.0.2, Section on threaded binary search trees
 
-## Related Articles
-
-### Internal Links
-
-- [Alan Perlis](https://en.wikipedia.org/wiki/Alan_Perlis)
-- [Binary search tree](https://en.wikipedia.org/wiki/Binary_search_tree)
-- [Binary tree](https://en.wikipedia.org/wiki/Binary_tree)
-- [Computing](https://en.wikipedia.org/wiki/Computing)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Tree traversal](https://en.wikipedia.org/wiki/Tree_traversal)
-- [Information Processing Letters](https://en.wikipedia.org/wiki/Information_Processing_Letters)
-- [Tree traversal](https://en.wikipedia.org/wiki/Tree_traversal)
-- [Name–value pair](https://en.wikipedia.org/wiki/Name%E2%80%93value_pair)
-- [Linked list](https://en.wikipedia.org/wiki/Linked_list)
-- [Node (computer science)](https://en.wikipedia.org/wiki/Node_(computer_science))
-- [Path graph](https://en.wikipedia.org/wiki/Path_graph)
-- [Pointer (computer programming)](https://en.wikipedia.org/wiki/Pointer_(computer_programming))
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Tree traversal](https://en.wikipedia.org/wiki/Tree_traversal)
-- [Talk:Threaded binary tree](https://en.wikipedia.org/wiki/Talk:Threaded_binary_tree)
-- [Wikipedia:Manual of Style](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style)
-- [Category:Wikipedia articles needing rewrite from October 2011](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_needing_rewrite_from_October_2011)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:50:58.461365+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:03 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 5287 bytes
+- **Word Count:** 941 words

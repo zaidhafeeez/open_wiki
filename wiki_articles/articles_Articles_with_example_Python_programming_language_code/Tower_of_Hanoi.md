@@ -1,17 +1,21 @@
 # Tower of Hanoi
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:51:37.883510+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 06:51:03 UTC
 - **Original Article:** [Tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi)
 - **Language:** en
 - **Page ID:** 56990
 
 ## Summary
+The Tower of Hanoi (also called The problem of Benares Temple or Tower of Brahma or Lucas' Tower and sometimes pluralized as Towers, or simply pyramid puzzle) is a mathematical game or puzzle consisting of three rods and a number of disks of various diameters, which can slide onto any rod. The puzzle begins with the disks stacked on one rod in order of decreasing size, the smallest at the top, thus approximating a conical shape. The objective of the puzzle is to move the entire stack to one of the other rods, obeying the following rules:
 
-The Tower of Hanoi (also called The problem of Benares Temple or Tower of Brahma or Lucas' Tower and sometimes pluralized as Towers, or simply pyramid puzzle) is a mathematical game or puzzle consisting of three rods and a number of disks of various diameters, which can slide onto any rod. The puzzle begins with the disks stacked on one rod in order of decreasing size, the smallest at the top, thus approximating a conical shape. The objective of the puzzle is to move the entire stack to one of t
+Only one disk may be moved at a time.
+Each move consists of taking the upper disk from one of the stacks and placing it on top of another stack or on an empty rod.
+No disk may be placed on top of a disk that is smaller than it.
+With three disks, the puzzle can be solved in seven moves. The minimal number of moves required to solve a Tower of Hanoi puzzle is 2n − 1, where n is the number of disks.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:1883 introductions
 - Category:1889 documents
@@ -800,156 +804,9 @@ External links
 
 Weisstein, Eric W. "Tower of Hanoi". MathWorld.
 
-## Related Articles
-
-### Internal Links
-
-- [1,000,000,000](https://en.wikipedia.org/wiki/1,000,000,000)
-- [30,000](https://en.wikipedia.org/wiki/30,000)
-- [ABACABA pattern](https://en.wikipedia.org/wiki/ABACABA_pattern)
-- [Adventure game](https://en.wikipedia.org/wiki/Adventure_game)
-- [Age of the universe](https://en.wikipedia.org/wiki/Age_of_the_universe)
-- [ArXiv](https://en.wikipedia.org/wiki/ArXiv)
-- [Asymptotic analysis](https://en.wikipedia.org/wiki/Asymptotic_analysis)
-- [Backup rotation scheme](https://en.wikipedia.org/wiki/Backup_rotation_scheme)
-- [Baguenaudier](https://en.wikipedia.org/wiki/Baguenaudier)
-- [Varanasi](https://en.wikipedia.org/wiki/Varanasi)
-- [Bibcode](https://en.wikipedia.org/wiki/Bibcode)
-- [Big O notation](https://en.wikipedia.org/wiki/Big_O_notation)
-- [Binary number](https://en.wikipedia.org/wiki/Binary_number)
-- [Bit](https://en.wikipedia.org/wiki/Bit)
-- [Bitwise operation](https://en.wikipedia.org/wiki/Bitwise_operation)
-- [Brahma](https://en.wikipedia.org/wiki/Brahma)
-- [Brahmin](https://en.wikipedia.org/wiki/Brahmin)
-- [Brain teaser](https://en.wikipedia.org/wiki/Brain_teaser)
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [Chess problem](https://en.wikipedia.org/wiki/Chess_problem)
-- [CiteSeerX](https://en.wikipedia.org/wiki/CiteSeerX)
-- [Coach (Survivor contestant)](https://en.wikipedia.org/wiki/Coach_(Survivor_contestant))
-- [Combination puzzle](https://en.wikipedia.org/wiki/Combination_puzzle)
-- [Puzzle video game](https://en.wikipedia.org/wiki/Puzzle_video_game)
-- [Cone](https://en.wikipedia.org/wiki/Cone)
-- [Construction puzzle](https://en.wikipedia.org/wiki/Construction_puzzle)
-- [Find first set](https://en.wikipedia.org/wiki/Find_first_set)
-- [Crossword](https://en.wikipedia.org/wiki/Crossword)
-- [Diameter](https://en.wikipedia.org/wiki/Diameter)
-- [Dilemma](https://en.wikipedia.org/wiki/Dilemma)
-- [Disentanglement puzzle](https://en.wikipedia.org/wiki/Disentanglement_puzzle)
-- [Dissection puzzle](https://en.wikipedia.org/wiki/Dissection_puzzle)
-- [Doctor Who](https://en.wikipedia.org/wiki/Doctor_Who)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Emacs](https://en.wikipedia.org/wiki/Emacs)
-- [Eponym](https://en.wikipedia.org/wiki/Eponym)
-- [Eric Frank Russell](https://en.wikipedia.org/wiki/Eric_Frank_Russell)
-- [Eric W. Weisstein](https://en.wikipedia.org/wiki/Eric_W._Weisstein)
-- [Executive functions](https://en.wikipedia.org/wiki/Executive_functions)
-- [Fractal](https://en.wikipedia.org/wiki/Fractal)
-- [Frontal lobe](https://en.wikipedia.org/wiki/Frontal_lobe)
-- [Genshin Impact](https://en.wikipedia.org/wiki/Genshin_Impact)
-- [Graph (discrete mathematics)](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics))
-- [Gray code](https://en.wikipedia.org/wiki/Gray_code)
-- [Guessing](https://en.wikipedia.org/wiki/Guessing)
-- [Hamiltonian path](https://en.wikipedia.org/wiki/Hamiltonian_path)
-- [Hanoi](https://en.wikipedia.org/wiki/Hanoi)
-- [Hanoi graph](https://en.wikipedia.org/wiki/Hanoi_graph)
-- [Human–computer interaction](https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [ISSN](https://en.wikipedia.org/wiki/ISSN)
-- [Induction puzzles](https://en.wikipedia.org/wiki/Induction_puzzles)
-- [Ivan Moscovich](https://en.wikipedia.org/wiki/Ivan_Moscovich)
-- [JSTOR](https://en.wikipedia.org/wiki/JSTOR)
-- [Landmark 72](https://en.wikipedia.org/wiki/Landmark_72)
-- [Argentine ant](https://en.wikipedia.org/wiki/Argentine_ant)
-- [List of impossible puzzles](https://en.wikipedia.org/wiki/List_of_impossible_puzzles)
-- [List of maze video games](https://en.wikipedia.org/wiki/List_of_maze_video_games)
-- [List of puzzle topics](https://en.wikipedia.org/wiki/List_of_puzzle_topics)
-- [List of puzzle video games](https://en.wikipedia.org/wiki/List_of_puzzle_video_games)
-- [Puzzle lock](https://en.wikipedia.org/wiki/Puzzle_lock)
-- [Logic maze](https://en.wikipedia.org/wiki/Logic_maze)
-- [Logic puzzle](https://en.wikipedia.org/wiki/Logic_puzzle)
-- [Magnetic Tower of Hanoi](https://en.wikipedia.org/wiki/Magnetic_Tower_of_Hanoi)
-- [Mass Effect (video game)](https://en.wikipedia.org/wiki/Mass_Effect_(video_game))
-- [MathWorld](https://en.wikipedia.org/wiki/MathWorld)
-- [Mathematical game](https://en.wikipedia.org/wiki/Mathematical_game)
-- [Mathematical induction](https://en.wikipedia.org/wiki/Mathematical_induction)
-- [Mathematical puzzle](https://en.wikipedia.org/wiki/Mathematical_puzzle)
-- [Mathematician](https://en.wikipedia.org/wiki/Mathematician)
-- [Maze](https://en.wikipedia.org/wiki/Maze)
-- [Mechanical puzzle](https://en.wikipedia.org/wiki/Mechanical_puzzle)
-- [Metapuzzle](https://en.wikipedia.org/wiki/Metapuzzle)
-- [Monastery](https://en.wikipedia.org/wiki/Monastery)
-- [Monk](https://en.wikipedia.org/wiki/Monk)
-- [Bit numbering](https://en.wikipedia.org/wiki/Bit_numbering)
-- [Rounding](https://en.wikipedia.org/wiki/Rounding)
-- [Nikoli (publisher)](https://en.wikipedia.org/wiki/Nikoli_(publisher))
-- [On-Line Encyclopedia of Integer Sequences](https://en.wikipedia.org/wiki/On-Line_Encyclopedia_of_Integer_Sequences)
-- [Optical illusion](https://en.wikipedia.org/wiki/Optical_illusion)
-- [Ozzy Lusth](https://en.wikipedia.org/wiki/Ozzy_Lusth)
-- [PubMed](https://en.wikipedia.org/wiki/PubMed)
-- [Packing problems](https://en.wikipedia.org/wiki/Packing_problems)
-- [Pagoda](https://en.wikipedia.org/wiki/Pagoda)
-- [Palladium](https://en.wikipedia.org/wiki/Palladium)
-- [Paradox](https://en.wikipedia.org/wiki/Paradox)
-- [Positional notation](https://en.wikipedia.org/wiki/Positional_notation)
-- [Power of three](https://en.wikipedia.org/wiki/Power_of_three)
-- [Problem solving](https://en.wikipedia.org/wiki/Problem_solving)
-- [Problem solving](https://en.wikipedia.org/wiki/Problem_solving)
-- [Professor Layton and the Diabolical Box](https://en.wikipedia.org/wiki/Professor_Layton_and_the_Diabolical_Box)
-- [Prolog](https://en.wikipedia.org/wiki/Prolog)
-- [Puzzle](https://en.wikipedia.org/wiki/Puzzle)
-- [Puzzle video game](https://en.wikipedia.org/wiki/Puzzle_video_game)
-- [Puzzle hunt](https://en.wikipedia.org/wiki/Puzzle_hunt)
-- [Recurrence relation](https://en.wikipedia.org/wiki/Recurrence_relation)
-- [Recursion (computer science)](https://en.wikipedia.org/wiki/Recursion_(computer_science))
-- [Recursion](https://en.wikipedia.org/wiki/Recursion)
-- [Religion](https://en.wikipedia.org/wiki/Religion)
-- [Riddle](https://en.wikipedia.org/wiki/Riddle)
-- [Riddle-tale](https://en.wikipedia.org/wiki/Riddle-tale)
-- [Riddle joke](https://en.wikipedia.org/wiki/Riddle_joke)
-- [Rise of the Planet of the Apes](https://en.wikipedia.org/wiki/Rise_of_the_Planet_of_the_Apes)
-- [Ruler function](https://en.wikipedia.org/wiki/Ruler_function)
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [SIAM Journal on Discrete Mathematics](https://en.wikipedia.org/wiki/SIAM_Journal_on_Discrete_Mathematics)
-- [Sega](https://en.wikipedia.org/wiki/Sega)
-- [Self-reference puzzle](https://en.wikipedia.org/wiki/Self-reference_puzzle)
-- [Sierpiński triangle](https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle)
-- [Situation puzzle](https://en.wikipedia.org/wiki/Situation_puzzle)
-- [Sliding puzzle](https://en.wikipedia.org/wiki/Sliding_puzzle)
-- [Patience (game)](https://en.wikipedia.org/wiki/Patience_(game))
-- [Springer Science+Business Media](https://en.wikipedia.org/wiki/Springer_Science%2BBusiness_Media)
-- [Star Wars: Knights of the Old Republic (video game)](https://en.wikipedia.org/wiki/Star_Wars:_Knights_of_the_Old_Republic_(video_game))
-- [Stick puzzle](https://en.wikipedia.org/wiki/Stick_puzzle)
-- [Sudoku](https://en.wikipedia.org/wiki/Sudoku)
-- [Sunless Sea](https://en.wikipedia.org/wiki/Sunless_Sea)
-- [Survivor: South Pacific](https://en.wikipedia.org/wiki/Survivor:_South_Pacific)
-- [Syllogism](https://en.wikipedia.org/wiki/Syllogism)
-- [Symmetric group](https://en.wikipedia.org/wiki/Symmetric_group)
-- [Ternary numeral system](https://en.wikipedia.org/wiki/Ternary_numeral_system)
-- [The Celestial Toymaker](https://en.wikipedia.org/wiki/The_Celestial_Toymaker)
-- [The Doctor](https://en.wikipedia.org/wiki/The_Doctor)
-- [The Nine Billion Names of God](https://en.wikipedia.org/wiki/The_Nine_Billion_Names_of_God)
-- [The Tower of Hanoi – Myths and Maths](https://en.wikipedia.org/wiki/The_Tower_of_Hanoi_%E2%80%93_Myths_and_Maths)
-- [Theoretical Computer Science (journal)](https://en.wikipedia.org/wiki/Theoretical_Computer_Science_(journal))
-- [Tiling puzzle](https://en.wikipedia.org/wiki/Tiling_puzzle)
-- [Tonkin](https://en.wikipedia.org/wiki/Tonkin)
-- [Tour puzzle](https://en.wikipedia.org/wiki/Tour_puzzle)
-- [Tower of Hanoy](https://en.wikipedia.org/wiki/Tower_of_Hanoy)
-- [Tower of London test](https://en.wikipedia.org/wiki/Tower_of_London_test)
-- [Tsumego](https://en.wikipedia.org/wiki/Tsumego)
-- [Universum (UNAM)](https://en.wikipedia.org/wiki/Universum_(UNAM))
-- [Wolfram Language](https://en.wikipedia.org/wiki/Wolfram_Language)
-- [Word game](https://en.wikipedia.org/wiki/Word_game)
-- [Édouard Lucas](https://en.wikipedia.org/wiki/%C3%89douard_Lucas)
-- [Wikipedia:Citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed)
-- [Wikipedia:Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)
-- [Template:Puzzles](https://en.wikipedia.org/wiki/Template:Puzzles)
-- [Template talk:Puzzles](https://en.wikipedia.org/wiki/Template_talk:Puzzles)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Help:Referencing for beginners](https://en.wikipedia.org/wiki/Help:Referencing_for_beginners)
-- [Category:Articles needing additional references from January 2024](https://en.wikipedia.org/wiki/Category:Articles_needing_additional_references_from_January_2024)
-- [Category:Articles with unsourced statements from January 2024](https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_January_2024)
-- [Category:Articles with unsourced statements from September 2023](https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_September_2023)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:51:37.883510+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:04 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 36309 bytes
+- **Word Count:** 5895 words

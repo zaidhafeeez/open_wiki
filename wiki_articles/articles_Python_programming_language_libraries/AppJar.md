@@ -1,17 +1,16 @@
 # AppJar
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:25:36.813929+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 07:48:45 UTC
 - **Original Article:** [AppJar](https://en.wikipedia.org/wiki/AppJar)
 - **Language:** en
 - **Page ID:** 53706396
 
 ## Summary
-
 appJar is a cross-platform Python library for developing GUIs (graphical user interfaces). It can run on Linux, OS X, and Windows. It was conceived, and continues to be developed with educational use as its focus, so is accompanied by comprehensive documentation, as well as easy-to-follow lessons.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with short description
 - Category:Python (programming language) libraries
@@ -50,26 +49,9 @@ appJar on GitHub
 PyPi
 PyPi Docs
 
-## Related Articles
-
-### Internal Links
-
-- [Apache License](https://en.wikipedia.org/wiki/Apache_License)
-- [Cross-platform software](https://en.wikipedia.org/wiki/Cross-platform_software)
-- [GitHub](https://en.wikipedia.org/wiki/GitHub)
-- ["Hello, World!" program](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program)
-- [Linux](https://en.wikipedia.org/wiki/Linux)
-- [Microsoft Windows](https://en.wikipedia.org/wiki/Microsoft_Windows)
-- [Minecraft](https://en.wikipedia.org/wiki/Minecraft)
-- [MacOS](https://en.wikipedia.org/wiki/MacOS)
-- [Operating system](https://en.wikipedia.org/wiki/Operating_system)
-- [Programmer](https://en.wikipedia.org/wiki/Programmer)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Repository (version control)](https://en.wikipedia.org/wiki/Repository_(version_control))
-- [Software license](https://en.wikipedia.org/wiki/Software_license)
-- [Software release life cycle](https://en.wikipedia.org/wiki/Software_release_life_cycle)
-- [The MagPi](https://en.wikipedia.org/wiki/The_MagPi)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:25:36.813929+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:25 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 1249 bytes
+- **Word Count:** 207 words

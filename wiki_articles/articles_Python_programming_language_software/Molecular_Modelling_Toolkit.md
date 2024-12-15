@@ -1,19 +1,19 @@
 # Molecular Modelling Toolkit
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:59:07.996791+00:00
+## Metadata
+- **Last Updated:** 2024-11-24 06:40:50 UTC
 - **Original Article:** [Molecular Modelling Toolkit](https://en.wikipedia.org/wiki/Molecular_Modelling_Toolkit)
 - **Language:** en
 - **Page ID:** 4432006
 
 ## Summary
-
 The Molecular Modelling Toolkit (MMTK) is an open-source software package written in Python, which performs common tasks in molecular modelling.
 
-The Molecular Modeling Toolkit is a library that implements common molecular simulation techniques, with an emphasis on biomolecular simulations. It uses modern software engineering techniques (object-oriented design, a high-level language) in order to overcome limitations associated with the large monolithic simulation programs that are commonly used 
+The Molecular Modeling Toolkit is a library that implements common molecular simulation techniques, with an emphasis on biomolecular simulations. It uses modern software engineering techniques (object-oriented design, a high-level language) in order to overcome limitations associated with the large monolithic simulation programs that are commonly used for biomolecules. Its principal advantages are (1) easy extension and combination with other libraries due to modular library design, (2) a single high-level general-purpose programming language (Python) is used for library implementation as well as for application scripts, (3) use of documented and machine-independent formats for all data files, and (4) interfaces to other simulation and visualization programs.
+As of 28 April 2011, MMTK consists of about 18,000 lines of Python code, 12,000 lines of hand-written C code, and some machine-generated C code.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles containing potentially dated statements
 - Category:All stub articles
@@ -63,27 +63,9 @@ External links
 Official website
 Background information
 
-## Related Articles
-
-### Internal Links
-
-- [Cross-platform software](https://en.wikipedia.org/wiki/Cross-platform_software)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Comparison of software for molecular mechanics modeling](https://en.wikipedia.org/wiki/Comparison_of_software_for_molecular_mechanics_modeling)
-- [Molecular modelling](https://en.wikipedia.org/wiki/Molecular_modelling)
-- [Open-source software](https://en.wikipedia.org/wiki/Open-source_software)
-- [Operating system](https://en.wikipedia.org/wiki/Operating_system)
-- [Programmer](https://en.wikipedia.org/wiki/Programmer)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Software categories](https://en.wikipedia.org/wiki/Software_categories)
-- [Software release life cycle](https://en.wikipedia.org/wiki/Software_release_life_cycle)
-- [Wikipedia:Stub](https://en.wikipedia.org/wiki/Wikipedia:Stub)
-- [Template:Bioinformatics-stub](https://en.wikipedia.org/wiki/Template:Bioinformatics-stub)
-- [Template:Molecular-modelling-software-stub](https://en.wikipedia.org/wiki/Template:Molecular-modelling-software-stub)
-- [Template talk:Bioinformatics-stub](https://en.wikipedia.org/wiki/Template_talk:Bioinformatics-stub)
-- [Template talk:Molecular-modelling-software-stub](https://en.wikipedia.org/wiki/Template_talk:Molecular-modelling-software-stub)
-- [Category:Articles containing potentially dated statements from April 2011](https://en.wikipedia.org/wiki/Category:Articles_containing_potentially_dated_statements_from_April_2011)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:59:07.996791+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:57 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 1946 bytes
+- **Word Count:** 260 words

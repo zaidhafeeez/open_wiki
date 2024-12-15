@@ -1,18 +1,18 @@
 # PyPy
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:25:50.230503+00:00
+## Metadata
+- **Last Updated:** 2024-12-04 11:57:53 UTC
 - **Original Article:** [PyPy](https://en.wikipedia.org/wiki/PyPy)
 - **Language:** en
 - **Page ID:** 2564605
 
 ## Summary
-
 PyPy () is an implementation of the Python programming language. PyPy often runs faster than the standard implementation CPython because PyPy uses a just-in-time compiler. Most Python code runs well on PyPy except for code that depends on CPython extensions, which either does not work or incurs some overhead when run in PyPy.
-PyPy itself is built using a technique known as meta-tracing, which is a mostly automatic transformation that takes an interpreter as input and produces a tracing just-in-t
+PyPy itself is built using a technique known as meta-tracing, which is a mostly automatic transformation that takes an interpreter as input and produces a tracing just-in-time compiler as output. Since interpreters are usually easier to write than compilers, but run slower, this technique can make it easier to produce efficient implementations of programming languages. PyPy's meta-tracing toolchain is called RPython.
+PyPy does not have full compatibility with more recent versions of the CPython ecosystem. While it claims compatibility with Python 2.7, 3.7, 3.8 and 3.9 ("a drop-in replacement for CPython"), it lacks some of the newer features and syntax in Python 3.10, such as syntax for pattern matching.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:2007 software
 - Category:Articles with short description
@@ -93,117 +93,9 @@ References
 External links
 Official website
 
-## Related Articles
-
-### Internal Links
-
-- [ARM architecture family](https://en.wikipedia.org/wiki/ARM_architecture_family)
-- [Asynchronous Server Gateway Interface](https://en.wikipedia.org/wiki/Asynchronous_Server_Gateway_Interface)
-- [Bitbucket](https://en.wikipedia.org/wiki/Bitbucket)
-- [Bootstrapping (compilers)](https://en.wikipedia.org/wiki/Bootstrapping_(compilers))
-- [Bytecode](https://en.wikipedia.org/wiki/Bytecode)
-- [CLPython](https://en.wikipedia.org/wiki/CLPython)
-- [CPython](https://en.wikipedia.org/wiki/CPython)
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [CircuitPython](https://en.wikipedia.org/wiki/CircuitPython)
-- [Hackathon](https://en.wikipedia.org/wiki/Hackathon)
-- [Common Intermediate Language](https://en.wikipedia.org/wiki/Common_Intermediate_Language)
-- [Compiler](https://en.wikipedia.org/wiki/Compiler)
-- [Cross-platform software](https://en.wikipedia.org/wiki/Cross-platform_software)
-- [Language binding](https://en.wikipedia.org/wiki/Language_binding)
-- [Cython](https://en.wikipedia.org/wiki/Cython)
-- [C Sharp (programming language)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
-- [Django (web framework)](https://en.wikipedia.org/wiki/Django_(web_framework))
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Dynamic programming language](https://en.wikipedia.org/wiki/Dynamic_programming_language)
-- [Eric (software)](https://en.wikipedia.org/wiki/Eric_(software))
-- [European Union](https://en.wikipedia.org/wiki/European_Union)
-- [Foreign function interface](https://en.wikipedia.org/wiki/Foreign_function_interface)
-- [Foreign function interface](https://en.wikipedia.org/wiki/Foreign_function_interface)
-- [Frontend and backend](https://en.wikipedia.org/wiki/Frontend_and_backend)
-- [Garbage collection (computer science)](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science))
-- [Generator (computer programming)](https://en.wikipedia.org/wiki/Generator_(computer_programming))
-- [Git](https://en.wikipedia.org/wiki/Git)
-- [GitHub](https://en.wikipedia.org/wiki/GitHub)
-- [Google](https://en.wikipedia.org/wiki/Google)
-- [GraalVM](https://en.wikipedia.org/wiki/GraalVM)
-- [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum)
-- [Heise (company)](https://en.wikipedia.org/wiki/Heise_(company))
-- [IDLE](https://en.wikipedia.org/wiki/IDLE)
-- [Implementation](https://en.wikipedia.org/wiki/Implementation)
-- [Integrated development environment](https://en.wikipedia.org/wiki/Integrated_development_environment)
-- [Interpreter (computing)](https://en.wikipedia.org/wiki/Interpreter_(computing))
-- [IronPython](https://en.wikipedia.org/wiki/IronPython)
-- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-- [Java (programming language)](https://en.wikipedia.org/wiki/Java_(programming_language))
-- [Java bytecode](https://en.wikipedia.org/wiki/Java_bytecode)
-- [Just-in-time compilation](https://en.wikipedia.org/wiki/Just-in-time_compilation)
-- [Jython](https://en.wikipedia.org/wiki/Jython)
-- [LWN.net](https://en.wikipedia.org/wiki/LWN.net)
-- [List of Python software](https://en.wikipedia.org/wiki/List_of_Python_software)
-- [Comparison of integrated development environments](https://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments)
-- [MIT License](https://en.wikipedia.org/wiki/MIT_License)
-- [MicroPython](https://en.wikipedia.org/wiki/MicroPython)
-- [Twisted (software)](https://en.wikipedia.org/wiki/Twisted_(software))
-- [Ninja-IDE](https://en.wikipedia.org/wiki/Ninja-IDE)
-- [NumPy](https://en.wikipedia.org/wiki/NumPy)
-- [Numba](https://en.wikipedia.org/wiki/Numba)
-- [Operating system](https://en.wikipedia.org/wiki/Operating_system)
-- [Oracle Corporation](https://en.wikipedia.org/wiki/Oracle_Corporation)
-- [Ouroboros](https://en.wikipedia.org/wiki/Ouroboros)
-- [Partial evaluation](https://en.wikipedia.org/wiki/Partial_evaluation)
-- [Pattern matching](https://en.wikipedia.org/wiki/Pattern_matching)
-- [Programming language](https://en.wikipedia.org/wiki/Programming_language)
-- [Programming language implementation](https://en.wikipedia.org/wiki/Programming_language_implementation)
-- [Programming language specification](https://en.wikipedia.org/wiki/Programming_language_specification)
-- [Psyco](https://en.wikipedia.org/wiki/Psyco)
-- [PyCharm](https://en.wikipedia.org/wiki/PyCharm)
-- [Python Conference](https://en.wikipedia.org/wiki/Python_Conference)
-- [PyDev](https://en.wikipedia.org/wiki/PyDev)
-- [Python Package Index](https://en.wikipedia.org/wiki/Python_Package_Index)
-- [Pyglet](https://en.wikipedia.org/wiki/Pyglet)
-- [Pylons project](https://en.wikipedia.org/wiki/Pylons_project)
-- [PyPy](https://en.wikipedia.org/wiki/PyPy)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Python Conference](https://en.wikipedia.org/wiki/Python_Conference)
-- [Python Software Foundation](https://en.wikipedia.org/wiki/Python_Software_Foundation)
-- [Python for S60](https://en.wikipedia.org/wiki/Python_for_S60)
-- [Raspberry Pi Foundation](https://en.wikipedia.org/wiki/Raspberry_Pi_Foundation)
-- [Recursion](https://en.wikipedia.org/wiki/Recursion)
-- [Repository (version control)](https://en.wikipedia.org/wiki/Repository_(version_control))
-- [Run-time algorithm specialization](https://en.wikipedia.org/wiki/Run-time_algorithm_specialization)
-- [Self-hosting (compilers)](https://en.wikipedia.org/wiki/Self-hosting_(compilers))
-- [Interpreter (computing)](https://en.wikipedia.org/wiki/Interpreter_(computing))
-- [Shared library](https://en.wikipedia.org/wiki/Shared_library)
-- [Shed Skin](https://en.wikipedia.org/wiki/Shed_Skin)
-- [Small and medium enterprises](https://en.wikipedia.org/wiki/Small_and_medium_enterprises)
-- [Software categories](https://en.wikipedia.org/wiki/Software_categories)
-- [Software rot](https://en.wikipedia.org/wiki/Software_rot)
-- [Software development](https://en.wikipedia.org/wiki/Software_development)
-- [Software framework](https://en.wikipedia.org/wiki/Software_framework)
-- [Software license](https://en.wikipedia.org/wiki/Software_license)
-- [Software release life cycle](https://en.wikipedia.org/wiki/Software_release_life_cycle)
-- [Software transactional memory](https://en.wikipedia.org/wiki/Software_transactional_memory)
-- [Source code](https://en.wikipedia.org/wiki/Source_code)
-- [Framework Programmes for Research and Technological Development](https://en.wikipedia.org/wiki/Framework_Programmes_for_Research_and_Technological_Development)
-- [Spyder (software)](https://en.wikipedia.org/wiki/Spyder_(software))
-- [Stackless Python](https://en.wikipedia.org/wiki/Stackless_Python)
-- [Testbed](https://en.wikipedia.org/wiki/Testbed)
-- [Heise (company)](https://en.wikipedia.org/wiki/Heise_(company))
-- [Toolchain](https://en.wikipedia.org/wiki/Toolchain)
-- [Tracing just-in-time compilation](https://en.wikipedia.org/wiki/Tracing_just-in-time_compilation)
-- [Type inference](https://en.wikipedia.org/wiki/Type_inference)
-- [CPython](https://en.wikipedia.org/wiki/CPython)
-- [Web Server Gateway Interface](https://en.wikipedia.org/wiki/Web_Server_Gateway_Interface)
-- [X86](https://en.wikipedia.org/wiki/X86)
-- [Wikipedia:Please clarify](https://en.wikipedia.org/wiki/Wikipedia:Please_clarify)
-- [Template:Python (programming language)](https://en.wikipedia.org/wiki/Template:Python_(programming_language))
-- [Template talk:Python (programming language)](https://en.wikipedia.org/wiki/Template_talk:Python_(programming_language))
-- [Help:IPA/English](https://en.wikipedia.org/wiki/Help:IPA/English)
-- [Category:Wikipedia articles needing clarification from May 2013](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_needing_clarification_from_May_2013)
-- [Portal:Computer programming](https://en.wikipedia.org/wiki/Portal:Computer_programming)
-- [Portal:Free and open-source software](https://en.wikipedia.org/wiki/Portal:Free_and_open-source_software)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:25:50.230503+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:21 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 6906 bytes
+- **Word Count:** 1084 words

@@ -1,17 +1,16 @@
 # Parallel array
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:40:30.341154+00:00
+## Metadata
+- **Last Updated:** 2024-12-12 02:44:21 UTC
 - **Original Article:** [Parallel array](https://en.wikipedia.org/wiki/Parallel_array)
 - **Language:** en
 - **Page ID:** 991858
 
 ## Summary
-
-In computing, a group of parallel arrays (also known as structure of arrays or SoA) is a form of implicit data structure that uses multiple arrays to represent a singular array of records. It keeps a separate, homogeneous data array for each field of the record, each having the same number of elements. Then, objects located at the same index in each array are implicitly the fields of a single record. Pointers from one object to another are replaced by array indices. This contrasts with the norma
+In computing, a group of parallel arrays (also known as structure of arrays or SoA) is a form of implicit data structure that uses multiple arrays to represent a singular array of records. It keeps a separate, homogeneous data array for each field of the record, each having the same number of elements. Then, objects located at the same index in each array are implicitly the fields of a single record. Pointers from one object to another are replaced by array indices. This contrasts with the normal approach of storing all fields of each record together in memory (also known as array of structures or AoS). For example, one might declare an array of 100 names, each a string, and 100 ages, each an integer, associating each name with the age that has the same index.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles needing additional references
 - Category:All articles with style issues
@@ -70,44 +69,9 @@ References
 Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein. Introduction to Algorithms, Second Edition. MIT Press and McGraw-Hill, 2001. ISBN 0-262-03293-7. Page 209 of section 10.3: Implementing pointers and objects.
 Skeet, Jon (3 June 2014). "Anti-pattern: parallel collections". Retrieved 28 October 2014.
 
-## Related Articles
-
-### Internal Links
-
-- [Array (data structure)](https://en.wikipedia.org/wiki/Array_(data_structure))
-- [AoS and SoA](https://en.wikipedia.org/wiki/AoS_and_SoA)
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [Charles E. Leiserson](https://en.wikipedia.org/wiki/Charles_E._Leiserson)
-- [Clifford Stein](https://en.wikipedia.org/wiki/Clifford_Stein)
-- [Data orientation](https://en.wikipedia.org/wiki/Data_orientation)
-- [Optimizing compiler](https://en.wikipedia.org/wiki/Optimizing_compiler)
-- [Computing](https://en.wikipedia.org/wiki/Computing)
-- [Data-oriented design](https://en.wikipedia.org/wiki/Data-oriented_design)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Implicit data structure](https://en.wikipedia.org/wiki/Implicit_data_structure)
-- [Instruction set architecture](https://en.wikipedia.org/wiki/Instruction_set_architecture)
-- [Introduction to Algorithms](https://en.wikipedia.org/wiki/Introduction_to_Algorithms)
-- [Linked list](https://en.wikipedia.org/wiki/Linked_list)
-- [Locality of reference](https://en.wikipedia.org/wiki/Locality_of_reference)
-- [Perl](https://en.wikipedia.org/wiki/Perl)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Record (computer science)](https://en.wikipedia.org/wiki/Record_(computer_science))
-- [Reference (computer science)](https://en.wikipedia.org/wiki/Reference_(computer_science))
-- [Ron Rivest](https://en.wikipedia.org/wiki/Ron_Rivest)
-- [Instruction set architecture](https://en.wikipedia.org/wiki/Instruction_set_architecture)
-- [AoS and SoA](https://en.wikipedia.org/wiki/AoS_and_SoA)
-- [Thomas H. Cormen](https://en.wikipedia.org/wiki/Thomas_H._Cormen)
-- [Vector processor](https://en.wikipedia.org/wiki/Vector_processor)
-- [Wikipedia:Citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed)
-- [Wikipedia:Citing sources](https://en.wikipedia.org/wiki/Wikipedia:Citing_sources)
-- [Wikipedia:Pro and con lists](https://en.wikipedia.org/wiki/Wikipedia:Pro_and_con_lists)
-- [Wikipedia:Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Help:Referencing for beginners](https://en.wikipedia.org/wiki/Help:Referencing_for_beginners)
-- [Category:Articles needing additional references from January 2018](https://en.wikipedia.org/wiki/Category:Articles_needing_additional_references_from_January_2018)
-- [Category:Articles with unsourced statements from April 2012](https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_April_2012)
-- [Category:Wikipedia articles with style issues from May 2021](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_with_style_issues_from_May_2021)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:40:30.341154+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:47 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 5189 bytes
+- **Word Count:** 831 words

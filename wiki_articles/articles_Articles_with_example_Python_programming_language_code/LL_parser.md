@@ -1,18 +1,21 @@
 # LL parser
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:33:58.184745+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 06:51:04 UTC
 - **Original Article:** [LL parser](https://en.wikipedia.org/wiki/LL_parser)
 - **Language:** en
 - **Page ID:** 58045
 
 ## Summary
-
 In computer science, an LL parser (Left-to-right, leftmost derivation) is a top-down parser for a restricted context-free language. It parses the input from Left to right, performing Leftmost derivation of the sentence.
-An LL parser is called an LL(k) parser if it uses k tokens of lookahead when parsing a sentence. A grammar is called an LL(k) grammar if an LL(k) parser can be constructed from it. A formal language is called an LL(k) language if it has an LL(k) grammar. The set of LL(k) language
+An LL parser is called an LL(k) parser if it uses k tokens of lookahead when parsing a sentence. A grammar is called an LL(k) grammar if an LL(k) parser can be constructed from it. A formal language is called an LL(k) language if it has an LL(k) grammar. The set of LL(k) languages is properly contained in that of LL(k+1) languages, for each k ≥ 0. A corollary of this is that not all context-free languages can be recognized by an LL(k) parser.
+An LL parser is called LL-regular (LLR) if it parses an LL-regular language. The class of LLR grammars contains every LL(k) grammar for every k. For every LLR grammar there exists an LLR parser that parses the grammar in linear time.
+Two nomenclative outlier parser types are LL(*) and LL(finite). A parser is called LL(*)/LL(finite) if it uses the LL(*)/LL(finite) parsing strategy. LL(*) and LL(finite) parsers are functionally closer to PEG parsers. An LL(finite) parser can parse an arbitrary LL(k) grammar optimally in the amount of lookahead and lookahead comparisons. The class of grammars parsable by the LL(*) strategy encompasses some context-sensitive languages due to the use of syntactic and semantic predicates and has not been identified. It has been suggested that LL(*) parsers are better thought of as TDPL parsers.
+Against the popular misconception, LL(*) parsers are not LLR in general, and are guaranteed by construction to perform worse on average (super-linear against linear time) and far worse in the worst-case (exponential against linear time).
+LL grammars, particularly LL(1) grammars, are of great practical interest, as parsers for these grammars are easy to construct, and many computer languages are designed to be LL(1) for this reason. LL parsers may be table-based, i.e. similar to LR parsers, but LL grammars can also be parsed by recursive descent parsers. According to Waite and Goos (1984), LL(k) grammars were introduced by Stearns and Lewis (1969).
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All Wikipedia articles needing clarification
 - Category:All articles with unsourced statements
@@ -1145,79 +1148,9 @@ Parsing Simulator This simulator is used to generate parsing tables LL(1) and to
 Language theoretic comparison of LL and LR grammars
 LL(k) Parsing Theory
 
-## Related Articles
-
-### Internal Links
-
-- [Abstract syntax tree](https://en.wikipedia.org/wiki/Abstract_syntax_tree)
-- [ANTLR](https://en.wikipedia.org/wiki/ANTLR)
-- [ArXiv](https://en.wikipedia.org/wiki/ArXiv)
-- [Bottom-up parsing](https://en.wikipedia.org/wiki/Bottom-up_parsing)
-- [CYK algorithm](https://en.wikipedia.org/wiki/CYK_algorithm)
-- [Canonical LR parser](https://en.wikipedia.org/wiki/Canonical_LR_parser)
-- [Chart parser](https://en.wikipedia.org/wiki/Chart_parser)
-- [Comparison of parser generators](https://en.wikipedia.org/wiki/Comparison_of_parser_generators)
-- [Compiler-compiler](https://en.wikipedia.org/wiki/Compiler-compiler)
-- [Computer language](https://en.wikipedia.org/wiki/Computer_language)
-- [Computer science](https://en.wikipedia.org/wiki/Computer_science)
-- [Context-free grammar](https://en.wikipedia.org/wiki/Context-free_grammar)
-- [Context-free language](https://en.wikipedia.org/wiki/Context-free_language)
-- [Definite clause grammar](https://en.wikipedia.org/wiki/Definite_clause_grammar)
-- [Deterministic parsing](https://en.wikipedia.org/wiki/Deterministic_parsing)
-- [Deterministic pushdown automaton](https://en.wikipedia.org/wiki/Deterministic_pushdown_automaton)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Dynamic programming](https://en.wikipedia.org/wiki/Dynamic_programming)
-- [Earley parser](https://en.wikipedia.org/wiki/Earley_parser)
-- [Empty string](https://en.wikipedia.org/wiki/Empty_string)
-- [Exponential function](https://en.wikipedia.org/wiki/Exponential_function)
-- [Formal grammar](https://en.wikipedia.org/wiki/Formal_grammar)
-- [GLR parser](https://en.wikipedia.org/wiki/GLR_parser)
-- [History of compiler construction](https://en.wikipedia.org/wiki/History_of_compiler_construction)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Information Processing Letters](https://en.wikipedia.org/wiki/Information_Processing_Letters)
-- [Information and Computation](https://en.wikipedia.org/wiki/Information_and_Computation)
-- [LALR parser](https://en.wikipedia.org/wiki/LALR_parser)
-- [LALR parser generator](https://en.wikipedia.org/wiki/LALR_parser_generator)
-- [LL grammar](https://en.wikipedia.org/wiki/LL_grammar)
-- [LL grammar](https://en.wikipedia.org/wiki/LL_grammar)
-- [LL grammar](https://en.wikipedia.org/wiki/LL_grammar)
-- [LR parser](https://en.wikipedia.org/wiki/LR_parser)
-- [Left corner parser](https://en.wikipedia.org/wiki/Left_corner_parser)
-- [Left recursion](https://en.wikipedia.org/wiki/Left_recursion)
-- [Context-free grammar](https://en.wikipedia.org/wiki/Context-free_grammar)
-- [Memoization](https://en.wikipedia.org/wiki/Memoization)
-- [Operator-precedence grammar](https://en.wikipedia.org/wiki/Operator-precedence_grammar)
-- [Operator-precedence parser](https://en.wikipedia.org/wiki/Operator-precedence_parser)
-- [Parse tree](https://en.wikipedia.org/wiki/Parse_tree)
-- [Parser combinator](https://en.wikipedia.org/wiki/Parser_combinator)
-- [Parsing](https://en.wikipedia.org/wiki/Parsing)
-- [Parsing expression grammar](https://en.wikipedia.org/wiki/Parsing_expression_grammar)
-- [Programming language](https://en.wikipedia.org/wiki/Programming_language)
-- [Purdue University](https://en.wikipedia.org/wiki/Purdue_University)
-- [Recursive ascent parser](https://en.wikipedia.org/wiki/Recursive_ascent_parser)
-- [Recursive descent parser](https://en.wikipedia.org/wiki/Recursive_descent_parser)
-- [Richard E. Stearns](https://en.wikipedia.org/wiki/Richard_E._Stearns)
-- [Scannerless parsing](https://en.wikipedia.org/wiki/Scannerless_parsing)
-- [Shift-reduce parser](https://en.wikipedia.org/wiki/Shift-reduce_parser)
-- [Shunting yard algorithm](https://en.wikipedia.org/wiki/Shunting_yard_algorithm)
-- [Simple LR parser](https://en.wikipedia.org/wiki/Simple_LR_parser)
-- [Simple precedence parser](https://en.wikipedia.org/wiki/Simple_precedence_parser)
-- [Tail recursive parser](https://en.wikipedia.org/wiki/Tail_recursive_parser)
-- [Lexical analysis](https://en.wikipedia.org/wiki/Lexical_analysis)
-- [Top-down parsing](https://en.wikipedia.org/wiki/Top-down_parsing)
-- [Top-down parsing language](https://en.wikipedia.org/wiki/Top-down_parsing_language)
-- [Yacc](https://en.wikipedia.org/wiki/Yacc)
-- [Wikipedia:Citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed)
-- [Wikipedia:Please clarify](https://en.wikipedia.org/wiki/Wikipedia:Please_clarify)
-- [Template:Cite journal](https://en.wikipedia.org/wiki/Template:Cite_journal)
-- [Template:Parsers](https://en.wikipedia.org/wiki/Template:Parsers)
-- [Template talk:Parsers](https://en.wikipedia.org/wiki/Template_talk:Parsers)
-- [Category:Articles with unsourced statements from February 2019](https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_February_2019)
-- [Category:Articles with unsourced statements from June 2022](https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_June_2022)
-- [Category:CS1 maint: multiple names: authors list](https://en.wikipedia.org/wiki/Category:CS1_maint:_multiple_names:_authors_list)
-- [Category:Wikipedia articles needing clarification from August 2021](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_needing_clarification_from_August_2021)
-- [Category:Wikipedia articles needing clarification from February 2024](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_needing_clarification_from_February_2024)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:33:58.184745+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:32 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 25720 bytes
+- **Word Count:** 3755 words

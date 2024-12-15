@@ -1,14 +1,12 @@
 # Machine epsilon
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:34:00.453852+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 06:59:51 UTC
 - **Original Article:** [Machine epsilon](https://en.wikipedia.org/wiki/Machine_epsilon)
 - **Language:** en
 - **Page ID:** 3076863
 
 ## Summary
-
 Machine epsilon or machine precision is an upper bound on the relative approximation error due to rounding in floating point number systems. This value characterizes computer arithmetic in the field of numerical analysis, and by extension in the subject of computational science. The quantity is also called macheps and it has the symbols Greek epsilon 
   
     
@@ -19,9 +17,13 @@ Machine epsilon or machine precision is an upper bound on the relative approxima
     {\displaystyle \varepsilon }
   
 .
-There are two prevailing definitions, denoted here as rounding machine 
+There are two prevailing definitions, denoted here as rounding machine epsilon or the formal definition and interval machine epsilon or mainstream definition.
+In the mainstream definition, machine epsilon is independent of rounding method, and is defined simply as the difference between 1 and the next larger floating point number.
+In the formal definition, machine epsilon is dependent on the type of rounding used and is also called unit roundoff, which has the symbol bold Roman u.
+The two terms can generally be considered to differ by simply a factor of two, with the formal definition yielding an epsilon half the size of the mainstream definition, as summarized in the tables in the next section.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example C code
 - Category:Articles with example Python (programming language) code
@@ -1363,65 +1365,9 @@ External links
 MACHAR, a routine (in C and Fortran) to "dynamically compute machine constants" (ACM algorithm 722)
 Diagnosing floating point calculations precision, Implementation of MACHAR in Component Pascal and Oberon based on the Fortran 77 version of MACHAR published in Numerical Recipes (Press et al., 1992).
 
-## Related Articles
-
-### Internal Links
-
-- [Ada (programming language)](https://en.wikipedia.org/wiki/Ada_(programming_language))
-- [Alfio Quarteroni](https://en.wikipedia.org/wiki/Alfio_Quarteroni)
-- [Arbitrary-precision arithmetic](https://en.wikipedia.org/wiki/Arbitrary-precision_arithmetic)
-- [C++](https://en.wikipedia.org/wiki/C%2B%2B)
-- [C++ Standard Library](https://en.wikipedia.org/wiki/C%2B%2B_Standard_Library)
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [Component Pascal](https://en.wikipedia.org/wiki/Component_Pascal)
-- [Computational science](https://en.wikipedia.org/wiki/Computational_science)
-- [Computer arithmetic](https://en.wikipedia.org/wiki/Computer_arithmetic)
-- [Decimal128 floating-point format](https://en.wikipedia.org/wiki/Decimal128_floating-point_format)
-- [Decimal32 floating-point format](https://en.wikipedia.org/wiki/Decimal32_floating-point_format)
-- [Decimal64 floating-point format](https://en.wikipedia.org/wiki/Decimal64_floating-point_format)
-- [Fraction](https://en.wikipedia.org/wiki/Fraction)
-- [Double-precision floating-point format](https://en.wikipedia.org/wiki/Double-precision_floating-point_format)
-- [Epsilon](https://en.wikipedia.org/wiki/Epsilon)
-- [Exponentiation](https://en.wikipedia.org/wiki/Exponentiation)
-- [Extended precision](https://en.wikipedia.org/wiki/Extended_precision)
-- [C data types](https://en.wikipedia.org/wiki/C_data_types)
-- [Floating-point arithmetic](https://en.wikipedia.org/wiki/Floating-point_arithmetic)
-- [Fortran](https://en.wikipedia.org/wiki/Fortran)
-- [GNU Octave](https://en.wikipedia.org/wiki/GNU_Octave)
-- [Half-precision floating-point format](https://en.wikipedia.org/wiki/Half-precision_floating-point_format)
-- [IEEE 754](https://en.wikipedia.org/wiki/IEEE_754)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [James Demmel](https://en.wikipedia.org/wiki/James_Demmel)
-- [LAPACK](https://en.wikipedia.org/wiki/LAPACK)
-- [Linear search](https://en.wikipedia.org/wiki/Linear_search)
-- [Long double](https://en.wikipedia.org/wiki/Long_double)
-- [MATLAB](https://en.wikipedia.org/wiki/MATLAB)
-- [Magnitude (mathematics)](https://en.wikipedia.org/wiki/Magnitude_(mathematics))
-- [Wolfram Mathematica](https://en.wikipedia.org/wiki/Wolfram_Mathematica)
-- [Number](https://en.wikipedia.org/wiki/Number)
-- [Numerical Recipes](https://en.wikipedia.org/wiki/Numerical_Recipes)
-- [Numerical analysis](https://en.wikipedia.org/wiki/Numerical_analysis)
-- [Oberon (programming language)](https://en.wikipedia.org/wiki/Oberon_(programming_language))
-- [Order of magnitude](https://en.wikipedia.org/wiki/Order_of_magnitude)
-- [Pascal (programming language)](https://en.wikipedia.org/wiki/Pascal_(programming_language))
-- [Precision (computer science)](https://en.wikipedia.org/wiki/Precision_(computer_science))
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Quadruple-precision floating-point format](https://en.wikipedia.org/wiki/Quadruple-precision_floating-point_format)
-- [Radix](https://en.wikipedia.org/wiki/Radix)
-- [Real number](https://en.wikipedia.org/wiki/Real_number)
-- [Approximation error](https://en.wikipedia.org/wiki/Approximation_error)
-- [Approximation error](https://en.wikipedia.org/wiki/Approximation_error)
-- [Round-off error](https://en.wikipedia.org/wiki/Round-off_error)
-- [Rounding](https://en.wikipedia.org/wiki/Rounding)
-- [Rust (programming language)](https://en.wikipedia.org/wiki/Rust_(programming_language))
-- [Scilab](https://en.wikipedia.org/wiki/Scilab)
-- [Significand](https://en.wikipedia.org/wiki/Significand)
-- [Single-precision floating-point format](https://en.wikipedia.org/wiki/Single-precision_floating-point_format)
-- [Type punning](https://en.wikipedia.org/wiki/Type_punning)
-- [Unit in the last place](https://en.wikipedia.org/wiki/Unit_in_the_last_place)
-- [Wikipedia:Please clarify](https://en.wikipedia.org/wiki/Wikipedia:Please_clarify)
-- [Category:Wikipedia articles needing clarification from March 2021](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_needing_clarification_from_March_2021)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:34:00.453852+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:34 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 27322 bytes
+- **Word Count:** 2116 words

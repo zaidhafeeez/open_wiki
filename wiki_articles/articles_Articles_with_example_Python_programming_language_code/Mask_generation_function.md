@@ -1,17 +1,16 @@
 # Mask generation function
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:34:00.797754+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 07:48:23 UTC
 - **Original Article:** [Mask generation function](https://en.wikipedia.org/wiki/Mask_generation_function)
 - **Language:** en
 - **Page ID:** 53230626
 
 ## Summary
-
-A mask generation function (MGF) is a cryptographic primitive similar to a cryptographic hash function except that while a hash function's output has a fixed size, a MGF supports output of a variable length. In this respect, a MGF can be viewed as a extendable-output function (XOF): it can accept input of any length and process it to produce output of any length. Mask generation functions are completely deterministic: for any given input and any desired output length the output is always the sam
+A mask generation function (MGF) is a cryptographic primitive similar to a cryptographic hash function except that while a hash function's output has a fixed size, a MGF supports output of a variable length. In this respect, a MGF can be viewed as a extendable-output function (XOF): it can accept input of any length and process it to produce output of any length. Mask generation functions are completely deterministic: for any given input and any desired output length the output is always the same.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All Wikipedia articles written in American English
 - Category:Articles with example Python (programming language) code
@@ -155,23 +154,9 @@ Example outputs of MGF1:
 
 == References ==
 
-## Related Articles
-
-### Internal Links
-
-- [Cryptographic hash function](https://en.wikipedia.org/wiki/Cryptographic_hash_function)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Extendable-output function](https://en.wikipedia.org/wiki/Extendable-output_function)
-- [Keystream](https://en.wikipedia.org/wiki/Keystream)
-- [One-time pad](https://en.wikipedia.org/wiki/One-time_pad)
-- [Optimal asymmetric encryption padding](https://en.wikipedia.org/wiki/Optimal_asymmetric_encryption_padding)
-- [Padding (cryptography)](https://en.wikipedia.org/wiki/Padding_(cryptography))
-- [Pseudorandom number generator](https://en.wikipedia.org/wiki/Pseudorandom_number_generator)
-- [Symmetric-key algorithm](https://en.wikipedia.org/wiki/Symmetric-key_algorithm)
-- [Template:Cite journal](https://en.wikipedia.org/wiki/Template:Cite_journal)
-- [Help:CS1 errors](https://en.wikipedia.org/wiki/Help:CS1_errors)
-- [Category:Use American English from April 2019](https://en.wikipedia.org/wiki/Category:Use_American_English_from_April_2019)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:34:00.797754+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:26:35 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 3715 bytes
+- **Word Count:** 502 words

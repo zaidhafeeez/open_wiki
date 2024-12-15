@@ -1,18 +1,24 @@
 # Kivy (framework)
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T03:43:35.124432+00:00
+## Metadata
+- **Last Updated:** 2024-12-05 16:02:25 UTC
 - **Original Article:** [Kivy (framework)](https://en.wikipedia.org/wiki/Kivy_(framework))
 - **Language:** en
 - **Page ID:** 36091677
 
 ## Summary
-
 Kivy is a free and open source Python framework for developing mobile apps and other multitouch application software with a natural user interface (NUI). It is distributed under the terms of the MIT License, and can run on Android, iOS, Linux, macOS, and Windows.
-Kivy is the main framework developed by the Kivy organization, alongside Python for Android, Kivy for iOS, and several other libraries meant to be used on all platforms. In 2012, Kivy got a $5000 grant from the Python Software Foundatio
+Kivy is the main framework developed by the Kivy organization, alongside Python for Android, Kivy for iOS, and several other libraries meant to be used on all platforms. In 2012, Kivy got a $5000 grant from the Python Software Foundation for porting it to Python 3.3. Kivy also supports the Raspberry Pi which was funded through Bountysource.
+The framework contains all the elements for building an application such as:
+
+extensive input support for mouse, keyboard, TUIO, and OS-specific multitouch events;
+a graphic library using only OpenGL ES 2, and based on Vertex Buffer Object and shaders;
+a wide range of widgets that support multitouch;
+an intermediate language (Kv) used to easily design custom widgets.
+Kivy is an evolution of the PyMT project.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles lacking reliable references
 - Category:Articles lacking reliable references from June 2022
@@ -95,79 +101,9 @@ References
 External links
 Official website
 
-## Related Articles
-
-### Internal Links
-
-- [API](https://en.wikipedia.org/wiki/API)
-- [AdMob](https://en.wikipedia.org/wiki/AdMob)
-- [Android (operating system)](https://en.wikipedia.org/wiki/Android_(operating_system))
-- [Application framework](https://en.wikipedia.org/wiki/Application_framework)
-- [Application software](https://en.wikipedia.org/wiki/Application_software)
-- [Bountysource](https://en.wikipedia.org/wiki/Bountysource)
-- [Cocos2d](https://en.wikipedia.org/wiki/Cocos2d)
-- [Community](https://en.wikipedia.org/wiki/Community)
-- [Computer keyboard](https://en.wikipedia.org/wiki/Computer_keyboard)
-- [Computer mouse](https://en.wikipedia.org/wiki/Computer_mouse)
-- [Cross-platform software](https://en.wikipedia.org/wiki/Cross-platform_software)
-- [Cython](https://en.wikipedia.org/wiki/Cython)
-- [Environment variable](https://en.wikipedia.org/wiki/Environment_variable)
-- [Facebook](https://en.wikipedia.org/wiki/Facebook)
-- [Free software](https://en.wikipedia.org/wiki/Free_software)
-- [Free software](https://en.wikipedia.org/wiki/Free_software)
-- [Graphical widget](https://en.wikipedia.org/wiki/Graphical_widget)
-- [Game engine](https://en.wikipedia.org/wiki/Game_engine)
-- [GitHub](https://en.wikipedia.org/wiki/GitHub)
-- [Google](https://en.wikipedia.org/wiki/Google)
-- [Google Summer of Code](https://en.wikipedia.org/wiki/Google_Summer_of_Code)
-- ["Hello, World!" program](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program)
-- [IOS](https://en.wikipedia.org/wiki/IOS)
-- [Java (programming language)](https://en.wikipedia.org/wiki/Java_(programming_language))
-- [Linux](https://en.wikipedia.org/wiki/Linux)
-- [List of user interface markup languages](https://en.wikipedia.org/wiki/List_of_user_interface_markup_languages)
-- [Loudspeaker](https://en.wikipedia.org/wiki/Loudspeaker)
-- [MIT License](https://en.wikipedia.org/wiki/MIT_License)
-- [MacOS](https://en.wikipedia.org/wiki/MacOS)
-- [Material Design](https://en.wikipedia.org/wiki/Material_Design)
-- [Microphone](https://en.wikipedia.org/wiki/Microphone)
-- [Microsoft Windows](https://en.wikipedia.org/wiki/Microsoft_Windows)
-- [Mobile app](https://en.wikipedia.org/wiki/Mobile_app)
-- [Multi-touch](https://en.wikipedia.org/wiki/Multi-touch)
-- [Natural user interface](https://en.wikipedia.org/wiki/Natural_user_interface)
-- [Objective-C](https://en.wikipedia.org/wiki/Objective-C)
-- [OpenGL ES](https://en.wikipedia.org/wiki/OpenGL_ES)
-- [Open Sound Control](https://en.wikipedia.org/wiki/Open_Sound_Control)
-- [Open-source software](https://en.wikipedia.org/wiki/Open-source_software)
-- [Operating system](https://en.wikipedia.org/wiki/Operating_system)
-- [Panda3D](https://en.wikipedia.org/wiki/Panda3D)
-- [Preprocessor](https://en.wikipedia.org/wiki/Preprocessor)
-- [Programmer](https://en.wikipedia.org/wiki/Programmer)
-- [Pygame](https://en.wikipedia.org/wiki/Pygame)
-- [Pyglet](https://en.wikipedia.org/wiki/Pyglet)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Python Software Foundation](https://en.wikipedia.org/wiki/Python_Software_Foundation)
-- [Raspberry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi)
-- [Raspberry Pi OS](https://en.wikipedia.org/wiki/Raspberry_Pi_OS)
-- [Repository (version control)](https://en.wikipedia.org/wiki/Repository_(version_control))
-- [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell)
-- [Scripting Layer for Android](https://en.wikipedia.org/wiki/Scripting_Layer_for_Android)
-- [Shader](https://en.wikipedia.org/wiki/Shader)
-- [Simple DirectMedia Layer](https://en.wikipedia.org/wiki/Simple_DirectMedia_Layer)
-- [Social login](https://en.wikipedia.org/wiki/Social_login)
-- [Software categories](https://en.wikipedia.org/wiki/Software_categories)
-- [Software license](https://en.wikipedia.org/wiki/Software_license)
-- [Software release life cycle](https://en.wikipedia.org/wiki/Software_release_life_cycle)
-- [Tangible user interface](https://en.wikipedia.org/wiki/Tangible_user_interface)
-- [Twitter](https://en.wikipedia.org/wiki/Twitter)
-- [Vertex buffer object](https://en.wikipedia.org/wiki/Vertex_buffer_object)
-- [Microsoft Windows](https://en.wikipedia.org/wiki/Microsoft_Windows)
-- [Wikipedia:No original research](https://en.wikipedia.org/wiki/Wikipedia:No_original_research)
-- [Wikipedia:Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Category:Articles lacking reliable references from June 2022](https://en.wikipedia.org/wiki/Category:Articles_lacking_reliable_references_from_June_2022)
-- [Portal:Free and open-source software](https://en.wikipedia.org/wiki/Portal:Free_and_open-source_software)
-- [Portal:Video games](https://en.wikipedia.org/wiki/Portal:Video_games)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T03:43:35.124432+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 20:27:29 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 3202 bytes
+- **Word Count:** 494 words
