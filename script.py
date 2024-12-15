@@ -561,6 +561,14 @@ if __name__ == "__main__":
         log_message("Archiving complete!", "INFO")
         log_message(f"Total articles processed: {len(processed_articles)}")
         
+        # Update progress and README after complete archiving
+        try:
+            import update_progress
+            update_progress.main()
+            log_message("Successfully updated README and progress tracking", "INFO")
+        except Exception as e:
+            log_message(f"Error updating progress: {str(e)}", "ERROR")
+        
     except KeyboardInterrupt:
         log_message("Script interrupted by user", "WARNING")
         save_progress(processed_articles, CATEGORY)

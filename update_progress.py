@@ -10,6 +10,7 @@ from datetime import datetime
 from typing import Dict, List, Tuple
 import json
 from collections import defaultdict
+import glob
 
 def count_articles_in_category(category_path: str) -> Tuple[int, Dict[str, int]]:
     """Count articles and gather statistics in a category directory."""
@@ -245,28 +246,174 @@ def update_readme(stats: Dict[str, Dict], updates: List[str]):
     with open('README.md', 'w', encoding='utf-8') as f:
         f.write(content)
 
+def get_category_stats_new():
+    """
+    Calculate comprehensive statistics for all categories.
+    
+    Returns:
+        dict: Detailed statistics for each category
+    """
+    categories = {}
+    total_articles = 0
+    total_words = 0
+    total_size = 0
+    articles_with_refs = 0
+    articles_with_toc = 0
+
+    # Walk through all article directories
+    for category_dir in glob.glob('wiki_articles/articles_*'):
+        category_name = os.path.basename(category_dir).replace('articles_', '')
+        
+        # Initialize category stats
+        categories[category_name] = {
+            'count': 0,
+            'total_words': 0,
+            'total_size': 0,
+            'has_references': 0,
+            'has_toc': 0,
+            'total_lines': 0,
+            'target': 50,  # Default target, can be adjusted
+            'progress': 0.0,
+            'last_updated': datetime.now().strftime('%Y-%m-%d %H:%M UTC')
+        }
+        
+        # Collect article-level stats
+        for article_file in glob.glob(os.path.join(category_dir, '*.md')):
+            try:
+                with open(article_file, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                    
+                    # Update category stats
+                    cat_stats = categories[category_name]
+                    cat_stats['count'] += 1
+                    cat_stats['total_words'] += len(content.split())
+                    cat_stats['total_size'] += len(content.encode('utf-8'))
+                    cat_stats['has_references'] += 1 if '## References' in content else 0
+                    cat_stats['has_toc'] += 1 if '## Table of Contents' in content else 0
+                    cat_stats['total_lines'] += len(content.splitlines())
+            except Exception as e:
+                print(f"Error processing {article_file}: {e}")
+        
+        # Calculate progress
+        cat_stats = categories[category_name]
+        cat_stats['progress'] = min(1.0, cat_stats['count'] / cat_stats['target'])
+        
+        # Aggregate global stats
+        total_articles += cat_stats['count']
+        total_words += cat_stats['total_words']
+        total_size += cat_stats['total_size']
+        articles_with_refs += cat_stats['has_references']
+        articles_with_toc += cat_stats['has_toc']
+
+    return categories, {
+        'total_articles': total_articles,
+        'total_words': total_words,
+        'total_size': total_size,
+        'articles_with_refs': articles_with_refs,
+        'articles_with_toc': articles_with_toc
+    }
+
+def update_readme_new(stats, global_stats):
+    """
+    Update README.md with current progress and statistics.
+    
+    Args:
+        stats (dict): Category-level statistics
+        global_stats (dict): Overall project statistics
+    """
+    try:
+        # Read existing README
+        with open('README.md', 'r', encoding='utf-8') as f:
+            readme_content = f.readlines()
+        
+        # Find and update progress sections
+        updated_content = []
+        in_progress_section = False
+        in_category_section = False
+        
+        for line in readme_content:
+            # Check for progress section
+            if '## Project Progress' in line:
+                in_progress_section = True
+                updated_content.append(line)
+                
+                # Add global progress details
+                updated_content.append(f"\n### Overall Statistics\n")
+                updated_content.append(f"- **Total Articles:** {global_stats['total_articles']}\n")
+                updated_content.append(f"- **Total Words:** {global_stats['total_words']:,}\n")
+                updated_content.append(f"- **Total Size:** {global_stats['total_size']:,} bytes\n")
+                updated_content.append(f"- **Articles with References:** {global_stats['articles_with_refs']}\n")
+                updated_content.append(f"- **Articles with Table of Contents:** {global_stats['articles_with_toc']}\n")
+                continue
+            
+            # Check for category details section
+            if '## Category Details' in line:
+                in_category_section = True
+                updated_content.append(line)
+                
+                # Add detailed category information
+                for category, details in stats.items():
+                    updated_content.append(f"\n### {category}\n")
+                    updated_content.append(f"- **Articles:** {details['count']}\n")
+                    updated_content.append(f"- **Progress:** {details['progress']*100:.2f}%\n")
+                    updated_content.append(f"- **Total Words:** {details['total_words']:,}\n")
+                    updated_content.append(f"- **Total Size:** {details['total_size']:,} bytes\n")
+                    updated_content.append(f"- **Articles with References:** {details['has_references']}\n")
+                    updated_content.append(f"- **Articles with ToC:** {details['has_toc']}\n")
+                continue
+            
+            # Skip existing progress and category details
+            if in_progress_section and '##' in line:
+                in_progress_section = False
+            if in_category_section and '##' in line:
+                in_category_section = False
+            
+            # Add non-progress lines
+            if not in_progress_section and not in_category_section:
+                updated_content.append(line)
+        
+        # Write updated README
+        with open('README.md', 'w', encoding='utf-8') as f:
+            f.writelines(updated_content)
+        
+    except Exception as e:
+        print(f"Error updating README: {e}")
+
+def update_archive_progress_new(stats, global_stats):
+    """
+    Update archive_progress.json with current statistics.
+    
+    Args:
+        stats (dict): Category-level statistics
+        global_stats (dict): Overall project statistics
+    """
+    try:
+        progress_data = {
+            'last_updated': datetime.now().strftime('%Y-%m-%d %H:%M UTC'),
+            'global_stats': global_stats,
+            'category_stats': stats
+        }
+        
+        with open('archive_progress.json', 'w', encoding='utf-8') as f:
+            json.dump(progress_data, f, indent=2)
+        
+    except Exception as e:
+        print(f"Error updating archive_progress.json: {e}")
+
 def main():
-    """Main function to update the README progress."""
-    stats = get_category_stats()
-    
-    # Get recent updates based on actual changes
-    total_articles = sum(data['count'] for data in stats.values())
-    current_data = load_progress_data()
-    previous_total = current_data.get('total_articles', 0)
-    
-    if total_articles != previous_total:
-        # If there are changes, create a new update
-        updates = update_recent_updates("Python Categories", total_articles - previous_total)
-    else:
-        # If no changes, use existing updates
-        updates = get_recent_updates()
-    
-    # Save all progress data
-    save_progress_data(stats, updates)
+    """
+    Main function to update progress tracking.
+    """
+    # Get category and global statistics
+    category_stats, global_stats = get_category_stats_new()
     
     # Update README
-    update_readme(stats, updates)
-    print("README.md and archive_progress.json have been updated with current progress.")
+    update_readme_new(category_stats, global_stats)
+    
+    # Update archive progress JSON
+    update_archive_progress_new(category_stats, global_stats)
+    
+    print("Progress tracking updated successfully.")
 
 if __name__ == "__main__":
     main()
