@@ -28,6 +28,7 @@ wiki_articles/
 ## 📄 Article Format
 
 Each archived article includes:
+
 - 📌 Article metadata (last updated, URL, language, page ID)
 - 📋 Summary
 - 🏷️ Categories
@@ -39,12 +40,13 @@ Each archived article includes:
 ## 🧭 Quick Navigation
 
 To find specific articles:
+
 1. 📂 Browse the `wiki_articles/articles` directory
 2. 📚 Each category has its own subdirectory with a README
 3. 📝 Articles are named using underscores (e.g., `Python_syntax.md`)
 4. 🔍 Use GitHub's search to find specific topics
 
-## 📊 Archive Progress
+<!-- ## 📊 Archive Progress
 
 Current archiving progress by category:
 
@@ -94,20 +96,23 @@ Last Update: 2024-12-16 02:09 UTC
 <summary>Click to view recent archive updates</summary>
 
 <!-- BEGIN_UPDATES -->
+
 - Updated core language articles (2024-12-15)
 - Added new framework documentation (2024-12-15)
 - Refreshed community articles (2024-12-15)
-<!-- END_UPDATES -->
-</details>
+  <!-- END_UPDATES -->
+  </details> -->
 
 ## 🚀 Setup and Usage
 
 1. **Install Dependencies**:
+
    ```bash
    pip install -r requirements.txt
    ```
 
 2. **Run Locally**:
+
    ```bash
    python script.py
    ```
@@ -121,6 +126,7 @@ Last Update: 2024-12-16 02:09 UTC
 ## ⚙️ Configuration
 
 Edit these variables in `script.py`:
+
 ```python
 [░░░░░░░░░░] 0% 0.0% - Overall progress
 [░░░░░░░░░░] 0% 0.0% - Core Language
@@ -133,6 +139,7 @@ CATEGORY = "Python (programming language)"  # Main category
 MAX_DEPTH = 1                         # Category depth
 MAX_WORKERS = 10                      # Parallel threads
 ```
+
 [░░░░░░░░░░] 0% 0.0% - Overall progress
 [░░░░░░░░░░] 0% 0.0% - Core Language
 [░░░░░░░░░░] 0% 0.0% - Libraries & Frameworks

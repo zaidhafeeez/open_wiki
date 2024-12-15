@@ -2,102 +2,97 @@ name: Wiki Archive Update
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Run daily at midnight UTC
-  workflow_dispatch:  # Allow manual trigger
+    - cron: "0 0 * * *" # Run daily at midnight UTC
+  workflow_dispatch: # Allow manual trigger
 
 jobs:
   update-wiki-archive:
     runs-on: ubuntu-24.04
-    
+
     concurrency:
       group: wiki-archive-${{ github.ref }}
       cancel-in-progress: true
-    
-    steps:
-    - uses: actions/checkout@v4
-      with:
-        fetch-depth: 0  # Fetch all history for proper updates
-    
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.x'
-        cache: 'pip'  # Enable pip cache
-    
-    - name: Cache Python dependencies and progress
-      uses: actions/cache@v4
-      with:
-        path: |
-          ~/.cache/pip
-          ~/.local/lib/python*/site-packages
-          wiki_articles/  # Cache the articles directory
-          archive_progress.json  # Cache the progress file
-        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}-articles-${{ github.sha }}
-        restore-keys: |
-          ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}-articles-
-          ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}-
-          ${{ runner.os }}-pip-
-    
-    - name: Configure Git
-      run: |
-        git config --global user.name "zaidhafeeez"
-        git config --global user.email "188496560+zaidhafeeez@users.noreply.github.com"
-    
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-    
-    - name: Run Wiki Archive Script
-      run: python script.py
-      env:
-        PYTHONUNBUFFERED: 1  # Enable real-time logging
-        PYTHONIOENCODING: utf-8  # Ensure proper encoding
-    
-    - name: Update Progress in README
-      run: |
-        python update_progress.py
-        if [[ -n "$(git status --porcelain README.md)" ]]; then
-          echo "readme_updated=true" >> $GITHUB_OUTPUT
-        else
-          echo "readme_updated=false" >> $GITHUB_OUTPUT
-        fi
-      id: update_progress
-    
-    - name: Check for changes
-      id: check_changes
-      run: |
-        if [[ -n "$(git status --porcelain wiki_articles/)" ]]; then
-          echo "changes=true" >> $GITHUB_OUTPUT
-          echo "changed_files=$(git status --porcelain wiki_articles/ | wc -l)" >> $GITHUB_OUTPUT
-        else
-          echo "changes=false" >> $GITHUB_OUTPUT
-          echo "changed_files=0" >> $GITHUB_OUTPUT
-        fi
 
-    - name: Commit and push if there are changes
-      if: steps.check_changes.outputs.changes == 'true'
-      run: |
-        git add wiki_articles/
-        
-        # Add README if it was updated
-        if [[ "${{ steps.update_progress.outputs.readme_updated }}" == "true" ]]; then
-          git add README.md
-        fi
-        
-        current_date=$(date +'%Y-%m-%d')
-        
-        git commit -m "Update wiki articles - $current_date" \
-                  -m "Automated update of Wikipedia articles" \
-                  -m "Category: Python (programming language)" \
-                  -m "Files changed: ${{ steps.check_changes.outputs.changed_files }}"
-        
-        git config http.postBuffer 524288000
-        git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    
-    - name: Cleanup old cache
-      run: |
-        rm -f archive_progress.json
-        git gc --aggressive --prune=now
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fetch all history for proper updates
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+          cache: "pip" # Enable pip cache
+
+      - name: Cache Python dependencies and progress
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/pip
+            ~/.local/lib/python*/site-packages
+            wiki_articles/  # Cache the articles directory
+            archive_progress.json  # Cache the progress file
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}-articles-${{ github.sha }}
+          restore-keys: |
+            ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}-articles-
+            ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}-
+            ${{ runner.os }}-pip-
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "zaidhafeeez"
+          git config --global user.email "188496560+zaidhafeeez@users.noreply.github.com"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Wiki Archive Script
+        run: python script.py
+        env:
+          PYTHONUNBUFFERED: 1 # Enable real-time logging
+          PYTHONIOENCODING: utf-8 # Ensure proper encoding
+
+      # - name: Update Progress in README
+      #   run: |
+      #     python update_progress.py
+      #     if [[ -n "$(git status --porcelain README.md)" ]]; then
+      #       echo "readme_updated=true" >> $GITHUB_OUTPUT
+      #     else
+      #       echo "readme_updated=false" >> $GITHUB_OUTPUT
+      #     fi
+      #   id: update_progress
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if [[ -n "$(git status --porcelain wiki_articles/)" ]]; then
+            echo "changes=true" >> $GITHUB_OUTPUT
+            echo "changed_files=$(git status --porcelain wiki_articles/ | wc -l)" >> $GITHUB_OUTPUT
+          else
+            echo "changes=false" >> $GITHUB_OUTPUT
+            echo "changed_files=0" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push if there are changes
+        if: steps.check_changes.outputs.changes == 'true'
+        run: |
+          git add wiki_articles/
+
+          current_date=$(date +'%Y-%m-%d')
+
+          git commit -m "Update wiki articles - $current_date" \
+                    -m "Automated update of Wikipedia articles" \
+                    -m "Category: Python (programming language)" \
+                    -m "Files changed: ${{ steps.check_changes.outputs.changed_files }}"
+
+          git config http.postBuffer 524288000
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Cleanup old cache
+        run: |
+          rm -f archive_progress.json
+          git gc --aggressive --prune=now

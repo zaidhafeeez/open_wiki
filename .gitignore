@@ -8,3 +8,5 @@ __pycache__/
 
 # Progress file
 # archive_progress.json
+
+update_progress.py
