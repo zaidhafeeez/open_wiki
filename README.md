@@ -50,18 +50,18 @@ Current archiving progress by category:
 
 ```
 Python (programming language)
-[██████████] 100% - Core language articles
-[████████░░] 80%  - Libraries & frameworks
-[███████░░░] 70%  - Development tools
-[████████░░] 80%  - Community & culture
-[██████░░░░] 60%  - Applications
-[████████░░] 80%  - Overall progress
+[█████░░░░░] 50% - Core Language
+[████████░░] 80% - Libraries & Frameworks
+[█████░░░░░] 50% - Development Tools
+[████████░░] 80% - Community & Culture
+[██████░░░░] 60% - Applications
+[██████░░░░] 64% - Overall progress
 ```
 
-Last Update: <!-- PROGRESS_TIMESTAMP -->
-- Total Articles: <!-- TOTAL_ARTICLES -->
-- Categories Processed: <!-- CATEGORIES_PROCESSED -->
-- Active Contributors: <!-- ACTIVE_CONTRIBUTORS -->
+Last Update: 2024-12-15 19:53 UTC
+- Total Articles: 0
+- Categories Processed: 5
+- Active Contributors: 3
 
 > Note: Progress bars are automatically updated by GitHub Actions after each archive run.
 
@@ -72,11 +72,11 @@ Last Update: <!-- PROGRESS_TIMESTAMP -->
 
 | Category | Articles | Last Updated | Status |
 |----------|----------|--------------|---------|
-| Core Language | <!-- CORE_COUNT --> | <!-- CORE_UPDATED --> | <!-- CORE_STATUS --> |
-| Libraries & Frameworks | <!-- LIB_COUNT --> | <!-- LIB_UPDATED --> | <!-- LIB_STATUS --> |
-| Development Tools | <!-- TOOLS_COUNT --> | <!-- TOOLS_UPDATED --> | <!-- TOOLS_STATUS --> |
-| Community & Culture | <!-- COMMUNITY_COUNT --> | <!-- COMMUNITY_UPDATED --> | <!-- COMMUNITY_STATUS --> |
-| Applications | <!-- APPS_COUNT --> | <!-- APPS_UPDATED --> | <!-- APPS_STATUS --> |
+| Core Language | 25 | 2024-12-15 19:55 UTC | 🔄 In Progress |
+| Libraries & Frameworks | 80 | 2024-12-15 19:55 UTC | 🔄 In Progress |
+| Development Tools | 15 | 2024-12-15 19:55 UTC | 🔄 In Progress |
+| Community & Culture | 16 | 2024-12-15 19:55 UTC | 🔄 In Progress |
+| Applications | 24 | 2024-12-15 19:55 UTC | 🔄 In Progress |
 
 </details>
 
@@ -86,11 +86,10 @@ Last Update: <!-- PROGRESS_TIMESTAMP -->
 <summary>Click to view recent archive updates</summary>
 
 <!-- BEGIN_UPDATES -->
-- <!-- UPDATE_1 -->
-- <!-- UPDATE_2 -->
-- <!-- UPDATE_3 -->
+- Updated core language articles (2024-12-15)
+- Added new framework documentation (2024-12-15)
+- Refreshed community articles (2024-12-15)
 <!-- END_UPDATES -->
-
 </details>
 
 ## 🚀 Setup and Usage

@@ -76,7 +76,8 @@ def update_readme(stats: Dict[str, Dict], updates: List[str]):
         progress = data['progress']
         total_progress += progress
         progress_bar = create_progress_bar(progress)
-        progress_section += f"{progress_bar} - {category} articles\n"
+        # Remove the word "articles" from the end of category lines
+        progress_section += f"{progress_bar} - {category}\n"
     
     overall_progress = create_progress_bar(total_progress / len(stats))
     progress_section += f"{overall_progress} - Overall progress"
@@ -95,10 +96,10 @@ def update_readme(stats: Dict[str, Dict], updates: List[str]):
     
     # Update category details
     for category, data in stats.items():
-        key_prefix = category.upper().replace(' & ', '_').replace(' ', '_')
-        replacements[f'<!-- {key_prefix}_COUNT -->'] = str(data['count'])
-        replacements[f'<!-- {key_prefix}_UPDATED -->'] = data['last_updated']
-        replacements[f'<!-- {key_prefix}_STATUS -->'] = '✅ Complete' if data['progress'] >= 100 else '🔄 In Progress'
+        safe_category = category.upper().replace(' & ', '_').replace(' ', '_')
+        replacements[f'<!-- {safe_category}_COUNT -->'] = str(data['count'])
+        replacements[f'<!-- {safe_category}_UPDATED -->'] = data['last_updated']
+        replacements[f'<!-- {safe_category}_STATUS -->'] = '✅ Complete' if data['progress'] >= 100 else '🔄 In Progress'
     
     # Update recent updates
     updates_section = "\n".join(f"- {update}" for update in updates)
