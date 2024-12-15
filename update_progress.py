@@ -251,71 +251,68 @@ def get_category_stats_new():
     Calculate comprehensive statistics for all categories.
     
     Returns:
-        dict: Detailed statistics for each category
+        tuple: (dict of category statistics, dict of global statistics)
     """
-    categories = {}
-    total_articles = 0
-    total_words = 0
-    total_size = 0
-    articles_with_refs = 0
-    articles_with_toc = 0
-
-    # Walk through all article directories
-    for category_dir in glob.glob('wiki_articles/articles_*'):
-        category_name = os.path.basename(category_dir).replace('articles_', '')
+    try:
+        # Load existing progress data
+        with open('archive_progress.json', 'r', encoding='utf-8') as f:
+            progress_data = json.load(f)
         
-        # Initialize category stats
-        categories[category_name] = {
-            'count': 0,
-            'total_words': 0,
-            'total_size': 0,
-            'has_references': 0,
-            'has_toc': 0,
-            'total_lines': 0,
-            'target': 50,  # Default target, can be adjusted
-            'progress': 0.0,
-            'last_updated': datetime.now().strftime('%Y-%m-%d %H:%M UTC')
-        }
+        # Global statistics
+        global_stats = progress_data.get('global_stats', {})
         
-        # Collect article-level stats
-        for article_file in glob.glob(os.path.join(category_dir, '*.md')):
-            try:
-                with open(article_file, 'r', encoding='utf-8') as f:
-                    content = f.read()
-                    
-                    # Update category stats
-                    cat_stats = categories[category_name]
-                    cat_stats['count'] += 1
-                    cat_stats['total_words'] += len(content.split())
-                    cat_stats['total_size'] += len(content.encode('utf-8'))
-                    cat_stats['has_references'] += 1 if '## References' in content else 0
-                    cat_stats['has_toc'] += 1 if '## Table of Contents' in content else 0
-                    cat_stats['total_lines'] += len(content.splitlines())
-            except Exception as e:
-                print(f"Error processing {article_file}: {e}")
+        # Add total progress calculation
+        total_articles = global_stats.get('total_articles', 0)
+        total_target = 0
+        total_progress = 0
         
-        # Calculate progress
-        cat_stats = categories[category_name]
-        cat_stats['progress'] = min(1.0, cat_stats['count'] / cat_stats['target'])
+        # Process category statistics
+        category_stats = {}
+        for category_key, category_data in progress_data.get('category_stats', {}).items():
+            # Clean up category name for display
+            display_name = category_key.replace('_', ' ').replace('(programming language)', '').strip()
+            
+            # Ensure display name matches the README's expected names
+            category_name_mapping = {
+                'Articles with example Python programming language code': 'Libraries & Frameworks',
+                'Articles with example Python (programming language) code': 'Development Tools',
+                'Python (programming language)': 'Core Language',
+                'Python (programming language) development tools': 'Development Tools',
+                # Add more mappings as needed
+            }
+            
+            display_name = category_name_mapping.get(category_key, display_name)
+            
+            # Prepare category statistics
+            category_stats[display_name] = {
+                'name': display_name,
+                'count': category_data.get('count', 0),
+                'total_words': category_data.get('total_words', 0),
+                'total_size': category_data.get('total_size', 0),
+                'has_references': category_data.get('has_references', 0),
+                'has_toc': category_data.get('has_toc', 0),
+                'total_lines': category_data.get('total_lines', 0),
+                'progress': category_data.get('progress', 0),
+                'target': category_data.get('target', 50)
+            }
+            
+            # Calculate total progress
+            target = category_data.get('target', 50)
+            total_target += target
+            total_progress += category_data.get('progress', 0) * target
         
-        # Aggregate global stats
-        total_articles += cat_stats['count']
-        total_words += cat_stats['total_words']
-        total_size += cat_stats['total_size']
-        articles_with_refs += cat_stats['has_references']
-        articles_with_toc += cat_stats['has_toc']
-
-    return categories, {
-        'total_articles': total_articles,
-        'total_words': total_words,
-        'total_size': total_size,
-        'articles_with_refs': articles_with_refs,
-        'articles_with_toc': articles_with_toc
-    }
+        # Calculate overall progress
+        global_stats['total_progress'] = total_progress / max(total_target, 1)
+        
+        return category_stats, global_stats
+    
+    except Exception as e:
+        print(f"Error calculating category stats: {e}")
+        return {}, {}
 
 def update_readme_new(stats, global_stats):
     """
-    Update README.md with current progress and statistics.
+    Update README.md with current progress and statistics while preserving markdown structure.
     
     Args:
         stats (dict): Category-level statistics
@@ -326,58 +323,138 @@ def update_readme_new(stats, global_stats):
         with open('README.md', 'r', encoding='utf-8') as f:
             readme_content = f.readlines()
         
-        # Find and update progress sections
+        # Prepare updated content
         updated_content = []
         in_progress_section = False
-        in_category_section = False
+        in_category_details = False
+        continue_skipping = False  # Initialize continue_skipping here
+        
+        # Current timestamp
+        current_time = datetime.now().strftime('%Y-%m-%d %H:%M UTC')
+        
+        # Predefined category order for progress bars
+        category_order = [
+            'Core Language', 
+            'Libraries & Frameworks', 
+            'Development Tools', 
+            'Community & Culture', 
+            'Applications'
+        ]
+        
+        # Unique category rows tracking
+        processed_category_rows = set()
         
         for line in readme_content:
-            # Check for progress section
-            if '## Project Progress' in line:
+            # Update progress bars section
+            if '## 📊 Archive Progress' in line:
                 in_progress_section = True
                 updated_content.append(line)
-                
-                # Add global progress details
-                updated_content.append(f"\n### Overall Statistics\n")
-                updated_content.append(f"- **Total Articles:** {global_stats['total_articles']}\n")
-                updated_content.append(f"- **Total Words:** {global_stats['total_words']:,}\n")
-                updated_content.append(f"- **Total Size:** {global_stats['total_size']:,} bytes\n")
-                updated_content.append(f"- **Articles with References:** {global_stats['articles_with_refs']}\n")
-                updated_content.append(f"- **Articles with Table of Contents:** {global_stats['articles_with_toc']}\n")
                 continue
             
-            # Check for category details section
-            if '## Category Details' in line:
-                in_category_section = True
+            if in_progress_section:
+                # Replace progress bars
+                if line.startswith('```'):
+                    updated_content.append(line)
+                    
+                    # Add overall progress bar first
+                    overall_progress = global_stats.get('total_progress', 0)
+                    progress_bar = create_progress_bar(overall_progress)
+                    updated_content.append(f"{progress_bar} {overall_progress*100:.1f}% - Overall progress\n")
+                    
+                    # Add category progress bars
+                    for category in category_order:
+                        cat_stats = stats.get(category, {})
+                        progress = cat_stats.get('progress', 0)
+                        progress_bar = create_progress_bar(progress)
+                        updated_content.append(f"{progress_bar} {progress*100:.1f}% - {category}\n")
+                    
+                    # Skip remaining lines in this block
+                    continue_skipping = True
+                    continue
+                
+                # Skip redundant lines if we're in progress section
+                if continue_skipping:
+                    if line.startswith('Python') or line.startswith('[░░░░░░░░░░]'):
+                        continue
+                    else:
+                        continue_skipping = False
+                
+                # Update last update and statistics
+                if line.startswith('Last Update:'):
+                    updated_content.append(f"Last Update: {current_time}\n")
+                    continue
+                
+                if line.startswith('- Total Articles:'):
+                    updated_content.append(f"- Total Articles: {global_stats.get('total_articles', 0)}\n")
+                    continue
+                
+                if line.startswith('- Total Content:'):
+                    total_words = global_stats.get('total_words', 0)
+                    total_size = global_stats.get('total_size', 0)
+                    updated_content.append(f"- Total Content: {total_words:,} words ({format_size(total_size)})\n")
+                    continue
+                
+                if line.startswith('- Articles with References:'):
+                    updated_content.append(f"- Articles with References: {global_stats.get('articles_with_refs', 0)}\n")
+                    continue
+                
+                if line.startswith('- Average Words per Article:'):
+                    avg_words = global_stats.get('total_words', 0) / max(global_stats.get('total_articles', 1), 1)
+                    updated_content.append(f"- Average Words per Article: {avg_words:.1f}\n")
+                    continue
+                
+                if line.startswith('- Categories Processed:'):
+                    updated_content.append(f"- Categories Processed: {len(stats)}\n")
+                    continue
+                
+                if line.startswith('- Active Contributors:'):
+                    # This might need to be dynamically tracked or hardcoded
+                    updated_content.append(line)
+                    continue
+            
+            # Update category details table
+            if '### 📈 Category Details' in line:
+                in_category_details = True
                 updated_content.append(line)
-                
-                # Add detailed category information
-                for category, details in stats.items():
-                    updated_content.append(f"\n### {category}\n")
-                    updated_content.append(f"- **Articles:** {details['count']}\n")
-                    updated_content.append(f"- **Progress:** {details['progress']*100:.2f}%\n")
-                    updated_content.append(f"- **Total Words:** {details['total_words']:,}\n")
-                    updated_content.append(f"- **Total Size:** {details['total_size']:,} bytes\n")
-                    updated_content.append(f"- **Articles with References:** {details['has_references']}\n")
-                    updated_content.append(f"- **Articles with ToC:** {details['has_toc']}\n")
                 continue
             
-            # Skip existing progress and category details
-            if in_progress_section and '##' in line:
-                in_progress_section = False
-            if in_category_section and '##' in line:
-                in_category_section = False
+            if in_category_details:
+                if line.startswith('| Category |'):
+                    updated_content.append(line)
+                    continue
+                
+                if line.startswith('|----------'):
+                    updated_content.append(line)
+                    continue
+                
+                # Update category rows
+                for category in category_order + ['Community & Culture', 'Applications']:
+                    if f"| {category} |" in line:
+                        cat_stats = stats.get(category, {})
+                        
+                        # Create a unique key for this row
+                        row_key = f"{category}|{cat_stats.get('count', 0)}|{cat_stats.get('total_words', 0)}|{format_size(cat_stats.get('total_size', 0))}"
+                        
+                        if cat_stats and row_key not in processed_category_rows:
+                            updated_line = f"| {category} | {cat_stats.get('count', 0)} | {cat_stats.get('total_words', 0):,} | {format_size(cat_stats.get('total_size', 0))} | {cat_stats.get('has_references', 0)} | {cat_stats.get('total_lines', 0)} | {cat_stats.get('has_toc', 0)} | 🔄 In Progress | {current_time} |\n"
+                            updated_content.append(updated_line)
+                            processed_category_rows.add(row_key)
+                            break
             
-            # Add non-progress lines
-            if not in_progress_section and not in_category_section:
+            # Add other lines as is, but skip duplicate progress bars and configuration section progress bars
+            if not (line.startswith('[░░░░░░░░░░]') and ('Overall progress' in line or 'LANGUAGE =' in line)):
                 updated_content.append(line)
         
         # Write updated README
         with open('README.md', 'w', encoding='utf-8') as f:
             f.writelines(updated_content)
         
+        print("README updated successfully.")
+        return True
+        
     except Exception as e:
         print(f"Error updating README: {e}")
+        return False
 
 def update_archive_progress_new(stats, global_stats):
     """
@@ -408,12 +485,16 @@ def main():
     category_stats, global_stats = get_category_stats_new()
     
     # Update README
-    update_readme_new(category_stats, global_stats)
+    readme_updated = update_readme_new(category_stats, global_stats)
     
     # Update archive progress JSON
     update_archive_progress_new(category_stats, global_stats)
     
     print("Progress tracking updated successfully.")
+    
+    # Return a status that can be used by GitHub Actions
+    return readme_updated
 
+# Ensure this is run when imported or executed directly
 if __name__ == "__main__":
     main()
