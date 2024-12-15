@@ -127,39 +127,51 @@
     "Array slicing"
   ],
   "last_category": "Articles with example Python (programming language) code",
-  "last_updated": "2024-12-15T15:19:08.739456+00:00",
+  "last_updated": "2024-12-16 01:30 UTC",
   "category_stats": {
-    "Articles_with_example_Python_(programming_language)_code": {
-      "count": 77,
-      "total_words": 169550,
-      "total_size": 1933148,
-      "has_references": 0,
-      "has_toc": 77,
-      "total_lines": 60203
+    "Core Language": {
+      "count": 0,
+      "target": 50,
+      "progress": 0.0,
+      "last_updated": "2024-12-16 01:30 UTC",
+      "detailed_stats": {}
     },
-    "Articles_with_example_Python_programming_language_code": {
-      "count": 19,
-      "total_words": 49136,
-      "total_size": 504737,
-      "has_references": 0,
-      "has_toc": 19,
-      "total_lines": 12051
+    "Libraries & Frameworks": {
+      "count": 0,
+      "target": 100,
+      "progress": 0.0,
+      "last_updated": "2024-12-16 01:30 UTC",
+      "detailed_stats": {}
     },
-    "Python_(programming_language)": {
-      "count": 24,
-      "total_words": 26234,
-      "total_size": 290840,
-      "has_references": 0,
-      "has_toc": 23,
-      "total_lines": 4265
+    "Development Tools": {
+      "count": 0,
+      "target": 30,
+      "progress": 0.0,
+      "last_updated": "2024-12-16 01:30 UTC",
+      "detailed_stats": {}
     },
-    "Python_programming_language": {
-      "count": 2,
-      "total_words": 1439,
-      "total_size": 19638,
-      "has_references": 0,
-      "has_toc": 2,
-      "total_lines": 323
+    "Community & Culture": {
+      "count": 0,
+      "target": 20,
+      "progress": 0.0,
+      "last_updated": "2024-12-16 01:30 UTC",
+      "detailed_stats": {}
+    },
+    "Applications": {
+      "count": 0,
+      "target": 40,
+      "progress": 0.0,
+      "last_updated": "2024-12-16 01:30 UTC",
+      "detailed_stats": {}
     }
-  }
+  },
+  "recent_updates": [
+    "Updated core language articles (2024-12-16)",
+    "Added new framework documentation (2024-12-16)",
+    "Refreshed community articles (2024-12-16)"
+  ],
+  "total_articles": 0,
+  "total_words": 0,
+  "total_size": 0,
+  "articles_with_refs": 0
 }
