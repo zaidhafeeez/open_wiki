@@ -50,16 +50,19 @@ Current archiving progress by category:
 
 ```
 Python (programming language)
-[█████░░░░░] 50% - Core Language
-[████████░░] 80% - Libraries & Frameworks
-[█████░░░░░] 50% - Development Tools
-[████████░░] 80% - Community & Culture
-[██████░░░░] 60% - Applications
-[██████░░░░] 64% - Overall progress
+[░░░░░░░░░░] 0% - Core Language
+[░░░░░░░░░░] 0% - Libraries & Frameworks
+[░░░░░░░░░░] 0% - Development Tools
+[░░░░░░░░░░] 0% - Community & Culture
+[░░░░░░░░░░] 0% - Applications
+[░░░░░░░░░░] 0% - Overall progress
 ```
 
-Last Update: 2024-12-15 19:53 UTC
+Last Update: 2024-12-15 19:58 UTC
 - Total Articles: 0
+- Total Content: 0 words (0.0 B)
+- Articles with References: 0
+- Average Words per Article: 0
 - Categories Processed: 5
 - Active Contributors: 3
 
@@ -70,13 +73,13 @@ Last Update: 2024-12-15 19:53 UTC
 <details>
 <summary>Click to view detailed category progress</summary>
 
-| Category | Articles | Last Updated | Status |
-|----------|----------|--------------|---------|
-| Core Language | 25 | 2024-12-15 19:55 UTC | 🔄 In Progress |
-| Libraries & Frameworks | 80 | 2024-12-15 19:55 UTC | 🔄 In Progress |
-| Development Tools | 15 | 2024-12-15 19:55 UTC | 🔄 In Progress |
-| Community & Culture | 16 | 2024-12-15 19:55 UTC | 🔄 In Progress |
-| Applications | 24 | 2024-12-15 19:55 UTC | 🔄 In Progress |
+| Category | Articles | Words | Size | References | Lines | ToC | Status | Last Updated |
+|----------|----------|-------|------|------------|-------|-----|--------|--------------|
+| Core Language | 0 | 0 | 0.0 B | 0 | 0 | 0 | 🔄 In Progress | 2024-12-15 19:58 UTC |
+| Libraries & Frameworks | 0 | 0 | 0.0 B | 0 | 0 | 0 | 🔄 In Progress | 2024-12-15 19:58 UTC |
+| Development Tools | 0 | 0 | 0.0 B | 0 | 0 | 0 | 🔄 In Progress | 2024-12-15 19:58 UTC |
+| Community & Culture | 0 | 0 | 0.0 B | 0 | 0 | 0 | 🔄 In Progress | 2024-12-15 19:58 UTC |
+| Applications | 0 | 0 | 0.0 B | 0 | 0 | 0 | 🔄 In Progress | 2024-12-15 19:58 UTC |
 
 </details>
 
