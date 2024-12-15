@@ -1,17 +1,18 @@
 # Corecursion
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:15:08.074009+00:00
+## Metadata
+- **Last Updated:** 2024-12-06 05:13:26 UTC
 - **Original Article:** [Corecursion](https://en.wikipedia.org/wiki/Corecursion)
 - **Language:** en
 - **Page ID:** 1338683
 
 ## Summary
-
-In computer science, corecursion is a type of operation that is dual to recursion. Whereas recursion works analytically, starting on data further from a base case and breaking it down into smaller data and repeating until one reaches a base case, corecursion works synthetically, starting from a base case and building it up, iteratively producing data further removed from a base case. Put simply, corecursive algorithms use the data that they themselves produce, bit by bit, as they become availabl
+In computer science, corecursion is a type of operation that is dual to recursion. Whereas recursion works analytically, starting on data further from a base case and breaking it down into smaller data and repeating until one reaches a base case, corecursion works synthetically, starting from a base case and building it up, iteratively producing data further removed from a base case. Put simply, corecursive algorithms use the data that they themselves produce, bit by bit, as they become available, and needed, to produce further bits of data. A similar but distinct concept is generative recursion, which may lack a definite "direction" inherent in corecursion and recursion.
+Where recursion allows programs to operate on arbitrarily complex data, so long as they can be reduced to simple data (base cases), corecursion allows programs to produce arbitrarily complex and potentially infinite data structures, such as streams, so long as it can be produced from simple data (base cases) in a sequence of finite steps. Where recursion may not terminate, never reaching a base state, corecursion starts from a base state, and thus produces subsequent steps deterministically, though it may proceed indefinitely (and thus not terminate under strict evaluation), or it may consume more than it produces and thus become non-productive. Many functions that are traditionally analyzed as recursive can alternatively, and arguably more naturally, be interpreted as corecursive functions that are terminated at a given stage, for example recurrence relations such as the factorial.
+Corecursion can produce both finite and infinite data structures as results, and may employ self-referential data structures. Corecursion is often used in conjunction with lazy evaluation, to produce only a finite subset of a potentially infinite structure (rather than trying to produce an entire infinite structure at once). Corecursion is a particularly important concept in functional programming, where corecursion and codata allow total languages to work with infinite data structures.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles that are too technical
 - Category:All articles with style issues
@@ -836,103 +837,9 @@ Notes
 
 == References ==
 
-## Related Articles
-
-### Internal Links
-
-- [Acta Informatica](https://en.wikipedia.org/wiki/Acta_Informatica)
-- [Analysis](https://en.wikipedia.org/wiki/Analysis)
-- [Anamorphism](https://en.wikipedia.org/wiki/Anamorphism)
-- [Apomorphism](https://en.wikipedia.org/wiki/Apomorphism)
-- [ArXiv](https://en.wikipedia.org/wiki/ArXiv)
-- [Assignment (computer science)](https://en.wikipedia.org/wiki/Assignment_(computer_science))
-- [Bisimulation](https://en.wikipedia.org/wiki/Bisimulation)
-- [Branching factor](https://en.wikipedia.org/wiki/Branching_factor)
-- [Breadth-first search](https://en.wikipedia.org/wiki/Breadth-first_search)
-- [Breadth-first search](https://en.wikipedia.org/wiki/Breadth-first_search)
-- [Call stack](https://en.wikipedia.org/wiki/Call_stack)
-- [Catamorphism](https://en.wikipedia.org/wiki/Catamorphism)
-- [Category of sets](https://en.wikipedia.org/wiki/Category_of_sets)
-- [Christine Paulin-Mohring](https://en.wikipedia.org/wiki/Christine_Paulin-Mohring)
-- [CiteSeerX](https://en.wikipedia.org/wiki/CiteSeerX)
-- [Coinduction](https://en.wikipedia.org/wiki/Coinduction)
-- [Coinduction](https://en.wikipedia.org/wiki/Coinduction)
-- [Complete partial order](https://en.wikipedia.org/wiki/Complete_partial_order)
-- [Computer science](https://en.wikipedia.org/wiki/Computer_science)
-- [Coq (software)](https://en.wikipedia.org/wiki/Coq_(software))
-- [Data structure](https://en.wikipedia.org/wiki/Data_structure)
-- [David Turner (computer scientist)](https://en.wikipedia.org/wiki/David_Turner_(computer_scientist))
-- [Denotational semantics](https://en.wikipedia.org/wiki/Denotational_semantics)
-- [Depth-first search](https://en.wikipedia.org/wiki/Depth-first_search)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Doubly linked list](https://en.wikipedia.org/wiki/Doubly_linked_list)
-- [Dovetailing (computer science)](https://en.wikipedia.org/wiki/Dovetailing_(computer_science))
-- [Dual (category theory)](https://en.wikipedia.org/wiki/Dual_(category_theory))
-- [F-coalgebra](https://en.wikipedia.org/wiki/F-coalgebra)
-- [Factorial](https://en.wikipedia.org/wiki/Factorial)
-- [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_sequence)
-- [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_sequence)
-- [Finite set](https://en.wikipedia.org/wiki/Finite_set)
-- [Fold (higher-order function)](https://en.wikipedia.org/wiki/Fold_(higher-order_function))
-- [Functional programming](https://en.wikipedia.org/wiki/Functional_programming)
-- [Fundamenta Informaticae](https://en.wikipedia.org/wiki/Fundamenta_Informaticae)
-- [Recursion (computer science)](https://en.wikipedia.org/wiki/Recursion_(computer_science))
-- [Generator (computer programming)](https://en.wikipedia.org/wiki/Generator_(computer_programming))
-- [Gordon Plotkin](https://en.wikipedia.org/wiki/Gordon_Plotkin)
-- [Least fixed point](https://en.wikipedia.org/wiki/Least_fixed_point)
-- [Haskell](https://en.wikipedia.org/wiki/Haskell)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Imperative programming](https://en.wikipedia.org/wiki/Imperative_programming)
-- [Infinite set](https://en.wikipedia.org/wiki/Infinite_set)
-- [Initial algebra](https://en.wikipedia.org/wiki/Initial_algebra)
-- [Initial and terminal objects](https://en.wikipedia.org/wiki/Initial_and_terminal_objects)
-- [Isomorphism](https://en.wikipedia.org/wiki/Isomorphism)
-- [Iterator](https://en.wikipedia.org/wiki/Iterator)
-- [Jeremy Gibbons](https://en.wikipedia.org/wiki/Jeremy_Gibbons)
-- [John Hughes (computer scientist)](https://en.wikipedia.org/wiki/John_Hughes_(computer_scientist))
-- [Jon Barwise](https://en.wikipedia.org/wiki/Jon_Barwise)
-- [Journal of Universal Computer Science](https://en.wikipedia.org/wiki/Journal_of_Universal_Computer_Science)
-- [Lazy evaluation](https://en.wikipedia.org/wiki/Lazy_evaluation)
-- [Least fixed point](https://en.wikipedia.org/wiki/Least_fixed_point)
-- [Local variable](https://en.wikipedia.org/wiki/Local_variable)
-- [Mutual recursion](https://en.wikipedia.org/wiki/Mutual_recursion)
-- [Non-well-founded set theory](https://en.wikipedia.org/wiki/Non-well-founded_set_theory)
-- [Assignment (computer science)](https://en.wikipedia.org/wiki/Assignment_(computer_science))
-- [Paramorphism](https://en.wikipedia.org/wiki/Paramorphism)
-- [Pattern matching](https://en.wikipedia.org/wiki/Pattern_matching)
-- [Philip Wadler](https://en.wikipedia.org/wiki/Philip_Wadler)
-- [Primitive recursive function](https://en.wikipedia.org/wiki/Primitive_recursive_function)
-- [Purely functional programming](https://en.wikipedia.org/wiki/Purely_functional_programming)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Queue (abstract data type)](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))
-- [Recurrence relation](https://en.wikipedia.org/wiki/Recurrence_relation)
-- [Recursion](https://en.wikipedia.org/wiki/Recursion)
-- [Recursion (computer science)](https://en.wikipedia.org/wiki/Recursion_(computer_science))
-- [Richard Bird (computer scientist)](https://en.wikipedia.org/wiki/Richard_Bird_(computer_scientist))
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [SIAM Journal on Computing](https://en.wikipedia.org/wiki/SIAM_Journal_on_Computing)
-- [Scott continuity](https://en.wikipedia.org/wiki/Scott_continuity)
-- [Self-reference](https://en.wikipedia.org/wiki/Self-reference)
-- [Stack (abstract data type)](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))
-- [Stream (computing)](https://en.wikipedia.org/wiki/Stream_(computing))
-- [Tail call](https://en.wikipedia.org/wiki/Tail_call)
-- [Partial function](https://en.wikipedia.org/wiki/Partial_function)
-- [Total functional programming](https://en.wikipedia.org/wiki/Total_functional_programming)
-- [Tree traversal](https://en.wikipedia.org/wiki/Tree_traversal)
-- [Anamorphism](https://en.wikipedia.org/wiki/Anamorphism)
-- [Up to](https://en.wikipedia.org/wiki/Up_to)
-- [Wikipedia:Cleanup](https://en.wikipedia.org/wiki/Wikipedia:Cleanup)
-- [Wikipedia:Make technical articles understandable](https://en.wikipedia.org/wiki/Wikipedia:Make_technical_articles_understandable)
-- [Wikipedia:Manual of Style](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style)
-- [Wikipedia:What Wikipedia is not](https://en.wikipedia.org/wiki/Wikipedia:What_Wikipedia_is_not)
-- [Wikipedia:Writing better articles](https://en.wikipedia.org/wiki/Wikipedia:Writing_better_articles)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Category:Articles needing cleanup from July 2012](https://en.wikipedia.org/wiki/Category:Articles_needing_cleanup_from_July_2012)
-- [Category:Cleanup tagged articles with a reason field from July 2012](https://en.wikipedia.org/wiki/Category:Cleanup_tagged_articles_with_a_reason_field_from_July_2012)
-- [Category:Wikipedia articles that are too technical from November 2010](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_that_are_too_technical_from_November_2010)
-- [Category:Wikipedia articles with style issues from February 2020](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_with_style_issues_from_February_2020)
-- [Category:Wikipedia pages needing cleanup from July 2012](https://en.wikipedia.org/wiki/Category:Wikipedia_pages_needing_cleanup_from_July_2012)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:15:08.074009+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 15:18:21 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 24478 bytes
+- **Word Count:** 3092 words

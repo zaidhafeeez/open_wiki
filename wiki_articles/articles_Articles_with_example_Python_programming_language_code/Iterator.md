@@ -1,20 +1,20 @@
 # Iterator
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:31:21.618326+00:00
+## Metadata
+- **Last Updated:** 2024-12-10 17:03:47 UTC
 - **Original Article:** [Iterator](https://en.wikipedia.org/wiki/Iterator)
 - **Language:** en
 - **Page ID:** 172640
 
 ## Summary
-
 In computer programming, an iterator is an object that progressively provides access to each item of a collection, in order. 
 A collection may provide multiple iterators via its interface that provide items in different orders, such as forwards and backwards.
 An iterator is often implemented in terms of the structure underlying a collection implementation and is often tightly coupled to the collection to enable the operational semantics of the iterator.
-An iterator is behaviorally similar to a d
+An iterator is behaviorally similar to a database cursor. 
+Iterators date to the CLU programming language in 1974.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Abstract data types
 - Category:All articles needing additional references
@@ -228,84 +228,9 @@ PHP: Object Iteration
 STL Iterators
 What are iterators? - Reference description
 
-## Related Articles
-
-### Internal Links
-
-- [.NET Framework](https://en.wikipedia.org/wiki/.NET_Framework)
-- [AWK](https://en.wikipedia.org/wiki/AWK)
-- [Anonymous function](https://en.wikipedia.org/wiki/Anonymous_function)
-- [Anonymous function](https://en.wikipedia.org/wiki/Anonymous_function)
-- [Associative array](https://en.wikipedia.org/wiki/Associative_array)
-- [C++](https://en.wikipedia.org/wiki/C%2B%2B)
-- [C++11](https://en.wikipedia.org/wiki/C%2B%2B11)
-- [C++ Standard Library](https://en.wikipedia.org/wiki/C%2B%2B_Standard_Library)
-- [CLU (programming language)](https://en.wikipedia.org/wiki/CLU_(programming_language))
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [C Sharp (programming language)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
-- [Collection (abstract data type)](https://en.wikipedia.org/wiki/Collection_(abstract_data_type))
-- [Computer programming](https://en.wikipedia.org/wiki/Computer_programming)
-- [Constructor (object-oriented programming)](https://en.wikipedia.org/wiki/Constructor_(object-oriented_programming))
-- [Coroutine](https://en.wikipedia.org/wiki/Coroutine)
-- [Coupling (computer programming)](https://en.wikipedia.org/wiki/Coupling_(computer_programming))
-- [Cursor (databases)](https://en.wikipedia.org/wiki/Cursor_(databases))
-- [Data-driven programming](https://en.wikipedia.org/wiki/Data-driven_programming)
-- [Software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern)
-- [Duck typing](https://en.wikipedia.org/wiki/Duck_typing)
-- [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_sequence)
-- [Foreach loop](https://en.wikipedia.org/wiki/Foreach_loop)
-- [Foreach loop](https://en.wikipedia.org/wiki/Foreach_loop)
-- [Generator (computer programming)](https://en.wikipedia.org/wiki/Generator_(computer_programming))
-- [Generator (computer programming)](https://en.wikipedia.org/wiki/Generator_(computer_programming))
-- [Generic programming](https://en.wikipedia.org/wiki/Generic_programming)
-- [Go (programming language)](https://en.wikipedia.org/wiki/Go_(programming_language))
-- [Higher-order function](https://en.wikipedia.org/wiki/Higher-order_function)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Information hiding](https://en.wikipedia.org/wiki/Information_hiding)
-- [Stream (computing)](https://en.wikipedia.org/wiki/Stream_(computing))
-- [Interface (object-oriented programming)](https://en.wikipedia.org/wiki/Interface_(object-oriented_programming))
-- [Intrinsic function](https://en.wikipedia.org/wiki/Intrinsic_function)
-- [Iteratee](https://en.wikipedia.org/wiki/Iteratee)
-- [Iterator pattern](https://en.wikipedia.org/wiki/Iterator_pattern)
-- [Java (programming language)](https://en.wikipedia.org/wiki/Java_(programming_language))
-- [Java Platform, Standard Edition](https://en.wikipedia.org/wiki/Java_Platform,_Standard_Edition)
-- [List (abstract data type)](https://en.wikipedia.org/wiki/List_(abstract_data_type))
-- [List comprehension](https://en.wikipedia.org/wiki/List_comprehension)
-- [For loop](https://en.wikipedia.org/wiki/For_loop)
-- [Lua (programming language)](https://en.wikipedia.org/wiki/Lua_(programming_language))
-- [MATLAB](https://en.wikipedia.org/wiki/MATLAB)
-- [Mutator method](https://en.wikipedia.org/wiki/Mutator_method)
-- [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
-- [Object (computer science)](https://en.wikipedia.org/wiki/Object_(computer_science))
-- [Object Pascal](https://en.wikipedia.org/wiki/Object_Pascal)
-- [PHP](https://en.wikipedia.org/wiki/PHP)
-- [Perl](https://en.wikipedia.org/wiki/Perl)
-- [Pointer (computer programming)](https://en.wikipedia.org/wiki/Pointer_(computer_programming))
-- [Interface (object-oriented programming)](https://en.wikipedia.org/wiki/Interface_(object-oriented_programming))
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Python syntax and semantics](https://en.wikipedia.org/wiki/Python_syntax_and_semantics)
-- [Raku (programming language)](https://en.wikipedia.org/wiki/Raku_(programming_language))
-- [Random access](https://en.wikipedia.org/wiki/Random_access)
-- [Range (computer programming)](https://en.wikipedia.org/wiki/Range_(computer_programming))
-- [Ruby (programming language)](https://en.wikipedia.org/wiki/Ruby_(programming_language))
-- [Scala (programming language)](https://en.wikipedia.org/wiki/Scala_(programming_language))
-- [Sed](https://en.wikipedia.org/wiki/Sed)
-- [PHP](https://en.wikipedia.org/wiki/PHP)
-- [Standard Template Library](https://en.wikipedia.org/wiki/Standard_Template_Library)
-- [Stephen M. Watt](https://en.wikipedia.org/wiki/Stephen_M._Watt)
-- [Stream (computing)](https://en.wikipedia.org/wiki/Stream_(computing))
-- [Function (computer programming)](https://en.wikipedia.org/wiki/Function_(computer_programming))
-- [Thread (computing)](https://en.wikipedia.org/wiki/Thread_(computing))
-- [Tree (abstract data type)](https://en.wikipedia.org/wiki/Tree_(abstract_data_type))
-- [Tree traversal](https://en.wikipedia.org/wiki/Tree_traversal)
-- [Visitor pattern](https://en.wikipedia.org/wiki/Visitor_pattern)
-- [Wikipedia:Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)
-- [Template:Cite web](https://en.wikipedia.org/wiki/Template:Cite_web)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Help:Referencing for beginners](https://en.wikipedia.org/wiki/Help:Referencing_for_beginners)
-- [Category:Articles needing additional references from June 2010](https://en.wikipedia.org/wiki/Category:Articles_needing_additional_references_from_June_2010)
-- [Category:CS1 maint: bot: original URL status unknown](https://en.wikipedia.org/wiki/Category:CS1_maint:_bot:_original_URL_status_unknown)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:31:21.618326+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 15:19:05 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 26615 bytes
+- **Word Count:** 4087 words

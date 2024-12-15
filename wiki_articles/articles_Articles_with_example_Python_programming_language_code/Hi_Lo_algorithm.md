@@ -1,17 +1,16 @@
 # Hi/Lo algorithm
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:26:52.223246+00:00
+## Metadata
+- **Last Updated:** 2024-11-09 16:36:03 UTC
 - **Original Article:** [Hi/Lo algorithm](https://en.wikipedia.org/wiki/Hi/Lo_algorithm)
 - **Language:** en
 - **Page ID:** 62235560
 
 ## Summary
-
 Hi/Lo is an algorithm and a key generation strategy used for generating unique keys for use in a database as a primary key. It uses a sequence-based hi-lo pattern to generate values. Hi/Lo is used in scenarios where an application needs its entities to have an identity prior to persistence. It is a value generation strategy. An alternative to Hi/Lo would be for the application to generate keys as universally unique identifiers (UUID).
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example Python (programming language) code
 - Category:Articles with example pseudocode
@@ -99,89 +98,9 @@ External links
 What's the Hi/Lo algorithm? - Stack Overflow
 The hi/lo algorithm - Vlad Mihalcea
 
-## Related Articles
-
-### Internal Links
-
-- [Apache Cayenne](https://en.wikipedia.org/wiki/Apache_Cayenne)
-- [Cardinality (data modeling)](https://en.wikipedia.org/wiki/Cardinality_(data_modeling))
-- [Comparison of database administration tools](https://en.wikipedia.org/wiki/Comparison_of_database_administration_tools)
-- [Data source name](https://en.wikipedia.org/wiki/Data_source_name)
-- [Data definition language](https://en.wikipedia.org/wiki/Data_definition_language)
-- [Data manipulation language](https://en.wikipedia.org/wiki/Data_manipulation_language)
-- [Data migration](https://en.wikipedia.org/wiki/Data_migration)
-- [Database](https://en.wikipedia.org/wiki/Database)
-- [Database-centric architecture](https://en.wikipedia.org/wiki/Database-centric_architecture)
-- [Database abstraction layer](https://en.wikipedia.org/wiki/Database_abstraction_layer)
-- [Database activity monitoring](https://en.wikipedia.org/wiki/Database_activity_monitoring)
-- [Database administrator](https://en.wikipedia.org/wiki/Database_administrator)
-- [Database application](https://en.wikipedia.org/wiki/Database_application)
-- [Database audit](https://en.wikipedia.org/wiki/Database_audit)
-- [Database caching](https://en.wikipedia.org/wiki/Database_caching)
-- [Database connection](https://en.wikipedia.org/wiki/Database_connection)
-- [Database design](https://en.wikipedia.org/wiki/Database_design)
-- [Database engine](https://en.wikipedia.org/wiki/Database_engine)
-- [Database forensics](https://en.wikipedia.org/wiki/Database_forensics)
-- [Data integrity](https://en.wikipedia.org/wiki/Data_integrity)
-- [Database machine](https://en.wikipedia.org/wiki/Database_machine)
-- [Database](https://en.wikipedia.org/wiki/Database)
-- [Database model](https://en.wikipedia.org/wiki/Database_model)
-- [Database normalization](https://en.wikipedia.org/wiki/Database_normalization)
-- [Database object](https://en.wikipedia.org/wiki/Database_object)
-- [Database preservation](https://en.wikipedia.org/wiki/Database_preservation)
-- [Database publishing](https://en.wikipedia.org/wiki/Database_publishing)
-- [Database refactoring](https://en.wikipedia.org/wiki/Database_refactoring)
-- [Database schema](https://en.wikipedia.org/wiki/Database_schema)
-- [Database security](https://en.wikipedia.org/wiki/Database_security)
-- [Database server](https://en.wikipedia.org/wiki/Database_server)
-- [Database theory](https://en.wikipedia.org/wiki/Database_theory)
-- [Database tuning](https://en.wikipedia.org/wiki/Database_tuning)
-- [Database virtualization](https://en.wikipedia.org/wiki/Database_virtualization)
-- [Datasource](https://en.wikipedia.org/wiki/Datasource)
-- [Distributed transaction](https://en.wikipedia.org/wiki/Distributed_transaction)
-- [Doctrine (PHP)](https://en.wikipedia.org/wiki/Doctrine_(PHP))
-- [Domain-driven design](https://en.wikipedia.org/wiki/Domain-driven_design)
-- [Enhanced entity–relationship model](https://en.wikipedia.org/wiki/Enhanced_entity%E2%80%93relationship_model)
-- [Entity Framework](https://en.wikipedia.org/wiki/Entity_Framework)
-- [Entity–relationship model](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model)
-- [Halloween Problem](https://en.wikipedia.org/wiki/Halloween_Problem)
-- [Hibernate (framework)](https://en.wikipedia.org/wiki/Hibernate_(framework))
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Query language](https://en.wikipedia.org/wiki/Query_language)
-- [Integer (computer science)](https://en.wikipedia.org/wiki/Integer_(computer_science))
-- [Intelligent database](https://en.wikipedia.org/wiki/Intelligent_database)
-- [List of academic databases and search engines](https://en.wikipedia.org/wiki/List_of_academic_databases_and_search_engines)
-- [List of biodiversity databases](https://en.wikipedia.org/wiki/List_of_biodiversity_databases)
-- [List of biological databases](https://en.wikipedia.org/wiki/List_of_biological_databases)
-- [List of facial expression databases](https://en.wikipedia.org/wiki/List_of_facial_expression_databases)
-- [List of online databases](https://en.wikipedia.org/wiki/List_of_online_databases)
-- [List of online music databases](https://en.wikipedia.org/wiki/List_of_online_music_databases)
-- [List of online real estate databases](https://en.wikipedia.org/wiki/List_of_online_real_estate_databases)
-- [Lists of databases](https://en.wikipedia.org/wiki/Lists_of_databases)
-- [Load file](https://en.wikipedia.org/wiki/Load_file)
-- [Record locking](https://en.wikipedia.org/wiki/Record_locking)
-- [Locks with ordered sharing](https://en.wikipedia.org/wiki/Locks_with_ordered_sharing)
-- [Log shipping](https://en.wikipedia.org/wiki/Log_shipping)
-- [Microsoft SQL Server](https://en.wikipedia.org/wiki/Microsoft_SQL_Server)
-- [NHibernate](https://en.wikipedia.org/wiki/NHibernate)
-- [Negative database](https://en.wikipedia.org/wiki/Negative_database)
-- [Object–relational mapping](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping)
-- [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL)
-- [Primary key](https://en.wikipedia.org/wiki/Primary_key)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Query language](https://en.wikipedia.org/wiki/Query_language)
-- [RavenDB](https://en.wikipedia.org/wiki/RavenDB)
-- [Ruby on Rails](https://en.wikipedia.org/wiki/Ruby_on_Rails)
-- [Stored procedure](https://en.wikipedia.org/wiki/Stored_procedure)
-- [Synonym (database)](https://en.wikipedia.org/wiki/Synonym_(database))
-- [Two-phase locking](https://en.wikipedia.org/wiki/Two-phase_locking)
-- [Universally unique identifier](https://en.wikipedia.org/wiki/Universally_unique_identifier)
-- [Wikipedia:WikiProject Databases](https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Databases)
-- [Template:Database](https://en.wikipedia.org/wiki/Template:Database)
-- [Template talk:Database](https://en.wikipedia.org/wiki/Template_talk:Database)
-- [Category:Databases](https://en.wikipedia.org/wiki/Category:Databases)
-- [Category:Types of databases](https://en.wikipedia.org/wiki/Category:Types_of_databases)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:26:52.223246+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 15:18:53 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 4748 bytes
+- **Word Count:** 762 words

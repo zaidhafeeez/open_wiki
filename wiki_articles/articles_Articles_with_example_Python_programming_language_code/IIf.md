@@ -1,17 +1,16 @@
 # IIf
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:29:32.493899+00:00
+## Metadata
+- **Last Updated:** 2024-11-26 12:58:12 UTC
 - **Original Article:** [IIf](https://en.wikipedia.org/wiki/IIf)
 - **Language:** en
 - **Page ID:** 4106394
 
 ## Summary
-
 In computing, IIf (an abbreviation for Immediate if) is a function in several editions of the Visual Basic programming language and ColdFusion Markup Language (CFML), and on spreadsheets that returns the second or third parameter based on the evaluation of the first parameter.  It is an example of a conditional expression, which is similar to a conditional statement.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles with topics of unclear notability
 - Category:Articles with example BASIC code
@@ -108,48 +107,9 @@ References
 External links
 MSDN Documentation for IIf
 
-## Related Articles
-
-### Internal Links
-
-- [Ternary conditional operator](https://en.wikipedia.org/wiki/Ternary_conditional_operator)
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [ColdFusion Markup Language](https://en.wikipedia.org/wiki/ColdFusion_Markup_Language)
-- [Computing](https://en.wikipedia.org/wiki/Computing)
-- [Conditional (computer programming)](https://en.wikipedia.org/wiki/Conditional_(computer_programming))
-- [Conditional operator](https://en.wikipedia.org/wiki/Conditional_operator)
-- [DBase](https://en.wikipedia.org/wiki/DBase)
-- [Data type](https://en.wikipedia.org/wiki/Data_type)
-- [Function (computer programming)](https://en.wikipedia.org/wiki/Function_(computer_programming))
-- [IIF](https://en.wikipedia.org/wiki/IIF)
-- [If and only if](https://en.wikipedia.org/wiki/If_and_only_if)
-- [MIRC](https://en.wikipedia.org/wiki/MIRC)
-- [Microsoft SQL Server](https://en.wikipedia.org/wiki/Microsoft_SQL_Server)
-- [Operator (computer programming)](https://en.wikipedia.org/wiki/Operator_(computer_programming))
-- [Oxygene (programming language)](https://en.wikipedia.org/wiki/Oxygene_(programming_language))
-- [Parameter (computer programming)](https://en.wikipedia.org/wiki/Parameter_(computer_programming))
-- [Perl](https://en.wikipedia.org/wiki/Perl)
-- [Programming language](https://en.wikipedia.org/wiki/Programming_language)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Rebol](https://en.wikipedia.org/wiki/Rebol)
-- [Red (programming language)](https://en.wikipedia.org/wiki/Red_(programming_language))
-- [Short-circuit evaluation](https://en.wikipedia.org/wiki/Short-circuit_evaluation)
-- [Spreadsheet](https://en.wikipedia.org/wiki/Spreadsheet)
-- [Syntax (logic)](https://en.wikipedia.org/wiki/Syntax_(logic))
-- [Transact-SQL](https://en.wikipedia.org/wiki/Transact-SQL)
-- [Type inference](https://en.wikipedia.org/wiki/Type_inference)
-- [Visual Basic](https://en.wikipedia.org/wiki/Visual_Basic)
-- [Visual Basic (.NET)](https://en.wikipedia.org/wiki/Visual_Basic_(.NET))
-- [XBase](https://en.wikipedia.org/wiki/XBase)
-- [Wikipedia:Deletion policy](https://en.wikipedia.org/wiki/Wikipedia:Deletion_policy)
-- [Wikipedia:Independent sources](https://en.wikipedia.org/wiki/Wikipedia:Independent_sources)
-- [Wikipedia:Merging](https://en.wikipedia.org/wiki/Wikipedia:Merging)
-- [Wikipedia:Notability](https://en.wikipedia.org/wiki/Wikipedia:Notability)
-- [Wikipedia:Redirect](https://en.wikipedia.org/wiki/Wikipedia:Redirect)
-- [Wikipedia:Reliable sources](https://en.wikipedia.org/wiki/Wikipedia:Reliable_sources)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Category:Articles with topics of unclear notability from February 2021](https://en.wikipedia.org/wiki/Category:Articles_with_topics_of_unclear_notability_from_February_2021)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:29:32.493899+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 15:18:57 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 4492 bytes
+- **Word Count:** 729 words

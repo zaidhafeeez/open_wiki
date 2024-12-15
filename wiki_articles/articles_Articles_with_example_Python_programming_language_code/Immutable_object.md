@@ -1,17 +1,17 @@
 # Immutable object
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:29:34.507785+00:00
+## Metadata
+- **Last Updated:** 2024-12-09 03:14:30 UTC
 - **Original Article:** [Immutable object](https://en.wikipedia.org/wiki/Immutable_object)
 - **Language:** en
 - **Page ID:** 197824
 
 ## Summary
-
-In object-oriented (OO) and functional programming, an immutable object (unchangeable object) is an object whose state cannot be modified after it is created. This is in contrast to a mutable object (changeable object), which can be modified after it is created. In some cases, an object is considered immutable even if some internally used attributes change, but the object's state appears unchanging from an external point of view. For example, an object that uses memoization to cache the results 
+In object-oriented (OO) and functional programming, an immutable object (unchangeable object) is an object whose state cannot be modified after it is created. This is in contrast to a mutable object (changeable object), which can be modified after it is created. In some cases, an object is considered immutable even if some internally used attributes change, but the object's state appears unchanging from an external point of view. For example, an object that uses memoization to cache the results of expensive computations could still be considered an immutable object.
+Strings and other concrete objects are typically expressed as immutable objects to improve readability and runtime efficiency in OO programming. Immutable objects are also useful because they are inherently thread-safe. Other benefits are that they are simpler to understand and reason about and offer higher security than mutable objects.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles lacking reliable references
 - Category:Articles lacking reliable references from July 2017
@@ -190,85 +190,9 @@ Immutable structures in C# Archived 2017-12-21 at the Wayback Machine opensource
 Immutable collections in .NET official library by Microsoft
 Immutable objects in C# by Tutlane.com
 
-## Related Articles
-
-### Internal Links
-
-- [.NET Framework](https://en.wikipedia.org/wiki/.NET_Framework)
-- [Ada (programming language)](https://en.wikipedia.org/wiki/Ada_(programming_language))
-- [C++](https://en.wikipedia.org/wiki/C%2B%2B)
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [C Sharp (programming language)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
-- [Clojure](https://en.wikipedia.org/wiki/Clojure)
-- [Compile time](https://en.wikipedia.org/wiki/Compile_time)
-- [Computer data storage](https://en.wikipedia.org/wiki/Computer_data_storage)
-- [Const (computer programming)](https://en.wikipedia.org/wiki/Const_(computer_programming))
-- [Const (computer programming)](https://en.wikipedia.org/wiki/Const_(computer_programming))
-- [Constant (computer programming)](https://en.wikipedia.org/wiki/Constant_(computer_programming))
-- [Constructor (object-oriented programming)](https://en.wikipedia.org/wiki/Constructor_(object-oriented_programming))
-- [Copy-on-write](https://en.wikipedia.org/wiki/Copy-on-write)
-- [D (programming language)](https://en.wikipedia.org/wiki/D_(programming_language))
-- [Declaration (computer programming)](https://en.wikipedia.org/wiki/Declaration_(computer_programming))
-- [Object copying](https://en.wikipedia.org/wiki/Object_copying)
-- [Erlang (programming language)](https://en.wikipedia.org/wiki/Erlang_(programming_language))
-- [F Sharp (programming language)](https://en.wikipedia.org/wiki/F_Sharp_(programming_language))
-- [Fast path](https://en.wikipedia.org/wiki/Fast_path)
-- [Final (Java)](https://en.wikipedia.org/wiki/Final_(Java))
-- [Foreign function interface](https://en.wikipedia.org/wiki/Foreign_function_interface)
-- [Functional programming](https://en.wikipedia.org/wiki/Functional_programming)
-- [Haskell](https://en.wikipedia.org/wiki/Haskell)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Immutable object](https://en.wikipedia.org/wiki/Immutable_object)
-- [Immutability (theology)](https://en.wikipedia.org/wiki/Immutability_(theology))
-- [Immutable object](https://en.wikipedia.org/wiki/Immutable_object)
-- [Immutable (album)](https://en.wikipedia.org/wiki/Immutable_(album))
-- [Immutable (company)](https://en.wikipedia.org/wiki/Immutable_(company))
-- [Immutable interface](https://en.wikipedia.org/wiki/Immutable_interface)
-- [Imperative programming](https://en.wikipedia.org/wiki/Imperative_programming)
-- [String interning](https://en.wikipedia.org/wiki/String_interning)
-- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-- [Java (programming language)](https://en.wikipedia.org/wiki/Java_(programming_language))
-- [Member variable](https://en.wikipedia.org/wiki/Member_variable)
-- [Memoization](https://en.wikipedia.org/wiki/Memoization)
-- [Mutator method](https://en.wikipedia.org/wiki/Mutator_method)
-- [OCaml](https://en.wikipedia.org/wiki/OCaml)
-- [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
-- [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
-- [Object (computer science)](https://en.wikipedia.org/wiki/Object_(computer_science))
-- [Observer pattern](https://en.wikipedia.org/wiki/Observer_pattern)
-- [Perl](https://en.wikipedia.org/wiki/Perl)
-- [Perl Design Patterns Book](https://en.wikipedia.org/wiki/Perl_Design_Patterns_Book)
-- [Pi](https://en.wikipedia.org/wiki/Pi)
-- [Portland Pattern Repository](https://en.wikipedia.org/wiki/Portland_Pattern_Repository)
-- [Primitive wrapper class in Java](https://en.wikipedia.org/wiki/Primitive_wrapper_class_in_Java)
-- [Variable (computer science)](https://en.wikipedia.org/wiki/Variable_(computer_science))
-- [Prolog](https://en.wikipedia.org/wiki/Prolog)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [History of Python](https://en.wikipedia.org/wiki/History_of_Python)
-- [Racket (programming language)](https://en.wikipedia.org/wiki/Racket_(programming_language))
-- [React (software)](https://en.wikipedia.org/wiki/React_(software))
-- [Redux (JavaScript library)](https://en.wikipedia.org/wiki/Redux_(JavaScript_library))
-- [Reference (computer science)](https://en.wikipedia.org/wiki/Reference_(computer_science))
-- [Ruby (programming language)](https://en.wikipedia.org/wiki/Ruby_(programming_language))
-- [Rust (programming language)](https://en.wikipedia.org/wiki/Rust_(programming_language))
-- [Scala (programming language)](https://en.wikipedia.org/wiki/Scala_(programming_language))
-- [Scheme (programming language)](https://en.wikipedia.org/wiki/Scheme_(programming_language))
-- [Scripting language](https://en.wikipedia.org/wiki/Scripting_language)
-- [State (computer science)](https://en.wikipedia.org/wiki/State_(computer_science))
-- [String (computer science)](https://en.wikipedia.org/wiki/String_(computer_science))
-- [String (computer science)](https://en.wikipedia.org/wiki/String_(computer_science))
-- [String interning](https://en.wikipedia.org/wiki/String_interning)
-- [Tcl](https://en.wikipedia.org/wiki/Tcl)
-- [Thread safety](https://en.wikipedia.org/wiki/Thread_safety)
-- [Thread safety](https://en.wikipedia.org/wiki/Thread_safety)
-- [Type qualifier](https://en.wikipedia.org/wiki/Type_qualifier)
-- [Undefined behavior](https://en.wikipedia.org/wiki/Undefined_behavior)
-- [Visual Basic (.NET)](https://en.wikipedia.org/wiki/Visual_Basic_(.NET))
-- [Virtual memory](https://en.wikipedia.org/wiki/Virtual_memory)
-- [Wayback Machine](https://en.wikipedia.org/wiki/Wayback_Machine)
-- [Wikipedia:Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)
-- [Category:Articles lacking reliable references from July 2017](https://en.wikipedia.org/wiki/Category:Articles_lacking_reliable_references_from_July_2017)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:29:34.507785+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 15:18:59 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 17273 bytes
+- **Word Count:** 2694 words

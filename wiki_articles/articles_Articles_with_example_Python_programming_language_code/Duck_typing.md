@@ -1,17 +1,16 @@
 # Duck typing
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:22:26.065234+00:00
+## Metadata
+- **Last Updated:** 2024-12-10 09:11:28 UTC
 - **Original Article:** [Duck typing](https://en.wikipedia.org/wiki/Duck_typing)
 - **Language:** en
 - **Page ID:** 440018
 
 ## Summary
-
-In computer programming, duck typing is an application of the duck test—"If it walks like a duck and it quacks like a duck, then it must be a duck"—to determine whether an object can be used for a particular purpose. With nominative typing, an object is of a given type if it is declared as such (or if a type's association with the object is inferred through mechanisms such as object inheritance). With duck typing, an object is of a given type if it has all methods and properties required by that
+In computer programming, duck typing is an application of the duck test—"If it walks like a duck and it quacks like a duck, then it must be a duck"—to determine whether an object can be used for a particular purpose. With nominative typing, an object is of a given type if it is declared as such (or if a type's association with the object is inferred through mechanisms such as object inheritance). With duck typing, an object is of a given type if it has all methods and properties required by that type. Duck typing may be viewed as a usage-based structural equivalence between a given object and the requirements of a type.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example Python (programming language) code
 - Category:Articles with example pseudocode
@@ -67,57 +66,9 @@ Operator overloading
 
 == References ==
 
-## Related Articles
-
-### Internal Links
-
-- [Abstract type](https://en.wikipedia.org/wiki/Abstract_type)
-- [Ad hoc polymorphism](https://en.wikipedia.org/wiki/Ad_hoc_polymorphism)
-- [Adapter pattern](https://en.wikipedia.org/wiki/Adapter_pattern)
-- [Boo (programming language)](https://en.wikipedia.org/wiki/Boo_(programming_language))
-- [Computer programming](https://en.wikipedia.org/wiki/Computer_programming)
-- [D (programming language)](https://en.wikipedia.org/wiki/D_(programming_language))
-- [Dependent type](https://en.wikipedia.org/wiki/Dependent_type)
-- [Duck test](https://en.wikipedia.org/wiki/Duck_test)
-- [Dynamic dispatch](https://en.wikipedia.org/wiki/Dynamic_dispatch)
-- [Dynamic programming language](https://en.wikipedia.org/wiki/Dynamic_programming_language)
-- [Elm (programming language)](https://en.wikipedia.org/wiki/Elm_(programming_language))
-- [Extension method](https://en.wikipedia.org/wiki/Extension_method)
-- [Flow-sensitive typing](https://en.wikipedia.org/wiki/Flow-sensitive_typing)
-- [Generic programming](https://en.wikipedia.org/wiki/Generic_programming)
-- [Gradual typing](https://en.wikipedia.org/wiki/Gradual_typing)
-- [Interface (object-oriented programming)](https://en.wikipedia.org/wiki/Interface_(object-oriented_programming))
-- [Intersection type](https://en.wikipedia.org/wiki/Intersection_type)
-- [Java (programming language)](https://en.wikipedia.org/wiki/Java_(programming_language))
-- [Latent typing](https://en.wikipedia.org/wiki/Latent_typing)
-- [Loose coupling](https://en.wikipedia.org/wiki/Loose_coupling)
-- [Manifest typing](https://en.wikipedia.org/wiki/Manifest_typing)
-- [Method (computer programming)](https://en.wikipedia.org/wiki/Method_(computer_programming))
-- [Monkey patch](https://en.wikipedia.org/wiki/Monkey_patch)
-- [Nominal type system](https://en.wikipedia.org/wiki/Nominal_type_system)
-- [Nominal type system](https://en.wikipedia.org/wiki/Nominal_type_system)
-- [Object (computer science)](https://en.wikipedia.org/wiki/Object_(computer_science))
-- [Inheritance (object-oriented programming)](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming))
-- [Operator overloading](https://en.wikipedia.org/wiki/Operator_overloading)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Refinement type](https://en.wikipedia.org/wiki/Refinement_type)
-- [Reflective programming](https://en.wikipedia.org/wiki/Reflective_programming)
-- [Execution (computing)](https://en.wikipedia.org/wiki/Execution_(computing))
-- [Session type](https://en.wikipedia.org/wiki/Session_type)
-- [Strong and weak typing](https://en.wikipedia.org/wiki/Strong_and_weak_typing)
-- [Structural type system](https://en.wikipedia.org/wiki/Structural_type_system)
-- [Substructural type system](https://en.wikipedia.org/wiki/Substructural_type_system)
-- [Template metaprogramming](https://en.wikipedia.org/wiki/Template_metaprogramming)
-- [TypeScript](https://en.wikipedia.org/wiki/TypeScript)
-- [Type inference](https://en.wikipedia.org/wiki/Type_inference)
-- [Type safety](https://en.wikipedia.org/wiki/Type_safety)
-- [Type system](https://en.wikipedia.org/wiki/Type_system)
-- [Uniqueness type](https://en.wikipedia.org/wiki/Uniqueness_type)
-- [Unreachable code](https://en.wikipedia.org/wiki/Unreachable_code)
-- [Wayback Machine](https://en.wikipedia.org/wiki/Wayback_Machine)
-- [Template:Type systems](https://en.wikipedia.org/wiki/Template:Type_systems)
-- [Template talk:Type systems](https://en.wikipedia.org/wiki/Template_talk:Type_systems)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:22:26.065234+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 15:18:28 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 2991 bytes
+- **Word Count:** 493 words

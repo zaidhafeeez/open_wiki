@@ -1,17 +1,16 @@
 # Gestalt pattern matching
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:26:51.082519+00:00
+## Metadata
+- **Last Updated:** 2024-12-12 20:25:47 UTC
 - **Original Article:** [Gestalt pattern matching](https://en.wikipedia.org/wiki/Gestalt_pattern_matching)
 - **Language:** en
 - **Page ID:** 61099017
 
 ## Summary
-
 Gestalt pattern matching, also Ratcliff/Obershelp pattern recognition, is a string-matching algorithm for determining the similarity of two strings. It was developed in 1983 by John W. Ratcliff and John A. Obershelp and published in the Dr. Dobb's Journal in July 1988.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example Python (programming language) code
 - Category:Articles with short description
@@ -1012,78 +1011,9 @@ Ratcliff, John W.; Metzener, David (July 1988). "Pattern Matching: The Gestalt A
 See also
 Pattern matching
 
-## Related Articles
-
-### Internal Links
-
-- [Aho–Corasick algorithm](https://en.wikipedia.org/wiki/Aho%E2%80%93Corasick_algorithm)
-- [Apostolico–Giancarlo algorithm](https://en.wikipedia.org/wiki/Apostolico%E2%80%93Giancarlo_algorithm)
-- [Approximate string matching](https://en.wikipedia.org/wiki/Approximate_string_matching)
-- [BLAST (biotechnology)](https://en.wikipedia.org/wiki/BLAST_(biotechnology))
-- [Bitap algorithm](https://en.wikipedia.org/wiki/Bitap_algorithm)
-- [Boyer–Moore string-search algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string-search_algorithm)
-- [Boyer–Moore–Horspool algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore%E2%80%93Horspool_algorithm)
-- [Character (symbol)](https://en.wikipedia.org/wiki/Character_(symbol))
-- [Commentz-Walter algorithm](https://en.wikipedia.org/wiki/Commentz-Walter_algorithm)
-- [Commutative property](https://en.wikipedia.org/wiki/Commutative_property)
-- [Comparison of regular expression engines](https://en.wikipedia.org/wiki/Comparison_of_regular_expression_engines)
-- [Compressed pattern matching](https://en.wikipedia.org/wiki/Compressed_pattern_matching)
-- [Compressed suffix array](https://en.wikipedia.org/wiki/Compressed_suffix_array)
-- [Damerau–Levenshtein distance](https://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance)
-- [Data structure](https://en.wikipedia.org/wiki/Data_structure)
-- [Deterministic acyclic finite state automaton](https://en.wikipedia.org/wiki/Deterministic_acyclic_finite_state_automaton)
-- [Dr. Dobb's Journal](https://en.wikipedia.org/wiki/Dr._Dobb%27s_Journal)
-- [Edit distance](https://en.wikipedia.org/wiki/Edit_distance)
-- [FM-index](https://en.wikipedia.org/wiki/FM-index)
-- [Generalized suffix tree](https://en.wikipedia.org/wiki/Generalized_suffix_tree)
-- [Hamming distance](https://en.wikipedia.org/wiki/Hamming_distance)
-- [Hirschberg's algorithm](https://en.wikipedia.org/wiki/Hirschberg%27s_algorithm)
-- [Jaro–Winkler distance](https://en.wikipedia.org/wiki/Jaro%E2%80%93Winkler_distance)
-- [John W. Ratcliff](https://en.wikipedia.org/wiki/John_W._Ratcliff)
-- [Knuth–Morris–Pratt algorithm](https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm)
-- [LCP array](https://en.wikipedia.org/wiki/LCP_array)
-- [Lee distance](https://en.wikipedia.org/wiki/Lee_distance)
-- [Levenshtein automaton](https://en.wikipedia.org/wiki/Levenshtein_automaton)
-- [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance)
-- [Longest common subsequence](https://en.wikipedia.org/wiki/Longest_common_subsequence)
-- [Longest common substring](https://en.wikipedia.org/wiki/Longest_common_substring)
-- [Needleman–Wunsch algorithm](https://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm)
-- [Nondeterministic finite automaton](https://en.wikipedia.org/wiki/Nondeterministic_finite_automaton)
-- [Parsing](https://en.wikipedia.org/wiki/Parsing)
-- [Pattern matching](https://en.wikipedia.org/wiki/Pattern_matching)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Rabin–Karp algorithm](https://en.wikipedia.org/wiki/Rabin%E2%80%93Karp_algorithm)
-- [Raita algorithm](https://en.wikipedia.org/wiki/Raita_algorithm)
-- [Recursion (computer science)](https://en.wikipedia.org/wiki/Recursion_(computer_science))
-- [Regular expression](https://en.wikipedia.org/wiki/Regular_expression)
-- [Regular grammar](https://en.wikipedia.org/wiki/Regular_grammar)
-- [Rope (data structure)](https://en.wikipedia.org/wiki/Rope_(data_structure))
-- [Semi-Thue system](https://en.wikipedia.org/wiki/Semi-Thue_system)
-- [Sequence alignment](https://en.wikipedia.org/wiki/Sequence_alignment)
-- [Sequential pattern mining](https://en.wikipedia.org/wiki/Sequential_pattern_mining)
-- [Smith–Waterman algorithm](https://en.wikipedia.org/wiki/Smith%E2%80%93Waterman_algorithm)
-- [String-searching algorithm](https://en.wikipedia.org/wiki/String-searching_algorithm)
-- [String (computer science)](https://en.wikipedia.org/wiki/String_(computer_science))
-- [String metric](https://en.wikipedia.org/wiki/String_metric)
-- [String operations](https://en.wikipedia.org/wiki/String_operations)
-- [Substring index](https://en.wikipedia.org/wiki/Substring_index)
-- [Suffix array](https://en.wikipedia.org/wiki/Suffix_array)
-- [Suffix automaton](https://en.wikipedia.org/wiki/Suffix_automaton)
-- [Suffix tree](https://en.wikipedia.org/wiki/Suffix_tree)
-- [Ternary search tree](https://en.wikipedia.org/wiki/Ternary_search_tree)
-- [Thompson's construction](https://en.wikipedia.org/wiki/Thompson%27s_construction)
-- [Trie](https://en.wikipedia.org/wiki/Trie)
-- [Trigram search](https://en.wikipedia.org/wiki/Trigram_search)
-- [Two-way string-matching algorithm](https://en.wikipedia.org/wiki/Two-way_string-matching_algorithm)
-- [Upper and lower bounds](https://en.wikipedia.org/wiki/Upper_and_lower_bounds)
-- [Wagner–Fischer algorithm](https://en.wikipedia.org/wiki/Wagner%E2%80%93Fischer_algorithm)
-- [Zhu–Takaoka string matching algorithm](https://en.wikipedia.org/wiki/Zhu%E2%80%93Takaoka_string_matching_algorithm)
-- [Wikipedia:Please clarify](https://en.wikipedia.org/wiki/Wikipedia:Please_clarify)
-- [Template:Strings](https://en.wikipedia.org/wiki/Template:Strings)
-- [Template talk:Strings](https://en.wikipedia.org/wiki/Template_talk:Strings)
-- [Category:String sorting algorithms](https://en.wikipedia.org/wiki/Category:String_sorting_algorithms)
-- [Category:Wikipedia articles needing clarification from April 2023](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_needing_clarification_from_April_2023)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:26:51.082519+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 15:18:48 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 14003 bytes
+- **Word Count:** 883 words

@@ -1,17 +1,18 @@
 # Foreach loop
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:24:56.499985+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 06:53:53 UTC
 - **Original Article:** [Foreach loop](https://en.wikipedia.org/wiki/Foreach_loop)
 - **Language:** en
 - **Page ID:** 623068
 
 ## Summary
-
-In computer programming, foreach loop (or for-each loop) is a control flow statement for traversing items in a collection. foreach is usually used in place of a standard for loop statement. Unlike other for loop constructs, however, foreach loops usually maintain no explicit counter: they essentially say "do this to everything in this set", rather than "do this x times". This avoids potential off-by-one errors and makes code simpler to read. In object-oriented languages, an iterator, even if imp
+In computer programming, foreach loop (or for-each loop) is a control flow statement for traversing items in a collection. foreach is usually used in place of a standard for loop statement. Unlike other for loop constructs, however, foreach loops usually maintain no explicit counter: they essentially say "do this to everything in this set", rather than "do this x times". This avoids potential off-by-one errors and makes code simpler to read. In object-oriented languages, an iterator, even if implicit, is often used as the means of traversal.
+The foreach statement in some languages has some defined order, processing each item in the collection from the first to the last.
+The foreach statement in many other languages, especially array programming languages, does not have any particular order. This simplifies loop optimization in general and in particular allows vector processing of items in the collection concurrently.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example Ada code
 - Category:Articles with example C++ code
@@ -320,117 +321,9 @@ Map (higher-order function)
 
 == References ==
 
-## Related Articles
-
-### Internal Links
-
-- [ABC (programming language)](https://en.wikipedia.org/wiki/ABC_(programming_language))
-- [ActionScript](https://en.wikipedia.org/wiki/ActionScript)
-- [Ada (programming language)](https://en.wikipedia.org/wiki/Ada_(programming_language))
-- [Argument-dependent name lookup](https://en.wikipedia.org/wiki/Argument-dependent_name_lookup)
-- [Array (data structure)](https://en.wikipedia.org/wiki/Array_(data_structure))
-- [Array programming](https://en.wikipedia.org/wiki/Array_programming)
-- [Associative array](https://en.wikipedia.org/wiki/Associative_array)
-- [Blocks (C language extension)](https://en.wikipedia.org/wiki/Blocks_(C_language_extension))
-- [Boost (C++ libraries)](https://en.wikipedia.org/wiki/Boost_(C%2B%2B_libraries))
-- [C++](https://en.wikipedia.org/wiki/C%2B%2B)
-- [C++/CLI](https://en.wikipedia.org/wiki/C%2B%2B/CLI)
-- [C++11](https://en.wikipedia.org/wiki/C%2B%2B11)
-- [C++ Standard Library](https://en.wikipedia.org/wiki/C%2B%2B_Standard_Library)
-- [COMMAND.COM](https://en.wikipedia.org/wiki/COMMAND.COM)
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [C Sharp (programming language)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
-- [C preprocessor](https://en.wikipedia.org/wiki/C_preprocessor)
-- [Clang](https://en.wikipedia.org/wiki/Clang)
-- [Cmd.exe](https://en.wikipedia.org/wiki/Cmd.exe)
-- [Cobra (programming language)](https://en.wikipedia.org/wiki/Cobra_(programming_language))
-- [ColdFusion Markup Language](https://en.wikipedia.org/wiki/ColdFusion_Markup_Language)
-- [Container (abstract data type)](https://en.wikipedia.org/wiki/Container_(abstract_data_type))
-- [Common Lisp](https://en.wikipedia.org/wiki/Common_Lisp)
-- [Computer programming](https://en.wikipedia.org/wiki/Computer_programming)
-- [Control flow](https://en.wikipedia.org/wiki/Control_flow)
-- [D (programming language)](https://en.wikipedia.org/wiki/D_(programming_language))
-- [Daplex](https://en.wikipedia.org/wiki/Daplex)
-- [Dart (programming language)](https://en.wikipedia.org/wiki/Dart_(programming_language))
-- [Delegate (CLI)](https://en.wikipedia.org/wiki/Delegate_(CLI))
-- [Delphi (software)](https://en.wikipedia.org/wiki/Delphi_(software))
-- [Do while loop](https://en.wikipedia.org/wiki/Do_while_loop)
-- [ECMAScript](https://en.wikipedia.org/wiki/ECMAScript)
-- [ECMAScript version history](https://en.wikipedia.org/wiki/ECMAScript_version_history)
-- [ECMAScript version history](https://en.wikipedia.org/wiki/ECMAScript_version_history)
-- [Eiffel (programming language)](https://en.wikipedia.org/wiki/Eiffel_(programming_language))
-- [Erlang (programming language)](https://en.wikipedia.org/wiki/Erlang_(programming_language))
-- [Existential quantification](https://en.wikipedia.org/wiki/Existential_quantification)
-- [For loop](https://en.wikipedia.org/wiki/For_loop)
-- [Functional programming](https://en.wikipedia.org/wiki/Functional_programming)
-- [GNU Compiler Collection](https://en.wikipedia.org/wiki/GNU_Compiler_Collection)
-- [Go (programming language)](https://en.wikipedia.org/wiki/Go_(programming_language))
-- [Apache Groovy](https://en.wikipedia.org/wiki/Apache_Groovy)
-- [Haskell](https://en.wikipedia.org/wiki/Haskell)
-- [Haxe](https://en.wikipedia.org/wiki/Haxe)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Infinite loop](https://en.wikipedia.org/wiki/Infinite_loop)
-- [Infinite set](https://en.wikipedia.org/wiki/Infinite_set)
-- [Iterator](https://en.wikipedia.org/wiki/Iterator)
-- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-- [Java (programming language)](https://en.wikipedia.org/wiki/Java_(programming_language))
-- [Java Development Kit](https://en.wikipedia.org/wiki/Java_Development_Kit)
-- [Anonymous function](https://en.wikipedia.org/wiki/Anonymous_function)
-- [Language Integrated Query](https://en.wikipedia.org/wiki/Language_Integrated_Query)
-- [Loop optimization](https://en.wikipedia.org/wiki/Loop_optimization)
-- [Lua (programming language)](https://en.wikipedia.org/wiki/Lua_(programming_language))
-- [MATLAB](https://en.wikipedia.org/wiki/MATLAB)
-- [Map (higher-order function)](https://en.wikipedia.org/wiki/Map_(higher-order_function))
-- [Wolfram Mathematica](https://en.wikipedia.org/wiki/Wolfram_Mathematica)
-- [Monad (functional programming)](https://en.wikipedia.org/wiki/Monad_(functional_programming))
-- [OCaml](https://en.wikipedia.org/wiki/OCaml)
-- [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
-- [Object Pascal](https://en.wikipedia.org/wiki/Object_Pascal)
-- [Objective-C](https://en.wikipedia.org/wiki/Objective-C)
-- [Off-by-one error](https://en.wikipedia.org/wiki/Off-by-one_error)
-- [Option type](https://en.wikipedia.org/wiki/Option_type)
-- [PHP](https://en.wikipedia.org/wiki/PHP)
-- [PHP syntax and semantics](https://en.wikipedia.org/wiki/PHP_syntax_and_semantics)
-- [ParaSail (programming language)](https://en.wikipedia.org/wiki/ParaSail_(programming_language))
-- [Pascal (programming language)](https://en.wikipedia.org/wiki/Pascal_(programming_language))
-- [Pattern matching](https://en.wikipedia.org/wiki/Pattern_matching)
-- [Perl](https://en.wikipedia.org/wiki/Perl)
-- [Programming language](https://en.wikipedia.org/wiki/Programming_language)
-- [Prolog](https://en.wikipedia.org/wiki/Prolog)
-- [Prototype-based programming](https://en.wikipedia.org/wiki/Prototype-based_programming)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Qt (software)](https://en.wikipedia.org/wiki/Qt_(software))
-- [Xojo](https://en.wikipedia.org/wiki/Xojo)
-- [R (programming language)](https://en.wikipedia.org/wiki/R_(programming_language))
-- [Racket (programming language)](https://en.wikipedia.org/wiki/Racket_(programming_language))
-- [Raku (programming language)](https://en.wikipedia.org/wiki/Raku_(programming_language))
-- [Rebol](https://en.wikipedia.org/wiki/Rebol)
-- [Red (programming language)](https://en.wikipedia.org/wiki/Red_(programming_language))
-- [Ruby (programming language)](https://en.wikipedia.org/wiki/Ruby_(programming_language))
-- [Rust (programming language)](https://en.wikipedia.org/wiki/Rust_(programming_language))
-- [Scala (programming language)](https://en.wikipedia.org/wiki/Scala_(programming_language))
-- [Scheme (programming language)](https://en.wikipedia.org/wiki/Scheme_(programming_language))
-- [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk)
-- [Statement (computer science)](https://en.wikipedia.org/wiki/Statement_(computer_science))
-- [Sun Microsystems](https://en.wikipedia.org/wiki/Sun_Microsystems)
-- [Swift (programming language)](https://en.wikipedia.org/wiki/Swift_(programming_language))
-- [Syntactic sugar](https://en.wikipedia.org/wiki/Syntactic_sugar)
-- [SystemVerilog](https://en.wikipedia.org/wiki/SystemVerilog)
-- [Tcl](https://en.wikipedia.org/wiki/Tcl)
-- [Tcsh](https://en.wikipedia.org/wiki/Tcsh)
-- [Type inference](https://en.wikipedia.org/wiki/Type_inference)
-- [Typeof](https://en.wikipedia.org/wiki/Typeof)
-- [Universal quantification](https://en.wikipedia.org/wiki/Universal_quantification)
-- [Unix shell](https://en.wikipedia.org/wiki/Unix_shell)
-- [Vector processor](https://en.wikipedia.org/wiki/Vector_processor)
-- [Visual Basic (.NET)](https://en.wikipedia.org/wiki/Visual_Basic_(.NET))
-- [Microsoft Visual C++](https://en.wikipedia.org/wiki/Microsoft_Visual_C%2B%2B)
-- [While loop](https://en.wikipedia.org/wiki/While_loop)
-- [PowerShell](https://en.wikipedia.org/wiki/PowerShell)
-- [XSLT](https://en.wikipedia.org/wiki/XSLT)
-- [Template:Loop constructs](https://en.wikipedia.org/wiki/Template:Loop_constructs)
-- [Template talk:Loop constructs](https://en.wikipedia.org/wiki/Template_talk:Loop_constructs)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:24:56.499985+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 15:18:45 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 12614 bytes
+- **Word Count:** 2012 words

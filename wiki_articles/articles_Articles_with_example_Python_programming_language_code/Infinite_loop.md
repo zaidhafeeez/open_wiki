@@ -1,18 +1,17 @@
 # Infinite loop
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:29:32.873615+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 06:50:59 UTC
 - **Original Article:** [Infinite loop](https://en.wikipedia.org/wiki/Infinite_loop)
 - **Language:** en
 - **Page ID:** 45273
 
 ## Summary
-
 In computer programming, an infinite loop (or endless loop) is a sequence of instructions that, as written, will continue endlessly, unless an external intervention occurs, such as turning off power via a switch or pulling a plug. It may be intentional.
 There is no general algorithm to determine whether a computer program contains an infinite loop or not; this is the halting problem.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example BASIC code
 - Category:Articles with example C code
@@ -159,92 +158,9 @@ References
 External links
 Make an infinite loop in several languages, on programming-idioms.org.
 
-## Related Articles
-
-### Internal Links
-
-- [AMD Turion](https://en.wikipedia.org/wiki/AMD_Turion)
-- [Apollo Guidance Computer](https://en.wikipedia.org/wiki/Apollo_Guidance_Computer)
-- [Arbitrary-precision arithmetic](https://en.wikipedia.org/wiki/Arbitrary-precision_arithmetic)
-- [BASIC](https://en.wikipedia.org/wiki/BASIC)
-- [Bash (Unix shell)](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
-- [Blue screen of death](https://en.wikipedia.org/wiki/Blue_screen_of_death)
-- [Bash (Unix shell)](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
-- [Control flow](https://en.wikipedia.org/wiki/Control_flow)
-- [Busy waiting](https://en.wikipedia.org/wiki/Busy_waiting)
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [Compiler](https://en.wikipedia.org/wiki/Compiler)
-- [Computer program](https://en.wikipedia.org/wiki/Computer_program)
-- [Computer programming](https://en.wikipedia.org/wiki/Computer_programming)
-- [Control-C](https://en.wikipedia.org/wiki/Control-C)
-- [Control flow](https://en.wikipedia.org/wiki/Control_flow)
-- [Cooperative multitasking](https://en.wikipedia.org/wiki/Cooperative_multitasking)
-- [Cycle detection](https://en.wikipedia.org/wiki/Cycle_detection)
-- [Cyrix coma bug](https://en.wikipedia.org/wiki/Cyrix_coma_bug)
-- [DOS](https://en.wikipedia.org/wiki/DOS)
-- [Data structure](https://en.wikipedia.org/wiki/Data_structure)
-- [Deadlock (computer science)](https://en.wikipedia.org/wiki/Deadlock_(computer_science))
-- [Debugging](https://en.wikipedia.org/wiki/Debugging)
-- [Device driver](https://en.wikipedia.org/wiki/Device_driver)
-- [Dialog box](https://en.wikipedia.org/wiki/Dialog_box)
-- [Divergence (computer science)](https://en.wikipedia.org/wiki/Divergence_(computer_science))
-- [Do while loop](https://en.wikipedia.org/wiki/Do_while_loop)
-- [Eiko Shimamiya](https://en.wikipedia.org/wiki/Eiko_Shimamiya)
-- [Infinite loop](https://en.wikipedia.org/wiki/Infinite_loop)
-- [Floating-point arithmetic](https://en.wikipedia.org/wiki/Floating-point_arithmetic)
-- [For loop](https://en.wikipedia.org/wiki/For_loop)
-- [Foreach loop](https://en.wikipedia.org/wiki/Foreach_loop)
-- [Fork bomb](https://en.wikipedia.org/wiki/Fork_bomb)
-- [Goto](https://en.wikipedia.org/wiki/Goto)
-- [Halting problem](https://en.wikipedia.org/wiki/Halting_problem)
-- [Hang (computing)](https://en.wikipedia.org/wiki/Hang_(computing))
-- [Idle (CPU)](https://en.wikipedia.org/wiki/Idle_(CPU))
-- [Infinite Loop (book)](https://en.wikipedia.org/wiki/Infinite_Loop_(book))
-- [Apple Infinite Loop campus](https://en.wikipedia.org/wiki/Apple_Infinite_Loop_campus)
-- [Infinite regress](https://en.wikipedia.org/wiki/Infinite_regress)
-- [Instruction pipelining](https://en.wikipedia.org/wiki/Instruction_pipelining)
-- [Integer (computer science)](https://en.wikipedia.org/wiki/Integer_(computer_science))
-- [Interrupt](https://en.wikipedia.org/wiki/Interrupt)
-- [Java (programming language)](https://en.wikipedia.org/wiki/Java_(programming_language))
-- [Kill (command)](https://en.wikipedia.org/wiki/Kill_(command))
-- [Linked list](https://en.wikipedia.org/wiki/Linked_list)
-- [Lock (computer science)](https://en.wikipedia.org/wiki/Lock_(computer_science))
-- [Computer memory](https://en.wikipedia.org/wiki/Computer_memory)
-- [Microsoft Access](https://en.wikipedia.org/wiki/Microsoft_Access)
-- [Modal window](https://en.wikipedia.org/wiki/Modal_window)
-- [Numerical analysis](https://en.wikipedia.org/wiki/Numerical_analysis)
-- [Operating system](https://en.wikipedia.org/wiki/Operating_system)
-- [PCMag](https://en.wikipedia.org/wiki/PCMag)
-- [PHP](https://en.wikipedia.org/wiki/PHP)
-- [Pseudocode](https://en.wikipedia.org/wiki/Pseudocode)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Recursion (computer science)](https://en.wikipedia.org/wiki/Recursion_(computer_science))
-- [Return statement](https://en.wikipedia.org/wiki/Return_statement)
-- [Circular buffer](https://en.wikipedia.org/wiki/Circular_buffer)
-- [Rust (programming language)](https://en.wikipedia.org/wiki/Rust_(programming_language))
-- [Signal (IPC)](https://en.wikipedia.org/wiki/Signal_(IPC))
-- [Signal (IPC)](https://en.wikipedia.org/wiki/Signal_(IPC))
-- [Segmentation fault](https://en.wikipedia.org/wiki/Segmentation_fault)
-- [Software bug](https://en.wikipedia.org/wiki/Software_bug)
-- [Spinlock](https://en.wikipedia.org/wiki/Spinlock)
-- [Stack overflow](https://en.wikipedia.org/wiki/Stack_overflow)
-- [System call](https://en.wikipedia.org/wiki/System_call)
-- [Task manager](https://en.wikipedia.org/wiki/Task_manager)
-- [The C Programming Language](https://en.wikipedia.org/wiki/The_C_Programming_Language)
-- [Jargon File](https://en.wikipedia.org/wiki/Jargon_File)
-- [The New York Times](https://en.wikipedia.org/wiki/The_New_York_Times)
-- [Thrashing (computer science)](https://en.wikipedia.org/wiki/Thrashing_(computer_science))
-- [Tree (abstract data type)](https://en.wikipedia.org/wiki/Tree_(abstract_data_type))
-- [Undecidable problem](https://en.wikipedia.org/wiki/Undecidable_problem)
-- [User interface](https://en.wikipedia.org/wiki/User_interface)
-- [Visual Basic](https://en.wikipedia.org/wiki/Visual_Basic)
-- [Visual Basic for Applications](https://en.wikipedia.org/wiki/Visual_Basic_for_Applications)
-- [While loop](https://en.wikipedia.org/wiki/While_loop)
-- [Windows XP](https://en.wikipedia.org/wiki/Windows_XP)
-- [Template:Loop constructs](https://en.wikipedia.org/wiki/Template:Loop_constructs)
-- [Template talk:Loop constructs](https://en.wikipedia.org/wiki/Template_talk:Loop_constructs)
-- [Portal:Mathematics](https://en.wikipedia.org/wiki/Portal:Mathematics)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:29:32.873615+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 15:19:00 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 12439 bytes
+- **Word Count:** 2090 words

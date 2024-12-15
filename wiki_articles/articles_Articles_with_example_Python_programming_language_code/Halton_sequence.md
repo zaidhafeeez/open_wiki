@@ -1,17 +1,16 @@
 # Halton sequence
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:26:53.401196+00:00
+## Metadata
+- **Last Updated:** 2024-12-15 11:55:14 UTC
 - **Original Article:** [Halton sequence](https://en.wikipedia.org/wiki/Halton_sequence)
 - **Language:** en
 - **Page ID:** 631188
 
 ## Summary
-
 In statistics, Halton sequences are  sequences used to generate points in space for numerical methods such as Monte Carlo simulations.  Although these sequences are deterministic, they are of low discrepancy, that is, appear to be random for many purposes. They were first introduced in 1960 and are an example of a quasi-random number sequence.  They generalize the one-dimensional van der Corput sequences.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example Python (programming language) code
 - Category:Articles with example pseudocode
@@ -196,32 +195,9 @@ Niederreiter, Harald (1992), Random number generation and quasi-Monte Carlo meth
 Halton, J. (1964), "Algorithm 247: Radical-inverse quasi-random point sequence", Communications of the ACM, 7 (12): 701-701, doi:10.1145/355588.365104, S2CID 47096908.
 Kocis, Ladislav; Whiten, William (1997), "Computational Investigations of Low-Discrepancy Sequences", ACM Transactions on Mathematical Software, 23 (2): 266–296, doi:10.1145/264029.264064, S2CID 183263.
 
-## Related Articles
-
-### Internal Links
-
-- [Bibcode](https://en.wikipedia.org/wiki/Bibcode)
-- [Low-discrepancy sequence](https://en.wikipedia.org/wiki/Low-discrepancy_sequence)
-- [Coprime integers](https://en.wikipedia.org/wiki/Coprime_integers)
-- [Deterministic system](https://en.wikipedia.org/wiki/Deterministic_system)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Dover Publications](https://en.wikipedia.org/wiki/Dover_Publications)
-- [Generator (computer programming)](https://en.wikipedia.org/wiki/Generator_(computer_programming))
-- [Harald Niederreiter](https://en.wikipedia.org/wiki/Harald_Niederreiter)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [ISSN](https://en.wikipedia.org/wiki/ISSN)
-- [Correlation](https://en.wikipedia.org/wiki/Correlation)
-- [Low-discrepancy sequence](https://en.wikipedia.org/wiki/Low-discrepancy_sequence)
-- [Monte Carlo method](https://en.wikipedia.org/wiki/Monte_Carlo_method)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Low-discrepancy sequence](https://en.wikipedia.org/wiki/Low-discrepancy_sequence)
-- [Randomness](https://en.wikipedia.org/wiki/Randomness)
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [Sequence](https://en.wikipedia.org/wiki/Sequence)
-- [Society for Industrial and Applied Mathematics](https://en.wikipedia.org/wiki/Society_for_Industrial_and_Applied_Mathematics)
-- [Statistics](https://en.wikipedia.org/wiki/Statistics)
-- [Van der Corput sequence](https://en.wikipedia.org/wiki/Van_der_Corput_sequence)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:26:53.401196+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 15:18:52 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 4967 bytes
+- **Word Count:** 641 words

@@ -1,17 +1,17 @@
 # Hamming distance
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:26:51.856015+00:00
+## Metadata
+- **Last Updated:** 2024-12-12 20:25:47 UTC
 - **Original Article:** [Hamming distance](https://en.wikipedia.org/wiki/Hamming_distance)
 - **Language:** en
 - **Page ID:** 41227
 
 ## Summary
-
-In information theory, the Hamming distance between two strings or vectors of equal length is the number of positions at which the corresponding symbols are different. In other words, it measures the minimum number of substitutions required to change one string into the other, or equivalently, the minimum number of errors that could have transformed one string into the other. In a more general context, the Hamming distance is one of several string metrics for measuring the edit distance between 
+In information theory, the Hamming distance between two strings or vectors of equal length is the number of positions at which the corresponding symbols are different. In other words, it measures the minimum number of substitutions required to change one string into the other, or equivalently, the minimum number of errors that could have transformed one string into the other. In a more general context, the Hamming distance is one of several string metrics for measuring the edit distance between two sequences. It is named after the American mathematician Richard Hamming.
+A major application is in coding theory, more specifically to block codes, in which the equal-length strings are vectors over a finite field.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All Wikipedia articles written in American English
 - Category:All articles lacking in-text citations
@@ -190,146 +190,9 @@ Further reading
 Wegner, Peter (1960). "A technique for counting ones in a binary computer". Communications of the ACM. 3 (5): 322. doi:10.1145/367236.367286. S2CID 31683715.
 MacKay, David J. C. (2003). Information Theory, Inference, and Learning Algorithms. Cambridge: Cambridge University Press. ISBN 0-521-64298-1.
 
-## Related Articles
-
-### Internal Links
-
-- [Addison-Wesley](https://en.wikipedia.org/wiki/Addison-Wesley)
-- [Aho–Corasick algorithm](https://en.wikipedia.org/wiki/Aho%E2%80%93Corasick_algorithm)
-- [Alphabet](https://en.wikipedia.org/wiki/Alphabet)
-- [Apostolico–Giancarlo algorithm](https://en.wikipedia.org/wiki/Apostolico%E2%80%93Giancarlo_algorithm)
-- [Approximate string matching](https://en.wikipedia.org/wiki/Approximate_string_matching)
-- [BLAST (biotechnology)](https://en.wikipedia.org/wiki/BLAST_(biotechnology))
-- [Ball (mathematics)](https://en.wikipedia.org/wiki/Ball_(mathematics))
-- [Best, worst and average case](https://en.wikipedia.org/wiki/Best,_worst_and_average_case)
-- [Binary symmetric channel](https://en.wikipedia.org/wiki/Binary_symmetric_channel)
-- [Bitap algorithm](https://en.wikipedia.org/wiki/Bitap_algorithm)
-- [Bitwise operation](https://en.wikipedia.org/wiki/Bitwise_operation)
-- [Block code](https://en.wikipedia.org/wiki/Block_code)
-- [Boyer–Moore string-search algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string-search_algorithm)
-- [Boyer–Moore–Horspool algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore%E2%80%93Horspool_algorithm)
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [Cambridge University Press](https://en.wikipedia.org/wiki/Cambridge_University_Press)
-- [Closest string](https://en.wikipedia.org/wiki/Closest_string)
-- [Hamming space](https://en.wikipedia.org/wiki/Hamming_space)
-- [Coding theory](https://en.wikipedia.org/wiki/Coding_theory)
-- [Commentz-Walter algorithm](https://en.wikipedia.org/wiki/Commentz-Walter_algorithm)
-- [Communications of the ACM](https://en.wikipedia.org/wiki/Communications_of_the_ACM)
-- [Comparison of regular expression engines](https://en.wikipedia.org/wiki/Comparison_of_regular_expression_engines)
-- [Compressed pattern matching](https://en.wikipedia.org/wiki/Compressed_pattern_matching)
-- [Compressed suffix array](https://en.wikipedia.org/wiki/Compressed_suffix_array)
-- [Copyright status of works by the federal government of the United States](https://en.wikipedia.org/wiki/Copyright_status_of_works_by_the_federal_government_of_the_United_States)
-- [Cryptography](https://en.wikipedia.org/wiki/Cryptography)
-- [Cube](https://en.wikipedia.org/wiki/Cube)
-- [Damerau–Levenshtein distance](https://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance)
-- [Data structure](https://en.wikipedia.org/wiki/Data_structure)
-- [David J. C. MacKay](https://en.wikipedia.org/wiki/David_J._C._MacKay)
-- [Deterministic acyclic finite state automaton](https://en.wikipedia.org/wiki/Deterministic_acyclic_finite_state_automaton)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Edit distance](https://en.wikipedia.org/wiki/Edit_distance)
-- [Elsevier](https://en.wikipedia.org/wiki/Elsevier)
-- [Error detection and correction](https://en.wikipedia.org/wiki/Error_detection_and_correction)
-- [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance)
-- [Exclusive or](https://en.wikipedia.org/wiki/Exclusive_or)
-- [FM-index](https://en.wikipedia.org/wiki/FM-index)
-- [Finite field](https://en.wikipedia.org/wiki/Finite_field)
-- [Gap-Hamming problem](https://en.wikipedia.org/wiki/Gap-Hamming_problem)
-- [General Services Administration](https://en.wikipedia.org/wiki/General_Services_Administration)
-- [Generalized suffix tree](https://en.wikipedia.org/wiki/Generalized_suffix_tree)
-- [Gestalt pattern matching](https://en.wikipedia.org/wiki/Gestalt_pattern_matching)
-- [Gray code](https://en.wikipedia.org/wiki/Gray_code)
-- [Gérard Denis Cohen](https://en.wikipedia.org/wiki/G%C3%A9rard_Denis_Cohen)
-- [Hacker's Delight](https://en.wikipedia.org/wiki/Hacker%27s_Delight)
-- [Hamming code](https://en.wikipedia.org/wiki/Hamming_code)
-- [Hamming space](https://en.wikipedia.org/wiki/Hamming_space)
-- [Sphere packing](https://en.wikipedia.org/wiki/Sphere_packing)
-- [Hamming weight](https://en.wikipedia.org/wiki/Hamming_weight)
-- [Handle System](https://en.wikipedia.org/wiki/Handle_System)
-- [Hirschberg's algorithm](https://en.wikipedia.org/wiki/Hirschberg%27s_algorithm)
-- [Hypercube](https://en.wikipedia.org/wiki/Hypercube)
-- [Hypercube graph](https://en.wikipedia.org/wiki/Hypercube_graph)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [ISSN](https://en.wikipedia.org/wiki/ISSN)
-- [Information theory](https://en.wikipedia.org/wiki/Information_theory)
-- [Iterator](https://en.wikipedia.org/wiki/Iterator)
-- [Jaccard index](https://en.wikipedia.org/wiki/Jaccard_index)
-- [Jaro–Winkler distance](https://en.wikipedia.org/wiki/Jaro%E2%80%93Winkler_distance)
-- [Knuth–Morris–Pratt algorithm](https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm)
-- [LCP array](https://en.wikipedia.org/wiki/LCP_array)
-- [Lee distance](https://en.wikipedia.org/wiki/Lee_distance)
-- [Levenshtein automaton](https://en.wikipedia.org/wiki/Levenshtein_automaton)
-- [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance)
-- [Longest common subsequence](https://en.wikipedia.org/wiki/Longest_common_subsequence)
-- [Longest common substring](https://en.wikipedia.org/wiki/Longest_common_substring)
-- [Mahalanobis distance](https://en.wikipedia.org/wiki/Mahalanobis_distance)
-- [Taxicab geometry](https://en.wikipedia.org/wiki/Taxicab_geometry)
-- [Lee distance](https://en.wikipedia.org/wiki/Lee_distance)
-- [Metric space](https://en.wikipedia.org/wiki/Metric_space)
-- [Needleman–Wunsch algorithm](https://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm)
-- [Nondeterministic finite automaton](https://en.wikipedia.org/wiki/Nondeterministic_finite_automaton)
-- [PubMed Central](https://en.wikipedia.org/wiki/PubMed_Central)
-- [PubMed](https://en.wikipedia.org/wiki/PubMed)
-- [Parsing](https://en.wikipedia.org/wiki/Parsing)
-- [Pattern matching](https://en.wikipedia.org/wiki/Pattern_matching)
-- [Pearson Education](https://en.wikipedia.org/wiki/Pearson_Education)
-- [Peter Wegner](https://en.wikipedia.org/wiki/Peter_Wegner)
-- [Phase-shift keying](https://en.wikipedia.org/wiki/Phase-shift_keying)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Rabin–Karp algorithm](https://en.wikipedia.org/wiki/Rabin%E2%80%93Karp_algorithm)
-- [Raita algorithm](https://en.wikipedia.org/wiki/Raita_algorithm)
-- [Regular expression](https://en.wikipedia.org/wiki/Regular_expression)
-- [Regular grammar](https://en.wikipedia.org/wiki/Regular_grammar)
-- [Richard Hamming](https://en.wikipedia.org/wiki/Richard_Hamming)
-- [Rope (data structure)](https://en.wikipedia.org/wiki/Rope_(data_structure))
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [Semi-Thue system](https://en.wikipedia.org/wiki/Semi-Thue_system)
-- [Sequence alignment](https://en.wikipedia.org/wiki/Sequence_alignment)
-- [Sequential pattern mining](https://en.wikipedia.org/wiki/Sequential_pattern_mining)
-- [Smith–Waterman algorithm](https://en.wikipedia.org/wiki/Smith%E2%80%93Waterman_algorithm)
-- [Space complexity](https://en.wikipedia.org/wiki/Space_complexity)
-- [Sparse distributed memory](https://en.wikipedia.org/wiki/Sparse_distributed_memory)
-- [Sphere packing](https://en.wikipedia.org/wiki/Sphere_packing)
-- [Springer Science+Business Media](https://en.wikipedia.org/wiki/Springer_Science%2BBusiness_Media)
-- [String-searching algorithm](https://en.wikipedia.org/wiki/String-searching_algorithm)
-- [String (computer science)](https://en.wikipedia.org/wiki/String_(computer_science))
-- [String metric](https://en.wikipedia.org/wiki/String_metric)
-- [String operations](https://en.wikipedia.org/wiki/String_operations)
-- [Substring index](https://en.wikipedia.org/wiki/Substring_index)
-- [Suffix array](https://en.wikipedia.org/wiki/Suffix_array)
-- [Suffix automaton](https://en.wikipedia.org/wiki/Suffix_automaton)
-- [Suffix tree](https://en.wikipedia.org/wiki/Suffix_tree)
-- [Symbol](https://en.wikipedia.org/wiki/Symbol)
-- [Systematics](https://en.wikipedia.org/wiki/Systematics)
-- [Dice-Sørensen coefficient](https://en.wikipedia.org/wiki/Dice-S%C3%B8rensen_coefficient)
-- [Telecommunications](https://en.wikipedia.org/wiki/Telecommunications)
-- [Ternary search tree](https://en.wikipedia.org/wiki/Ternary_search_tree)
-- [Tesseract](https://en.wikipedia.org/wiki/Tesseract)
-- [Thompson's construction](https://en.wikipedia.org/wiki/Thompson%27s_construction)
-- [Time complexity](https://en.wikipedia.org/wiki/Time_complexity)
-- [Triangle inequality](https://en.wikipedia.org/wiki/Triangle_inequality)
-- [Trie](https://en.wikipedia.org/wiki/Trie)
-- [Trigram search](https://en.wikipedia.org/wiki/Trigram_search)
-- [Two-way string-matching algorithm](https://en.wikipedia.org/wiki/Two-way_string-matching_algorithm)
-- [Vector space](https://en.wikipedia.org/wiki/Vector_space)
-- [Wagner–Fischer algorithm](https://en.wikipedia.org/wiki/Wagner%E2%80%93Fischer_algorithm)
-- [De Gruyter](https://en.wikipedia.org/wiki/De_Gruyter)
-- [Formal language](https://en.wikipedia.org/wiki/Formal_language)
-- [Word ladder](https://en.wikipedia.org/wiki/Word_ladder)
-- [Zhu–Takaoka string matching algorithm](https://en.wikipedia.org/wiki/Zhu%E2%80%93Takaoka_string_matching_algorithm)
-- [Wikipedia:Citing sources](https://en.wikipedia.org/wiki/Wikipedia:Citing_sources)
-- [Wikipedia:Please clarify](https://en.wikipedia.org/wiki/Wikipedia:Please_clarify)
-- [Wikipedia:When to cite](https://en.wikipedia.org/wiki/Wikipedia:When_to_cite)
-- [Wikipedia:WikiProject Reliability](https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Reliability)
-- [Template:Strings](https://en.wikipedia.org/wiki/Template:Strings)
-- [Template talk:Strings](https://en.wikipedia.org/wiki/Template_talk:Strings)
-- [Help:Authority control](https://en.wikipedia.org/wiki/Help:Authority_control)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Category:Articles lacking in-text citations from May 2015](https://en.wikipedia.org/wiki/Category:Articles_lacking_in-text_citations_from_May_2015)
-- [Category:String sorting algorithms](https://en.wikipedia.org/wiki/Category:String_sorting_algorithms)
-- [Category:Use American English from March 2019](https://en.wikipedia.org/wiki/Category:Use_American_English_from_March_2019)
-- [Category:Wikipedia articles needing clarification from June 2020](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_needing_clarification_from_June_2020)
-- [Portal:Mathematics](https://en.wikipedia.org/wiki/Portal:Mathematics)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:26:51.856015+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 15:18:53 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 9094 bytes
+- **Word Count:** 1411 words

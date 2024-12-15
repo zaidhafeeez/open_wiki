@@ -1,20 +1,50 @@
 # Higher-order function
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:29:32.117259+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 06:52:23 UTC
 - **Original Article:** [Higher-order function](https://en.wikipedia.org/wiki/Higher-order_function)
 - **Language:** en
 - **Page ID:** 244689
 
 ## Summary
-
 In mathematics and computer science, a higher-order function (HOF) is a function that does at least one of the following:
 takes one or more functions as arguments (i.e. a procedural parameter, which is a parameter of a procedure that is itself a procedure),
 returns a function or value as its result.
-All other functions are first-order functions. In mathematics higher-order functions are also termed operators or functionals. The differential operator in calculus is a common example, since it maps
+All other functions are first-order functions. In mathematics higher-order functions are also termed operators or functionals. The differential operator in calculus is a common example, since it maps a function to its derivative, also a function. Higher-order functions should not be confused with other uses of the word "functor" throughout mathematics, see Functor (disambiguation).
+In the untyped lambda calculus, all functions are higher-order; in a typed lambda calculus, from which most functional programming languages are derived, higher-order functions that take one function as argument are values with types of the form 
+  
+    
+      
+        (
+        
+          τ
+          
+            1
+          
+        
+        →
+        
+          τ
+          
+            2
+          
+        
+        )
+        →
+        
+          τ
+          
+            3
+          
+        
+      
+    
+    {\displaystyle (\tau _{1}\to \tau _{2})\to \tau _{3}}
+  
+.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles needing additional references
 - Category:Articles needing additional references from November 2024
@@ -223,146 +253,9 @@ Higher order messages
 
 == References ==
 
-## Related Articles
-
-### Internal Links
-
-- [APL (programming language)](https://en.wikipedia.org/wiki/APL_(programming_language))
-- [Algebraic function](https://en.wikipedia.org/wiki/Algebraic_function)
-- [Analytic function](https://en.wikipedia.org/wiki/Analytic_function)
-- [Anonymous function](https://en.wikipedia.org/wiki/Anonymous_function)
-- [Apply](https://en.wikipedia.org/wiki/Apply)
-- [Bijection](https://en.wikipedia.org/wiki/Bijection)
-- [Binary relation](https://en.wikipedia.org/wiki/Binary_relation)
-- [Boilerplate code](https://en.wikipedia.org/wiki/Boilerplate_code)
-- [Boolean-valued function](https://en.wikipedia.org/wiki/Boolean-valued_function)
-- [Boolean function](https://en.wikipedia.org/wiki/Boolean_function)
-- [C++](https://en.wikipedia.org/wiki/C%2B%2B)
-- [C++11](https://en.wikipedia.org/wiki/C%2B%2B11)
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [C Sharp (programming language)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
-- [Calculus](https://en.wikipedia.org/wiki/Calculus)
-- [Callback (computer programming)](https://en.wikipedia.org/wiki/Callback_(computer_programming))
-- [Clojure](https://en.wikipedia.org/wiki/Clojure)
-- [ColdFusion Markup Language](https://en.wikipedia.org/wiki/ColdFusion_Markup_Language)
-- [Combinatory logic](https://en.wikipedia.org/wiki/Combinatory_logic)
-- [Common Lisp](https://en.wikipedia.org/wiki/Common_Lisp)
-- [Complex analysis](https://en.wikipedia.org/wiki/Complex_analysis)
-- [Computer science](https://en.wikipedia.org/wiki/Computer_science)
-- [Constant function](https://en.wikipedia.org/wiki/Constant_function)
-- [Continuous function](https://en.wikipedia.org/wiki/Continuous_function)
-- [D (programming language)](https://en.wikipedia.org/wiki/D_(programming_language))
-- [Dart (programming language)](https://en.wikipedia.org/wiki/Dart_(programming_language))
-- [Defunctionalization](https://en.wikipedia.org/wiki/Defunctionalization)
-- [Derivative](https://en.wikipedia.org/wiki/Derivative)
-- [Differential operator](https://en.wikipedia.org/wiki/Differential_operator)
-- [Don't repeat yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
-- [Memory management](https://en.wikipedia.org/wiki/Memory_management)
-- [Elixir (programming language)](https://en.wikipedia.org/wiki/Elixir_(programming_language))
-- [Erlang (programming language)](https://en.wikipedia.org/wiki/Erlang_(programming_language))
-- [F Sharp (programming language)](https://en.wikipedia.org/wiki/F_Sharp_(programming_language))
-- [Filter (higher-order function)](https://en.wikipedia.org/wiki/Filter_(higher-order_function))
-- [First-class function](https://en.wikipedia.org/wiki/First-class_function)
-- [First-class function](https://en.wikipedia.org/wiki/First-class_function)
-- [Fold (higher-order function)](https://en.wikipedia.org/wiki/Fold_(higher-order_function))
-- [Fortran](https://en.wikipedia.org/wiki/Fortran)
-- [Free Pascal](https://en.wikipedia.org/wiki/Free_Pascal)
-- [Function-level programming](https://en.wikipedia.org/wiki/Function-level_programming)
-- [Function (computer programming)](https://en.wikipedia.org/wiki/Function_(computer_programming))
-- [Function (mathematics)](https://en.wikipedia.org/wiki/Function_(mathematics))
-- [Function composition](https://en.wikipedia.org/wiki/Function_composition)
-- [Function composition (computer science)](https://en.wikipedia.org/wiki/Function_composition_(computer_science))
-- [Complex analysis](https://en.wikipedia.org/wiki/Complex_analysis)
-- [Function of a real variable](https://en.wikipedia.org/wiki/Function_of_a_real_variable)
-- [Function of several complex variables](https://en.wikipedia.org/wiki/Function_of_several_complex_variables)
-- [Function of several real variables](https://en.wikipedia.org/wiki/Function_of_several_real_variables)
-- [Function overloading](https://en.wikipedia.org/wiki/Function_overloading)
-- [Function pointer](https://en.wikipedia.org/wiki/Function_pointer)
-- [Function space](https://en.wikipedia.org/wiki/Function_space)
-- [Functional (mathematics)](https://en.wikipedia.org/wiki/Functional_(mathematics))
-- [Functional programming](https://en.wikipedia.org/wiki/Functional_programming)
-- [Functor](https://en.wikipedia.org/wiki/Functor)
-- [Functor (disambiguation)](https://en.wikipedia.org/wiki/Functor_(disambiguation))
-- [Go (programming language)](https://en.wikipedia.org/wiki/Go_(programming_language))
-- [Apache Groovy](https://en.wikipedia.org/wiki/Apache_Groovy)
-- [Haskell](https://en.wikipedia.org/wiki/Haskell)
-- [Higher order message](https://en.wikipedia.org/wiki/Higher_order_message)
-- [History of the function concept](https://en.wikipedia.org/wiki/History_of_the_function_concept)
-- [Identity function](https://en.wikipedia.org/wiki/Identity_function)
-- [Imperative programming](https://en.wikipedia.org/wiki/Imperative_programming)
-- [Implicit function](https://en.wikipedia.org/wiki/Implicit_function)
-- [Injective function](https://en.wikipedia.org/wiki/Injective_function)
-- [Integer-valued function](https://en.wikipedia.org/wiki/Integer-valued_function)
-- [Integral](https://en.wikipedia.org/wiki/Integral)
-- [Interpreter (computing)](https://en.wikipedia.org/wiki/Interpreter_(computing))
-- [Inverse function](https://en.wikipedia.org/wiki/Inverse_function)
-- [J (programming language)](https://en.wikipedia.org/wiki/J_(programming_language))
-- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-- [Java (programming language)](https://en.wikipedia.org/wiki/Java_(programming_language))
-- [Java version history](https://en.wikipedia.org/wiki/Java_version_history)
-- [Julia (programming language)](https://en.wikipedia.org/wiki/Julia_(programming_language))
-- [Just-in-time compilation](https://en.wikipedia.org/wiki/Just-in-time_compilation)
-- [Kappa calculus](https://en.wikipedia.org/wiki/Kappa_calculus)
-- [Kotlin (programming language)](https://en.wikipedia.org/wiki/Kotlin_(programming_language))
-- [Lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus)
-- [Linear map](https://en.wikipedia.org/wiki/Linear_map)
-- [List of mathematical functions](https://en.wikipedia.org/wiki/List_of_mathematical_functions)
-- [Lua (programming language)](https://en.wikipedia.org/wiki/Lua_(programming_language))
-- [MATLAB](https://en.wikipedia.org/wiki/MATLAB)
-- [Macro (computer science)](https://en.wikipedia.org/wiki/Macro_(computer_science))
-- [Map (higher-order function)](https://en.wikipedia.org/wiki/Map_(higher-order_function))
-- [Mathematics](https://en.wikipedia.org/wiki/Mathematics)
-- [Measurable function](https://en.wikipedia.org/wiki/Measurable_function)
-- [Method (computer programming)](https://en.wikipedia.org/wiki/Method_(computer_programming))
-- [Montague grammar](https://en.wikipedia.org/wiki/Montague_grammar)
-- [Morphism](https://en.wikipedia.org/wiki/Morphism)
-- [Multivalued function](https://en.wikipedia.org/wiki/Multivalued_function)
-- [OCaml](https://en.wikipedia.org/wiki/OCaml)
-- [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
-- [Object (computer science)](https://en.wikipedia.org/wiki/Object_(computer_science))
-- [Operator (mathematics)](https://en.wikipedia.org/wiki/Operator_(mathematics))
-- [Ordered pair](https://en.wikipedia.org/wiki/Ordered_pair)
-- [PHP](https://en.wikipedia.org/wiki/PHP)
-- [Parameter (computer programming)](https://en.wikipedia.org/wiki/Parameter_(computer_programming))
-- [Partial function](https://en.wikipedia.org/wiki/Partial_function)
-- [Pascal (programming language)](https://en.wikipedia.org/wiki/Pascal_(programming_language))
-- [Perl](https://en.wikipedia.org/wiki/Perl)
-- [Polynomial](https://en.wikipedia.org/wiki/Polynomial)
-- [Procedural parameter](https://en.wikipedia.org/wiki/Procedural_parameter)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Qsort](https://en.wikipedia.org/wiki/Qsort)
-- [R (programming language)](https://en.wikipedia.org/wiki/R_(programming_language))
-- [Raku (programming language)](https://en.wikipedia.org/wiki/Raku_(programming_language))
-- [Rational function](https://en.wikipedia.org/wiki/Rational_function)
-- [Real-valued function](https://en.wikipedia.org/wiki/Real-valued_function)
-- [Record (computer science)](https://en.wikipedia.org/wiki/Record_(computer_science))
-- [Relation (mathematics)](https://en.wikipedia.org/wiki/Relation_(mathematics))
-- [Restriction (mathematics)](https://en.wikipedia.org/wiki/Restriction_(mathematics))
-- [Ruby (programming language)](https://en.wikipedia.org/wiki/Ruby_(programming_language))
-- [Rust (programming language)](https://en.wikipedia.org/wiki/Rust_(programming_language))
-- [Scala (programming language)](https://en.wikipedia.org/wiki/Scala_(programming_language))
-- [Scheme (programming language)](https://en.wikipedia.org/wiki/Scheme_(programming_language))
-- [Sequence](https://en.wikipedia.org/wiki/Sequence)
-- [Set-valued function](https://en.wikipedia.org/wiki/Set-valued_function)
-- [Smoothness](https://en.wikipedia.org/wiki/Smoothness)
-- [Stack-based memory allocation](https://en.wikipedia.org/wiki/Stack-based_memory_allocation)
-- [Strategy pattern](https://en.wikipedia.org/wiki/Strategy_pattern)
-- [Function (computer programming)](https://en.wikipedia.org/wiki/Function_(computer_programming))
-- [Surjective function](https://en.wikipedia.org/wiki/Surjective_function)
-- [Swift (programming language)](https://en.wikipedia.org/wiki/Swift_(programming_language))
-- [Tcl](https://en.wikipedia.org/wiki/Tcl)
-- [Tree traversal](https://en.wikipedia.org/wiki/Tree_traversal)
-- [Type system](https://en.wikipedia.org/wiki/Type_system)
-- [Typed lambda calculus](https://en.wikipedia.org/wiki/Typed_lambda_calculus)
-- [XACML](https://en.wikipedia.org/wiki/XACML)
-- [XQuery](https://en.wikipedia.org/wiki/XQuery)
-- [Wikipedia:Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)
-- [Template:Functions navbox](https://en.wikipedia.org/wiki/Template:Functions_navbox)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Help:Referencing for beginners](https://en.wikipedia.org/wiki/Help:Referencing_for_beginners)
-- [Category:Articles needing additional references from November 2024](https://en.wikipedia.org/wiki/Category:Articles_needing_additional_references_from_November_2024)
-- [Category:Functions](https://en.wikipedia.org/wiki/Category:Functions)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:29:32.117259+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 15:18:56 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 7596 bytes
+- **Word Count:** 1133 words

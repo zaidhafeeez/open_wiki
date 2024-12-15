@@ -1,17 +1,16 @@
 # Elementary comparison testing
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:22:29.925460+00:00
+## Metadata
+- **Last Updated:** 2024-11-16 23:52:09 UTC
 - **Original Article:** [Elementary comparison testing](https://en.wikipedia.org/wiki/Elementary_comparison_testing)
 - **Language:** en
 - **Page ID:** 56119486
 
 ## Summary
-
-Elementary comparison testing (ECT) is a white-box, control-flow, test-design methodology used in software development. The purpose of ECT is to enable detailed testing of complex software. Software code or pseudocode is tested to assess the proper handling of all decision outcomes. As with multiple-condition coverage and basis path testing, coverage of all independent and isolated conditions is accomplished through modified condition/decision coverage (MC/DC). Isolated conditions are aggregated
+Elementary comparison testing (ECT) is a white-box, control-flow, test-design methodology used in software development. The purpose of ECT is to enable detailed testing of complex software. Software code or pseudocode is tested to assess the proper handling of all decision outcomes. As with multiple-condition coverage and basis path testing, coverage of all independent and isolated conditions is accomplished through modified condition/decision coverage (MC/DC). Isolated conditions are aggregated into connected situations creating formal test cases. The independence of a condition is shown by changing the condition value in isolation. Each relevant condition value is covered by test cases.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example Python (programming language) code
 - Category:Articles with example pseudocode
@@ -1577,26 +1576,9 @@ Decision-to-decision path
 
 == References ==
 
-## Related Articles
-
-### Internal Links
-
-- [Amazon Standard Identification Number](https://en.wikipedia.org/wiki/Amazon_Standard_Identification_Number)
-- [Basis path testing](https://en.wikipedia.org/wiki/Basis_path_testing)
-- [Code coverage](https://en.wikipedia.org/wiki/Code_coverage)
-- [Control-flow graph](https://en.wikipedia.org/wiki/Control-flow_graph)
-- [Control flow](https://en.wikipedia.org/wiki/Control_flow)
-- [Decision-to-decision path](https://en.wikipedia.org/wiki/Decision-to-decision_path)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Modified condition/decision coverage](https://en.wikipedia.org/wiki/Modified_condition/decision_coverage)
-- [Pseudocode](https://en.wikipedia.org/wiki/Pseudocode)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Q.E.D.](https://en.wikipedia.org/wiki/Q.E.D.)
-- [Software development](https://en.wikipedia.org/wiki/Software_development)
-- [Test case](https://en.wikipedia.org/wiki/Test_case)
-- [Test design](https://en.wikipedia.org/wiki/Test_design)
-- [White-box testing](https://en.wikipedia.org/wiki/White-box_testing)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:22:29.925460+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 15:18:27 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 23946 bytes
+- **Word Count:** 1354 words

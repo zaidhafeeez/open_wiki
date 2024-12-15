@@ -1,19 +1,19 @@
 # Gabor filter
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:24:57.267932+00:00
+## Metadata
+- **Last Updated:** 2024-12-15 12:05:20 UTC
 - **Original Article:** [Gabor filter](https://en.wikipedia.org/wiki/Gabor_filter)
 - **Language:** en
 - **Page ID:** 1579200
 
 ## Summary
-
 In image processing, a Gabor filter, named after Dennis Gabor, who first proposed it as a 1D filter. 
 The Gabor filter was first generalized to 2D by Gösta Granlund, by adding a reference direction.
-The Gabor filter is a linear filter used for texture analysis, which essentially means that it analyzes whether there is any specific frequency content in the image in specific directions in a localized region around the point or region of analysis. Frequency and orientation representations of Gabor 
+The Gabor filter is a linear filter used for texture analysis, which essentially means that it analyzes whether there is any specific frequency content in the image in specific directions in a localized region around the point or region of analysis. Frequency and orientation representations of Gabor filters are claimed by many contemporary vision scientists to be similar to those of the human visual system. They have been found to be particularly appropriate for texture representation and discrimination. In the spatial domain, a 2D Gabor filter is a Gaussian kernel function modulated by a sinusoidal plane wave (see Gabor transform).
+Some authors claim that simple cells in the visual cortex of mammalian brains can be modeled by Gabor functions. Thus, image analysis with Gabor filters is thought by some to be similar to perception in the human visual system.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Accuracy disputes from February 2013
 - Category:All accuracy disputes
@@ -677,73 +677,9 @@ Eero Simoncelli's page on Steerable Pyramids
 Manduchi, R.; Perona, P.; Shy, D. (April 1998). "Efficient deformable filter banks" (PDF). IEEE Transactions on Signal Processing. 46 (4): 1168–1173. Bibcode:1998ITSP...46.1168M. doi:10.1109/78.668570. ISSN 1053-587X. OCLC 926890247. (PDF Archived 2021-11-12 at the Wayback Machine) (Code Archived 2010-06-13 at the Wayback Machine)
 Fischer, Sylvain; Šroubek, Filip; Perrinet, Laurent; Redondo, Rafael; Cristóbal, Gabriel (2007). "Self-Invertible 2D Log-Gabor Wavelets" (PDF). International Journal of Computer Vision. 75 (2): 231–246. CiteSeerX 10.1.1.329.6283. doi:10.1007/s11263-006-0026-8. ISSN 0920-5691. S2CID 1452724.
 
-## Related Articles
-
-### Internal Links
-
-- [Bibcode](https://en.wikipedia.org/wiki/Bibcode)
-- [Bone](https://en.wikipedia.org/wiki/Bone)
-- [CiteSeerX](https://en.wikipedia.org/wiki/CiteSeerX)
-- [Complex number](https://en.wikipedia.org/wiki/Complex_number)
-- [Convolution](https://en.wikipedia.org/wiki/Convolution)
-- [Convolution theorem](https://en.wikipedia.org/wiki/Convolution_theorem)
-- [Dennis Gabor](https://en.wikipedia.org/wiki/Dennis_Gabor)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Feature engineering](https://en.wikipedia.org/wiki/Feature_engineering)
-- [Fingerprint](https://en.wikipedia.org/wiki/Fingerprint)
-- [Fourier transform](https://en.wikipedia.org/wiki/Fourier_transform)
-- [GNU Octave](https://en.wikipedia.org/wiki/GNU_Octave)
-- [Gabor atom](https://en.wikipedia.org/wiki/Gabor_atom)
-- [Gabor atom](https://en.wikipedia.org/wiki/Gabor_atom)
-- [Gabor transform](https://en.wikipedia.org/wiki/Gabor_transform)
-- [Gabor wavelet](https://en.wikipedia.org/wiki/Gabor_wavelet)
-- [List of things named after Carl Friedrich Gauss](https://en.wikipedia.org/wiki/List_of_things_named_after_Carl_Friedrich_Gauss)
-- [Gaussian function](https://en.wikipedia.org/wiki/Gaussian_function)
-- [Hans Georg Feichtinger](https://en.wikipedia.org/wiki/Hans_Georg_Feichtinger)
-- [Haskell](https://en.wikipedia.org/wiki/Haskell)
-- [Visual system](https://en.wikipedia.org/wiki/Visual_system)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [ISSN](https://en.wikipedia.org/wiki/ISSN)
-- [Image analysis](https://en.wikipedia.org/wiki/Image_analysis)
-- [Digital image processing](https://en.wikipedia.org/wiki/Digital_image_processing)
-- [Imaginary number](https://en.wikipedia.org/wiki/Imaginary_number)
-- [Impulse response](https://en.wikipedia.org/wiki/Impulse_response)
-- [Iris recognition](https://en.wikipedia.org/wiki/Iris_recognition)
-- [John Daugman](https://en.wikipedia.org/wiki/John_Daugman)
-- [Positive-definite kernel](https://en.wikipedia.org/wiki/Positive-definite_kernel)
-- [Library of Congress Control Number](https://en.wikipedia.org/wiki/Library_of_Congress_Control_Number)
-- [Linear filter](https://en.wikipedia.org/wiki/Linear_filter)
-- [Log Gabor filter](https://en.wikipedia.org/wiki/Log_Gabor_filter)
-- [MATLAB](https://en.wikipedia.org/wiki/MATLAB)
-- [Brain](https://en.wikipedia.org/wiki/Brain)
-- [Morlet wavelet](https://en.wikipedia.org/wiki/Morlet_wavelet)
-- [OCLC](https://en.wikipedia.org/wiki/OCLC)
-- [Open Library](https://en.wikipedia.org/wiki/Open_Library)
-- [Optical character recognition](https://en.wikipedia.org/wiki/Optical_character_recognition)
-- [Orthogonality](https://en.wikipedia.org/wiki/Orthogonality)
-- [PubMed Central](https://en.wikipedia.org/wiki/PubMed_Central)
-- [PubMed](https://en.wikipedia.org/wiki/PubMed)
-- [Plane wave](https://en.wikipedia.org/wiki/Plane_wave)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Real number](https://en.wikipedia.org/wiki/Real_number)
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [Sine wave](https://en.wikipedia.org/wiki/Sine_wave)
-- [Sine wave](https://en.wikipedia.org/wiki/Sine_wave)
-- [Texture mapping](https://en.wikipedia.org/wiki/Texture_mapping)
-- [Trabecula](https://en.wikipedia.org/wiki/Trabecula)
-- [Vertebral column](https://en.wikipedia.org/wiki/Vertebral_column)
-- [Visual cortex](https://en.wikipedia.org/wiki/Visual_cortex)
-- [Wayback Machine](https://en.wikipedia.org/wiki/Wayback_Machine)
-- [Talk:Gabor filter](https://en.wikipedia.org/wiki/Talk:Gabor_filter)
-- [Wikipedia:Accuracy dispute](https://en.wikipedia.org/wiki/Wikipedia:Accuracy_dispute)
-- [Wikipedia:Make technical articles understandable](https://en.wikipedia.org/wiki/Wikipedia:Make_technical_articles_understandable)
-- [Wikipedia:Reliable sources](https://en.wikipedia.org/wiki/Wikipedia:Reliable_sources)
-- [Template:Cite journal](https://en.wikipedia.org/wiki/Template:Cite_journal)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Category:Accuracy disputes from February 2013](https://en.wikipedia.org/wiki/Category:Accuracy_disputes_from_February_2013)
-- [Category:CS1 maint: multiple names: authors list](https://en.wikipedia.org/wiki/Category:CS1_maint:_multiple_names:_authors_list)
-- [Category:Wikipedia articles that are too technical from February 2017](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_that_are_too_technical_from_February_2017)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:24:57.267932+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 15:18:43 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 16200 bytes
+- **Word Count:** 1488 words

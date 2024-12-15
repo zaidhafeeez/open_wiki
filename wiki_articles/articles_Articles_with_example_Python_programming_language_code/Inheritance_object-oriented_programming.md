@@ -1,17 +1,20 @@
 # Inheritance (object-oriented programming)
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:29:34.912871+00:00
+## Metadata
+- **Last Updated:** 2024-12-07 14:45:49 UTC
 - **Original Article:** [Inheritance (object-oriented programming)](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming))
 - **Language:** en
 - **Page ID:** 2617746
 
 ## Summary
-
-In object-oriented programming, inheritance is the mechanism of basing an object or class upon another object (prototype-based inheritance) or class (class-based inheritance), retaining similar implementation. Also defined as deriving new classes (sub classes) from existing ones such as super class or base class and then forming them into a hierarchy of classes. In most class-based object-oriented languages like C++, an object created through inheritance, a "child object", acquires all the prope
+In object-oriented programming, inheritance is the mechanism of basing an object or class upon another object (prototype-based inheritance) or class (class-based inheritance), retaining similar implementation. Also defined as deriving new classes (sub classes) from existing ones such as super class or base class and then forming them into a hierarchy of classes. In most class-based object-oriented languages like C++, an object created through inheritance, a "child object", acquires all the properties and behaviors of the "parent object", with the exception of: constructors, destructors, overloaded operators and friend functions of the base class. Inheritance allows programmers to create classes that are built upon existing classes, to specify a new implementation while maintaining the same behaviors (realizing an interface), to reuse code and to independently extend original software via public classes and interfaces. The relationships of objects or classes through inheritance give rise to a directed acyclic graph.
+An inherited class is called a subclass of its parent class or super class. The term inheritance is loosely used for both class-based and prototype-based programming, but in narrow use the term is reserved for class-based programming (one class inherits from another), with the corresponding technique in prototype-based programming being instead called delegation (one object delegates to another). Class-modifying inheritance patterns can be pre-defined according to simple network interface parameters such that inter-language compatibility is preserved.
+Inheritance should not be confused with subtyping. In some languages inheritance and subtyping agree, whereas in others they differ; in general, subtyping establishes an is-a relationship, whereas inheritance only reuses implementation and establishes a syntactic relationship, not necessarily a semantic relationship (inheritance does not ensure behavioral subtyping). To distinguish these concepts, subtyping is sometimes referred to as interface inheritance (without acknowledging that the specialization of type variables also induces a subtyping relation), whereas inheritance as defined here is known as implementation inheritance or code inheritance. Still, inheritance is a commonly used mechanism for establishing subtype relationships.
+Inheritance is contrasted with object composition, where one object contains another object (or objects of one class contain objects of another class); see composition over inheritance. In contrast to subtyping’s is-a relationship, composition implements a has-a relationship.
+Mathematically speaking, inheritance in any system of classes induces a strict partial order on the set of classes in that system.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles with unsourced statements
 - Category:All pages needing cleanup
@@ -153,125 +156,9 @@ Further reading
 Meyer, Bertrand (1997). "24. Using Inheritance Well" (PDF). Object-Oriented Software Construction (2nd ed.). Prentice Hall. pp. 809–870. ISBN 978-0136291558.
 Samokhin, Vadim (2017). "Implementation Inheritance Is Evil". HackerNoon. Medium.
 
-## Related Articles
-
-### Internal Links
-
-- [Allen Holub](https://en.wikipedia.org/wiki/Allen_Holub)
-- [Archetype pattern](https://en.wikipedia.org/wiki/Archetype_pattern)
-- [Behavioral subtyping](https://en.wikipedia.org/wiki/Behavioral_subtyping)
-- [Bertrand Meyer](https://en.wikipedia.org/wiki/Bertrand_Meyer)
-- [Binary file](https://en.wikipedia.org/wiki/Binary_file)
-- [Bjarne Stroustrup](https://en.wikipedia.org/wiki/Bjarne_Stroustrup)
-- [Brad Cox](https://en.wikipedia.org/wiki/Brad_Cox)
-- [C++](https://en.wikipedia.org/wiki/C%2B%2B)
-- [C++11](https://en.wikipedia.org/wiki/C%2B%2B11)
-- [C Sharp (programming language)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
-- [Circle–ellipse problem](https://en.wikipedia.org/wiki/Circle%E2%80%93ellipse_problem)
-- [CiteSeerX](https://en.wikipedia.org/wiki/CiteSeerX)
-- [Class-based programming](https://en.wikipedia.org/wiki/Class-based_programming)
-- [Class (computer programming)](https://en.wikipedia.org/wiki/Class_(computer_programming))
-- [Class diagram](https://en.wikipedia.org/wiki/Class_diagram)
-- [Code reuse](https://en.wikipedia.org/wiki/Code_reuse)
-- [Compile time](https://en.wikipedia.org/wiki/Compile_time)
-- [Compile time](https://en.wikipedia.org/wiki/Compile_time)
-- [Composition over inheritance](https://en.wikipedia.org/wiki/Composition_over_inheritance)
-- [Composition over inheritance](https://en.wikipedia.org/wiki/Composition_over_inheritance)
-- [Connotation (semiotics)](https://en.wikipedia.org/wiki/Connotation_(semiotics))
-- [Constructor (object-oriented programming)](https://en.wikipedia.org/wiki/Constructor_(object-oriented_programming))
-- [Coupling (computer programming)](https://en.wikipedia.org/wiki/Coupling_(computer_programming))
-- [Cube (algebra)](https://en.wikipedia.org/wiki/Cube_(algebra))
-- [Data type](https://en.wikipedia.org/wiki/Data_type)
-- [Decorator pattern](https://en.wikipedia.org/wiki/Decorator_pattern)
-- [Defeasible reasoning](https://en.wikipedia.org/wiki/Defeasible_reasoning)
-- [Delegation (object-oriented programming)](https://en.wikipedia.org/wiki/Delegation_(object-oriented_programming))
-- [Delegation pattern](https://en.wikipedia.org/wiki/Delegation_pattern)
-- [Design Patterns](https://en.wikipedia.org/wiki/Design_Patterns)
-- [Design by contract](https://en.wikipedia.org/wiki/Design_by_contract)
-- [Multiple inheritance](https://en.wikipedia.org/wiki/Multiple_inheritance)
-- [Digital Equipment Corporation](https://en.wikipedia.org/wiki/Digital_Equipment_Corporation)
-- [Directed acyclic graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Dynamic dispatch](https://en.wikipedia.org/wiki/Dynamic_dispatch)
-- [E. Balagurusamy](https://en.wikipedia.org/wiki/E._Balagurusamy)
-- [Inheritance (object-oriented programming)](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming))
-- [Eiffel (programming language)](https://en.wikipedia.org/wiki/Eiffel_(programming_language))
-- [Encapsulation (computer programming)](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming))
-- [Entity component system](https://en.wikipedia.org/wiki/Entity_component_system)
-- [Final (Java)](https://en.wikipedia.org/wiki/Final_(Java))
-- [Fragile base class](https://en.wikipedia.org/wiki/Fragile_base_class)
-- [Friend function](https://en.wikipedia.org/wiki/Friend_function)
-- [Go (programming language)](https://en.wikipedia.org/wiki/Go_(programming_language))
-- [Has-a](https://en.wikipedia.org/wiki/Has-a)
-- [Herbert Schildt](https://en.wikipedia.org/wiki/Herbert_Schildt)
-- [Method overriding](https://en.wikipedia.org/wiki/Method_overriding)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Implementation](https://en.wikipedia.org/wiki/Implementation)
-- [Inline expansion](https://en.wikipedia.org/wiki/Inline_expansion)
-- [Instance (computer science)](https://en.wikipedia.org/wiki/Instance_(computer_science))
-- [Instance variable](https://en.wikipedia.org/wiki/Instance_variable)
-- [Interface (computing)](https://en.wikipedia.org/wiki/Interface_(computing))
-- [Interface (object-oriented programming)](https://en.wikipedia.org/wiki/Interface_(object-oriented_programming))
-- [Is-a](https://en.wikipedia.org/wiki/Is-a)
-- [James Gosling](https://en.wikipedia.org/wiki/James_Gosling)
-- [Java (programming language)](https://en.wikipedia.org/wiki/Java_(programming_language))
-- [John C. Mitchell](https://en.wikipedia.org/wiki/John_C._Mitchell)
-- [Kristen Nygaard](https://en.wikipedia.org/wiki/Kristen_Nygaard)
-- [Late binding](https://en.wikipedia.org/wiki/Late_binding)
-- [Liskov substitution principle](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
-- [List of object-oriented programming languages](https://en.wikipedia.org/wiki/List_of_object-oriented_programming_languages)
-- [Method (computer programming)](https://en.wikipedia.org/wiki/Method_(computer_programming))
-- [Method overriding](https://en.wikipedia.org/wiki/Method_overriding)
-- [Type signature](https://en.wikipedia.org/wiki/Type_signature)
-- [Mixin](https://en.wikipedia.org/wiki/Mixin)
-- [Modular programming](https://en.wikipedia.org/wiki/Modular_programming)
-- [Multiple inheritance](https://en.wikipedia.org/wiki/Multiple_inheritance)
-- [Object-Oriented Software Construction](https://en.wikipedia.org/wiki/Object-Oriented_Software_Construction)
-- [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
-- [Object (computer science)](https://en.wikipedia.org/wiki/Object_(computer_science))
-- [Object composition](https://en.wikipedia.org/wiki/Object_composition)
-- [Objective-C](https://en.wikipedia.org/wiki/Objective-C)
-- [Ole-Johan Dahl](https://en.wikipedia.org/wiki/Ole-Johan_Dahl)
-- [Operator overloading](https://en.wikipedia.org/wiki/Operator_overloading)
-- [Partially ordered set](https://en.wikipedia.org/wiki/Partially_ordered_set)
-- [Polymorphism (computer science)](https://en.wikipedia.org/wiki/Polymorphism_(computer_science))
-- [Programming language](https://en.wikipedia.org/wiki/Programming_language)
-- [Interface (object-oriented programming)](https://en.wikipedia.org/wiki/Interface_(object-oriented_programming))
-- [Prototype-based programming](https://en.wikipedia.org/wiki/Prototype-based_programming)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Reusability](https://en.wikipedia.org/wiki/Reusability)
-- [Role-oriented programming](https://en.wikipedia.org/wiki/Role-oriented_programming)
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [Scala (programming language)](https://en.wikipedia.org/wiki/Scala_(programming_language))
-- [Simula](https://en.wikipedia.org/wiki/Simula)
-- [Multiple inheritance](https://en.wikipedia.org/wiki/Multiple_inheritance)
-- [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk)
-- [Software framework](https://en.wikipedia.org/wiki/Software_framework)
-- [Source code](https://en.wikipedia.org/wiki/Source_code)
-- [Square number](https://en.wikipedia.org/wiki/Square_number)
-- [Static dispatch](https://en.wikipedia.org/wiki/Static_dispatch)
-- [Subtyping](https://en.wikipedia.org/wiki/Subtyping)
-- [Tony Hoare](https://en.wikipedia.org/wiki/Tony_Hoare)
-- [Trait (computer programming)](https://en.wikipedia.org/wiki/Trait_(computer_programming))
-- [Type conversion](https://en.wikipedia.org/wiki/Type_conversion)
-- [Type conversion](https://en.wikipedia.org/wiki/Type_conversion)
-- [Virtual inheritance](https://en.wikipedia.org/wiki/Virtual_inheritance)
-- [Virtual function](https://en.wikipedia.org/wiki/Virtual_function)
-- [Virtual method table](https://en.wikipedia.org/wiki/Virtual_method_table)
-- [Yo-yo problem](https://en.wikipedia.org/wiki/Yo-yo_problem)
-- [Wikipedia:Citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed)
-- [Wikipedia:Cleanup](https://en.wikipedia.org/wiki/Wikipedia:Cleanup)
-- [Wikipedia:Manual of Style](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style)
-- [Help:Authority control](https://en.wikipedia.org/wiki/Help:Authority_control)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Category:Articles needing cleanup from April 2015](https://en.wikipedia.org/wiki/Category:Articles_needing_cleanup_from_April_2015)
-- [Category:Articles with unsourced statements from February 2016](https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_February_2016)
-- [Category:Articles with unsourced statements from May 2012](https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_May_2012)
-- [Category:Articles with unsourced statements from November 2009](https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_November_2009)
-- [Category:Articles with unsourced statements from October 2022](https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_October_2022)
-- [Category:Cleanup tagged articles with a reason field from April 2015](https://en.wikipedia.org/wiki/Category:Cleanup_tagged_articles_with_a_reason_field_from_April_2015)
-- [Category:Wikipedia pages needing cleanup from April 2015](https://en.wikipedia.org/wiki/Category:Wikipedia_pages_needing_cleanup_from_April_2015)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:29:34.912871+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 15:19:02 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 20631 bytes
+- **Word Count:** 3101 words

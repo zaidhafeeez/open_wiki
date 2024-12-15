@@ -1,14 +1,12 @@
 # Cycle detection
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:15:13.355734+00:00
+## Metadata
+- **Last Updated:** 2024-12-06 05:31:00 UTC
 - **Original Article:** [Cycle detection](https://en.wikipedia.org/wiki/Cycle_detection)
 - **Language:** en
 - **Page ID:** 670279
 
 ## Summary
-
 In computer science, cycle detection or cycle finding is the algorithmic problem of finding a cycle in a sequence of iterated function values.
 For any function f that maps a finite set S to itself, and any initial value x0 in S, the sequence of iterated function values
 
@@ -35,9 +33,65 @@ For any function f that maps a finite set S to itself, and any initial value x0 
         
           x
           
+            0
+          
+        
+        )
+        ,
+         
+        
+          x
+          
+            2
+          
+        
+        =
+        f
+        (
+        
+          x
+          
+            1
+          
+        
+        )
+        ,
+         
+        …
+        ,
+         
+        
+          x
+          
+            i
+          
+        
+        =
+        f
+        (
+        
+          x
+          
+            i
+            −
+            1
+          
+        
+        )
+        ,
+         
+        …
+      
+    
+    {\displaystyle x_{0},\ x_{1}=f(x_{0}),\ x_{2}=f(x_{1}),\ \dots ,\ x_{i}=f(x_{i-1}),\ \dots }
+  
 
+must eventually use the same value twice: there must be some pair of distinct indices i and j such that xi = xj. Once this happens, the sequence must continue periodically, by repeating the same sequence of values from xi to xj − 1. Cycle detection is the problem of finding i and j, given f and x0.
+Several algorithms are known for finding cycles quickly and with little memory. Robert W. Floyd's tortoise and hare algorithm moves two pointers at different speeds through the sequence of values until they both point to equal values. Alternatively, Brent's algorithm is based on the idea of exponential search. Both Floyd's and Brent's algorithms use only a constant number of memory cells, and take a number of function evaluations that is proportional to the distance from the start of the sequence to the first repetition. Several other algorithms trade off larger amounts of memory for fewer function evaluations.
+The applications of cycle detection include testing the quality of pseudorandom number generators and cryptographic hash functions, computational number theory algorithms, detection of infinite loops in computer programs and periodic configurations in cellular automata,  automated shape analysis of linked list data structures, and detection of deadlocks for transactions management in DBMS.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles that are too technical
 - Category:Articles with example Python (programming language) code
@@ -903,111 +957,9 @@ Tortoise and Hare, Portland Pattern Repository
 Floyd's Cycle Detection Algorithm (The Tortoise and the Hare)
 Brent's Cycle Detection Algorithm (The Teleporting Turtle)
 
-## Related Articles
-
-### Internal Links
-
-- [Abelian group](https://en.wikipedia.org/wiki/Abelian_group)
-- [Alan Sherman](https://en.wikipedia.org/wiki/Alan_Sherman)
-- [Algorithm](https://en.wikipedia.org/wiki/Algorithm)
-- [Andrew Yao](https://en.wikipedia.org/wiki/Andrew_Yao)
-- [Antoine Joux](https://en.wikipedia.org/wiki/Antoine_Joux)
-- [Associative array](https://en.wikipedia.org/wiki/Associative_array)
-- [Average-case complexity](https://en.wikipedia.org/wiki/Average-case_complexity)
-- [BIT Numerical Mathematics](https://en.wikipedia.org/wiki/BIT_Numerical_Mathematics)
-- [Bibcode](https://en.wikipedia.org/wiki/Bibcode)
-- [Bill Gosper](https://en.wikipedia.org/wiki/Bill_Gosper)
-- [Birthday problem](https://en.wikipedia.org/wiki/Birthday_problem)
-- [Black box](https://en.wikipedia.org/wiki/Black_box)
-- [Burt Kaliski](https://en.wikipedia.org/wiki/Burt_Kaliski)
-- [Celestial mechanics](https://en.wikipedia.org/wiki/Celestial_mechanics)
-- [Cellular automaton](https://en.wikipedia.org/wiki/Cellular_automaton)
-- [Claus P. Schnorr](https://en.wikipedia.org/wiki/Claus_P._Schnorr)
-- [Common Lisp](https://en.wikipedia.org/wiki/Common_Lisp)
-- [Comparison sort](https://en.wikipedia.org/wiki/Comparison_sort)
-- [Computational group theory](https://en.wikipedia.org/wiki/Computational_group_theory)
-- [Computational number theory](https://en.wikipedia.org/wiki/Computational_number_theory)
-- [Computer program](https://en.wikipedia.org/wiki/Computer_program)
-- [Computer science](https://en.wikipedia.org/wiki/Computer_science)
-- [Computer simulation](https://en.wikipedia.org/wiki/Computer_simulation)
-- [Find first set](https://en.wikipedia.org/wiki/Find_first_set)
-- [Cryptographic hash function](https://en.wikipedia.org/wiki/Cryptographic_hash_function)
-- [Cryptography](https://en.wikipedia.org/wiki/Cryptography)
-- [Cycle (graph theory)](https://en.wikipedia.org/wiki/Cycle_(graph_theory))
-- [Cycle (graph theory)](https://en.wikipedia.org/wiki/Cycle_(graph_theory))
-- [Data Encryption Standard](https://en.wikipedia.org/wiki/Data_Encryption_Standard)
-- [Data structure](https://en.wikipedia.org/wiki/Data_structure)
-- [Database](https://en.wikipedia.org/wiki/Database)
-- [Deadlock (computer science)](https://en.wikipedia.org/wiki/Deadlock_(computer_science))
-- [Directed graph](https://en.wikipedia.org/wiki/Directed_graph)
-- [Discrete logarithm](https://en.wikipedia.org/wiki/Discrete_logarithm)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth)
-- [Endomorphism](https://en.wikipedia.org/wiki/Endomorphism)
-- [Eric Allender](https://en.wikipedia.org/wiki/Eric_Allender)
-- [Exponential search](https://en.wikipedia.org/wiki/Exponential_search)
-- [Faith Ellen](https://en.wikipedia.org/wiki/Faith_Ellen)
-- [Finite set](https://en.wikipedia.org/wiki/Finite_set)
-- [Function (mathematics)](https://en.wikipedia.org/wiki/Function_(mathematics))
-- [Pseudoforest](https://en.wikipedia.org/wiki/Pseudoforest)
-- [Graph theory](https://en.wikipedia.org/wiki/Graph_theory)
-- [Greatest common divisor](https://en.wikipedia.org/wiki/Greatest_common_divisor)
-- [HAKMEM](https://en.wikipedia.org/wiki/HAKMEM)
-- [Hacker's Delight](https://en.wikipedia.org/wiki/Hacker%27s_Delight)
-- [Hash collision](https://en.wikipedia.org/wiki/Hash_collision)
-- [Hash function](https://en.wikipedia.org/wiki/Hash_function)
-- [Hash table](https://en.wikipedia.org/wiki/Hash_table)
-- [Handle System](https://en.wikipedia.org/wiki/Handle_System)
-- [Hendrik Lenstra](https://en.wikipedia.org/wiki/Hendrik_Lenstra)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Infinite loop](https://en.wikipedia.org/wiki/Infinite_loop)
-- [Information Processing Letters](https://en.wikipedia.org/wiki/Information_Processing_Letters)
-- [Integer factorization](https://en.wikipedia.org/wiki/Integer_factorization)
-- [Iterated function](https://en.wikipedia.org/wiki/Iterated_function)
-- [JSTOR](https://en.wikipedia.org/wiki/JSTOR)
-- [Journal of Cryptology](https://en.wikipedia.org/wiki/Journal_of_Cryptology)
-- [Linear congruential generator](https://en.wikipedia.org/wiki/Linear_congruential_generator)
-- [Linked list](https://en.wikipedia.org/wiki/Linked_list)
-- [Linköping University](https://en.wikipedia.org/wiki/Link%C3%B6ping_University)
-- [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set)
-- [Maria Klawe](https://en.wikipedia.org/wiki/Maria_Klawe)
-- [Mathematical folklore](https://en.wikipedia.org/wiki/Mathematical_folklore)
-- [Mathematics of Computation](https://en.wikipedia.org/wiki/Mathematics_of_Computation)
-- [Number theory](https://en.wikipedia.org/wiki/Number_theory)
-- [One-way function](https://en.wikipedia.org/wiki/One-way_function)
-- [Oscillator (cellular automaton)](https://en.wikipedia.org/wiki/Oscillator_(cellular_automaton))
-- [Periodic sequence](https://en.wikipedia.org/wiki/Periodic_sequence)
-- [Phase space](https://en.wikipedia.org/wiki/Phase_space)
-- [Pointer machine](https://en.wikipedia.org/wiki/Pointer_machine)
-- [Pollard's kangaroo algorithm](https://en.wikipedia.org/wiki/Pollard%27s_kangaroo_algorithm)
-- [Pollard's rho algorithm](https://en.wikipedia.org/wiki/Pollard%27s_rho_algorithm)
-- [Pollard's rho algorithm](https://en.wikipedia.org/wiki/Pollard%27s_rho_algorithm)
-- [Power of two](https://en.wikipedia.org/wiki/Power_of_two)
-- [Pseudorandom number generator](https://en.wikipedia.org/wiki/Pseudorandom_number_generator)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Reachability](https://en.wikipedia.org/wiki/Reachability)
-- [Rho](https://en.wikipedia.org/wiki/Rho)
-- [Richard P. Brent](https://en.wikipedia.org/wiki/Richard_P._Brent)
-- [Robert Sedgewick (computer scientist)](https://en.wikipedia.org/wiki/Robert_Sedgewick_(computer_scientist))
-- [Robert W. Floyd](https://en.wikipedia.org/wiki/Robert_W._Floyd)
-- [Ron Rivest](https://en.wikipedia.org/wiki/Ron_Rivest)
-- [S-expression](https://en.wikipedia.org/wiki/S-expression)
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [SIAM Journal on Computing](https://en.wikipedia.org/wiki/SIAM_Journal_on_Computing)
-- [Sequence](https://en.wikipedia.org/wiki/Sequence)
-- [Shape analysis (program analysis)](https://en.wikipedia.org/wiki/Shape_analysis_(program_analysis))
-- [Space complexity](https://en.wikipedia.org/wiki/Space_complexity)
-- [Stack (abstract data type)](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))
-- [Symposium on Theory of Computing](https://en.wikipedia.org/wiki/Symposium_on_Theory_of_Computing)
-- [The Tortoise and the Hare](https://en.wikipedia.org/wiki/The_Tortoise_and_the_Hare)
-- [Theoretical Computer Science (journal)](https://en.wikipedia.org/wiki/Theoretical_Computer_Science_(journal))
-- [Transaction processing](https://en.wikipedia.org/wiki/Transaction_processing)
-- [Transdichotomous model](https://en.wikipedia.org/wiki/Transdichotomous_model)
-- [William Kahan](https://en.wikipedia.org/wiki/William_Kahan)
-- [Wikipedia:Make technical articles understandable](https://en.wikipedia.org/wiki/Wikipedia:Make_technical_articles_understandable)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Category:Wikipedia articles that are too technical from February 2018](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_that_are_too_technical_from_February_2018)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:15:13.355734+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 15:18:22 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 26645 bytes
+- **Word Count:** 3648 words

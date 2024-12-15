@@ -152,73 +152,20 @@ def load_progress():
         if os.path.exists(PROGRESS_FILE):
             with open(PROGRESS_FILE, 'r', encoding='utf-8') as f:
                 data = json.load(f)
-                return {'processed': set(data['processed']), 'last_category': data['last_category']}
+                return {
+                    'processed': set(data.get('processed', [])),
+                    'last_category': data.get('last_category'),
+                    'category_stats': data.get('category_stats', {})
+                }
     except Exception as e:
-        log_message(f"Error loading progress file: {str(e)}", "ERROR")
-        # Backup the corrupted file if it exists
-        if os.path.exists(PROGRESS_FILE):
-            backup_file = f"{PROGRESS_FILE}.bak"
-            try:
-                os.rename(PROGRESS_FILE, backup_file)
-                log_message(f"Backed up corrupted progress file to {backup_file}", "WARNING")
-            except Exception:
-                pass
-    return {'processed': set(), 'last_category': None}
-
-def save_progress(processed, current_category=None):
-    """Save progress with error handling and atomic writes."""
-    try:
-        temp_file = PROGRESS_FILE + '.tmp'
-        data = {
-            'processed': list(processed),
-            'last_category': current_category,
-            'last_updated': datetime.now(timezone.utc).isoformat()
-        }
-        
-        # Calculate category statistics
-        category_stats = {}
-        for article in processed:
-            article_path = None
-            for root, _, files in os.walk(OUTPUT_DIR):
-                for file in files:
-                    if file.startswith(get_safe_path(article)) and file.endswith('.md'):
-                        article_path = os.path.join(root, file)
-                        break
-                if article_path:
-                    break
-            
-            if article_path and os.path.exists(article_path):
-                with open(article_path, 'r', encoding='utf-8') as f:
-                    content = f.read()
-                    category = os.path.basename(os.path.dirname(article_path)).replace('articles_', '')
-                    
-                    if category not in category_stats:
-                        category_stats[category] = {
-                            'count': 0,
-                            'total_words': 0,
-                            'total_size': 0,
-                            'has_references': 0,
-                            'has_toc': 0,
-                            'total_lines': 0
-                        }
-                    
-                    stats = category_stats[category]
-                    stats['count'] += 1
-                    stats['total_words'] += len(content.split())
-                    stats['total_size'] += len(content.encode('utf-8'))
-                    stats['has_references'] += 1 if '## References' in content else 0
-                    stats['has_toc'] += 1 if '## Table of Contents' in content else 0
-                    stats['total_lines'] += len(content.splitlines())
-        
-        data['category_stats'] = category_stats
-        
-        # Atomic write
-        with open(temp_file, 'w', encoding='utf-8') as f:
-            json.dump(data, f, indent=2)
-        os.replace(temp_file, PROGRESS_FILE)
-        
-    except Exception as e:
-        log_message(f"Error saving progress: {str(e)}", "ERROR")
+        log_message(f"Error loading progress: {str(e)}", "ERROR")
+    
+    # Return default values if file doesn't exist or there's an error
+    return {
+        'processed': set(),
+        'last_category': None,
+        'category_stats': {}
+    }
 
 def get_article_metadata(page):
     """
@@ -230,23 +177,32 @@ def get_article_metadata(page):
     Returns:
         dict: Article metadata including title, URL, summary, etc.
     """
+    if not page or not page.exists():
+        log_message(f"Page does not exist or is invalid", "ERROR")
+        return None
+
     try:
         with api_lock:
+            time.sleep(RATE_LIMIT_DELAY)  # Rate limiting
             metadata = {
                 'title': page.title,
                 'url': page.fullurl,
-                'summary': page.summary,
-                'last_modified': page.touched,
-                'categories': [cat.title for cat in page.categories.values()],
-                'references': len(page.references),
-                'word_count': len(page.text.split()),
-                'content_size': len(page.text.encode('utf-8')),
-                'has_toc': '===' in page.text,  # Check for section headers
-                'archive_date': datetime.now(timezone.utc).isoformat(),
+                'summary': page.summary if hasattr(page, 'summary') and page.summary else '',
+                'last_modified': (
+                    datetime.fromtimestamp(time.mktime(time.strptime(page.touched, '%Y-%m-%dT%H:%M:%SZ')))
+                    .strftime('%Y-%m-%d %H:%M:%S UTC') if hasattr(page, 'touched') else 
+                    datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')
+                ),
+                'categories': [cat.title for cat in page.categories.values()] if hasattr(page, 'categories') else [],
+                'references': len(page.references) if hasattr(page, 'references') else 0,
+                'word_count': len(page.text.split()) if hasattr(page, 'text') and page.text else 0,
+                'content_size': len(page.text.encode('utf-8')) if hasattr(page, 'text') and page.text else 0,
+                'has_toc': bool(page.sections) if hasattr(page, 'sections') else False,
+                'archive_date': datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')
             }
-        return metadata
+            return metadata
     except Exception as e:
-        log_message(f"Error getting metadata for {page.title}: {str(e)}", "ERROR")
+        log_message(f"Error getting metadata for {page.title if page else 'unknown page'}: {str(e)}", "ERROR")
         return None
 
 def format_article_content(page, metadata):
@@ -260,75 +216,81 @@ def format_article_content(page, metadata):
     Returns:
         str: Formatted article content in Markdown
     """
-    sections = []
-    
+    if not page or not metadata:
+        return None
+        
     try:
-        # Basic Metadata
-        sections.append(f"# {page.title}\n")
-        sections.append("## Article Metadata\n")
-        sections.extend([
-            f"- **Last Updated:** {metadata.get('last_updated', 'Unknown')}",
-            f"- **Original Article:** [{page.title}]({metadata.get('url', '')})",
-            f"- **Language:** {metadata.get('language', 'Unknown')}",
-            f"- **Page ID:** {metadata.get('pageid', 'Unknown')}"
+        # Format metadata section
+        content = [
+            f"# {metadata['title']}",
+            "",
+            "## Metadata",
+            f"- **Last Updated:** {metadata['last_modified']}",
+            f"- **Original Article:** [{metadata['title']}]({metadata['url']})",
+            f"- **Language:** {page.language}",
+            f"- **Page ID:** {page.pageid}",
+            "",
+            "## Summary",
+            metadata['summary'] if metadata['summary'] else "No summary available.",
+            "",
+        ]
+        
+        # Add categories section if available
+        if metadata['categories']:
+            content.extend([
+                "## Categories",
+                "This article belongs to the following categories:",
+                ""
+            ])
+            for category in metadata['categories']:
+                content.append(f"- {category}")
+            content.append("")
+            
+        # Add table of contents if article has sections
+        if metadata.get('has_toc', False):
+            content.extend([
+                "## Table of Contents",
+                ""
+            ])
+            for section in page.sections:
+                indent = "  " * (section.level - 1)
+                content.append(f"{indent}- {section.title}")
+            content.append("")
+            
+        # Add main content
+        content.extend([
+            "## Content",
+            "",
+            page.text if page.text else "No content available.",
+            ""
         ])
-        if metadata.get('is_disambiguation', False):
-            sections.append("- **Type:** Disambiguation Page")
-        sections.append("")
         
-        # Summary
-        if metadata.get('summary'):
-            sections.extend([
-                "## Summary\n",
-                metadata['summary'],
+        # Add references if available
+        if metadata.get('references', 0) > 0:
+            content.extend([
+                "## References",
                 ""
             ])
+            for ref in page.references:
+                content.append(f"- {ref}")
+            content.append("")
+            
+        # Add archive info
+        content.extend([
+            "## Archive Info",
+            f"- **Archived on:** {metadata['archive_date']}",
+            f"- **Archive Source:** Wikipedia (_{page.language}_)",
+            f"- **Total References:** {metadata.get('references', 0)}",
+            f"- **Article Size:** {metadata.get('content_size', 0)} bytes",
+            f"- **Word Count:** {metadata.get('word_count', 0)} words",
+            ""
+        ])
         
-        # Categories
-        if metadata.get('categories'):
-            sections.extend([
-                "## Categories\n",
-                *[f"- {cat}" for cat in metadata['categories']],
-                ""
-            ])
+        return "\n".join(content)
         
-        # Table of Contents
-        if metadata.get('sections'):
-            sections.extend([
-                "## Table of Contents\n",
-                *[f"{'  ' * (section['level'] - 1)}- {section['title']}"
-                  for section in metadata['sections']],
-                ""
-            ])
-        
-        # References
-        if metadata.get('references'):
-            sections.extend([
-                "## References\n",
-                *[f"- {ref}" for ref in metadata['references']],
-                ""
-            ])
-        
-        # Links
-        if metadata.get('links'):
-            sections.extend([
-                "## Related Articles\n",
-                *[f"- [{link['title']}]({link['url']})" for link in metadata['links'][:50]],  # Limit to 50 links
-                ""
-            ])
-            if len(metadata['links']) > 50:
-                sections.append(f"*Note: Showing 50 out of {len(metadata['links'])} related articles*\n")
-    
     except Exception as e:
-        log_message(f"Error formatting article content for {page.title}: {str(e)}", "ERROR")
-        # Add error note to the article
-        sections.extend([
-            "## Error Notice\n",
-            "*There was an error formatting some parts of this article. Some content may be missing.*\n",
-            f"*Error: {str(e)}*\n"
-        ])
-    
-    return "\n".join(sections)
+        log_message(f"Error formatting content for {page.title if page else 'unknown page'}: {str(e)}", "ERROR")
+        return None
 
 def ensure_directory(directory):
     """Create directory if it doesn't exist."""
@@ -348,49 +310,55 @@ def process_article(args):
     Returns:
         tuple: (success, article_title)
     """
-    global error_count
     article_title, category_name, depth = args
     
     try:
-        # Skip if already processed
-        if article_title in processed_articles:
-            return True, article_title
+        # Create a local copy of the set to avoid modification during iteration
+        with progress_lock:
+            if article_title in processed_articles:
+                return True, article_title
         
         # Get page with retry
         def get_page():
-            return wiki_wiki.page(article_title)
-        page = retry_with_backoff(get_page)
+            with api_lock:
+                time.sleep(RATE_LIMIT_DELAY)
+                return wiki_wiki.page(article_title)
         
+        page = retry_with_backoff(get_page)
         if not page.exists():
             log_message(f"Article does not exist: {article_title}", "WARNING")
             return False, article_title
         
-        # Get metadata and format content
+        # Get metadata
         metadata = get_article_metadata(page)
-        content = format_article_content(page, metadata)
+        if metadata is None:
+            log_message(f"Failed to get metadata for {article_title}", "ERROR")
+            return False, article_title
         
-        # Create category directory
+        # Format content
+        content = format_article_content(page, metadata)
+        if not content:
+            log_message(f"Failed to format content for {article_title}", "ERROR")
+            return False, article_title
+        
+        # Save article
         category_dir = os.path.join(OUTPUT_DIR, f"articles_{get_safe_path(category_name)}")
         ensure_directory(category_dir)
         
-        # Save article
-        article_path = os.path.join(category_dir, f"{get_safe_path(article_title)}.md")
-        with open(article_path, 'w', encoding='utf-8') as f:
+        article_file = os.path.join(category_dir, f"{get_safe_path(article_title)}.md")
+        with open(article_file, 'w', encoding='utf-8') as f:
             f.write(content)
         
+        # Update processed articles with lock
         with progress_lock:
             processed_articles.add(article_title)
         
-        log_message(f"Processed article: {article_title}")
         return True, article_title
         
     except Exception as e:
+        global error_count
         with progress_lock:
             error_count += 1
-            if error_count >= MAX_ERRORS:
-                log_message("Maximum error count reached. Stopping...", "ERROR")
-                raise SystemExit("Too many errors occurred")
-        
         log_message(f"Error processing article {article_title}: {str(e)}", "ERROR")
         return False, article_title
 
@@ -500,6 +468,79 @@ def scrape_category(category_name, depth=0):
         
     except Exception as e:
         log_message(f"Error in category scraping for {category_name}: {str(e)}", "ERROR")
+
+def save_progress(processed, current_category=None):
+    """Save progress with error handling and atomic writes."""
+    try:
+        temp_file = PROGRESS_FILE + '.tmp'
+        # Convert set to list before processing to prevent modification during iteration
+        processed_list = list(processed)
+        
+        data = {
+            'processed': processed_list,
+            'last_category': current_category,
+            'last_updated': datetime.now(timezone.utc).isoformat()
+        }
+        
+        # Calculate category statistics
+        category_stats = {}
+        for article in processed_list:  # Use the list instead of the set
+            article_path = None
+            # Search for the article file
+            for root, _, files in os.walk(OUTPUT_DIR):
+                for file in files:
+                    if file.startswith(get_safe_path(article)) and file.endswith('.md'):
+                        article_path = os.path.join(root, file)
+                        break
+                if article_path:
+                    break
+            
+            if article_path and os.path.exists(article_path):
+                try:
+                    with open(article_path, 'r', encoding='utf-8') as f:
+                        content = f.read()
+                        category = os.path.basename(os.path.dirname(article_path)).replace('articles_', '')
+                        
+                        if category not in category_stats:
+                            category_stats[category] = {
+                                'count': 0,
+                                'total_words': 0,
+                                'total_size': 0,
+                                'has_references': 0,
+                                'has_toc': 0,
+                                'total_lines': 0
+                            }
+                        
+                        stats = category_stats[category]
+                        stats['count'] += 1
+                        stats['total_words'] += len(content.split())
+                        stats['total_size'] += len(content.encode('utf-8'))
+                        stats['has_references'] += 1 if '## References' in content else 0
+                        stats['has_toc'] += 1 if '## Table of Contents' in content else 0
+                        stats['total_lines'] += len(content.splitlines())
+                except Exception as e:
+                    log_message(f"Error processing article stats for {article}: {str(e)}", "WARNING")
+                    continue
+        
+        data['category_stats'] = category_stats
+        
+        # Atomic write with error handling
+        try:
+            with open(temp_file, 'w', encoding='utf-8') as f:
+                json.dump(data, f, indent=2)
+            os.replace(temp_file, PROGRESS_FILE)
+        except Exception as e:
+            log_message(f"Error writing progress file: {str(e)}", "ERROR")
+            if os.path.exists(temp_file):
+                try:
+                    os.remove(temp_file)
+                except:
+                    pass
+            raise
+        
+    except Exception as e:
+        log_message(f"Error saving progress: {str(e)}", "ERROR")
+        raise  # Re-raise the exception to be handled by the caller
 
 if __name__ == "__main__":
     try:

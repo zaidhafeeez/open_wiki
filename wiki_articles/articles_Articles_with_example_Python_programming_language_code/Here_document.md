@@ -1,18 +1,18 @@
 # Here document
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:26:53.786005+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 06:56:09 UTC
 - **Original Article:** [Here document](https://en.wikipedia.org/wiki/Here_document)
 - **Language:** en
 - **Page ID:** 1426425
 
 ## Summary
-
 In computing, a here document (here-document, here-text, heredoc, hereis, here-string or here-script) is a file literal or input stream literal: it is a section of a source code file that is treated as if it were a separate file. The term is also used for a form of multiline string literals that use similar syntax, preserving line breaks and other whitespace (including indentation) in the text.
-Here documents originate in the Unix shell, and are found in the Bourne shell since 1979, and most sub
+Here documents originate in the Unix shell, and are found in the Bourne shell since 1979, and most subsequent shells. Here document-style string literals are found in various high-level languages, notably the Perl programming language (syntax inspired by Unix shell) and languages influenced by Perl, such as PHP and Ruby. JavaScript also supports this functionality via template literals, a feature added in its 6th revision (ES6). Other high-level languages such as Python, Julia and Tcl have other facilities for multiline strings.
+Here documents can be treated either as files or strings. Some shells treat them as a format string literal, allowing variable substitution and command substitution inside the literal.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example C++ code
 - Category:Articles with example D code
@@ -262,72 +262,9 @@ General
 External links
 Here document. Link to Rosetta Code task with examples of here documents in over 15 languages.
 
-## Related Articles
-
-### Internal Links
-
-- [Bash (Unix shell)](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
-- [Bc (programming language)](https://en.wikipedia.org/wiki/Bc_(programming_language))
-- [Bourne shell](https://en.wikipedia.org/wiki/Bourne_shell)
-- [C++11](https://en.wikipedia.org/wiki/C%2B%2B11)
-- [CDATA](https://en.wikipedia.org/wiki/CDATA)
-- [Code segment](https://en.wikipedia.org/wiki/Code_segment)
-- [Command substitution](https://en.wikipedia.org/wiki/Command_substitution)
-- [Computer file](https://en.wikipedia.org/wiki/Computer_file)
-- [Computing](https://en.wikipedia.org/wiki/Computing)
-- [DIGITAL Command Language](https://en.wikipedia.org/wiki/DIGITAL_Command_Language)
-- [D (programming language)](https://en.wikipedia.org/wiki/D_(programming_language))
-- [Data URI scheme](https://en.wikipedia.org/wiki/Data_URI_scheme)
-- [Data segment](https://en.wikipedia.org/wiki/Data_segment)
-- [Delimiter](https://en.wikipedia.org/wiki/Delimiter)
-- [Delimiter](https://en.wikipedia.org/wiki/Delimiter)
-- [ECMAScript](https://en.wikipedia.org/wiki/ECMAScript)
-- [Echo (command)](https://en.wikipedia.org/wiki/Echo_(command))
-- [End-of-file](https://en.wikipedia.org/wiki/End-of-file)
-- [File descriptor](https://en.wikipedia.org/wiki/File_descriptor)
-- [High-level programming language](https://en.wikipedia.org/wiki/High-level_programming_language)
-- [Identifier](https://en.wikipedia.org/wiki/Identifier)
-- [Indentation style](https://en.wikipedia.org/wiki/Indentation_style)
-- [Stream (computing)](https://en.wikipedia.org/wiki/Stream_(computing))
-- [JDK Enhancement Proposal](https://en.wikipedia.org/wiki/JDK_Enhancement_Proposal)
-- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-- [Java version history](https://en.wikipedia.org/wiki/Java_version_history)
-- [Job Control Language](https://en.wikipedia.org/wiki/Job_Control_Language)
-- [Julia (programming language)](https://en.wikipedia.org/wiki/Julia_(programming_language))
-- [KornShell](https://en.wikipedia.org/wiki/KornShell)
-- [Lexical analysis](https://en.wikipedia.org/wiki/Lexical_analysis)
-- [Literal (computer programming)](https://en.wikipedia.org/wiki/Literal_(computer_programming))
-- [MVS](https://en.wikipedia.org/wiki/MVS)
-- [Microsoft](https://en.wikipedia.org/wiki/Microsoft)
-- [Make (software)](https://en.wikipedia.org/wiki/Make_(software))
-- [PHP](https://en.wikipedia.org/wiki/PHP)
-- [Unix shell](https://en.wikipedia.org/wiki/Unix_shell)
-- [Perl](https://en.wikipedia.org/wiki/Perl)
-- [Pipeline (Unix)](https://en.wikipedia.org/wiki/Pipeline_(Unix))
-- [PowerShell](https://en.wikipedia.org/wiki/PowerShell)
-- [Punched card](https://en.wikipedia.org/wiki/Punched_card)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [R (programming language)](https://en.wikipedia.org/wiki/R_(programming_language))
-- [Racket (programming language)](https://en.wikipedia.org/wiki/Racket_(programming_language))
-- [Read (Unix)](https://en.wikipedia.org/wiki/Read_(Unix))
-- [Redirection (computing)](https://en.wikipedia.org/wiki/Redirection_(computing))
-- [Rosetta Code](https://en.wikipedia.org/wiki/Rosetta_Code)
-- [Ruby (programming language)](https://en.wikipedia.org/wiki/Ruby_(programming_language))
-- [Source code](https://en.wikipedia.org/wiki/Source_code)
-- [Standard streams](https://en.wikipedia.org/wiki/Standard_streams)
-- [Standard streams](https://en.wikipedia.org/wiki/Standard_streams)
-- [String interpolation](https://en.wikipedia.org/wiki/String_interpolation)
-- [String literal](https://en.wikipedia.org/wiki/String_literal)
-- [Command-line completion](https://en.wikipedia.org/wiki/Command-line_completion)
-- [Tcl](https://en.wikipedia.org/wiki/Tcl)
-- [Tr (Unix)](https://en.wikipedia.org/wiki/Tr_(Unix))
-- [Unix shell](https://en.wikipedia.org/wiki/Unix_shell)
-- [Variable (computer science)](https://en.wikipedia.org/wiki/Variable_(computer_science))
-- [String interpolation](https://en.wikipedia.org/wiki/String_interpolation)
-- [Wayback Machine](https://en.wikipedia.org/wiki/Wayback_Machine)
-- [Z/OS](https://en.wikipedia.org/wiki/Z/OS)
-- [Z shell](https://en.wikipedia.org/wiki/Z_shell)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:26:53.786005+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 15:18:58 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 16598 bytes
+- **Word Count:** 2739 words

@@ -1,17 +1,16 @@
 # Inner loop
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:29:33.264452+00:00
+## Metadata
+- **Last Updated:** 2024-11-02 12:20:33 UTC
 - **Original Article:** [Inner loop](https://en.wikipedia.org/wiki/Inner_loop)
 - **Language:** en
 - **Page ID:** 1819659
 
 ## Summary
-
 In computer programs, an important form of control flow is the loop which causes a block of code to be executed more than once. A common idiom is to have a loop nested inside another loop, with the contained loop being commonly referred to as the inner loop.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles needing additional references
 - Category:All stub articles
@@ -37,26 +36,9 @@ It was observed that more computations are performed per unit time when an inner
 References
 4. Python Nested For Loop From Techgeekbuz
 
-## Related Articles
-
-### Internal Links
-
-- [Computer program](https://en.wikipedia.org/wiki/Computer_program)
-- [Computer programming](https://en.wikipedia.org/wiki/Computer_programming)
-- [Control flow](https://en.wikipedia.org/wiki/Control_flow)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Inner loop (disambiguation)](https://en.wikipedia.org/wiki/Inner_loop_(disambiguation))
-- [Control flow](https://en.wikipedia.org/wiki/Control_flow)
-- [Loop optimization](https://en.wikipedia.org/wiki/Loop_optimization)
-- [Control flow](https://en.wikipedia.org/wiki/Control_flow)
-- [Wikipedia:Stub](https://en.wikipedia.org/wiki/Wikipedia:Stub)
-- [Wikipedia:Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)
-- [Template:Compu-prog-stub](https://en.wikipedia.org/wiki/Template:Compu-prog-stub)
-- [Template talk:Compu-prog-stub](https://en.wikipedia.org/wiki/Template_talk:Compu-prog-stub)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Help:Referencing for beginners](https://en.wikipedia.org/wiki/Help:Referencing_for_beginners)
-- [Category:Articles needing additional references from September 2018](https://en.wikipedia.org/wiki/Category:Articles_needing_additional_references_from_September_2018)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:29:33.264452+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 15:19:03 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 1763 bytes
+- **Word Count:** 307 words

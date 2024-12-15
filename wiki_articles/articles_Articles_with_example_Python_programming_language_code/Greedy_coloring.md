@@ -1,18 +1,19 @@
 # Greedy coloring
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:26:51.442339+00:00
+## Metadata
+- **Last Updated:** 2024-12-06 05:14:06 UTC
 - **Original Article:** [Greedy coloring](https://en.wikipedia.org/wiki/Greedy_coloring)
 - **Language:** en
 - **Page ID:** 21051195
 
 ## Summary
-
 In the study of graph coloring problems in mathematics and computer science, a greedy coloring or sequential coloring is a coloring of the vertices of a graph formed by a greedy algorithm that considers the vertices of the graph in sequence and assigns each vertex its first available color. Greedy colorings can be found in linear time, but they do not, in general, use the minimum number of colors possible.
-Different choices of the sequence of vertices will typically produce different colorings o
+Different choices of the sequence of vertices will typically produce different colorings of the given graph, so much of the study of greedy colorings has concerned how to find a good ordering. There always exists an ordering that produces an optimal coloring, but although such orderings can be found for many special classes of graphs, they are hard to find in general. Commonly used strategies for vertex ordering involve placing higher-degree vertices earlier than lower-degree vertices, or choosing vertices with fewer available colors in preference to vertices that are less constrained.
+Variations of greedy coloring choose the colors in an online manner, without any knowledge of the structure of the uncolored part of the graph, or choose other colors than the first available in order to reduce the total number of colors. Greedy coloring algorithms have been applied to scheduling and register allocation problems, the analysis of combinatorial games, and the proofs of other mathematical results including Brooks' theorem on the relation between coloring and degree.
+Other concepts in graph theory derived from greedy colorings include the Grundy number of a graph (the largest number of colors that can be found by a greedy coloring), and the well-colored graphs, graphs for which all greedy colorings use the same number of colors.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example Python (programming language) code
 - Category:Articles with short description
@@ -245,108 +246,9 @@ Notes
 
 == References ==
 
-## Related Articles
-
-### Internal Links
-
-- [ACM Transactions on Programming Languages and Systems](https://en.wikipedia.org/wiki/ACM_Transactions_on_Programming_Languages_and_Systems)
-- [Alan M. Frieze](https://en.wikipedia.org/wiki/Alan_M._Frieze)
-- [Algorithm](https://en.wikipedia.org/wiki/Algorithm)
-- [Algorithmica](https://en.wikipedia.org/wiki/Algorithmica)
-- [Almost everywhere](https://en.wikipedia.org/wiki/Almost_everywhere)
-- [Approximation algorithm](https://en.wikipedia.org/wiki/Approximation_algorithm)
-- [ArXiv](https://en.wikipedia.org/wiki/ArXiv)
-- [Bipartite graph](https://en.wikipedia.org/wiki/Bipartite_graph)
-- [Brooks' theorem](https://en.wikipedia.org/wiki/Brooks%27_theorem)
-- [Bruce Reed (mathematician)](https://en.wikipedia.org/wiki/Bruce_Reed_(mathematician))
-- [Cactus graph](https://en.wikipedia.org/wiki/Cactus_graph)
-- [Cardinality](https://en.wikipedia.org/wiki/Cardinality)
-- [Chordal graph](https://en.wikipedia.org/wiki/Chordal_graph)
-- [Claude Berge](https://en.wikipedia.org/wiki/Claude_Berge)
-- [Clique (graph theory)](https://en.wikipedia.org/wiki/Clique_(graph_theory))
-- [Co-NP-complete](https://en.wikipedia.org/wiki/Co-NP-complete)
-- [Cograph](https://en.wikipedia.org/wiki/Cograph)
-- [Combinatorial game theory](https://en.wikipedia.org/wiki/Combinatorial_game_theory)
-- [Communications of the ACM](https://en.wikipedia.org/wiki/Communications_of_the_ACM)
-- [Comparability graph](https://en.wikipedia.org/wiki/Comparability_graph)
-- [Competitive analysis (online algorithm)](https://en.wikipedia.org/wiki/Competitive_analysis_(online_algorithm))
-- [Compiler](https://en.wikipedia.org/wiki/Compiler)
-- [Complement graph](https://en.wikipedia.org/wiki/Complement_graph)
-- [Complete graph](https://en.wikipedia.org/wiki/Complete_graph)
-- [Computer science](https://en.wikipedia.org/wiki/Computer_science)
-- [Crown graph](https://en.wikipedia.org/wiki/Crown_graph)
-- [Cycle graph](https://en.wikipedia.org/wiki/Cycle_graph)
-- [DSatur](https://en.wikipedia.org/wiki/DSatur)
-- [David Matula](https://en.wikipedia.org/wiki/David_Matula)
-- [David S. Johnson](https://en.wikipedia.org/wiki/David_S._Johnson)
-- [Degeneracy (graph theory)](https://en.wikipedia.org/wiki/Degeneracy_(graph_theory))
-- [Degree (graph theory)](https://en.wikipedia.org/wiki/Degree_(graph_theory))
-- [Directed acyclic graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph)
-- [Discrete Mathematics (journal)](https://en.wikipedia.org/wiki/Discrete_Mathematics_(journal))
-- [Disjoint sets](https://en.wikipedia.org/wiki/Disjoint_sets)
-- [Disjunctive sum](https://en.wikipedia.org/wiki/Disjunctive_sum)
-- [Distance-hereditary graph](https://en.wikipedia.org/wiki/Distance-hereditary_graph)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Dominic Welsh](https://en.wikipedia.org/wiki/Dominic_Welsh)
-- [Erdős–Rényi model](https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93R%C3%A9nyi_model)
-- [Even-hole-free graph](https://en.wikipedia.org/wiki/Even-hole-free_graph)
-- [George Szekeres](https://en.wikipedia.org/wiki/George_Szekeres)
-- [Graph coloring](https://en.wikipedia.org/wiki/Graph_coloring)
-- [Greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm)
-- [Grundy number](https://en.wikipedia.org/wiki/Grundy_number)
-- [Herbert Wilf](https://en.wikipedia.org/wiki/Herbert_Wilf)
-- [Heuristic](https://en.wikipedia.org/wiki/Heuristic)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Impartial game](https://en.wikipedia.org/wiki/Impartial_game)
-- [Induced subgraph](https://en.wikipedia.org/wiki/Induced_subgraph)
-- [Interval graph](https://en.wikipedia.org/wiki/Interval_graph)
-- [Journal of Combinatorial Theory](https://en.wikipedia.org/wiki/Journal_of_Combinatorial_Theory)
-- [Journal of Graph Theory](https://en.wikipedia.org/wiki/Journal_of_Graph_Theory)
-- [Journal of the ACM](https://en.wikipedia.org/wiki/Journal_of_the_ACM)
-- [Time complexity](https://en.wikipedia.org/wiki/Time_complexity)
-- [László Lovász](https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Lov%C3%A1sz)
-- [Mathematical Reviews](https://en.wikipedia.org/wiki/Mathematical_Reviews)
-- [Mathematics](https://en.wikipedia.org/wiki/Mathematics)
-- [Maximal independent set](https://en.wikipedia.org/wiki/Maximal_independent_set)
-- [Mex (mathematics)](https://en.wikipedia.org/wiki/Mex_(mathematics))
-- [Meyniel graph](https://en.wikipedia.org/wiki/Meyniel_graph)
-- [Michael Saks (mathematician)](https://en.wikipedia.org/wiki/Michael_Saks_(mathematician))
-- [NP-completeness](https://en.wikipedia.org/wiki/NP-completeness)
-- [NP-hardness](https://en.wikipedia.org/wiki/NP-hardness)
-- [Neighbourhood (graph theory)](https://en.wikipedia.org/wiki/Neighbourhood_(graph_theory))
-- [Sprague–Grundy theorem](https://en.wikipedia.org/wiki/Sprague%E2%80%93Grundy_theorem)
-- [Online algorithm](https://en.wikipedia.org/wiki/Online_algorithm)
-- [Paul Erdős](https://en.wikipedia.org/wiki/Paul_Erd%C5%91s)
-- [Chordal graph](https://en.wikipedia.org/wiki/Chordal_graph)
-- [Perfect graph](https://en.wikipedia.org/wiki/Perfect_graph)
-- [Perfectly orderable graph](https://en.wikipedia.org/wiki/Perfectly_orderable_graph)
-- [Pseudoforest](https://en.wikipedia.org/wiki/Pseudoforest)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Random graph](https://en.wikipedia.org/wiki/Random_graph)
-- [Recursion (computer science)](https://en.wikipedia.org/wiki/Recursion_(computer_science))
-- [Register allocation](https://en.wikipedia.org/wiki/Register_allocation)
-- [Renu C. Laskar](https://en.wikipedia.org/wiki/Renu_C._Laskar)
-- [Robert Tarjan](https://en.wikipedia.org/wiki/Robert_Tarjan)
-- [Robin Wilson (mathematician)](https://en.wikipedia.org/wiki/Robin_Wilson_(mathematician))
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [SIAM Journal on Computing](https://en.wikipedia.org/wiki/SIAM_Journal_on_Computing)
-- [Society for Industrial and Applied Mathematics](https://en.wikipedia.org/wiki/Society_for_Industrial_and_Applied_Mathematics)
-- [Dense graph](https://en.wikipedia.org/wiki/Dense_graph)
-- [Square antiprism](https://en.wikipedia.org/wiki/Square_antiprism)
-- [The Computer Journal](https://en.wikipedia.org/wiki/The_Computer_Journal)
-- [Topological sorting](https://en.wikipedia.org/wiki/Topological_sorting)
-- [Triangular prism](https://en.wikipedia.org/wiki/Triangular_prism)
-- [Graph (discrete mathematics)](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics))
-- [Unit disk graph](https://en.wikipedia.org/wiki/Unit_disk_graph)
-- [Václav Chvátal](https://en.wikipedia.org/wiki/V%C3%A1clav_Chv%C3%A1tal)
-- [Vertex (graph theory)](https://en.wikipedia.org/wiki/Vertex_(graph_theory))
-- [Vertex operator algebra](https://en.wikipedia.org/wiki/Vertex_operator_algebra)
-- [Well-colored graph](https://en.wikipedia.org/wiki/Well-colored_graph)
-- [Wheel graph](https://en.wikipedia.org/wiki/Wheel_graph)
-- [William T. Trotter](https://en.wikipedia.org/wiki/William_T._Trotter)
-- [With high probability](https://en.wikipedia.org/wiki/With_high_probability)
-- [Wikipedia:Good articles](https://en.wikipedia.org/wiki/Wikipedia:Good_articles)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:26:51.442339+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 15:18:50 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 15739 bytes
+- **Word Count:** 2484 words

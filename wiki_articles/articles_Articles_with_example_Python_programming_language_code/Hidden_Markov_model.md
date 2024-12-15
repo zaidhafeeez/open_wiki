@@ -1,14 +1,12 @@
 # Hidden Markov model
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:26:54.217767+00:00
+## Metadata
+- **Last Updated:** 2024-12-14 17:33:34 UTC
 - **Original Article:** [Hidden Markov model](https://en.wikipedia.org/wiki/Hidden_Markov_model)
 - **Language:** en
 - **Page ID:** 98770
 
 ## Summary
-
 A hidden Markov model (HMM) is a Markov model in which the observations are dependent on a latent (or hidden) Markov process (referred to as 
   
     
@@ -43,9 +41,165 @@ A hidden Markov model (HMM) is a Markov model in which the observations are depe
         X
       
     
-    {\displa
+    {\displaystyle X}
+  
+ cannot be observed directly, the goal is to learn about state of 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ by observing 
+  
+    
+      
+        Y
+      
+    
+    {\displaystyle Y}
+  
+. By definition of being a Markov model, an HMM has an additional requirement that the outcome of 
+  
+    
+      
+        Y
+      
+    
+    {\displaystyle Y}
+  
+ at time 
+  
+    
+      
+        t
+        =
+        
+          t
+          
+            0
+          
+        
+      
+    
+    {\displaystyle t=t_{0}}
+  
+ must be "influenced" exclusively by the outcome of 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ at 
+  
+    
+      
+        t
+        =
+        
+          t
+          
+            0
+          
+        
+      
+    
+    {\displaystyle t=t_{0}}
+  
+ and that the outcomes of 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ and 
+  
+    
+      
+        Y
+      
+    
+    {\displaystyle Y}
+  
+ at 
+  
+    
+      
+        t
+        <
+        
+          t
+          
+            0
+          
+        
+      
+    
+    {\displaystyle t<t_{0}}
+  
+ must be conditionally independent of 
+  
+    
+      
+        Y
+      
+    
+    {\displaystyle Y}
+  
+ at 
+  
+    
+      
+        t
+        =
+        
+          t
+          
+            0
+          
+        
+      
+    
+    {\displaystyle t=t_{0}}
+  
+ given 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ at time 
+  
+    
+      
+        t
+        =
+        
+          t
+          
+            0
+          
+        
+      
+    
+    {\displaystyle t=t_{0}}
+  
+. Estimation of the parameters in an HMM can be performed using maximum likelihood estimation. For linear chain HMMs, the Baum–Welch algorithm can be used to estimate parameters.
+Hidden Markov models are known for their applications to thermodynamics, statistical mechanics, physics, chemistry, economics, finance, signal processing, information theory, pattern recognition—such as speech, handwriting, gesture recognition, part-of-speech tagging, musical score following, partial discharges and bioinformatics.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles with dead external links
 - Category:Articles with dead external links from July 2022
@@ -1681,360 +1835,9 @@ Hidden Markov Models (by Narada Warakagoda)
 Hidden Markov Models: Fundamentals and Applications Part 1, Part 2 (by V. Petrushin)
 Lecture on a Spreadsheet by Jason Eisner, Video and interactive spreadsheet
 
-## Related Articles
-
-### Internal Links
-
-- [Abstract Wiener space](https://en.wikipedia.org/wiki/Abstract_Wiener_space)
-- [Activity recognition](https://en.wikipedia.org/wiki/Activity_recognition)
-- [Actuarial science](https://en.wikipedia.org/wiki/Actuarial_science)
-- [Additive process](https://en.wikipedia.org/wiki/Additive_process)
-- [Anders Krogh](https://en.wikipedia.org/wiki/Anders_Krogh)
-- [Andrey Markov](https://en.wikipedia.org/wiki/Andrey_Markov)
-- [ArXiv](https://en.wikipedia.org/wiki/ArXiv)
-- [Asset pricing](https://en.wikipedia.org/wiki/Asset_pricing)
-- [Autoregressive conditional heteroskedasticity](https://en.wikipedia.org/wiki/Autoregressive_conditional_heteroskedasticity)
-- [Autoregressive integrated moving average](https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average)
-- [Autoregressive model](https://en.wikipedia.org/wiki/Autoregressive_model)
-- [Autoregressive moving-average model](https://en.wikipedia.org/wiki/Autoregressive_moving-average_model)
-- [Baum–Welch algorithm](https://en.wikipedia.org/wiki/Baum%E2%80%93Welch_algorithm)
-- [Bayesian inference](https://en.wikipedia.org/wiki/Bayesian_inference)
-- [Bayesian programming](https://en.wikipedia.org/wiki/Bayesian_programming)
-- [Bernoulli process](https://en.wikipedia.org/wiki/Bernoulli_process)
-- [Bessel process](https://en.wikipedia.org/wiki/Bessel_process)
-- [Biased random walk on a graph](https://en.wikipedia.org/wiki/Biased_random_walk_on_a_graph)
-- [Bibcode](https://en.wikipedia.org/wiki/Bibcode)
-- [Binomial options pricing model](https://en.wikipedia.org/wiki/Binomial_options_pricing_model)
-- [Bioinformatics](https://en.wikipedia.org/wiki/Bioinformatics)
-- [Birth process](https://en.wikipedia.org/wiki/Birth_process)
-- [Birth–death process](https://en.wikipedia.org/wiki/Birth%E2%80%93death_process)
-- [Black–Derman–Toy model](https://en.wikipedia.org/wiki/Black%E2%80%93Derman%E2%80%93Toy_model)
-- [Black–Karasinski model](https://en.wikipedia.org/wiki/Black%E2%80%93Karasinski_model)
-- [Black–Scholes model](https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_model)
-- [Blumenthal's zero–one law](https://en.wikipedia.org/wiki/Blumenthal%27s_zero%E2%80%93one_law)
-- [Boolean network](https://en.wikipedia.org/wiki/Boolean_network)
-- [Borel set](https://en.wikipedia.org/wiki/Borel_set)
-- [Borel–Cantelli lemma](https://en.wikipedia.org/wiki/Borel%E2%80%93Cantelli_lemma)
-- [Branching process](https://en.wikipedia.org/wiki/Branching_process)
-- [Brownian bridge](https://en.wikipedia.org/wiki/Brownian_bridge)
-- [Brownian excursion](https://en.wikipedia.org/wiki/Brownian_excursion)
-- [Brownian meander](https://en.wikipedia.org/wiki/Brownian_meander)
-- [Bulk queue](https://en.wikipedia.org/wiki/Bulk_queue)
-- [Bulletin of the American Mathematical Society](https://en.wikipedia.org/wiki/Bulletin_of_the_American_Mathematical_Society)
-- [Quadratic variation](https://en.wikipedia.org/wiki/Quadratic_variation)
-- [Bühlmann model](https://en.wikipedia.org/wiki/B%C3%BChlmann_model)
-- [Cambridge University Press](https://en.wikipedia.org/wiki/Cambridge_University_Press)
-- [Cameron–Martin theorem](https://en.wikipedia.org/wiki/Cameron%E2%80%93Martin_theorem)
-- [Categorical distribution](https://en.wikipedia.org/wiki/Categorical_distribution)
-- [Cauchy process](https://en.wikipedia.org/wiki/Cauchy_process)
-- [Central limit theorem](https://en.wikipedia.org/wiki/Central_limit_theorem)
-- [Chan–Karolyi–Longstaff–Sanders process](https://en.wikipedia.org/wiki/Chan%E2%80%93Karolyi%E2%80%93Longstaff%E2%80%93Sanders_process)
-- [Chemistry](https://en.wikipedia.org/wiki/Chemistry)
-- [Chen model](https://en.wikipedia.org/wiki/Chen_model)
-- [Chinese restaurant process](https://en.wikipedia.org/wiki/Chinese_restaurant_process)
-- [Chromatin](https://en.wikipedia.org/wiki/Chromatin)
-- [CiteSeerX](https://en.wikipedia.org/wiki/CiteSeerX)
-- [Classical Wiener space](https://en.wikipedia.org/wiki/Classical_Wiener_space)
-- [Compound Poisson process](https://en.wikipedia.org/wiki/Compound_Poisson_process)
-- [Computational finance](https://en.wikipedia.org/wiki/Computational_finance)
-- [Conditional probability distribution](https://en.wikipedia.org/wiki/Conditional_probability_distribution)
-- [Conditional probability distribution](https://en.wikipedia.org/wiki/Conditional_probability_distribution)
-- [Conditional random field](https://en.wikipedia.org/wiki/Conditional_random_field)
-- [Conjugate prior](https://en.wikipedia.org/wiki/Conjugate_prior)
-- [Constant elasticity of variance model](https://en.wikipedia.org/wiki/Constant_elasticity_of_variance_model)
-- [Contact process (mathematics)](https://en.wikipedia.org/wiki/Contact_process_(mathematics))
-- [Continuous-time random walk](https://en.wikipedia.org/wiki/Continuous-time_random_walk)
-- [Continuous-time stochastic process](https://en.wikipedia.org/wiki/Continuous-time_stochastic_process)
-- [Continuous stochastic process](https://en.wikipedia.org/wiki/Continuous_stochastic_process)
-- [Convergence of random variables](https://en.wikipedia.org/wiki/Convergence_of_random_variables)
-- [Covariance matrix](https://en.wikipedia.org/wiki/Covariance_matrix)
-- [Cox process](https://en.wikipedia.org/wiki/Cox_process)
-- [Cox–Ingersoll–Ross model](https://en.wikipedia.org/wiki/Cox%E2%80%93Ingersoll%E2%80%93Ross_model)
-- [Ruin theory](https://en.wikipedia.org/wiki/Ruin_theory)
-- [Cryptanalysis](https://en.wikipedia.org/wiki/Cryptanalysis)
-- [Càdlàg](https://en.wikipedia.org/wiki/C%C3%A0dl%C3%A0g)
-- [DNA](https://en.wikipedia.org/wiki/DNA)
-- [Diffusion process](https://en.wikipedia.org/wiki/Diffusion_process)
-- [Dirichlet distribution](https://en.wikipedia.org/wiki/Dirichlet_distribution)
-- [Dirichlet process](https://en.wikipedia.org/wiki/Dirichlet_process)
-- [Stochastic process](https://en.wikipedia.org/wiki/Stochastic_process)
-- [Discriminative model](https://en.wikipedia.org/wiki/Discriminative_model)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Doléans-Dade exponential](https://en.wikipedia.org/wiki/Dol%C3%A9ans-Dade_exponential)
-- [Donsker's theorem](https://en.wikipedia.org/wiki/Donsker%27s_theorem)
-- [Doob's martingale convergence theorems](https://en.wikipedia.org/wiki/Doob%27s_martingale_convergence_theorems)
-- [Doob's martingale inequality](https://en.wikipedia.org/wiki/Doob%27s_martingale_inequality)
-- [Optional stopping theorem](https://en.wikipedia.org/wiki/Optional_stopping_theorem)
-- [Doob's martingale convergence theorems](https://en.wikipedia.org/wiki/Doob%27s_martingale_convergence_theorems)
-- [Doob decomposition theorem](https://en.wikipedia.org/wiki/Doob_decomposition_theorem)
-- [Doob–Meyer decomposition theorem](https://en.wikipedia.org/wiki/Doob%E2%80%93Meyer_decomposition_theorem)
-- [Dynamic programming](https://en.wikipedia.org/wiki/Dynamic_programming)
-- [Dynkin's formula](https://en.wikipedia.org/wiki/Dynkin%27s_formula)
-- [Dyson Brownian motion](https://en.wikipedia.org/wiki/Dyson_Brownian_motion)
-- [Econometrics](https://en.wikipedia.org/wiki/Econometrics)
-- [Economics](https://en.wikipedia.org/wiki/Economics)
-- [Empirical process](https://en.wikipedia.org/wiki/Empirical_process)
-- [Engelbert–Schmidt zero–one law](https://en.wikipedia.org/wiki/Engelbert%E2%80%93Schmidt_zero%E2%80%93one_law)
-- [Ergodic theory](https://en.wikipedia.org/wiki/Ergodic_theory)
-- [Ergodic theory](https://en.wikipedia.org/wiki/Ergodic_theory)
-- [Ergodicity](https://en.wikipedia.org/wiki/Ergodicity)
-- [Estimation theory](https://en.wikipedia.org/wiki/Estimation_theory)
-- [Exchangeable random variables](https://en.wikipedia.org/wiki/Exchangeable_random_variables)
-- [Expectation–maximization algorithm](https://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm)
-- [Extended Kalman filter](https://en.wikipedia.org/wiki/Extended_Kalman_filter)
-- [Extreme value theory](https://en.wikipedia.org/wiki/Extreme_value_theory)
-- [False positive rate](https://en.wikipedia.org/wiki/False_positive_rate)
-- [Feller-continuous process](https://en.wikipedia.org/wiki/Feller-continuous_process)
-- [Feller process](https://en.wikipedia.org/wiki/Feller_process)
-- [Feynman–Kac formula](https://en.wikipedia.org/wiki/Feynman%E2%80%93Kac_formula)
-- [Filtration (probability theory)](https://en.wikipedia.org/wiki/Filtration_(probability_theory))
-- [Finance](https://en.wikipedia.org/wiki/Finance)
-- [Fisher–Tippett–Gnedenko theorem](https://en.wikipedia.org/wiki/Fisher%E2%80%93Tippett%E2%80%93Gnedenko_theorem)
-- [Fleming–Viot process](https://en.wikipedia.org/wiki/Fleming%E2%80%93Viot_process)
-- [Fluid queue](https://en.wikipedia.org/wiki/Fluid_queue)
-- [Forward–backward algorithm](https://en.wikipedia.org/wiki/Forward%E2%80%93backward_algorithm)
-- [Forward algorithm](https://en.wikipedia.org/wiki/Forward_algorithm)
-- [Fractional Brownian motion](https://en.wikipedia.org/wiki/Fractional_Brownian_motion)
-- [G-network](https://en.wikipedia.org/wiki/G-network)
-- [Galton–Watson process](https://en.wikipedia.org/wiki/Galton%E2%80%93Watson_process)
-- [Gamma process](https://en.wikipedia.org/wiki/Gamma_process)
-- [Foreign exchange option](https://en.wikipedia.org/wiki/Foreign_exchange_option)
-- [Normal distribution](https://en.wikipedia.org/wiki/Normal_distribution)
-- [Gaussian process](https://en.wikipedia.org/wiki/Gaussian_process)
-- [Gaussian random field](https://en.wikipedia.org/wiki/Gaussian_random_field)
-- [Gauss–Markov process](https://en.wikipedia.org/wiki/Gauss%E2%80%93Markov_process)
-- [Gene prediction](https://en.wikipedia.org/wiki/Gene_prediction)
-- [Generative model](https://en.wikipedia.org/wiki/Generative_model)
-- [Geometric Brownian motion](https://en.wikipedia.org/wiki/Geometric_Brownian_motion)
-- [Geometric process](https://en.wikipedia.org/wiki/Geometric_process)
-- [Gesture recognition](https://en.wikipedia.org/wiki/Gesture_recognition)
-- [Gibbs measure](https://en.wikipedia.org/wiki/Gibbs_measure)
-- [Gibbs sampling](https://en.wikipedia.org/wiki/Gibbs_sampling)
-- [Girsanov theorem](https://en.wikipedia.org/wiki/Girsanov_theorem)
-- [HH-suite](https://en.wikipedia.org/wiki/HH-suite)
-- [HMMER](https://en.wikipedia.org/wiki/HMMER)
-- [Handwriting recognition](https://en.wikipedia.org/wiki/Handwriting_recognition)
-- [Hawkes process](https://en.wikipedia.org/wiki/Hawkes_process)
-- [Handle System](https://en.wikipedia.org/wiki/Handle_System)
-- [Heath–Jarrow–Morton framework](https://en.wikipedia.org/wiki/Heath%E2%80%93Jarrow%E2%80%93Morton_framework)
-- [Heston model](https://en.wikipedia.org/wiki/Heston_model)
-- [Hewitt–Savage zero–one law](https://en.wikipedia.org/wiki/Hewitt%E2%80%93Savage_zero%E2%80%93one_law)
-- [Time-inhomogeneous hidden Bernoulli model](https://en.wikipedia.org/wiki/Time-inhomogeneous_hidden_Bernoulli_model)
-- [Hidden semi-Markov model](https://en.wikipedia.org/wiki/Hidden_semi-Markov_model)
-- [Hierarchical hidden Markov model](https://en.wikipedia.org/wiki/Hierarchical_hidden_Markov_model)
-- [Hopfield network](https://en.wikipedia.org/wiki/Hopfield_network)
-- [Ho–Lee model](https://en.wikipedia.org/wiki/Ho%E2%80%93Lee_model)
-- [Hull–White model](https://en.wikipedia.org/wiki/Hull%E2%80%93White_model)
-- [Hunt process](https://en.wikipedia.org/wiki/Hunt_process)
-- [IEEE Transactions on Dielectrics and Electrical Insulation](https://en.wikipedia.org/wiki/IEEE_Transactions_on_Dielectrics_and_Electrical_Insulation)
-- [IEEE Transactions on Information Theory](https://en.wikipedia.org/wiki/IEEE_Transactions_on_Information_Theory)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [ISSN](https://en.wikipedia.org/wiki/ISSN)
-- [Identifiability](https://en.wikipedia.org/wiki/Identifiability)
-- [Independent and identically distributed random variables](https://en.wikipedia.org/wiki/Independent_and_identically_distributed_random_variables)
-- [Inference](https://en.wikipedia.org/wiki/Inference)
-- [Infinitesimal generator (stochastic processes)](https://en.wikipedia.org/wiki/Infinitesimal_generator_(stochastic_processes))
-- [Information theory](https://en.wikipedia.org/wiki/Information_theory)
-- [Interacting particle system](https://en.wikipedia.org/wiki/Interacting_particle_system)
-- [Ising model](https://en.wikipedia.org/wiki/Ising_model)
-- [Itô's lemma](https://en.wikipedia.org/wiki/It%C3%B4%27s_lemma)
-- [Itô diffusion](https://en.wikipedia.org/wiki/It%C3%B4_diffusion)
-- [Itô calculus](https://en.wikipedia.org/wiki/It%C3%B4_calculus)
-- [Itô calculus](https://en.wikipedia.org/wiki/It%C3%B4_calculus)
-- [JSTOR](https://en.wikipedia.org/wiki/JSTOR)
-- [James K. Baker](https://en.wikipedia.org/wiki/James_K._Baker)
-- [Joint probability distribution](https://en.wikipedia.org/wiki/Joint_probability_distribution)
-- [Joint probability distribution](https://en.wikipedia.org/wiki/Joint_probability_distribution)
-- [Journal of Molecular Biology](https://en.wikipedia.org/wiki/Journal_of_Molecular_Biology)
-- [Jump diffusion](https://en.wikipedia.org/wiki/Jump_diffusion)
-- [Jump process](https://en.wikipedia.org/wiki/Jump_process)
-- [Kalman filter](https://en.wikipedia.org/wiki/Kalman_filter)
-- [Kosambi–Karhunen–Loève theorem](https://en.wikipedia.org/wiki/Kosambi%E2%80%93Karhunen%E2%80%93Lo%C3%A8ve_theorem)
-- [Kolmogorov's zero–one law](https://en.wikipedia.org/wiki/Kolmogorov%27s_zero%E2%80%93one_law)
-- [Kolmogorov continuity theorem](https://en.wikipedia.org/wiki/Kolmogorov_continuity_theorem)
-- [Kolmogorov extension theorem](https://en.wikipedia.org/wiki/Kolmogorov_extension_theorem)
-- [Korn–Kreer–Lenssen model](https://en.wikipedia.org/wiki/Korn%E2%80%93Kreer%E2%80%93Lenssen_model)
-- [Kunita–Watanabe inequality](https://en.wikipedia.org/wiki/Kunita%E2%80%93Watanabe_inequality)
-- [LIBOR market model](https://en.wikipedia.org/wiki/LIBOR_market_model)
-- [Rate function](https://en.wikipedia.org/wiki/Rate_function)
-- [Large deviations theory](https://en.wikipedia.org/wiki/Large_deviations_theory)
-- [Law of large numbers](https://en.wikipedia.org/wiki/Law_of_large_numbers)
-- [Law of the iterated logarithm](https://en.wikipedia.org/wiki/Law_of_the_iterated_logarithm)
-- [Lawrence Rabiner](https://en.wikipedia.org/wiki/Lawrence_Rabiner)
-- [Layered hidden Markov model](https://en.wikipedia.org/wiki/Layered_hidden_Markov_model)
-- [Leonard E. Baum](https://en.wikipedia.org/wiki/Leonard_E._Baum)
-- [Linear dynamical system](https://en.wikipedia.org/wiki/Linear_dynamical_system)
-- [List of inequalities](https://en.wikipedia.org/wiki/List_of_inequalities)
-- [List of stochastic processes topics](https://en.wikipedia.org/wiki/List_of_stochastic_processes_topics)
-- [Local martingale](https://en.wikipedia.org/wiki/Local_martingale)
-- [Local time (mathematics)](https://en.wikipedia.org/wiki/Local_time_(mathematics))
-- [Logistic regression](https://en.wikipedia.org/wiki/Logistic_regression)
-- [Loop-erased random walk](https://en.wikipedia.org/wiki/Loop-erased_random_walk)
-- [Doob's martingale convergence theorems](https://en.wikipedia.org/wiki/Doob%27s_martingale_convergence_theorems)
-- [Lévy process](https://en.wikipedia.org/wiki/L%C3%A9vy_process)
-- [Lévy–Prokhorov metric](https://en.wikipedia.org/wiki/L%C3%A9vy%E2%80%93Prokhorov_metric)
-- [M/G/1 queue](https://en.wikipedia.org/wiki/M/G/1_queue)
-- [M/M/1 queue](https://en.wikipedia.org/wiki/M/M/1_queue)
-- [M/M/c queue](https://en.wikipedia.org/wiki/M/M/c_queue)
-- [Mathematical Reviews](https://en.wikipedia.org/wiki/Mathematical_Reviews)
-- [Machine Learning (journal)](https://en.wikipedia.org/wiki/Machine_Learning_(journal))
-- [Machine learning](https://en.wikipedia.org/wiki/Machine_learning)
-- [Machine translation](https://en.wikipedia.org/wiki/Machine_translation)
-- [Malliavin calculus](https://en.wikipedia.org/wiki/Malliavin_calculus)
-- [Marcinkiewicz–Zygmund inequality](https://en.wikipedia.org/wiki/Marcinkiewicz%E2%80%93Zygmund_inequality)
-- [Markov additive process](https://en.wikipedia.org/wiki/Markov_additive_process)
-- [Markov chain](https://en.wikipedia.org/wiki/Markov_chain)
-- [Markov chain Monte Carlo](https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo)
-- [Markov model](https://en.wikipedia.org/wiki/Markov_model)
-- [Markov chain](https://en.wikipedia.org/wiki/Markov_chain)
-- [Markov property](https://en.wikipedia.org/wiki/Markov_property)
-- [Markov random field](https://en.wikipedia.org/wiki/Markov_random_field)
-- [Martingale (probability theory)](https://en.wikipedia.org/wiki/Martingale_(probability_theory))
-- [Martingale difference sequence](https://en.wikipedia.org/wiki/Martingale_difference_sequence)
-- [Martingale representation theorem](https://en.wikipedia.org/wiki/Martingale_representation_theorem)
-- [Mathematical finance](https://en.wikipedia.org/wiki/Mathematical_finance)
-- [Mathematical statistics](https://en.wikipedia.org/wiki/Mathematical_statistics)
-- [Maximal entropy random walk](https://en.wikipedia.org/wiki/Maximal_entropy_random_walk)
-- [Maximal ergodic theorem](https://en.wikipedia.org/wiki/Maximal_ergodic_theorem)
-- [Maximum-entropy Markov model](https://en.wikipedia.org/wiki/Maximum-entropy_Markov_model)
-- [Maximum entropy probability distribution](https://en.wikipedia.org/wiki/Maximum_entropy_probability_distribution)
-- [Maximum likelihood estimation](https://en.wikipedia.org/wiki/Maximum_likelihood_estimation)
-- [Maximum likelihood estimation](https://en.wikipedia.org/wiki/Maximum_likelihood_estimation)
-- [McKean–Vlasov process](https://en.wikipedia.org/wiki/McKean%E2%80%93Vlasov_process)
-- [Mean](https://en.wikipedia.org/wiki/Mean)
-- [Michael I. Jordan](https://en.wikipedia.org/wiki/Michael_I._Jordan)
-- [Mixing (mathematics)](https://en.wikipedia.org/wiki/Mixing_(mathematics))
-- [Moran process](https://en.wikipedia.org/wiki/Moran_process)
-- [Moving-average model](https://en.wikipedia.org/wiki/Moving-average_model)
-- [Multivariate normal distribution](https://en.wikipedia.org/wiki/Multivariate_normal_distribution)
-- [Neuroscience](https://en.wikipedia.org/wiki/Neuroscience)
-- [Poisson point process](https://en.wikipedia.org/wiki/Poisson_point_process)
-- [Nonparametric statistics](https://en.wikipedia.org/wiki/Nonparametric_statistics)
-- [Nucleic acid sequence](https://en.wikipedia.org/wiki/Nucleic_acid_sequence)
-- [Null distribution](https://en.wikipedia.org/wiki/Null_distribution)
-- [OCLC](https://en.wikipedia.org/wiki/OCLC)
-- [Open access](https://en.wikipedia.org/wiki/Open_access)
-- [Optional stopping theorem](https://en.wikipedia.org/wiki/Optional_stopping_theorem)
-- [Ornstein–Uhlenbeck process](https://en.wikipedia.org/wiki/Ornstein%E2%80%93Uhlenbeck_process)
-- [PubMed Central](https://en.wikipedia.org/wiki/PubMed_Central)
-- [PubMed](https://en.wikipedia.org/wiki/PubMed)
-- [Part-of-speech tagging](https://en.wikipedia.org/wiki/Part-of-speech_tagging)
-- [Partial discharge](https://en.wikipedia.org/wiki/Partial_discharge)
-- [Particle filter](https://en.wikipedia.org/wiki/Particle_filter)
-- [Pattern recognition](https://en.wikipedia.org/wiki/Pattern_recognition)
-- [Paywall](https://en.wikipedia.org/wiki/Paywall)
-- [Percolation theory](https://en.wikipedia.org/wiki/Percolation_theory)
-- [Pfam](https://en.wikipedia.org/wiki/Pfam)
-- [Physics](https://en.wikipedia.org/wiki/Physics)
-- [Piecewise-deterministic Markov process](https://en.wikipedia.org/wiki/Piecewise-deterministic_Markov_process)
-- [Pitman–Yor process](https://en.wikipedia.org/wiki/Pitman%E2%80%93Yor_process)
-- [Point process](https://en.wikipedia.org/wiki/Point_process)
-- [Poisson point process](https://en.wikipedia.org/wiki/Poisson_point_process)
-- [Potts model](https://en.wikipedia.org/wiki/Potts_model)
-- [Predictable process](https://en.wikipedia.org/wiki/Predictable_process)
-- [Prior probability](https://en.wikipedia.org/wiki/Prior_probability)
-- [Probability theory](https://en.wikipedia.org/wiki/Probability_theory)
-- [Progressively measurable process](https://en.wikipedia.org/wiki/Progressively_measurable_process)
-- [Prokhorov's theorem](https://en.wikipedia.org/wiki/Prokhorov%27s_theorem)
-- [Protein folding](https://en.wikipedia.org/wiki/Protein_folding)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Quadratic variation](https://en.wikipedia.org/wiki/Quadratic_variation)
-- [Queueing theory](https://en.wikipedia.org/wiki/Queueing_theory)
-- [Queueing theory](https://en.wikipedia.org/wiki/Queueing_theory)
-- [Random dynamical system](https://en.wikipedia.org/wiki/Random_dynamical_system)
-- [Random field](https://en.wikipedia.org/wiki/Random_field)
-- [Random graph](https://en.wikipedia.org/wiki/Random_graph)
-- [Random walk](https://en.wikipedia.org/wiki/Random_walk)
-- [Reflection principle (Wiener process)](https://en.wikipedia.org/wiki/Reflection_principle_(Wiener_process))
-- [Regenerative process](https://en.wikipedia.org/wiki/Regenerative_process)
-- [Rendleman–Bartter model](https://en.wikipedia.org/wiki/Rendleman%E2%80%93Bartter_model)
-- [Renewal theory](https://en.wikipedia.org/wiki/Renewal_theory)
-- [Renewal theory](https://en.wikipedia.org/wiki/Renewal_theory)
-- [Richard James Boys](https://en.wikipedia.org/wiki/Richard_James_Boys)
-- [Richard M. Durbin](https://en.wikipedia.org/wiki/Richard_M._Durbin)
-- [Ruin theory](https://en.wikipedia.org/wiki/Ruin_theory)
-- [Ruin theory](https://en.wikipedia.org/wiki/Ruin_theory)
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [SABR volatility model](https://en.wikipedia.org/wiki/SABR_volatility_model)
-- [Sample-continuous process](https://en.wikipedia.org/wiki/Sample-continuous_process)
-- [Sanov's theorem](https://en.wikipedia.org/wiki/Sanov%27s_theorem)
-- [Schramm–Loewner evolution](https://en.wikipedia.org/wiki/Schramm%E2%80%93Loewner_evolution)
-- [Science (journal)](https://en.wikipedia.org/wiki/Science_(journal))
-- [Sean Eddy](https://en.wikipedia.org/wiki/Sean_Eddy)
-- [Self-avoiding walk](https://en.wikipedia.org/wiki/Self-avoiding_walk)
-- [Self-similar process](https://en.wikipedia.org/wiki/Self-similar_process)
-- [Semimartingale](https://en.wikipedia.org/wiki/Semimartingale)
-- [Sequence alignment](https://en.wikipedia.org/wiki/Sequence_alignment)
-- [Sequence motif](https://en.wikipedia.org/wiki/Sequence_motif)
-- [Sequential dynamical system](https://en.wikipedia.org/wiki/Sequential_dynamical_system)
-- [Sigma-martingale](https://en.wikipedia.org/wiki/Sigma-martingale)
-- [Signal processing](https://en.wikipedia.org/wiki/Signal_processing)
-- [Single-molecule experiment](https://en.wikipedia.org/wiki/Single-molecule_experiment)
-- [Siri](https://en.wikipedia.org/wiki/Siri)
-- [Skorokhod's representation theorem](https://en.wikipedia.org/wiki/Skorokhod%27s_representation_theorem)
-- [Skorokhod integral](https://en.wikipedia.org/wiki/Skorokhod_integral)
-- [Càdlàg](https://en.wikipedia.org/wiki/C%C3%A0dl%C3%A0g)
-- [Snell envelope](https://en.wikipedia.org/wiki/Snell_envelope)
-- [Solar irradiance](https://en.wikipedia.org/wiki/Solar_irradiance)
-- [Ruin theory](https://en.wikipedia.org/wiki/Ruin_theory)
-- [Speech recognition](https://en.wikipedia.org/wiki/Speech_recognition)
-- [Speech synthesis](https://en.wikipedia.org/wiki/Speech_synthesis)
-- [Stable process](https://en.wikipedia.org/wiki/Stable_process)
-- [Stationary process](https://en.wikipedia.org/wiki/Stationary_process)
-- [Statistical mechanics](https://en.wikipedia.org/wiki/Statistical_mechanics)
-- [Statistical significance](https://en.wikipedia.org/wiki/Statistical_significance)
-- [Independence (probability theory)](https://en.wikipedia.org/wiki/Independence_(probability_theory))
-- [Statistics](https://en.wikipedia.org/wiki/Statistics)
-- [Stochastic calculus](https://en.wikipedia.org/wiki/Stochastic_calculus)
-- [Stochastic chains with memory of variable length](https://en.wikipedia.org/wiki/Stochastic_chains_with_memory_of_variable_length)
-- [Probabilistic context-free grammar](https://en.wikipedia.org/wiki/Probabilistic_context-free_grammar)
-- [Stochastic control](https://en.wikipedia.org/wiki/Stochastic_control)
-- [Stochastic differential equation](https://en.wikipedia.org/wiki/Stochastic_differential_equation)
-- [Stochastic matrix](https://en.wikipedia.org/wiki/Stochastic_matrix)
-- [Stochastic process](https://en.wikipedia.org/wiki/Stochastic_process)
-- [Stopping time](https://en.wikipedia.org/wiki/Stopping_time)
-- [Stratonovich integral](https://en.wikipedia.org/wiki/Stratonovich_integral)
-- [Martingale (probability theory)](https://en.wikipedia.org/wiki/Martingale_(probability_theory))
-- [Subshift of finite type](https://en.wikipedia.org/wiki/Subshift_of_finite_type)
-- [Martingale (probability theory)](https://en.wikipedia.org/wiki/Martingale_(probability_theory))
-- [Superprocess](https://en.wikipedia.org/wiki/Superprocess)
-- [Tanaka equation](https://en.wikipedia.org/wiki/Tanaka_equation)
-- [Telegraph process](https://en.wikipedia.org/wiki/Telegraph_process)
-- [Annals of Mathematical Statistics](https://en.wikipedia.org/wiki/Annals_of_Mathematical_Statistics)
-- [Thermodynamics](https://en.wikipedia.org/wiki/Thermodynamics)
-- [Time series](https://en.wikipedia.org/wiki/Time_series)
-- [Time reversibility](https://en.wikipedia.org/wiki/Time_reversibility)
-- [Time series](https://en.wikipedia.org/wiki/Time_series)
-- [Time series](https://en.wikipedia.org/wiki/Time_series)
-- [Transportation forecasting](https://en.wikipedia.org/wiki/Transportation_forecasting)
-- [Trellis (graph)](https://en.wikipedia.org/wiki/Trellis_(graph))
-- [Continuous uniform distribution](https://en.wikipedia.org/wiki/Continuous_uniform_distribution)
-- [Uniform integrability](https://en.wikipedia.org/wiki/Uniform_integrability)
-- [Unsupervised learning](https://en.wikipedia.org/wiki/Unsupervised_learning)
-- [Urn problem](https://en.wikipedia.org/wiki/Urn_problem)
-- [Filtration (probability theory)](https://en.wikipedia.org/wiki/Filtration_(probability_theory))
-- [Variable-order Markov model](https://en.wikipedia.org/wiki/Variable-order_Markov_model)
-- [Variance gamma process](https://en.wikipedia.org/wiki/Variance_gamma_process)
-- [Vasicek model](https://en.wikipedia.org/wiki/Vasicek_model)
-- [Viterbi algorithm](https://en.wikipedia.org/wiki/Viterbi_algorithm)
-- [Wayback Machine](https://en.wikipedia.org/wiki/Wayback_Machine)
-- [White noise](https://en.wikipedia.org/wiki/White_noise)
-- [Wiener process](https://en.wikipedia.org/wiki/Wiener_process)
-- [Wiener sausage](https://en.wikipedia.org/wiki/Wiener_sausage)
-- [Classical Wiener space](https://en.wikipedia.org/wiki/Classical_Wiener_space)
-- [Wilkie investment model](https://en.wikipedia.org/wiki/Wilkie_investment_model)
-- [Xuedong Huang](https://en.wikipedia.org/wiki/Xuedong_Huang)
-- [ZbMATH Open](https://en.wikipedia.org/wiki/ZbMATH_Open)
-- [Zero–one law](https://en.wikipedia.org/wiki/Zero%E2%80%93one_law)
-- [Zoubin Ghahramani](https://en.wikipedia.org/wiki/Zoubin_Ghahramani)
-- [Wikipedia:Good articles](https://en.wikipedia.org/wiki/Wikipedia:Good_articles)
-- [Wikipedia:Link rot](https://en.wikipedia.org/wiki/Wikipedia:Link_rot)
-- [Template:Stochastic processes](https://en.wikipedia.org/wiki/Template:Stochastic_processes)
-- [Template talk:Stochastic processes](https://en.wikipedia.org/wiki/Template_talk:Stochastic_processes)
-- [Help:Authority control](https://en.wikipedia.org/wiki/Help:Authority_control)
-- [Category:Articles with dead external links from July 2022](https://en.wikipedia.org/wiki/Category:Articles_with_dead_external_links_from_July_2022)
-- [Category:Stochastic processes](https://en.wikipedia.org/wiki/Category:Stochastic_processes)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:26:54.217767+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 15:18:55 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 41030 bytes
+- **Word Count:** 4873 words

@@ -1,18 +1,20 @@
 # For loop
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:24:56.121636+00:00
+## Metadata
+- **Last Updated:** 2024-12-09 18:42:50 UTC
 - **Original Article:** [For loop](https://en.wikipedia.org/wiki/For_loop)
 - **Language:** en
 - **Page ID:** 468924
 
 ## Summary
-
 In computer science, a for-loop or for loop is a control flow statement for specifying iteration. Specifically, a for-loop functions by running a section of code repeatedly until a certain condition has been satisfied.
-For-loops have two parts: a header and a body. The header defines the iteration and the body is the code executed once per iteration. The header often declares an explicit loop counter or loop variable. This allows the body to know which iteration is being executed. For-loops are 
+For-loops have two parts: a header and a body. The header defines the iteration and the body is the code executed once per iteration. The header often declares an explicit loop counter or loop variable. This allows the body to know which iteration is being executed. For-loops are typically used when the number of iterations is known before entering the loop. For-loops can be thought of as shorthands for while-loops which increment and test a loop variable.
+Various keywords are used to indicate the usage of a for loop: descendants of ALGOL use "for", while descendants of Fortran use "do". There are other possibilities, for example COBOL which uses PERFORM VARYING.
+The name for-loop comes from the word for. For is used as the reserved word (or keyword) in many programming languages to introduce a for-loop. The term in English dates to ALGOL 58 and was popularized in ALGOL 60. It is the direct translation of the earlier German für and was used in Superplan (1949–1951) by Heinz Rutishauser. Rutishauser was involved in defining ALGOL 58 and ALGOL 60. The loop body is executed "for" the given values of the loop variable. This is more explicit in ALGOL versions of the for statement where a list of possible values and increments can be specified.
+In Fortran and PL/I, the keyword DO is used for the same thing and it is named a do-loop; this is different from a do while loop.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles with unsourced statements
 - Category:Articles with example ALGOL 68 code
@@ -363,117 +365,9 @@ General recursive function
 
 == References ==
 
-## Related Articles
-
-### Internal Links
-
-- [ALGOL](https://en.wikipedia.org/wiki/ALGOL)
-- [ALGOL 58](https://en.wikipedia.org/wiki/ALGOL_58)
-- [ALGOL 60](https://en.wikipedia.org/wiki/ALGOL_60)
-- [ALGOL 68](https://en.wikipedia.org/wiki/ALGOL_68)
-- [ActionScript](https://en.wikipedia.org/wiki/ActionScript)
-- [Ada (programming language)](https://en.wikipedia.org/wiki/Ada_(programming_language))
-- [AppleScript](https://en.wikipedia.org/wiki/AppleScript)
-- [Assignment (computer science)](https://en.wikipedia.org/wiki/Assignment_(computer_science))
-- [Automatic vectorization](https://en.wikipedia.org/wiki/Automatic_vectorization)
-- [BASIC](https://en.wikipedia.org/wiki/BASIC)
-- [B (programming language)](https://en.wikipedia.org/wiki/B_(programming_language))
-- [Bash (Unix shell)](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
-- [Boolean algebra](https://en.wikipedia.org/wiki/Boolean_algebra)
-- [Control flow](https://en.wikipedia.org/wiki/Control_flow)
-- [C++](https://en.wikipedia.org/wiki/C%2B%2B)
-- [C99](https://en.wikipedia.org/wiki/C99)
-- [COBOL](https://en.wikipedia.org/wiki/COBOL)
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [C syntax](https://en.wikipedia.org/wiki/C_syntax)
-- [Closure (computer programming)](https://en.wikipedia.org/wiki/Closure_(computer_programming))
-- [ColdFusion Markup Language](https://en.wikipedia.org/wiki/ColdFusion_Markup_Language)
-- [Compiler](https://en.wikipedia.org/wiki/Compiler)
-- [Component Pascal](https://en.wikipedia.org/wiki/Component_Pascal)
-- [Computer programming](https://en.wikipedia.org/wiki/Computer_programming)
-- [Computer science](https://en.wikipedia.org/wiki/Computer_science)
-- [Control flow](https://en.wikipedia.org/wiki/Control_flow)
-- [Crystal (programming language)](https://en.wikipedia.org/wiki/Crystal_(programming_language))
-- [Declaration (computer programming)](https://en.wikipedia.org/wiki/Declaration_(computer_programming))
-- [Do while loop](https://en.wikipedia.org/wiki/Do_while_loop)
-- [Equals sign](https://en.wikipedia.org/wiki/Equals_sign)
-- [F Sharp (programming language)](https://en.wikipedia.org/wiki/F_Sharp_(programming_language))
-- [Foreach loop](https://en.wikipedia.org/wiki/Foreach_loop)
-- [Foreach loop](https://en.wikipedia.org/wiki/Foreach_loop)
-- [Fortran](https://en.wikipedia.org/wiki/Fortran)
-- [Fortran](https://en.wikipedia.org/wiki/Fortran)
-- [General recursive function](https://en.wikipedia.org/wiki/General_recursive_function)
-- [Go (programming language)](https://en.wikipedia.org/wiki/Go_(programming_language))
-- [Haskell](https://en.wikipedia.org/wiki/Haskell)
-- [Heinz Rutishauser](https://en.wikipedia.org/wiki/Heinz_Rutishauser)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Naming convention (programming)](https://en.wikipedia.org/wiki/Naming_convention_(programming))
-- [Imaginary unit](https://en.wikipedia.org/wiki/Imaginary_unit)
-- [Immutable object](https://en.wikipedia.org/wiki/Immutable_object)
-- [Imperative programming](https://en.wikipedia.org/wiki/Imperative_programming)
-- [Index notation](https://en.wikipedia.org/wiki/Index_notation)
-- [Infinite loop](https://en.wikipedia.org/wiki/Infinite_loop)
-- [Instruction set architecture](https://en.wikipedia.org/wiki/Instruction_set_architecture)
-- [Iteration](https://en.wikipedia.org/wiki/Iteration)
-- [Iterator](https://en.wikipedia.org/wiki/Iterator)
-- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-- [Java (programming language)](https://en.wikipedia.org/wiki/Java_(programming_language))
-- [Julia (programming language)](https://en.wikipedia.org/wiki/Julia_(programming_language))
-- [Ken Thompson](https://en.wikipedia.org/wiki/Ken_Thompson)
-- [Label (computer science)](https://en.wikipedia.org/wiki/Label_(computer_science))
-- [Language construct](https://en.wikipedia.org/wiki/Language_construct)
-- [Loop variant](https://en.wikipedia.org/wiki/Loop_variant)
-- [Lucee](https://en.wikipedia.org/wiki/Lucee)
-- [MATLAB](https://en.wikipedia.org/wiki/MATLAB)
-- [Maple (software)](https://en.wikipedia.org/wiki/Maple_(software))
-- [Mathematical notation](https://en.wikipedia.org/wiki/Mathematical_notation)
-- [Maxima (software)](https://en.wikipedia.org/wiki/Maxima_(software))
-- [Microsoft Small Basic](https://en.wikipedia.org/wiki/Microsoft_Small_Basic)
-- [Modula](https://en.wikipedia.org/wiki/Modula)
-- [Monad (functional programming)](https://en.wikipedia.org/wiki/Monad_(functional_programming))
-- [Multiplication](https://en.wikipedia.org/wiki/Multiplication)
-- [Niklaus Wirth](https://en.wikipedia.org/wiki/Niklaus_Wirth)
-- [Nim (programming language)](https://en.wikipedia.org/wiki/Nim_(programming_language))
-- [OCaml](https://en.wikipedia.org/wiki/OCaml)
-- [Oberon-2](https://en.wikipedia.org/wiki/Oberon-2)
-- [Oberon (programming language)](https://en.wikipedia.org/wiki/Oberon_(programming_language))
-- [PHP](https://en.wikipedia.org/wiki/PHP)
-- [PL/I](https://en.wikipedia.org/wiki/PL/I)
-- [Parallel computing](https://en.wikipedia.org/wiki/Parallel_computing)
-- [Pascal (programming language)](https://en.wikipedia.org/wiki/Pascal_(programming_language))
-- [Perl](https://en.wikipedia.org/wiki/Perl)
-- [PostScript](https://en.wikipedia.org/wiki/PostScript)
-- [Primitive recursive function](https://en.wikipedia.org/wiki/Primitive_recursive_function)
-- [Programming language](https://en.wikipedia.org/wiki/Programming_language)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Railo](https://en.wikipedia.org/wiki/Railo)
-- [Reserved word](https://en.wikipedia.org/wiki/Reserved_word)
-- [Ruby (programming language)](https://en.wikipedia.org/wiki/Ruby_(programming_language))
-- [Ruby (programming language)](https://en.wikipedia.org/wiki/Ruby_(programming_language))
-- [Rust (programming language)](https://en.wikipedia.org/wiki/Rust_(programming_language))
-- [Sides of an equation](https://en.wikipedia.org/wiki/Sides_of_an_equation)
-- [Simula](https://en.wikipedia.org/wiki/Simula)
-- [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk)
-- [Statement (computer science)](https://en.wikipedia.org/wiki/Statement_(computer_science))
-- [Stephen C. Johnson](https://en.wikipedia.org/wiki/Stephen_C._Johnson)
-- [Structured programming](https://en.wikipedia.org/wiki/Structured_programming)
-- [Function (computer programming)](https://en.wikipedia.org/wiki/Function_(computer_programming))
-- [Summation](https://en.wikipedia.org/wiki/Summation)
-- [Superplan](https://en.wikipedia.org/wiki/Superplan)
-- [Syntax (programming languages)](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
-- [Tag (programming)](https://en.wikipedia.org/wiki/Tag_(programming))
-- [Perl](https://en.wikipedia.org/wiki/Perl)
-- [Variable (computer science)](https://en.wikipedia.org/wiki/Variable_(computer_science))
-- [While loop](https://en.wikipedia.org/wiki/While_loop)
-- [While loop](https://en.wikipedia.org/wiki/While_loop)
-- [Wolfram Language](https://en.wikipedia.org/wiki/Wolfram_Language)
-- [Wolfram Mathematica](https://en.wikipedia.org/wiki/Wolfram_Mathematica)
-- [YouTube](https://en.wikipedia.org/wiki/YouTube)
-- [Wikipedia:Citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed)
-- [Template:Loop constructs](https://en.wikipedia.org/wiki/Template:Loop_constructs)
-- [Template talk:Loop constructs](https://en.wikipedia.org/wiki/Template_talk:Loop_constructs)
-- [Category:Articles with unsourced statements from August 2009](https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_August_2009)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:24:56.121636+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 15:18:39 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 22411 bytes
+- **Word Count:** 3843 words

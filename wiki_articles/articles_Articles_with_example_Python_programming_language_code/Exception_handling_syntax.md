@@ -1,17 +1,17 @@
 # Exception handling syntax
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:22:33.300666+00:00
+## Metadata
+- **Last Updated:** 2024-12-13 23:36:33 UTC
 - **Original Article:** [Exception handling syntax](https://en.wikipedia.org/wiki/Exception_handling_syntax)
 - **Language:** en
 - **Page ID:** 3624756
 
 ## Summary
-
-Exception handling syntax is the set of keywords and/or structures provided by a computer programming language to allow exception handling, which separates the handling of errors that arise during a program's operation from its ordinary processes. Syntax for exception handling varies between programming languages, partly to cover semantic differences but largely to fit into each language's overall syntactic structure. Some languages do not call the relevant concept "exception handling"; others m
+Exception handling syntax is the set of keywords and/or structures provided by a computer programming language to allow exception handling, which separates the handling of errors that arise during a program's operation from its ordinary processes. Syntax for exception handling varies between programming languages, partly to cover semantic differences but largely to fit into each language's overall syntactic structure. Some languages do not call the relevant concept "exception handling"; others may not have direct facilities for it, but can still provide means to implement it.
+Most commonly, error handling uses a try...[catch...][finally...] block, and errors are created via a throw statement, but there is significant variation in naming and syntax.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles covered by WikiProject Wikify
 - Category:All articles with bare URLs for citations
@@ -275,83 +275,9 @@ See also
 Exception handling for the semantics of exception handling
 Syntax for definition of syntax in computer science
 
-## Related Articles
-
-### Internal Links
-
-- [ATS (programming language)](https://en.wikipedia.org/wiki/ATS_(programming_language))
-- [Ada (programming language)](https://en.wikipedia.org/wiki/Ada_(programming_language))
-- [Assembly language](https://en.wikipedia.org/wiki/Assembly_language)
-- [BASIC](https://en.wikipedia.org/wiki/BASIC)
-- [Bash (Unix shell)](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
-- [C++](https://en.wikipedia.org/wiki/C%2B%2B)
-- [CPAN](https://en.wikipedia.org/wiki/CPAN)
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [C Sharp (programming language)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
-- [ColdFusion Markup Language](https://en.wikipedia.org/wiki/ColdFusion_Markup_Language)
-- [Common Lisp](https://en.wikipedia.org/wiki/Common_Lisp)
-- [DOS](https://en.wikipedia.org/wiki/DOS)
-- [D (programming language)](https://en.wikipedia.org/wiki/D_(programming_language))
-- [Delphi (software)](https://en.wikipedia.org/wiki/Delphi_(software))
-- [Digital Equipment Corporation](https://en.wikipedia.org/wiki/Digital_Equipment_Corporation)
-- [Division by zero](https://en.wikipedia.org/wiki/Division_by_zero)
-- [Erlang (programming language)](https://en.wikipedia.org/wiki/Erlang_(programming_language))
-- [Exception handling](https://en.wikipedia.org/wiki/Exception_handling)
-- [Exception handling (programming)](https://en.wikipedia.org/wiki/Exception_handling_(programming))
-- [F Sharp (programming language)](https://en.wikipedia.org/wiki/F_Sharp_(programming_language))
-- [Haskell](https://en.wikipedia.org/wiki/Haskell)
-- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-- [Java (programming language)](https://en.wikipedia.org/wiki/Java_(programming_language))
-- [Lisp (programming language)](https://en.wikipedia.org/wiki/Lisp_(programming_language))
-- [Lua (programming language)](https://en.wikipedia.org/wiki/Lua_(programming_language))
-- [Lucee](https://en.wikipedia.org/wiki/Lucee)
-- [Microsoft-specific exception handling mechanisms](https://en.wikipedia.org/wiki/Microsoft-specific_exception_handling_mechanisms)
-- [Microsoft Dynamics 365](https://en.wikipedia.org/wiki/Microsoft_Dynamics_365)
-- [Microsoft Windows](https://en.wikipedia.org/wiki/Microsoft_Windows)
-- [OCaml](https://en.wikipedia.org/wiki/OCaml)
-- [Objective-C](https://en.wikipedia.org/wiki/Objective-C)
-- [PHP](https://en.wikipedia.org/wiki/PHP)
-- [Perl](https://en.wikipedia.org/wiki/Perl)
-- [PowerBuilder](https://en.wikipedia.org/wiki/PowerBuilder)
-- [PowerShell](https://en.wikipedia.org/wiki/PowerShell)
-- [Programming language](https://en.wikipedia.org/wiki/Programming_language)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [RT-11](https://en.wikipedia.org/wiki/RT-11)
-- [R (programming language)](https://en.wikipedia.org/wiki/R_(programming_language))
-- [Railo](https://en.wikipedia.org/wiki/Railo)
-- [Rebol](https://en.wikipedia.org/wiki/Rebol)
-- [Resource acquisition is initialization](https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization)
-- [Rexx](https://en.wikipedia.org/wiki/Rexx)
-- [Ruby (programming language)](https://en.wikipedia.org/wiki/Ruby_(programming_language))
-- [S-Lang](https://en.wikipedia.org/wiki/S-Lang)
-- [STXIT](https://en.wikipedia.org/wiki/STXIT)
-- [Setjmp.h](https://en.wikipedia.org/wiki/Setjmp.h)
-- [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk)
-- [Soft error](https://en.wikipedia.org/wiki/Soft_error)
-- [Stack trace](https://en.wikipedia.org/wiki/Stack_trace)
-- [Swift (programming language)](https://en.wikipedia.org/wiki/Swift_(programming_language))
-- [Syntax](https://en.wikipedia.org/wiki/Syntax)
-- [Syntax (programming languages)](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
-- [Tcl](https://en.wikipedia.org/wiki/Tcl)
-- [Type class](https://en.wikipedia.org/wiki/Type_class)
-- [VBScript](https://en.wikipedia.org/wiki/VBScript)
-- [Visual Basic](https://en.wikipedia.org/wiki/Visual_Basic)
-- [Visual Basic (.NET)](https://en.wikipedia.org/wiki/Visual_Basic_(.NET))
-- [Visual Prolog](https://en.wikipedia.org/wiki/Visual_Prolog)
-- [Windows XP](https://en.wikipedia.org/wiki/Windows_XP)
-- [User:Citation bot](https://en.wikipedia.org/wiki/User:Citation_bot)
-- [Wikipedia:Bare URLs](https://en.wikipedia.org/wiki/Wikipedia:Bare_URLs)
-- [Wikipedia:Citing sources](https://en.wikipedia.org/wiki/Wikipedia:Citing_sources)
-- [Wikipedia:Link rot](https://en.wikipedia.org/wiki/Wikipedia:Link_rot)
-- [Wikipedia:ReFill](https://en.wikipedia.org/wiki/Wikipedia:ReFill)
-- [Wikipedia:Template index/Sources of articles](https://en.wikipedia.org/wiki/Wikipedia:Template_index/Sources_of_articles)
-- [Wikipedia:Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Category:Articles covered by WikiProject Wikify from August 2022](https://en.wikipedia.org/wiki/Category:Articles_covered_by_WikiProject_Wikify_from_August_2022)
-- [Category:Articles needing cleanup from August 2022](https://en.wikipedia.org/wiki/Category:Articles_needing_cleanup_from_August_2022)
-- [Category:Articles with bare URLs for citations from August 2022](https://en.wikipedia.org/wiki/Category:Articles_with_bare_URLs_for_citations_from_August_2022)
-- [Category:Articles with dead external links from October 2020](https://en.wikipedia.org/wiki/Category:Articles_with_dead_external_links_from_October_2020)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:22:33.300666+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 15:18:34 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 10442 bytes
+- **Word Count:** 1610 words

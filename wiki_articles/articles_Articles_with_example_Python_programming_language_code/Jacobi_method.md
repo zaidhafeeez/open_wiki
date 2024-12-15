@@ -1,17 +1,16 @@
 # Jacobi method
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:31:23.584026+00:00
+## Metadata
+- **Last Updated:** 2024-12-04 11:37:05 UTC
 - **Original Article:** [Jacobi method](https://en.wikipedia.org/wiki/Jacobi_method)
 - **Language:** en
 - **Page ID:** 4047104
 
 ## Summary
-
 In numerical linear algebra, the Jacobi method (a.k.a. the Jacobi iteration method) is an iterative algorithm for determining the solutions of a strictly diagonally dominant system of linear equations. Each diagonal element is solved for, and an approximate value is plugged in. The process is then iterated until it converges. This algorithm is a stripped-down version of the Jacobi transformation method of matrix diagonalization. The method is named after Carl Gustav Jacob Jacobi.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles needing additional references
 - Category:Articles needing additional references from September 2024
@@ -2921,54 +2920,9 @@ This article incorporates text from the article Jacobi_method on CFD-Wiki that i
 Black, Noel; Moore, Shirley & Weisstein, Eric W. "Jacobi method". MathWorld.
 Jacobi Method from www.math-linux.com
 
-## Related Articles
-
-### Internal Links
-
-- [Automatically Tuned Linear Algebra Software](https://en.wikipedia.org/wiki/Automatically_Tuned_Linear_Algebra_Software)
-- [Basic Linear Algebra Subprograms](https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms)
-- [Belief propagation](https://en.wikipedia.org/wiki/Belief_propagation)
-- [CPU cache](https://en.wikipedia.org/wiki/CPU_cache)
-- [Cache-oblivious algorithm](https://en.wikipedia.org/wiki/Cache-oblivious_algorithm)
-- [Carl Gustav Jacob Jacobi](https://en.wikipedia.org/wiki/Carl_Gustav_Jacob_Jacobi)
-- [Comparison of linear algebra libraries](https://en.wikipedia.org/wiki/Comparison_of_linear_algebra_libraries)
-- [Comparison of numerical-analysis software](https://en.wikipedia.org/wiki/Comparison_of_numerical-analysis_software)
-- [Condition number](https://en.wikipedia.org/wiki/Condition_number)
-- [Diagonal matrix](https://en.wikipedia.org/wiki/Diagonal_matrix)
-- [Diagonally dominant matrix](https://en.wikipedia.org/wiki/Diagonally_dominant_matrix)
-- [Floating-point arithmetic](https://en.wikipedia.org/wiki/Floating-point_arithmetic)
-- [GNU Free Documentation License](https://en.wikipedia.org/wiki/GNU_Free_Documentation_License)
-- [Gauss–Seidel method](https://en.wikipedia.org/wiki/Gauss%E2%80%93Seidel_method)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Iterative method](https://en.wikipedia.org/wiki/Iterative_method)
-- [Jacobi eigenvalue algorithm](https://en.wikipedia.org/wiki/Jacobi_eigenvalue_algorithm)
-- [LAPACK](https://en.wikipedia.org/wiki/LAPACK)
-- [MATLAB](https://en.wikipedia.org/wiki/MATLAB)
-- [MathWorld](https://en.wikipedia.org/wiki/MathWorld)
-- [Matrix decomposition](https://en.wikipedia.org/wiki/Matrix_decomposition)
-- [Matrix multiplication](https://en.wikipedia.org/wiki/Matrix_multiplication)
-- [Matrix multiplication algorithm](https://en.wikipedia.org/wiki/Matrix_multiplication_algorithm)
-- [Matrix splitting](https://en.wikipedia.org/wiki/Matrix_splitting)
-- [Multiprocessing](https://en.wikipedia.org/wiki/Multiprocessing)
-- [Numerical linear algebra](https://en.wikipedia.org/wiki/Numerical_linear_algebra)
-- [Numerical stability](https://en.wikipedia.org/wiki/Numerical_stability)
-- [Definite matrix](https://en.wikipedia.org/wiki/Definite_matrix)
-- [Single instruction, multiple data](https://en.wikipedia.org/wiki/Single_instruction,_multiple_data)
-- [Society for Industrial and Applied Mathematics](https://en.wikipedia.org/wiki/Society_for_Industrial_and_Applied_Mathematics)
-- [Sparse matrix](https://en.wikipedia.org/wiki/Sparse_matrix)
-- [Spectral radius](https://en.wikipedia.org/wiki/Spectral_radius)
-- [Successive over-relaxation](https://en.wikipedia.org/wiki/Successive_over-relaxation)
-- [System of linear equations](https://en.wikipedia.org/wiki/System_of_linear_equations)
-- [Translation lookaside buffer](https://en.wikipedia.org/wiki/Translation_lookaside_buffer)
-- [Yousef Saad](https://en.wikipedia.org/wiki/Yousef_Saad)
-- [Talk:Jacobi method](https://en.wikipedia.org/wiki/Talk:Jacobi_method)
-- [Wikipedia:Articles with a single source](https://en.wikipedia.org/wiki/Wikipedia:Articles_with_a_single_source)
-- [Template:Numerical linear algebra](https://en.wikipedia.org/wiki/Template:Numerical_linear_algebra)
-- [Template talk:Numerical linear algebra](https://en.wikipedia.org/wiki/Template_talk:Numerical_linear_algebra)
-- [Help:Authority control](https://en.wikipedia.org/wiki/Help:Authority_control)
-- [Help:Referencing for beginners](https://en.wikipedia.org/wiki/Help:Referencing_for_beginners)
-- [Category:Articles needing additional references from September 2024](https://en.wikipedia.org/wiki/Category:Articles_needing_additional_references_from_September_2024)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:31:23.584026+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 15:19:06 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 45781 bytes
+- **Word Count:** 1920 words

@@ -1,17 +1,16 @@
 # Function object
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:25:01.866956+00:00
+## Metadata
+- **Last Updated:** 2024-12-15 09:15:53 UTC
 - **Original Article:** [Function object](https://en.wikipedia.org/wiki/Function_object)
 - **Language:** en
 - **Page ID:** 509999
 
 ## Summary
-
 In computer programming, a function object is a construct allowing an object to be invoked or called as if it were an ordinary function, usually with the same syntax (a function parameter that can also be a function). In some languages, particularly C++, function objects are often called functors (not related to the functional programming concept).
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles needing additional references
 - Category:Articles needing additional references from February 2009
@@ -222,85 +221,9 @@ Generic Algorithms for Java
 PHP Functors - Function Objects in PHP
 What the heck is a functionoid, and why would I use one? (C++ FAQ)
 
-## Related Articles
-
-### Internal Links
-
-- [.NET Framework](https://en.wikipedia.org/wiki/.NET_Framework)
-- [Ada (programming language)](https://en.wikipedia.org/wiki/Ada_(programming_language))
-- [Anonymous function](https://en.wikipedia.org/wiki/Anonymous_function)
-- [C++](https://en.wikipedia.org/wiki/C%2B%2B)
-- [C++11](https://en.wikipedia.org/wiki/C%2B%2B11)
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [C Sharp (programming language)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
-- [Callback (computer programming)](https://en.wikipedia.org/wiki/Callback_(computer_programming))
-- [Category theory](https://en.wikipedia.org/wiki/Category_theory)
-- [Closure (computer programming)](https://en.wikipedia.org/wiki/Closure_(computer_programming))
-- [Command pattern](https://en.wikipedia.org/wiki/Command_pattern)
-- [Common Lisp](https://en.wikipedia.org/wiki/Common_Lisp)
-- [Computer programming](https://en.wikipedia.org/wiki/Computer_programming)
-- [Currying](https://en.wikipedia.org/wiki/Currying)
-- [D (programming language)](https://en.wikipedia.org/wiki/D_(programming_language))
-- [Delegate (CLI)](https://en.wikipedia.org/wiki/Delegate_(CLI))
-- [Delegation (computing)](https://en.wikipedia.org/wiki/Delegation_(computing))
-- [Duck typing](https://en.wikipedia.org/wiki/Duck_typing)
-- [Eiffel (programming language)](https://en.wikipedia.org/wiki/Eiffel_(programming_language))
-- [Event-driven programming](https://en.wikipedia.org/wiki/Event-driven_programming)
-- [Facade pattern](https://en.wikipedia.org/wiki/Facade_pattern)
-- [Factory (object-oriented programming)](https://en.wikipedia.org/wiki/Factory_(object-oriented_programming))
-- [First-class function](https://en.wikipedia.org/wiki/First-class_function)
-- [First-class citizen](https://en.wikipedia.org/wiki/First-class_citizen)
-- [Function (mathematics)](https://en.wikipedia.org/wiki/Function_(mathematics))
-- [Operators in C and C++](https://en.wikipedia.org/wiki/Operators_in_C_and_C%2B%2B)
-- [Function composition (computer science)](https://en.wikipedia.org/wiki/Function_composition_(computer_science))
-- [Function pointer](https://en.wikipedia.org/wiki/Function_pointer)
-- [Type signature](https://en.wikipedia.org/wiki/Type_signature)
-- [Functional predicate](https://en.wikipedia.org/wiki/Functional_predicate)
-- [Functional programming](https://en.wikipedia.org/wiki/Functional_programming)
-- [Functor](https://en.wikipedia.org/wiki/Functor)
-- [Functor (functional programming)](https://en.wikipedia.org/wiki/Functor_(functional_programming))
-- [Generator (computer programming)](https://en.wikipedia.org/wiki/Generator_(computer_programming))
-- [Generic programming](https://en.wikipedia.org/wiki/Generic_programming)
-- [Apache Groovy](https://en.wikipedia.org/wiki/Apache_Groovy)
-- [Haskell](https://en.wikipedia.org/wiki/Haskell)
-- [Herb Sutter](https://en.wikipedia.org/wiki/Herb_Sutter)
-- [Higher-order function](https://en.wikipedia.org/wiki/Higher-order_function)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Inner class](https://en.wikipedia.org/wiki/Inner_class)
-- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-- [Java (programming language)](https://en.wikipedia.org/wiki/Java_(programming_language))
-- [Julia (programming language)](https://en.wikipedia.org/wiki/Julia_(programming_language))
-- [Kevlin Henney](https://en.wikipedia.org/wiki/Kevlin_Henney)
-- [Anonymous function](https://en.wikipedia.org/wiki/Anonymous_function)
-- [Lambda lifting](https://en.wikipedia.org/wiki/Lambda_lifting)
-- [Lisp (programming language)](https://en.wikipedia.org/wiki/Lisp_(programming_language))
-- [ML (programming language)](https://en.wikipedia.org/wiki/ML_(programming_language))
-- [Object (computer science)](https://en.wikipedia.org/wiki/Object_(computer_science))
-- [Objective-C](https://en.wikipedia.org/wiki/Objective-C)
-- [Operator overloading](https://en.wikipedia.org/wiki/Operator_overloading)
-- [PHP](https://en.wikipedia.org/wiki/PHP)
-- [Paul Graham (programmer)](https://en.wikipedia.org/wiki/Paul_Graham_(programmer))
-- [Perl](https://en.wikipedia.org/wiki/Perl)
-- [Procedural programming](https://en.wikipedia.org/wiki/Procedural_programming)
-- [Prolog](https://en.wikipedia.org/wiki/Prolog)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Reference (C++)](https://en.wikipedia.org/wiki/Reference_(C%2B%2B))
-- [Ruby (programming language)](https://en.wikipedia.org/wiki/Ruby_(programming_language))
-- [Scala (programming language)](https://en.wikipedia.org/wiki/Scala_(programming_language))
-- [Scheme (programming language)](https://en.wikipedia.org/wiki/Scheme_(programming_language))
-- [Dynamic dispatch](https://en.wikipedia.org/wiki/Dynamic_dispatch)
-- [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk)
-- [Standard Template Library](https://en.wikipedia.org/wiki/Standard_Template_Library)
-- [Function (computer programming)](https://en.wikipedia.org/wiki/Function_(computer_programming))
-- [Type qualifier](https://en.wikipedia.org/wiki/Type_qualifier)
-- [Universal quantification](https://en.wikipedia.org/wiki/Universal_quantification)
-- [Wayback Machine](https://en.wikipedia.org/wiki/Wayback_Machine)
-- [PowerShell](https://en.wikipedia.org/wiki/PowerShell)
-- [Wikipedia:Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Help:Referencing for beginners](https://en.wikipedia.org/wiki/Help:Referencing_for_beginners)
-- [Category:Articles needing additional references from February 2009](https://en.wikipedia.org/wiki/Category:Articles_needing_additional_references_from_February_2009)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:25:01.866956+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 15:18:42 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 18126 bytes
+- **Word Count:** 2909 words

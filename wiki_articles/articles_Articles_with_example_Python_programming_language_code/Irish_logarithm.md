@@ -1,18 +1,17 @@
 # Irish logarithm
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:29:35.827957+00:00
+## Metadata
+- **Last Updated:** 2024-12-07 14:46:39 UTC
 - **Original Article:** [Irish logarithm](https://en.wikipedia.org/wiki/Irish_logarithm)
 - **Language:** en
 - **Page ID:** 31818344
 
 ## Summary
-
 The Irish logarithm was a system of number manipulation invented by Percy Ludgate for machine multiplication. The system used a combination of mechanical cams as lookup tables and mechanical addition to sum pseudo-logarithmic indices to produce partial products, which were then added to produce results.
 The technique is similar to Zech logarithms (also known as Jacobi logarithms), but uses a system of indices original to Ludgate.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Algorithms
 - Category:Articles with example Python (programming language) code
@@ -62,22 +61,9 @@ Transcript of "On a Proposed Analytical Machine" by Percy Ludgate (first publish
 A reproduction of Ludgate's original 1909 paper, from The origins of digital computers : selected papers. Randell, Brian, 1936-. Berlin: Springer-Verlag. 1973. p. 71. ISBN 978-3-642-96145-8. OCLC 858931618.{{cite book}}:  CS1 maint: others (link)
 Method for deriving Ludgate's Irish Logarithms from first principles, Brian Coghlan, 2022)
 
-## Related Articles
-
-### Internal Links
-
-- [Canon arithmeticus](https://en.wikipedia.org/wiki/Canon_arithmeticus)
-- [A. W. Faber Model 366](https://en.wikipedia.org/wiki/A._W._Faber_Model_366)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Lookup table](https://en.wikipedia.org/wiki/Lookup_table)
-- [OCLC](https://en.wikipedia.org/wiki/OCLC)
-- [Percy Ludgate](https://en.wikipedia.org/wiki/Percy_Ludgate)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Lookup table](https://en.wikipedia.org/wiki/Lookup_table)
-- [Zech's logarithm](https://en.wikipedia.org/wiki/Zech%27s_logarithm)
-- [Template:Cite book](https://en.wikipedia.org/wiki/Template:Cite_book)
-- [Category:CS1 maint: others](https://en.wikipedia.org/wiki/Category:CS1_maint:_others)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:29:35.827957+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 15:19:04 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 2996 bytes
+- **Word Count:** 448 words

@@ -1,17 +1,16 @@
 # Golden-section search
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:26:53.002692+00:00
+## Metadata
+- **Last Updated:** 2024-12-13 07:18:05 UTC
 - **Original Article:** [Golden-section search](https://en.wikipedia.org/wiki/Golden-section_search)
 - **Language:** en
 - **Page ID:** 1814209
 
 ## Summary
-
-The golden-section search is a technique for finding an extremum (minimum or maximum) of a function inside a specified interval. For a strictly unimodal function with an extremum inside the interval, it will find that extremum, while for an interval containing multiple extrema (possibly including the interval boundaries), it will converge to one of them. If the only extremum on the interval is on a boundary of the interval, it will converge to that boundary point. The method operates by successi
+The golden-section search is a technique for finding an extremum (minimum or maximum) of a function inside a specified interval. For a strictly unimodal function with an extremum inside the interval, it will find that extremum, while for an interval containing multiple extrema (possibly including the interval boundaries), it will converge to one of them. If the only extremum on the interval is on a boundary of the interval, it will converge to that boundary point. The method operates by successively narrowing the range of values on the specified interval, which makes it relatively slow, but very robust. The technique derives its name from the fact that the algorithm maintains the function values for four points whose three interval widths are in the ratio φ:1:φ, where φ is the golden ratio. These ratios are maintained for each iteration and are maximally efficient. Excepting boundary points, when searching for a minimum, the central point is always less than or equal to the outer points, assuring that a minimum is contained between the outer points. The converse is true when searching for a maximum. The algorithm is the limit of Fibonacci search (also described below) for many function evaluations. Fibonacci search and golden-section search were discovered by Kiefer (1953) (see also Avriel and Wilde (1966)).
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles lacking in-text citations
 - Category:Articles lacking in-text citations from June 2024
@@ -1237,140 +1236,9 @@ Kiefer, J. (1953), "Sequential minimax search for a maximum", Proceedings of the
 Avriel, Mordecai; Wilde, Douglass J. (1966), "Optimality proof for the symmetric Fibonacci search technique", Fibonacci Quarterly, 4 (3): 265–269, doi:10.1080/00150517.1966.12431364, MR 0208812
 Press, WH; Teukolsky, SA; Vetterling, WT; Flannery, BP (2007), "Section 10.2. Golden Section Search in One Dimension", Numerical Recipes: The Art of Scientific Computing (3rd ed.), New York: Cambridge University Press, ISBN 978-0-521-88068-8, archived from the original on 2011-08-11, retrieved 2011-08-12
 
-## Related Articles
-
-### Internal Links
-
-- [Absolute value](https://en.wikipedia.org/wiki/Absolute_value)
-- [Active-set method](https://en.wikipedia.org/wiki/Active-set_method)
-- [Affine scaling](https://en.wikipedia.org/wiki/Affine_scaling)
-- [Algorithm](https://en.wikipedia.org/wiki/Algorithm)
-- [Approximation algorithm](https://en.wikipedia.org/wiki/Approximation_algorithm)
-- [Augmented Lagrangian method](https://en.wikipedia.org/wiki/Augmented_Lagrangian_method)
-- [Barrier function](https://en.wikipedia.org/wiki/Barrier_function)
-- [Bellman–Ford algorithm](https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm)
-- [Berndt–Hall–Hall–Hausman algorithm](https://en.wikipedia.org/wiki/Berndt%E2%80%93Hall%E2%80%93Hall%E2%80%93Hausman_algorithm)
-- [Binary search](https://en.wikipedia.org/wiki/Binary_search)
-- [Bisection method](https://en.wikipedia.org/wiki/Bisection_method)
-- [Borůvka's algorithm](https://en.wikipedia.org/wiki/Bor%C5%AFvka%27s_algorithm)
-- [Branch and bound](https://en.wikipedia.org/wiki/Branch_and_bound)
-- [Branch and cut](https://en.wikipedia.org/wiki/Branch_and_cut)
-- [Brent's method](https://en.wikipedia.org/wiki/Brent%27s_method)
-- [Broyden–Fletcher–Goldfarb–Shanno algorithm](https://en.wikipedia.org/wiki/Broyden%E2%80%93Fletcher%E2%80%93Goldfarb%E2%80%93Shanno_algorithm)
-- [Combinatorial optimization](https://en.wikipedia.org/wiki/Combinatorial_optimization)
-- [Comparison of optimization software](https://en.wikipedia.org/wiki/Comparison_of_optimization_software)
-- [Convex optimization](https://en.wikipedia.org/wiki/Convex_optimization)
-- [Convex optimization](https://en.wikipedia.org/wiki/Convex_optimization)
-- [Criss-cross algorithm](https://en.wikipedia.org/wiki/Criss-cross_algorithm)
-- [Cutting-plane method](https://en.wikipedia.org/wiki/Cutting-plane_method)
-- [Davidon–Fletcher–Powell formula](https://en.wikipedia.org/wiki/Davidon%E2%80%93Fletcher%E2%80%93Powell_formula)
-- [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
-- [Dinic's algorithm](https://en.wikipedia.org/wiki/Dinic%27s_algorithm)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Dynamic programming](https://en.wikipedia.org/wiki/Dynamic_programming)
-- [Edmonds–Karp algorithm](https://en.wikipedia.org/wiki/Edmonds%E2%80%93Karp_algorithm)
-- [Ellipsoid method](https://en.wikipedia.org/wiki/Ellipsoid_method)
-- [Evolutionary algorithm](https://en.wikipedia.org/wiki/Evolutionary_algorithm)
-- [Greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm)
-- [Maximum and minimum](https://en.wikipedia.org/wiki/Maximum_and_minimum)
-- [Fibonacci Quarterly](https://en.wikipedia.org/wiki/Fibonacci_Quarterly)
-- [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_sequence)
-- [Fibonacci search technique](https://en.wikipedia.org/wiki/Fibonacci_search_technique)
-- [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_sequence)
-- [Flow network](https://en.wikipedia.org/wiki/Flow_network)
-- [Floyd–Warshall algorithm](https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm)
-- [Ford–Fulkerson algorithm](https://en.wikipedia.org/wiki/Ford%E2%80%93Fulkerson_algorithm)
-- [Frank–Wolfe algorithm](https://en.wikipedia.org/wiki/Frank%E2%80%93Wolfe_algorithm)
-- [Function (mathematics)](https://en.wikipedia.org/wiki/Function_(mathematics))
-- [Gauss–Newton algorithm](https://en.wikipedia.org/wiki/Gauss%E2%80%93Newton_algorithm)
-- [Golden angle](https://en.wikipedia.org/wiki/Golden_angle)
-- [Golden ratio](https://en.wikipedia.org/wiki/Golden_ratio)
-- [Golden ratio base](https://en.wikipedia.org/wiki/Golden_ratio_base)
-- [Golden rectangle](https://en.wikipedia.org/wiki/Golden_rectangle)
-- [Golden rhombus](https://en.wikipedia.org/wiki/Golden_rhombus)
-- [Golden spiral](https://en.wikipedia.org/wiki/Golden_spiral)
-- [Golden triangle (mathematics)](https://en.wikipedia.org/wiki/Golden_triangle_(mathematics))
-- [Gradient](https://en.wikipedia.org/wiki/Gradient)
-- [Gradient descent](https://en.wikipedia.org/wiki/Gradient_descent)
-- [List of algorithms](https://en.wikipedia.org/wiki/List_of_algorithms)
-- [Greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm)
-- [Hessian matrix](https://en.wikipedia.org/wiki/Hessian_matrix)
-- [Heuristic (computer science)](https://en.wikipedia.org/wiki/Heuristic_(computer_science))
-- [Hill climbing](https://en.wikipedia.org/wiki/Hill_climbing)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Integer programming](https://en.wikipedia.org/wiki/Integer_programming)
-- [Iterative method](https://en.wikipedia.org/wiki/Iterative_method)
-- [JSTOR](https://en.wikipedia.org/wiki/JSTOR)
-- [Jack Kiefer (statistician)](https://en.wikipedia.org/wiki/Jack_Kiefer_(statistician))
-- [Jack Kiefer (statistician)](https://en.wikipedia.org/wiki/Jack_Kiefer_(statistician))
-- [Karmarkar's algorithm](https://en.wikipedia.org/wiki/Karmarkar%27s_algorithm)
-- [Kepler triangle](https://en.wikipedia.org/wiki/Kepler_triangle)
-- [Kruskal's algorithm](https://en.wikipedia.org/wiki/Kruskal%27s_algorithm)
-- [Lemke's algorithm](https://en.wikipedia.org/wiki/Lemke%27s_algorithm)
-- [Levenberg–Marquardt algorithm](https://en.wikipedia.org/wiki/Levenberg%E2%80%93Marquardt_algorithm)
-- [Limited-memory BFGS](https://en.wikipedia.org/wiki/Limited-memory_BFGS)
-- [Line search](https://en.wikipedia.org/wiki/Line_search)
-- [Linear programming](https://en.wikipedia.org/wiki/Linear_programming)
-- [Local convergence](https://en.wikipedia.org/wiki/Local_convergence)
-- [Local search (optimization)](https://en.wikipedia.org/wiki/Local_search_(optimization))
-- [Mathematical Reviews](https://en.wikipedia.org/wiki/Mathematical_Reviews)
-- [Mathematical optimization](https://en.wikipedia.org/wiki/Mathematical_optimization)
-- [Matroid](https://en.wikipedia.org/wiki/Matroid)
-- [Metaheuristic](https://en.wikipedia.org/wiki/Metaheuristic)
-- [Metallic mean](https://en.wikipedia.org/wiki/Metallic_mean)
-- [Minimax](https://en.wikipedia.org/wiki/Minimax)
-- [Minimum spanning tree](https://en.wikipedia.org/wiki/Minimum_spanning_tree)
-- [Mirror descent](https://en.wikipedia.org/wiki/Mirror_descent)
-- [Nelder–Mead method](https://en.wikipedia.org/wiki/Nelder%E2%80%93Mead_method)
-- [Newton's method in optimization](https://en.wikipedia.org/wiki/Newton%27s_method_in_optimization)
-- [Nonlinear conjugate gradient method](https://en.wikipedia.org/wiki/Nonlinear_conjugate_gradient_method)
-- [Nonlinear programming](https://en.wikipedia.org/wiki/Nonlinear_programming)
-- [Numerical Recipes](https://en.wikipedia.org/wiki/Numerical_Recipes)
-- [Mathematical optimization](https://en.wikipedia.org/wiki/Mathematical_optimization)
-- [Parallel metaheuristic](https://en.wikipedia.org/wiki/Parallel_metaheuristic)
-- [Pell number](https://en.wikipedia.org/wiki/Pell_number)
-- [Penalty method](https://en.wikipedia.org/wiki/Penalty_method)
-- [Pisot–Vijayaraghavan number](https://en.wikipedia.org/wiki/Pisot%E2%80%93Vijayaraghavan_number)
-- [Powell's dog leg method](https://en.wikipedia.org/wiki/Powell%27s_dog_leg_method)
-- [Powell's method](https://en.wikipedia.org/wiki/Powell%27s_method)
-- [Prim's algorithm](https://en.wikipedia.org/wiki/Prim%27s_algorithm)
-- [Proceedings of the American Mathematical Society](https://en.wikipedia.org/wiki/Proceedings_of_the_American_Mathematical_Society)
-- [Push–relabel maximum flow algorithm](https://en.wikipedia.org/wiki/Push%E2%80%93relabel_maximum_flow_algorithm)
-- [Quadratic programming](https://en.wikipedia.org/wiki/Quadratic_programming)
-- [Quasi-Newton method](https://en.wikipedia.org/wiki/Quasi-Newton_method)
-- [Revised simplex method](https://en.wikipedia.org/wiki/Revised_simplex_method)
-- [Sequence](https://en.wikipedia.org/wiki/Sequence)
-- [Sequential quadratic programming](https://en.wikipedia.org/wiki/Sequential_quadratic_programming)
-- [Bellman–Ford algorithm](https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm)
-- [Shortest path problem](https://en.wikipedia.org/wiki/Shortest_path_problem)
-- [Silver ratio](https://en.wikipedia.org/wiki/Silver_ratio)
-- [Simplex algorithm](https://en.wikipedia.org/wiki/Simplex_algorithm)
-- [Simulated annealing](https://en.wikipedia.org/wiki/Simulated_annealing)
-- [Spiral optimization algorithm](https://en.wikipedia.org/wiki/Spiral_optimization_algorithm)
-- [Subgradient method](https://en.wikipedia.org/wiki/Subgradient_method)
-- [Successive linear programming](https://en.wikipedia.org/wiki/Successive_linear_programming)
-- [Successive parabolic interpolation](https://en.wikipedia.org/wiki/Successive_parabolic_interpolation)
-- [Supergolden ratio](https://en.wikipedia.org/wiki/Supergolden_ratio)
-- [Supersilver ratio](https://en.wikipedia.org/wiki/Supersilver_ratio)
-- [Symmetric rank-one](https://en.wikipedia.org/wiki/Symmetric_rank-one)
-- [Tabu search](https://en.wikipedia.org/wiki/Tabu_search)
-- [Ternary search](https://en.wikipedia.org/wiki/Ternary_search)
-- [Truncated Newton method](https://en.wikipedia.org/wiki/Truncated_Newton_method)
-- [Trust region](https://en.wikipedia.org/wiki/Trust_region)
-- [Unimodality](https://en.wikipedia.org/wiki/Unimodality)
-- [Wolfe conditions](https://en.wikipedia.org/wiki/Wolfe_conditions)
-- [Wikipedia:Citing sources](https://en.wikipedia.org/wiki/Wikipedia:Citing_sources)
-- [Wikipedia:External links](https://en.wikipedia.org/wiki/Wikipedia:External_links)
-- [Wikipedia:Further reading](https://en.wikipedia.org/wiki/Wikipedia:Further_reading)
-- [Wikipedia:When to cite](https://en.wikipedia.org/wiki/Wikipedia:When_to_cite)
-- [Wikipedia:WikiProject Reliability](https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Reliability)
-- [Template:Metallic ratios](https://en.wikipedia.org/wiki/Template:Metallic_ratios)
-- [Template:Optimization algorithms](https://en.wikipedia.org/wiki/Template:Optimization_algorithms)
-- [Template talk:Metallic ratios](https://en.wikipedia.org/wiki/Template_talk:Metallic_ratios)
-- [Template talk:Optimization algorithms](https://en.wikipedia.org/wiki/Template_talk:Optimization_algorithms)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Category:Articles lacking in-text citations from June 2024](https://en.wikipedia.org/wiki/Category:Articles_lacking_in-text_citations_from_June_2024)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:26:53.002692+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 15:18:49 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 18821 bytes
+- **Word Count:** 1786 words

@@ -1,14 +1,12 @@
 # Five-number summary
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:24:55.765004+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 06:51:57 UTC
 - **Original Article:** [Five-number summary](https://en.wikipedia.org/wiki/Five-number_summary)
 - **Language:** en
 - **Page ID:** 160963
 
 ## Summary
-
 The five-number summary is a set of descriptive statistics that provides information about a dataset. It consists of the five most important sample percentiles:
 
 the sample minimum (smallest observation)
@@ -16,9 +14,11 @@ the lower quartile or first quartile
 the median (the middle value)
 the upper quartile or third quartile
 the sample maximum (largest observation)
-In addition to the median of a single set of data there are two related statistics called the upper and lower quartiles. If data are placed in order, t
+In addition to the median of a single set of data there are two related statistics called the upper and lower quartiles. If data are placed in order, then the lower quartile is central to the lower half of the data and the upper quartile is central to the upper half of the data. These quartiles are used to calculate the interquartile range, which helps to describe the spread of the data, and determine whether or not any data points are outliers.
+In order for these statistics to exist, the observations must be from a univariate variable that can be measured on an ordinal, interval or ratio scale.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles needing additional references
 - Category:Articles needing additional references from January 2013
@@ -77,47 +77,9 @@ Box plot
 
 == References ==
 
-## Related Articles
-
-### Internal Links
-
-- [Box plot](https://en.wikipedia.org/wiki/Box_plot)
-- [Box plot](https://en.wikipedia.org/wiki/Box_plot)
-- [Cambridge University Press and Assessment](https://en.wikipedia.org/wiki/Cambridge_University_Press_and_Assessment)
-- [Descriptive statistics](https://en.wikipedia.org/wiki/Descriptive_statistics)
-- [Frederick Mosteller](https://en.wikipedia.org/wiki/Frederick_Mosteller)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Internet Archive](https://en.wikipedia.org/wiki/Internet_Archive)
-- [Interquartile range](https://en.wikipedia.org/wiki/Interquartile_range)
-- [John Tukey](https://en.wikipedia.org/wiki/John_Tukey)
-- [L-estimator](https://en.wikipedia.org/wiki/L-estimator)
-- [Library of Congress Control Number](https://en.wikipedia.org/wiki/Library_of_Congress_Control_Number)
-- [Level of measurement](https://en.wikipedia.org/wiki/Level_of_measurement)
-- [Median](https://en.wikipedia.org/wiki/Median)
-- [Mid-range](https://en.wikipedia.org/wiki/Mid-range)
-- [Midhinge](https://en.wikipedia.org/wiki/Midhinge)
-- [OCLC](https://en.wikipedia.org/wiki/OCLC)
-- [Open Library](https://en.wikipedia.org/wiki/Open_Library)
-- [Order statistic](https://en.wikipedia.org/wiki/Order_statistic)
-- [Percentile](https://en.wikipedia.org/wiki/Percentile)
-- [Probability distribution](https://en.wikipedia.org/wiki/Probability_distribution)
-- [Quartile](https://en.wikipedia.org/wiki/Quartile)
-- [R (programming language)](https://en.wikipedia.org/wiki/R_(programming_language))
-- [Range (statistics)](https://en.wikipedia.org/wiki/Range_(statistics))
-- [SAS (software)](https://en.wikipedia.org/wiki/SAS_(software))
-- [Sample maximum and minimum](https://en.wikipedia.org/wiki/Sample_maximum_and_minimum)
-- [Sample maximum and minimum](https://en.wikipedia.org/wiki/Sample_maximum_and_minimum)
-- [Seven-number summary](https://en.wikipedia.org/wiki/Seven-number_summary)
-- [Solar System](https://en.wikipedia.org/wiki/Solar_System)
-- [Three-point estimation](https://en.wikipedia.org/wiki/Three-point_estimation)
-- [Trimean](https://en.wikipedia.org/wiki/Trimean)
-- [Univariate](https://en.wikipedia.org/wiki/Univariate)
-- [Wiley (publisher)](https://en.wikipedia.org/wiki/Wiley_(publisher))
-- [Wikipedia:Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Help:Referencing for beginners](https://en.wikipedia.org/wiki/Help:Referencing_for_beginners)
-- [Category:Articles needing additional references from January 2013](https://en.wikipedia.org/wiki/Category:Articles_needing_additional_references_from_January_2013)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:24:55.765004+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 15:18:36 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 3367 bytes
+- **Word Count:** 555 words

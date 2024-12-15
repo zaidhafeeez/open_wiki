@@ -1,18 +1,20 @@
 # Delta timing
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:22:29.141441+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 07:24:46 UTC
 - **Original Article:** [Delta timing](https://en.wikipedia.org/wiki/Delta_timing)
 - **Language:** en
 - **Page ID:** 25586985
 
 ## Summary
-
 Delta time or delta timing is a concept used amongst programmers in relation to hardware and network responsiveness. In graphics programming, the term is usually used for variably updating scenery based on the elapsed time since the game last updated, (i.e. the previous "frame") which will vary depending on the speed of the computer, and how much work needs to be done in the program at any given time.  This also allows graphics to be calculated separately if graphics are being multi-threaded.
-In
+In network programming, due to the unpredictable nature of internet connections, delta timing is used in a similar way to variably update the movement information received via the computer network, regardless of how long it took to receive the next data packet of movement information.
+It is often done by calling a timer every frame per second that holds the time between now and last call. Thereafter the resulting number (delta time) is used to calculate how far, for instance, a video game character would have travelled during that time.  This results in the character taking the same amount of real world time to move across the screen regardless of the rate of update, and whether the delay is caused by lack of processing power or a slow internet connection.
+In graphics programming, this avoids the gameplay slowing down or speeding up depending on the complexity of what is happening at any given time, which would make for an inconsistent, jarring experience (e.g. time slowing down the more characters walk onto the screen, or running too fast because only one character is on screen).  In network programming, this keeps the game world of each computer in sync with the others, by making sure each client eventually sees the same activity at the same time, even if more time has passed since the last update for some clients than others.
+Big enough delays will eventually negatively affect the gameplay experience, but using Delta Time keeps the gameplay consistent so long as the computer and internet connection meet the minimum hardware requirements of the game.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:Articles with example Python (programming language) code
 - Category:Articles with short description
@@ -53,26 +55,9 @@ Latency (engineering)
 
 == References ==
 
-## Related Articles
-
-### Internal Links
-
-- [Computer graphics](https://en.wikipedia.org/wiki/Computer_graphics)
-- [Computer hardware](https://en.wikipedia.org/wiki/Computer_hardware)
-- [Computer network](https://en.wikipedia.org/wiki/Computer_network)
-- [Network packet](https://en.wikipedia.org/wiki/Network_packet)
-- [Delta timing](https://en.wikipedia.org/wiki/Delta_timing)
-- [Delta time (disambiguation)](https://en.wikipedia.org/wiki/Delta_time_(disambiguation))
-- [Frame rate](https://en.wikipedia.org/wiki/Frame_rate)
-- [Gameplay](https://en.wikipedia.org/wiki/Gameplay)
-- [Graphics](https://en.wikipedia.org/wiki/Graphics)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Internet access](https://en.wikipedia.org/wiki/Internet_access)
-- [Latency (engineering)](https://en.wikipedia.org/wiki/Latency_(engineering))
-- [Computer network programming](https://en.wikipedia.org/wiki/Computer_network_programming)
-- [Programmer](https://en.wikipedia.org/wiki/Programmer)
-- [Video game](https://en.wikipedia.org/wiki/Video_game)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:22:29.141441+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 15:18:25 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 5193 bytes
+- **Word Count:** 841 words

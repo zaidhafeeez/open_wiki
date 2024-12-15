@@ -1,17 +1,17 @@
 # Generator (computer programming)
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:26:50.724402+00:00
+## Metadata
+- **Last Updated:** 2024-12-10 16:05:10 UTC
 - **Original Article:** [Generator (computer programming)](https://en.wikipedia.org/wiki/Generator_(computer_programming))
 - **Language:** en
 - **Page ID:** 572997
 
 ## Summary
-
-In computer science, a generator is a routine that can be used to control the iteration behaviour of a loop. All generators are also iterators. A generator is very similar to a function that returns an array, in that a generator has parameters, can be called, and generates a sequence of values. However, instead of building an array containing all the values and returning them all at once, a generator yields the values one at a time, which requires less memory and allows the caller to get started
+In computer science, a generator is a routine that can be used to control the iteration behaviour of a loop. All generators are also iterators. A generator is very similar to a function that returns an array, in that a generator has parameters, can be called, and generates a sequence of values. However, instead of building an array containing all the values and returning them all at once, a generator yields the values one at a time, which requires less memory and allows the caller to get started processing the first few values immediately. In short, a generator looks like a function but behaves like an iterator.
+Generators can be implemented in terms of more expressive control flow constructs, such as coroutines or first-class continuations. Generators, also known as semicoroutines, are a special case of (and weaker than) coroutines, in that they always yield control back to the caller (when passing a value back), rather than specifying a coroutine to jump to; see comparison of coroutines with generators.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles needing additional references
 - Category:Articles needing additional references from July 2007
@@ -172,74 +172,9 @@ Notes
 References
 Stephan Murer, Stephen Omohundro, David Stoutamire and Clemens Szyperski: Iteration abstraction in Sather.  ACM Transactions on Programming Languages and Systems, 18(1):1-15 (1996) [1]
 
-## Related Articles
-
-### Internal Links
-
-- [Anonymous pipe](https://en.wikipedia.org/wiki/Anonymous_pipe)
-- [Array (data structure)](https://en.wikipedia.org/wiki/Array_(data_structure))
-- [Barbara Liskov](https://en.wikipedia.org/wiki/Barbara_Liskov)
-- [C++11](https://en.wikipedia.org/wiki/C%2B%2B11)
-- [CLU (programming language)](https://en.wikipedia.org/wiki/CLU_(programming_language))
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [C Sharp (programming language)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
-- [CiteSeerX](https://en.wikipedia.org/wiki/CiteSeerX)
-- [Common Lisp](https://en.wikipedia.org/wiki/Common_Lisp)
-- [Computer memory](https://en.wikipedia.org/wiki/Computer_memory)
-- [Computer science](https://en.wikipedia.org/wiki/Computer_science)
-- [Concurrency (computer science)](https://en.wikipedia.org/wiki/Concurrency_(computer_science))
-- [Context switch](https://en.wikipedia.org/wiki/Context_switch)
-- [Continuation](https://en.wikipedia.org/wiki/Continuation)
-- [Control flow](https://en.wikipedia.org/wiki/Control_flow)
-- [Corecursion](https://en.wikipedia.org/wiki/Corecursion)
-- [Coroutine](https://en.wikipedia.org/wiki/Coroutine)
-- [Coroutine](https://en.wikipedia.org/wiki/Coroutine)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [ECMAScript](https://en.wikipedia.org/wiki/ECMAScript)
-- [Execution (computing)](https://en.wikipedia.org/wiki/Execution_(computing))
-- [F Sharp (programming language)](https://en.wikipedia.org/wiki/F_Sharp_(programming_language))
-- [F Sharp (programming language)](https://en.wikipedia.org/wiki/F_Sharp_(programming_language))
-- [Foreach loop](https://en.wikipedia.org/wiki/Foreach_loop)
-- [Function (computer programming)](https://en.wikipedia.org/wiki/Function_(computer_programming))
-- [Generator](https://en.wikipedia.org/wiki/Generator)
-- [Golden ratio](https://en.wikipedia.org/wiki/Golden_ratio)
-- [Haskell](https://en.wikipedia.org/wiki/Haskell)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Icon (programming language)](https://en.wikipedia.org/wiki/Icon_(programming_language))
-- [Iteratee](https://en.wikipedia.org/wiki/Iteratee)
-- [Iteration](https://en.wikipedia.org/wiki/Iteration)
-- [Iterator](https://en.wikipedia.org/wiki/Iterator)
-- [Java collections framework](https://en.wikipedia.org/wiki/Java_collections_framework)
-- [Lazy evaluation](https://en.wikipedia.org/wiki/Lazy_evaluation)
-- [List (abstract data type)](https://en.wikipedia.org/wiki/List_(abstract_data_type))
-- [List comprehension](https://en.wikipedia.org/wiki/List_comprehension)
-- [Logical disjunction](https://en.wikipedia.org/wiki/Logical_disjunction)
-- [Evaluation strategy](https://en.wikipedia.org/wiki/Evaluation_strategy)
-- [Object (computer science)](https://en.wikipedia.org/wiki/Object_(computer_science))
-- [PHP](https://en.wikipedia.org/wiki/PHP)
-- [Parallel computing](https://en.wikipedia.org/wiki/Parallel_computing)
-- [Parameter (computer programming)](https://en.wikipedia.org/wiki/Parameter_(computer_programming))
-- [Parameter (computer programming)](https://en.wikipedia.org/wiki/Parameter_(computer_programming))
-- [Pharo](https://en.wikipedia.org/wiki/Pharo)
-- [Pthreads](https://en.wikipedia.org/wiki/Pthreads)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Racket (programming language)](https://en.wikipedia.org/wiki/Racket_(programming_language))
-- [Ruby (programming language)](https://en.wikipedia.org/wiki/Ruby_(programming_language))
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [Sather](https://en.wikipedia.org/wiki/Sather)
-- [F Sharp (programming language)](https://en.wikipedia.org/wiki/F_Sharp_(programming_language))
-- [Call stack](https://en.wikipedia.org/wiki/Call_stack)
-- [Steve Omohundro](https://en.wikipedia.org/wiki/Steve_Omohundro)
-- [Stream (computing)](https://en.wikipedia.org/wiki/Stream_(computing))
-- [Function (computer programming)](https://en.wikipedia.org/wiki/Function_(computer_programming))
-- [Tcl](https://en.wikipedia.org/wiki/Tcl)
-- [Christophe de Dinechin](https://en.wikipedia.org/wiki/Christophe_de_Dinechin)
-- [Wikipedia:Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)
-- [Help:Authority control](https://en.wikipedia.org/wiki/Help:Authority_control)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Help:Referencing for beginners](https://en.wikipedia.org/wiki/Help:Referencing_for_beginners)
-- [Category:Articles needing additional references from July 2007](https://en.wikipedia.org/wiki/Category:Articles_needing_additional_references_from_July_2007)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:26:50.724402+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 15:18:46 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 11043 bytes
+- **Word Count:** 1746 words

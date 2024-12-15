@@ -1,17 +1,18 @@
 # Evaluation strategy
 
-## Article Metadata
-
-- **Last Updated:** 2024-12-15T04:22:28.780424+00:00
+## Metadata
+- **Last Updated:** 2024-12-03 06:59:39 UTC
 - **Original Article:** [Evaluation strategy](https://en.wikipedia.org/wiki/Evaluation_strategy)
 - **Language:** en
 - **Page ID:** 2977119
 
 ## Summary
-
-In a programming language, an evaluation strategy is a set of rules for evaluating expressions. The term is often used to refer to the more specific notion of a parameter-passing strategy that defines the kind of value that is passed to the function for each parameter (the binding strategy) and whether to evaluate the parameters of a function call, and if so in what order (the evaluation order). The notion of reduction strategy is distinct, although some authors conflate the two terms and the de
+In a programming language, an evaluation strategy is a set of rules for evaluating expressions. The term is often used to refer to the more specific notion of a parameter-passing strategy that defines the kind of value that is passed to the function for each parameter (the binding strategy) and whether to evaluate the parameters of a function call, and if so in what order (the evaluation order). The notion of reduction strategy is distinct, although some authors conflate the two terms and the definition of each term is not widely agreed upon.
+To illustrate, executing a function call f(a,b) may first evaluate the arguments a and b, store the results in references or memory locations ref_a and ref_b, then evaluate the function's body with those references passed in. This gives the function the ability to look up the original argument values passed in through dereferencing the parameters (some languages use specific operators to perform this), to modify them via assignment as if they were local variables, and to return values via the references. This is the call-by-reference evaluation strategy.
+Evaluation strategy is part of the semantics of the programming language definition. Some languages, such as PureScript, have variants with different evaluation strategies. Some declarative languages, such as Datalog, support multiple evaluation strategies. Some languages define a calling convention.
 
 ## Categories
+This article belongs to the following categories:
 
 - Category:All articles lacking in-text citations
 - Category:Articles lacking in-text citations from April 2012
@@ -157,129 +158,9 @@ Sestoft, Peter (2002). Mogensen, T; Schmidt, D; Sudborough, I. H. (eds.). Demons
 External links
 The interactive on-line Geometry of Interaction visualiser, implementing a graph-based machine for several common evaluation strategies.
 
-## Related Articles
-
-### Internal Links
-
-- [.NET](https://en.wikipedia.org/wiki/.NET)
-- [ALGOL](https://en.wikipedia.org/wiki/ALGOL)
-- [ALGOL 60](https://en.wikipedia.org/wiki/ALGOL_60)
-- [Abstract machine](https://en.wikipedia.org/wiki/Abstract_machine)
-- [Abstract syntax tree](https://en.wikipedia.org/wiki/Abstract_syntax_tree)
-- [Ada (programming language)](https://en.wikipedia.org/wiki/Ada_(programming_language))
-- [Aliasing (computing)](https://en.wikipedia.org/wiki/Aliasing_(computing))
-- [Anonymous function](https://en.wikipedia.org/wiki/Anonymous_function)
-- [AppleScript](https://en.wikipedia.org/wiki/AppleScript)
-- [Assignment (computer science)](https://en.wikipedia.org/wiki/Assignment_(computer_science))
-- [Async/await](https://en.wikipedia.org/wiki/Async/await)
-- [Barbara Liskov](https://en.wikipedia.org/wiki/Barbara_Liskov)
-- [Benjamin C. Pierce](https://en.wikipedia.org/wiki/Benjamin_C._Pierce)
-- [Beta normal form](https://en.wikipedia.org/wiki/Beta_normal_form)
-- [Boxing (computer programming)](https://en.wikipedia.org/wiki/Boxing_(computer_programming))
-- [C++](https://en.wikipedia.org/wiki/C%2B%2B)
-- [C++17](https://en.wikipedia.org/wiki/C%2B%2B17)
-- [CLU (programming language)](https://en.wikipedia.org/wiki/CLU_(programming_language))
-- [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
-- [C Sharp (programming language)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
-- [Call-by-push-value](https://en.wikipedia.org/wiki/Call-by-push-value)
-- [Call stack](https://en.wikipedia.org/wiki/Call_stack)
-- [Calling convention](https://en.wikipedia.org/wiki/Calling_convention)
-- [Lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus)
-- [CiteSeerX](https://en.wikipedia.org/wiki/CiteSeerX)
-- [Comparison of programming languages](https://en.wikipedia.org/wiki/Comparison_of_programming_languages)
-- [Concurrency (computer science)](https://en.wikipedia.org/wiki/Concurrency_(computer_science))
-- [Concurrent computing](https://en.wikipedia.org/wiki/Concurrent_computing)
-- [Const (computer programming)](https://en.wikipedia.org/wiki/Const_(computer_programming))
-- [Coroutine](https://en.wikipedia.org/wiki/Coroutine)
-- [Datalog](https://en.wikipedia.org/wiki/Datalog)
-- [De dicto and de re](https://en.wikipedia.org/wiki/De_dicto_and_de_re)
-- [Declarative programming](https://en.wikipedia.org/wiki/Declarative_programming)
-- [Digital object identifier](https://en.wikipedia.org/wiki/Digital_object_identifier)
-- [Eiffel (programming language)](https://en.wikipedia.org/wiki/Eiffel_(programming_language))
-- [Eval](https://en.wikipedia.org/wiki/Eval)
-- [Fortran](https://en.wikipedia.org/wiki/Fortran)
-- [Fortran](https://en.wikipedia.org/wiki/Fortran)
-- [Futures and promises](https://en.wikipedia.org/wiki/Futures_and_promises)
-- [GNAT](https://en.wikipedia.org/wiki/GNAT)
-- [Geometry of interaction](https://en.wikipedia.org/wiki/Geometry_of_interaction)
-- [Gerald Jay Sussman](https://en.wikipedia.org/wiki/Gerald_Jay_Sussman)
-- [Graph reduction](https://en.wikipedia.org/wiki/Graph_reduction)
-- [Hal Abelson](https://en.wikipedia.org/wiki/Hal_Abelson)
-- [Haskell](https://en.wikipedia.org/wiki/Haskell)
-- [Hygienic macro](https://en.wikipedia.org/wiki/Hygienic_macro)
-- [ISBN](https://en.wikipedia.org/wiki/ISBN)
-- [Immutable object](https://en.wikipedia.org/wiki/Immutable_object)
-- [Instruction scheduling](https://en.wikipedia.org/wiki/Instruction_scheduling)
-- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-- [Java (programming language)](https://en.wikipedia.org/wiki/Java_(programming_language))
-- [Jensen's device](https://en.wikipedia.org/wiki/Jensen%27s_device)
-- [Julia (programming language)](https://en.wikipedia.org/wiki/Julia_(programming_language))
-- [Lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus)
-- [Lazy evaluation](https://en.wikipedia.org/wiki/Lazy_evaluation)
-- [List of CLI languages](https://en.wikipedia.org/wiki/List_of_CLI_languages)
-- [Logic programming](https://en.wikipedia.org/wiki/Logic_programming)
-- [MATLAB](https://en.wikipedia.org/wiki/MATLAB)
-- [MIT Press](https://en.wikipedia.org/wiki/MIT_Press)
-- [ML (programming language)](https://en.wikipedia.org/wiki/ML_(programming_language))
-- [Maple (software)](https://en.wikipedia.org/wiki/Maple_(software))
-- [Memoization](https://en.wikipedia.org/wiki/Memoization)
-- [Microsoft Docs](https://en.wikipedia.org/wiki/Microsoft_Docs)
-- [Monad (functional programming)](https://en.wikipedia.org/wiki/Monad_(functional_programming))
-- [Multiprocessing](https://en.wikipedia.org/wiki/Multiprocessing)
-- [Immutable object](https://en.wikipedia.org/wiki/Immutable_object)
-- [OCaml](https://en.wikipedia.org/wiki/OCaml)
-- [Order of operations](https://en.wikipedia.org/wiki/Order_of_operations)
-- [Parameter (computer programming)](https://en.wikipedia.org/wiki/Parameter_(computer_programming))
-- [PHP](https://en.wikipedia.org/wiki/PHP)
-- [PL/I](https://en.wikipedia.org/wiki/PL/I)
-- [Parameter (computer programming)](https://en.wikipedia.org/wiki/Parameter_(computer_programming))
-- [Partial evaluation](https://en.wikipedia.org/wiki/Partial_evaluation)
-- [Pascal (programming language)](https://en.wikipedia.org/wiki/Pascal_(programming_language))
-- [Pointer (computer programming)](https://en.wikipedia.org/wiki/Pointer_(computer_programming))
-- [Programming language](https://en.wikipedia.org/wiki/Programming_language)
-- [Prolog](https://en.wikipedia.org/wiki/Prolog)
-- [PureScript](https://en.wikipedia.org/wiki/PureScript)
-- [Pure function](https://en.wikipedia.org/wiki/Pure_function)
-- [Purely functional programming](https://en.wikipedia.org/wiki/Purely_functional_programming)
-- [Purely functional programming](https://en.wikipedia.org/wiki/Purely_functional_programming)
-- [Python (programming language)](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [R (programming language)](https://en.wikipedia.org/wiki/R_(programming_language))
-- [Reduction strategy](https://en.wikipedia.org/wiki/Reduction_strategy)
-- [Reference (computer science)](https://en.wikipedia.org/wiki/Reference_(computer_science))
-- [Remote evaluation](https://en.wikipedia.org/wiki/Remote_evaluation)
-- [Remote procedure call](https://en.wikipedia.org/wiki/Remote_procedure_call)
-- [Resolution (logic)](https://en.wikipedia.org/wiki/Resolution_(logic))
-- [Ruby (programming language)](https://en.wikipedia.org/wiki/Ruby_(programming_language))
-- [Execution (computing)](https://en.wikipedia.org/wiki/Execution_(computing))
-- [Semantic Scholar](https://en.wikipedia.org/wiki/Semantic_Scholar)
-- [SASL (programming language)](https://en.wikipedia.org/wiki/SASL_(programming_language))
-- [Scheme (programming language)](https://en.wikipedia.org/wiki/Scheme_(programming_language))
-- [Scope (computer science)](https://en.wikipedia.org/wiki/Scope_(computer_science))
-- [Seed7](https://en.wikipedia.org/wiki/Seed7)
-- [Short-circuit evaluation](https://en.wikipedia.org/wiki/Short-circuit_evaluation)
-- [Side effect (computer science)](https://en.wikipedia.org/wiki/Side_effect_(computer_science))
-- [Simon Peyton Jones](https://en.wikipedia.org/wiki/Simon_Peyton_Jones)
-- [Simula](https://en.wikipedia.org/wiki/Simula)
-- [Strict function](https://en.wikipedia.org/wiki/Strict_function)
-- [Tcl](https://en.wikipedia.org/wiki/Tcl)
-- [Thunk](https://en.wikipedia.org/wiki/Thunk)
-- [Thunk](https://en.wikipedia.org/wiki/Thunk)
-- [Types and Programming Languages](https://en.wikipedia.org/wiki/Types_and_Programming_Languages)
-- [Unification (computer science)](https://en.wikipedia.org/wiki/Unification_(computer_science))
-- [Variable shadowing](https://en.wikipedia.org/wiki/Variable_shadowing)
-- [Visual Basic (.NET)](https://en.wikipedia.org/wiki/Visual_Basic_(.NET))
-- [Wikipedia:Citing sources](https://en.wikipedia.org/wiki/Wikipedia:Citing_sources)
-- [Wikipedia:Please clarify](https://en.wikipedia.org/wiki/Wikipedia:Please_clarify)
-- [Wikipedia:When to cite](https://en.wikipedia.org/wiki/Wikipedia:When_to_cite)
-- [Wikipedia:WikiProject Reliability](https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Reliability)
-- [Template:Cite book](https://en.wikipedia.org/wiki/Template:Cite_book)
-- [Template:Evaluation strategy](https://en.wikipedia.org/wiki/Template:Evaluation_strategy)
-- [Template talk:Evaluation strategy](https://en.wikipedia.org/wiki/Template_talk:Evaluation_strategy)
-- [Help:CS1 errors](https://en.wikipedia.org/wiki/Help:CS1_errors)
-- [Help:Maintenance template removal](https://en.wikipedia.org/wiki/Help:Maintenance_template_removal)
-- [Category:Articles lacking in-text citations from April 2012](https://en.wikipedia.org/wiki/Category:Articles_lacking_in-text_citations_from_April_2012)
-- [Category:Wikipedia articles needing clarification from June 2023](https://en.wikipedia.org/wiki/Category:Wikipedia_articles_needing_clarification_from_June_2023)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:22:28.780424+00:00_
+## Archive Info
+- **Archived on:** 2024-12-15 15:18:33 UTC
+- **Archive Source:** Wikipedia (_en_)
+- **Total References:** 0
+- **Article Size:** 22229 bytes
+- **Word Count:** 3449 words
