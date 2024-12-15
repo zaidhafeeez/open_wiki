@@ -2,7 +2,7 @@
 
 ## Article Metadata
 
-- **Last Updated:** 2024-12-15T04:15:16.916319+00:00
+- **Last Updated:** 2024-12-15T15:04:48.427022+00:00
 - **Original Article:** [DEAP (software)](https://en.wikipedia.org/wiki/DEAP_(software))
 - **Language:** en
 - **Page ID:** 39447416
@@ -28,25 +28,7 @@ Distributed Evolutionary Algorithms in Python (DEAP) is an evolutionary computat
 - References
 - External links
 
-## Content
-
-Distributed Evolutionary Algorithms in Python (DEAP) is an evolutionary computation framework for rapid prototyping and testing of ideas. It incorporates the data structures and tools required to implement most common evolutionary computation techniques such as genetic algorithm, genetic programming, evolution strategies, particle swarm optimization, differential evolution, traffic flow and estimation of distribution algorithm. It is developed at Université Laval since 2009.
-
-Example
-The following code gives a quick overview how the Onemax problem optimization with genetic algorithm can be implemented with DEAP.
-
-See also
-Python SCOOP (software)
- Free software portal
-
-References
-External links
-Official website
-deap on GitHub
-
 ## Related Articles
-
-### Internal Links
 
 - [Cross-platform software](https://en.wikipedia.org/wiki/Cross-platform_software)
 - [Differential evolution](https://en.wikipedia.org/wiki/Differential_evolution)
@@ -75,7 +57,3 @@ deap on GitHub
 - [Help:Referencing for beginners](https://en.wikipedia.org/wiki/Help:Referencing_for_beginners)
 - [Category:Articles needing additional references from September 2015](https://en.wikipedia.org/wiki/Category:Articles_needing_additional_references_from_September_2015)
 - [Portal:Free and open-source software](https://en.wikipedia.org/wiki/Portal:Free_and_open-source_software)
-
----
-_This article is part of the Python Programming Language wiki archive._
-_Retrieved and archived on: 2024-12-15T04:15:16.916319+00:00_
