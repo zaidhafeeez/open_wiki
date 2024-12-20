@@ -1,0 +1,163 @@
+name: Wikipedia Article Archiver
+
+on:
+  schedule:
+    # Run daily at midnight UTC
+    - cron: '0 0 * * *'
+  
+  # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      category:
+        description: 'Wikipedia Category to Archive'
+        required: false
+        default: 'Python (programming language)'
+      depth:
+        description: 'Maximum Category Depth'
+        required: false
+        default: '2'
+
+env:
+  PYTHON_VERSION: '3.9'
+  CATEGORY: ${{ github.event.inputs.category || 'Python (programming language)' }}
+  MAX_DEPTH: ${{ github.event.inputs.depth || '2' }}
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 🏁 Checkout Repository
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0  # Fetch full history for all branches
+    
+    - name: 🐍 Set up Python ${{ env.PYTHON_VERSION }}
+      uses: actions/setup-python@v3
+      with:
+        python-version: ${{ env.PYTHON_VERSION }}
+        cache: 'pip'
+    
+    - name: 📦 Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    
+    - name: 🔍 Validate Configuration
+      run: |
+        python -m pip install pylint
+        pylint wiki_archiver
+    
+    - name: 🚀 Run Wikipedia Archiver
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        python script.py -c "${{ env.CATEGORY }}" -d "${{ env.MAX_DEPTH }}"
+    
+    - name: 📊 Generate Archive Report
+      run: |
+        python -c "
+import os
+import json
+from datetime import datetime
+
+def count_articles(base_dir):
+    total_articles = 0
+    for root, dirs, files in os.walk(base_dir):
+        total_articles += len([f for f in files if f.endswith('.md')])
+    return total_articles
+
+report = {
+    'timestamp': datetime.utcnow().isoformat(),
+    'category': '${{ env.CATEGORY }}',
+    'max_depth': ${{ env.MAX_DEPTH }},
+    'total_articles': count_articles('wiki_articles'),
+    'run_url': '${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}'
+}
+
+with open('archive_report.json', 'w') as f:
+    json.dump(report, f, indent=2)
+        "
+    
+    - name: 🔄 Commit Changes
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        git config user.name 'GitHub Actions Bot'
+        git config user.email 'actions@github.com'
+        
+        # Stage new articles
+        git add wiki_articles/ archive_report.json
+        
+        # Check if there are changes
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+          exit 0
+        fi
+        
+        # Commit and push
+        git commit -m "Update Wikipedia Articles: $(date +'%Y-%m-%d')"
+        git push
+    
+    - name: 📈 Upload Archive Report
+      uses: actions/upload-artifact@v3
+      with:
+        name: archive-report
+        path: archive_report.json
+        retention-days: 30
+
+  # Optional: Run tests
+  test:
+    needs: archive
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 🏁 Checkout Repository
+      uses: actions/checkout@v3
+    
+    - name: 🐍 Set up Python ${{ env.PYTHON_VERSION }}
+      uses: actions/setup-python@v3
+      with:
+        python-version: ${{ env.PYTHON_VERSION }}
+    
+    - name: 📦 Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install pytest
+    
+    - name: 🧪 Run Tests
+      run: |
+        pytest tests/
+      continue-on-error: true  # Allow workflow to continue even if tests fail
+
+  # Optional: Security scanning
+  security-scan:
+    needs: archive
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 🏁 Checkout Repository
+      uses: actions/checkout@v3
+    
+    - name: 🛡️ Run Bandit Security Linter
+      run: |
+        pip install bandit
+        bandit -r wiki_archiver -f custom
+      continue-on-error: true
+
+# Notify on workflow completion
+  notify:
+    needs: [archive, test, security-scan]
+    if: always()
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 📧 Send Workflow Status
+      uses: 8398a7/action-slack@v3
+      with:
+        status: ${{ job.status }}
+        fields: repo,message,commit,author,action,eventName,ref,workflow
+      env:
+        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
+      if: failure()  # Only send notifications on failure

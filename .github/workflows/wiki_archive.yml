@@ -4,67 +4,113 @@ on:
   schedule:
     - cron: "0 0 * * *" # Run daily at midnight UTC
   workflow_dispatch: # Allow manual trigger
+    inputs:
+      category:
+        description: 'Wikipedia Category to Archive'
+        required: false
+        default: 'Python (programming language)'
+      depth:
+        description: 'Maximum Category Depth'
+        required: false
+        default: '2'
+
+env:
+  PYTHON_VERSION: '3.9'
+  CATEGORY: ${{ github.event.inputs.category || 'Python (programming language)' }}
+  MAX_DEPTH: ${{ github.event.inputs.depth || '2' }}
 
 jobs:
   update-wiki-archive:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
 
     concurrency:
       group: wiki-archive-${{ github.ref }}
       cancel-in-progress: true
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0 # Fetch all history for proper updates
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
-          cache: "pip" # Enable pip cache
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: "pip"
 
-      - name: Cache Python dependencies and progress
+      - name: Cache Dependencies and Progress
         uses: actions/cache@v4
         with:
           path: |
             ~/.cache/pip
             ~/.local/lib/python*/site-packages
-            wiki_articles/  # Cache the articles directory
-            archive_progress.json  # Cache the progress file
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}-articles-${{ github.sha }}
+            wiki_articles/
+            archive_progress.json
+          key: ${{ runner.os }}-wiki-archive-${{ hashFiles('**/requirements.txt') }}-${{ github.sha }}
           restore-keys: |
-            ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}-articles-
-            ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}-
-            ${{ runner.os }}-pip-
+            ${{ runner.os }}-wiki-archive-${{ hashFiles('**/requirements.txt') }}-
+            ${{ runner.os }}-wiki-archive-
 
       - name: Configure Git
         run: |
-          git config --global user.name "zaidhafeeez"
-          git config --global user.email "188496560+zaidhafeeez@users.noreply.github.com"
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          pip install pylint pytest
+
+      - name: Validate Configuration
+        run: |
+          pylint wiki_archiver
 
       - name: Run Wiki Archive Script
-        run: python script.py
         env:
-          PYTHONUNBUFFERED: 1 # Enable real-time logging
-          PYTHONIOENCODING: utf-8 # Ensure proper encoding
+          PYTHONUNBUFFERED: 1
+          PYTHONIOENCODING: utf-8
+        run: |
+          python script.py -c "${{ env.CATEGORY }}" -d "${{ env.MAX_DEPTH }}"
 
-      # - name: Update Progress in README
-      #   run: |
-      #     python update_progress.py
-      #     if [[ -n "$(git status --porcelain README.md)" ]]; then
-      #       echo "readme_updated=true" >> $GITHUB_OUTPUT
-      #     else
-      #       echo "readme_updated=false" >> $GITHUB_OUTPUT
-      #     fi
-      #   id: update_progress
+      - name: Generate Archive Report
+        run: |
+          python -c "
+          import os
+          import json
+          from datetime import datetime
 
-      - name: Check for changes
+          def count_articles(base_dir):
+              total_articles = 0
+              for root, dirs, files in os.walk(base_dir):
+                  total_articles += len([f for f in files if f.endswith('.md')])
+              return total_articles
+
+          report = {
+              'timestamp': datetime.utcnow().isoformat(),
+              'category': '${{ env.CATEGORY }}',
+              'max_depth': ${{ env.MAX_DEPTH }},
+              'total_articles': count_articles('wiki_articles'),
+              'run_url': '${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}'
+          }
+
+            with open('archive_report.json', 'w') as f:
+              json.dump(report, f, indent=2)
+          "
+
+      - name: Run Tests
+        run: |
+          pytest tests/
+        continue-on-error: true
+
+      - name: Security Scan
+        run: |
+          pip install bandit
+          bandit -r wiki_archiver -f custom
+        continue-on-error: true
+
+      - name: Check for Changes
         id: check_changes
         run: |
           if [[ -n "$(git status --porcelain wiki_articles/)" ]]; then
@@ -75,16 +121,17 @@ jobs:
             echo "changed_files=0" >> $GITHUB_OUTPUT
           fi
 
-      - name: Commit and push if there are changes
+      - name: Commit and Push Changes
         if: steps.check_changes.outputs.changes == 'true'
         run: |
-          git add wiki_articles/
+          git add wiki_articles/ archive_report.json
 
           current_date=$(date +'%Y-%m-%d')
 
           git commit -m "Update wiki articles - $current_date" \
                     -m "Automated update of Wikipedia articles" \
-                    -m "Category: Python (programming language)" \
+                    -m "Category: ${{ env.CATEGORY }}" \
+                    -m "Depth: ${{ env.MAX_DEPTH }}" \
                     -m "Files changed: ${{ steps.check_changes.outputs.changed_files }}"
 
           git config http.postBuffer 524288000
@@ -92,7 +139,23 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Cleanup old cache
+      - name: Cleanup
         run: |
           rm -f archive_progress.json
           git gc --aggressive --prune=now
+
+      - name: Upload Archive Report
+        uses: actions/upload-artifact@v3
+        with:
+          name: archive-report
+          path: archive_report.json
+          retention-days: 30
+
+      - name: Notify on Failure
+        if: failure()
+        uses: 8398a7/action-slack@v3
+        with:
+          status: ${{ job.status }}
+          fields: repo,message,commit,author,action,eventName,ref,workflow
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}  # Optional: configure if you want Slack notifications
