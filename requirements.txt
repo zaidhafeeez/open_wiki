@@ -4,4 +4,4 @@ tqdm==4.66.3
 python-dotenv==1.0.0
 requests==2.32.2
 flask==2.3.2
-flask-cors==4.0.0
+flask-cors==4.0.2
