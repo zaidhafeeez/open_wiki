@@ -2,7 +2,7 @@
 """
 Main script for Wikipedia Article Archiver.
 
-This script archives Wikipedia articles from a specified category.
+This script archives Wikipedia articles from specified categories.
 """
 
 import sys
@@ -26,9 +26,10 @@ def parse_arguments():
     """
     parser = argparse.ArgumentParser(description="Wikipedia Article Archiver")
     parser.add_argument(
-        "-c", "--category", 
-        default=CATEGORY, 
-        help="Wikipedia category to archive"
+        "-c", "--categories", 
+        nargs='+',  # Allow multiple categories
+        default=CATEGORIES, 
+        help="Wikipedia categories to archive (space-separated)"
     )
     parser.add_argument(
         "-l", "--language", 
@@ -66,7 +67,7 @@ def main():
         # Initialize archiver
         archiver = WikiArchiver(
             language=args.language, 
-            category=args.category, 
+            categories=args.categories, 
             max_depth=args.depth
         )
         
@@ -76,9 +77,9 @@ def main():
         
         # Start archiving
         start_time = datetime.now()
-        logger.info(f"Starting archive for category: {args.category}")
+        logger.info(f"Starting archive for categories: {args.categories}")
         
-        archiver.scrape_category(args.category)
+        archiver.scrape_categories()  # Use new method for multiple categories
         
         # Save progress
         archiver.save_progress()

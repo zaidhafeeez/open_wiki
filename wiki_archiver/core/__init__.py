@@ -8,29 +8,29 @@ import os
 import json
 import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
-import wikipedia_api
+import wikipediaapi
 
 from ..config import *
 from ..utils import get_safe_path, retry_with_backoff, ensure_directory
 from ..logging import logger
 
 class WikiArchiver:
-    def __init__(self, language=LANGUAGE, category=CATEGORY, max_depth=MAX_DEPTH):
+    def __init__(self, language=LANGUAGE, categories=CATEGORIES, max_depth=MAX_DEPTH):
         """
         Initialize the Wikipedia archiver.
         
         Args:
             language (str): Language of Wikipedia articles
-            category (str): Starting category to archive
+            categories (list): List of categories to archive
             max_depth (int): Maximum recursion depth for category processing
         """
         self.language = language
-        self.category = category
+        self.categories = categories if isinstance(categories, list) else [categories]
         self.max_depth = max_depth
         
-        self.wiki_wiki = wikipedia_api.Wikipedia(
+        self.wiki_wiki = wikipediaapi.Wikipedia(
             language=self.language,
-            extract_format=wikipedia_api.ExtractFormat.WIKI,
+            extract_format=wikipediaapi.ExtractFormat.WIKI,
             user_agent=USER_AGENT
         )
         
@@ -174,21 +174,40 @@ last_modified: {metadata['last_modified']}
         subcategories = set()
         
         for title, page in category_page.categorymembers.items():
-            if page.ns == wikipedia_api.Namespace.CATEGORY:
+            if page.ns == wikipediaapi.Namespace.CATEGORY:
                 subcategories.add(page.title.replace("Category:", ""))
-            elif page.ns == wikipedia_api.Namespace.MAIN:
+            elif page.ns == wikipediaapi.Namespace.MAIN:
                 articles.add(page.title)
         
         return articles, subcategories
     
+    def scrape_categories(self):
+        """
+        Process multiple categories in parallel.
+        """
+        with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+            futures = [
+                executor.submit(self.scrape_category, category)
+                for category in self.categories
+            ]
+            
+            # Wait for all categories to be processed
+            for future in as_completed(futures):
+                try:
+                    future.result()
+                except Exception as e:
+                    logger.error(f"Error processing category: {e}")
+    
     def scrape_category(self, category_name, depth=0):
         """
-        Process categories and articles in parallel.
+        Process a single category and its subcategories.
         
         Args:
             category_name (str): Name of the category to process
             depth (int): Current depth level
         """
+        logger.info(f"Processing category: {category_name}")
+        
         if depth > self.max_depth:
             return
         
@@ -202,14 +221,12 @@ last_modified: {metadata['last_modified']}
                 for article in articles
             ]
             
+            # Wait for all articles to be processed
             for future in as_completed(futures):
-                success, article_title = future.result()
-                if not success:
-                    self.error_count += 1
-                
-                if self.error_count >= MAX_ERRORS:
-                    logger.error("Maximum error count reached. Stopping processing.")
-                    break
+                try:
+                    future.result()
+                except Exception as e:
+                    logger.error(f"Error processing article: {e}")
         
         # Recursively process subcategories
         for subcategory in subcategories:

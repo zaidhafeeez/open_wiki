@@ -4,10 +4,10 @@ Test suite for Wikipedia Article Archiver
 
 import os
 import pytest
-import wikipedia_api as wikipediaapi
+import wikipediaapi
 
 from wiki_archiver.core import WikiArchiver
-from wiki_archiver.config import LANGUAGE, CATEGORY, MAX_DEPTH
+from wiki_archiver.config import LANGUAGE, CATEGORIES, MAX_DEPTH
 from wiki_archiver.utils import get_safe_path, ensure_directory
 
 def test_safe_path_generation():
@@ -32,12 +32,12 @@ def test_wiki_archiver_initialization():
     """Test WikiArchiver class initialization"""
     archiver = WikiArchiver(
         language=LANGUAGE, 
-        category=CATEGORY, 
+        categories=CATEGORIES, 
         max_depth=MAX_DEPTH
     )
     
     assert archiver.language == LANGUAGE
-    assert archiver.category == CATEGORY
+    assert archiver.categories == CATEGORIES
     assert archiver.max_depth == MAX_DEPTH
     assert hasattr(archiver, 'wiki_wiki')
 
@@ -63,7 +63,8 @@ def test_category_processing():
     """Test category processing method"""
     archiver = WikiArchiver(max_depth=1)
     
-    articles, subcategories = archiver.process_category(CATEGORY)
+    # Test with first category in the list
+    articles, subcategories = archiver.process_category(CATEGORIES[0])
     
     assert isinstance(articles, set)
     assert isinstance(subcategories, set)
@@ -90,8 +91,8 @@ def test_error_handling():
     """Test error handling in article processing"""
     archiver = WikiArchiver()
     
-    # Test non-existent article
-    success, title = archiver.process_article("Non-Existent Article", CATEGORY, 0)
+    # Test with first category in the list
+    success, title = archiver.process_article("Non-Existent Article", CATEGORIES[0], 0)
     
     assert not success
     assert title == "Non-Existent Article"
@@ -102,7 +103,7 @@ def test_parallel_processing():
     archiver = WikiArchiver(max_depth=1)
     
     # This will test the scrape_category method's parallel processing
-    archiver.scrape_category(CATEGORY)
+    archiver.scrape_category(CATEGORIES[0])
     
     # Check that some articles were processed
     assert len(archiver.processed_articles) > 0

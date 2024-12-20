@@ -8,7 +8,12 @@ import os
 
 # Core Configuration
 LANGUAGE = "en"
-CATEGORY = "Python (programming language)"
+CATEGORIES = [
+    "Python (programming language)",
+    "Python programming language",
+    "Python software",
+    "Python programming language topics"
+]
 MAX_DEPTH = 1
 OUTPUT_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "wiki_articles")
 
