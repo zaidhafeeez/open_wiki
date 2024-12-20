@@ -13,6 +13,7 @@ import wikipediaapi
 from ..config import *
 from ..utils import get_safe_path, retry_with_backoff, ensure_directory
 from ..logging import logger
+from datetime import datetime
 
 class WikiArchiver:
     def __init__(self, language=LANGUAGE, categories=CATEGORIES, max_depth=MAX_DEPTH):
@@ -232,26 +233,31 @@ last_modified: {metadata['last_modified']}
         for subcategory in subcategories:
             self.scrape_category(subcategory, depth + 1)
     
-    def save_progress(self, processed_categories=None):
+    def save_progress(self):
         """
-        Save progress to a JSON file.
+    Save the current progress of article archiving.
+    
+    Handles potential errors during progress saving.
+    """
+    try:
+        progress = {
+            'processed': list(self.processed_articles),
+            'last_category': self.categories[-1] if self.categories else None,
+            'last_updated': datetime.utcnow().isoformat(),
+            'category_stats': getattr(self, 'category_stats', {})
+        }
         
-        Args:
-            processed_categories (list, optional): List of processed categories
-        """
-        try:
-            progress_data = {
-                'processed_articles': list(self.processed_articles),
-                'processed_categories': processed_categories or [],
-                'timestamp': datetime.now().isoformat()
-            }
-            
-            with open(PROGRESS_FILE, 'w', encoding='utf-8') as f:
-                json.dump(progress_data, f, indent=4)
-            
-            logger.info("Progress saved successfully.")
-        except Exception as e:
-            logger.error(f"Error saving progress: {e}")
+        # Ensure output directory exists
+        ensure_directory(OUTPUT_DIR)
+        
+        # Save progress to JSON file
+        progress_file = os.path.join(OUTPUT_DIR, 'archive_progress.json')
+        with open(progress_file, 'w', encoding='utf-8') as f:
+            json.dump(progress, f, indent=2)
+        
+        logger.info(f"Progress saved to {progress_file}")
+    except Exception as e:
+        logger.error(f"Error saving progress: {e}")
     
     def load_progress(self):
         """
@@ -268,4 +274,3 @@ last_modified: {metadata['last_modified']}
         except Exception as e:
             logger.error(f"Error loading progress: {e}")
             return {}
-from datetime import datetime
