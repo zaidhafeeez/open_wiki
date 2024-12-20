@@ -95,6 +95,21 @@ Current archiving progress by category:
 - [ ] ⚙️ Custom category configuration
 - [ ] 🔌 API for programmatic access
 
+## Programmatic Access
+
+For detailed information about programmatically using the Wikipedia Article Archiver, please refer to the [API Documentation](docs/API.md).
+
+Quick example:
+
+```python
+from wiki_archiver.api import archive_wikipedia
+
+# Archive Wikipedia articles
+results = archive_wikipedia(
+    categories=['Python (programming language)']
+)
+```
+
 ## 📜 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
