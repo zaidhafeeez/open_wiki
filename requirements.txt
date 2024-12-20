@@ -1,5 +1,5 @@
 wikipediaapi==1.5.4
 PyGitHub==2.5.0
-tqdm==4.65.0
+tqdm==4.66.3
 python-dotenv==1.0.0
-requests==2.31.0
+requests==2.32.2
