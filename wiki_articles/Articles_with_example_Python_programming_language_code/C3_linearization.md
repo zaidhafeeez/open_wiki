@@ -4,7 +4,7 @@ url: https://en.wikipedia.org/wiki/C3_linearization
 language: en
 categories: ["Category:All Wikipedia articles needing clarification", "Category:Articles with example Python (programming language) code", "Category:CS1 maint: multiple names: authors list", "Category:Object-oriented programming", "Category:Programming language implementation", "Category:Wikipedia articles needing clarification from April 2018"]
 references: 0
-last_modified: 2024-12-13T14:33:52Z
+last_modified: 2024-12-20T21:32:06Z
 ---
 
 # C3 linearization

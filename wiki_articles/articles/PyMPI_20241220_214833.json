@@ -1,0 +1,15 @@
+{
+  "title": "PyMPI",
+  "summary": "pyMPI is a software project that integrates the Message Passing Interface (MPI) into the Python interpreter.\nIt allows one to write parallel programs using the Python language.\nIt has not been updated since 2013-04-17.",
+  "content": "---\ntitle: PyMPI\nurl: https://en.wikipedia.org/wiki/PyMPI\nlanguage: en\ncategories: [\"Category:All articles needing additional references\", \"Category:All articles with topics of unclear notability\", \"Category:Articles needing additional references from February 2015\", \"Category:Articles with topics of unclear notability from February 2015\", \"Category:Products articles with topics of unclear notability\", \"Category:Python (programming language) software\"]\nreferences: 0\nlast_modified: 2024-11-26T12:58:12Z\n---\n\n# PyMPI\n\n## Summary\n\npyMPI is a software project that integrates the Message Passing Interface (MPI) into the Python interpreter.\nIt allows one to write parallel programs using the Python language.\nIt has not been updated since 2013-04-17.\n\n## Full Content\n\npyMPI is a software project that integrates the Message Passing Interface (MPI) into the Python interpreter.\nIt allows one to write parallel programs using the Python language.\nIt has not been updated since 2013-04-17.\n\nExample of usage\nThis python program:\n\n$ mpirun -np 3 pyMPI\n> import mpi\n> print \"Hi, I'm process #%d\" % mpi.rank\n\nwill print this output:\n\nHi, I'm process #0\nHi, I'm process #1\nHi, I'm process #2\n\nThe -np parameter given to mpirun tells mpi to use 3 processes, and each process in its turn prints its output on the screen.\n\nReferences\nExternal links\nPyMPI on SourceForge\n",
+  "categories": [
+    "Category:All articles needing additional references",
+    "Category:All articles with topics of unclear notability",
+    "Category:Articles needing additional references from February 2015",
+    "Category:Articles with topics of unclear notability from February 2015",
+    "Category:Products articles with topics of unclear notability",
+    "Category:Python (programming language) software"
+  ],
+  "archived_date": "20241220_214833",
+  "source_url": "https://en.wikipedia.org/wiki/PyMPI"
+}

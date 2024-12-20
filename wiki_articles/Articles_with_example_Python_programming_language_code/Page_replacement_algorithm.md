@@ -4,7 +4,7 @@ url: https://en.wikipedia.org/wiki/Page_replacement_algorithm
 language: en
 categories: ["Category:All Wikipedia articles needing clarification", "Category:All articles with unsourced statements", "Category:Articles with example Python (programming language) code", "Category:Articles with short description", "Category:Articles with unsourced statements from July 2022", "Category:Memory management algorithms", "Category:Online algorithms", "Category:Short description is different from Wikidata", "Category:Use dmy dates from February 2021", "Category:Virtual memory", "Category:Wikipedia articles needing clarification from August 2011", "Category:Wikipedia articles needing clarification from December 2015"]
 references: 0
-last_modified: 2024-12-19T13:45:18Z
+last_modified: 2024-12-20T21:32:05Z
 ---
 
 # Page replacement algorithm

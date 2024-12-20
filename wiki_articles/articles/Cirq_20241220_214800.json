@@ -1,0 +1,13 @@
+{
+  "title": "Cirq",
+  "summary": "Cirq is an open-source framework for noisy intermediate scale quantum (NISQ) computers.",
+  "content": "---\ntitle: Cirq\nurl: https://en.wikipedia.org/wiki/Cirq\nlanguage: en\ncategories: [\"Category:Articles with example Python (programming language) code\", \"Category:Articles with short description\", \"Category:Quantum programming\", \"Category:Short description is different from Wikidata\"]\nreferences: 0\nlast_modified: 2024-12-19T14:54:37Z\n---\n\n# Cirq\n\n## Summary\n\nCirq is an open-source framework for noisy intermediate scale quantum (NISQ) computers.\n\n## Full Content\n\nCirq is an open-source framework for noisy intermediate scale quantum (NISQ) computers.\n\nHistory\nCirq was developed by the Google AI Quantum Team, and the public alpha was announced at the International Workshop on Quantum Software and Quantum Machine Learning on July 18, 2018.  A demo by QC Ware showed an implementation of QAOA solving an example of the maximum cut problem being solved on a Cirq simulator.\n\nUsage\nQuantum programs in Cirq are represented by \"Circuit\" which is made up of a series of \"Moments\" representing slices of quantum gates that should be applied at the same time. The programs can be executed on local simulators or against hardware supplied by IonQ, Pasqal, Rigetti, and Alpine Quantum Technologies\nThe following example shows how to create and measure a Bell state in Cirq.\n\nPrinting the circuit displays its diagram\n\nSimulating the circuit repeatedly shows that the measurements of the qubits are correlated.\n\nProjects\nOpenFermion\nOpenFermion is a library that compiles quantum simulation algorithms to Cirq.\n\nTensorFlow Quantum\nTensorFlow Quantum is an extension of TensorFlow that allows TensorFlow to be used to explore hybrid classical-quantum machine learning algorithms.\n\nReCirq\nReCirq is a repository of research projects done using Cirq.\n\nQsim Cirq\nQsim is a high performance wave function simulator that leverages gate fusing, AVS/FMA instructions, and OpenMP to achieve fast simulation rates. Qsimcirq allows one to use qsim from within Cirq.\n\n\n== References ==\n",
+  "categories": [
+    "Category:Articles with example Python (programming language) code",
+    "Category:Articles with short description",
+    "Category:Quantum programming",
+    "Category:Short description is different from Wikidata"
+  ],
+  "archived_date": "20241220_214800",
+  "source_url": "https://en.wikipedia.org/wiki/Cirq"
+}

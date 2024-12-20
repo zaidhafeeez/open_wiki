@@ -1,0 +1,21 @@
+{
+  "title": "Epydoc",
+  "summary": "Epydoc is a documentation generator that processes its own lightweight markup language Epytext for Python documentation strings. As opposed to freeform Python docstrings, reStructuredText (both also supported) and other markup languages for docstrings, Epytext supports linking between different pieces of documentation.  The project Epydoc is inactive since February 2009. Epydoc is released under the MIT license.\nThere are several tools for rendering Epytext. Most commonly, the epydoc program is ",
+  "content": "---\ntitle: Epydoc\nurl: https://en.wikipedia.org/wiki/Epydoc\nlanguage: en\ncategories: [\"Category:All articles lacking sources\", \"Category:All articles with topics of unclear notability\", \"Category:All stub articles\", \"Category:Articles lacking sources from February 2023\", \"Category:Articles with multiple maintenance issues\", \"Category:Articles with short description\", \"Category:Articles with topics of unclear notability from April 2016\", \"Category:Computer programming tool stubs\", \"Category:Free documentation generators\", \"Category:Lightweight markup languages\", \"Category:Python (programming language) software\", \"Category:Short description matches Wikidata\"]\nreferences: 0\nlast_modified: 2024-12-19T13:44:00Z\n---\n\n# Epydoc\n\n## Summary\n\nEpydoc is a documentation generator that processes its own lightweight markup language Epytext for Python documentation strings. As opposed to freeform Python docstrings, reStructuredText (both also supported) and other markup languages for docstrings, Epytext supports linking between different pieces of documentation.  The project Epydoc is inactive since February 2009. Epydoc is released under the MIT license.\nThere are several tools for rendering Epytext. Most commonly, the epydoc program is \n\n## Full Content\n\nEpydoc is a documentation generator that processes its own lightweight markup language Epytext for Python documentation strings. As opposed to freeform Python docstrings, reStructuredText (both also supported) and other markup languages for docstrings, Epytext supports linking between different pieces of documentation.  The project Epydoc is inactive since February 2009. Epydoc is released under the MIT license.\nThere are several tools for rendering Epytext. Most commonly, the epydoc program is used to render Epytext as a series of HTML documents for display on the Internet, or as a PDF document for printing. Epydoc also supports viewing the rendered documentation within Python using a GUI. The syntax is uncomplicated enough for the programmer to read the raw Epytext docstrings embedded in the source code directly.\n\nSee also\nComparison of documentation generators\n\nExternal links\nEpydoc website\n",
+  "categories": [
+    "Category:All articles lacking sources",
+    "Category:All articles with topics of unclear notability",
+    "Category:All stub articles",
+    "Category:Articles lacking sources from February 2023",
+    "Category:Articles with multiple maintenance issues",
+    "Category:Articles with short description",
+    "Category:Articles with topics of unclear notability from April 2016",
+    "Category:Computer programming tool stubs",
+    "Category:Free documentation generators",
+    "Category:Lightweight markup languages",
+    "Category:Python (programming language) software",
+    "Category:Short description matches Wikidata"
+  ],
+  "archived_date": "20241220_214832",
+  "source_url": "https://en.wikipedia.org/wiki/Epydoc"
+}

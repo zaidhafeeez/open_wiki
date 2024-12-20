@@ -1,0 +1,18 @@
+{
+  "title": "Mod python",
+  "summary": "mod_python is an Apache HTTP Server module that integrates the Python programming language with the server. It is intended to provide a Python language binding for the Apache HTTP Server.\nWhen mod_python released it was one of the more efficient options for Python scripts compared to CGI as CGI requests require starting a new Python process to respond to each individual web request.",
+  "content": "---\ntitle: Mod python\nurl: https://en.wikipedia.org/wiki/Mod_python\nlanguage: en\ncategories: [\"Category:All articles with unsourced statements\", \"Category:Apache httpd modules\", \"Category:Articles with short description\", \"Category:Articles with underscores in the title\", \"Category:Articles with unsourced statements from March 2021\", \"Category:CS1 maint: unfit URL\", \"Category:Official website different in Wikidata and Wikipedia\", \"Category:Python (programming language)\", \"Category:Short description is different from Wikidata\"]\nreferences: 0\nlast_modified: 2024-12-19T13:45:42Z\n---\n\n# Mod python\n\n## Summary\n\nmod_python is an Apache HTTP Server module that integrates the Python programming language with the server. It is intended to provide a Python language binding for the Apache HTTP Server.\nWhen mod_python released it was one of the more efficient options for Python scripts compared to CGI as CGI requests require starting a new Python process to respond to each individual web request.\n\n## Full Content\n\nmod_python is an Apache HTTP Server module that integrates the Python programming language with the server. It is intended to provide a Python language binding for the Apache HTTP Server.\nWhen mod_python released it was one of the more efficient options for Python scripts compared to CGI as CGI requests require starting a new Python process to respond to each individual web request.\n\nHistory\nThe initial implementation of mod_python was a port to Apache HTTP server of a project called NSAPy. NSAPy was written by Aaron Watters for the Netscape Enterprise Server and was used as an example in a chapter of the book Internet Programming with Python written by Aaron Watters, Guido van Rossum, and James Ahlstrom. The first version of mod_python was released by Gregory Trubetskoy in 2000. In September 2002, mod_python was donated to the Apache Software Foundation and became part of the Apache HTTP Server project.\nSince the development of Python's Web Server Gateway Interface from PEP 3333 in December 2003, interest in mod_python has largely moved to WSGI-compliant alternatives such as mod_wsgi.\nDevelopment on the project eventually ceased due to inactivity of the primary contributors and in The Apache Software Foundation June 16, 2010 Board meeting, the Board unanimously passed a resolution terminating Apache Quetzalcoatl Project (umbrella project for mod_python).\nIn September 2013, development of mod_python briefly resumed independent of the Apache Software Foundation however it has been largely inactive since and no new releases were created.\n\nReferences\nExternal links\nOfficial website\nNSAPy\n",
+  "categories": [
+    "Category:All articles with unsourced statements",
+    "Category:Apache httpd modules",
+    "Category:Articles with short description",
+    "Category:Articles with underscores in the title",
+    "Category:Articles with unsourced statements from March 2021",
+    "Category:CS1 maint: unfit URL",
+    "Category:Official website different in Wikidata and Wikipedia",
+    "Category:Python (programming language)",
+    "Category:Short description is different from Wikidata"
+  ],
+  "archived_date": "20241220_214750",
+  "source_url": "https://en.wikipedia.org/wiki/Mod_python"
+}

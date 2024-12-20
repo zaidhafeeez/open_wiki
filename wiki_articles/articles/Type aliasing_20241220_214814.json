@@ -1,0 +1,23 @@
+{
+  "title": "Type aliasing",
+  "summary": "Type aliasing is a feature in some programming languages that allows creating a reference to a type using another name. It does not create a new type hence does not increase type safety. It can be used to shorten a long name. Languages allowing type aliasing include: C++, C# Crystal, D, Dart, Elixir, Elm, F#, Go, Hack, Haskell, Julia, Kotlin, Nim, OCaml, Python, Rust, Scala, Swift and TypeScript.",
+  "content": "---\ntitle: Type aliasing\nurl: https://en.wikipedia.org/wiki/Type_aliasing\nlanguage: en\ncategories: [\"Category:Articles with example C++ code\", \"Category:Articles with example C Sharp code\", \"Category:Articles with example D code\", \"Category:Articles with example Haskell code\", \"Category:Articles with example JavaScript code\", \"Category:Articles with example Julia code\", \"Category:Articles with example OCaml code\", \"Category:Articles with example Python (programming language) code\", \"Category:Articles with example Rust code\", \"Category:Articles with example Scala code\", \"Category:Articles with example Swift code\", \"Category:Data types\", \"Category:Programming constructs\", \"Category:Programming language comparisons\"]\nreferences: 0\nlast_modified: 2024-12-19T10:40:11Z\n---\n\n# Type aliasing\n\n## Summary\n\nType aliasing is a feature in some programming languages that allows creating a reference to a type using another name. It does not create a new type hence does not increase type safety. It can be used to shorten a long name. Languages allowing type aliasing include: C++, C# Crystal, D, Dart, Elixir, Elm, F#, Go, Hack, Haskell, Julia, Kotlin, Nim, OCaml, Python, Rust, Scala, Swift and TypeScript.\n\n## Full Content\n\nType aliasing is a feature in some programming languages that allows creating a reference to a type using another name. It does not create a new type hence does not increase type safety. It can be used to shorten a long name. Languages allowing type aliasing include: C++, C# Crystal, D, Dart, Elixir, Elm, F#, Go, Hack, Haskell, Julia, Kotlin, Nim, OCaml, Python, Rust, Scala, Swift and TypeScript.\n\nExample\nC++\nC++ features type aliasing using the using keyword.\n\nC#\nC# since version 12 features type aliasing using the using keyword.\n\nCrystal\nCrystal features type aliasing using the alias keyword.\n\nD\nD features type aliasing using the alias keyword.\n\nDart\nDart features type aliasing using the typedef keyword.\n\nElixir\nElixir features type aliasing using @type.\n\nElm\nElm features type aliasing using type alias.\n\nF#\nF3 features type aliasing using the type keyword.\n\nGo\nGo features type aliasing using the type keyword and =.\n\nHack\nHack features type aliasing using the newtype keyword.\n\nHaskell\nHaskell features type aliasing using the type keyword.\n\nJulia\nJulia features type aliasing.\n\nKotlin\nKotlin features type aliasing using the typealias keyword.\n\nNim\nNim features type aliasing.\n\nOCaml\nOCaml features type aliasing.\n\nPython\nPython features type aliasing.\n\nType aliases may be marked with TypeAlias to make it explicit that the statement is a type alias declaration, not a normal variable assignment.\n\nRust\nRust features type aliasing using the type keyword.\n\nScala\nScala can create type aliases using opaque types.\n\nSwift\nSwift features type aliasing using the typealias keyword.\n\nTypeScript\nTypeScript features type aliasing using the type keyword.\n\nZig\nZig features type aliasing by assigning a data type to a constant.\n\n\n== References ==\n",
+  "categories": [
+    "Category:Articles with example C++ code",
+    "Category:Articles with example C Sharp code",
+    "Category:Articles with example D code",
+    "Category:Articles with example Haskell code",
+    "Category:Articles with example JavaScript code",
+    "Category:Articles with example Julia code",
+    "Category:Articles with example OCaml code",
+    "Category:Articles with example Python (programming language) code",
+    "Category:Articles with example Rust code",
+    "Category:Articles with example Scala code",
+    "Category:Articles with example Swift code",
+    "Category:Data types",
+    "Category:Programming constructs",
+    "Category:Programming language comparisons"
+  ],
+  "archived_date": "20241220_214814",
+  "source_url": "https://en.wikipedia.org/wiki/Type_aliasing"
+}

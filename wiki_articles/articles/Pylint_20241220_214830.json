@@ -1,0 +1,20 @@
+{
+  "title": "Pylint",
+  "summary": "Pylint is a static code analysis tool for the Python programming language. It is named following a common convention in Python of a \"py\" prefix, and a nod to the C programming lint program. It follows the style recommended by PEP 8, the Python style guide. It is similar to Pychecker and Pyflakes, but includes the following features:\n\nChecking the length of each line\nChecking that variable names are well-formed according to the project's coding standard\nChecking that declared interfaces are truly",
+  "content": "---\ntitle: Pylint\nurl: https://en.wikipedia.org/wiki/Pylint\nlanguage: en\ncategories: [\"Category:All stub articles\", \"Category:Articles with short description\", \"Category:Computer programming tool stubs\", \"Category:Free and open-source software stubs\", \"Category:Free software programmed in Python\", \"Category:Official website different in Wikidata and Wikipedia\", \"Category:Python (programming language) development tools\", \"Category:Short description matches Wikidata\", \"Category:Software testing\", \"Category:Software using the GPL license\", \"Category:Static program analysis tools\"]\nreferences: 0\nlast_modified: 2024-12-19T14:26:51Z\n---\n\n# Pylint\n\n## Summary\n\nPylint is a static code analysis tool for the Python programming language. It is named following a common convention in Python of a \"py\" prefix, and a nod to the C programming lint program. It follows the style recommended by PEP 8, the Python style guide. It is similar to Pychecker and Pyflakes, but includes the following features:\n\nChecking the length of each line\nChecking that variable names are well-formed according to the project's coding standard\nChecking that declared interfaces are truly\n\n## Full Content\n\nPylint is a static code analysis tool for the Python programming language. It is named following a common convention in Python of a \"py\" prefix, and a nod to the C programming lint program. It follows the style recommended by PEP 8, the Python style guide. It is similar to Pychecker and Pyflakes, but includes the following features:\n\nChecking the length of each line\nChecking that variable names are well-formed according to the project's coding standard\nChecking that declared interfaces are truly implemented.\nIt is also equipped with the Pyreverse module that allows UML diagrams to be generated from Python code.\nIt can be used as a stand-alone program, but also integrates with IDEs such as Eclipse with PyDev, Spyder and Visual Studio Code, and editors such as Atom, GNU Emacs and Vim.\n\nReferences\nExternal links\nOfficial website\npylint on GitHub\n",
+  "categories": [
+    "Category:All stub articles",
+    "Category:Articles with short description",
+    "Category:Computer programming tool stubs",
+    "Category:Free and open-source software stubs",
+    "Category:Free software programmed in Python",
+    "Category:Official website different in Wikidata and Wikipedia",
+    "Category:Python (programming language) development tools",
+    "Category:Short description matches Wikidata",
+    "Category:Software testing",
+    "Category:Software using the GPL license",
+    "Category:Static program analysis tools"
+  ],
+  "archived_date": "20241220_214830",
+  "source_url": "https://en.wikipedia.org/wiki/Pylint"
+}

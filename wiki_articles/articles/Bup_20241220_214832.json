@@ -1,0 +1,16 @@
+{
+  "title": "Bup",
+  "summary": "Bup is a Backup system written in Python. It uses several formats from Git but is capable of handling very large files like operating system images. It has block-based deduplication and optional par2-based error correction.",
+  "content": "---\ntitle: Bup\nurl: https://en.wikipedia.org/wiki/Bup\nlanguage: en\ncategories: [\"Category:2010 software\", \"Category:All stub articles\", \"Category:Backup software for Linux\", \"Category:Free and open-source software stubs\", \"Category:Free backup software\", \"Category:Python (programming language) software\", \"Category:Software using the LGPL license\"]\nreferences: 0\nlast_modified: 2024-12-19T10:23:29Z\n---\n\n# Bup\n\n## Summary\n\nBup is a Backup system written in Python. It uses several formats from Git but is capable of handling very large files like operating system images. It has block-based deduplication and optional par2-based error correction.\n\n## Full Content\n\nBup is a Backup system written in Python. It uses several formats from Git but is capable of handling very large files like operating system images. It has block-based deduplication and optional par2-based error correction.\n\nHistory\nBup development began in 2010 and was accepted to Debian the same year.\n\nDesign\nBup uses the git packfile format writing packfiles directly, avoiding garbage collection.\n\nAvailability\nBup is available from source and notably part of the following distributions\n\nDebian\nUbuntu\nArch Linux\npkgsrc (NetBSD etc.)\n\nSee also\nList of backup software\nComparison of backup software\n\nReferences\nExternal links\nbup website on GitHub\n",
+  "categories": [
+    "Category:2010 software",
+    "Category:All stub articles",
+    "Category:Backup software for Linux",
+    "Category:Free and open-source software stubs",
+    "Category:Free backup software",
+    "Category:Python (programming language) software",
+    "Category:Software using the LGPL license"
+  ],
+  "archived_date": "20241220_214832",
+  "source_url": "https://en.wikipedia.org/wiki/Bup"
+}

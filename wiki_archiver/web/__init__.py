@@ -32,11 +32,17 @@ def get_archived_articles(category: str = None) -> List[Dict]:
                     article_data = json.load(f)
                     
                     # Filter by category if specified
-                    if category and category.lower() not in article_data.get('categories', []):
-                        continue
+                    if category:
+                        category = category.lower()
+                        article_categories = [c.lower() for c in article_data.get('categories', [])]
+                        if not any(category in c for c in article_categories):
+                            continue
                     
                     articles.append(article_data)
             except Exception as e:
                 print(f"Error reading {filename}: {e}")
+    
+    # Sort articles by archived date, most recent first
+    articles.sort(key=lambda x: x.get('archived_date', ''), reverse=True)
     
     return articles

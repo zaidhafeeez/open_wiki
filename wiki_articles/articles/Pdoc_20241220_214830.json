@@ -1,0 +1,14 @@
+{
+  "title": "Pdoc",
+  "summary": "Pdoc is a software package for generating API documentation for Python programming language. Built as a successor to Epydoc, Pdoc uses introspection to extract documentation from source code docstrings and allows programmers to generate HTML documentation for chosen Python modules. It is thus functionally similar to Pydoc, Perldoc and Javadoc. It supports identifier cross-linking and Markdown for its doc string format.",
+  "content": "---\ntitle: Pdoc\nurl: https://en.wikipedia.org/wiki/Pdoc\nlanguage: en\ncategories: [\"Category:Articles with short description\", \"Category:Free documentation generators\", \"Category:Free software programmed in Python\", \"Category:Python (programming language) development tools\", \"Category:Short description is different from Wikidata\"]\nreferences: 0\nlast_modified: 2024-12-19T14:05:20Z\n---\n\n# Pdoc\n\n## Summary\n\nPdoc is a software package for generating API documentation for Python programming language. Built as a successor to Epydoc, Pdoc uses introspection to extract documentation from source code docstrings and allows programmers to generate HTML documentation for chosen Python modules. It is thus functionally similar to Pydoc, Perldoc and Javadoc. It supports identifier cross-linking and Markdown for its doc string format.\n\n## Full Content\n\nPdoc is a software package for generating API documentation for Python programming language. Built as a successor to Epydoc, Pdoc uses introspection to extract documentation from source code docstrings and allows programmers to generate HTML documentation for chosen Python modules. It is thus functionally similar to Pydoc, Perldoc and Javadoc. It supports identifier cross-linking and Markdown for its doc string format.\n\nForks\nA lack of original project activity in 2018-2019 spurred several forks, such as pdoc3 and pdocs, part of the portray suite.\nAs of 2021, the original pdoc project is active again.\n\nSee also\nComparison of documentation generators\n\nReferences\nExternal links\nOfficial website\nSoftware package on PyPI\n",
+  "categories": [
+    "Category:Articles with short description",
+    "Category:Free documentation generators",
+    "Category:Free software programmed in Python",
+    "Category:Python (programming language) development tools",
+    "Category:Short description is different from Wikidata"
+  ],
+  "archived_date": "20241220_214830",
+  "source_url": "https://en.wikipedia.org/wiki/Pdoc"
+}

@@ -144,12 +144,56 @@ last_modified: {metadata['last_modified']}
             with open(file_path, 'w', encoding='utf-8') as f:
                 f.write(content)
             
+            # Save JSON for web interface
+            article_data = {
+                'title': metadata['title'],
+                'summary': metadata['summary'],
+                'content': content,
+                'categories': metadata['categories'],
+                'source_url': metadata['url']
+            }
+            self.save_article_json(article_data, OUTPUT_DIR)
+            
             logger.info(f"Processed article: {article_title}")
             return True, article_title
         
         except Exception as e:
             logger.error(f"Error processing {article_title}: {e}")
             return False, article_title
+    
+    def save_article_json(self, article_data: dict, output_dir: str):
+        """
+        Save article data as a JSON file for web interface.
+        
+        Args:
+            article_data (dict): Article information
+            output_dir (str): Output directory for articles
+        """
+        # Ensure articles directory exists
+        articles_dir = os.path.join(output_dir, 'articles')
+        os.makedirs(articles_dir, exist_ok=True)
+        
+        # Create a safe filename
+        safe_title = ''.join(c if c.isalnum() or c in [' ', '_'] else '_' for c in article_data.get('title', 'unknown'))
+        timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
+        filename = f"{safe_title}_{timestamp}.json"
+        
+        # Full path for the JSON file
+        filepath = os.path.join(articles_dir, filename)
+        
+        # Prepare article data for web interface
+        web_article_data = {
+            'title': article_data.get('title', 'Unknown Title'),
+            'summary': article_data.get('summary', ''),
+            'content': article_data.get('content', ''),
+            'categories': article_data.get('categories', []),
+            'archived_date': timestamp,
+            'source_url': article_data.get('source_url', '')
+        }
+        
+        # Write JSON file
+        with open(filepath, 'w', encoding='utf-8') as f:
+            json.dump(web_article_data, f, indent=2, ensure_ascii=False)
     
     def process_category(self, category_name, depth=0):
         """

@@ -1,0 +1,19 @@
+{
+  "title": "Sound Object Library",
+  "summary": "The Sound Object (SndObj) Library is a C++ object-oriented programming library for music and audio development. It is composed of 100+ classes for signal processing, audio, MIDI, and file I/O. The library is available for Linux, Windows, Mac OS X, IRIX, and other Unix-like systems.\nThe library development is now a cooperative project hosted by SourceForge. New versions are released twice-yearly and development versions are available via Concurrent Versions System (CVS).\nThe Library also provides",
+  "content": "---\ntitle: Sound Object Library\nurl: https://en.wikipedia.org/wiki/Sound_Object_Library\nlanguage: en\ncategories: [\"Category:All articles needing additional references\", \"Category:Articles needing additional references from January 2017\", \"Category:Articles with short description\", \"Category:Audio libraries\", \"Category:Audio programming languages\", \"Category:C++ libraries\", \"Category:Electronic music software\", \"Category:Free audio software\", \"Category:Python (programming language) libraries\", \"Category:Short description matches Wikidata\"]\nreferences: 0\nlast_modified: 2024-12-19T14:01:15Z\n---\n\n# Sound Object Library\n\n## Summary\n\nThe Sound Object (SndObj) Library is a C++ object-oriented programming library for music and audio development. It is composed of 100+ classes for signal processing, audio, MIDI, and file I/O. The library is available for Linux, Windows, Mac OS X, IRIX, and other Unix-like systems.\nThe library development is now a cooperative project hosted by SourceForge. New versions are released twice-yearly and development versions are available via Concurrent Versions System (CVS).\nThe Library also provides\n\n## Full Content\n\nThe Sound Object (SndObj) Library is a C++ object-oriented programming library for music and audio development. It is composed of 100+ classes for signal processing, audio, MIDI, and file I/O. The library is available for Linux, Windows, Mac OS X, IRIX, and other Unix-like systems.\nThe library development is now a cooperative project hosted by SourceForge. New versions are released twice-yearly and development versions are available via Concurrent Versions System (CVS).\nThe Library also provides bindings for Python (aka PySndObj), Java and Common Lisp (through CFFI).\n\nReferences\nExternal links\n\"SndObj Library Homepage\". sndobj.sourceforge.net. Retrieved 2020-04-14.\n",
+  "categories": [
+    "Category:All articles needing additional references",
+    "Category:Articles needing additional references from January 2017",
+    "Category:Articles with short description",
+    "Category:Audio libraries",
+    "Category:Audio programming languages",
+    "Category:C++ libraries",
+    "Category:Electronic music software",
+    "Category:Free audio software",
+    "Category:Python (programming language) libraries",
+    "Category:Short description matches Wikidata"
+  ],
+  "archived_date": "20241220_214821",
+  "source_url": "https://en.wikipedia.org/wiki/Sound_Object_Library"
+}

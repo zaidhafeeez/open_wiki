@@ -4,7 +4,7 @@ url: https://en.wikipedia.org/wiki/Move-to-front_transform
 language: en
 categories: ["Category:All Wikipedia articles needing clarification", "Category:All articles needing additional references", "Category:All articles needing examples", "Category:Articles needing additional references from May 2011", "Category:Articles needing examples from February 2012", "Category:Articles with example Python (programming language) code", "Category:Articles with short description", "Category:CS1 interwiki-linked names", "Category:Data compression", "Category:Data compression transforms", "Category:Lossless compression algorithms", "Category:Short description is different from Wikidata", "Category:Wikipedia articles needing clarification from February 2011", "Category:Wikipedia articles needing clarification from July 2015"]
 references: 0
-last_modified: 2024-12-19T13:46:21Z
+last_modified: 2024-12-20T21:32:05Z
 ---
 
 # Move-to-front transform

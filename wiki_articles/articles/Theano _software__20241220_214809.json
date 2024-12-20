@@ -1,0 +1,23 @@
+{
+  "title": "Theano (software)",
+  "summary": "Theano is a Python library and optimizing compiler for manipulating and evaluating mathematical expressions, especially matrix-valued ones.\nIn Theano, computations are expressed using a NumPy-esque syntax and compiled to run efficiently on either CPU or GPU architectures.",
+  "content": "---\ntitle: Theano (software)\nurl: https://en.wikipedia.org/wiki/Theano_(software)\nlanguage: en\ncategories: [\"Category:2007 software\", \"Category:All stub articles\", \"Category:Array programming languages\", \"Category:Articles with example Python (programming language) code\", \"Category:Articles with short description\", \"Category:Deep learning software\", \"Category:Free science software\", \"Category:Numerical programming languages\", \"Category:Official website different in Wikidata and Wikipedia\", \"Category:Python (programming language) scientific libraries\", \"Category:Science software stubs\", \"Category:Short description matches Wikidata\", \"Category:Software using the BSD license\", \"Category:Use dmy dates from August 2018\"]\nreferences: 0\nlast_modified: 2024-12-19T14:29:18Z\n---\n\n# Theano (software)\n\n## Summary\n\nTheano is a Python library and optimizing compiler for manipulating and evaluating mathematical expressions, especially matrix-valued ones.\nIn Theano, computations are expressed using a NumPy-esque syntax and compiled to run efficiently on either CPU or GPU architectures.\n\n## Full Content\n\nTheano is a Python library and optimizing compiler for manipulating and evaluating mathematical expressions, especially matrix-valued ones.\nIn Theano, computations are expressed using a NumPy-esque syntax and compiled to run efficiently on either CPU or GPU architectures.\n\nHistory\nTheano is an open source project primarily developed by the Montreal Institute for Learning Algorithms (MILA) at the Université de Montréal.\nThe name of the software references the ancient philosopher Theano, long associated with the development of the golden mean.\nOn 28 September 2017, Pascal Lamblin posted a message from Yoshua Bengio, Head of MILA:  major development would cease after the 1.0 release due to competing offerings by strong industrial players. Theano 1.0.0 was then released on 15 November 2017.\nOn 17 May 2018, Chris Fonnesbeck wrote on behalf of the PyMC development team that the PyMC developers will officially assume control of Theano maintenance once the MILA development team steps down. On 29 January 2021, they started using the name Aesara for their fork of Theano.\nOn 29 Nov 2022, the PyMC development team announced that the PyMC developers will fork the Aesara project under the name PyTensor.\n\nSample code\nThe following code is the original Theano's example. It defines a computational graph with 2 scalars a and b of type double and an operation between them (addition) and then creates a Python function f that does the actual computation.\n\nSee also\nComparison of deep learning software\nDifferentiable programming\n\nReferences\nExternal links\nOfficial website (GitHub)\nTheano at Deep Learning, Université de Montréal\n",
+  "categories": [
+    "Category:2007 software",
+    "Category:All stub articles",
+    "Category:Array programming languages",
+    "Category:Articles with example Python (programming language) code",
+    "Category:Articles with short description",
+    "Category:Deep learning software",
+    "Category:Free science software",
+    "Category:Numerical programming languages",
+    "Category:Official website different in Wikidata and Wikipedia",
+    "Category:Python (programming language) scientific libraries",
+    "Category:Science software stubs",
+    "Category:Short description matches Wikidata",
+    "Category:Software using the BSD license",
+    "Category:Use dmy dates from August 2018"
+  ],
+  "archived_date": "20241220_214809",
+  "source_url": "https://en.wikipedia.org/wiki/Theano_(software)"
+}

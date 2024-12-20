@@ -4,7 +4,7 @@ url: https://en.wikipedia.org/wiki/American_flag_sort
 language: en
 categories: ["Category:Accuracy disputes from November 2023", "Category:All Wikipedia articles needing clarification", "Category:All accuracy disputes", "Category:All articles needing additional references", "Category:All articles with unsourced statements", "Category:Articles needing additional references from July 2017", "Category:Articles with example Python (programming language) code", "Category:Articles with example pseudocode", "Category:Articles with short description", "Category:Articles with unsourced statements from October 2020", "Category:Short description matches Wikidata", "Category:String sorting algorithms", "Category:Wikipedia articles needing clarification from October 2020"]
 references: 0
-last_modified: 2024-12-19T14:01:23Z
+last_modified: 2024-12-20T21:32:06Z
 ---
 
 # American flag sort

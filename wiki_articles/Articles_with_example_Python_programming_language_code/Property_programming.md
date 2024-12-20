@@ -4,7 +4,7 @@ url: https://en.wikipedia.org/wiki/Property_(programming)
 language: en
 categories: ["Category:All Wikipedia articles needing clarification", "Category:All articles needing additional references", "Category:All articles with unsourced statements", "Category:Articles needing additional references from January 2022", "Category:Articles needing additional references from October 2016", "Category:Articles with example C++ code", "Category:Articles with example C Sharp code", "Category:Articles with example D code", "Category:Articles with example JavaScript code", "Category:Articles with example PHP code", "Category:Articles with example Python (programming language) code", "Category:Articles with example Ruby code", "Category:Articles with short description", "Category:Articles with unsourced statements from March 2020", "Category:Object-oriented programming", "Category:Short description is different from Wikidata", "Category:Wikipedia articles needing clarification from October 2016"]
 references: 0
-last_modified: 2024-12-19T13:57:22Z
+last_modified: 2024-12-20T21:32:06Z
 ---
 
 # Property (programming)

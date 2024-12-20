@@ -1,0 +1,17 @@
+{
+  "title": "Beautiful Soup (HTML parser)",
+  "summary": "Beautiful Soup is a Python package for parsing HTML and XML documents, including those with malformed markup. It creates a parse tree for documents that can be used to extract data from HTML, which is useful for web scraping.",
+  "content": "---\ntitle: Beautiful Soup (HTML parser)\nurl: https://en.wikipedia.org/wiki/Beautiful_Soup_(HTML_parser)\nlanguage: en\ncategories: [\"Category:All articles with unsourced statements\", \"Category:Articles with short description\", \"Category:Articles with unsourced statements from May 2024\", \"Category:HTML parsers\", \"Category:Python (programming language) libraries\", \"Category:Short description matches Wikidata\", \"Category:Software using the MIT license\", \"Category:XML parsers\"]\nreferences: 0\nlast_modified: 2024-12-19T14:31:54Z\n---\n\n# Beautiful Soup (HTML parser)\n\n## Summary\n\nBeautiful Soup is a Python package for parsing HTML and XML documents, including those with malformed markup. It creates a parse tree for documents that can be used to extract data from HTML, which is useful for web scraping.\n\n## Full Content\n\nBeautiful Soup is a Python package for parsing HTML and XML documents, including those with malformed markup. It creates a parse tree for documents that can be used to extract data from HTML, which is useful for web scraping.\n\nHistory\nBeautiful Soup was started in 2004 by Leonard Richardson. It takes its name from the poem Beautiful Soup from Alice's Adventures in Wonderland and is a reference to the term \"tag soup\" meaning poorly-structured HTML code. Richardson continues to contribute to the project, which is additionally supported by paid open-source maintainers from the company Tidelift.\n\nVersions\nBeautiful Soup 3 was the official release line of Beautiful Soup from May 2006 to March 2012. The current release is Beautiful Soup 4.x.\nIn 2021, Python 2.7 support was retired and the release 4.9.3 was the last to support Python 2.7.\n\nUsage\nBeautiful Soup represents parsed data as a tree which can be searched and iterated over with ordinary Python loops.\n\nCode example\nThe example below uses the Python standard library's urllib to load Wikipedia's main page, then uses Beautiful Soup to parse the document and search for all links within. \nAnother example is using the Python requests library to get divs on a URL.\n\nSee also\nComparison of HTML parsers\njsoup\nNokogiri\n\n\n== References ==\n",
+  "categories": [
+    "Category:All articles with unsourced statements",
+    "Category:Articles with short description",
+    "Category:Articles with unsourced statements from May 2024",
+    "Category:HTML parsers",
+    "Category:Python (programming language) libraries",
+    "Category:Short description matches Wikidata",
+    "Category:Software using the MIT license",
+    "Category:XML parsers"
+  ],
+  "archived_date": "20241220_214822",
+  "source_url": "https://en.wikipedia.org/wiki/Beautiful_Soup_(HTML_parser)"
+}
