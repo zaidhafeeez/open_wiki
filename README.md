@@ -95,6 +95,10 @@ Current archiving progress by category:
 - [ ] ⚙️ Custom category configuration
 - [x] 🔌 API for programmatic access
 
+## Project Roadmap
+
+Check out our [TODO list](TODO.md) for upcoming features, improvements, and project goals. We welcome contributions and suggestions!
+
 ## Article Diff Tracking
 
 Track changes in Wikipedia articles over time with our built-in diff tracking feature. 
