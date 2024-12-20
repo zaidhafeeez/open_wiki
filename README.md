@@ -91,9 +91,25 @@ Current archiving progress by category:
 
 - [ ] 📚 Support for additional programming language categories
 - [ ] 🔍 Full-text search capabilities
-- [ ] 📊 Article diff tracking
+- [x] 📊 Article diff tracking
 - [ ] ⚙️ Custom category configuration
 - [x] 🔌 API for programmatic access
+
+## Article Diff Tracking
+
+Track changes in Wikipedia articles over time with our built-in diff tracking feature. 
+
+Quick example:
+
+```python
+from wiki_archiver.diff_tracker import track_wikipedia_article_changes
+
+# Track changes for a specific article
+diff_info = track_wikipedia_article_changes('Python (programming language)')
+print(diff_info['change_summary'])
+```
+
+For detailed documentation, see the [Diff Tracking Guide](docs/DIFF_TRACKING.md).
 
 ## Programmatic Access
 
