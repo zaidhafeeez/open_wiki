@@ -268,3 +268,4 @@ last_modified: {metadata['last_modified']}
         except Exception as e:
             logger.error(f"Error loading progress: {e}")
             return {}
+from datetime import datetime
