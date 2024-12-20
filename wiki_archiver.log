@@ -752,3 +752,380 @@
 [2024-12-21 02:09:28] INFO: Processed article: Wing IDE
 [2024-12-21 02:09:28] INFO: Archiving completed in 0:00:51.544656
 [2024-12-21 02:09:28] INFO: Wikipedia Article Archiver finished.
+[2024-12-21 02:11:28] INFO: Loaded previous progress: {}
+[2024-12-21 02:11:28] INFO: Starting archive for categories: ['Python (programming language)']
+[2024-12-21 02:11:28] INFO: Processing category: Python (programming language)
+[2024-12-21 02:11:29] INFO: Processed article: RUR-PLE
+[2024-12-21 02:11:30] INFO: Processed article: CircuitPython
+[2024-12-21 02:11:30] INFO: Processed article: Web Server Gateway Interface
+[2024-12-21 02:11:30] INFO: Processed article: Mojo (programming language)
+[2024-12-21 02:11:30] INFO: Processed article: PythonAnywhere
+[2024-12-21 02:11:30] INFO: Processed article: Python Software Foundation
+[2024-12-21 02:11:30] INFO: Processed article: Python syntax and semantics
+[2024-12-21 02:11:30] INFO: Processed article: MicroPython
+[2024-12-21 02:11:30] INFO: Processed article: Asynchronous Server Gateway Interface
+[2024-12-21 02:11:30] INFO: Processed article: Core Python Programming
+[2024-12-21 02:11:31] INFO: Processed article: Python Server Pages
+[2024-12-21 02:11:31] INFO: Processed article: Cython
+[2024-12-21 02:11:31] INFO: Processed article: Pyrex (programming language)
+[2024-12-21 02:11:31] INFO: Processed article: Python for S60
+[2024-12-21 02:11:31] INFO: Processed article: History of Python
+[2024-12-21 02:11:31] INFO: Processed article: Dive into Python
+[2024-12-21 02:11:31] INFO: Processed article: Spyce (software)
+[2024-12-21 02:11:31] INFO: Processed article: Python Conference
+[2024-12-21 02:11:31] INFO: Processed article: ActivePython
+[2024-12-21 02:11:31] INFO: Processed article: Python Software Foundation License
+[2024-12-21 02:11:32] INFO: Processed article: PyLadies
+[2024-12-21 02:11:32] INFO: Processed article: Mod python
+[2024-12-21 02:11:32] INFO: Processed article: Global interpreter lock
+[2024-12-21 02:11:32] INFO: Processed article: Zen of Python
+[2024-12-21 02:11:32] INFO: Processed article: CodeSkulptor
+[2024-12-21 02:11:32] INFO: Processed article: Docstring
+[2024-12-21 02:11:32] INFO: Processed article: Numba
+[2024-12-21 02:11:32] INFO: Processed article: List of Python software
+[2024-12-21 02:11:32] INFO: Processed article: Python Package Index
+[2024-12-21 02:11:33] INFO: Processed article: Python (programming language)
+[2024-12-21 02:11:33] INFO: Processed article: Python License
+[2024-12-21 02:11:33] INFO: Processed article: Django Girls
+[2024-12-21 02:11:33] INFO: Processing category: Python (programming language) development tools
+[2024-12-21 02:11:35] INFO: Processed article: IPython
+[2024-12-21 02:11:35] INFO: Processed article: Pytest
+[2024-12-21 02:11:35] INFO: Processed article: Pylint
+[2024-12-21 02:11:35] INFO: Processed article: Spyder (software)
+[2024-12-21 02:11:35] INFO: Processed article: PyDev
+[2024-12-21 02:11:35] INFO: Processed article: Tox (Python testing wrapper)
+[2024-12-21 02:11:35] INFO: Processed article: Pip (package manager)
+[2024-12-21 02:11:35] INFO: Processed article: Wing IDE
+[2024-12-21 02:11:35] INFO: Processed article: Pydoc
+[2024-12-21 02:11:35] INFO: Processed article: Pdoc
+[2024-12-21 02:11:35] INFO: Processing category: Articles with example Python (programming language) code
+[2024-12-21 02:11:37] INFO: Processed article: Member variable
+[2024-12-21 02:11:37] INFO: Processed article: Command-line argument parsing
+[2024-12-21 02:11:37] INFO: Processed article: VPython
+[2024-12-21 02:11:37] INFO: Processed article: CuPy
+[2024-12-21 02:11:37] INFO: Processed article: Observer pattern
+[2024-12-21 02:11:37] INFO: Processed article: NumPy
+[2024-12-21 02:11:37] INFO: Processed article: Irish logarithm
+[2024-12-21 02:11:37] INFO: Processed article: Gestalt pattern matching
+[2024-12-21 02:11:37] INFO: Processed article: Visitor pattern
+[2024-12-21 02:11:37] INFO: Processed article: For loop
+[2024-12-21 02:11:38] INFO: Processed article: PyQt
+[2024-12-21 02:11:38] INFO: Processed article: Move-to-front transform
+[2024-12-21 02:11:38] INFO: Processed article: American flag sort
+[2024-12-21 02:11:38] INFO: Processed article: Side effect (computer science)
+[2024-12-21 02:11:38] INFO: Processed article: Duck typing
+[2024-12-21 02:11:38] INFO: Processed article: Ford–Fulkerson algorithm
+[2024-12-21 02:11:38] INFO: Processed article: Monte Carlo integration
+[2024-12-21 02:11:38] INFO: Processed article: Evaluation strategy
+[2024-12-21 02:11:38] INFO: Processed article: Lambda calculus
+[2024-12-21 02:11:38] INFO: Processed article: Shamir's secret sharing
+[2024-12-21 02:11:39] INFO: Processed article: Jinja (template engine)
+[2024-12-21 02:11:39] INFO: Processed article: Winsorizing
+[2024-12-21 02:11:39] INFO: Processed article: Hamming distance
+[2024-12-21 02:11:39] INFO: Processed article: Enumerated type
+[2024-12-21 02:11:39] INFO: Processed article: Cyclic redundancy check
+[2024-12-21 02:11:39] INFO: Processed article: K-d tree
+[2024-12-21 02:11:39] INFO: Processed article: Perfect digital invariant
+[2024-12-21 02:11:39] INFO: Processed article: Biopython
+[2024-12-21 02:11:39] INFO: Processed article: Jacobi method
+[2024-12-21 02:11:40] INFO: Processed article: LL parser
+[2024-12-21 02:11:40] INFO: Processed article: Pancake sorting
+[2024-12-21 02:11:40] INFO: Processed article: Centripetal Catmull–Rom spline
+[2024-12-21 02:11:40] INFO: Processed article: Strongly typed identifier
+[2024-12-21 02:11:40] INFO: Processed article: DEAP (software)
+[2024-12-21 02:11:40] INFO: Processed article: Maximum subarray problem
+[2024-12-21 02:11:40] INFO: Processed article: SimpleITK
+[2024-12-21 02:11:40] INFO: Processed article: C3 linearization
+[2024-12-21 02:11:41] INFO: Processed article: Multiple dispatch
+[2024-12-21 02:11:41] INFO: Processed article: Newton's method
+[2024-12-21 02:11:41] INFO: Processed article: Ruzzo–Tompa algorithm
+[2024-12-21 02:11:41] INFO: Processed article: String literal
+[2024-12-21 02:11:41] INFO: Processed article: Nim
+[2024-12-21 02:11:41] INFO: Processed article: Full cycle
+[2024-12-21 02:11:41] INFO: Processed article: Inner loop
+[2024-12-21 02:11:41] INFO: Processed article: Uniform access principle
+[2024-12-21 02:11:41] INFO: Processed article: Range (computer programming)
+[2024-12-21 02:11:41] INFO: Processed article: CherryPy
+[2024-12-21 02:11:42] INFO: Processed article: Matplotlib
+[2024-12-21 02:11:42] INFO: Processed article: Conditional (computer programming)
+[2024-12-21 02:11:42] INFO: Processed article: Middle-square method
+[2024-12-21 02:11:42] INFO: Processed article: LibSBML
+[2024-12-21 02:11:42] INFO: Processed article: Machine epsilon
+[2024-12-21 02:11:42] INFO: Processed article: QuTiP
+[2024-12-21 02:11:43] INFO: Processed article: Halton sequence
+[2024-12-21 02:11:43] INFO: Processed article: Lorenz 96 model
+[2024-12-21 02:11:43] INFO: Processed article: Set-builder notation
+[2024-12-21 02:11:43] INFO: Processed article: Comparison of programming languages (list comprehension)
+[2024-12-21 02:11:43] INFO: Processed article: Tower of Hanoi
+[2024-12-21 02:11:43] INFO: Processed article: Generator (computer programming)
+[2024-12-21 02:11:43] INFO: Processed article: COMEFROM
+[2024-12-21 02:11:43] INFO: Processed article: Hi/Lo algorithm
+[2024-12-21 02:11:43] INFO: Processed article: Pyglet
+[2024-12-21 02:11:44] INFO: Processed article: Append
+[2024-12-21 02:11:44] INFO: Processed article: Infinite loop
+[2024-12-21 02:11:44] INFO: Processed article: Lanczos approximation
+[2024-12-21 02:11:44] INFO: Processed article: Variable shadowing
+[2024-12-21 02:11:44] INFO: Processed article: Page replacement algorithm
+[2024-12-21 02:11:44] INFO: Processed article: Cycle sort
+[2024-12-21 02:11:44] INFO: Processed article: Doctest
+[2024-12-21 02:11:44] INFO: Processed article: SimPy
+[2024-12-21 02:11:44] INFO: Processed article: Power iteration
+[2024-12-21 02:11:45] INFO: Processed article: Euler–Maruyama method
+[2024-12-21 02:11:45] INFO: Processed article: Programming style
+[2024-12-21 02:11:45] INFO: Processed article: While loop
+[2024-12-21 02:11:45] INFO: Processed article: Sample entropy
+[2024-12-21 02:11:45] INFO: Processed article: Common Gateway Interface
+[2024-12-21 02:11:45] INFO: Processed article: Binomial coefficient
+[2024-12-21 02:11:45] INFO: Processed article: Iterator
+[2024-12-21 02:11:45] INFO: Processed article: Sunrise equation
+[2024-12-21 02:11:45] INFO: Processed article: Hit-testing
+[2024-12-21 02:11:46] INFO: Processed article: Closure (computer programming)
+[2024-12-21 02:11:46] INFO: Processed article: Burrows–Wheeler transform
+[2024-12-21 02:11:46] INFO: Processed article: TPK algorithm
+[2024-12-21 02:11:46] INFO: Processed article: Commutation matrix
+[2024-12-21 02:11:46] INFO: Processed article: Balanced histogram thresholding
+[2024-12-21 02:11:46] INFO: Processed article: Threaded binary tree
+[2024-12-21 02:11:46] INFO: Processed article: Exception handling syntax
+[2024-12-21 02:11:46] INFO: Processed article: Approximate entropy
+[2024-12-21 02:11:47] INFO: Processed article: Tracing just-in-time compilation
+[2024-12-21 02:11:47] INFO: Processed article: Fisher–Yates shuffle
+[2024-12-21 02:11:47] INFO: Processed article: Inheritance (object-oriented programming)
+[2024-12-21 02:11:47] INFO: Processed article: Reflective programming
+[2024-12-21 02:11:47] INFO: Processed article: Corecursion
+[2024-12-21 02:11:47] INFO: Processed article: OfflineIMAP
+[2024-12-21 02:11:47] INFO: Processed article: Off-side rule
+[2024-12-21 02:11:48] INFO: Processed article: Barnsley fern
+[2024-12-21 02:11:48] INFO: Processed article: Automatic differentiation
+[2024-12-21 02:11:48] INFO: Processed article: Pycassa
+[2024-12-21 02:11:48] INFO: Processed article: Colon (punctuation)
+[2024-12-21 02:11:48] INFO: Processed article: Theano (software)
+[2024-12-21 02:11:48] INFO: Processed article: IIf
+[2024-12-21 02:11:48] INFO: Processed article: Object composition
+[2024-12-21 02:11:48] INFO: Processed article: Type introspection
+[2024-12-21 02:11:49] INFO: Processed article: One-liner program
+[2024-12-21 02:11:49] INFO: Processed article: Specification pattern
+[2024-12-21 02:11:49] INFO: Processed article: Successive over-relaxation
+[2024-12-21 02:11:49] INFO: Processed article: Macroprogramming
+[2024-12-21 02:11:49] INFO: Processed article: Zero-truncated Poisson distribution
+[2024-12-21 02:11:49] INFO: Processed article: Apache Avro
+[2024-12-21 02:11:49] INFO: Processed article: Hidden Markov model
+[2024-12-21 02:11:49] INFO: Processed article: Elementary comparison testing
+[2024-12-21 02:11:49] INFO: Processed article: Output-sensitive algorithm
+[2024-12-21 02:11:49] INFO: Processed article: Mutator method
+[2024-12-21 02:11:50] INFO: Processed article: Seidel's algorithm
+[2024-12-21 02:11:50] INFO: Processed article: Trial division
+[2024-12-21 02:11:50] INFO: Processed article: Fast Walsh–Hadamard transform
+[2024-12-21 02:11:50] INFO: Processed article: Lorenz system
+[2024-12-21 02:11:50] INFO: Processed article: Domain generation algorithm
+[2024-12-21 02:11:50] INFO: Processed article: Comb sort
+[2024-12-21 02:11:50] INFO: Processed article: Array slicing
+[2024-12-21 02:11:50] INFO: Processed article: Inverse Gaussian distribution
+[2024-12-21 02:11:50] INFO: Processed article: Memento pattern
+[2024-12-21 02:11:51] INFO: Processed article: Binomial test
+[2024-12-21 02:11:51] INFO: Processed article: Delta timing
+[2024-12-21 02:11:51] INFO: Processed article: Banker's algorithm
+[2024-12-21 02:11:51] INFO: Processed article: Type aliasing
+[2024-12-21 02:11:51] INFO: Processed article: Comparison of programming languages (string functions)
+[2024-12-21 02:11:51] INFO: Processed article: Boyer–Moore string-search algorithm
+[2024-12-21 02:11:51] INFO: Processed article: Golden-section search
+[2024-12-21 02:11:51] INFO: Processed article: Property (programming)
+[2024-12-21 02:11:52] INFO: Processed article: Cycle detection
+[2024-12-21 02:11:52] INFO: Processed article: Trie
+[2024-12-21 02:11:52] INFO: Processed article: Foreach loop
+[2024-12-21 02:11:52] INFO: Processed article: Callable object
+[2024-12-21 02:11:52] INFO: Processed article: Autovivification
+[2024-12-21 02:11:52] INFO: Processed article: Prepared statement
+[2024-12-21 02:11:52] INFO: Processed article: Set (abstract data type)
+[2024-12-21 02:11:52] INFO: Processed article: Resource management (computing)
+[2024-12-21 02:11:52] INFO: Processed article: SCons
+[2024-12-21 02:11:53] INFO: Processed article: Flask (web framework)
+[2024-12-21 02:11:53] INFO: Processed article: Algorithms for calculating variance
+[2024-12-21 02:11:53] INFO: Processed article: Push–relabel maximum flow algorithm
+[2024-12-21 02:11:53] INFO: Processed article: De Bruijn sequence
+[2024-12-21 02:11:53] INFO: Processed article: Softmax function
+[2024-12-21 02:11:53] INFO: Processed article: Ping-pong scheme
+[2024-12-21 02:11:53] INFO: Processed article: Bag-of-words model
+[2024-12-21 02:11:53] INFO: Processed article: Bogosort
+[2024-12-21 02:11:54] INFO: Processed article: Leaning toothpick syndrome
+[2024-12-21 02:11:54] INFO: Processed article: Cubes (OLAP server)
+[2024-12-21 02:11:54] INFO: Processed article: Immutable object
+[2024-12-21 02:11:54] INFO: Processed article: Control flow
+[2024-12-21 02:11:54] INFO: Processed article: Parallel array
+[2024-12-21 02:11:54] INFO: Processed article: Variadic function
+[2024-12-21 02:11:54] INFO: Processed article: Linear congruential generator
+[2024-12-21 02:11:54] INFO: Processed article: Five-number summary
+[2024-12-21 02:11:55] INFO: Processed article: Metaclass
+[2024-12-21 02:11:55] INFO: Processed article: Peirce's criterion
+[2024-12-21 02:11:55] INFO: Processed article: Function object
+[2024-12-21 02:11:55] INFO: Processed article: Geometric Brownian motion
+[2024-12-21 02:11:55] INFO: Processed article: Stochastic dynamic programming
+[2024-12-21 02:11:55] INFO: Processed article: Perfect digit-to-digit invariant
+[2024-12-21 02:11:55] INFO: Processed article: SymPy
+[2024-12-21 02:11:55] INFO: Processed article: Gabor filter
+[2024-12-21 02:11:56] INFO: Processed article: Command pattern
+[2024-12-21 02:11:56] INFO: Processed article: Viterbi algorithm
+[2024-12-21 02:11:56] INFO: Processed article: Rendezvous hashing
+[2024-12-21 02:11:56] INFO: Processed article: Method overriding
+[2024-12-21 02:11:56] INFO: Processed article: Aggregate pattern
+[2024-12-21 02:11:56] INFO: Processed article: Change-making problem
+[2024-12-21 02:11:56] INFO: Processed article: Stack trace
+[2024-12-21 02:11:56] INFO: Processed article: Lazy initialization
+[2024-12-21 02:11:56] INFO: Processed article: Iris flower data set
+[2024-12-21 02:11:56] INFO: Processed article: Binary search tree
+[2024-12-21 02:11:57] INFO: Processed article: Greedy coloring
+[2024-12-21 02:11:57] INFO: Processed article: Name mangling
+[2024-12-21 02:11:57] INFO: Processed article: Baidu Maps
+[2024-12-21 02:11:57] INFO: Processed article: Jagged array
+[2024-12-21 02:11:57] INFO: Processed article: Normalization (machine learning)
+[2024-12-21 02:11:57] INFO: Processed article: Mask generation function
+[2024-12-21 02:11:57] INFO: Processed article: Comparison of programming languages (algebraic data type)
+[2024-12-21 02:11:57] INFO: Processed article: List comprehension
+[2024-12-21 02:11:57] INFO: Processed article: Zipping (computer science)
+[2024-12-21 02:11:57] INFO: Processed article: Maurer rose
+[2024-12-21 02:11:58] INFO: Processed article: Anonymous function
+[2024-12-21 02:11:58] INFO: Processed article: Default argument
+[2024-12-21 02:11:58] INFO: Processed article: Clamping (graphics)
+[2024-12-21 02:11:58] INFO: Processed article: Cirq
+[2024-12-21 02:11:58] INFO: Processed article: Named parameter
+[2024-12-21 02:11:58] INFO: Processed article: Matrix chain multiplication
+[2024-12-21 02:11:58] INFO: Processed article: Wang and Landau algorithm
+[2024-12-21 02:11:59] INFO: Processed article: Simpson's rule
+[2024-12-21 02:11:59] INFO: Processed article: Gauss–Seidel method
+[2024-12-21 02:11:59] INFO: Processed article: Weisfeiler Leman graph isomorphism test
+[2024-12-21 02:11:59] INFO: Processed article: Here document
+[2024-12-21 02:11:59] INFO: Processed article: Higher-order function
+[2024-12-21 02:11:59] INFO: Processing category: Python (programming language) software
+[2024-12-21 02:12:01] INFO: Processed article: Pyomo
+[2024-12-21 02:12:01] INFO: Processed article: Naaya
+[2024-12-21 02:12:01] INFO: Processed article: PyMPI
+[2024-12-21 02:12:01] INFO: Processed article: TurboGears
+[2024-12-21 02:12:01] INFO: Processed article: Source Filmmaker
+[2024-12-21 02:12:01] INFO: Processed article: Twisted (software)
+[2024-12-21 02:12:01] INFO: Processed article: Sublime Text
+[2024-12-21 02:12:01] INFO: Processed article: PyPy
+[2024-12-21 02:12:01] INFO: Processed article: Molecular Modelling Toolkit
+[2024-12-21 02:12:01] INFO: Processed article: Waydroid
+[2024-12-21 02:12:02] INFO: Processed article: Bup
+[2024-12-21 02:12:02] INFO: Processed article: Python Tools for Visual Studio
+[2024-12-21 02:12:02] INFO: Processed article: GNU Bazaar
+[2024-12-21 02:12:02] INFO: Processed article: Kippo
+[2024-12-21 02:12:02] INFO: Processed article: Visioo-Writer
+[2024-12-21 02:12:02] INFO: Processed article: CheetahTemplate
+[2024-12-21 02:12:02] INFO: Processed article: IDLE
+[2024-12-21 02:12:02] INFO: Processed article: Grok (web framework)
+[2024-12-21 02:12:02] INFO: Processed article: Borg (backup software)
+[2024-12-21 02:12:02] INFO: Processed article: Data Version Control (software)
+[2024-12-21 02:12:03] INFO: Processed article: Pylons project
+[2024-12-21 02:12:03] INFO: Processed article: Juju (software)
+[2024-12-21 02:12:03] INFO: Processed article: PLY (software)
+[2024-12-21 02:12:03] INFO: Processed article: Cwm (software)
+[2024-12-21 02:12:03] INFO: Processed article: Py2exe
+[2024-12-21 02:12:03] INFO: Processed article: Zope Object Database
+[2024-12-21 02:12:03] INFO: Processed article: Pylons (web framework)
+[2024-12-21 02:12:03] INFO: Processed article: Pylons Framework
+[2024-12-21 02:12:03] INFO: Processed article: Revoscalepy
+[2024-12-21 02:12:03] INFO: Processed article: Ninja-IDE
+[2024-12-21 02:12:04] INFO: Processed article: Eric (software)
+[2024-12-21 02:12:04] INFO: Processed article: Celery (software)
+[2024-12-21 02:12:04] INFO: Processed article: Thonny
+[2024-12-21 02:12:04] INFO: Processed article: VisIt
+[2024-12-21 02:12:04] INFO: Processed article: Breezy (software)
+[2024-12-21 02:12:04] INFO: Processed article: Anaconda (Python distribution)
+[2024-12-21 02:12:04] INFO: Processed article: Roundup (issue tracker)
+[2024-12-21 02:12:04] INFO: Processed article: EasyEclipse
+[2024-12-21 02:12:04] INFO: Processed article: Disordered Structure Refinement
+[2024-12-21 02:12:05] INFO: Processed article: Reddit
+[2024-12-21 02:12:05] INFO: Processed article: Genshi (templating language)
+[2024-12-21 02:12:05] INFO: Processed article: Pyramid (web framework)
+[2024-12-21 02:12:05] INFO: Processed article: ADvantage Framework
+[2024-12-21 02:12:05] INFO: Processed article: Psyco
+[2024-12-21 02:12:05] INFO: Processed article: Nmap
+[2024-12-21 02:12:05] INFO: Processed article: Sound Credit
+[2024-12-21 02:12:05] INFO: Processed article: NOC (software)
+[2024-12-21 02:12:05] INFO: Processed article: Fluidinfo
+[2024-12-21 02:12:05] INFO: Processed article: Epydoc
+[2024-12-21 02:12:06] INFO: Processed article: CrossOver (software)
+[2024-12-21 02:12:06] INFO: Processed article: Cyn.in
+[2024-12-21 02:12:06] INFO: Processing category: Free software programmed in Python
+[2024-12-21 02:12:06] INFO: Processing category: Zope
+[2024-12-21 02:12:06] INFO: Processing category: Python (programming language)-scriptable game engines
+[2024-12-21 02:12:06] INFO: Processing category: Python (programming language)-scripted video games
+[2024-12-21 02:12:06] INFO: Processing category: Python (programming language) libraries
+[2024-12-21 02:12:06] INFO: Processing category: Python (programming language) implementations
+[2024-12-21 02:12:08] INFO: Processed article: Zerynth
+[2024-12-21 02:12:08] INFO: Processed article: Jython
+[2024-12-21 02:12:08] INFO: Processed article: CLPython
+[2024-12-21 02:12:08] INFO: Processed article: IronPython
+[2024-12-21 02:12:08] INFO: Processed article: Stackless Python
+[2024-12-21 02:12:08] INFO: Processed article: Nuitka
+[2024-12-21 02:12:08] INFO: Processed article: CPython
+[2024-12-21 02:12:08] INFO: Processing category: Python (programming language) people
+[2024-12-21 02:12:10] INFO: Processed article: Armin Ronacher
+[2024-12-21 02:12:10] INFO: Processed article: Greg Stein
+[2024-12-21 02:12:10] INFO: Processed article: Fernando Pérez (software developer)
+[2024-12-21 02:12:10] INFO: Processed article: Tim Peters (software engineer)
+[2024-12-21 02:12:11] INFO: Processed article: Naomi Ceder
+[2024-12-21 02:12:11] INFO: Processed article: Guido van Rossum
+[2024-12-21 02:12:11] INFO: Processed article: Glyph Lefkowitz
+[2024-12-21 02:12:11] INFO: Processed article: Allison Randal
+[2024-12-21 02:12:11] INFO: Processed article: Peter Norvig
+[2024-12-21 02:12:11] INFO: Processed article: Mark Pilgrim
+[2024-12-21 02:12:11] INFO: Processed article: Travis Oliphant
+[2024-12-21 02:12:11] INFO: Processed article: Wes McKinney
+[2024-12-21 02:12:11] INFO: Processed article: Alex Martelli
+[2024-12-21 02:12:11] INFO: Processed article: David M. Beazley
+[2024-12-21 02:12:12] INFO: Processed article: John D. Hunter
+[2024-12-21 02:12:12] INFO: Processing category: Python (programming language) web frameworks
+[2024-12-21 02:12:13] INFO: Processed article: TACTIC (web framework)
+[2024-12-21 02:12:13] INFO: Processed article: Shiny (web framework)
+[2024-12-21 02:12:13] INFO: Processed article: Python Paste
+[2024-12-21 02:12:13] INFO: Processed article: Jam.py (web framework)
+[2024-12-21 02:12:13] INFO: Processed article: Nevow
+[2024-12-21 02:12:13] INFO: Processed article: Zope
+[2024-12-21 02:12:13] INFO: Processed article: BlueBream
+[2024-12-21 02:12:13] INFO: Processed article: Django (web framework)
+[2024-12-21 02:12:14] INFO: Processed article: FastAPI
+[2024-12-21 02:12:14] INFO: Processed article: Web.py
+[2024-12-21 02:12:14] INFO: Processed article: Quixote (web framework)
+[2024-12-21 02:12:14] INFO: Processed article: RapidSMS
+[2024-12-21 02:12:14] INFO: Processed article: CubicWeb
+[2024-12-21 02:12:14] INFO: Processed article: Tornado (web server)
+[2024-12-21 02:12:14] INFO: Processed article: Zope 2
+[2024-12-21 02:12:15] INFO: Processed article: Web2py
+[2024-12-21 02:12:15] INFO: Processing category: Python (programming language) libraries
+[2024-12-21 02:12:16] INFO: Processed article: Redland RDF Application Framework
+[2024-12-21 02:12:16] INFO: Processed article: Confidential Consortium Framework
+[2024-12-21 02:12:16] INFO: Processed article: AppJar
+[2024-12-21 02:12:16] INFO: Processed article: SQLObject
+[2024-12-21 02:12:16] INFO: Processed article: Kamaelia
+[2024-12-21 02:12:16] INFO: Processed article: Natural Language Toolkit
+[2024-12-21 02:12:16] INFO: Processed article: Requests (software)
+[2024-12-21 02:12:16] INFO: Processed article: Beautiful Soup (HTML parser)
+[2024-12-21 02:12:17] INFO: Processed article: Pickle (Python)
+[2024-12-21 02:12:17] INFO: Processed article: Query Abstraction Layer
+[2024-12-21 02:12:17] INFO: Processed article: Sound Object Library
+[2024-12-21 02:12:17] INFO: Processed article: WxPython
+[2024-12-21 02:12:17] INFO: Processed article: Mako (template engine)
+[2024-12-21 02:12:17] INFO: Processed article: SpaCy
+[2024-12-21 02:12:17] INFO: Processed article: SQLAlchemy
+[2024-12-21 02:12:18] INFO: Processed article: PySide
+[2024-12-21 02:12:18] INFO: Processed article: XDMF
+[2024-12-21 02:12:18] INFO: Processed article: Dask (software)
+[2024-12-21 02:12:18] INFO: Processed article: Pygame
+[2024-12-21 02:12:18] INFO: Processed article: Kivy (framework)
+[2024-12-21 02:12:19] INFO: Processed article: Storm (software)
+[2024-12-21 02:12:19] INFO: Processed article: RPyC
+[2024-12-21 02:12:19] INFO: Processed article: Gensim
+[2024-12-21 02:12:19] INFO: Processed article: Construct (Python library)
+[2024-12-21 02:12:19] INFO: Processed article: PyGTK
+[2024-12-21 02:12:19] INFO: Processed article: Python-Ogre
+[2024-12-21 02:12:19] INFO: Processed article: PyObjC
+[2024-12-21 02:12:19] INFO: Processed article: PyGObject
+[2024-12-21 02:12:19] INFO: Processed article: RDFLib
+[2024-12-21 02:12:19] INFO: Processed article: Python Imaging Library
+[2024-12-21 02:12:20] INFO: Processed article: Python Robotics
+[2024-12-21 02:12:20] INFO: Processed article: Tkinter
+[2024-12-21 02:12:20] INFO: Processing category: Python (programming language) scientific libraries
+[2024-12-21 02:12:20] INFO: Progress saved to d:\Python Projects\open_wiki\wiki_articles\archive_progress.json
+[2024-12-21 02:12:20] INFO: Archiving completed in 0:00:52.043844
+[2024-12-21 02:12:20] INFO: Wikipedia Article Archiver finished.

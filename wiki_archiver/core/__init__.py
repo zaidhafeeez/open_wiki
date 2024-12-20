@@ -235,30 +235,30 @@ last_modified: {metadata['last_modified']}
     
     def save_progress(self):
         """
-    Save the current progress of article archiving.
-    
-    Handles potential errors during progress saving.
-    """
-    try:
-        progress = {
-            'processed': list(self.processed_articles),
-            'last_category': self.categories[-1] if self.categories else None,
-            'last_updated': datetime.utcnow().isoformat(),
-            'category_stats': getattr(self, 'category_stats', {})
-        }
+        Save the current progress of article archiving.
         
-        # Ensure output directory exists
-        ensure_directory(OUTPUT_DIR)
-        
-        # Save progress to JSON file
-        progress_file = os.path.join(OUTPUT_DIR, 'archive_progress.json')
-        with open(progress_file, 'w', encoding='utf-8') as f:
-            json.dump(progress, f, indent=2)
-        
-        logger.info(f"Progress saved to {progress_file}")
-    except Exception as e:
-        logger.error(f"Error saving progress: {e}")
-    
+        Handles potential errors during progress saving.
+        """
+        try:
+            progress = {
+                'processed': list(self.processed_articles),
+                'last_category': self.categories[-1] if self.categories else None,
+                'last_updated': datetime.utcnow().isoformat(),
+                'category_stats': getattr(self, 'category_stats', {})
+            }
+            
+            # Ensure output directory exists
+            ensure_directory(OUTPUT_DIR)
+            
+            # Save progress to JSON file
+            progress_file = os.path.join(OUTPUT_DIR, 'archive_progress.json')
+            with open(progress_file, 'w', encoding='utf-8') as f:
+                json.dump(progress, f, indent=2)
+            
+            logger.info(f"Progress saved to {progress_file}")
+        except Exception as e:
+            logger.error(f"Error saving progress: {e}")
+
     def load_progress(self):
         """
         Load progress from the JSON file.
@@ -267,8 +267,9 @@ last_modified: {metadata['last_modified']}
             dict: Loaded progress data
         """
         try:
-            if os.path.exists(PROGRESS_FILE):
-                with open(PROGRESS_FILE, 'r', encoding='utf-8') as f:
+            progress_file = os.path.join(OUTPUT_DIR, 'archive_progress.json')
+            if os.path.exists(progress_file):
+                with open(progress_file, 'r', encoding='utf-8') as f:
                     return json.load(f)
             return {}
         except Exception as e:
