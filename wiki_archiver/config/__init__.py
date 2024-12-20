@@ -12,7 +12,9 @@ CATEGORIES = [
     "Python (programming language)",
     "Python programming language",
     "Python software",
-    "Python programming language topics"
+    "Python programming language topics",
+    "Artificial Intelligence",
+    "Machine Learning"
 ]
 MAX_DEPTH = 1
 OUTPUT_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "wiki_articles")
