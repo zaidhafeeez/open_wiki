@@ -250,8 +250,8 @@ last_modified: {metadata['last_modified']}
             # Ensure output directory exists
             ensure_directory(OUTPUT_DIR)
             
-            # Save progress to JSON file
-            progress_file = os.path.join(OUTPUT_DIR, 'archive_progress.json')
+            # Save progress to JSON file using the global PROGRESS_FILE path
+            progress_file = os.path.join(os.path.dirname(os.path.dirname(__file__)), PROGRESS_FILE)
             with open(progress_file, 'w', encoding='utf-8') as f:
                 json.dump(progress, f, indent=2)
             
@@ -267,7 +267,8 @@ last_modified: {metadata['last_modified']}
             dict: Loaded progress data
         """
         try:
-            progress_file = os.path.join(OUTPUT_DIR, 'archive_progress.json')
+            # Use the global PROGRESS_FILE path
+            progress_file = os.path.join(os.path.dirname(os.path.dirname(__file__)), PROGRESS_FILE)
             if os.path.exists(progress_file):
                 with open(progress_file, 'r', encoding='utf-8') as f:
                     return json.load(f)
