@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block title %}Home - Wikipedia Article Archiver{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-8 offset-md-2">
+        <h1 class="text-center mb-4">Wikipedia Article Archiver</h1>
+        
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Archived Articles Overview</h5>
+                <p class="card-text">
+                    Total Archived Articles: <strong>{{ total_articles }}</strong>
+                </p>
+            </div>
+        </div>
+
+        <div class="card mt-3">
+            <div class="card-body">
+                <h5 class="card-title">Browse by Category</h5>
+                <div class="list-group">
+                    {% for category in categories %}
+                    <a href="{{ url_for('list_articles', category=category) }}" 
+                       class="list-group-item list-group-item-action">
+                        {{ category|title }}
+                    </a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

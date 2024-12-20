@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %}{{ article.title }} - Wikipedia Article Archiver{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-10 offset-md-1">
+        <div class="card">
+            <div class="card-header">
+                <h1>{{ article.title }}</h1>
+            </div>
+            <div class="card-body">
+                {% if article.categories %}
+                <div class="mb-3">
+                    <strong>Categories:</strong>
+                    {% for category in article.categories %}
+                    <span class="badge bg-secondary me-1">{{ category }}</span>
+                    {% endfor %}
+                </div>
+                {% endif %}
+
+                <div class="article-summary mb-3">
+                    <h4>Summary</h4>
+                    <p>{{ article.summary or 'No summary available' }}</p>
+                </div>
+
+                {% if article.content %}
+                <div class="article-content">
+                    <h4>Full Content</h4>
+                    <div class="card bg-light">
+                        <div class="card-body">
+                            {{ article.content|safe }}
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+
+                <div class="article-metadata mt-3">
+                    <small class="text-muted">
+                        Archived on: {{ article.archived_date or 'Unknown date' }}
+                    </small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
