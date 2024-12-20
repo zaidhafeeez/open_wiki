@@ -19,15 +19,7 @@ class ThreadSafeLogger:
         """
         self._log_queue = queue.Queue()
         self._log_lock = threading.Lock()
-        self._log_file = log_file
-        self._file_handler = None
         
-        if log_file:
-            try:
-                self._file_handler = open(log_file, 'a', encoding='utf-8')
-            except IOError as e:
-                self.error(f"Could not open log file: {e}")
-    
     def _log(self, message, level='INFO'):
         """
         Internal method to log messages.
@@ -40,16 +32,8 @@ class ThreadSafeLogger:
         formatted_msg = f"[{timestamp}] {level}: {message}"
         
         with self._log_lock:
-            # Console output
+            # Console output only
             print(formatted_msg, file=sys.stderr)
-            
-            # File logging if file handler exists
-            if self._file_handler:
-                try:
-                    print(formatted_msg, file=self._file_handler)
-                    self._file_handler.flush()
-                except Exception as e:
-                    print(f"Error writing to log file: {e}", file=sys.stderr)
     
     def info(self, message):
         """Log an informational message."""
@@ -65,8 +49,7 @@ class ThreadSafeLogger:
     
     def close(self):
         """Close the log file handler."""
-        if self._file_handler:
-            self._file_handler.close()
+        pass
 
 # Global logger instance
-logger = ThreadSafeLogger(log_file='wiki_archiver.log')
+logger = ThreadSafeLogger()
