@@ -4,7 +4,7 @@ Test suite for Wikipedia Article Archiver
 
 import os
 import pytest
-import wikipediaapi
+import wikipedia_api as wikipediaapi
 
 from wiki_archiver.core import WikiArchiver
 from wiki_archiver.config import LANGUAGE, CATEGORY, MAX_DEPTH

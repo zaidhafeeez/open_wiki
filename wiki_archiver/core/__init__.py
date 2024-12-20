@@ -8,7 +8,7 @@ import os
 import json
 import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
-import wikipediaapi
+import wikipedia_api
 
 from ..config import *
 from ..utils import get_safe_path, retry_with_backoff, ensure_directory
@@ -28,9 +28,9 @@ class WikiArchiver:
         self.category = category
         self.max_depth = max_depth
         
-        self.wiki_wiki = wikipediaapi.Wikipedia(
+        self.wiki_wiki = wikipedia_api.Wikipedia(
             language=self.language,
-            extract_format=wikipediaapi.ExtractFormat.WIKI,
+            extract_format=wikipedia_api.ExtractFormat.WIKI,
             user_agent=USER_AGENT
         )
         
@@ -174,9 +174,9 @@ last_modified: {metadata['last_modified']}
         subcategories = set()
         
         for title, page in category_page.categorymembers.items():
-            if page.ns == wikipediaapi.Namespace.CATEGORY:
+            if page.ns == wikipedia_api.Namespace.CATEGORY:
                 subcategories.add(page.title.replace("Category:", ""))
-            elif page.ns == wikipediaapi.Namespace.MAIN:
+            elif page.ns == wikipedia_api.Namespace.MAIN:
                 articles.add(page.title)
         
         return articles, subcategories
