@@ -93,7 +93,7 @@ Current archiving progress by category:
 - [ ] 🔍 Full-text search capabilities
 - [ ] 📊 Article diff tracking
 - [ ] ⚙️ Custom category configuration
-- [ ] 🔌 API for programmatic access
+- [x] 🔌 API for programmatic access
 
 ## Programmatic Access
 
