@@ -4,7 +4,7 @@ url: https://en.wikipedia.org/wiki/Name_mangling
 language: en
 categories: ["Category:All articles needing additional references", "Category:All articles that may contain original research", "Category:All articles to be expanded", "Category:All articles with style issues", "Category:Articles needing additional references from December 2011", "Category:Articles that may contain original research from September 2016", "Category:Articles to be expanded from June 2014", "Category:Articles with example C++ code", "Category:Articles with example C code", "Category:Articles with example Java code", "Category:Articles with example Python (programming language) code", "Category:Articles with multiple maintenance issues", "Category:Articles with short description", "Category:C++", "Category:CS1 maint: numeric names: authors list", "Category:Compiler construction", "Category:Computer libraries", "Category:Java (programming language)", "Category:Short description is different from Wikidata", "Category:Wikipedia articles with style issues from September 2016"]
 references: 0
-last_modified: 2024-12-19T23:48:55Z
+last_modified: 2024-12-21T15:02:28Z
 ---
 
 # Name mangling
@@ -26,8 +26,6 @@ Later languages, like C++, defined stricter requirements for routines to be cons
 These stricter requirements needed to work with extant programming tools and conventions. Thus, added requirements were encoded in the name of the symbol, since that was the only information a traditional linker had about a symbol.
 
 Examples
-‹The template Manual is being considered for merging.›
-
 C
 Although name mangling is not generally required or used by languages that do not support function overloading, like C and classic Pascal, they use it in some cases to provide added information about a function.
 For example, compilers targeted at Microsoft Windows platforms support a variety of calling conventions, which determine the manner in which parameters are sent to subroutines and results are returned. Because the different calling conventions are incompatible with one another, compilers mangle symbols with codes detailing which convention should be used to call the specific routine.

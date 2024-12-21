@@ -4,7 +4,7 @@ url: https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle
 language: en
 categories: ["Category:All articles needing additional references", "Category:All articles that may contain original research", "Category:All articles with unsourced statements", "Category:Articles needing additional references from April 2017", "Category:Articles that may contain original research from April 2017", "Category:Articles with example Python (programming language) code", "Category:Articles with example pseudocode", "Category:Articles with short description", "Category:Articles with unsourced statements from February 2019", "Category:Articles with unsourced statements from June 2023", "Category:Combinatorial algorithms", "Category:Monte Carlo methods", "Category:Permutations", "Category:Randomized algorithms", "Category:Ronald Fisher", "Category:Short description matches Wikidata"]
 references: 0
-last_modified: 2024-12-19T14:05:32Z
+last_modified: 2024-12-21T16:28:15Z
 ---
 
 # Fisher–Yates shuffle

@@ -4,7 +4,7 @@ url: https://en.wikipedia.org/wiki/Sublime_Text
 language: en
 categories: ["Category:All articles lacking reliable references", "Category:All articles with unsourced statements", "Category:Articles lacking reliable references from February 2012", "Category:Articles with short description", "Category:Articles with unsourced statements from April 2015", "Category:C++ software", "Category:CS1 errors: bare URL", "Category:CS1 errors: missing title", "Category:Cross-platform software", "Category:HTML editors", "Category:Linux text editors", "Category:MacOS text editors", "Category:Python (programming language) software", "Category:Short description matches Wikidata", "Category:Text editors", "Category:Unix text editors", "Category:Use dmy dates from June 2021", "Category:Wikipedia articles needing clarification from January 2015", "Category:Windows text editors", "Category:XML editors"]
 references: 0
-last_modified: 2024-12-20T18:57:36Z
+last_modified: 2024-12-21T11:34:35Z
 ---
 
 # Sublime Text

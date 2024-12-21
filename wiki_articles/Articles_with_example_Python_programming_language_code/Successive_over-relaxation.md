@@ -4,7 +4,7 @@ url: https://en.wikipedia.org/wiki/Successive_over-relaxation
 language: en
 categories: ["Category:Articles with example Python (programming language) code", "Category:Articles with example pseudocode", "Category:Articles with short description", "Category:Numerical linear algebra", "Category:Relaxation (iterative methods)", "Category:Short description matches Wikidata", "Category:Wikipedia articles licensed under the GNU Free Document License"]
 references: 0
-last_modified: 2024-12-19T13:53:56Z
+last_modified: 2024-12-21T05:52:42Z
 ---
 
 # Successive over-relaxation

@@ -1,0 +1,23 @@
+{
+  "title": "Pygame",
+  "summary": "Pygame is a cross-platform set of Python modules designed for writing video games. It includes computer graphics and sound libraries designed to be used with the Python programming language.",
+  "content": "---\ntitle: Pygame\nurl: https://en.wikipedia.org/wiki/Pygame\nlanguage: en\ncategories: [\"Category:Application programming interfaces\", \"Category:Articles with short description\", \"Category:Free computer libraries\", \"Category:Free software programmed in Python\", \"Category:Graphics libraries\", \"Category:Linux APIs\", \"Category:MacOS APIs\", \"Category:Python (programming language) libraries\", \"Category:Short description is different from Wikidata\", \"Category:Simple DirectMedia Layer\", \"Category:Use dmy dates from September 2023\", \"Category:Video game development software\", \"Category:Video game development software for Linux\", \"Category:Windows APIs\"]\nreferences: 0\nlast_modified: 2024-12-19T13:46:55Z\n---\n\n# Pygame\n\n## Summary\n\nPygame is a cross-platform set of Python modules designed for writing video games. It includes computer graphics and sound libraries designed to be used with the Python programming language.\n\n## Full Content\n\nPygame is a cross-platform set of Python modules designed for writing video games. It includes computer graphics and sound libraries designed to be used with the Python programming language.\n\nHistory\nPygame was originally written by Pete Shinners to replace PySDL after its development stalled. It has been a community project since 2000 and is released under the free software GNU Lesser General Public License (which \"provides for Pygame to be distributed with open source and commercial software\").\n\nDevelopment of version 2\nPygame version 2 was planned as \"Pygame Reloaded\" in 2009, but development and maintenance of Pygame completely stopped until the end of 2016 with version 1.9.1. After the release of version 1.9.5 in March 2019, development of a new version 2 was active on the roadmap.\nPygame 2.0 released on 28 October, 2020, Pygame's 20th anniversary.\n\nFeatures\nPygame uses the Simple DirectMedia Layer (SDL) library, with the intention of allowing real-time computer game development without the low-level mechanics of the C programming language and its derivatives. This is based on the assumption that the most expensive functions inside games can be abstracted from the game logic, making it possible to use a high-level programming language, such as Python, to structure the game.\nOther features that SDL does have include vector math, collision detection, 2D sprite scene graph management, MIDI support, camera, pixel-array manipulation, transformations, filtering, advanced freetype font support, and drawing.\nApplications using Pygame can run on Android phones and tablets with the use of Pygame Subset for Android (pgs4a). Sound, vibration, keyboard, and accelerometer are supported on Android.\n\nCommunity\nFollowing disagreements between former core developers and the repository owner, a fork known as pygame-ce (Community Edition) was created. \n\nThere is a regular competition, called PyWeek, to write games using Python (and usually but not necessarily, Pygame). The community has created many tutorials for Pygame.\n\nSample code\nThe following code makes an image of a raccoon(\"raccoon.png\") bounce when hitting an edge.\n\nNotable games using Pygame\nFrets on Fire\nDangerous High School Girls in Trouble!\n\nSee also\nCocos2d\nPanda3D\nPyglet\n\nNotes\nReferences\nExternal links\nOfficial website \nPygame newsgroup (web access) - the \"official\"\nPygame Subset for Android (PGS4A)\npyOpenGL - Python OpenGL Bindings\nPygame-SDL2 - a reimplementation of Pygame APIs on top of SDL2\nPySDL2 - a wrapper around the SDL2 library similar to the discontinued PySDL project\n",
+  "categories": [
+    "Category:Application programming interfaces",
+    "Category:Articles with short description",
+    "Category:Free computer libraries",
+    "Category:Free software programmed in Python",
+    "Category:Graphics libraries",
+    "Category:Linux APIs",
+    "Category:MacOS APIs",
+    "Category:Python (programming language) libraries",
+    "Category:Short description is different from Wikidata",
+    "Category:Simple DirectMedia Layer",
+    "Category:Use dmy dates from September 2023",
+    "Category:Video game development software",
+    "Category:Video game development software for Linux",
+    "Category:Windows APIs"
+  ],
+  "archived_date": "20241221_183008",
+  "source_url": "https://en.wikipedia.org/wiki/Pygame"
+}

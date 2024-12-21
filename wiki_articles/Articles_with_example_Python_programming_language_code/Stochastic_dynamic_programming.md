@@ -4,7 +4,7 @@ url: https://en.wikipedia.org/wiki/Stochastic_dynamic_programming
 language: en
 categories: ["Category:All articles to be expanded", "Category:Articles to be expanded from January 2017", "Category:Articles with example Python (programming language) code", "Category:Articles with short description", "Category:Dynamic programming", "Category:Optimal control", "Category:Optimization algorithms and methods", "Category:Pages using div col with small parameter", "Category:Short description matches Wikidata", "Category:Stochastic optimization"]
 references: 0
-last_modified: 2024-12-20T17:41:58Z
+last_modified: 2024-12-21T13:10:57Z
 ---
 
 # Stochastic dynamic programming

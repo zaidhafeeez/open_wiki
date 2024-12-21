@@ -4,7 +4,7 @@ url: https://en.wikipedia.org/wiki/Type_introspection
 language: en
 categories: ["Category:All articles with style issues", "Category:All articles with too many examples", "Category:Articles with example C++ code", "Category:Articles with example Java code", "Category:Articles with example Objective-C code", "Category:Articles with example PHP code", "Category:Articles with example Pascal code", "Category:Articles with example Perl code", "Category:Articles with example Python (programming language) code", "Category:Articles with example Ruby code", "Category:Articles with multiple maintenance issues", "Category:Articles with too many examples from December 2011", "Category:Object-oriented programming", "Category:Programming language comparisons", "Category:Wikipedia articles with style issues from December 2011"]
 references: 0
-last_modified: 2024-12-19T23:48:55Z
+last_modified: 2024-12-21T15:02:28Z
 ---
 
 # Type introspection

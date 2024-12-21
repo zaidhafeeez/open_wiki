@@ -4,7 +4,7 @@ url: https://en.wikipedia.org/wiki/Command-line_argument_parsing
 language: en
 categories: ["Category:Articles with example Java code", "Category:Articles with example PHP code", "Category:Articles with example Python (programming language) code", "Category:Articles with example Racket code", "Category:Articles with short description", "Category:Command shells", "Category:Short description matches Wikidata"]
 references: 0
-last_modified: 2024-12-19T14:22:06Z
+last_modified: 2024-12-20T23:37:44Z
 ---
 
 # Command-line argument parsing

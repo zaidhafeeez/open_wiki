@@ -4,7 +4,7 @@ url: https://en.wikipedia.org/wiki/Power_iteration
 language: en
 categories: ["Category:Articles with example Python (programming language) code", "Category:Articles with short description", "Category:CS1 maint: multiple names: authors list", "Category:Numerical linear algebra", "Category:Short description matches Wikidata", "Category:Use dmy dates from January 2020", "Category:Wikipedia articles needing clarification from October 2016"]
 references: 0
-last_modified: 2024-12-19T13:57:19Z
+last_modified: 2024-12-21T06:30:52Z
 ---
 
 # Power iteration

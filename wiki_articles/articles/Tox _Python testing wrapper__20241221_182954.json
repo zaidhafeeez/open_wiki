@@ -1,0 +1,16 @@
+{
+  "title": "Tox (Python testing wrapper)",
+  "summary": "tox is a command-line driven automated testing tool for Python, based on the use of virtualenv. It can be used for both manually-invoked testing from the desktop, or continuous testing within continuous integration frameworks such as Jenkins or Travis CI. Its use began to become popular in the Python community from around 2015.\ntox acts a wrapper for both virtual environments and test automation tools, to simplify the consistent testing of Python code across a range of environments. It integrate",
+  "content": "---\ntitle: Tox (Python testing wrapper)\nurl: https://en.wikipedia.org/wiki/Tox_(Python_testing_wrapper)\nlanguage: en\ncategories: [\"Category:All stub articles\", \"Category:Articles with short description\", \"Category:Computing stubs\", \"Category:Continuous integration\", \"Category:Python (programming language) development tools\", \"Category:Python (programming language) software\", \"Category:Short description matches Wikidata\"]\nreferences: 0\nlast_modified: 2024-12-19T14:45:53Z\n---\n\n# Tox (Python testing wrapper)\n\n## Summary\n\ntox is a command-line driven automated testing tool for Python, based on the use of virtualenv. It can be used for both manually-invoked testing from the desktop, or continuous testing within continuous integration frameworks such as Jenkins or Travis CI. Its use began to become popular in the Python community from around 2015.\ntox acts a wrapper for both virtual environments and test automation tools, to simplify the consistent testing of Python code across a range of environments. It integrate\n\n## Full Content\n\ntox is a command-line driven automated testing tool for Python, based on the use of virtualenv. It can be used for both manually-invoked testing from the desktop, or continuous testing within continuous integration frameworks such as Jenkins or Travis CI. Its use began to become popular in the Python community from around 2015.\ntox acts a wrapper for both virtual environments and test automation tools, to simplify the consistent testing of Python code across a range of environments. It integrates the use of a virtualisation tool, such as virtualenv, with a test script such as Imprimatur. This gives a consistent container-based testing environment on both desktops and integration servers. It also allows testing in a range of Python environments, such as Python 2 or Python 3 specific contexts.\nTox is configured through a simple tox.ini file in  INI format.\n\nSmoke testing\ntox is also convenient as a simple smoke test on a newly installed, or freshly-updated system. It is also useful before beginning a refactoring exercise.\n\n\n== References ==\n",
+  "categories": [
+    "Category:All stub articles",
+    "Category:Articles with short description",
+    "Category:Computing stubs",
+    "Category:Continuous integration",
+    "Category:Python (programming language) development tools",
+    "Category:Python (programming language) software",
+    "Category:Short description matches Wikidata"
+  ],
+  "archived_date": "20241221_182954",
+  "source_url": "https://en.wikipedia.org/wiki/Tox_(Python_testing_wrapper)"
+}

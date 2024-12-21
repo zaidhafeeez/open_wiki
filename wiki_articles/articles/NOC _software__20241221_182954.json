@@ -1,0 +1,15 @@
+{
+  "title": "NOC (software)",
+  "summary": "NOC is an open-source operations support system for telecommunications service providers. It can maintain network inventory, manage virtual circuits, maintain distributed DNS configuration and manage IP address blocks.\nNOC Project is mentioned in the Configuration management and backup tools section of the 2019 GEANT SIG-NOC Tools Survey among other tools used by the community.",
+  "content": "---\ntitle: NOC (software)\nurl: https://en.wikipedia.org/wiki/NOC_(software)\nlanguage: en\ncategories: [\"Category:All stub articles\", \"Category:Free and open-source software stubs\", \"Category:Network management\", \"Category:Network software stubs\", \"Category:Python (programming language) software\", \"Category:Software using the BSD license\"]\nreferences: 0\nlast_modified: 2024-12-19T10:25:24Z\n---\n\n# NOC (software)\n\n## Summary\n\nNOC is an open-source operations support system for telecommunications service providers. It can maintain network inventory, manage virtual circuits, maintain distributed DNS configuration and manage IP address blocks.\nNOC Project is mentioned in the Configuration management and backup tools section of the 2019 GEANT SIG-NOC Tools Survey among other tools used by the community.\n\n## Full Content\n\nNOC is an open-source operations support system for telecommunications service providers. It can maintain network inventory, manage virtual circuits, maintain distributed DNS configuration and manage IP address blocks.\nNOC Project is mentioned in the Configuration management and backup tools section of the 2019 GEANT SIG-NOC Tools Survey among other tools used by the community.\n\nSee also\n\nComparison of open-source configuration management software\nInfrastructure as code (IaC)\nInfrastructure as Code Tools\n\n\n== References ==\n",
+  "categories": [
+    "Category:All stub articles",
+    "Category:Free and open-source software stubs",
+    "Category:Network management",
+    "Category:Network software stubs",
+    "Category:Python (programming language) software",
+    "Category:Software using the BSD license"
+  ],
+  "archived_date": "20241221_182954",
+  "source_url": "https://en.wikipedia.org/wiki/NOC_(software)"
+}

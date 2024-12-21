@@ -4,7 +4,7 @@ url: https://en.wikipedia.org/wiki/Softmax_function
 language: en
 categories: ["Category:All articles with unsourced statements", "Category:Articles with example Julia code", "Category:Articles with example Python (programming language) code", "Category:Articles with example R code", "Category:Articles with short description", "Category:Articles with unsourced statements from March 2024", "Category:Artificial neural networks", "Category:Computational neuroscience", "Category:Exponentials", "Category:Functions and mappings", "Category:Logistic regression", "Category:Short description is different from Wikidata"]
 references: 0
-last_modified: 2024-12-20T07:25:30Z
+last_modified: 2024-12-21T00:18:35Z
 ---
 
 # Softmax function

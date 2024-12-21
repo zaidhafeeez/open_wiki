@@ -4,7 +4,7 @@ url: https://en.wikipedia.org/wiki/Colon_(punctuation)
 language: en
 categories: ["Category:All articles needing additional references", "Category:All articles that may contain original research", "Category:All articles with failed verification", "Category:All articles with unsourced statements", "Category:Articles needing additional references from April 2022", "Category:Articles needing additional references from January 2018", "Category:Articles that may contain original research from January 2018", "Category:Articles that may contain original research from May 2012", "Category:Articles with example Haskell code", "Category:Articles with example JavaScript code", "Category:Articles with example Python (programming language) code", "Category:Articles with failed verification from January 2024", "Category:Articles with multiple maintenance issues", "Category:Articles with short description", "Category:Articles with unsourced statements from January 2024", "Category:CS1 Italian-language sources (it)", "Category:CS1 maint: bot: original URL status unknown", "Category:CS1 maint: numeric names: authors list", "Category:Commons category link is on Wikidata", "Category:Programming language comparisons", "Category:Punctuation", "Category:Short description is different from Wikidata", "Category:Typographical symbols", "Category:Webarchive template archiveis links"]
 references: 0
-last_modified: 2024-12-19T13:42:24Z
+last_modified: 2024-12-21T12:03:25Z
 ---
 
 # Colon (punctuation)

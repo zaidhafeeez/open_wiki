@@ -1,0 +1,19 @@
+{
+  "title": "Mako (template engine)",
+  "summary": "Mako is a template library written in Python. Mako is an embedded Python (i.e. Python Server Page) language, which refines the familiar ideas of componentized layout and inheritance. The Mako template is used by Reddit.  It is the default template language included with the Pylons and Pyramid web frameworks.",
+  "content": "---\ntitle: Mako (template engine)\nurl: https://en.wikipedia.org/wiki/Mako_(template_engine)\nlanguage: en\ncategories: [\"Category:All articles lacking reliable references\", \"Category:All stub articles\", \"Category:Articles lacking reliable references from March 2022\", \"Category:Articles with multiple maintenance issues\", \"Category:Articles with short description\", \"Category:Computer programming tool stubs\", \"Category:Official website different in Wikidata and Wikipedia\", \"Category:Python (programming language) libraries\", \"Category:Short description is different from Wikidata\", \"Category:Template engines\"]\nreferences: 0\nlast_modified: 2024-12-19T15:03:18Z\n---\n\n# Mako (template engine)\n\n## Summary\n\nMako is a template library written in Python. Mako is an embedded Python (i.e. Python Server Page) language, which refines the familiar ideas of componentized layout and inheritance. The Mako template is used by Reddit.  It is the default template language included with the Pylons and Pyramid web frameworks.\n\n## Full Content\n\nMako is a template library written in Python. Mako is an embedded Python (i.e. Python Server Page) language, which refines the familiar ideas of componentized layout and inheritance. The Mako template is used by Reddit.  It is the default template language included with the Pylons and Pyramid web frameworks.\n\nSee also\nCheetahTemplate\nGenshi\nJinja\n\nReferences\nExternal links\nOfficial website\nMako on PyPI\nMako on GitHub\n",
+  "categories": [
+    "Category:All articles lacking reliable references",
+    "Category:All stub articles",
+    "Category:Articles lacking reliable references from March 2022",
+    "Category:Articles with multiple maintenance issues",
+    "Category:Articles with short description",
+    "Category:Computer programming tool stubs",
+    "Category:Official website different in Wikidata and Wikipedia",
+    "Category:Python (programming language) libraries",
+    "Category:Short description is different from Wikidata",
+    "Category:Template engines"
+  ],
+  "archived_date": "20241221_183007",
+  "source_url": "https://en.wikipedia.org/wiki/Mako_(template_engine)"
+}

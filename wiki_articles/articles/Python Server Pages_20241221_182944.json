@@ -1,0 +1,12 @@
+{
+  "title": "Python Server Pages",
+  "summary": "Python Server Pages (PSP) is a name used by several different implementations of server-side script engines for creating dynamically-generated web pages by embedding Python in HTML. For example, an implementation of Python Server Pages was released with mod_python 3.1 in 2004.\nSpyce, which also claims the phrase \"Python Server Pages\", was first released in 2002.\nThe Webware for Python suite also contains an implementation of Python Server Pages released as early as 2000.\nAn earlier tool with a s",
+  "content": "---\ntitle: Python Server Pages\nurl: https://en.wikipedia.org/wiki/Python_Server_Pages\nlanguage: en\ncategories: [\"Category:All stub articles\", \"Category:Python (programming language)\", \"Category:Web software stubs\"]\nreferences: 0\nlast_modified: 2024-12-20T05:36:10Z\n---\n\n# Python Server Pages\n\n## Summary\n\nPython Server Pages (PSP) is a name used by several different implementations of server-side script engines for creating dynamically-generated web pages by embedding Python in HTML. For example, an implementation of Python Server Pages was released with mod_python 3.1 in 2004.\nSpyce, which also claims the phrase \"Python Server Pages\", was first released in 2002.\nThe Webware for Python suite also contains an implementation of Python Server Pages released as early as 2000.\nAn earlier tool with a s\n\n## Full Content\n\nPython Server Pages (PSP) is a name used by several different implementations of server-side script engines for creating dynamically-generated web pages by embedding Python in HTML. For example, an implementation of Python Server Pages was released with mod_python 3.1 in 2004.\nSpyce, which also claims the phrase \"Python Server Pages\", was first released in 2002.\nThe Webware for Python suite also contains an implementation of Python Server Pages released as early as 2000.\nAn earlier tool with a similar function also called Python Server Pages but based on Java and JPython was first released in 1999.\nIt was one of the earliest web development support in Python and has long since been surpassed in popularity by systems such as Django or Flask.\n\n\n== References ==\n",
+  "categories": [
+    "Category:All stub articles",
+    "Category:Python (programming language)",
+    "Category:Web software stubs"
+  ],
+  "archived_date": "20241221_182944",
+  "source_url": "https://en.wikipedia.org/wiki/Python_Server_Pages"
+}

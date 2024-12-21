@@ -4,20 +4,16 @@ url: https://en.wikipedia.org/wiki/RDFLib
 language: en
 categories: ["Category:All Wikipedia articles in need of updating", "Category:All articles to be expanded", "Category:All articles with empty sections", "Category:All articles with style issues", "Category:Articles to be expanded from July 2010", "Category:Articles with empty sections from July 2010", "Category:Articles with short description", "Category:Python (programming language) libraries", "Category:RDF data access", "Category:Resource Description Framework", "Category:Short description is different from Wikidata", "Category:Wikipedia articles in need of updating from October 2019", "Category:Wikipedia articles with style issues from July 2021"]
 references: 0
-last_modified: 2024-12-19T23:48:55Z
+last_modified: 2024-12-21T15:02:28Z
 ---
 
 # RDFLib
 
 ## Summary
 
-‹The template Manual is being considered for merging.› 
-
-RDFLib is a Python library for working with RDF, a simple yet powerful language for representing information. This library contains parsers/serializers for almost all of the known RDF serializations, such as RDF/XML, Turtle, N-Triples, & JSON-LD, many of which are now supported in their updated form (e.g. Turtle 1.1). The library also contains both in-memory and persistent Graph back-ends for storing RDF information and numerous convenienc
+RDFLib is a Python library for working with RDF, a simple yet powerful language for representing information. This library contains parsers/serializers for almost all of the known RDF serializations, such as RDF/XML, Turtle, N-Triples, & JSON-LD, many of which are now supported in their updated form (e.g. Turtle 1.1). The library also contains both in-memory and persistent Graph back-ends for storing RDF information and numerous convenience functions for declaring graph namespaces, lodging SPARQ
 
 ## Full Content
-
-‹The template Manual is being considered for merging.› 
 
 RDFLib is a Python library for working with RDF, a simple yet powerful language for representing information. This library contains parsers/serializers for almost all of the known RDF serializations, such as RDF/XML, Turtle, N-Triples, & JSON-LD, many of which are now supported in their updated form (e.g. Turtle 1.1). The library also contains both in-memory and persistent Graph back-ends for storing RDF information and numerous convenience functions for declaring graph namespaces, lodging SPARQL queries and so on. It is in continuous development with the most recent stable release, rdflib 6.1.1 having been released on 20 December 2021. It was originally created by Daniel Krech with the first release in November, 2002.
 A number of other Python projects use rdflib for RDF manipulation, including:

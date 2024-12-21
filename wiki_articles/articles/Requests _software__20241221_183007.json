@@ -1,0 +1,16 @@
+{
+  "title": "Requests (software)",
+  "summary": "Requests is an HTTP client library for the Python programming language.\nRequests is one of the most downloaded Python libraries, with over 300 million monthly downloads. It maps the HTTP protocol onto Python's object-oriented semantics. Requests's design has inspired and been copied by HTTP client libraries for other programming languages. It is implemented as a wrapper for urllib3, another third-party Python HTTP library.\nKenneth Reitz, the original author, handed control over to the Python Sof",
+  "content": "---\ntitle: Requests (software)\nurl: https://en.wikipedia.org/wiki/Requests_(software)\nlanguage: en\ncategories: [\"Category:Articles with short description\", \"Category:Free network-related software\", \"Category:Free software programmed in Python\", \"Category:Hypertext Transfer Protocol clients\", \"Category:Python (programming language) libraries\", \"Category:Short description is different from Wikidata\", \"Category:Software using the Apache license\"]\nreferences: 0\nlast_modified: 2024-12-19T14:41:33Z\n---\n\n# Requests (software)\n\n## Summary\n\nRequests is an HTTP client library for the Python programming language.\nRequests is one of the most downloaded Python libraries, with over 300 million monthly downloads. It maps the HTTP protocol onto Python's object-oriented semantics. Requests's design has inspired and been copied by HTTP client libraries for other programming languages. It is implemented as a wrapper for urllib3, another third-party Python HTTP library.\nKenneth Reitz, the original author, handed control over to the Python Sof\n\n## Full Content\n\nRequests is an HTTP client library for the Python programming language.\nRequests is one of the most downloaded Python libraries, with over 300 million monthly downloads. It maps the HTTP protocol onto Python's object-oriented semantics. Requests's design has inspired and been copied by HTTP client libraries for other programming languages. It is implemented as a wrapper for urllib3, another third-party Python HTTP library.\nKenneth Reitz, the original author, handed control over to the Python Software Foundation in 2019 after being diagnosed with bipolar disorder in 2015.\n\nFeatures\nRequests supports TLS/SSL verification, cookies, compression, SOCKS, timeouts, a variety of request methods, and custom headers.\n\nReferences\nExternal links\nOfficial website \nrequests on GitHub\n",
+  "categories": [
+    "Category:Articles with short description",
+    "Category:Free network-related software",
+    "Category:Free software programmed in Python",
+    "Category:Hypertext Transfer Protocol clients",
+    "Category:Python (programming language) libraries",
+    "Category:Short description is different from Wikidata",
+    "Category:Software using the Apache license"
+  ],
+  "archived_date": "20241221_183007",
+  "source_url": "https://en.wikipedia.org/wiki/Requests_(software)"
+}

@@ -4,7 +4,7 @@ url: https://en.wikipedia.org/wiki/Normalization_(machine_learning)
 language: en
 categories: ["Category:Articles with example Python (programming language) code", "Category:Articles with short description", "Category:CS1 errors: missing periodical", "Category:Deep learning", "Category:Machine learning", "Category:Neural networks", "Category:Short description matches Wikidata", "Category:Statistical data transformation"]
 references: 0
-last_modified: 2024-12-20T07:25:30Z
+last_modified: 2024-12-21T00:18:35Z
 ---
 
 # Normalization (machine learning)

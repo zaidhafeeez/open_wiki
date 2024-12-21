@@ -1,0 +1,17 @@
+{
+  "title": "Quixote (web framework)",
+  "summary": "Quixote is a software framework for developing web applications in Python. Quixote \"is based on a simple, flexible design, making it possible to write applications quickly and to benefit from the wide range of available third-party Python modules\".\nA Quixote application is typically a Python package, a collection of modules grouped into a single directory tree. Quixote then maps a URL to a function or method inside the Python package; the function is then called with the contents of the HTTP req",
+  "content": "---\ntitle: Quixote (web framework)\nurl: https://en.wikipedia.org/wiki/Quixote_(web_framework)\nlanguage: en\ncategories: [\"Category:All articles lacking reliable references\", \"Category:All articles with topics of unclear notability\", \"Category:All stub articles\", \"Category:Articles lacking reliable references from April 2024\", \"Category:Articles with multiple maintenance issues\", \"Category:Articles with topics of unclear notability from April 2024\", \"Category:Python (programming language) web frameworks\", \"Category:Web software stubs\"]\nreferences: 0\nlast_modified: 2024-12-19T10:08:42Z\n---\n\n# Quixote (web framework)\n\n## Summary\n\nQuixote is a software framework for developing web applications in Python. Quixote \"is based on a simple, flexible design, making it possible to write applications quickly and to benefit from the wide range of available third-party Python modules\".\nA Quixote application is typically a Python package, a collection of modules grouped into a single directory tree. Quixote then maps a URL to a function or method inside the Python package; the function is then called with the contents of the HTTP req\n\n## Full Content\n\nQuixote is a software framework for developing web applications in Python. Quixote \"is based on a simple, flexible design, making it possible to write applications quickly and to benefit from the wide range of available third-party Python modules\".\nA Quixote application is typically a Python package, a collection of modules grouped into a single directory tree. Quixote then maps a URL to a function or method inside the Python package; the function is then called with the contents of the HTTP request, and the results are returned to the client.\n\nSee also\nComparison of web frameworks\n\nReferences\nExternal links\nOfficial website\n",
+  "categories": [
+    "Category:All articles lacking reliable references",
+    "Category:All articles with topics of unclear notability",
+    "Category:All stub articles",
+    "Category:Articles lacking reliable references from April 2024",
+    "Category:Articles with multiple maintenance issues",
+    "Category:Articles with topics of unclear notability from April 2024",
+    "Category:Python (programming language) web frameworks",
+    "Category:Web software stubs"
+  ],
+  "archived_date": "20241221_183003",
+  "source_url": "https://en.wikipedia.org/wiki/Quixote_(web_framework)"
+}

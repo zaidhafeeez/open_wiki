@@ -1,0 +1,16 @@
+{
+  "title": "CLPython",
+  "summary": "CLPython is an implementation of the Python programming language written in Common Lisp.\nThis project allow to call Lisp functions from Python and Python functions from Lisp. Licensed under LGPL.\nCLPython was started in 2006, but as of 2013, it was not actively developed and the mailing list was closed.",
+  "content": "---\ntitle: CLPython\nurl: https://en.wikipedia.org/wiki/CLPython\nlanguage: en\ncategories: [\"Category:All articles needing additional references\", \"Category:Articles needing additional references from April 2019\", \"Category:Common Lisp (programming language) software\", \"Category:Free and open source interpreters\", \"Category:Free software programmed in Lisp\", \"Category:Official website different in Wikidata and Wikipedia\", \"Category:Python (programming language) implementations\"]\nreferences: 0\nlast_modified: 2024-11-24T06:40:51Z\n---\n\n# CLPython\n\n## Summary\n\nCLPython is an implementation of the Python programming language written in Common Lisp.\nThis project allow to call Lisp functions from Python and Python functions from Lisp. Licensed under LGPL.\nCLPython was started in 2006, but as of 2013, it was not actively developed and the mailing list was closed.\n\n## Full Content\n\nCLPython is an implementation of the Python programming language written in Common Lisp.\nThis project allow to call Lisp functions from Python and Python functions from Lisp. Licensed under LGPL.\nCLPython was started in 2006, but as of 2013, it was not actively developed and the mailing list was closed.\n\nSee also\nCPython - the default implementation of Python, written in C.\nIronPython - an implementation of Python in C# targeting .NET and Mono.\nJython - an implementation of Python for the JVM.\nHy - An implementation of Lisp written in Python\n\nReferences\nExternal links\nOfficial website\nhttps://github.com/metawilm/cl-python\n",
+  "categories": [
+    "Category:All articles needing additional references",
+    "Category:Articles needing additional references from April 2019",
+    "Category:Common Lisp (programming language) software",
+    "Category:Free and open source interpreters",
+    "Category:Free software programmed in Lisp",
+    "Category:Official website different in Wikidata and Wikipedia",
+    "Category:Python (programming language) implementations"
+  ],
+  "archived_date": "20241221_183001",
+  "source_url": "https://en.wikipedia.org/wiki/CLPython"
+}

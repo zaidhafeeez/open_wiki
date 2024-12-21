@@ -1,0 +1,20 @@
+{
+  "title": "Grok (web framework)",
+  "summary": "Grok is an open-source web framework based on Zope Toolkit (ZTK) technology. The project was started in 2006 by a number of Zope developers. Its core technologies (Martian, grokcore.component) are also used in other Zope-based projects.\nThe primary motive behind Grok is to make the Zope Toolkit technology more accessible and easier to use for newcomers and, at the same time, speed up application development, in accordance with the agile programming paradigm.\nTo achieve this, Grok uses convention",
+  "content": "---\ntitle: Grok (web framework)\nurl: https://en.wikipedia.org/wiki/Grok_(web_framework)\nlanguage: en\ncategories: [\"Category:All articles lacking reliable references\", \"Category:All articles with topics of unclear notability\", \"Category:All stub articles\", \"Category:Articles lacking reliable references from April 2024\", \"Category:Articles with multiple maintenance issues\", \"Category:Articles with short description\", \"Category:Articles with topics of unclear notability from April 2024\", \"Category:Python (programming language) software\", \"Category:Python (programming language) web frameworks\", \"Category:Short description is different from Wikidata\", \"Category:Web software stubs\"]\nreferences: 0\nlast_modified: 2024-12-19T14:12:37Z\n---\n\n# Grok (web framework)\n\n## Summary\n\nGrok is an open-source web framework based on Zope Toolkit (ZTK) technology. The project was started in 2006 by a number of Zope developers. Its core technologies (Martian, grokcore.component) are also used in other Zope-based projects.\nThe primary motive behind Grok is to make the Zope Toolkit technology more accessible and easier to use for newcomers and, at the same time, speed up application development, in accordance with the agile programming paradigm.\nTo achieve this, Grok uses convention\n\n## Full Content\n\nGrok is an open-source web framework based on Zope Toolkit (ZTK) technology. The project was started in 2006 by a number of Zope developers. Its core technologies (Martian, grokcore.component) are also used in other Zope-based projects.\nThe primary motive behind Grok is to make the Zope Toolkit technology more accessible and easier to use for newcomers and, at the same time, speed up application development, in accordance with the agile programming paradigm.\nTo achieve this, Grok uses convention-over-configuration instead of using an explicit XML based configuration language (ZCML) as Zope Toolkit and BlueBream do. Grok uses Python code for component configuration, and has many implicit defaults and conventions. Grok is similar in feel to other Python Web frameworks such as TurboGears, Pylons and Django.\n\nReferences\nExternal links\nOfficial website\n",
+  "categories": [
+    "Category:All articles lacking reliable references",
+    "Category:All articles with topics of unclear notability",
+    "Category:All stub articles",
+    "Category:Articles lacking reliable references from April 2024",
+    "Category:Articles with multiple maintenance issues",
+    "Category:Articles with short description",
+    "Category:Articles with topics of unclear notability from April 2024",
+    "Category:Python (programming language) software",
+    "Category:Python (programming language) web frameworks",
+    "Category:Short description is different from Wikidata",
+    "Category:Web software stubs"
+  ],
+  "archived_date": "20241221_182954",
+  "source_url": "https://en.wikipedia.org/wiki/Grok_(web_framework)"
+}

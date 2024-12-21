@@ -1,0 +1,14 @@
+{
+  "title": "Kippo",
+  "summary": "Kippo is a medium-interaction SSH honeypot written in Python. Kippo is used to log brute-force attacks and the entire shell interaction performed by an attacker. It is inspired by Kojoney. The source code is released under the New BSD License.\nKippo is no longer under active development  and recommends using the fork'd project Cowrie.",
+  "content": "---\ntitle: Kippo\nurl: https://en.wikipedia.org/wiki/Kippo\nlanguage: en\ncategories: [\"Category:All stub articles\", \"Category:Articles with short description\", \"Category:Computer security stubs\", \"Category:Python (programming language) software\", \"Category:Short description matches Wikidata\"]\nreferences: 0\nlast_modified: 2024-12-19T14:30:42Z\n---\n\n# Kippo\n\n## Summary\n\nKippo is a medium-interaction SSH honeypot written in Python. Kippo is used to log brute-force attacks and the entire shell interaction performed by an attacker. It is inspired by Kojoney. The source code is released under the New BSD License.\nKippo is no longer under active development  and recommends using the fork'd project Cowrie.\n\n## Full Content\n\nKippo is a medium-interaction SSH honeypot written in Python. Kippo is used to log brute-force attacks and the entire shell interaction performed by an attacker. It is inspired by Kojoney. The source code is released under the New BSD License.\nKippo is no longer under active development  and recommends using the fork'd project Cowrie.\n\nPython dependencies\nPython Twisted\nTwisted Conch\nPython 2.5+ but less than 3.0\nPython-dev\nPysan1\nPython-OpenSSL\nPyCrypto\nMySql Python\n\nReferences\nExternal links\nKippo at GitHub\nKippo (Old homepage) at GoogleCode\nCowrie - Active Kippo Fork at GitHub\nKojoney - A honeypot for the SSH Service\n",
+  "categories": [
+    "Category:All stub articles",
+    "Category:Articles with short description",
+    "Category:Computer security stubs",
+    "Category:Python (programming language) software",
+    "Category:Short description matches Wikidata"
+  ],
+  "archived_date": "20241221_182955",
+  "source_url": "https://en.wikipedia.org/wiki/Kippo"
+}

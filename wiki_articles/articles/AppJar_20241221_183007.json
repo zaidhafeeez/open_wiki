@@ -1,0 +1,13 @@
+{
+  "title": "AppJar",
+  "summary": "appJar is a cross-platform Python library for developing GUIs (graphical user interfaces). It can run on Linux, OS X, and Windows. It was conceived, and continues to be developed with educational use as its focus, so is accompanied by comprehensive documentation, as well as easy-to-follow lessons.",
+  "content": "---\ntitle: AppJar\nurl: https://en.wikipedia.org/wiki/AppJar\nlanguage: en\ncategories: [\"Category:Articles with short description\", \"Category:Python (programming language) libraries\", \"Category:Short description matches Wikidata\", \"Category:Widget toolkits\"]\nreferences: 0\nlast_modified: 2024-12-19T14:49:07Z\n---\n\n# AppJar\n\n## Summary\n\nappJar is a cross-platform Python library for developing GUIs (graphical user interfaces). It can run on Linux, OS X, and Windows. It was conceived, and continues to be developed with educational use as its focus, so is accompanied by comprehensive documentation, as well as easy-to-follow lessons.\n\n## Full Content\n\nappJar is a cross-platform Python library for developing GUIs (graphical user interfaces). It can run on Linux, OS X, and Windows. It was conceived, and continues to be developed with educational use as its focus, so is accompanied by comprehensive documentation, as well as easy-to-follow lessons.\n\nLicense\nappJar is licensed under the Apache License v2.0.\n\nHistory\nappJar was originally envisaged as a simple wrapper around tkinter, to allow secondary school pupils to develop simple graphical user interfaces in Python. It was meant to hide away the complexity, so that pupils could focus on writing algorithms, without having to worry about how to position widgets and link to functions. It was started out in the winter of 2014, as a simple in-house project, but soon started to grow. It was published to GitHub on July 31, 2015, and first added to the PyPi repository on 20 December 2016. In June 2017, appJar was featured in an article in The MagPi, detailing how it could be used to interact with Minecraft.\n\nExample\nThis is a simple \"Hello world\" example:\n\nThe above example is getting even simpler in the 1.0 release (available in beta in the 0.9 release):\n\nReferences\nNotes\n\nExternal links\nOfficial website\nappJar on GitHub\nPyPi\nPyPi Docs\n",
+  "categories": [
+    "Category:Articles with short description",
+    "Category:Python (programming language) libraries",
+    "Category:Short description matches Wikidata",
+    "Category:Widget toolkits"
+  ],
+  "archived_date": "20241221_183007",
+  "source_url": "https://en.wikipedia.org/wiki/AppJar"
+}

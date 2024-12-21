@@ -1,0 +1,18 @@
+{
+  "title": "Redland RDF Application Framework",
+  "summary": "Redland is a set of free software libraries written in C that provide support for the Resource Description Framework (RDF), created by Dave Beckett (a former resident of Redland, Bristol).\nThe packages that form Redland are:\n\nRedland RDF Application Framework providing the C RDF API\nRaptor RDF Parser Toolkit for parsing and serializing RDF syntaxes (RDF/XML, N-Triples, Turtle, RSS tag soup, Atom)\nRasqal RDF Query Library for executing RDF queries with RDQL and SPARQL\nRedland Language Bindings fo",
+  "content": "---\ntitle: Redland RDF Application Framework\nurl: https://en.wikipedia.org/wiki/Redland_RDF_Application_Framework\nlanguage: en\ncategories: [\"Category:All articles lacking sources\", \"Category:All stub articles\", \"Category:Articles lacking sources from November 2014\", \"Category:C (programming language) libraries\", \"Category:Computer library stubs\", \"Category:Free software programmed in Python\", \"Category:Python (programming language) libraries\", \"Category:RDF data access\", \"Category:Resource Description Framework\"]\nreferences: 0\nlast_modified: 2024-12-19T10:10:57Z\n---\n\n# Redland RDF Application Framework\n\n## Summary\n\nRedland is a set of free software libraries written in C that provide support for the Resource Description Framework (RDF), created by Dave Beckett (a former resident of Redland, Bristol).\nThe packages that form Redland are:\n\nRedland RDF Application Framework providing the C RDF API\nRaptor RDF Parser Toolkit for parsing and serializing RDF syntaxes (RDF/XML, N-Triples, Turtle, RSS tag soup, Atom)\nRasqal RDF Query Library for executing RDF queries with RDQL and SPARQL\nRedland Language Bindings fo\n\n## Full Content\n\nRedland is a set of free software libraries written in C that provide support for the Resource Description Framework (RDF), created by Dave Beckett (a former resident of Redland, Bristol).\nThe packages that form Redland are:\n\nRedland RDF Application Framework providing the C RDF API\nRaptor RDF Parser Toolkit for parsing and serializing RDF syntaxes (RDF/XML, N-Triples, Turtle, RSS tag soup, Atom)\nRasqal RDF Query Library for executing RDF queries with RDQL and SPARQL\nRedland Language Bindings for APIs to Redland in C#, Java, Objective-C, Perl, PHP, Python, Ruby and Tcl\nRedland is a mature set of libraries, in development since 2000 and closely conformant to the relevant W3C specifications.\n\nSee also\nSemantic Web\n\nExternal links\nhttp://librdf.org/\nhttp://md.devc.at/internet/semantic-web/rdf/redland-rdf (TM-hub)\nhttp://kill.devc.at/internet/semantic-web/rdf/redland/tutorial\n",
+  "categories": [
+    "Category:All articles lacking sources",
+    "Category:All stub articles",
+    "Category:Articles lacking sources from November 2014",
+    "Category:C (programming language) libraries",
+    "Category:Computer library stubs",
+    "Category:Free software programmed in Python",
+    "Category:Python (programming language) libraries",
+    "Category:RDF data access",
+    "Category:Resource Description Framework"
+  ],
+  "archived_date": "20241221_183010",
+  "source_url": "https://en.wikipedia.org/wiki/Redland_RDF_Application_Framework"
+}

@@ -1,0 +1,13 @@
+{
+  "title": "SQLObject",
+  "summary": "SQLObject is a Python object-relational mapper between a SQL database and Python objects. It is experiencing community popularity, and forms a part of many applications (e.g., TurboGears). It is very similar to Ruby on Rails' ActiveRecord in operation in that it uses class definitions to form table schemas, and utilizes the language's reflection and dynamism to be useful.\nSQLObject supports a number of common database backends: included in the distribution are MariaDB, MySQL, PostgreSQL, SQLite,",
+  "content": "---\ntitle: SQLObject\nurl: https://en.wikipedia.org/wiki/SQLObject\nlanguage: en\ncategories: [\"Category:All stub articles\", \"Category:Database software stubs\", \"Category:Object\\u2013relational mapping\", \"Category:Python (programming language) libraries\"]\nreferences: 0\nlast_modified: 2024-12-20T13:08:17Z\n---\n\n# SQLObject\n\n## Summary\n\nSQLObject is a Python object-relational mapper between a SQL database and Python objects. It is experiencing community popularity, and forms a part of many applications (e.g., TurboGears). It is very similar to Ruby on Rails' ActiveRecord in operation in that it uses class definitions to form table schemas, and utilizes the language's reflection and dynamism to be useful.\nSQLObject supports a number of common database backends: included in the distribution are MariaDB, MySQL, PostgreSQL, SQLite,\n\n## Full Content\n\nSQLObject is a Python object-relational mapper between a SQL database and Python objects. It is experiencing community popularity, and forms a part of many applications (e.g., TurboGears). It is very similar to Ruby on Rails' ActiveRecord in operation in that it uses class definitions to form table schemas, and utilizes the language's reflection and dynamism to be useful.\nSQLObject supports a number of common database backends: included in the distribution are MariaDB, MySQL, PostgreSQL, SQLite, Sybase SQL Server, MaxDB, Microsoft SQL Server and Firebird.\nThe first version of SQLObject was publicly released in October 2002.\n\nSee also\nTurboGears\nSQLAlchemy\nStorm\n\nReferences\nExternal links\nOfficial website\n",
+  "categories": [
+    "Category:All stub articles",
+    "Category:Database software stubs",
+    "Category:Object–relational mapping",
+    "Category:Python (programming language) libraries"
+  ],
+  "archived_date": "20241221_183009",
+  "source_url": "https://en.wikipedia.org/wiki/SQLObject"
+}

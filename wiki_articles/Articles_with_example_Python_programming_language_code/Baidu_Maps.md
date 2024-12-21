@@ -4,7 +4,7 @@ url: https://en.wikipedia.org/wiki/Baidu_Maps
 language: en
 categories: ["Category:All articles needing additional references", "Category:All articles with unsourced statements", "Category:Articles needing additional references from November 2024", "Category:Articles needing translation from Chinese Wikipedia", "Category:Articles with example Python (programming language) code", "Category:Articles with short description", "Category:Articles with unsourced statements from October 2020", "Category:Baidu", "Category:CS1 Chinese-language sources (zh)", "Category:Internet censorship in India", "Category:Internet properties established in 2005", "Category:Short description is different from Wikidata", "Category:Street view services", "Category:Web mapping"]
 references: 0
-last_modified: 2024-12-19T14:42:36Z
+last_modified: 2024-12-21T09:22:29Z
 ---
 
 # Baidu Maps

@@ -1,0 +1,15 @@
+{
+  "title": "Pycassa",
+  "summary": "pycassa is a client library for Apache Cassandra.\nIt is a Python client library having following features:\n\nAuto-failover for normal or thread-local connections\nBatch interface\nConnection pooling\nMethod to map an existing class to a Cassandra column family\nLike Apache Cassandra, pycassa is open-source.",
+  "content": "---\ntitle: Pycassa\nurl: https://en.wikipedia.org/wiki/Pycassa\nlanguage: en\ncategories: [\"Category:All orphaned articles\", \"Category:All stub articles\", \"Category:Articles with example Python (programming language) code\", \"Category:Computer library stubs\", \"Category:Distributed computing\", \"Category:Orphaned articles from March 2024\"]\nreferences: 0\nlast_modified: 2024-12-21T15:15:17Z\n---\n\n# Pycassa\n\n## Summary\n\npycassa is a client library for Apache Cassandra.\nIt is a Python client library having following features:\n\nAuto-failover for normal or thread-local connections\nBatch interface\nConnection pooling\nMethod to map an existing class to a Cassandra column family\nLike Apache Cassandra, pycassa is open-source.\n\n## Full Content\n\npycassa is a client library for Apache Cassandra.\nIt is a Python client library having following features:\n\nAuto-failover for normal or thread-local connections\nBatch interface\nConnection pooling\nMethod to map an existing class to a Cassandra column family\nLike Apache Cassandra, pycassa is open-source.\n\nCode example\nThe following code adds the user name with the corresponding password to the column families (pycassa.ColumnFamily) USER and USERNAME:\n\nReferences\nExternal links\npycassa 1.0.6 Documentation\n",
+  "categories": [
+    "Category:All orphaned articles",
+    "Category:All stub articles",
+    "Category:Articles with example Python (programming language) code",
+    "Category:Computer library stubs",
+    "Category:Distributed computing",
+    "Category:Orphaned articles from March 2024"
+  ],
+  "archived_date": "20241221_183046",
+  "source_url": "https://en.wikipedia.org/wiki/Pycassa"
+}

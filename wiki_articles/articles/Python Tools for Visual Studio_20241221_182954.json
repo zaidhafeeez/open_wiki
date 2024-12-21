@@ -1,0 +1,18 @@
+{
+  "title": "Python Tools for Visual Studio",
+  "summary": "Python Tools for Visual Studio (PTVS) is a free and open-source plug-in for versions of Visual Studio up to VS 2015 providing support for programming in Python. Since VS 2017, it is integrated in VS and called Python Support in Visual Studio. It supports IntelliSense, debugging, profiling, MPI cluster debugging, mixed C++/Python debugging, and more. It is released under the Apache License 2.0, and is developed primarily by Microsoft.\nThe first version was on March 8, 2011. The latest version for",
+  "content": "---\ntitle: Python Tools for Visual Studio\nurl: https://en.wikipedia.org/wiki/Python_Tools_for_Visual_Studio\nlanguage: en\ncategories: [\"Category:2011 software\", \"Category:Articles with short description\", \"Category:Integrated development environments\", \"Category:Microsoft free software\", \"Category:Official website different in Wikidata and Wikipedia\", \"Category:Python (programming language) software\", \"Category:Short description matches Wikidata\", \"Category:Software using the Apache license\", \"Category:Windows-only free software\"]\nreferences: 0\nlast_modified: 2024-12-19T14:28:26Z\n---\n\n# Python Tools for Visual Studio\n\n## Summary\n\nPython Tools for Visual Studio (PTVS) is a free and open-source plug-in for versions of Visual Studio up to VS 2015 providing support for programming in Python. Since VS 2017, it is integrated in VS and called Python Support in Visual Studio. It supports IntelliSense, debugging, profiling, MPI cluster debugging, mixed C++/Python debugging, and more. It is released under the Apache License 2.0, and is developed primarily by Microsoft.\nThe first version was on March 8, 2011. The latest version for\n\n## Full Content\n\nPython Tools for Visual Studio (PTVS) is a free and open-source plug-in for versions of Visual Studio up to VS 2015 providing support for programming in Python. Since VS 2017, it is integrated in VS and called Python Support in Visual Studio. It supports IntelliSense, debugging, profiling, MPI cluster debugging, mixed C++/Python debugging, and more. It is released under the Apache License 2.0, and is developed primarily by Microsoft.\nThe first version was on March 8, 2011. The latest version for VS 2015 is 2.2.6.\n\nSee also\nComparison of integrated development environments § Python\nList of Python software\nR Tools for Visual Studio\n\nReferences\nExternal links\nOfficial website\n",
+  "categories": [
+    "Category:2011 software",
+    "Category:Articles with short description",
+    "Category:Integrated development environments",
+    "Category:Microsoft free software",
+    "Category:Official website different in Wikidata and Wikipedia",
+    "Category:Python (programming language) software",
+    "Category:Short description matches Wikidata",
+    "Category:Software using the Apache license",
+    "Category:Windows-only free software"
+  ],
+  "archived_date": "20241221_182954",
+  "source_url": "https://en.wikipedia.org/wiki/Python_Tools_for_Visual_Studio"
+}

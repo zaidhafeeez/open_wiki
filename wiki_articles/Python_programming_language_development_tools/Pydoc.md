@@ -4,7 +4,7 @@ url: https://en.wikipedia.org/wiki/Pydoc
 language: en
 categories: ["Category:Free documentation generators", "Category:Python (programming language) development tools"]
 references: 0
-last_modified: 2024-10-01T13:44:15Z
+last_modified: 2024-12-21T09:17:26Z
 ---
 
 # Pydoc

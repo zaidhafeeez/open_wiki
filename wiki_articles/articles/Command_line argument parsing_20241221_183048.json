@@ -1,0 +1,16 @@
+{
+  "title": "Command-line argument parsing",
+  "summary": "Different command-line argument parsing methods are used by different programming languages to parse command-line arguments.",
+  "content": "---\ntitle: Command-line argument parsing\nurl: https://en.wikipedia.org/wiki/Command-line_argument_parsing\nlanguage: en\ncategories: [\"Category:Articles with example Java code\", \"Category:Articles with example PHP code\", \"Category:Articles with example Python (programming language) code\", \"Category:Articles with example Racket code\", \"Category:Articles with short description\", \"Category:Command shells\", \"Category:Short description matches Wikidata\"]\nreferences: 0\nlast_modified: 2024-12-20T23:37:44Z\n---\n\n# Command-line argument parsing\n\n## Summary\n\nDifferent command-line argument parsing methods are used by different programming languages to parse command-line arguments.\n\n## Full Content\n\nDifferent command-line argument parsing methods are used by different programming languages to parse command-line arguments.\n\nProgramming languages\nC\nC uses argv to process command-line arguments.\nAn example of C argument parsing would be:\n\nC also has functions called getopt and getopt_long.\n\nC#\nAn example of C# argument parsing would be:\n\nJava\nAn example of Java argument parsing would be:\n\nKotlin\nHere are some possible ways to print arguments in Kotlin:\n\nPerl\nPerl uses @ARGV.\n\nFT\nor\n\nAWK\nAWK uses ARGV also.\n\nPHP\nPHP uses argc as a count of arguments and argv as an array containing the values of the arguments. To create an array from command-line arguments in the -foo:bar format, the following might be used:\n\nPHP can also use getopt().\n\nPython\nPython uses sys.argv, e.g.:\n\nPython also has a module called argparse in the standard library for parsing command-line arguments.\n\nRacket\nRacket uses a current-command-line-arguments parameter, and provides a racket/cmdline library for parsing these arguments.  Example:\n\nThe library parses long and short flags, handles arguments, allows combining short flags, and handles -h and --help automatically:\n\nRexx\nRexx uses arg, e.g.:\n\nRust\nThe args are in env::args().\n\nJavaScript\nNode.js\nJavaScript programs written for Node.js use the process.argv global variable.\n\nNode.js programs are invoked by running the interpreter node interpreter with a given file, so the first two arguments will be node and the name of the JavaScript source file. It is often useful to extract the rest of the arguments by slicing a sub-array from process.argv.\n\nBun\nJavaScript written for Bun use Bun.argv and the util.parseArgs function.\n\nDeno\nJavaScript written for Deno use Deno.args and the parseArgs function.\n\n\n== References ==\n",
+  "categories": [
+    "Category:Articles with example Java code",
+    "Category:Articles with example PHP code",
+    "Category:Articles with example Python (programming language) code",
+    "Category:Articles with example Racket code",
+    "Category:Articles with short description",
+    "Category:Command shells",
+    "Category:Short description matches Wikidata"
+  ],
+  "archived_date": "20241221_183048",
+  "source_url": "https://en.wikipedia.org/wiki/Command-line_argument_parsing"
+}

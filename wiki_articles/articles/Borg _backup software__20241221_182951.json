@@ -1,0 +1,21 @@
+{
+  "title": "Borg (backup software)",
+  "summary": "Borg (previously called Attic) is deduplicating backup software for various Unix-like operating systems. Borg is notably included in the Debian, Fedora, and Arch repositories.",
+  "content": "---\ntitle: Borg (backup software)\nurl: https://en.wikipedia.org/wiki/Borg_(backup_software)\nlanguage: en\ncategories: [\"Category:2010 software\", \"Category:All Wikipedia articles written in American English\", \"Category:All articles with dead external links\", \"Category:Articles with dead external links from November 2021\", \"Category:Articles with short description\", \"Category:Backup software for Linux\", \"Category:Free backup software\", \"Category:Python (programming language) software\", \"Category:Short description is different from Wikidata\", \"Category:Software using the BSD license\", \"Category:Use American English from January 2023\", \"Category:Webarchive template wayback links\"]\nreferences: 0\nlast_modified: 2024-12-19T14:42:51Z\n---\n\n# Borg (backup software)\n\n## Summary\n\nBorg (previously called Attic) is deduplicating backup software for various Unix-like operating systems. Borg is notably included in the Debian, Fedora, and Arch repositories.\n\n## Full Content\n\nBorg (previously called Attic) is deduplicating backup software for various Unix-like operating systems. Borg is notably included in the Debian, Fedora, and Arch repositories.\n\nHistory\nAttic development began in 2010 and was accepted to Debian in August 2013. Attic was available from pip and notably part of Debian, Ubuntu, Arch and Slackware.\nIn 2015, Attic was forked as \"Borg\" to support a \"more open, faster paced development\", according to its developers. Many issues in Attic have been fixed in this fork, but backward compatibility with the original program has been lost (a non-reversible upgrade process exists). Borg 1.0.0 was finally released on 5 March 2016.\nAs of April 2021, the attic website was removed.\nThe next major Borg version, 2.0, in beta since 2022, will break backward compatibility again, requiring a non-reversible upgrade process.\nAs of 2024, Borg is actively developed by many contributors, while Attic is no longer available. Stable releases can be found in various Linux distributions such as Arch Linux, Debian, Fedora, OpenSUSE, Ubuntu, as well as in the ports collection of various BSD derivatives and through Homebrew for macOS. The project also offers pre-built binaries for Linux, FreeBSD, and macOS.\n\nDesign\nBorg offers efficient, deduplicated, compressed and (optionally) encrypted and authenticated backups.\nA backup includes metadata like owner/group, permissions, POSIX ACLs and Extended file attributes.\nIt handles special files also - like hardlinks, symlinks, devices files, etc. Internally it represents the files in an archive as a stream of metadata, similar to tar and unlike tools such as git. The Borg project has created extensive documentation of the internal workings.\nIt uses a rolling hash to implement global data deduplication.\nCompression defaults to lz4, encryption is AES (via OpenSSL) authenticated by a HMAC.\n\nFrontends\nSince Borg is essentially a command line program, several GUI frontends for Borg exist. A few desktop app, Pika and Vorta for example and many web interfaces. See the community pages for an updated list.\n\nSee also\nList of backup software\nComparison of backup software\n\nReferences\nExternal links\nOfficial Website of BorgBackup\nWebsite of Attic Backup Archived 2021-04-15 at the Wayback Machine\nResources from the Borg Community\n",
+  "categories": [
+    "Category:2010 software",
+    "Category:All Wikipedia articles written in American English",
+    "Category:All articles with dead external links",
+    "Category:Articles with dead external links from November 2021",
+    "Category:Articles with short description",
+    "Category:Backup software for Linux",
+    "Category:Free backup software",
+    "Category:Python (programming language) software",
+    "Category:Short description is different from Wikidata",
+    "Category:Software using the BSD license",
+    "Category:Use American English from January 2023",
+    "Category:Webarchive template wayback links"
+  ],
+  "archived_date": "20241221_182951",
+  "source_url": "https://en.wikipedia.org/wiki/Borg_(backup_software)"
+}

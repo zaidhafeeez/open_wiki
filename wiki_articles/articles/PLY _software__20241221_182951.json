@@ -1,0 +1,16 @@
+{
+  "title": "PLY (software)",
+  "summary": "PLY is a parsing tool written purely in Python. It is, in essence, a re-implementation of Lex and Yacc originally in C-language. It was written by David M. Beazley. PLY uses the same LALR parsing technique as Lex and Yacc. It also has extensive debugging and error reporting facilities.",
+  "content": "---\ntitle: PLY (software)\nurl: https://en.wikipedia.org/wiki/PLY_(software)\nlanguage: en\ncategories: [\"Category:All articles needing additional references\", \"Category:Articles needing additional references from April 2014\", \"Category:Articles with short description\", \"Category:Lexical analysis\", \"Category:Parser generators\", \"Category:Python (programming language) software\", \"Category:Short description is different from Wikidata\"]\nreferences: 0\nlast_modified: 2024-12-19T14:39:05Z\n---\n\n# PLY (software)\n\n## Summary\n\nPLY is a parsing tool written purely in Python. It is, in essence, a re-implementation of Lex and Yacc originally in C-language. It was written by David M. Beazley. PLY uses the same LALR parsing technique as Lex and Yacc. It also has extensive debugging and error reporting facilities.\n\n## Full Content\n\nPLY is a parsing tool written purely in Python. It is, in essence, a re-implementation of Lex and Yacc originally in C-language. It was written by David M. Beazley. PLY uses the same LALR parsing technique as Lex and Yacc. It also has extensive debugging and error reporting facilities.\n\nFeatures\nImplemented in Python, it has almost all the features provided by Lex and Yacc. It includes support for empty productions, precedence rules, error recovery, and ambiguous grammars. It supports Python 3.\n\nStructure the PLY module\nPLY has the following two Python modules which are part of the ply package.\n\nply.lex - A re-implementation of Lex for lexical analysis\nply.yacc - A re-implementation of Yacc for parser creation\n\n\n== References ==\n",
+  "categories": [
+    "Category:All articles needing additional references",
+    "Category:Articles needing additional references from April 2014",
+    "Category:Articles with short description",
+    "Category:Lexical analysis",
+    "Category:Parser generators",
+    "Category:Python (programming language) software",
+    "Category:Short description is different from Wikidata"
+  ],
+  "archived_date": "20241221_182951",
+  "source_url": "https://en.wikipedia.org/wiki/PLY_(software)"
+}

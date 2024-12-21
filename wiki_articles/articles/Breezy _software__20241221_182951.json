@@ -1,0 +1,13 @@
+{
+  "title": "Breezy (software)",
+  "summary": "Breezy (brz) is a distributed and client–server revision control system. It is a friendly fork of the dormant GNU Bazaar (formerly Bazaar-NG, bzr) system.\nBreezy brings features like Python 3 and Git support to the Bazaar-based codebase. Many plugins are also merged in as an integral part of the fork.",
+  "content": "---\ntitle: Breezy (software)\nurl: https://en.wikipedia.org/wiki/Breezy_(software)\nlanguage: en\ncategories: [\"Category:Distributed version control systems\", \"Category:Free software programmed in Python\", \"Category:Free version control software\", \"Category:Python (programming language) software\"]\nreferences: 0\nlast_modified: 2024-12-15T15:12:49Z\n---\n\n# Breezy (software)\n\n## Summary\n\nBreezy (brz) is a distributed and client–server revision control system. It is a friendly fork of the dormant GNU Bazaar (formerly Bazaar-NG, bzr) system.\nBreezy brings features like Python 3 and Git support to the Bazaar-based codebase. Many plugins are also merged in as an integral part of the fork.\n\n## Full Content\n\nBreezy (brz) is a distributed and client–server revision control system. It is a friendly fork of the dormant GNU Bazaar (formerly Bazaar-NG, bzr) system.\nBreezy brings features like Python 3 and Git support to the Bazaar-based codebase. Many plugins are also merged in as an integral part of the fork.\n\nReferences\nExternal links\nOfficial website\n",
+  "categories": [
+    "Category:Distributed version control systems",
+    "Category:Free software programmed in Python",
+    "Category:Free version control software",
+    "Category:Python (programming language) software"
+  ],
+  "archived_date": "20241221_182951",
+  "source_url": "https://en.wikipedia.org/wiki/Breezy_(software)"
+}
