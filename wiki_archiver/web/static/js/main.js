@@ -35,3 +35,111 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+// Performance optimizations and utility functions
+
+// Implement a simple resource prefetching mechanism
+const ResourcePrefetcher = {
+    prefetchedUrls: new Set(),
+    
+    prefetch: function(url) {
+        if (this.prefetchedUrls.has(url)) return;
+        
+        const link = document.createElement('link');
+        link.rel = 'prefetch';
+        link.href = url;
+        link.as = 'document';
+        document.head.appendChild(link);
+        
+        this.prefetchedUrls.add(url);
+    },
+    
+    preconnect: function(url) {
+        const link = document.createElement('link');
+        link.rel = 'preconnect';
+        link.href = url;
+        document.head.appendChild(link);
+    }
+};
+
+// Performance tracking
+const PerformanceTracker = {
+    init: function() {
+        if (!window.performance) return;
+        
+        window.addEventListener('load', () => {
+            const timing = window.performance.timing;
+            const loadTime = timing.loadEventEnd - timing.navigationStart;
+            
+            console.log(`Page load time: ${loadTime}ms`);
+            
+            // Optional: Send performance data to analytics
+            this.sendPerformanceData(loadTime);
+        });
+    },
+    
+    sendPerformanceData: function(loadTime) {
+        // Placeholder for sending performance metrics
+        // Could be integrated with Google Analytics, custom analytics, etc.
+        try {
+            if (window.ga) {
+                window.ga('send', 'timing', {
+                    'timingCategory': 'Page Load',
+                    'timingVar': 'load',
+                    'timingValue': loadTime
+                });
+            }
+        } catch (error) {
+            console.error('Error sending performance data', error);
+        }
+    }
+};
+
+// Initialize performance tracking
+PerformanceTracker.init();
+
+// Preconnect to critical domains
+ResourcePrefetcher.preconnect('https://cdn.jsdelivr.net');
+
+// Add event listeners for hover prefetching
+document.addEventListener('DOMContentLoaded', () => {
+    const prefetchLinks = document.querySelectorAll('[data-prefetch]');
+    
+    prefetchLinks.forEach(link => {
+        link.addEventListener('mouseenter', (event) => {
+            const url = event.currentTarget.getAttribute('data-prefetch');
+            ResourcePrefetcher.prefetch(url);
+        });
+    });
+});
+
+// Optional: Implement a simple lazy loading mechanism
+const LazyLoader = {
+    init: function() {
+        const lazyImages = document.querySelectorAll('.lazy-load');
+        
+        if ('IntersectionObserver' in window) {
+            const imageObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const image = entry.target;
+                        image.src = image.dataset.src;
+                        image.classList.remove('lazy-load');
+                        observer.unobserve(image);
+                    }
+                });
+            });
+            
+            lazyImages.forEach(image => imageObserver.observe(image));
+        } else {
+            // Fallback for browsers without IntersectionObserver
+            lazyImages.forEach(image => {
+                image.src = image.dataset.src;
+                image.classList.remove('lazy-load');
+            });
+        }
+    }
+};
+
+// Initialize lazy loading
+LazyLoader.init();

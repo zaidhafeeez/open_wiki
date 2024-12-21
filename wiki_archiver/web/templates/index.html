@@ -1,5 +1,12 @@
 {% extends "base.html" %}
 
+{% block preload %}
+<link rel="prefetch" href="{{ url_for('list_articles') }}" as="document">
+{% for category in categories[:10] %}
+<link rel="prefetch" href="{{ url_for('list_articles', category=category) }}" as="document">
+{% endfor %}
+{% endblock %}
+
 {% block title %}Home - Wikipedia Article Archiver{% endblock %}
 
 {% block content %}
@@ -34,7 +41,8 @@
                 {% for category in categories %}
                 <div class="col-md-4 col-sm-6">
                     <a href="{{ url_for('list_articles', category=category) }}" 
-                       class="text-decoration-none">
+                       class="text-decoration-none"
+                       data-prefetch="{{ url_for('list_articles', category=category) }}">
                         <div class="card category-card mb-3 shadow-sm">
                             <div class="card-body text-center">
                                 <h5 class="card-title text-dark">{{ category|title }}</h5>
@@ -47,6 +55,24 @@
         </div>
     </div>
 </div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Prefetch category links on hover
+    const categoryLinks = document.querySelectorAll('[data-prefetch]');
+    categoryLinks.forEach(link => {
+        link.addEventListener('mouseenter', function() {
+            const prefetchUrl = this.getAttribute('data-prefetch');
+            const prefetchLink = document.createElement('link');
+            prefetchLink.rel = 'prefetch';
+            prefetchLink.href = prefetchUrl;
+            document.head.appendChild(prefetchLink);
+        });
+    });
+});
+</script>
 {% endblock %}
 
 {% block styles %}

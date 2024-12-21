@@ -1,5 +1,11 @@
 {% extends "base.html" %}
 
+{% block preload %}
+{% for article in articles %}
+<link rel="prefetch" href="{{ url_for('view_article', title=article.title) }}" as="document">
+{% endfor %}
+{% endblock %}
+
 {% block title %}Articles - Wikipedia Article Archiver{% endblock %}
 
 {% block content %}
@@ -43,7 +49,8 @@
                     </p>
                     <div class="d-flex justify-content-between align-items-center">
                         <a href="{{ url_for('view_article', title=article.title) }}" 
-                           class="btn btn-sm btn-outline-secondary">Read More</a>
+                           class="btn btn-sm btn-outline-secondary"
+                           data-prefetch="{{ url_for('view_article', title=article.title) }}">Read More</a>
                         <small class="text-muted">
                             {% if article.categories %}
                                 {{ article.categories[0] }}
@@ -86,6 +93,18 @@ document.addEventListener('DOMContentLoaded', function() {
     const articlesContainer = document.getElementById('articles-container');
     const paginationLinks = document.querySelectorAll('.pagination .page-link');
 
+    // Prefetch articles on hover
+    const articleLinks = document.querySelectorAll('[data-prefetch]');
+    articleLinks.forEach(link => {
+        link.addEventListener('mouseenter', function() {
+            const prefetchUrl = this.getAttribute('data-prefetch');
+            const prefetchLink = document.createElement('link');
+            prefetchLink.rel = 'prefetch';
+            prefetchLink.href = prefetchUrl;
+            document.head.appendChild(prefetchLink);
+        });
+    });
+
     function updateArticles(url) {
         fetch(url, {
             headers: {
@@ -105,7 +124,8 @@ document.addEventListener('DOMContentLoaded', function() {
                             </p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <a href="/article/${encodeURIComponent(article.title)}" 
-                                   class="btn btn-sm btn-outline-secondary">Read More</a>
+                                   class="btn btn-sm btn-outline-secondary"
+                                   data-prefetch="/article/${encodeURIComponent(article.title)}">Read More</a>
                                 <small class="text-muted">
                                     ${article.categories && article.categories.length ? article.categories[0] : ''}
                                 </small>
@@ -117,6 +137,14 @@ document.addEventListener('DOMContentLoaded', function() {
                     </div>
                 </div>
             `).join('');
+
+            // Add prefetch for new articles
+            data.articles.forEach(article => {
+                const prefetchLink = document.createElement('link');
+                prefetchLink.rel = 'prefetch';
+                prefetchLink.href = `/article/${encodeURIComponent(article.title)}`;
+                document.head.appendChild(prefetchLink);
+            });
 
             // Update URL without page reload
             const urlParams = new URLSearchParams(window.location.search);
