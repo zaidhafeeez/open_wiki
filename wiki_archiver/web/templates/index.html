@@ -3,32 +3,61 @@
 {% block title %}Home - Wikipedia Article Archiver{% endblock %}
 
 {% block content %}
-<div class="row">
-    <div class="col-md-8 offset-md-2">
-        <h1 class="text-center mb-4">Wikipedia Article Archiver</h1>
-        
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Archived Articles Overview</h5>
-                <p class="card-text">
-                    Total Archived Articles: <strong>{{ total_articles }}</strong>
-                </p>
-            </div>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-8 offset-md-2 text-center">
+            <h1 class="display-4 mb-4">Wikipedia Article Archiver</h1>
+            <p class="lead mb-5">
+                Explore and search through {{ total_articles }} archived Wikipedia articles
+            </p>
         </div>
+    </div>
 
-        <div class="card mt-3">
-            <div class="card-body">
-                <h5 class="card-title">Browse by Category</h5>
-                <div class="list-group">
-                    {% for category in categories %}
-                    <a href="{{ url_for('list_articles', category=category) }}" 
-                       class="list-group-item list-group-item-action">
-                        {{ category|title }}
-                    </a>
-                    {% endfor %}
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <form action="{{ url_for('list_articles') }}" method="get" class="mb-4">
+                <div class="input-group">
+                    <input type="text" class="form-control" 
+                           placeholder="Search articles..." 
+                           name="search" 
+                           aria-label="Search articles">
+                    <button class="btn btn-primary" type="submit">Search</button>
                 </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <h2 class="mb-4">Browse by Category</h2>
+            <div class="row g-3">
+                {% for category in categories %}
+                <div class="col-md-4 col-sm-6">
+                    <a href="{{ url_for('list_articles', category=category) }}" 
+                       class="text-decoration-none">
+                        <div class="card category-card mb-3 shadow-sm">
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-dark">{{ category|title }}</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                {% endfor %}
             </div>
         </div>
     </div>
 </div>
+{% endblock %}
+
+{% block styles %}
+<style>
+.category-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+</style>
 {% endblock %}

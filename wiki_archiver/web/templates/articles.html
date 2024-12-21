@@ -3,43 +3,153 @@
 {% block title %}Articles - Wikipedia Article Archiver{% endblock %}
 
 {% block content %}
-<div class="row">
-    <div class="col-md-10 offset-md-1">
-        <h1 class="mb-4">
-            {% if selected_category %}
-                Articles in {{ selected_category|title }} Category
-            {% else %}
-                All Archived Articles
-            {% endif %}
-        </h1>
+<div class="container mt-4">
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <h1>Wikipedia Articles</h1>
+        </div>
+        <div class="col-md-6">
+            <form id="search-form" class="d-flex">
+                <input class="form-control me-2" type="search" 
+                       placeholder="Search articles..." 
+                       aria-label="Search"
+                       id="search-input"
+                       value="{{ search_query }}">
+                <button class="btn btn-outline-primary" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
 
-        {% if articles %}
-            <div class="list-group">
-                {% for article in articles %}
-                <a href="{{ url_for('view_article', title=article.title) }}" 
-                   class="list-group-item list-group-item-action">
-                    <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">{{ article.title }}</h5>
-                        <small>
+    {% if selected_category %}
+    <div class="alert alert-info">
+        Showing articles in category: <strong>{{ selected_category }}</strong>
+    </div>
+    {% endif %}
+
+    {% if search_query %}
+    <div class="alert alert-info">
+        Search results for: <strong>{{ search_query }}</strong>
+    </div>
+    {% endif %}
+
+    <div class="row" id="articles-container">
+        {% for article in articles %}
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">{{ article.title }}</h5>
+                    <p class="card-text text-muted">
+                        {{ article.summary[:200] }}{% if article.summary|length > 200 %}...{% endif %}
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <a href="{{ url_for('view_article', title=article.title) }}" 
+                           class="btn btn-sm btn-outline-secondary">Read More</a>
+                        <small class="text-muted">
                             {% if article.categories %}
-                                Categories: {{ ', '.join(article.categories) }}
+                                {{ article.categories[0] }}
                             {% endif %}
                         </small>
                     </div>
-                    <p class="mb-1">
-                        {{ article.summary[:200] + '...' if article.summary else 'No summary available' }}
-                    </p>
-                </a>
-                {% endfor %}
+                </div>
+                <div class="card-footer text-muted small">
+                    <span>Archived: {{ article.archived_date }}</span>
+                </div>
             </div>
-        {% else %}
-            <div class="alert alert-info" role="alert">
-                No articles found 
-                {% if selected_category %}
-                    in the "{{ selected_category }}" category.
-                {% endif %}
-            </div>
-        {% endif %}
+        </div>
+        {% endfor %}
     </div>
+
+    {% if pagination.total_pages > 1 %}
+    <nav aria-label="Article pagination" class="mt-4">
+        <ul class="pagination justify-content-center">
+            <li class="page-item {% if not pagination.has_prev %}disabled{% endif %}">
+                <a class="page-link" href="#" data-page="{{ pagination.current_page - 1 }}">Previous</a>
+            </li>
+            {% for page in range(1, pagination.total_pages + 1) %}
+            <li class="page-item {% if page == pagination.current_page %}active{% endif %}">
+                <a class="page-link" href="#" data-page="{{ page }}">{{ page }}</a>
+            </li>
+            {% endfor %}
+            <li class="page-item {% if not pagination.has_next %}disabled{% endif %}">
+                <a class="page-link" href="#" data-page="{{ pagination.current_page + 1 }}">Next</a>
+            </li>
+        </ul>
+    </nav>
+    {% endif %}
 </div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const searchForm = document.getElementById('search-form');
+    const articlesContainer = document.getElementById('articles-container');
+    const paginationLinks = document.querySelectorAll('.pagination .page-link');
+
+    function updateArticles(url) {
+        fetch(url, {
+            headers: {
+                'X-Requested-With': 'XMLHttpRequest'
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            // Update articles
+            articlesContainer.innerHTML = data.articles.map(article => `
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">${article.title}</h5>
+                            <p class="card-text text-muted">
+                                ${article.summary.slice(0, 200)}${article.summary.length > 200 ? '...' : ''}
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="/article/${encodeURIComponent(article.title)}" 
+                                   class="btn btn-sm btn-outline-secondary">Read More</a>
+                                <small class="text-muted">
+                                    ${article.categories && article.categories.length ? article.categories[0] : ''}
+                                </small>
+                            </div>
+                        </div>
+                        <div class="card-footer text-muted small">
+                            <span>Archived: ${article.archived_date}</span>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+
+            // Update URL without page reload
+            const urlParams = new URLSearchParams(window.location.search);
+            urlParams.set('page', data.pagination.current_page);
+            const newUrl = `${window.location.pathname}?${urlParams.toString()}`;
+            window.history.pushState({path: newUrl}, '', newUrl);
+        });
+    }
+
+    // Search form submission
+    searchForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        const searchQuery = document.getElementById('search-input').value;
+        const category = new URLSearchParams(window.location.search).get('category') || '';
+        
+        const url = `/articles?search=${encodeURIComponent(searchQuery)}&category=${encodeURIComponent(category)}&page=1`;
+        updateArticles(url);
+    });
+
+    // Pagination links
+    paginationLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            if (this.closest('.page-item').classList.contains('disabled')) return;
+
+            const page = this.getAttribute('data-page');
+            const urlParams = new URLSearchParams(window.location.search);
+            urlParams.set('page', page);
+            const url = `/articles?${urlParams.toString()}`;
+            
+            updateArticles(url);
+        });
+    });
+});
+</script>
 {% endblock %}

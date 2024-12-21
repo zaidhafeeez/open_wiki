@@ -3,8 +3,10 @@ Flask web application for browsing archived Wikipedia articles.
 """
 
 import os
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, abort
 from flask_cors import CORS
+from math import ceil
+from datetime import datetime
 
 from . import get_archived_articles
 
@@ -19,6 +21,18 @@ def create_app():
                 template_folder='templates', 
                 static_folder='static')
     CORS(app)  # Enable CORS for all routes
+    
+    ARTICLES_PER_PAGE = 20  # Number of articles per page
+    
+    @app.context_processor
+    def inject_current_time():
+        """
+        Inject current time into all templates.
+        
+        Returns:
+            Dict with current time
+        """
+        return {'current_time': datetime.now()}
     
     @app.route('/')
     def index():
@@ -45,25 +59,51 @@ def create_app():
     @app.route('/articles')
     def list_articles():
         """
-        List articles, with optional category filtering.
+        List articles with pagination, category, and search filtering.
         
         Returns:
             JSON response with articles or rendered HTML
         """
+        # Get query parameters
         category = request.args.get('category', '').strip()
-        articles = get_archived_articles(category)
+        search_query = request.args.get('search', '').strip()
+        page = max(1, int(request.args.get('page', 1)))
+        
+        # Retrieve and filter articles
+        articles = get_archived_articles(category, search_query)
         
         # Sort articles by title
         articles.sort(key=lambda x: x.get('title', ''))
         
+        # Pagination
+        total_articles = len(articles)
+        total_pages = ceil(total_articles / ARTICLES_PER_PAGE)
+        start_idx = (page - 1) * ARTICLES_PER_PAGE
+        end_idx = start_idx + ARTICLES_PER_PAGE
+        paginated_articles = articles[start_idx:end_idx]
+        
+        # Prepare pagination context
+        pagination_context = {
+            'current_page': page,
+            'total_pages': total_pages,
+            'total_articles': total_articles,
+            'has_prev': page > 1,
+            'has_next': page < total_pages
+        }
+        
         # Check request type (JSON for AJAX, HTML for page load)
         if request.headers.get('X-Requested-With') == 'XMLHttpRequest':
-            return jsonify(articles)
+            return jsonify({
+                'articles': paginated_articles,
+                'pagination': pagination_context
+            })
         
         return render_template(
             'articles.html', 
-            articles=articles, 
-            selected_category=category
+            articles=paginated_articles, 
+            selected_category=category,
+            search_query=search_query,
+            pagination=pagination_context
         )
     
     @app.route('/article/<path:title>')
@@ -85,7 +125,7 @@ def create_app():
         )
         
         if not article:
-            return render_template('404.html'), 404
+            abort(404)
         
         return render_template(
             'article_detail.html', 

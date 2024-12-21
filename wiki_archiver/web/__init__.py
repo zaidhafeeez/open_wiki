@@ -6,12 +6,13 @@ import os
 import json
 from typing import List, Dict
 
-def get_archived_articles(category: str = None) -> List[Dict]:
+def get_archived_articles(category: str = None, search_query: str = None) -> List[Dict]:
     """
-    Retrieve archived articles, optionally filtered by category.
+    Retrieve archived articles, optionally filtered by category or search query.
     
     Args:
         category (str, optional): Filter articles by category
+        search_query (str, optional): Search articles by title or content
     
     Returns:
         List of archived article metadata
@@ -36,6 +37,16 @@ def get_archived_articles(category: str = None) -> List[Dict]:
                         category = category.lower()
                         article_categories = [c.lower() for c in article_data.get('categories', [])]
                         if not any(category in c for c in article_categories):
+                            continue
+                    
+                    # Search query filter
+                    if search_query:
+                        search_query = search_query.lower()
+                        title_match = search_query in article_data.get('title', '').lower()
+                        content_match = search_query in article_data.get('content', '').lower()
+                        summary_match = search_query in article_data.get('summary', '').lower()
+                        
+                        if not (title_match or content_match or summary_match):
                             continue
                     
                     articles.append(article_data)
