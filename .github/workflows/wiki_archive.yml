@@ -145,7 +145,7 @@ jobs:
           git gc --aggressive --prune=now
 
       - name: Upload Archive Report
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: archive-report
           path: archive_report.json
