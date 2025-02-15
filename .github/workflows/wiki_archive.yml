@@ -74,30 +74,30 @@ jobs:
         run: |
           python script.py -c "${{ env.CATEGORIES }}" -d "${{ env.MAX_DEPTH }}"
 
-      # - name: Generate Archive Report
-      #   run: |
-      #     python -c "
-      #     import os
-      #     import json
-      #     from datetime import datetime
+      - name: Generate Archive Report
+        run: |
+          python -c "
+          import os
+          import json
+          from datetime import datetime
 
-      #     def count_articles(base_dir):
-      #         total_articles = 0
-      #         for root, dirs, files in os.walk(base_dir):
-      #             total_articles += len([f for f in files if f.endswith('.md')])
-      #         return total_articles
+          def count_articles(base_dir):
+              total_articles = 0
+              for root, dirs, files in os.walk(base_dir):
+                  total_articles += len([f for f in files if f.endswith('.md')])
+              return total_articles
 
-      #     report = {
-      #         'timestamp': datetime.utcnow().isoformat(),
-      #         'categories': '${{ env.CATEGORIES }}',
-      #         'max_depth': ${{ env.MAX_DEPTH }},
-      #         'total_articles': count_articles('wiki_articles'),
-      #         'run_url': '${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}'
-      #     }
+          report = {
+              'timestamp': datetime.utcnow().isoformat(),
+              'categories': '${{ env.CATEGORIES }}',
+              'max_depth': ${{ env.MAX_DEPTH }},
+              'total_articles': count_articles('wiki_articles'),
+              'run_url': '${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}'
+          }
 
-      #       with open('archive_report.json', 'w') as f:
-      #         json.dump(report, f, indent=2)
-      #     "
+            with open('archive_report.json', 'w') as f:
+              json.dump(report, f, indent=2)
+          "
 
       - name: Run Tests
         run: |
