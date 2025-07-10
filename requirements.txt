@@ -2,6 +2,6 @@ wikipedia-api==0.7.1
 PyGitHub==2.5.0
 tqdm==4.66.3
 python-dotenv==1.0.0
-requests==2.32.2
+requests==2.32.4
 flask==2.3.2
 flask-cors==6.0.0
